@@ -706,3 +706,70 @@
 [2023-07-30 01:16:30] INFO root fetch - processPackages [g722-1-mod]: Remove: archive file [/home/abi/fetcher/tmp/g722_1_mod-0.0.7-pp37-pypy37_pp73-win_amd64.whl.zip]
 [2023-07-30 01:16:30] INFO root fetch - main [MainThread]: End processing [g722-1-mod]: success
 [2023-07-30 01:16:30] INFO root fetch - main [MainThread]: Store serial: [19092380]
+[2023-07-30 01:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092380]
+[2023-07-30 01:21:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evque
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANSIController
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extract-msg
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testflows.github.runners
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fromchaos
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adrianna
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ANSIController
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idendrogram-streamlit-component
+[2023-07-30 01:21:38] INFO root fetch - processPackages [ANSIController]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 01:21:38] INFO root fetch - processPackages [adrianna]: New version: [0.0.7] Old Version: [0.0.5.1]
+[2023-07-30 01:21:38] WARNING root fetch - processPackages [fromchaos]: Skipping, unable to determine old version
+[2023-07-30 01:21:38] INFO root fetch - main [MainThread]: End processing [fromchaos] error
+[2023-07-30 01:21:38] INFO root fetch - processPackages [evque]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-30 01:21:39] INFO root fetch - processPackages [idendrogram-streamlit-component]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 01:21:39] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.3.230729.1231711] Old Version: [1.3.230729.1222222]
+[2023-07-30 01:21:39] INFO root fetch - processPackages [extract-msg]: New version: [0.42.0] Old Version: [0.41.5]
+[2023-07-30 01:21:39] INFO root fetch - processPackages [adrianna]: Downloading https://files.pythonhosted.org/packages/4c/a9/4609a59d3eab95caf15d27e842b3e8feaae3091c09bf2e0ed1204553e092/adrianna-0.0.5.1-py3-none-any.whl
+[2023-07-30 01:21:39] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/3e/b9/58f511ed13c2cc80d7406d63268ccba0482ffe7385f2dd3edd6cd399d13b/testflows.github.runners-1.3.230729.1222222.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/0b/93/7e85f0b3bd32658c9b24d3324ce2eaefc1cf4efd1d1d299f80e2e3f527e9/ANSIController-0.0.3.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/0b/93/7e85f0b3bd32658c9b24d3324ce2eaefc1cf4efd1d1d299f80e2e3f527e9/ANSIController-0.0.3.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [evque]: Downloading https://files.pythonhosted.org/packages/f8/08/1c7fdb3329f23ab60d83a09092f824a4e61e3d6a0b982d639b965b0e0ec7/evque-1.2.0.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/ef/fa/67443d9b9f505c32cba96e34745223378b84cd4795c387310788cc8b6d7d/extract_msg-0.41.5.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [idendrogram-streamlit-component]: Downloading https://files.pythonhosted.org/packages/60/6f/a2df4a21785f9f17c7ec23dcdc3325b394f4debdb53c4e748ec2dab09d28/idendrogram_streamlit_component-0.2.2.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [adrianna]: Downloading https://files.pythonhosted.org/packages/17/a2/6903a4264e783cf66bc5e88bcd0b4555961720d21b9a445d9502e0e9415c/adrianna-0.0.7-py3-none-any.whl
+[2023-07-30 01:21:39] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/eb/d7/c267d7b30ab53e12297d652e74c552dc71c13839ef738d5ac85921ef9ada/testflows.github.runners-1.3.230729.1231711.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [adrianna]: executing diffoscope
+[2023-07-30 01:21:39] INFO root fetch - processPackages [adrianna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adrianna-0.0.5.1-py3-none-any.whl.zip tmp/adrianna-0.0.7-py3-none-any.whl.zip --markdown 20230730/a/adrianna/0.0.5.1-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/b8/e6/0217daa2eacbe4f04a99f9ff94df71bc4fb9ca00d529fa447b997bb2e02c/ANSIController-0.0.4.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/b8/e6/0217daa2eacbe4f04a99f9ff94df71bc4fb9ca00d529fa447b997bb2e02c/ANSIController-0.0.4.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [evque]: Downloading https://files.pythonhosted.org/packages/46/89/2b07b9d3bcb5e140d757d3ac976200d13289815f339723f462bab524336c/evque-1.3.0.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/55/3d/5625a11a5ae55e27dfa799a5313266396a578b616b6c0595e76ac7e164aa/extract_msg-0.42.0.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [idendrogram-streamlit-component]: Downloading https://files.pythonhosted.org/packages/1f/59/34d00647b3eac6bb2e570e097f60bcd0055f2c6ebc96d2c4c117d5f5acd8/idendrogram_streamlit_component-0.2.3.tar.gz
+[2023-07-30 01:21:39] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-30 01:21:39] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.3.230729.1222222.tar.gz tmp/testflows.github.runners-1.3.230729.1231711.tar.gz --markdown 20230730/t/testflows.github.runners/1.3.230729.1222222-1.3.230729.1231711/diff.md --exclude *.pyd
+[2023-07-30 01:21:39] INFO root fetch - processPackages [extract-msg]: executing diffoscope
+[2023-07-30 01:21:39] INFO root fetch - processPackages [extract-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_msg-0.41.5.tar.gz tmp/extract_msg-0.42.0.tar.gz --markdown 20230730/e/extract-msg/0.41.5-0.42.0/diff.md --exclude *.pyd
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-0.0.3.tar.gz tmp/ANSIController-0.0.4.tar.gz --markdown 20230730/A/ANSIController/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 01:21:39] INFO root fetch - processPackages [evque]: executing diffoscope
+[2023-07-30 01:21:39] INFO root fetch - processPackages [evque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evque-1.2.0.tar.gz tmp/evque-1.3.0.tar.gz --markdown 20230730/e/evque/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 01:21:39] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-0.0.3.tar.gz tmp/ANSIController-0.0.4.tar.gz --markdown 20230730/A/ANSIController/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 01:21:40] INFO root fetch - processPackages [idendrogram-streamlit-component]: executing diffoscope
+[2023-07-30 01:21:40] INFO root fetch - processPackages [idendrogram-streamlit-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idendrogram_streamlit_component-0.2.2.tar.gz tmp/idendrogram_streamlit_component-0.2.3.tar.gz --markdown 20230730/i/idendrogram-streamlit-component/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-30 01:21:40] INFO root fetch - processPackages [adrianna]: Remove: archive file [/home/abi/fetcher/tmp/adrianna-0.0.5.1-py3-none-any.whl.zip]
+[2023-07-30 01:21:40] INFO root fetch - processPackages [adrianna]: Remove: archive file [/home/abi/fetcher/tmp/adrianna-0.0.7-py3-none-any.whl.zip]
+[2023-07-30 01:21:40] INFO root fetch - main [MainThread]: End processing [adrianna]: success
+[2023-07-30 01:21:41] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-0.0.3.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-0.0.4.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 01:21:41] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 01:21:41] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.3.230729.1222222.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.3.230729.1231711.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-30 01:21:41] INFO root fetch - processPackages [evque]: Remove: archive file [/home/abi/fetcher/tmp/evque-1.2.0.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - processPackages [evque]: Remove: archive file [/home/abi/fetcher/tmp/evque-1.3.0.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - main [MainThread]: End processing [evque]: success
+[2023-07-30 01:21:41] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.41.5.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - processPackages [extract-msg]: Remove: archive file [/home/abi/fetcher/tmp/extract_msg-0.42.0.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
+[2023-07-30 01:21:41] INFO root fetch - processPackages [idendrogram-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/idendrogram_streamlit_component-0.2.2.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - processPackages [idendrogram-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/idendrogram_streamlit_component-0.2.3.tar.gz]
+[2023-07-30 01:21:41] INFO root fetch - main [MainThread]: End processing [idendrogram-streamlit-component]: success
+[2023-07-30 01:21:41] INFO root fetch - main [MainThread]: Store serial: [19092422]
