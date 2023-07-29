@@ -328,3 +328,36 @@
 [2023-07-30 00:35:05] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.1.tar.gz]
 [2023-07-30 00:35:05] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
 [2023-07-30 00:35:05] INFO root fetch - main [MainThread]: Store serial: [19092143]
+[2023-07-30 00:40:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092143]
+[2023-07-30 00:40:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 00:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yokkaichi
+[2023-07-30 00:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: news-signals
+[2023-07-30 00:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AaioAsync
+[2023-07-30 00:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymage-processor
+[2023-07-30 00:40:13] INFO root fetch - processPackages [AaioAsync]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-30 00:40:13] INFO root fetch - processPackages [yokkaichi]: New version: [1.6.1] Old Version: [1.6]
+[2023-07-30 00:40:13] ERROR root fetch - processPackages [pymage-processor]: Unable to get metadata: No such project 'pymage-processor'
+[2023-07-30 00:40:13] INFO root fetch - main [MainThread]: End processing [pymage-processor] error
+[2023-07-30 00:40:13] INFO root fetch - processPackages [news-signals]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-30 00:40:14] INFO root fetch - processPackages [AaioAsync]: Downloading https://files.pythonhosted.org/packages/57/d3/18570fd4fef2fc55d9a38c36a359561116f964d8ad08a7ce1438b7ee86e4/AaioAsync-0.1.2.tar.gz
+[2023-07-30 00:40:14] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/0e/7b/cbcec88cd606986e37a05cb0e3f3771f47c2488a46f6b63575868791a858/yokkaichi-1.6.tar.gz
+[2023-07-30 00:40:14] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/4a/5b/116a4e534b9279292be026e42607519eca867bf0705beb207f5dfc5d097d/news-signals-0.2.7.tar.gz
+[2023-07-30 00:40:14] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/d5/22/703587a632253c8f8b194dc953382e958557f910c581d93643b3f5faa7ed/yokkaichi-1.6.1.tar.gz
+[2023-07-30 00:40:14] INFO root fetch - processPackages [AaioAsync]: Downloading https://files.pythonhosted.org/packages/f6/c0/c9f444d39dd829ca6e76d71f9f81aa4456ad5c127639a68b4c2dc97723cd/AaioAsync-0.1.3.tar.gz
+[2023-07-30 00:40:14] INFO root fetch - processPackages [yokkaichi]: executing diffoscope
+[2023-07-30 00:40:14] INFO root fetch - processPackages [yokkaichi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yokkaichi-1.6.tar.gz tmp/yokkaichi-1.6.1.tar.gz --markdown 20230730/y/yokkaichi/1.6-1.6.1/diff.md --exclude *.pyd
+[2023-07-30 00:40:14] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/f1/c0/510b87260e1e9125236940315482d419f787631cabfe9797614ec3ffeb65/news-signals-0.2.8.tar.gz
+[2023-07-30 00:40:14] INFO root fetch - processPackages [AaioAsync]: executing diffoscope
+[2023-07-30 00:40:14] INFO root fetch - processPackages [AaioAsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AaioAsync-0.1.2.tar.gz tmp/AaioAsync-0.1.3.tar.gz --markdown 20230730/A/AaioAsync/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-30 00:40:14] INFO root fetch - processPackages [news-signals]: executing diffoscope
+[2023-07-30 00:40:14] INFO root fetch - processPackages [news-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-signals-0.2.7.tar.gz tmp/news-signals-0.2.8.tar.gz --markdown 20230730/n/news-signals/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-30 00:40:15] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.6.tar.gz]
+[2023-07-30 00:40:15] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.6.1.tar.gz]
+[2023-07-30 00:40:15] INFO root fetch - main [MainThread]: End processing [yokkaichi]: success
+[2023-07-30 00:40:15] INFO root fetch - processPackages [AaioAsync]: Remove: archive file [/home/abi/fetcher/tmp/AaioAsync-0.1.2.tar.gz]
+[2023-07-30 00:40:15] INFO root fetch - processPackages [AaioAsync]: Remove: archive file [/home/abi/fetcher/tmp/AaioAsync-0.1.3.tar.gz]
+[2023-07-30 00:40:15] INFO root fetch - main [MainThread]: End processing [AaioAsync]: success
+[2023-07-30 00:40:15] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news-signals-0.2.7.tar.gz]
+[2023-07-30 00:40:15] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news-signals-0.2.8.tar.gz]
+[2023-07-30 00:40:15] INFO root fetch - main [MainThread]: End processing [news-signals]: success
+[2023-07-30 00:40:15] INFO root fetch - main [MainThread]: Store serial: [19092155]
