@@ -971,3 +971,30 @@
 [2023-07-30 01:52:44] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.3.230729.1235004.tar.gz]
 [2023-07-30 01:52:44] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
 [2023-07-30 01:52:44] INFO root fetch - main [MainThread]: Store serial: [19092513]
+[2023-07-30 01:57:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092513]
+[2023-07-30 01:57:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 01:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epure
+[2023-07-30 01:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pygwalker
+[2023-07-30 01:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptmeteo
+[2023-07-30 01:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartloop
+[2023-07-30 01:57:52] INFO root fetch - processPackages [smartloop]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-30 01:57:52] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 01:57:52] WARNING root fetch - processPackages [promptmeteo]: Skipping, unable to determine old version
+[2023-07-30 01:57:52] INFO root fetch - main [MainThread]: End processing [promptmeteo] error
+[2023-07-30 01:57:52] WARNING root fetch - processPackages [django-pygwalker]: Skipping, unable to determine old version
+[2023-07-30 01:57:52] INFO root fetch - main [MainThread]: End processing [django-pygwalker] error
+[2023-07-30 01:57:52] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-30 01:57:52] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/41/6d/0794ff362ddcc7a942ff70279c7c64bf55db29916ba366c9101298781330/smartloop-1.0.7.tar.gz
+[2023-07-30 01:57:52] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-30 01:57:52] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/72/dc/ed7a5e67c2b14b23ec432de1f7ba5f4d3d287f00f858034210f0046c98d2/smartloop-1.0.8.tar.gz
+[2023-07-30 01:57:52] INFO root fetch - processPackages [smartloop]: executing diffoscope
+[2023-07-30 01:57:52] INFO root fetch - processPackages [smartloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartloop-1.0.7.tar.gz tmp/smartloop-1.0.8.tar.gz --markdown 20230730/s/smartloop/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-30 01:57:52] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-30 01:57:52] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230730/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 01:57:53] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.7.tar.gz]
+[2023-07-30 01:57:53] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.8.tar.gz]
+[2023-07-30 01:57:53] INFO root fetch - main [MainThread]: End processing [smartloop]: success
+[2023-07-30 01:57:53] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-30 01:57:53] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-30 01:57:53] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-30 01:57:53] INFO root fetch - main [MainThread]: Store serial: [19092529]
