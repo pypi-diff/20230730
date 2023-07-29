@@ -361,3 +361,63 @@
 [2023-07-30 00:40:15] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news-signals-0.2.8.tar.gz]
 [2023-07-30 00:40:15] INFO root fetch - main [MainThread]: End processing [news-signals]: success
 [2023-07-30 00:40:15] INFO root fetch - main [MainThread]: Store serial: [19092155]
+[2023-07-30 00:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092155]
+[2023-07-30 00:45:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epure
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsws
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alias-gen
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dl-matrix
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-cqrs
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartloop
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calfcv
+[2023-07-30 00:45:24] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 00:45:24] INFO root fetch - processPackages [dl-matrix]: New version: [0.2] Old Version: [0.1]
+[2023-07-30 00:45:24] INFO root fetch - processPackages [smartloop]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 00:45:24] WARNING root fetch - processPackages [alias-gen]: Skipping, unable to determine old version
+[2023-07-30 00:45:24] INFO root fetch - main [MainThread]: End processing [alias-gen] error
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ez-cqrs]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-30 00:45:24] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 00:45:24] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/87/5b/3b440e995deb1d5319c7959171a797acbf599d4791e059628c258c7c87d1/smartloop-1.0.5.tar.gz
+[2023-07-30 00:45:24] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 00:45:24] INFO root fetch - processPackages [calfcv]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 00:45:24] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/12/57/0b1cd96992141860feda4c717edb08e819fe0dd09a8ac1701d37cb73a837/ez_cqrs-2.0.0.tar.gz
+[2023-07-30 00:45:24] INFO root fetch - processPackages [dl-matrix]: Downloading https://files.pythonhosted.org/packages/4f/80/b386b9182ec2bcdedd22fa4f7411d67869ac9641549984ce73b454e9ba32/dl_matrix-0.1.tar.gz
+[2023-07-30 00:45:24] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-30 00:45:24] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/8b/c1/49541e327942643b1c9df220cd7a9aa62da489f31060346b196026a53954/calfcv-0.0.4.tar.gz
+[2023-07-30 00:45:24] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/f4/bf/6750a8f26958fa23b5eef9793d27812248f2a282ae381078a1072a1bdc2f/smartloop-1.0.6.tar.gz
+[2023-07-30 00:45:24] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 00:45:25] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/f0/f0/0447988a008cdc40c98625ba65bb3b3406d0573c680b0c48d2b7147524e1/ez_cqrs-2.1.0.tar.gz
+[2023-07-30 00:45:25] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 00:45:25] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 00:45:25] INFO root fetch - processPackages [smartloop]: executing diffoscope
+[2023-07-30 00:45:25] INFO root fetch - processPackages [smartloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartloop-1.0.5.tar.gz tmp/smartloop-1.0.6.tar.gz --markdown 20230730/s/smartloop/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 00:45:25] INFO root fetch - processPackages [dl-matrix]: Downloading https://files.pythonhosted.org/packages/ae/5c/1f0dc7c30fec5d4705de7c554d3040193a2c26c9361d557520c54c14719e/dl_matrix-0.2.tar.gz
+[2023-07-30 00:45:25] INFO root fetch - processPackages [ez-cqrs]: executing diffoscope
+[2023-07-30 00:45:25] INFO root fetch - processPackages [ez-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_cqrs-2.0.0.tar.gz tmp/ez_cqrs-2.1.0.tar.gz --markdown 20230730/e/ez-cqrs/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-30 00:45:25] INFO root fetch - processPackages [dl-matrix]: executing diffoscope
+[2023-07-30 00:45:25] INFO root fetch - processPackages [dl-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_matrix-0.1.tar.gz tmp/dl_matrix-0.2.tar.gz --markdown 20230730/d/dl-matrix/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-30 00:45:25] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/21/ec/e34c632fc5e77377f5809e7db4d7265c0155e9ac258b60c448ca9641f577/calfcv-0.0.5.tar.gz
+[2023-07-30 00:45:25] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-30 00:45:25] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-07-30 00:45:25] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.4.tar.gz tmp/calfcv-0.0.5.tar.gz --markdown 20230730/c/calfcv/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 00:45:25] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-30 00:45:25] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230730/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 00:45:26] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 00:45:26] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.5.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.6.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - main [MainThread]: End processing [smartloop]: success
+[2023-07-30 00:45:26] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-2.0.0.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-2.1.0.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - main [MainThread]: End processing [ez-cqrs]: success
+[2023-07-30 00:45:26] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.4.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.5.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-07-30 00:45:26] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-30 00:45:26] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.1.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.2.tar.gz]
+[2023-07-30 00:45:26] INFO root fetch - main [MainThread]: End processing [dl-matrix]: success
+[2023-07-30 00:45:26] INFO root fetch - main [MainThread]: Store serial: [19092175]
