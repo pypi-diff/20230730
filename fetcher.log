@@ -903,3 +903,21 @@
 [2023-07-30 01:37:14] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
 [2023-07-30 01:37:14] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-07-30 01:37:14] INFO root fetch - main [MainThread]: Store serial: [19092480]
+[2023-07-30 01:42:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092480]
+[2023-07-30 01:42:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biJNfile
+[2023-07-30 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyDecision
+[2023-07-30 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dispersenn2
+[2023-07-30 01:42:23] WARNING root fetch - processPackages [pyDecision]: Skipping, unable to determine old version
+[2023-07-30 01:42:23] INFO root fetch - main [MainThread]: End processing [pyDecision] error
+[2023-07-30 01:42:23] WARNING root fetch - processPackages [biJNfile]: Skipping, unable to determine old version
+[2023-07-30 01:42:23] INFO root fetch - main [MainThread]: End processing [biJNfile] error
+[2023-07-30 01:42:23] INFO root fetch - processPackages [dispersenn2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 01:42:23] INFO root fetch - processPackages [dispersenn2]: Downloading https://files.pythonhosted.org/packages/e9/37/51c231a0fbcbc3792e161eaec59b235ecdacea8b986ed1de43e98721d7c5/dispersenn2-0.0.3.tar.gz
+[2023-07-30 01:42:23] INFO root fetch - processPackages [dispersenn2]: Downloading https://files.pythonhosted.org/packages/58/0b/fb034b58d9a148e381cfa11a1f6d1d2c3889345b21274293e58d2063e1cb/dispersenn2-0.0.4.tar.gz
+[2023-07-30 01:42:23] INFO root fetch - processPackages [dispersenn2]: executing diffoscope
+[2023-07-30 01:42:23] INFO root fetch - processPackages [dispersenn2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispersenn2-0.0.3.tar.gz tmp/dispersenn2-0.0.4.tar.gz --markdown 20230730/d/dispersenn2/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 01:42:24] INFO root fetch - processPackages [dispersenn2]: Remove: archive file [/home/abi/fetcher/tmp/dispersenn2-0.0.3.tar.gz]
+[2023-07-30 01:42:24] INFO root fetch - processPackages [dispersenn2]: Remove: archive file [/home/abi/fetcher/tmp/dispersenn2-0.0.4.tar.gz]
+[2023-07-30 01:42:24] INFO root fetch - main [MainThread]: End processing [dispersenn2]: success
+[2023-07-30 01:42:24] INFO root fetch - main [MainThread]: Store serial: [19092494]
