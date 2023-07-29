@@ -120,3 +120,27 @@
 [2023-07-30 00:09:14] INFO root fetch - processPackages [flake8-staged-diff]: Remove: archive file [/home/abi/fetcher/tmp/flake8-staged-diff-0.3.0.tar.gz]
 [2023-07-30 00:09:14] INFO root fetch - main [MainThread]: End processing [flake8-staged-diff]: success
 [2023-07-30 00:09:14] INFO root fetch - main [MainThread]: Store serial: [19092075]
+[2023-07-30 00:14:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092075]
+[2023-07-30 00:14:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 00:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vanna
+[2023-07-30 00:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pomatillo
+[2023-07-30 00:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eo-styleguide
+[2023-07-30 00:14:22] INFO root fetch - processPackages [eo-styleguide]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-07-30 00:14:22] INFO root fetch - processPackages [vanna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 00:14:22] WARNING root fetch - processPackages [pomatillo]: Skipping, unable to determine old version
+[2023-07-30 00:14:22] INFO root fetch - main [MainThread]: End processing [pomatillo] error
+[2023-07-30 00:14:22] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/40/06/3d979477b3e9077320254ca43112aa0d6979787639fda33233876831624a/eo_styleguide-0.0.1a3.tar.gz
+[2023-07-30 00:14:22] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/5b/ca/cc777f9bc29b1e4fe210049e3102d56ef58add9c556bae60c14eab33dd11/vanna-0.0.8.tar.gz
+[2023-07-30 00:14:22] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/43/7e/c618871687f78834773728cfbb57e6a426869fe631bf9b9e1c57e6efd743/eo_styleguide-0.0.1a4.tar.gz
+[2023-07-30 00:14:22] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/96/fd/c03f80a50f42777698aab1db4d2a450d872752730425c9b21148e9ce116b/vanna-0.0.9.tar.gz
+[2023-07-30 00:14:22] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2023-07-30 00:14:22] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.0.8.tar.gz tmp/vanna-0.0.9.tar.gz --markdown 20230730/v/vanna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 00:14:22] INFO root fetch - processPackages [eo-styleguide]: executing diffoscope
+[2023-07-30 00:14:22] INFO root fetch - processPackages [eo-styleguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_styleguide-0.0.1a3.tar.gz tmp/eo_styleguide-0.0.1a4.tar.gz --markdown 20230730/e/eo-styleguide/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-07-30 00:14:23] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a3.tar.gz]
+[2023-07-30 00:14:23] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a4.tar.gz]
+[2023-07-30 00:14:23] INFO root fetch - main [MainThread]: End processing [eo-styleguide]: success
+[2023-07-30 00:14:23] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.8.tar.gz]
+[2023-07-30 00:14:23] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.0.9.tar.gz]
+[2023-07-30 00:14:23] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2023-07-30 00:14:23] INFO root fetch - main [MainThread]: Store serial: [19092087]
