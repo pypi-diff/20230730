@@ -289,3 +289,42 @@
 [2023-07-30 00:29:54] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.9.tar.gz]
 [2023-07-30 00:29:54] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
 [2023-07-30 00:29:54] INFO root fetch - main [MainThread]: Store serial: [19092130]
+[2023-07-30 00:34:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092130]
+[2023-07-30 00:35:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 00:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awyes
+[2023-07-30 00:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamaapi
+[2023-07-30 00:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psychoanalyze
+[2023-07-30 00:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ez-cqrs
+[2023-07-30 00:35:03] INFO root fetch - processPackages [llamaapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 00:35:03] INFO root fetch - processPackages [awyes]: New version: [10.1.5] Old Version: [10.1.4]
+[2023-07-30 00:35:03] INFO root fetch - processPackages [psychoanalyze]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-30 00:35:03] INFO root fetch - processPackages [ez-cqrs]: New version: [2.0.0] Old Version: [1.4.3]
+[2023-07-30 00:35:03] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/ac/0c/5b55c9bcaaff3a8b3ab8fd039ffcbf432e1446d4dea4971b8f889a1f16eb/llamaapi-0.1.8.tar.gz
+[2023-07-30 00:35:03] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/7d/89/d7a85d2a44e3205c13947238adaecfb1bcf8fed6d4f50382d4040e482f30/awyes-10.1.4.tar.gz
+[2023-07-30 00:35:03] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/65/c8/cd008972bdc9a388522bcf3dd7570e557673cc6005d7d001c7dd7fd79e69/ez_cqrs-1.4.3.tar.gz
+[2023-07-30 00:35:03] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/b3/b2/7e59636deea2ce39f5ef0e1f1970e24acf315ed2b14758c357740546245e/psychoanalyze-0.8.0.tar.gz
+[2023-07-30 00:35:03] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/dd/a2/b5523b33759374ea05102a2a051d203dbb9fc7747304884c8c262c90a2b2/llamaapi-0.1.9.tar.gz
+[2023-07-30 00:35:04] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/ce/7a/39bbee4e729752ef536dc2ec65e5f83e26d5d23c749da683ade14280e484/awyes-10.1.5.tar.gz
+[2023-07-30 00:35:04] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-30 00:35:04] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.8.tar.gz tmp/llamaapi-0.1.9.tar.gz --markdown 20230730/l/llamaapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 00:35:04] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/12/57/0b1cd96992141860feda4c717edb08e819fe0dd09a8ac1701d37cb73a837/ez_cqrs-2.0.0.tar.gz
+[2023-07-30 00:35:04] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/0b/e4/da32242e27eeef3c6b46e51ec3b413d2f3a399b4edd2b8b4541dd8d6700e/psychoanalyze-0.8.1.tar.gz
+[2023-07-30 00:35:04] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-30 00:35:04] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.1.4.tar.gz tmp/awyes-10.1.5.tar.gz --markdown 20230730/a/awyes/10.1.4-10.1.5/diff.md --exclude *.pyd
+[2023-07-30 00:35:04] INFO root fetch - processPackages [ez-cqrs]: executing diffoscope
+[2023-07-30 00:35:04] INFO root fetch - processPackages [ez-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_cqrs-1.4.3.tar.gz tmp/ez_cqrs-2.0.0.tar.gz --markdown 20230730/e/ez-cqrs/1.4.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-30 00:35:04] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-30 00:35:04] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.8.0.tar.gz tmp/psychoanalyze-0.8.1.tar.gz --markdown 20230730/p/psychoanalyze/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-30 00:35:04] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.8.tar.gz]
+[2023-07-30 00:35:04] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.9.tar.gz]
+[2023-07-30 00:35:04] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-30 00:35:05] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.1.4.tar.gz]
+[2023-07-30 00:35:05] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.1.5.tar.gz]
+[2023-07-30 00:35:05] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-30 00:35:05] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-1.4.3.tar.gz]
+[2023-07-30 00:35:05] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-2.0.0.tar.gz]
+[2023-07-30 00:35:05] INFO root fetch - main [MainThread]: End processing [ez-cqrs]: success
+[2023-07-30 00:35:05] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.0.tar.gz]
+[2023-07-30 00:35:05] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.1.tar.gz]
+[2023-07-30 00:35:05] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-30 00:35:05] INFO root fetch - main [MainThread]: Store serial: [19092143]
