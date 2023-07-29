@@ -478,3 +478,30 @@
 [2023-07-30 00:50:37] INFO root fetch - processPackages [ignition-api]: Remove: archive file [/home/abi/fetcher/tmp/ignition-api-8.1.9.tar.gz]
 [2023-07-30 00:50:37] INFO root fetch - main [MainThread]: End processing [ignition-api]: success
 [2023-07-30 00:50:37] INFO root fetch - main [MainThread]: Store serial: [19092193]
+[2023-07-30 00:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092193]
+[2023-07-30 00:55:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 00:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spylizard
+[2023-07-30 00:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linfa-vi
+[2023-07-30 00:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanohelp
+[2023-07-30 00:55:46] INFO root fetch - processPackages [spylizard]: New version: [0.4] Old Version: [0.32]
+[2023-07-30 00:55:46] INFO root fetch - processPackages [nanohelp]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 00:55:46] INFO root fetch - processPackages [linfa-vi]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-30 00:55:46] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/b9/01/2d5d23d8596dc459559bb995909db0c05e51ed2c6b17f94297d3afc0495b/nanohelp-0.1.8.tar.gz
+[2023-07-30 00:55:46] INFO root fetch - processPackages [spylizard]: Downloading https://files.pythonhosted.org/packages/81/1a/47faa7d1fb49c83ad1cd73f61287e5159ee1c6203acc1413839a26abbcab/spylizard-0.32.tar.gz
+[2023-07-30 00:55:47] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/b5/da/7c952ecb0f49c7efb266f74d08ca3da3fc52e2c90e274d7fe0ec104af01d/linfa_vi-1.1.6.tar.gz
+[2023-07-30 00:55:47] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/e7/e2/b43fd1403acb790e422dc573bb1586514e1309d856feed67290c3ad9ed72/nanohelp-0.1.9.tar.gz
+[2023-07-30 00:55:47] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-30 00:55:47] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.1.8.tar.gz tmp/nanohelp-0.1.9.tar.gz --markdown 20230730/n/nanohelp/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 00:55:47] INFO root fetch - processPackages [spylizard]: Downloading https://files.pythonhosted.org/packages/a6/25/8c6ca1f4f09a13d8d6093b6814ad7df9cac7f2143d9a2080a3f9255f0136/spylizard-0.4.tar.gz
+[2023-07-30 00:55:47] WARNING root fetch - processPackages [spylizard]: Skipping package: exceeds size limit 50761540>=10485760
+[2023-07-30 00:55:47] INFO root fetch - main [MainThread]: End processing [spylizard] error
+[2023-07-30 00:55:47] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/3f/6e/8aa0fde615fe33a34ab9624554fbc16329d74337f364066f6a82d7b45aa2/linfa_vi-1.1.7.tar.gz
+[2023-07-30 00:55:47] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-30 00:55:47] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.1.6.tar.gz tmp/linfa_vi-1.1.7.tar.gz --markdown 20230730/l/linfa-vi/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-30 00:55:48] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.1.8.tar.gz]
+[2023-07-30 00:55:48] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.1.9.tar.gz]
+[2023-07-30 00:55:48] INFO root fetch - main [MainThread]: End processing [nanohelp]: success
+[2023-07-30 00:55:48] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.6.tar.gz]
+[2023-07-30 00:55:48] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.7.tar.gz]
+[2023-07-30 00:55:48] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-30 00:55:48] INFO root fetch - main [MainThread]: Store serial: [19092202]
