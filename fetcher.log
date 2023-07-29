@@ -505,3 +505,24 @@
 [2023-07-30 00:55:48] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.7.tar.gz]
 [2023-07-30 00:55:48] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
 [2023-07-30 00:55:48] INFO root fetch - main [MainThread]: Store serial: [19092202]
+[2023-07-30 01:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092202]
+[2023-07-30 01:00:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-30 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsws
+[2023-07-30 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calfcv
+[2023-07-30 01:00:56] INFO root fetch - processPackages [calfcv]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 01:00:56] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 01:00:56] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 01:00:56] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/a3/55/092929d498e35f38da6df77ddf92c90faff9e600f56b6d326f8d3c8d94a2/calfcv-0.0.6.tar.gz
+[2023-07-30 01:00:56] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 01:00:56] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/94/97/0cb72e0656e05c75e509c8c5240aca83afec6c70b776689d4bd1b66731ee/calfcv-0.0.7.tar.gz
+[2023-07-30 01:00:56] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 01:00:56] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 01:00:57] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-07-30 01:00:57] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.6.tar.gz tmp/calfcv-0.0.7.tar.gz --markdown 20230730/c/calfcv/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 01:00:57] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 01:00:57] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 01:00:57] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 01:00:57] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.6.tar.gz]
+[2023-07-30 01:00:57] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.7.tar.gz]
+[2023-07-30 01:00:57] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-07-30 01:00:57] INFO root fetch - main [MainThread]: Store serial: [19092208]
