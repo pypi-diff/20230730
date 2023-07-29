@@ -574,3 +574,48 @@
 [2023-07-30 01:06:08] INFO root fetch - processPackages [Seance]: Remove: archive file [/home/abi/fetcher/tmp/Seance-0.0.5-py3-none-any.whl.zip]
 [2023-07-30 01:06:08] INFO root fetch - main [MainThread]: End processing [Seance]: success
 [2023-07-30 01:06:08] INFO root fetch - main [MainThread]: Store serial: [19092233]
+[2023-07-30 01:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092233]
+[2023-07-30 01:11:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez-cqrs
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alias-gen
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idendrogram-streamlit-component
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ANSIController
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: interactivenlp
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyDecision
+[2023-07-30 01:11:16] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 01:11:16] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 01:11:16] INFO root fetch - processPackages [alias-gen]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-30 01:11:16] WARNING root fetch - processPackages [idendrogram-streamlit-component]: Skipping, unable to determine old version
+[2023-07-30 01:11:16] INFO root fetch - main [MainThread]: End processing [idendrogram-streamlit-component] error
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ez-cqrs]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-30 01:11:16] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/85/95/182485c0311fd82466e62b3b0f838454439b87dd3d22861132d329e28993/ez_cqrs-2.2.0.tar.gz
+[2023-07-30 01:11:16] INFO root fetch - processPackages [interactivenlp]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 01:11:16] INFO root fetch - processPackages [pyDecision]: New version: [4.1.2] Old Version: [4.0.9]
+[2023-07-30 01:11:16] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/f5/3d/83b1eabd5f227b168f38d00b2a32f8a25e131bf98d50d43dfb74624a6b2b/alias_gen-0.6.0.tar.gz
+[2023-07-30 01:11:16] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/f0/33/5db284e5333631de65f3b892a06997bcabfb31137781b0828660ea864e0e/interactivenlp-0.2.8.tar.gz
+[2023-07-30 01:11:16] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/a7/c2/a6349bd7d33e9b50f371aa2ad56c9ec96aaacee3b3cb6075b9d5cd332c93/pyDecision-4.0.9.tar.gz
+[2023-07-30 01:11:17] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/06/57/37c7d42df8d86fb2fe5ea4794a4b68af30dc7e8f12e84c300985170356ca/ez_cqrs-2.3.0.tar.gz
+[2023-07-30 01:11:17] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/57/1a/5845e2e065e44e7fa1db53bf6ef03f860a4f41dc374a8202427deee9990b/alias_gen-0.6.1.tar.gz
+[2023-07-30 01:11:17] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/7e/c4/03ded3fa1434952c965efcaceabdf9cf84380e4e9fb82d213401924c0129/interactivenlp-0.2.9.tar.gz
+[2023-07-30 01:11:17] INFO root fetch - processPackages [ez-cqrs]: executing diffoscope
+[2023-07-30 01:11:17] INFO root fetch - processPackages [ez-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_cqrs-2.2.0.tar.gz tmp/ez_cqrs-2.3.0.tar.gz --markdown 20230730/e/ez-cqrs/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-30 01:11:17] INFO root fetch - processPackages [alias-gen]: executing diffoscope
+[2023-07-30 01:11:17] INFO root fetch - processPackages [alias-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alias_gen-0.6.0.tar.gz tmp/alias_gen-0.6.1.tar.gz --markdown 20230730/a/alias-gen/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-30 01:11:17] INFO root fetch - processPackages [interactivenlp]: executing diffoscope
+[2023-07-30 01:11:17] INFO root fetch - processPackages [interactivenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactivenlp-0.2.8.tar.gz tmp/interactivenlp-0.2.9.tar.gz --markdown 20230730/i/interactivenlp/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 01:11:17] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/ce/20/fdd5b0046f23efe9dff145df987963bbeb4dc15216a2e7bac705ff7b32f6/pyDecision-4.1.2.tar.gz
+[2023-07-30 01:11:17] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-30 01:11:17] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-4.0.9.tar.gz tmp/pyDecision-4.1.2.tar.gz --markdown 20230730/p/pyDecision/4.0.9-4.1.2/diff.md --exclude *.pyd
+[2023-07-30 01:11:18] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.8.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.9.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - main [MainThread]: End processing [interactivenlp]: success
+[2023-07-30 01:11:18] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-2.2.0.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-2.3.0.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - main [MainThread]: End processing [ez-cqrs]: success
+[2023-07-30 01:11:18] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.0.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.1.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - main [MainThread]: End processing [alias-gen]: success
+[2023-07-30 01:11:18] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.0.9.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.1.2.tar.gz]
+[2023-07-30 01:11:18] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-30 01:11:18] INFO root fetch - main [MainThread]: Store serial: [19092253]
