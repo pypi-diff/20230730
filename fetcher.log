@@ -165,3 +165,72 @@
 [2023-07-30 00:19:33] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.4.tar.gz]
 [2023-07-30 00:19:33] INFO root fetch - main [MainThread]: End processing [calfcv]: success
 [2023-07-30 00:19:33] INFO root fetch - main [MainThread]: Store serial: [19092092]
+[2023-07-30 00:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092092]
+[2023-07-30 00:24:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymage-processor
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typeguard
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyllm
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DiadFit
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shz-geo
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aind-data-schema
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testflows.github.runners
+[2023-07-30 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nec-beamer
+[2023-07-30 00:24:41] INFO root fetch - processPackages [typeguard]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-07-30 00:24:41] INFO root fetch - processPackages [DiadFit]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-07-30 00:24:41] INFO root fetch - processPackages [easyllm]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-30 00:24:41] INFO root fetch - processPackages [nec-beamer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 00:24:41] INFO root fetch - processPackages [shz-geo]: New version: [0.1.1] Old Version: [0.0.4]
+[2023-07-30 00:24:41] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.3.230729.1222222] Old Version: [1.2.230728.1203052]
+[2023-07-30 00:24:41] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-30 00:24:41] WARNING root fetch - processPackages [pymage-processor]: Skipping, unable to determine old version
+[2023-07-30 00:24:41] INFO root fetch - main [MainThread]: End processing [pymage-processor] error
+[2023-07-30 00:24:41] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/4c/53/7c71cdef55034d8ed17102b28f1e51f0a2c11cf06dd2c62d02c87e718951/DiadFit-0.0.69.tar.gz
+[2023-07-30 00:24:41] INFO root fetch - processPackages [easyllm]: Downloading https://files.pythonhosted.org/packages/65/a1/02eb264ae50a7efc23b895f6654ac844abb23e02efd2d9f1ecdc8780a56f/easyllm-0.0.1.tar.gz
+[2023-07-30 00:24:41] INFO root fetch - processPackages [shz-geo]: Downloading https://files.pythonhosted.org/packages/19/9f/62c3c2f60506f3a2135af44624f7ba7f114487d46bd514112bc46c0598ca/shz_geo-0.0.4.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [nec-beamer]: Downloading https://files.pythonhosted.org/packages/bc/ca/1e0c503d77f450b80001579d14b9582fe3b55400d280616d52a3a2a4d139/nec_beamer-0.1.3.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [typeguard]: Downloading https://files.pythonhosted.org/packages/32/d5/fcbcd3c716b7a69ab0381f7ee42ae667624a1d147ea3fea0d9808dc77174/typeguard-4.0.1.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/b5/29/f01a09b25fa8ee6c143432642b535c27787ffaf6c27434ff6c5b4c714537/testflows.github.runners-1.2.230728.1203052.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [shz-geo]: Downloading https://files.pythonhosted.org/packages/0d/bb/13f26922ec682292832b2d8361343c4bb1deef6612a744175c7210237714/shz_geo-0.1.1.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [easyllm]: Downloading https://files.pythonhosted.org/packages/45/1b/ab33df0a5cb11759b879e3771abbf9430869ad40d7bc66d115e454a34424/easyllm-0.1.0.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [nec-beamer]: Downloading https://files.pythonhosted.org/packages/4b/b3/f2ca6697e9e6b78d1a65922ffe5458fb5ca526e3a90a6d5440adcf739244/nec_beamer-0.1.4.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/4b/51/96f8c1d968608a3fe66393315e757edf47d1384cac2cbe7b5a06073865c7/DiadFit-0.0.70.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [typeguard]: Downloading https://files.pythonhosted.org/packages/44/24/42a46ccadf37b06e1d635fe70ad18fbccd39173fd192b0dd944794375e98/typeguard-4.1.0.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/3e/b9/58f511ed13c2cc80d7406d63268ccba0482ffe7385f2dd3edd6cd399d13b/testflows.github.runners-1.3.230729.1222222.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-07-30 00:24:42] INFO root fetch - processPackages [shz-geo]: executing diffoscope
+[2023-07-30 00:24:42] INFO root fetch - processPackages [shz-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shz_geo-0.0.4.tar.gz tmp/shz_geo-0.1.1.tar.gz --markdown 20230730/s/shz-geo/0.0.4-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 00:24:42] INFO root fetch - processPackages [easyllm]: executing diffoscope
+[2023-07-30 00:24:42] INFO root fetch - processPackages [easyllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyllm-0.0.1.tar.gz tmp/easyllm-0.1.0.tar.gz --markdown 20230730/e/easyllm/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-30 00:24:42] INFO root fetch - processPackages [typeguard]: executing diffoscope
+[2023-07-30 00:24:42] INFO root fetch - processPackages [typeguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeguard-4.0.1.tar.gz tmp/typeguard-4.1.0.tar.gz --markdown 20230730/t/typeguard/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-07-30 00:24:42] INFO root fetch - processPackages [DiadFit]: executing diffoscope
+[2023-07-30 00:24:42] INFO root fetch - processPackages [DiadFit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiadFit-0.0.69.tar.gz tmp/DiadFit-0.0.70.tar.gz --markdown 20230730/D/DiadFit/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-07-30 00:24:42] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-30 00:24:42] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230728.1203052.tar.gz tmp/testflows.github.runners-1.3.230729.1222222.tar.gz --markdown 20230730/t/testflows.github.runners/1.2.230728.1203052-1.3.230729.1222222/diff.md --exclude *.pyd
+[2023-07-30 00:24:42] INFO root fetch - processPackages [nec-beamer]: executing diffoscope
+[2023-07-30 00:24:42] INFO root fetch - processPackages [nec-beamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nec_beamer-0.1.3.tar.gz tmp/nec_beamer-0.1.4.tar.gz --markdown 20230730/n/nec-beamer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 00:24:42] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-07-30 00:24:42] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230730/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-30 00:24:43] INFO root fetch - processPackages [shz-geo]: Remove: archive file [/home/abi/fetcher/tmp/shz_geo-0.0.4.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - processPackages [shz-geo]: Remove: archive file [/home/abi/fetcher/tmp/shz_geo-0.1.1.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - main [MainThread]: End processing [shz-geo]: success
+[2023-07-30 00:24:43] INFO root fetch - processPackages [easyllm]: Remove: archive file [/home/abi/fetcher/tmp/easyllm-0.0.1.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - processPackages [easyllm]: Remove: archive file [/home/abi/fetcher/tmp/easyllm-0.1.0.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - main [MainThread]: End processing [easyllm]: success
+[2023-07-30 00:24:43] INFO root fetch - processPackages [nec-beamer]: Remove: archive file [/home/abi/fetcher/tmp/nec_beamer-0.1.3.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - processPackages [nec-beamer]: Remove: archive file [/home/abi/fetcher/tmp/nec_beamer-0.1.4.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - main [MainThread]: End processing [nec-beamer]: success
+[2023-07-30 00:24:43] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.69.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.70.tar.gz]
+[2023-07-30 00:24:43] INFO root fetch - main [MainThread]: End processing [DiadFit]: success
+[2023-07-30 00:24:44] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230728.1203052.tar.gz]
+[2023-07-30 00:24:44] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.3.230729.1222222.tar.gz]
+[2023-07-30 00:24:44] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-30 00:24:44] INFO root fetch - processPackages [typeguard]: Remove: archive file [/home/abi/fetcher/tmp/typeguard-4.0.1.tar.gz]
+[2023-07-30 00:24:44] INFO root fetch - processPackages [typeguard]: Remove: archive file [/home/abi/fetcher/tmp/typeguard-4.1.0.tar.gz]
+[2023-07-30 00:24:44] INFO root fetch - main [MainThread]: End processing [typeguard]: success
+[2023-07-30 00:24:44] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-07-30 00:24:44] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-07-30 00:24:44] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-07-30 00:24:44] INFO root fetch - main [MainThread]: Store serial: [19092116]
