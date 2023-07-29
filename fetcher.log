@@ -619,3 +619,90 @@
 [2023-07-30 01:11:18] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.1.2.tar.gz]
 [2023-07-30 01:11:18] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
 [2023-07-30 01:11:18] INFO root fetch - main [MainThread]: Store serial: [19092253]
+[2023-07-30 01:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092253]
+[2023-07-30 01:16:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ekaros
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psd-export
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ANSIController
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dl-matrix
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adrianna
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyDecision
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: g722-1-mod
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alias-gen
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openmodelicacompiler
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dobot-utils
+[2023-07-30 01:16:27] INFO root fetch - processPackages [pyDecision]: New version: [4.1.4] Old Version: [4.0.9]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [psd-export]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [adrianna]: New version: [0.0.5.1] Old Version: [0.0.5]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ekaros]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [alias-gen]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [dl-matrix]: New version: [0.4] Old Version: [0.2]
+[2023-07-30 01:16:27] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 01:16:27] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 01:16:27] INFO root fetch - processPackages [g722-1-mod]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [openmodelicacompiler]: New version: [0.3.0a0] Old Version: [0.2.1]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [dobot-utils]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-30 01:16:27] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/a7/c2/a6349bd7d33e9b50f371aa2ad56c9ec96aaacee3b3cb6075b9d5cd332c93/pyDecision-4.0.9.tar.gz
+[2023-07-30 01:16:27] INFO root fetch - processPackages [dl-matrix]: Downloading https://files.pythonhosted.org/packages/ae/5c/1f0dc7c30fec5d4705de7c554d3040193a2c26c9361d557520c54c14719e/dl_matrix-0.2.tar.gz
+[2023-07-30 01:16:27] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/57/1a/5845e2e065e44e7fa1db53bf6ef03f860a4f41dc374a8202427deee9990b/alias_gen-0.6.1.tar.gz
+[2023-07-30 01:16:27] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/79/be/bd79e2e66ae9642a3ef983c0b7d12c72224c279c11c0c4a0f441f2c4914c/psd_export-1.0.8.tar.gz
+[2023-07-30 01:16:27] INFO root fetch - processPackages [adrianna]: Downloading https://files.pythonhosted.org/packages/58/44/a86c25b5ea382e2267aa50d9abd3997ea878763032f24717a6fd12c06c3b/adrianna-0.0.5-py3-none-any.whl
+[2023-07-30 01:16:27] INFO root fetch - processPackages [ekaros]: Downloading https://files.pythonhosted.org/packages/34/b4/dec09104ebf5b15c1c02b75165beb3820180c685fa84ee7777f10d6e4ef6/ekaros-0.1.8.tar.gz
+[2023-07-30 01:16:27] INFO root fetch - processPackages [g722-1-mod]: Downloading https://files.pythonhosted.org/packages/bf/f8/bdc3cf82f5a03f5c4afaeeadcc18da6655e40789c60d3b1bab1f8292bd5b/g722_1_mod-0.0.5.tar.gz
+[2023-07-30 01:16:27] INFO root fetch - processPackages [openmodelicacompiler]: Downloading https://files.pythonhosted.org/packages/2f/57/fb097b142ba297253432765eebabe6b084062ceacf733472e2dbd94b7701/openmodelicacompiler-0.2.1.tar.gz
+[2023-07-30 01:16:27] INFO root fetch - processPackages [dobot-utils]: Downloading https://files.pythonhosted.org/packages/36/6e/464be66d28b03cabd86ac4c3f6a398f340422cc56acfae8bff2bbb2990c2/dobot_utils-1.0.1.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/e3/38/59d8f710f94526b1a0f06b48134cede76f8879aaaeff9cae0ed9f56fb4e6/pyDecision-4.1.4.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/0c/7f/f62d4ad5573b9992e47ec30f313e9292b6a8aaeaf0906851297adc99f4f1/alias_gen-0.6.2.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [dl-matrix]: Downloading https://files.pythonhosted.org/packages/c3/85/05d52656b7d4a339da78b1be5152ce618e2adc05d938e2ae82320c9eb810/dl_matrix-0.4.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/b4/2e/3892de4c1b874936438aa08ee9784611755a30d23b291eec2081c04dc15c/psd_export-1.0.9.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [adrianna]: Downloading https://files.pythonhosted.org/packages/4c/a9/4609a59d3eab95caf15d27e842b3e8feaae3091c09bf2e0ed1204553e092/adrianna-0.0.5.1-py3-none-any.whl
+[2023-07-30 01:16:28] INFO root fetch - processPackages [ekaros]: Downloading https://files.pythonhosted.org/packages/73/29/e22dd8aa414806f8cfb8750b85461e47ce0b5a7bd9aa39dc9bdb10b9219e/ekaros-0.1.9.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [dl-matrix]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [dl-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_matrix-0.2.tar.gz tmp/dl_matrix-0.4.tar.gz --markdown 20230730/d/dl-matrix/0.2-0.4/diff.md --exclude *.pyd
+[2023-07-30 01:16:28] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-4.0.9.tar.gz tmp/pyDecision-4.1.4.tar.gz --markdown 20230730/p/pyDecision/4.0.9-4.1.4/diff.md --exclude *.pyd
+[2023-07-30 01:16:28] INFO root fetch - processPackages [dobot-utils]: Downloading https://files.pythonhosted.org/packages/a0/4f/da609e9502ff5d24db4c9aa8ce78ae1ef4e6e0cabb71dc77b3e66a21a3e5/dobot-utils-1.0.3.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [openmodelicacompiler]: Downloading https://files.pythonhosted.org/packages/60/a2/8b3951a8f93237b40df81cd5d6941f8ea8b951aaf8bc3d626297d30925fa/openmodelicacompiler-0.3.0a0.tar.gz
+[2023-07-30 01:16:28] INFO root fetch - processPackages [alias-gen]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [alias-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alias_gen-0.6.1.tar.gz tmp/alias_gen-0.6.2.tar.gz --markdown 20230730/a/alias-gen/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-30 01:16:28] INFO root fetch - processPackages [g722-1-mod]: Downloading https://files.pythonhosted.org/packages/a8/66/3db2aae0c508c1b7fe5b5f6cc46a03b72fd9143eff422865f4c083321cb6/g722_1_mod-0.0.7-pp37-pypy37_pp73-win_amd64.whl
+[2023-07-30 01:16:28] INFO root fetch - processPackages [ekaros]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [ekaros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekaros-0.1.8.tar.gz tmp/ekaros-0.1.9.tar.gz --markdown 20230730/e/ekaros/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 01:16:28] INFO root fetch - processPackages [psd-export]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [psd-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd_export-1.0.8.tar.gz tmp/psd_export-1.0.9.tar.gz --markdown 20230730/p/psd-export/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 01:16:28] INFO root fetch - processPackages [dobot-utils]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [dobot-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dobot_utils-1.0.1.tar.gz tmp/dobot-utils-1.0.3.tar.gz --markdown 20230730/d/dobot-utils/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-30 01:16:28] INFO root fetch - processPackages [adrianna]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [adrianna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adrianna-0.0.5-py3-none-any.whl.zip tmp/adrianna-0.0.5.1-py3-none-any.whl.zip --markdown 20230730/a/adrianna/0.0.5-0.0.5.1/diff.md --exclude *.pyd
+[2023-07-30 01:16:28] INFO root fetch - processPackages [openmodelicacompiler]: executing diffoscope
+[2023-07-30 01:16:28] INFO root fetch - processPackages [openmodelicacompiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodelicacompiler-0.2.1.tar.gz tmp/openmodelicacompiler-0.3.0a0.tar.gz --markdown 20230730/o/openmodelicacompiler/0.2.1-0.3.0a0/diff.md --exclude *.pyd
+[2023-07-30 01:16:29] INFO root fetch - processPackages [g722-1-mod]: executing diffoscope
+[2023-07-30 01:16:29] INFO root fetch - processPackages [g722-1-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g722_1_mod-0.0.5.tar.gz tmp/g722_1_mod-0.0.7-pp37-pypy37_pp73-win_amd64.whl.zip --markdown 20230730/g/g722-1-mod/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 01:16:29] INFO root fetch - processPackages [ekaros]: Remove: archive file [/home/abi/fetcher/tmp/ekaros-0.1.8.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - processPackages [ekaros]: Remove: archive file [/home/abi/fetcher/tmp/ekaros-0.1.9.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - main [MainThread]: End processing [ekaros]: success
+[2023-07-30 01:16:29] INFO root fetch - processPackages [dobot-utils]: Remove: archive file [/home/abi/fetcher/tmp/dobot_utils-1.0.1.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - processPackages [dobot-utils]: Remove: archive file [/home/abi/fetcher/tmp/dobot-utils-1.0.3.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - main [MainThread]: End processing [dobot-utils]: success
+[2023-07-30 01:16:29] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.1.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.2.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - main [MainThread]: End processing [alias-gen]: success
+[2023-07-30 01:16:29] INFO root fetch - processPackages [adrianna]: Remove: archive file [/home/abi/fetcher/tmp/adrianna-0.0.5-py3-none-any.whl.zip]
+[2023-07-30 01:16:29] INFO root fetch - processPackages [adrianna]: Remove: archive file [/home/abi/fetcher/tmp/adrianna-0.0.5.1-py3-none-any.whl.zip]
+[2023-07-30 01:16:29] INFO root fetch - main [MainThread]: End processing [adrianna]: success
+[2023-07-30 01:16:29] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.2.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.4.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - main [MainThread]: End processing [dl-matrix]: success
+[2023-07-30 01:16:29] INFO root fetch - processPackages [psd-export]: Remove: archive file [/home/abi/fetcher/tmp/psd_export-1.0.8.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - processPackages [psd-export]: Remove: archive file [/home/abi/fetcher/tmp/psd_export-1.0.9.tar.gz]
+[2023-07-30 01:16:29] INFO root fetch - main [MainThread]: End processing [psd-export]: success
+[2023-07-30 01:16:30] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.0.9.tar.gz]
+[2023-07-30 01:16:30] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.1.4.tar.gz]
+[2023-07-30 01:16:30] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-30 01:16:30] INFO root fetch - processPackages [openmodelicacompiler]: Remove: archive file [/home/abi/fetcher/tmp/openmodelicacompiler-0.2.1.tar.gz]
+[2023-07-30 01:16:30] INFO root fetch - processPackages [openmodelicacompiler]: Remove: archive file [/home/abi/fetcher/tmp/openmodelicacompiler-0.3.0a0.tar.gz]
+[2023-07-30 01:16:30] INFO root fetch - main [MainThread]: End processing [openmodelicacompiler]: success
+[2023-07-30 01:16:30] INFO root fetch - processPackages [g722-1-mod]: Remove: archive file [/home/abi/fetcher/tmp/g722_1_mod-0.0.5.tar.gz]
+[2023-07-30 01:16:30] INFO root fetch - processPackages [g722-1-mod]: Remove: archive file [/home/abi/fetcher/tmp/g722_1_mod-0.0.7-pp37-pypy37_pp73-win_amd64.whl.zip]
+[2023-07-30 01:16:30] INFO root fetch - main [MainThread]: End processing [g722-1-mod]: success
+[2023-07-30 01:16:30] INFO root fetch - main [MainThread]: Store serial: [19092380]
