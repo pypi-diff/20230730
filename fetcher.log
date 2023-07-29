@@ -1,0 +1,75 @@
+[2023-07-30 00:03:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19091999]
+[2023-07-30 00:04:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d20-orm
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brc
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pikepdf
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nec-beamer
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awyes
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assistorgapi
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DjTbot
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ldimbenchmark
+[2023-07-30 00:04:00] INFO root fetch - processPackages [awyes]: New version: [10.1.2] Old Version: [10.1.1]
+[2023-07-30 00:04:00] INFO root fetch - processPackages [brc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 00:04:00] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 00:04:00] INFO root fetch - processPackages [nec-beamer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-30 00:04:00] INFO root fetch - processPackages [assistorgapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 00:04:00] INFO root fetch - processPackages [DjTbot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 00:04:00] INFO root fetch - processPackages [pikepdf]: New version: [8.2.2] Old Version: [8.2.1]
+[2023-07-30 00:04:00] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-07-30 00:04:01] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [nec-beamer]: Downloading https://files.pythonhosted.org/packages/64/28/2b5d215e2c716bcb81e0509c8363302ac20aa490e056a627aacb249a8fe1/nec_beamer-0.1.2.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/ea/a3/685a559ff2df6ecaa9a1ee307aac9eeb73415ac62b6a3dc34b1677b99f9e/awyes-10.1.1.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [brc]: Downloading https://files.pythonhosted.org/packages/ca/51/5149a1c990ebd8a31000cb15aae4c2bd4a94f980e9495d4a9dbc44b97ce8/brc-0.1.1.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/0b/1d/f51b00ee0f3343d3087e325ac29c26ec1a7f9a9212913b2b0614f6a712a1/assistorgapi-0.0.8.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [DjTbot]: Downloading https://files.pythonhosted.org/packages/4a/2b/81d157d8be1be4ce74a2ae286c253e5d4159fbe13e99cd77ca494111f143/DjTbot-0.0.5.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/03/24/026a6a5ad3de3cff81b7b0b68d78f2d1495cbcd926a7bc7ceb439f9bd6b4/pikepdf-8.2.1.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [nec-beamer]: Downloading https://files.pythonhosted.org/packages/bc/ca/1e0c503d77f450b80001579d14b9582fe3b55400d280616d52a3a2a4d139/nec_beamer-0.1.3.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/38/3d/93555c2d7c92bb460d16a3ed83e3a61a69418ee27c4f698f02eaec613094/awyes-10.1.2.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-30 00:04:01] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230730/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 00:04:01] INFO root fetch - processPackages [brc]: Downloading https://files.pythonhosted.org/packages/d5/8a/28f3e85122f2a139b9bcc512ad4a6abc17c3d77c0a80d586241a99151875/brc-0.1.2.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [DjTbot]: Downloading https://files.pythonhosted.org/packages/cc/7e/fafd6094acf7fe39330af6146d9417c266a30602fa64b2fdadfaaf995b94/DjTbot-0.0.6.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [nec-beamer]: executing diffoscope
+[2023-07-30 00:04:01] INFO root fetch - processPackages [nec-beamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nec_beamer-0.1.2.tar.gz tmp/nec_beamer-0.1.3.tar.gz --markdown 20230730/n/nec-beamer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-30 00:04:01] INFO root fetch - processPackages [assistorgapi]: Downloading https://files.pythonhosted.org/packages/62/34/d00842820356fad2a975d5f3a20abb1e597f374888e3b58d065b10064285/assistorgapi-0.0.9.tar.gz
+[2023-07-30 00:04:01] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-30 00:04:01] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.1.1.tar.gz tmp/awyes-10.1.2.tar.gz --markdown 20230730/a/awyes/10.1.1-10.1.2/diff.md --exclude *.pyd
+[2023-07-30 00:04:01] INFO root fetch - processPackages [brc]: executing diffoscope
+[2023-07-30 00:04:01] INFO root fetch - processPackages [brc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brc-0.1.1.tar.gz tmp/brc-0.1.2.tar.gz --markdown 20230730/b/brc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 00:04:01] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-07-30 00:04:01] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230730/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-07-30 00:04:01] INFO root fetch - processPackages [assistorgapi]: executing diffoscope
+[2023-07-30 00:04:01] INFO root fetch - processPackages [assistorgapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistorgapi-0.0.8.tar.gz tmp/assistorgapi-0.0.9.tar.gz --markdown 20230730/a/assistorgapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 00:04:01] INFO root fetch - processPackages [DjTbot]: executing diffoscope
+[2023-07-30 00:04:01] INFO root fetch - processPackages [DjTbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DjTbot-0.0.5.tar.gz tmp/DjTbot-0.0.6.tar.gz --markdown 20230730/D/DjTbot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-30 00:04:01] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/00/72/0cd408948d3732bf06e96b71c211cee44640859a32966575c3da2f10951d/pikepdf-8.2.2.tar.gz
+[2023-07-30 00:04:02] INFO root fetch - processPackages [pikepdf]: executing diffoscope
+[2023-07-30 00:04:02] INFO root fetch - processPackages [pikepdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikepdf-8.2.1.tar.gz tmp/pikepdf-8.2.2.tar.gz --markdown 20230730/p/pikepdf/8.2.1-8.2.2/diff.md --exclude *.pyd
+[2023-07-30 00:04:02] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.1.1.tar.gz]
+[2023-07-30 00:04:02] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.1.2.tar.gz]
+[2023-07-30 00:04:02] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-30 00:04:03] INFO root fetch - processPackages [brc]: Remove: archive file [/home/abi/fetcher/tmp/brc-0.1.1.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - processPackages [brc]: Remove: archive file [/home/abi/fetcher/tmp/brc-0.1.2.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: End processing [brc]: success
+[2023-07-30 00:04:03] INFO root fetch - processPackages [nec-beamer]: Remove: archive file [/home/abi/fetcher/tmp/nec_beamer-0.1.2.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - processPackages [nec-beamer]: Remove: archive file [/home/abi/fetcher/tmp/nec_beamer-0.1.3.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: End processing [nec-beamer]: success
+[2023-07-30 00:04:03] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-30 00:04:03] INFO root fetch - processPackages [DjTbot]: Remove: archive file [/home/abi/fetcher/tmp/DjTbot-0.0.5.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - processPackages [DjTbot]: Remove: archive file [/home/abi/fetcher/tmp/DjTbot-0.0.6.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: End processing [DjTbot]: success
+[2023-07-30 00:04:03] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-07-30 00:04:03] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.8.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - processPackages [assistorgapi]: Remove: archive file [/home/abi/fetcher/tmp/assistorgapi-0.0.9.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: End processing [assistorgapi]: success
+[2023-07-30 00:04:03] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.2.1.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.2.2.tar.gz]
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
+[2023-07-30 00:04:03] INFO root fetch - main [MainThread]: Store serial: [19092048]
