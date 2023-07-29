@@ -526,3 +526,51 @@
 [2023-07-30 01:00:57] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.7.tar.gz]
 [2023-07-30 01:00:57] INFO root fetch - main [MainThread]: End processing [calfcv]: success
 [2023-07-30 01:00:57] INFO root fetch - main [MainThread]: Store serial: [19092208]
+[2023-07-30 01:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092208]
+[2023-07-30 01:06:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 01:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epure
+[2023-07-30 01:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idendrogram
+[2023-07-30 01:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-07-30 01:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-07-30 01:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Seance
+[2023-07-30 01:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: image-processing-testing
+[2023-07-30 01:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alias-gen
+[2023-07-30 01:06:06] INFO root fetch - processPackages [Seance]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 01:06:06] WARNING root fetch - processPackages [alias-gen]: Skipping, unable to determine old version
+[2023-07-30 01:06:06] INFO root fetch - main [MainThread]: End processing [alias-gen] error
+[2023-07-30 01:06:06] WARNING root fetch - processPackages [idendrogram]: Skipping, unable to determine old version
+[2023-07-30 01:06:06] INFO root fetch - main [MainThread]: End processing [idendrogram] error
+[2023-07-30 01:06:06] WARNING root fetch - processPackages [image-processing-testing]: Skipping, unable to determine old version
+[2023-07-30 01:06:06] INFO root fetch - main [MainThread]: End processing [image-processing-testing] error
+[2023-07-30 01:06:06] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230729] Old Version: [0.7.0b20230728]
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230729] Old Version: [0.7.0b20230728]
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/60/4b/45e09d80ae4382d7fb9f4dedc3cf421eff9f5e78a60122837b6955531c9d/tmnt-0.7.0b20230728.tar.gz
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/03/a8/33750cce3f0a02e0fb7868cd9d7c8f9ec3a845914614184427f9f43cdb43/tmnt-cu101-0.7.0b20230728.tar.gz
+[2023-07-30 01:06:06] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-30 01:06:06] INFO root fetch - processPackages [Seance]: Downloading https://files.pythonhosted.org/packages/6f/c1/2785e0511ce180b81aef66eb94261edbef6cae769cc7efbd518c8a9a54b8/Seance-0.0.4-py3-none-any.whl
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/5b/93/c99e93c29c5fa360e370c2d4bb6247652222aa7e851113bacd895b1b1e82/tmnt-0.7.0b20230729.tar.gz
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/f9/9c/ce5c090f52401da847ed12511c1db4f7acf10c23a283504bf9ee0cddf3e0/tmnt-cu101-0.7.0b20230729.tar.gz
+[2023-07-30 01:06:06] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-30 01:06:06] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230728.tar.gz tmp/tmnt-cu101-0.7.0b20230729.tar.gz --markdown 20230730/t/tmnt-cu101/0.7.0b20230728-0.7.0b20230729/diff.md --exclude *.pyd
+[2023-07-30 01:06:07] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-30 01:06:07] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230730/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 01:06:07] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-30 01:06:07] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230728.tar.gz tmp/tmnt-0.7.0b20230729.tar.gz --markdown 20230730/t/tmnt/0.7.0b20230728-0.7.0b20230729/diff.md --exclude *.pyd
+[2023-07-30 01:06:07] INFO root fetch - processPackages [Seance]: Downloading https://files.pythonhosted.org/packages/be/f5/cea46f90d73a00ec1e4ca1580beade88f4c99318ef9db58fbe7af9c56e06/Seance-0.0.5-py3-none-any.whl
+[2023-07-30 01:06:07] INFO root fetch - processPackages [Seance]: executing diffoscope
+[2023-07-30 01:06:07] INFO root fetch - processPackages [Seance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Seance-0.0.4-py3-none-any.whl.zip tmp/Seance-0.0.5-py3-none-any.whl.zip --markdown 20230730/S/Seance/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 01:06:07] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230728.tar.gz]
+[2023-07-30 01:06:07] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230729.tar.gz]
+[2023-07-30 01:06:07] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-30 01:06:08] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-30 01:06:08] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-30 01:06:08] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-30 01:06:08] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230728.tar.gz]
+[2023-07-30 01:06:08] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230729.tar.gz]
+[2023-07-30 01:06:08] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-30 01:06:08] INFO root fetch - processPackages [Seance]: Remove: archive file [/home/abi/fetcher/tmp/Seance-0.0.4-py3-none-any.whl.zip]
+[2023-07-30 01:06:08] INFO root fetch - processPackages [Seance]: Remove: archive file [/home/abi/fetcher/tmp/Seance-0.0.5-py3-none-any.whl.zip]
+[2023-07-30 01:06:08] INFO root fetch - main [MainThread]: End processing [Seance]: success
+[2023-07-30 01:06:08] INFO root fetch - main [MainThread]: Store serial: [19092233]
