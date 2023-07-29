@@ -773,3 +773,33 @@
 [2023-07-30 01:21:41] INFO root fetch - processPackages [idendrogram-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/idendrogram_streamlit_component-0.2.3.tar.gz]
 [2023-07-30 01:21:41] INFO root fetch - main [MainThread]: End processing [idendrogram-streamlit-component]: success
 [2023-07-30 01:21:41] INFO root fetch - main [MainThread]: Store serial: [19092422]
+[2023-07-30 01:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092422]
+[2023-07-30 01:26:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 01:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llamaapi
+[2023-07-30 01:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adrianna
+[2023-07-30 01:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinyfive
+[2023-07-30 01:26:50] INFO root fetch - processPackages [llamaapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 01:26:50] INFO root fetch - processPackages [adrianna]: New version: [0.0.7.1] Old Version: [0.0.7]
+[2023-07-30 01:26:50] INFO root fetch - processPackages [tinyfive]: New version: [1.0.0] Old Version: [0.0.15]
+[2023-07-30 01:26:50] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/ac/0c/5b55c9bcaaff3a8b3ab8fd039ffcbf432e1446d4dea4971b8f889a1f16eb/llamaapi-0.1.8.tar.gz
+[2023-07-30 01:26:50] INFO root fetch - processPackages [adrianna]: Downloading https://files.pythonhosted.org/packages/17/a2/6903a4264e783cf66bc5e88bcd0b4555961720d21b9a445d9502e0e9415c/adrianna-0.0.7-py3-none-any.whl
+[2023-07-30 01:26:50] INFO root fetch - processPackages [tinyfive]: Downloading https://files.pythonhosted.org/packages/42/9a/85c75c6fd26c7fcc1f188a6bf45ef6daee271bcaa3b6abc6e4edbfd507ef/tinyfive-0.0.15.tar.gz
+[2023-07-30 01:26:50] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/dd/a2/b5523b33759374ea05102a2a051d203dbb9fc7747304884c8c262c90a2b2/llamaapi-0.1.9.tar.gz
+[2023-07-30 01:26:50] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-30 01:26:50] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.8.tar.gz tmp/llamaapi-0.1.9.tar.gz --markdown 20230730/l/llamaapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 01:26:50] INFO root fetch - processPackages [adrianna]: Downloading https://files.pythonhosted.org/packages/88/04/15c7230f9e750d591db13ab055d8723ccb823522106eb2b1ddc50e038f8a/adrianna-0.0.7.1-py3-none-any.whl
+[2023-07-30 01:26:50] INFO root fetch - processPackages [tinyfive]: Downloading https://files.pythonhosted.org/packages/33/c4/d7ef4b13fca684e73cfee1f7066ddcec96d9d801e00b755824948822cb1f/tinyfive-1.0.0.tar.gz
+[2023-07-30 01:26:50] INFO root fetch - processPackages [tinyfive]: executing diffoscope
+[2023-07-30 01:26:50] INFO root fetch - processPackages [tinyfive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfive-0.0.15.tar.gz tmp/tinyfive-1.0.0.tar.gz --markdown 20230730/t/tinyfive/0.0.15-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 01:26:50] INFO root fetch - processPackages [adrianna]: executing diffoscope
+[2023-07-30 01:26:50] INFO root fetch - processPackages [adrianna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adrianna-0.0.7-py3-none-any.whl.zip tmp/adrianna-0.0.7.1-py3-none-any.whl.zip --markdown 20230730/a/adrianna/0.0.7-0.0.7.1/diff.md --exclude *.pyd
+[2023-07-30 01:26:51] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.8.tar.gz]
+[2023-07-30 01:26:51] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.9.tar.gz]
+[2023-07-30 01:26:51] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-30 01:26:51] INFO root fetch - processPackages [adrianna]: Remove: archive file [/home/abi/fetcher/tmp/adrianna-0.0.7-py3-none-any.whl.zip]
+[2023-07-30 01:26:51] INFO root fetch - processPackages [adrianna]: Remove: archive file [/home/abi/fetcher/tmp/adrianna-0.0.7.1-py3-none-any.whl.zip]
+[2023-07-30 01:26:51] INFO root fetch - main [MainThread]: End processing [adrianna]: success
+[2023-07-30 01:26:51] INFO root fetch - processPackages [tinyfive]: Remove: archive file [/home/abi/fetcher/tmp/tinyfive-0.0.15.tar.gz]
+[2023-07-30 01:26:51] INFO root fetch - processPackages [tinyfive]: Remove: archive file [/home/abi/fetcher/tmp/tinyfive-1.0.0.tar.gz]
+[2023-07-30 01:26:51] INFO root fetch - main [MainThread]: End processing [tinyfive]: success
+[2023-07-30 01:26:51] INFO root fetch - main [MainThread]: Store serial: [19092431]
