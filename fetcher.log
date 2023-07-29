@@ -421,3 +421,60 @@
 [2023-07-30 00:45:26] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.2.tar.gz]
 [2023-07-30 00:45:26] INFO root fetch - main [MainThread]: End processing [dl-matrix]: success
 [2023-07-30 00:45:26] INFO root fetch - main [MainThread]: Store serial: [19092175]
+[2023-07-30 00:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092175]
+[2023-07-30 00:50:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geranslator
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ignition-api
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrunch
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ez-cqrs
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calfcv
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spylizard
+[2023-07-30 00:50:35] INFO root fetch - processPackages [spylizard]: New version: [0.32] Old Version: [0.31]
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ez-cqrs]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-30 00:50:35] INFO root fetch - processPackages [calfcv]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 00:50:35] INFO root fetch - processPackages [geranslator]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ignition-api]: New version: [8.1.9] Old Version: [8.1.30.post1]
+[2023-07-30 00:50:35] INFO root fetch - processPackages [scrunch]: New version: [6.5.2019.post1690570998] Old Version: [6.5.2018.post1690565515]
+[2023-07-30 00:50:35] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/21/ec/e34c632fc5e77377f5809e7db4d7265c0155e9ac258b60c448ca9641f577/calfcv-0.0.5.tar.gz
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/f0/f0/0447988a008cdc40c98625ba65bb3b3406d0573c680b0c48d2b7147524e1/ez_cqrs-2.1.0.tar.gz
+[2023-07-30 00:50:35] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/34/4d/11c6b2e751d34ef098112527ff5c37e3bf3e3c79357f81c5017e5d15f91d/scrunch-6.5.2018.post1690565515.tar.gz
+[2023-07-30 00:50:35] INFO root fetch - processPackages [spylizard]: Downloading https://files.pythonhosted.org/packages/a1/3c/3ff9d9f83b777d4b476926eb1846355baac04f43105d7d3070da9724ff1d/spylizard-0.31-py3-none-any.whl
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ignition-api]: Downloading https://files.pythonhosted.org/packages/94/43/2ee35c34d01127fb892f949a7d1e5cdb74d78f411e5c014c07f07aeeca6b/ignition_api-8.1.30.post1.tar.gz
+[2023-07-30 00:50:35] INFO root fetch - processPackages [geranslator]: Downloading https://files.pythonhosted.org/packages/3c/97/9cafefbf5370d80c176af9eabb614a79b217df002e30ae34af99f7c1395e/geranslator-1.2.2-py3-none-any.whl
+[2023-07-30 00:50:35] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/db/5c/3b49249954066d98fcb3619ff2ec05dfc6031a235801bb7624b55586f9a4/scrunch-6.5.2019.post1690570998.tar.gz
+[2023-07-30 00:50:35] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/a3/55/092929d498e35f38da6df77ddf92c90faff9e600f56b6d326f8d3c8d94a2/calfcv-0.0.6.tar.gz
+[2023-07-30 00:50:35] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/85/95/182485c0311fd82466e62b3b0f838454439b87dd3d22861132d329e28993/ez_cqrs-2.2.0.tar.gz
+[2023-07-30 00:50:36] INFO root fetch - processPackages [spylizard]: Downloading https://files.pythonhosted.org/packages/81/1a/47faa7d1fb49c83ad1cd73f61287e5159ee1c6203acc1413839a26abbcab/spylizard-0.32.tar.gz
+[2023-07-30 00:50:36] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-30 00:50:36] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2018.post1690565515.tar.gz tmp/scrunch-6.5.2019.post1690570998.tar.gz --markdown 20230730/s/scrunch/6.5.2018.post1690565515-6.5.2019.post1690570998/diff.md --exclude *.pyd
+[2023-07-30 00:50:36] INFO root fetch - processPackages [ignition-api]: Downloading https://files.pythonhosted.org/packages/90/68/ddf6042aee141433036f926329fb0750b3a023c97d52bf185c4190ad9f4c/ignition-api-8.1.9.tar.gz
+[2023-07-30 00:50:36] INFO root fetch - processPackages [ez-cqrs]: executing diffoscope
+[2023-07-30 00:50:36] INFO root fetch - processPackages [ez-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_cqrs-2.1.0.tar.gz tmp/ez_cqrs-2.2.0.tar.gz --markdown 20230730/e/ez-cqrs/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-30 00:50:36] INFO root fetch - processPackages [geranslator]: Downloading https://files.pythonhosted.org/packages/04/94/508b12cb74278c91fd67463d351483f42c5fbf98b3777962d960f667b68c/geranslator-1.2.3-py3-none-any.whl
+[2023-07-30 00:50:36] INFO root fetch - processPackages [spylizard]: executing diffoscope
+[2023-07-30 00:50:36] INFO root fetch - processPackages [spylizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spylizard-0.31-py3-none-any.whl.zip tmp/spylizard-0.32.tar.gz --markdown 20230730/s/spylizard/0.31-0.32/diff.md --exclude *.pyd
+[2023-07-30 00:50:36] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-07-30 00:50:36] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.5.tar.gz tmp/calfcv-0.0.6.tar.gz --markdown 20230730/c/calfcv/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-30 00:50:36] INFO root fetch - processPackages [ignition-api]: executing diffoscope
+[2023-07-30 00:50:36] INFO root fetch - processPackages [ignition-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_api-8.1.30.post1.tar.gz tmp/ignition-api-8.1.9.tar.gz --markdown 20230730/i/ignition-api/8.1.30.post1-8.1.9/diff.md --exclude *.pyd
+[2023-07-30 00:50:36] INFO root fetch - processPackages [geranslator]: executing diffoscope
+[2023-07-30 00:50:36] INFO root fetch - processPackages [geranslator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geranslator-1.2.2-py3-none-any.whl.zip tmp/geranslator-1.2.3-py3-none-any.whl.zip --markdown 20230730/g/geranslator/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-30 00:50:37] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-2.1.0.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-2.2.0.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - main [MainThread]: End processing [ez-cqrs]: success
+[2023-07-30 00:50:37] INFO root fetch - processPackages [spylizard]: Remove: archive file [/home/abi/fetcher/tmp/spylizard-0.31-py3-none-any.whl.zip]
+[2023-07-30 00:50:37] INFO root fetch - processPackages [spylizard]: Remove: archive file [/home/abi/fetcher/tmp/spylizard-0.32.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - main [MainThread]: End processing [spylizard]: success
+[2023-07-30 00:50:37] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2018.post1690565515.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2019.post1690570998.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-30 00:50:37] INFO root fetch - processPackages [geranslator]: Remove: archive file [/home/abi/fetcher/tmp/geranslator-1.2.2-py3-none-any.whl.zip]
+[2023-07-30 00:50:37] INFO root fetch - processPackages [geranslator]: Remove: archive file [/home/abi/fetcher/tmp/geranslator-1.2.3-py3-none-any.whl.zip]
+[2023-07-30 00:50:37] INFO root fetch - main [MainThread]: End processing [geranslator]: success
+[2023-07-30 00:50:37] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.5.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.6.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-07-30 00:50:37] INFO root fetch - processPackages [ignition-api]: Remove: archive file [/home/abi/fetcher/tmp/ignition_api-8.1.30.post1.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - processPackages [ignition-api]: Remove: archive file [/home/abi/fetcher/tmp/ignition-api-8.1.9.tar.gz]
+[2023-07-30 00:50:37] INFO root fetch - main [MainThread]: End processing [ignition-api]: success
+[2023-07-30 00:50:37] INFO root fetch - main [MainThread]: Store serial: [19092193]
