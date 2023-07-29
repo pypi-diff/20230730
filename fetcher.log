@@ -864,3 +864,42 @@
 [2023-07-30 01:32:02] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.5-cp310.cp311-abi3-win_amd64.whl.zip]
 [2023-07-30 01:32:02] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
 [2023-07-30 01:32:02] INFO root fetch - main [MainThread]: Store serial: [19092466]
+[2023-07-30 01:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092466]
+[2023-07-30 01:37:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycomfort
+[2023-07-30 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvc
+[2023-07-30 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commutauto
+[2023-07-30 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctfcli
+[2023-07-30 01:37:10] INFO root fetch - processPackages [pycomfort]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 01:37:10] INFO root fetch - processPackages [ctfcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 01:37:10] INFO root fetch - processPackages [commutauto]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-30 01:37:11] INFO root fetch - processPackages [dvc]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-30 01:37:11] INFO root fetch - processPackages [pycomfort]: Downloading https://files.pythonhosted.org/packages/9c/e1/ae824f1d944eb6c1c165bb0b943f190160be0f27f7eb0d50ccd86f206325/pycomfort-0.0.8.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [ctfcli]: Downloading https://files.pythonhosted.org/packages/64/4e/e4e87b7c0ee11bb75ca1e68a4fdee4d1b0188b609e5e08731c8458cea27f/ctfcli-0.0.8.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [commutauto]: Downloading https://files.pythonhosted.org/packages/96/71/565d3518d4f25260292df3977d2bc3eff8091c06b4b47cb7a066ec17b9f5/commutauto-0.3.0.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/bd/2b/d427d0c781a0f09d653c7b90a0d9b792232769c21d0147c154b00cd75a2d/dvc-3.9.0.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [commutauto]: Downloading https://files.pythonhosted.org/packages/82/05/6f6cafc426f2a232ae6e2bc1fc530b4a9b9b38880e12480c0c6309d63ab4/commutauto-0.3.1.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [ctfcli]: Downloading https://files.pythonhosted.org/packages/97/87/25ecc333825fbb2fe265299e332a259cc1fc0037969ce58b6a06acc38632/ctfcli-0.0.9.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [commutauto]: executing diffoscope
+[2023-07-30 01:37:11] INFO root fetch - processPackages [commutauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commutauto-0.3.0.tar.gz tmp/commutauto-0.3.1.tar.gz --markdown 20230730/c/commutauto/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 01:37:11] INFO root fetch - processPackages [ctfcli]: executing diffoscope
+[2023-07-30 01:37:11] INFO root fetch - processPackages [ctfcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctfcli-0.0.8.tar.gz tmp/ctfcli-0.0.9.tar.gz --markdown 20230730/c/ctfcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 01:37:11] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/30/3c/4d47accc46da04fafb05c09836ec780d0c7ca2dcfe17bdd5f659a2e9c9a2/dvc-3.9.1.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [pycomfort]: Downloading https://files.pythonhosted.org/packages/5e/85/90c7c47d7e1321c4c9bfd4e57f823d5743167d956bf71173d94299c86f9e/pycomfort-0.0.9.tar.gz
+[2023-07-30 01:37:11] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-07-30 01:37:11] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.9.0.tar.gz tmp/dvc-3.9.1.tar.gz --markdown 20230730/d/dvc/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-30 01:37:12] INFO root fetch - processPackages [pycomfort]: executing diffoscope
+[2023-07-30 01:37:12] INFO root fetch - processPackages [pycomfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomfort-0.0.8.tar.gz tmp/pycomfort-0.0.9.tar.gz --markdown 20230730/p/pycomfort/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 01:37:12] INFO root fetch - processPackages [commutauto]: Remove: archive file [/home/abi/fetcher/tmp/commutauto-0.3.0.tar.gz]
+[2023-07-30 01:37:12] INFO root fetch - processPackages [commutauto]: Remove: archive file [/home/abi/fetcher/tmp/commutauto-0.3.1.tar.gz]
+[2023-07-30 01:37:12] INFO root fetch - main [MainThread]: End processing [commutauto]: success
+[2023-07-30 01:37:12] INFO root fetch - processPackages [ctfcli]: Remove: archive file [/home/abi/fetcher/tmp/ctfcli-0.0.8.tar.gz]
+[2023-07-30 01:37:12] INFO root fetch - processPackages [ctfcli]: Remove: archive file [/home/abi/fetcher/tmp/ctfcli-0.0.9.tar.gz]
+[2023-07-30 01:37:12] INFO root fetch - main [MainThread]: End processing [ctfcli]: success
+[2023-07-30 01:37:13] INFO root fetch - processPackages [pycomfort]: Remove: archive file [/home/abi/fetcher/tmp/pycomfort-0.0.8.tar.gz]
+[2023-07-30 01:37:13] INFO root fetch - processPackages [pycomfort]: Remove: archive file [/home/abi/fetcher/tmp/pycomfort-0.0.9.tar.gz]
+[2023-07-30 01:37:13] INFO root fetch - main [MainThread]: End processing [pycomfort]: success
+[2023-07-30 01:37:14] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.0.tar.gz]
+[2023-07-30 01:37:14] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
+[2023-07-30 01:37:14] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-07-30 01:37:14] INFO root fetch - main [MainThread]: Store serial: [19092480]
