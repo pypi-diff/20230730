@@ -803,3 +803,64 @@
 [2023-07-30 01:26:51] INFO root fetch - processPackages [tinyfive]: Remove: archive file [/home/abi/fetcher/tmp/tinyfive-1.0.0.tar.gz]
 [2023-07-30 01:26:51] INFO root fetch - main [MainThread]: End processing [tinyfive]: success
 [2023-07-30 01:26:51] INFO root fetch - main [MainThread]: Store serial: [19092431]
+[2023-07-30 01:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092431]
+[2023-07-30 01:31:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ANSIController
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-buckets
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interactivenlp
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llamaapi
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dobot-util
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colordemo
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hat-drivers
+[2023-07-30 01:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: interactivenlp
+[2023-07-30 01:32:00] INFO root fetch - processPackages [heaserver-buckets]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-30 01:32:00] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 01:32:00] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 01:32:00] INFO root fetch - processPackages [colordemo]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-30 01:32:00] WARNING root fetch - processPackages [dobot-util]: Skipping, unable to determine old version
+[2023-07-30 01:32:00] INFO root fetch - main [MainThread]: End processing [dobot-util] error
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 01:32:00] INFO root fetch - processPackages [llamaapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 01:32:00] INFO root fetch - processPackages [hat-drivers]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/f0/33/5db284e5333631de65f3b892a06997bcabfb31137781b0828660ea864e0e/interactivenlp-0.2.8.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/ac/0c/5b55c9bcaaff3a8b3ab8fd039ffcbf432e1446d4dea4971b8f889a1f16eb/llamaapi-0.1.8.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/f0/33/5db284e5333631de65f3b892a06997bcabfb31137781b0828660ea864e0e/interactivenlp-0.2.8.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/fc/d6/1c60f668061544352eaeadfb35ec125580ffa8f73089e46ceed609c855c3/heaserver-buckets-1.0.0a8.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [colordemo]: Downloading https://files.pythonhosted.org/packages/0d/79/e55aefc6f5e4a23e2b55069fc03afe0fc68ebe0dcec8db10ff626ff41711/colordemo-0.2.1.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/95/38/ce9d5418582e4d79a27ecc435624ddcdeec31b65c389b604dc350b35e2be/hat_drivers-0.7.4-cp310.cp311-abi3-win_amd64.whl
+[2023-07-30 01:32:00] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/dd/a2/b5523b33759374ea05102a2a051d203dbb9fc7747304884c8c262c90a2b2/llamaapi-0.1.9.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/7e/c4/03ded3fa1434952c965efcaceabdf9cf84380e4e9fb82d213401924c0129/interactivenlp-0.2.9.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: Downloading https://files.pythonhosted.org/packages/7e/c4/03ded3fa1434952c965efcaceabdf9cf84380e4e9fb82d213401924c0129/interactivenlp-0.2.9.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-30 01:32:00] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.8.tar.gz tmp/llamaapi-0.1.9.tar.gz --markdown 20230730/l/llamaapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: executing diffoscope
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactivenlp-0.2.8.tar.gz tmp/interactivenlp-0.2.9.tar.gz --markdown 20230730/i/interactivenlp/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 01:32:00] INFO root fetch - processPackages [colordemo]: Downloading https://files.pythonhosted.org/packages/2a/c0/598d4b402c5163a5db54b97081b7168dc8b1f60890ce62efe4aab57eaae2/colordemo-0.3.0.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: executing diffoscope
+[2023-07-30 01:32:00] INFO root fetch - processPackages [interactivenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactivenlp-0.2.8.tar.gz tmp/interactivenlp-0.2.9.tar.gz --markdown 20230730/i/interactivenlp/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 01:32:00] INFO root fetch - processPackages [heaserver-buckets]: Downloading https://files.pythonhosted.org/packages/4d/60/7a6118e0c68cc6934cfbc2b25d3a6f5193ae5ab0d0c9b3787970dfd52e5c/heaserver-buckets-1.0.0a9.tar.gz
+[2023-07-30 01:32:00] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/fc/b3/3255eab40771c64ba0872b2ccc355bc69a577dc461f9503fbaf0de951572/hat_drivers-0.7.5-cp310.cp311-abi3-win_amd64.whl
+[2023-07-30 01:32:00] INFO root fetch - processPackages [colordemo]: executing diffoscope
+[2023-07-30 01:32:00] INFO root fetch - processPackages [colordemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colordemo-0.2.1.tar.gz tmp/colordemo-0.3.0.tar.gz --markdown 20230730/c/colordemo/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 01:32:00] INFO root fetch - processPackages [heaserver-buckets]: executing diffoscope
+[2023-07-30 01:32:00] INFO root fetch - processPackages [heaserver-buckets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-buckets-1.0.0a8.tar.gz tmp/heaserver-buckets-1.0.0a9.tar.gz --markdown 20230730/h/heaserver-buckets/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-30 01:32:01] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-07-30 01:32:01] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.7.4-cp310.cp311-abi3-win_amd64.whl.zip tmp/hat_drivers-0.7.5-cp310.cp311-abi3-win_amd64.whl.zip --markdown 20230730/h/hat-drivers/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-30 01:32:01] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.8.tar.gz]
+[2023-07-30 01:32:01] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.9.tar.gz]
+[2023-07-30 01:32:01] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-30 01:32:01] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.8.tar.gz]
+[2023-07-30 01:32:01] INFO root fetch - processPackages [interactivenlp]: Remove: archive file [/home/abi/fetcher/tmp/interactivenlp-0.2.9.tar.gz]
+[2023-07-30 01:32:01] INFO root fetch - main [MainThread]: End processing [interactivenlp]: success
+[2023-07-30 01:32:02] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a8.tar.gz]
+[2023-07-30 01:32:02] INFO root fetch - processPackages [heaserver-buckets]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-buckets-1.0.0a9.tar.gz]
+[2023-07-30 01:32:02] INFO root fetch - main [MainThread]: End processing [heaserver-buckets]: success
+[2023-07-30 01:32:02] INFO root fetch - processPackages [colordemo]: Remove: archive file [/home/abi/fetcher/tmp/colordemo-0.2.1.tar.gz]
+[2023-07-30 01:32:02] INFO root fetch - processPackages [colordemo]: Remove: archive file [/home/abi/fetcher/tmp/colordemo-0.3.0.tar.gz]
+[2023-07-30 01:32:02] INFO root fetch - main [MainThread]: End processing [colordemo]: success
+[2023-07-30 01:32:02] INFO root fetch - main [MainThread]: End processing [interactivenlp]: success
+[2023-07-30 01:32:02] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.4-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-30 01:32:02] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.5-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-30 01:32:02] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-07-30 01:32:02] INFO root fetch - main [MainThread]: Store serial: [19092466]
