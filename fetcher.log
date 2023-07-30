@@ -4171,3 +4171,44 @@
 [2023-07-30 06:13:19] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a8.tar.gz]
 [2023-07-30 06:13:19] INFO root fetch - main [MainThread]: End processing [reflex]: success
 [2023-07-30 06:13:19] INFO root fetch - main [MainThread]: Store serial: [19093691]
+[2023-07-30 06:18:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093691]
+[2023-07-30 06:18:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 06:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nn4n
+[2023-07-30 06:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsws
+[2023-07-30 06:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: holamundoplayersdfkpy007
+[2023-07-30 06:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stadata
+[2023-07-30 06:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SGtSNEpiPy
+[2023-07-30 06:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-cropperjs
+[2023-07-30 06:18:27] INFO root fetch - processPackages [stadata]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 06:18:27] WARNING root fetch - processPackages [holamundoplayersdfkpy007]: Skipping, unable to determine old version
+[2023-07-30 06:18:27] INFO root fetch - main [MainThread]: End processing [holamundoplayersdfkpy007] error
+[2023-07-30 06:18:27] WARNING root fetch - processPackages [nn4n]: Skipping, unable to determine old version
+[2023-07-30 06:18:27] INFO root fetch - main [MainThread]: End processing [nn4n] error
+[2023-07-30 06:18:27] INFO root fetch - processPackages [SGtSNEpiPy]: New version: [1.1.2] Old Version: [1.0.8]
+[2023-07-30 06:18:27] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 06:18:27] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/f8/cc/6653b33123026c98d51528e1b37190bbdda5e9d3e3b858686b518c378c40/SGtSNEpiPy-1.0.8.tar.gz
+[2023-07-30 06:18:27] INFO root fetch - processPackages [streamlit-cropperjs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 06:18:27] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 06:18:27] INFO root fetch - processPackages [stadata]: Downloading https://files.pythonhosted.org/packages/90/2b/8cc4f5657c83705480456a80a615215a2ddcb47a9ba31aa1aac3484fe54a/stadata-0.0.2.tar.gz
+[2023-07-30 06:18:27] WARNING root fetch - processPackages [stadata]: Skipping package: exceeds size limit 11944520>=10485760
+[2023-07-30 06:18:27] INFO root fetch - main [MainThread]: End processing [stadata] error
+[2023-07-30 06:18:27] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/17/c3/aafee51da018ac2080997ad99cb7ae53fa2f189ce8e3990378d7d0f5e825/streamlit-cropperjs-0.0.7.tar.gz
+[2023-07-30 06:18:27] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 06:18:27] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/db/93/3420fcf909fe78a5808c2a273ee2d1365a88953f486e410f3a3138f6f843/SGtSNEpiPy-1.1.2.tar.gz
+[2023-07-30 06:18:27] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 06:18:27] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 06:18:27] INFO root fetch - processPackages [SGtSNEpiPy]: executing diffoscope
+[2023-07-30 06:18:27] INFO root fetch - processPackages [SGtSNEpiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGtSNEpiPy-1.0.8.tar.gz tmp/SGtSNEpiPy-1.1.2.tar.gz --markdown 20230730/S/SGtSNEpiPy/1.0.8-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 06:18:27] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/da/33/87c21d1202d698de5e93197be91b4c4ef068175be282da30eb93a58f29cd/streamlit-cropperjs-0.0.8.tar.gz
+[2023-07-30 06:18:28] INFO root fetch - processPackages [streamlit-cropperjs]: executing diffoscope
+[2023-07-30 06:18:28] INFO root fetch - processPackages [streamlit-cropperjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-cropperjs-0.0.7.tar.gz tmp/streamlit-cropperjs-0.0.8.tar.gz --markdown 20230730/s/streamlit-cropperjs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 06:18:28] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 06:18:28] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 06:18:28] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 06:18:28] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.8.tar.gz]
+[2023-07-30 06:18:28] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.1.2.tar.gz]
+[2023-07-30 06:18:28] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy]: success
+[2023-07-30 06:18:29] INFO root fetch - processPackages [streamlit-cropperjs]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-cropperjs-0.0.7.tar.gz]
+[2023-07-30 06:18:29] INFO root fetch - processPackages [streamlit-cropperjs]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-cropperjs-0.0.8.tar.gz]
+[2023-07-30 06:18:29] INFO root fetch - main [MainThread]: End processing [streamlit-cropperjs]: success
+[2023-07-30 06:18:29] INFO root fetch - main [MainThread]: Store serial: [19093713]
