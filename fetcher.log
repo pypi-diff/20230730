@@ -9993,3 +9993,99 @@
 [2023-07-30 15:04:16] INFO root fetch - processPackages [light-labyrinth]: Remove: archive file [/home/abi/fetcher/tmp/light_labyrinth-1.0.0-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-30 15:04:16] INFO root fetch - main [MainThread]: End processing [light-labyrinth]: success
 [2023-07-30 15:04:16] INFO root fetch - main [MainThread]: Store serial: [19096375]
+[2023-07-30 15:09:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096375]
+[2023-07-30 15:09:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specfile
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cougar
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbtc
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uidom
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owcli
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: epochraft
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-07-30 15:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: equilibrator-pathway
+[2023-07-30 15:09:25] WARNING root fetch - processPackages [epochraft]: Skipping, unable to determine old version
+[2023-07-30 15:09:25] INFO root fetch - processPackages [epochraft]: Start processing: nbdev-pandas
+[2023-07-30 15:09:25] INFO root fetch - main [MainThread]: End processing [epochraft] error
+[2023-07-30 15:09:25] INFO root fetch - processPackages [cougar]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [owcli]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [dbtc]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [uidom]: New version: [0.3a4] Old Version: [0.3a3]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [equilibrator-pathway]: New version: [0.5.0b1] Old Version: [0.4.8b2]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [specfile]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.8.2] Old Version: [0.3.9.8.1]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/74/fd/40d08096e68f78a0285e18d9a2d7275538ba6fabbb0973ea2568520cb5fb/nonebot_plugin_stable_diffusion_diao-0.3.9.8.1.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [dbtc]: Downloading https://files.pythonhosted.org/packages/c8/87/38369020b87e99212ead2a35dbcb3abd446f433f3c65fdbc89d09d6d231b/dbtc-0.5.0.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/75/89/b42cf27629d45c48601b990de443b86ea20f6f8a12835f92ed7a6631bef6/cougar-0.1.0.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [owcli]: Downloading https://files.pythonhosted.org/packages/73/88/1033fb5e3d1845e3a93816f8a9df2ad88f87ceb86f4cdd1e0d61318f6684/owcli-0.7.0-py3-none-any.whl
+[2023-07-30 15:09:25] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/34/62/20eddcbef126e85431dc3242ff709176eaaa67d3d3a70ff2f8afeafe4479/specfile-0.9.0.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/7c/a1/eae571f7a8011e6a7c9dffa93f7b077c70908a8db5dcda75d199d4de738c/equilibrator-pathway-0.4.8b2.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/cb/0d/231b0675a92a5c455d2f58f4e3f76e7f877c42100cf8b127e142e22fc4dd/uidom-0.3a3.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/0d/ec/06db0898f8b332591162c6b1c11e0ed3e6b097fac53f6edf01ee56d3c076/nonebot_plugin_stable_diffusion_diao-0.3.9.8.2.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [dbtc]: Downloading https://files.pythonhosted.org/packages/f2/ed/e7f87816867bd37ae68b47229f25c4294a40a8385e850035bde73278be75/dbtc-0.5.1.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [cougar]: Downloading https://files.pythonhosted.org/packages/32/82/02714d464122b9091f3b7d9d387fa2b13b4cdd167adc9bf6486caf0041ea/cougar-0.2.0.tar.gz
+[2023-07-30 15:09:25] INFO root fetch - processPackages [owcli]: Downloading https://files.pythonhosted.org/packages/46/e0/af7168bd06c87ab9f13505d1abeea93b18a39f1745f4a8acea8e240280cf/owcli-0.8.0-py3-none-any.whl
+[2023-07-30 15:09:25] INFO root fetch - processPackages [equilibrator-pathway]: Downloading https://files.pythonhosted.org/packages/9b/7f/27646eba3d33975bdf97fbc23f74c106ef698299684db8617bf8afb9b315/equilibrator-pathway-0.5.0b1.tar.gz
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230730/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/90/51/d4f48aa89021194ec3ecb18a72e87800d599f630b1fe24db64dae7732143/uidom-0.3a4.tar.gz
+[2023-07-30 15:09:26] INFO root fetch - processPackages [dbtc]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [dbtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtc-0.5.0.tar.gz tmp/dbtc-0.5.1.tar.gz --markdown 20230730/d/dbtc/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230730/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230730/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/98/58/5da46f58f41bce3602175cc9a4b5e90820385801d225c063e6e9ba50bc97/specfile-0.9.1.tar.gz
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.1.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.2.tar.gz --markdown 20230730/n/nonebot-plugin-stable-diffusion-diao/0.3.9.8.1-0.3.9.8.2/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [owcli]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [owcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owcli-0.7.0-py3-none-any.whl.zip tmp/owcli-0.8.0-py3-none-any.whl.zip --markdown 20230730/o/owcli/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [equilibrator-pathway]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [equilibrator-pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-pathway-0.4.8b2.tar.gz tmp/equilibrator-pathway-0.5.0b1.tar.gz --markdown 20230730/e/equilibrator-pathway/0.4.8b2-0.5.0b1/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [cougar]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [cougar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cougar-0.1.0.tar.gz tmp/cougar-0.2.0.tar.gz --markdown 20230730/c/cougar/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [uidom]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [uidom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uidom-0.3a3.tar.gz tmp/uidom-0.3a4.tar.gz --markdown 20230730/u/uidom/0.3a3-0.3a4/diff.md --exclude *.pyd
+[2023-07-30 15:09:26] INFO root fetch - processPackages [specfile]: executing diffoscope
+[2023-07-30 15:09:26] INFO root fetch - processPackages [specfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specfile-0.9.0.tar.gz tmp/specfile-0.9.1.tar.gz --markdown 20230730/s/specfile/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-30 15:09:27] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.1.0.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [cougar]: Remove: archive file [/home/abi/fetcher/tmp/cougar-0.2.0.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [cougar]: success
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-30 15:09:27] INFO root fetch - processPackages [dbtc]: Remove: archive file [/home/abi/fetcher/tmp/dbtc-0.5.0.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [dbtc]: Remove: archive file [/home/abi/fetcher/tmp/dbtc-0.5.1.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [dbtc]: success
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-30 15:09:27] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.4.8b2.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [equilibrator-pathway]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-pathway-0.5.0b1.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [equilibrator-pathway]: success
+[2023-07-30 15:09:27] INFO root fetch - processPackages [owcli]: Remove: archive file [/home/abi/fetcher/tmp/owcli-0.7.0-py3-none-any.whl.zip]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [owcli]: Remove: archive file [/home/abi/fetcher/tmp/owcli-0.8.0-py3-none-any.whl.zip]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [owcli]: success
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.1.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.2.tar.gz]
+[2023-07-30 15:09:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-30 15:09:28] INFO root fetch - processPackages [uidom]: Remove: archive file [/home/abi/fetcher/tmp/uidom-0.3a3.tar.gz]
+[2023-07-30 15:09:28] INFO root fetch - processPackages [uidom]: Remove: archive file [/home/abi/fetcher/tmp/uidom-0.3a4.tar.gz]
+[2023-07-30 15:09:28] INFO root fetch - main [MainThread]: End processing [uidom]: success
+[2023-07-30 15:09:28] INFO root fetch - processPackages [specfile]: Remove: archive file [/home/abi/fetcher/tmp/specfile-0.9.0.tar.gz]
+[2023-07-30 15:09:28] INFO root fetch - processPackages [specfile]: Remove: archive file [/home/abi/fetcher/tmp/specfile-0.9.1.tar.gz]
+[2023-07-30 15:09:28] INFO root fetch - main [MainThread]: End processing [specfile]: success
+[2023-07-30 15:09:28] INFO root fetch - main [MainThread]: Store serial: [19096414]
