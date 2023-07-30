@@ -12049,3 +12049,82 @@
 [2023-07-30 17:20:13] INFO root fetch - processPackages [specfabpy]: Remove: archive file [/home/abi/fetcher/tmp/specfabpy-2023.7.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-30 17:20:13] INFO root fetch - main [MainThread]: End processing [specfabpy]: success
 [2023-07-30 17:20:13] INFO root fetch - main [MainThread]: Store serial: [19097298]
+[2023-07-30 17:25:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097298]
+[2023-07-30 17:25:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aco-routing
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgegui
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eparse
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfury
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polarify
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pastis-framework
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: srcmap
+[2023-07-30 17:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gwemopt
+[2023-07-30 17:25:34] INFO root fetch - processPackages [aco-routing]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [pastis-framework]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 17:25:34] WARNING root fetch - processPackages [srcmap]: Skipping, unable to determine old version
+[2023-07-30 17:25:34] INFO root fetch - main [MainThread]: End processing [srcmap] error
+[2023-07-30 17:25:34] INFO root fetch - processPackages [polarify]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230730.6.43.787357] Old Version: [20230730.15.22.433933]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [pyfury]: New version: [0.1.0a5] Old Version: [0.0.1.dev0]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [eparse]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [gwemopt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 17:25:34] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/79/f6/ff5816371e6f6f09316aff68c7927337f9230fe762e5b9246df4eeeca99b/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl
+[2023-07-30 17:25:34] INFO root fetch - processPackages [aco-routing]: Downloading https://files.pythonhosted.org/packages/34/91/97a1aadabdf76e9cb319c755974d82974eba154da1202e12e91bd987225b/aco_routing-1.0.5.tar.gz
+[2023-07-30 17:25:34] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-30 17:25:34] INFO root fetch - processPackages [polarify]: Downloading https://files.pythonhosted.org/packages/cd/7c/9592672a3e7a573517a0bd784a2ec0f490f3bc30aea117733c1b095a4bd5/polarify-0.1.0.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/80/2b/740dc3226063857e87b75fed9f2a6bc32afdc63a8775bdb335a7f745830e/certora-cli-alpha-master-20230730.15.22.433933.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [pastis-framework]: Downloading https://files.pythonhosted.org/packages/83/de/85c8a07ea46ef93e1fc4912385ae9afd500703c16be2615b4cd9fcef0bbc/pastis-framework-1.0.5.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [eparse]: Downloading https://files.pythonhosted.org/packages/a4/84/fed62518458d9ada86d508689a0d2be388d1d3a6d6560d8631a488dfe070/eparse-0.6.2.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [gwemopt]: Downloading https://files.pythonhosted.org/packages/f4/c6/7889901b8f8f56e1a92270b889aa0a81b5741be86ffd3834da33673cd4ab/gwemopt-0.1.3.tar.gz
+[2023-07-30 17:25:35] WARNING root fetch - processPackages [gwemopt]: Skipping package: exceeds size limit 111422414>=10485760
+[2023-07-30 17:25:35] INFO root fetch - main [MainThread]: End processing [gwemopt] error
+[2023-07-30 17:25:35] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37750508>=10485760
+[2023-07-30 17:25:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-30 17:25:35] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [aco-routing]: Downloading https://files.pythonhosted.org/packages/23/38/5de371e450a21a193945fc8d8c1fe1485e670649d5511f6dd90345a07b16/aco_routing-1.0.6.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [polarify]: Downloading https://files.pythonhosted.org/packages/9f/0c/c46106b999a665b35a58afc3202af7d50016d9a778a6e5f545a4de15b358/polarify-0.1.1.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-30 17:25:35] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230730/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 17:25:35] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/89/ac/6122471aa7160b1c106b645ac9872cf929641cd3f61f1af78d139be892d2/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-30 17:25:35] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [aco-routing]: executing diffoscope
+[2023-07-30 17:25:35] INFO root fetch - processPackages [aco-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aco_routing-1.0.5.tar.gz tmp/aco_routing-1.0.6.tar.gz --markdown 20230730/a/aco-routing/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 17:25:35] INFO root fetch - processPackages [pastis-framework]: Downloading https://files.pythonhosted.org/packages/8e/b7/5fd69ca32e9e55c8914b4686a4d450784b0068c74f7ed0654abc1d694d5b/pastis-framework-1.0.6.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [eparse]: Downloading https://files.pythonhosted.org/packages/d1/8c/9acd5588b3ccf8afbb58f33455eaba2d96c24a27a5ff3367c2f24e787b95/eparse-0.6.3.tar.gz
+[2023-07-30 17:25:35] INFO root fetch - processPackages [polarify]: executing diffoscope
+[2023-07-30 17:25:35] INFO root fetch - processPackages [polarify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarify-0.1.0.tar.gz tmp/polarify-0.1.1.tar.gz --markdown 20230730/p/polarify/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 17:25:35] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-30 17:25:35] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev8.tar.gz tmp/systembridgegui-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgegui/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:25:35] INFO root fetch - processPackages [eparse]: executing diffoscope
+[2023-07-30 17:25:35] INFO root fetch - processPackages [eparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eparse-0.6.2.tar.gz tmp/eparse-0.6.3.tar.gz --markdown 20230730/e/eparse/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-30 17:25:35] INFO root fetch - processPackages [pastis-framework]: executing diffoscope
+[2023-07-30 17:25:35] INFO root fetch - processPackages [pastis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastis-framework-1.0.5.tar.gz tmp/pastis-framework-1.0.6.tar.gz --markdown 20230730/p/pastis-framework/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 17:25:35] INFO root fetch - processPackages [pyfury]: executing diffoscope
+[2023-07-30 17:25:35] INFO root fetch - processPackages [pyfury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl.zip tmp/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230730/p/pyfury/0.0.1.dev0-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-30 17:25:36] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-30 17:25:36] INFO root fetch - processPackages [polarify]: Remove: archive file [/home/abi/fetcher/tmp/polarify-0.1.0.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - processPackages [polarify]: Remove: archive file [/home/abi/fetcher/tmp/polarify-0.1.1.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - main [MainThread]: End processing [polarify]: success
+[2023-07-30 17:25:36] INFO root fetch - processPackages [aco-routing]: Remove: archive file [/home/abi/fetcher/tmp/aco_routing-1.0.5.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - processPackages [aco-routing]: Remove: archive file [/home/abi/fetcher/tmp/aco_routing-1.0.6.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - main [MainThread]: End processing [aco-routing]: success
+[2023-07-30 17:25:36] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-30 17:25:36] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-30 17:25:37] INFO root fetch - processPackages [eparse]: Remove: archive file [/home/abi/fetcher/tmp/eparse-0.6.2.tar.gz]
+[2023-07-30 17:25:37] INFO root fetch - processPackages [eparse]: Remove: archive file [/home/abi/fetcher/tmp/eparse-0.6.3.tar.gz]
+[2023-07-30 17:25:37] INFO root fetch - main [MainThread]: End processing [eparse]: success
+[2023-07-30 17:25:37] INFO root fetch - processPackages [pastis-framework]: Remove: archive file [/home/abi/fetcher/tmp/pastis-framework-1.0.5.tar.gz]
+[2023-07-30 17:25:37] INFO root fetch - processPackages [pastis-framework]: Remove: archive file [/home/abi/fetcher/tmp/pastis-framework-1.0.6.tar.gz]
+[2023-07-30 17:25:37] INFO root fetch - main [MainThread]: End processing [pastis-framework]: success
+[2023-07-30 17:25:37] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl.zip]
+[2023-07-30 17:25:37] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.1.0a5-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-30 17:25:37] INFO root fetch - main [MainThread]: End processing [pyfury]: success
+[2023-07-30 17:25:37] INFO root fetch - main [MainThread]: Store serial: [19097338]
