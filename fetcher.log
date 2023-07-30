@@ -6428,3 +6428,86 @@
 [2023-07-30 10:21:43] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6959.tar.gz]
 [2023-07-30 10:21:43] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-30 10:21:43] INFO root fetch - main [MainThread]: Store serial: [19094698]
+[2023-07-30 10:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094698]
+[2023-07-30 10:26:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readmeai
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aify
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: attrdictx
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyimporters-csv
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readmeai
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: readmeai
+[2023-07-30 10:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-model-optimization-nightly
+[2023-07-30 10:26:51] INFO root fetch - processPackages [OneOnOne]: New version: [0.696] Old Version: [0.6959]
+[2023-07-30 10:26:51] INFO root fetch - processPackages [readmeai]: New version: [0.0.445] Old Version: [0.0.444]
+[2023-07-30 10:26:51] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 10:26:51] INFO root fetch - processPackages [readmeai]: New version: [0.0.445] Old Version: [0.0.444]
+[2023-07-30 10:26:51] WARNING root fetch - processPackages [attrdictx]: Skipping, unable to determine old version
+[2023-07-30 10:26:51] INFO root fetch - main [MainThread]: End processing [attrdictx] error
+[2023-07-30 10:26:51] INFO root fetch - processPackages [readmeai]: New version: [0.0.445] Old Version: [0.0.444]
+[2023-07-30 10:26:51] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 10:26:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230729] Old Version: [0.7.5.dev20230728]
+[2023-07-30 10:26:52] INFO root fetch - processPackages [kcli]: New version: [99.0.202307300824] Old Version: [99.0.202307291937]
+[2023-07-30 10:26:52] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-30 10:26:52] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/3a/0e/207980ba43a54ea9773335a2b904c0b7bcd6592824dbc9eff47f5ab844cd/OneOnOne-0.6959.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/9a/20/c80a711561939c2767fb78449f1eadee325cb963fe364d7416a7eeb49606/seven_cloudapp_frame-1.0.98.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/53/ac/830236a4c1a3214602d5c1953845cf63a428c6ad959aa067b35379d3ad17/tf_model_optimization_nightly-0.7.5.dev20230728-py2.py3-none-any.whl
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/38/2c/bbd025e19dac05c53085a136fd1192741757c2fe77343263ab4c8f60a063/readmeai-0.0.444.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/38/2c/bbd025e19dac05c53085a136fd1192741757c2fe77343263ab4c8f60a063/readmeai-0.0.444.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/38/2c/bbd025e19dac05c53085a136fd1192741757c2fe77343263ab4c8f60a063/readmeai-0.0.444.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-30 10:26:52] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/bb/4e/80f2454f933be373ceb0cb5e10536ffa0981ce5e3ea7a0e00e1ada8f7cc1/kcli-99.0.202307291937-py3-none-any.whl
+[2023-07-30 10:26:52] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/05/d7f764afd1be6539bb4f5243ffa97b161f25b86f4f770b3087ecafa3c5e7/seven_cloudapp_frame-1.0.99.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f8/e8/79b6ecb9cfc94cebe459bcd7837c045a1be92d02b030db8e8a8103265ef3/OneOnOne-0.696.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/0c/24/5e2c1637dc33774c7ba5af69a8ffbe78ecc5fa1d708032ec1393425df93a/readmeai-0.0.445.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/0c/24/5e2c1637dc33774c7ba5af69a8ffbe78ecc5fa1d708032ec1393425df93a/readmeai-0.0.445.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/0c/24/5e2c1637dc33774c7ba5af69a8ffbe78ecc5fa1d708032ec1393425df93a/readmeai-0.0.445.tar.gz
+[2023-07-30 10:26:52] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0a/2c/a31891aa99e3fbeb02658e099c368aa088d7709fcba5505ff9e6f9b1b109/kcli-99.0.202307300824-py3-none-any.whl
+[2023-07-30 10:26:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/7d/44/f6fbba8c37e58d2290231ea626a22ecf44394eab799710484e4641e50aa1/tf_model_optimization_nightly-0.7.5.dev20230729-py2.py3-none-any.whl
+[2023-07-30 10:26:52] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 10:26:52] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 10:26:52] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-30 10:26:52] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.98.tar.gz tmp/seven_cloudapp_frame-1.0.99.tar.gz --markdown 20230730/s/seven-cloudapp-frame/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:26:52] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.444.tar.gz tmp/readmeai-0.0.445.tar.gz --markdown 20230730/r/readmeai/0.0.444-0.0.445/diff.md --exclude *.pyd
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.444.tar.gz tmp/readmeai-0.0.445.tar.gz --markdown 20230730/r/readmeai/0.0.444-0.0.445/diff.md --exclude *.pyd
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:26:52] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.444.tar.gz tmp/readmeai-0.0.445.tar.gz --markdown 20230730/r/readmeai/0.0.444-0.0.445/diff.md --exclude *.pyd
+[2023-07-30 10:26:52] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 10:26:52] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6959.tar.gz tmp/OneOnOne-0.696.tar.gz --markdown 20230730/O/OneOnOne/0.6959-0.696/diff.md --exclude *.pyd
+[2023-07-30 10:26:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-30 10:26:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230728-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230729-py2.py3-none-any.whl.zip --markdown 20230730/t/tf-model-optimization-nightly/0.7.5.dev20230728-0.7.5.dev20230729/diff.md --exclude *.pyd
+[2023-07-30 10:26:53] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-30 10:26:53] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230730/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 10:26:53] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-30 10:26:53] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307291937-py3-none-any.whl.zip tmp/kcli-99.0.202307300824-py3-none-any.whl.zip --markdown 20230730/k/kcli/99.0.202307291937-99.0.202307300824/diff.md --exclude *.pyd
+[2023-07-30 10:26:54] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 10:26:54] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 10:26:54] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 10:26:54] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.444.tar.gz]
+[2023-07-30 10:26:54] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.445.tar.gz]
+[2023-07-30 10:26:54] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:26:54] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:26:54] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:26:54] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6959.tar.gz]
+[2023-07-30 10:26:54] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.696.tar.gz]
+[2023-07-30 10:26:54] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 10:26:54] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-30 10:26:54] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-30 10:26:54] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-30 10:26:54] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230728-py2.py3-none-any.whl.zip]
+[2023-07-30 10:26:54] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230729-py2.py3-none-any.whl.zip]
+[2023-07-30 10:26:54] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-30 10:26:55] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.98.tar.gz]
+[2023-07-30 10:26:55] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.99.tar.gz]
+[2023-07-30 10:26:55] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-30 10:26:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307291937-py3-none-any.whl.zip]
+[2023-07-30 10:26:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307300824-py3-none-any.whl.zip]
+[2023-07-30 10:26:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-30 10:26:57] INFO root fetch - main [MainThread]: Store serial: [19094727]
