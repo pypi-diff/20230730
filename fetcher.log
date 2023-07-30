@@ -6594,3 +6594,54 @@
 [2023-07-30 10:32:09] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.5.0-py3-none-any.whl.zip]
 [2023-07-30 10:32:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
 [2023-07-30 10:32:09] INFO root fetch - main [MainThread]: Store serial: [19094756]
+[2023-07-30 10:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094756]
+[2023-07-30 10:37:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiggler-studiorabota
+[2023-07-30 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bili-eta
+[2023-07-30 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-xml
+[2023-07-30 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: desktopspy
+[2023-07-30 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amatak-shop
+[2023-07-30 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlx-exec
+[2023-07-30 10:37:17] INFO root fetch - processPackages [bili-eta]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 10:37:17] INFO root fetch - processPackages [amatak-shop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 10:37:17] INFO root fetch - processPackages [sqlx-exec]: New version: [1.3.8] Old Version: [1.3.6]
+[2023-07-30 10:37:17] INFO root fetch - processPackages [pydantic-xml]: New version: [2.0.0b1] Old Version: [2.0.0a2]
+[2023-07-30 10:37:17] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 10:37:17] WARNING root fetch - processPackages [desktopspy]: Skipping, unable to determine old version
+[2023-07-30 10:37:17] INFO root fetch - main [MainThread]: End processing [desktopspy] error
+[2023-07-30 10:37:17] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/de/22/5029d386b753418479c2134d2b70440830c88893fe4986167467ae642a7b/sqlx-exec-1.3.6.tar.gz
+[2023-07-30 10:37:17] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/65/2a/216b062c27f4363a83ff09888b1929d039f25678fc5996be8a338a4469b0/amatak-shop-1.0.8.tar.gz
+[2023-07-30 10:37:17] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-30 10:37:17] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/8d/70/ff308afedeef790da3b936ca78975e525b7a6d13827fdc542e71e7d9b6fa/bili_eta-0.1.0.tar.gz
+[2023-07-30 10:37:18] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/93/fa/87a3a369977cbfce7bdb29fa2cff00763ecc3b5ba2274f2ebadd00ffba7f/pydantic_xml-2.0.0a2.tar.gz
+[2023-07-30 10:37:18] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-30 10:37:18] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/52/e1/5aaccb43ed3cf65e5ef2c9cc0d7bdcc88161f34bc1e5b00a07251a39a187/sqlx-exec-1.3.8.tar.gz
+[2023-07-30 10:37:18] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/db/74/791176a6f30bfeefd033aac71e356c6bb1387979ccd05fcad517c244b47d/amatak-shop-1.0.9.tar.gz
+[2023-07-30 10:37:18] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-30 10:37:18] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230730/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 10:37:18] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/70/58/7ae5d544617e399645c08155cab9e50efca43d0a5fa09d3099847ace98f7/pydantic_xml-2.0.0b1.tar.gz
+[2023-07-30 10:37:18] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/15/c2/2718a9c2cef45d6512240e36b933ed0924e6cd1815d44b59459bedd20d77/bili_eta-0.1.1.tar.gz
+[2023-07-30 10:37:18] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-30 10:37:18] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.3.6.tar.gz tmp/sqlx-exec-1.3.8.tar.gz --markdown 20230730/s/sqlx-exec/1.3.6-1.3.8/diff.md --exclude *.pyd
+[2023-07-30 10:37:18] INFO root fetch - processPackages [pydantic-xml]: executing diffoscope
+[2023-07-30 10:37:18] INFO root fetch - processPackages [pydantic-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_xml-2.0.0a2.tar.gz tmp/pydantic_xml-2.0.0b1.tar.gz --markdown 20230730/p/pydantic-xml/2.0.0a2-2.0.0b1/diff.md --exclude *.pyd
+[2023-07-30 10:37:18] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 10:37:18] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.1.0.tar.gz tmp/bili_eta-0.1.1.tar.gz --markdown 20230730/b/bili-eta/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 10:37:18] INFO root fetch - processPackages [amatak-shop]: executing diffoscope
+[2023-07-30 10:37:18] INFO root fetch - processPackages [amatak-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amatak-shop-1.0.8.tar.gz tmp/amatak-shop-1.0.9.tar.gz --markdown 20230730/a/amatak-shop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 10:37:19] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-30 10:37:19] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.6.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.8.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-30 10:37:19] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.0.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.1.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 10:37:19] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-2.0.0a2.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-2.0.0b1.tar.gz]
+[2023-07-30 10:37:19] INFO root fetch - main [MainThread]: End processing [pydantic-xml]: success
+[2023-07-30 10:37:21] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.8.tar.gz]
+[2023-07-30 10:37:21] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.9.tar.gz]
+[2023-07-30 10:37:21] INFO root fetch - main [MainThread]: End processing [amatak-shop]: success
+[2023-07-30 10:37:21] INFO root fetch - main [MainThread]: Store serial: [19094775]
