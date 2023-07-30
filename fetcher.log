@@ -8329,3 +8329,77 @@
 [2023-07-30 12:38:29] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-07-30 12:38:29] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-07-30 12:38:29] INFO root fetch - main [MainThread]: Store serial: [19095680]
+[2023-07-30 12:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095680]
+[2023-07-30 12:43:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compoundwidgets
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DS2STAC-Ingester
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airtouch2
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irispie
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpleworkspace
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleepyemoji
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cfscanner
+[2023-07-30 12:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decision-boundary-mapper
+[2023-07-30 12:43:38] INFO root fetch - processPackages [sleepyemoji]: New version: [3.5] Old Version: [3.4]
+[2023-07-30 12:43:38] INFO root fetch - processPackages [decision-boundary-mapper]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-30 12:43:38] INFO root fetch - processPackages [compoundwidgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 12:43:38] WARNING root fetch - processPackages [irispie]: Skipping, unable to determine old version
+[2023-07-30 12:43:38] INFO root fetch - main [MainThread]: End processing [irispie] error
+[2023-07-30 12:43:38] INFO root fetch - processPackages [airtouch2]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-30 12:43:38] INFO root fetch - processPackages [DS2STAC-Ingester]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 12:43:38] INFO root fetch - processPackages [cfscanner]: New version: [1.4.1] Old Version: [1.4.0a3]
+[2023-07-30 12:43:38] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230729] Old Version: [1.0.0.dev20230728]
+[2023-07-30 12:43:38] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-30 12:43:38] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/cc/f9/dc7c7a5d09f3d9494dfed425c6e6f0880341a94faf3d9905be4705c1496c/sleepyemoji-3.4.tar.gz
+[2023-07-30 12:43:38] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/53/5a/188ad332b3ebeb64404612fca9fd83cde681c19a6355cd1da2dc86899878/skypilot-nightly-1.0.0.dev20230728.tar.gz
+[2023-07-30 12:43:38] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/68/23/33f5ae2621f41b8166e08fe3c5c13614079e7f2c0bef7cba2a8010a13a51/DS2STAC-Ingester-1.0.1.tar.gz
+[2023-07-30 12:43:38] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/6e/e8/c8aba7c6bb14a02cea51131b35f41f9aa2c5be86fff3e532e4ad4cb5aa49/compoundwidgets-0.2.8.tar.gz
+[2023-07-30 12:43:38] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-30 12:43:38] INFO root fetch - processPackages [decision-boundary-mapper]: Downloading https://files.pythonhosted.org/packages/94/b6/51e73c66050c76043f1065e039a38c22bc749874bcc5a289ef7a93660458/decision-boundary-mapper-0.5.1.tar.gz
+[2023-07-30 12:43:38] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/30/8d/028b95d85be5587606cc33f48b20e193eee6dcfcb58ffff0e9e447cf8cc9/cfscanner-1.4.0a3.tar.gz
+[2023-07-30 12:43:39] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/bb/5e/d6b2b28eddf584dfa8381ffd0aec12f8b9cfc9df9780d18ac0916a8e7bbd/airtouch2-0.7.6.tar.gz
+[2023-07-30 12:43:39] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 19285357>=10485760
+[2023-07-30 12:43:39] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-07-30 12:43:39] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-30 12:43:39] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/e1/cc/4b7c50d2073f8d34da4f4bda85bc764c66aed88b82e91887c62319ec2eb3/sleepyemoji-3.5.tar.gz
+[2023-07-30 12:43:39] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/b0/9e/8583328c8a1e8dc193b21fad6b0e5d89fac1b1488712e3ffd597cceda6ae/skypilot-nightly-1.0.0.dev20230729.tar.gz
+[2023-07-30 12:43:39] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-30 12:43:39] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230730/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-30 12:43:39] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/15/d7/f608545baec68f4b85ad647a8da3f27d158bccf5f94f02329ada43891bcf/DS2STAC-Ingester-1.0.2.tar.gz
+[2023-07-30 12:43:39] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 12:43:39] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-3.4.tar.gz tmp/sleepyemoji-3.5.tar.gz --markdown 20230730/s/sleepyemoji/3.4-3.5/diff.md --exclude *.pyd
+[2023-07-30 12:43:39] INFO root fetch - processPackages [decision-boundary-mapper]: Downloading https://files.pythonhosted.org/packages/9d/f8/209bd497168e40a200b659df0eae3dddca20902720519c96e018558d609f/decision-boundary-mapper-0.5.2.tar.gz
+[2023-07-30 12:43:39] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/2d/02/41a17a00996debfcc84ce21efe340c89924c33f3917f8b98892eb8e711e8/compoundwidgets-0.2.9.tar.gz
+[2023-07-30 12:43:39] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/bf/fe/7f64102d789937f1a57e642bb59417b5358ce9bfc610e5318f60448c0868/airtouch2-0.7.7.tar.gz
+[2023-07-30 12:43:39] INFO root fetch - processPackages [DS2STAC-Ingester]: executing diffoscope
+[2023-07-30 12:43:39] INFO root fetch - processPackages [DS2STAC-Ingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DS2STAC-Ingester-1.0.1.tar.gz tmp/DS2STAC-Ingester-1.0.2.tar.gz --markdown 20230730/D/DS2STAC-Ingester/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 12:43:39] INFO root fetch - processPackages [decision-boundary-mapper]: executing diffoscope
+[2023-07-30 12:43:39] INFO root fetch - processPackages [decision-boundary-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decision-boundary-mapper-0.5.1.tar.gz tmp/decision-boundary-mapper-0.5.2.tar.gz --markdown 20230730/d/decision-boundary-mapper/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-30 12:43:39] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-30 12:43:39] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230728.tar.gz tmp/skypilot-nightly-1.0.0.dev20230729.tar.gz --markdown 20230730/s/skypilot-nightly/1.0.0.dev20230728-1.0.0.dev20230729/diff.md --exclude *.pyd
+[2023-07-30 12:43:39] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-07-30 12:43:39] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.7.6.tar.gz tmp/airtouch2-0.7.7.tar.gz --markdown 20230730/a/airtouch2/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-30 12:43:39] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2023-07-30 12:43:39] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.2.8.tar.gz tmp/compoundwidgets-0.2.9.tar.gz --markdown 20230730/c/compoundwidgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 12:43:40] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.4.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.5.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 12:43:40] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-30 12:43:40] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-30 12:43:40] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-30 12:43:40] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.1.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.2.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - main [MainThread]: End processing [DS2STAC-Ingester]: success
+[2023-07-30 12:43:40] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.6.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.7.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-07-30 12:43:40] INFO root fetch - processPackages [compoundwidgets]: Remove: archive file [/home/abi/fetcher/tmp/compoundwidgets-0.2.8.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - processPackages [compoundwidgets]: Remove: archive file [/home/abi/fetcher/tmp/compoundwidgets-0.2.9.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2023-07-30 12:43:40] INFO root fetch - processPackages [decision-boundary-mapper]: Remove: archive file [/home/abi/fetcher/tmp/decision-boundary-mapper-0.5.1.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - processPackages [decision-boundary-mapper]: Remove: archive file [/home/abi/fetcher/tmp/decision-boundary-mapper-0.5.2.tar.gz]
+[2023-07-30 12:43:40] INFO root fetch - main [MainThread]: End processing [decision-boundary-mapper]: success
+[2023-07-30 12:43:41] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230728.tar.gz]
+[2023-07-30 12:43:41] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230729.tar.gz]
+[2023-07-30 12:43:41] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-30 12:43:41] INFO root fetch - main [MainThread]: Store serial: [19095707]
