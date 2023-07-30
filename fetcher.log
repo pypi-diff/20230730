@@ -14558,3 +14558,93 @@
 [2023-07-30 20:45:49] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
 [2023-07-30 20:45:49] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
 [2023-07-30 20:45:49] INFO root fetch - main [MainThread]: Store serial: [19098450]
+[2023-07-30 20:50:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098450]
+[2023-07-30 20:50:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VN-transformer
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circleai
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linfa-vi
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wikichangewatcher
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tabulated
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxtools
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fooder
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptmeteo
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: examon-core
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiolyric
+[2023-07-30 20:50:58] WARNING root fetch - processPackages [circleai]: Skipping, unable to determine old version
+[2023-07-30 20:50:58] INFO root fetch - processPackages [circleai]: Start processing: oresat-olaf
+[2023-07-30 20:50:58] INFO root fetch - main [MainThread]: End processing [circleai] error
+[2023-07-30 20:50:58] INFO root fetch - processPackages [aiolyric]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [VN-transformer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [wikichangewatcher]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [promptmeteo]: New version: [0.0.1b0] Old Version: [0.0.0]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ccxtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [linfa-vi]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [examon-core]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [fooder]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 20:50:58] WARNING root fetch - processPackages [tabulated]: Skipping, unable to determine old version
+[2023-07-30 20:50:58] INFO root fetch - main [MainThread]: End processing [tabulated] error
+[2023-07-30 20:50:58] INFO root fetch - processPackages [oresat-olaf]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-07-30 20:50:58] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/e1/02/011e5f3e6e68e831e301d4fb900a34d5ca6e47bfc1971cd2a05633b8cc16/linfa_vi-1.1.8.tar.gz
+[2023-07-30 20:50:58] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/2f/81/ac3ab54ce686eaf6c2cbf0b6b8845dc3abcd2ca613864b7c6c242ffd3c56/ccxtools-0.0.8.tar.gz
+[2023-07-30 20:50:58] INFO root fetch - processPackages [aiolyric]: Downloading https://files.pythonhosted.org/packages/d1/e4/8df75ffce4da60df9915525fb1e0ab8625f5fe363947affaf6bb3998b620/aiolyric-1.0.9.tar.gz
+[2023-07-30 20:50:58] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/4a/4b/a8843bbc84d76816ef18df4566b2f84287ad93c411d7f07e2f654c64e46d/wikichangewatcher-0.0.1-py3-none-any.whl
+[2023-07-30 20:50:58] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/00/28/3d59b7c69662e6f3a34a002639d969f42a9ecf213af532781310ecf5415f/VN-transformer-0.0.8.tar.gz
+[2023-07-30 20:50:58] INFO root fetch - processPackages [fooder]: Downloading https://files.pythonhosted.org/packages/7b/b8/4e837799716558448b78fe43e8cc1f561b865411e391d9024c1bf5ff6df4/fooder-0.0.3.tar.gz
+[2023-07-30 20:50:58] INFO root fetch - processPackages [promptmeteo]: Downloading https://files.pythonhosted.org/packages/9c/01/a157cf2e9f67a1a4b916b31726355e893b81d1d24d82279ff3e3a5af1b97/promptmeteo-0.0.0.tar.gz
+[2023-07-30 20:50:58] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/5f/c9/e9adcd1b37abd7f211492d03204c51b8788689877f52712e843518dfc952/oresat-olaf-2.1.2.tar.gz
+[2023-07-30 20:50:58] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/8b/3e/f40c652ccca1aa8c1ca7840ccd362799c37bd9f187b7ac71d6ab30e75424/examon_core-1.1.0.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/6a/7e/438697f48497afb308107482f6aa42e8e98784e2df25f8cd88b4e1df8353/linfa_vi-1.1.9.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/4b/e9/6ef44c6be3fb7e41208d0e44d2c881fbe5ece1952bea1b3b096a5201e196/ccxtools-0.0.9.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.1.8.tar.gz tmp/linfa_vi-1.1.9.tar.gz --markdown 20230730/l/linfa-vi/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [aiolyric]: Downloading https://files.pythonhosted.org/packages/1d/e5/8fe32d96f5d0b8b86638b74f1888094e5dac8a349ede0b14b3e3e2b6dfe0/aiolyric-1.1.0.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/f4/52/8e1b6b8e2043cff02222f3a05ee08cd1f8327c74694d1fbcdee4f5237ce1/VN-transformer-0.0.9.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/1b/3a/e80a971056396c66e52ab5f3517e369add1667ca79838654db0a19768fe2/wikichangewatcher-0.0.2-py3-none-any.whl
+[2023-07-30 20:50:59] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.8.tar.gz tmp/ccxtools-0.0.9.tar.gz --markdown 20230730/c/ccxtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/38/05/7b38a6c7d86957e3510f6a9c44b6948b4089bea98cee51b0393327296d15/examon_core-1.1.1.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [fooder]: Downloading https://files.pythonhosted.org/packages/09/7c/214f6d8326ee5dc2a4e9180b78c2932da8fc478e22f9a5f5bf553788632d/fooder-0.0.4.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/3f/fb/648ac060b9f849b3e7bfb4c3c1f36f8a3e137b5905f117655d7ca48fc138/oresat-olaf-2.2.0.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [aiolyric]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [promptmeteo]: Downloading https://files.pythonhosted.org/packages/78/71/bbbd8b528a52d17c0345592042597eb41822cfc72e60923f001f99fc7606/promptmeteo-0.0.1b0.tar.gz
+[2023-07-30 20:50:59] INFO root fetch - processPackages [aiolyric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiolyric-1.0.9.tar.gz tmp/aiolyric-1.1.0.tar.gz --markdown 20230730/a/aiolyric/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [VN-transformer]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [VN-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VN-transformer-0.0.8.tar.gz tmp/VN-transformer-0.0.9.tar.gz --markdown 20230730/V/VN-transformer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [wikichangewatcher]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [wikichangewatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikichangewatcher-0.0.1-py3-none-any.whl.zip tmp/wikichangewatcher-0.0.2-py3-none-any.whl.zip --markdown 20230730/w/wikichangewatcher/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.1.0.tar.gz tmp/examon_core-1.1.1.tar.gz --markdown 20230730/e/examon-core/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [fooder]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [fooder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fooder-0.0.3.tar.gz tmp/fooder-0.0.4.tar.gz --markdown 20230730/f/fooder/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [oresat-olaf]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [oresat-olaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat-olaf-2.1.2.tar.gz tmp/oresat-olaf-2.2.0.tar.gz --markdown 20230730/o/oresat-olaf/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-07-30 20:50:59] INFO root fetch - processPackages [promptmeteo]: executing diffoscope
+[2023-07-30 20:50:59] INFO root fetch - processPackages [promptmeteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptmeteo-0.0.0.tar.gz tmp/promptmeteo-0.0.1b0.tar.gz --markdown 20230730/p/promptmeteo/0.0.0-0.0.1b0/diff.md --exclude *.pyd
+[2023-07-30 20:51:00] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.8.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.9.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-30 20:51:00] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.8.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.9.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2023-07-30 20:51:00] INFO root fetch - processPackages [aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/aiolyric-1.0.9.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - processPackages [aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/aiolyric-1.1.0.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - main [MainThread]: End processing [aiolyric]: success
+[2023-07-30 20:51:00] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.8.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.9.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - main [MainThread]: End processing [VN-transformer]: success
+[2023-07-30 20:51:00] INFO root fetch - processPackages [fooder]: Remove: archive file [/home/abi/fetcher/tmp/fooder-0.0.3.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - processPackages [fooder]: Remove: archive file [/home/abi/fetcher/tmp/fooder-0.0.4.tar.gz]
+[2023-07-30 20:51:00] INFO root fetch - main [MainThread]: End processing [fooder]: success
+[2023-07-30 20:51:01] INFO root fetch - processPackages [promptmeteo]: Remove: archive file [/home/abi/fetcher/tmp/promptmeteo-0.0.0.tar.gz]
+[2023-07-30 20:51:01] INFO root fetch - processPackages [promptmeteo]: Remove: archive file [/home/abi/fetcher/tmp/promptmeteo-0.0.1b0.tar.gz]
+[2023-07-30 20:51:01] INFO root fetch - main [MainThread]: End processing [promptmeteo]: success
+[2023-07-30 20:51:01] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.0.1-py3-none-any.whl.zip]
+[2023-07-30 20:51:01] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.0.2-py3-none-any.whl.zip]
+[2023-07-30 20:51:01] INFO root fetch - main [MainThread]: End processing [wikichangewatcher]: success
+[2023-07-30 20:51:01] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.1.0.tar.gz]
+[2023-07-30 20:51:01] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.1.1.tar.gz]
+[2023-07-30 20:51:01] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-30 20:51:01] INFO root fetch - processPackages [oresat-olaf]: Remove: archive file [/home/abi/fetcher/tmp/oresat-olaf-2.1.2.tar.gz]
+[2023-07-30 20:51:01] INFO root fetch - processPackages [oresat-olaf]: Remove: archive file [/home/abi/fetcher/tmp/oresat-olaf-2.2.0.tar.gz]
+[2023-07-30 20:51:01] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
+[2023-07-30 20:51:01] INFO root fetch - main [MainThread]: Store serial: [19098487]
