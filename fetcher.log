@@ -16419,3 +16419,53 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 23:05:06] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.1.tar.gz]
 [2023-07-30 23:05:06] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
 [2023-07-30 23:05:06] INFO root fetch - main [MainThread]: Store serial: [19099379]
+[2023-07-30 23:10:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099379]
+[2023-07-30 23:10:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 23:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gs-include
+[2023-07-30 23:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corcli
+[2023-07-30 23:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thu-learn-downloader
+[2023-07-30 23:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-fortuna
+[2023-07-30 23:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: style-parser
+[2023-07-30 23:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psusannx-email
+[2023-07-30 23:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agentforge
+[2023-07-30 23:10:15] INFO root fetch - processPackages [corcli]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-07-30 23:10:15] INFO root fetch - processPackages [gs-include]: New version: [0.24.0a20230730] Old Version: [0.24.0a20230729]
+[2023-07-30 23:10:15] INFO root fetch - processPackages [aws-fortuna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 23:10:15] WARNING root fetch - processPackages [style-parser]: Skipping, unable to determine old version
+[2023-07-30 23:10:15] INFO root fetch - main [MainThread]: End processing [style-parser] error
+[2023-07-30 23:10:15] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/da/7b/9a2fb8233a87284d594ab622b3fb8371d7d7663930a2281fc313bb55a622/aws_fortuna-0.1.8.tar.gz
+[2023-07-30 23:10:15] INFO root fetch - processPackages [psusannx-email]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 23:10:15] WARNING root fetch - processPackages [agentforge]: Skipping, unable to determine old version
+[2023-07-30 23:10:15] INFO root fetch - main [MainThread]: End processing [agentforge] error
+[2023-07-30 23:10:15] INFO root fetch - processPackages [thu-learn-downloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 23:10:15] INFO root fetch - processPackages [corcli]: Downloading https://files.pythonhosted.org/packages/11/5d/76f4bc151b1c54e2b15ab5dc03d86e9f7692e5afb0d17da9c27250ba7171/corcli-0.0.7.tar.gz
+[2023-07-30 23:10:15] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/c2/22/ce105506ecc0070afdfb8930057e2fd51c7ce640d67bf14e973a7eeee319/gs_include-0.24.0a20230729-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-30 23:10:15] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 32294172>=10485760
+[2023-07-30 23:10:15] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-07-30 23:10:15] INFO root fetch - processPackages [psusannx-email]: Downloading https://files.pythonhosted.org/packages/4a/eb/471ec811c2325f1fab4b3c1d64372bf516be83f351fe86334e3949de7599/psusannx_email-0.1.0.tar.gz
+[2023-07-30 23:10:15] INFO root fetch - processPackages [thu-learn-downloader]: Downloading https://files.pythonhosted.org/packages/b9/b1/10860181688936832714cd6f11b3590c78dc507037fe53ea8e5c54ccb5ee/thu_learn_downloader-0.1.8.tar.gz
+[2023-07-30 23:10:15] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/6f/b6/d1180b6d5028216edeed20bb4ed02e103eaf19befc1d200a31f685a074d9/aws_fortuna-0.1.9.tar.gz
+[2023-07-30 23:10:15] INFO root fetch - processPackages [aws-fortuna]: executing diffoscope
+[2023-07-30 23:10:15] INFO root fetch - processPackages [aws-fortuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_fortuna-0.1.8.tar.gz tmp/aws_fortuna-0.1.9.tar.gz --markdown 20230730/a/aws-fortuna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 23:10:16] INFO root fetch - processPackages [corcli]: Downloading https://files.pythonhosted.org/packages/f2/a1/7177a88bd0a2ab7c49ac7395ee65248a7ca21c807fb19fb0f94ca0560922/corcli-1.0.0.tar.gz
+[2023-07-30 23:10:16] INFO root fetch - processPackages [psusannx-email]: Downloading https://files.pythonhosted.org/packages/8a/ad/ec5af57fa4f075810eaac47bf91e3f30032f5008cebb7c7435d3e029663d/psusannx_email-0.1.1.tar.gz
+[2023-07-30 23:10:16] INFO root fetch - processPackages [corcli]: executing diffoscope
+[2023-07-30 23:10:16] INFO root fetch - processPackages [corcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corcli-0.0.7.tar.gz tmp/corcli-1.0.0.tar.gz --markdown 20230730/c/corcli/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 23:10:16] INFO root fetch - processPackages [psusannx-email]: executing diffoscope
+[2023-07-30 23:10:16] INFO root fetch - processPackages [psusannx-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psusannx_email-0.1.0.tar.gz tmp/psusannx_email-0.1.1.tar.gz --markdown 20230730/p/psusannx-email/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 23:10:16] INFO root fetch - processPackages [thu-learn-downloader]: Downloading https://files.pythonhosted.org/packages/9d/74/992144c7ba4621c5d50d6923a66b2b20c0ba03716cc497806e4c3791fa1a/thu_learn_downloader-0.1.9.tar.gz
+[2023-07-30 23:10:16] INFO root fetch - processPackages [thu-learn-downloader]: executing diffoscope
+[2023-07-30 23:10:16] INFO root fetch - processPackages [thu-learn-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thu_learn_downloader-0.1.8.tar.gz tmp/thu_learn_downloader-0.1.9.tar.gz --markdown 20230730/t/thu-learn-downloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 23:10:16] INFO root fetch - processPackages [psusannx-email]: Remove: archive file [/home/abi/fetcher/tmp/psusannx_email-0.1.0.tar.gz]
+[2023-07-30 23:10:16] INFO root fetch - processPackages [psusannx-email]: Remove: archive file [/home/abi/fetcher/tmp/psusannx_email-0.1.1.tar.gz]
+[2023-07-30 23:10:16] INFO root fetch - main [MainThread]: End processing [psusannx-email]: success
+[2023-07-30 23:10:16] INFO root fetch - processPackages [corcli]: Remove: archive file [/home/abi/fetcher/tmp/corcli-0.0.7.tar.gz]
+[2023-07-30 23:10:16] INFO root fetch - processPackages [corcli]: Remove: archive file [/home/abi/fetcher/tmp/corcli-1.0.0.tar.gz]
+[2023-07-30 23:10:16] INFO root fetch - main [MainThread]: End processing [corcli]: success
+[2023-07-30 23:10:17] INFO root fetch - processPackages [thu-learn-downloader]: Remove: archive file [/home/abi/fetcher/tmp/thu_learn_downloader-0.1.8.tar.gz]
+[2023-07-30 23:10:17] INFO root fetch - processPackages [thu-learn-downloader]: Remove: archive file [/home/abi/fetcher/tmp/thu_learn_downloader-0.1.9.tar.gz]
+[2023-07-30 23:10:17] INFO root fetch - main [MainThread]: End processing [thu-learn-downloader]: success
+[2023-07-30 23:10:17] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.8.tar.gz]
+[2023-07-30 23:10:17] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.9.tar.gz]
+[2023-07-30 23:10:17] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
+[2023-07-30 23:10:17] INFO root fetch - main [MainThread]: Store serial: [19099470]
