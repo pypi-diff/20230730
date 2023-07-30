@@ -16167,3 +16167,76 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:43:51] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.5.tar.gz]
 [2023-07-30 22:43:51] INFO root fetch - main [MainThread]: End processing [pysr]: success
 [2023-07-30 22:43:51] INFO root fetch - main [MainThread]: Store serial: [19099293]
+[2023-07-30 22:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099293]
+[2023-07-30 22:48:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gehomesdk
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: artigraph
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlt
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sctour
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxy3d
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlmesh
+[2023-07-30 22:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: artigraph
+[2023-07-30 22:48:59] INFO root fetch - processPackages [artigraph]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [artigraph]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [gehomesdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [pyxy3d]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [sctour]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [dlt]: New version: [0.3.6a0] Old Version: [0.3.6]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 22:48:59] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/78/e5/65dceafdeed2a83f4b797c95f5b80947cac4ec3190896167f2cd247dc1a0/gehomesdk-0.5.8.tar.gz
+[2023-07-30 22:48:59] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-30 22:48:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/22/8b/3e0a62ddf49628a33707fe1feed42c13b44c8c77b3f823ce4550b658430f/artigraph-0.0.1.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/22/8b/3e0a62ddf49628a33707fe1feed42c13b44c8c77b3f823ce4550b658430f/artigraph-0.0.1.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/81/53/18f64cd2d109ef5476b3fecff24e347ae4f3aca242d7f05b9fa059df954b/dlt-0.3.6.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [sctour]: Downloading https://files.pythonhosted.org/packages/24/80/8f02ed3d37402c1c7b6b43089dcb6ffa076b370fd80e2fd6e473bd5067d6/sctour-0.1.3.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/09/14/8a9e0805b46c52bc885bb70022bbadc375fe1e96bb0ab046e07a65ddce39/pyxy3d-0.1.7.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/5d/14/ca1060e76076aab267e2a6e7dccae7575d443a3075ccc7203d8704e52b3a/gehomesdk-0.5.9.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [gehomesdk]: executing diffoscope
+[2023-07-30 22:49:00] INFO root fetch - processPackages [gehomesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gehomesdk-0.5.8.tar.gz tmp/gehomesdk-0.5.9.tar.gz --markdown 20230730/g/gehomesdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/79/18/a7839003ac3a96d42c758a9bbde8da7487aa5a59beb0500fab494e4820e1/artigraph-0.0.2.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/79/18/a7839003ac3a96d42c758a9bbde8da7487aa5a59beb0500fab494e4820e1/artigraph-0.0.2.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/40/fd/7691cc671769d2747e970f29831f44251359fe2503b3495b41a89be702f5/dlt-0.3.6a0.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [sctour]: Downloading https://files.pythonhosted.org/packages/ce/37/d2db5da44fef2d37067f802620e8b5ab1512edab131e693f1c25d61b3e85/sctour-1.0.0.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: executing diffoscope
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artigraph-0.0.1.tar.gz tmp/artigraph-0.0.2.tar.gz --markdown 20230730/a/artigraph/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 22:49:00] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/b1/ca/fe5d4c972391fdbe6896fd0fa949c8132b9cb9a14a4ec631cb840944091b/pyxy3d-0.1.8.tar.gz
+[2023-07-30 22:49:00] INFO root fetch - processPackages [sctour]: executing diffoscope
+[2023-07-30 22:49:00] INFO root fetch - processPackages [sctour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sctour-0.1.3.tar.gz tmp/sctour-1.0.0.tar.gz --markdown 20230730/s/sctour/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: executing diffoscope
+[2023-07-30 22:49:00] INFO root fetch - processPackages [artigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artigraph-0.0.1.tar.gz tmp/artigraph-0.0.2.tar.gz --markdown 20230730/a/artigraph/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 22:49:00] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-07-30 22:49:00] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.6.tar.gz tmp/dlt-0.3.6a0.tar.gz --markdown 20230730/d/dlt/0.3.6-0.3.6a0/diff.md --exclude *.pyd
+[2023-07-30 22:49:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-30 22:49:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230730/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-30 22:49:01] INFO root fetch - processPackages [pyxy3d]: executing diffoscope
+[2023-07-30 22:49:01] INFO root fetch - processPackages [pyxy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxy3d-0.1.7.tar.gz tmp/pyxy3d-0.1.8.tar.gz --markdown 20230730/p/pyxy3d/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-30 22:49:01] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-30 22:49:01] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230730/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 22:49:02] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.1.tar.gz]
+[2023-07-30 22:49:02] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.2.tar.gz]
+[2023-07-30 22:49:02] INFO root fetch - main [MainThread]: End processing [artigraph]: success
+[2023-07-30 22:49:02] INFO root fetch - main [MainThread]: End processing [artigraph]: success
+[2023-07-30 22:49:02] INFO root fetch - processPackages [sctour]: Remove: archive file [/home/abi/fetcher/tmp/sctour-0.1.3.tar.gz]
+[2023-07-30 22:49:02] INFO root fetch - processPackages [sctour]: Remove: archive file [/home/abi/fetcher/tmp/sctour-1.0.0.tar.gz]
+[2023-07-30 22:49:02] INFO root fetch - main [MainThread]: End processing [sctour]: success
+[2023-07-30 22:49:02] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.8.tar.gz]
+[2023-07-30 22:49:02] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.9.tar.gz]
+[2023-07-30 22:49:02] INFO root fetch - main [MainThread]: End processing [gehomesdk]: success
+[2023-07-30 22:49:03] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.6.tar.gz]
+[2023-07-30 22:49:03] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.6a0.tar.gz]
+[2023-07-30 22:49:03] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-07-30 22:49:04] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.7.tar.gz]
+[2023-07-30 22:49:04] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.8.tar.gz]
+[2023-07-30 22:49:04] INFO root fetch - main [MainThread]: End processing [pyxy3d]: success
+[2023-07-30 22:49:15] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-30 22:49:15] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-30 22:49:15] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-30 22:49:31] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-30 22:49:31] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-30 22:49:31] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-30 22:49:31] INFO root fetch - main [MainThread]: Store serial: [19099314]
