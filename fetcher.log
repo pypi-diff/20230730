@@ -6935,3 +6935,159 @@
 [2023-07-30 11:03:21] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.9.tar.gz]
 [2023-07-30 11:03:21] INFO root fetch - main [MainThread]: End processing [terra-classic-sdk]: success
 [2023-07-30 11:03:21] INFO root fetch - main [MainThread]: Store serial: [19094941]
+[2023-07-30 11:08:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094941]
+[2023-07-30 11:08:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleepyemoji
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.common
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.core
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.features
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.tabular
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.multimodal
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.timeseries
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.eda
+[2023-07-30 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bagbag
+[2023-07-30 11:08:30] INFO root fetch - processPackages [sleepyemoji]: New version: [2.4] Old Version: [2.3]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon]: New version: [0.8.3b20230730] Old Version: [0.8.3b20230729]
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/54/69/13e7c72dfa3f077dc0aff0fd60488ff2cd795b48c2fd0a6a9b9a34475033/autogluon.common-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:30] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/c2/a3/b977a51a97d1f7e2caf1a93f0b23d08fd8d2318c140692d7e6f0e349be9b/autogluon.features-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:30] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/d6/9e/3ad972f2b8f56a211cb62189ae7eae317236c8c5eb1c50c285a68aafc16f/sleepyemoji-2.3.tar.gz
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/94/d4/eac97dcee6142fa92bf38c30b6ea408ceec68b95fff1774c9cb4eeb2c6e5/autogluon.eda-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:30] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/c6/78/78f187f5e660f551815179562953c98ce976d158c29fbebfcdb526225bed/autogluon.tabular-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/86/cb/5c55936e6d9c72da9eddddc782ce16662b91ee0abdaa99286441ddfb63fd/autogluon-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/18/68/b50ab67d0e45d09c71331119a4c497c6bec1b239ba32cbdb66f6c8acd073/autogluon.core-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/ed/13/1a71b08ffe53da6b35c2df132ae4742a493d5bb2555eae32b40bf1fdedb3/autogluon.timeseries-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/1f/2c/9e6c1a7b943b50f11776d0171bd223257bfe02c3f3a7d856fecc561cf361/autogluon.multimodal-0.8.3b20230729.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/35/78/ea545677549ddc7dd7c2595380f703e7e3811bb6535b01ad3d33770c231a/autogluon.common-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/52/52/d1325ff8cf7507d9d31efa51a67c5cc8789b72bf7a3dc10ee88ea657f7d2/sleepyemoji-2.4.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/e3/de/ad4bd34d137055b66270241679b438be33e6ffe4aa3e662076476c352ce5/autogluon.features-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230730/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/b0/d6/debf34add7e3e48d0d8f340e0943a9d4084eb9575b185f59a31ca14057e1/autogluon.eda-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/9d/c6/e02ad2b479192b3a52b5a566c44bd71d73bfc360c29ad3684b153c22100a/autogluon.tabular-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.3.tar.gz tmp/sleepyemoji-2.4.tar.gz --markdown 20230730/s/sleepyemoji/2.3-2.4/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.3b20230729.tar.gz tmp/autogluon.common-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon.common/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/bb/e4/6f84fc4419a920c4460d7b373a0f0bd5765b38fbff013dd4dd85bffe4979/autogluon-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/6a/25/50c756a9521d404712897a1f89a00fd50909bed8044346c9bf01483e9d16/autogluon.timeseries-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.3b20230729.tar.gz tmp/autogluon.features-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon.features/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/10/59/db4f28727b8c415ce6a731293763af0b982699f268c2f6a25f6946b7a537/autogluon.multimodal-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b9/03/159355e39e3a533f13b96ba47d94fee866fc4f48ff50b6a15e81d250e106/autogluon.core-0.8.3b20230730.tar.gz
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.3b20230729.tar.gz tmp/autogluon.eda-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon.eda/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.3b20230729.tar.gz tmp/autogluon.tabular-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon.tabular/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.3b20230729.tar.gz tmp/autogluon-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.3b20230729.tar.gz tmp/autogluon.timeseries-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon.timeseries/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.3b20230729.tar.gz tmp/autogluon.multimodal-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon.multimodal/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-07-30 11:08:31] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.3b20230729.tar.gz tmp/autogluon.core-0.8.3b20230730.tar.gz --markdown 20230730/a/autogluon.core/0.8.3b20230729-0.8.3b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:32] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.3.tar.gz]
+[2023-07-30 11:08:32] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.4.tar.gz]
+[2023-07-30 11:08:32] INFO root fetch - processPackages [sleepyemoji]: Start processing: scoda-tk
+[2023-07-30 11:08:32] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/30/0f/e2cc663330770d3032c389289a0aa13e5625dbb6c858c7dcc6e06ec3ecb4/scoda-tk-0.1.5.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.cloud
+[2023-07-30 11:08:33] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.features]: Start processing: odoo14-addon-shopfloor-reception
+[2023-07-30 11:08:33] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon]: Start processing: wiggler-studiorabota
+[2023-07-30 11:08:33] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.eda]: Start processing: sleepyemoji
+[2023-07-30 11:08:33] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: New version: [14.0.2.3.1] Old Version: [14.0.2.3.0]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230730] Old Version: [0.2.1b20230729]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [sleepyemoji]: New version: [2.4] Old Version: [2.3]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: pysui-fastcrypto
+[2023-07-30 11:08:33] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [pysui-fastcrypto]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/6c/da/756295670b04af10e10aea07d8da98425bbc1ad521111908a20cc2b3aa8c/scoda-tk-0.1.6.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/d6/9e/3ad972f2b8f56a211cb62189ae7eae317236c8c5eb1c50c285a68aafc16f/sleepyemoji-2.3.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/71/69/aaef28cf78e0bf2da179aceb72e5d65e72b67d7e7457253f71d9c9732aaf/odoo14_addon_shopfloor_reception-14.0.2.3.0-py3-none-any.whl
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/ab/28/84f24221049d4d01fbea5ce35042bcb15de471ac0c221efce7a8b1ddc99a/autogluon.cloud-0.2.1b20230729.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-30 11:08:33] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.1.5.tar.gz tmp/scoda-tk-0.1.6.tar.gz --markdown 20230730/s/scoda-tk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 11:08:33] INFO root fetch - processPackages [pysui-fastcrypto]: Downloading https://files.pythonhosted.org/packages/fc/e6/7bea65ea2bdf605f25c7e4ccb22816c0cc019f298066f279140512676fd3/pysui_fastcrypto-0.1.3.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/52/52/d1325ff8cf7507d9d31efa51a67c5cc8789b72bf7a3dc10ee88ea657f7d2/sleepyemoji-2.4.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.core]: Start processing: django-diary
+[2023-07-30 11:08:33] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:33] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-07-30 11:08:33] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-30 11:08:33] INFO root fetch - processPackages [django-diary]: New version: [3.0rc3] Old Version: [3.0rc2]
+[2023-07-30 11:08:33] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:08:33] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.3.tar.gz tmp/sleepyemoji-2.4.tar.gz --markdown 20230730/s/sleepyemoji/2.3-2.4/diff.md --exclude *.pyd
+[2023-07-30 11:08:34] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-30 11:08:34] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230730/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 11:08:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Downloading https://files.pythonhosted.org/packages/1e/ae/e5651cb838db11d992bc083beefaa6b98dff2e0ecea692c303644c705eb2/odoo14_addon_shopfloor_reception-14.0.2.3.1-py3-none-any.whl
+[2023-07-30 11:08:34] INFO root fetch - processPackages [pysui-fastcrypto]: Downloading https://files.pythonhosted.org/packages/fa/a1/bd9b0951cf0adf7674c74cbf30100b9415f16d6b0114d2e8f4971636ad99/pysui_fastcrypto-0.1.4.tar.gz
+[2023-07-30 11:08:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/55/d0/dd27c23673e6808bab3ce546e9067549ef6499a760c045e13b7e2a9579f4/autogluon.cloud-0.2.1b20230730.tar.gz
+[2023-07-30 11:08:34] INFO root fetch - processPackages [django-diary]: Downloading https://files.pythonhosted.org/packages/37/bf/1d4e7531f581461ff94bf096c8251ba5b4ce8eb2f4ffb21fd5304c9df5ed/django-diary-3.0rc2.tar.gz
+[2023-07-30 11:08:34] INFO root fetch - processPackages [pysui-fastcrypto]: executing diffoscope
+[2023-07-30 11:08:34] INFO root fetch - processPackages [pysui-fastcrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui_fastcrypto-0.1.3.tar.gz tmp/pysui_fastcrypto-0.1.4.tar.gz --markdown 20230730/p/pysui-fastcrypto/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 11:08:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: executing diffoscope
+[2023-07-30 11:08:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_reception-14.0.2.3.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_reception-14.0.2.3.1-py3-none-any.whl.zip --markdown 20230730/o/odoo14-addon-shopfloor-reception/14.0.2.3.0-14.0.2.3.1/diff.md --exclude *.pyd
+[2023-07-30 11:08:34] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-30 11:08:34] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-30 11:08:34] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-30 11:08:34] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230729.tar.gz]
+[2023-07-30 11:08:34] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230730.tar.gz]
+[2023-07-30 11:08:34] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-07-30 11:08:34] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-07-30 11:08:34] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230729.tar.gz tmp/autogluon.cloud-0.2.1b20230730.tar.gz --markdown 20230730/a/autogluon.cloud/0.2.1b20230729-0.2.1b20230730/diff.md --exclude *.pyd
+[2023-07-30 11:08:34] INFO root fetch - processPackages [django-diary]: Downloading https://files.pythonhosted.org/packages/d0/5a/c29b08fddc69780a2921809ed8db5c53eba258e1fd5146482fe3af3053dd/django-diary-3.0rc3.tar.gz
+[2023-07-30 11:08:34] INFO root fetch - processPackages [django-diary]: executing diffoscope
+[2023-07-30 11:08:34] INFO root fetch - processPackages [django-diary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-diary-3.0rc2.tar.gz tmp/django-diary-3.0rc3.tar.gz --markdown 20230730/d/django-diary/3.0rc2-3.0rc3/diff.md --exclude *.pyd
+[2023-07-30 11:08:35] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-30 11:08:35] INFO root fetch - processPackages [pysui-fastcrypto]: Remove: archive file [/home/abi/fetcher/tmp/pysui_fastcrypto-0.1.3.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - processPackages [pysui-fastcrypto]: Remove: archive file [/home/abi/fetcher/tmp/pysui_fastcrypto-0.1.4.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - main [MainThread]: End processing [pysui-fastcrypto]: success
+[2023-07-30 11:08:35] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.3.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.4.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:08:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.3.0-py3-none-any.whl.zip]
+[2023-07-30 11:08:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-reception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_reception-14.0.2.3.1-py3-none-any.whl.zip]
+[2023-07-30 11:08:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-reception]: success
+[2023-07-30 11:08:35] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230729.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230730.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-07-30 11:08:35] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.5.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.6.tar.gz]
+[2023-07-30 11:08:35] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-30 11:08:36] INFO root fetch - processPackages [django-diary]: Remove: archive file [/home/abi/fetcher/tmp/django-diary-3.0rc2.tar.gz]
+[2023-07-30 11:08:36] INFO root fetch - processPackages [django-diary]: Remove: archive file [/home/abi/fetcher/tmp/django-diary-3.0rc3.tar.gz]
+[2023-07-30 11:08:36] INFO root fetch - main [MainThread]: End processing [django-diary]: success
+[2023-07-30 11:08:36] INFO root fetch - main [MainThread]: Store serial: [19094990]
