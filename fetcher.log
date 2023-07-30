@@ -13398,3 +13398,87 @@
 [2023-07-30 19:06:18] INFO root fetch - processPackages [jsonator]: Remove: archive file [/home/abi/fetcher/tmp/jsonator-0.1.4.tar.gz]
 [2023-07-30 19:06:18] INFO root fetch - main [MainThread]: End processing [jsonator]: success
 [2023-07-30 19:06:18] INFO root fetch - main [MainThread]: Store serial: [19097928]
+[2023-07-30 19:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097928]
+[2023-07-30 19:11:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapli-community
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolev-dublon
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apkid
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sewar
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonator
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twinfiles
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jacobi-motion
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jc
+[2023-07-30 19:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dank-mids
+[2023-07-30 19:11:26] INFO root fetch - processPackages [apkid]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [scrapli-community]: New version: [2023.7.30] Old Version: [2023.1.30]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [sewar]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dolev-dublon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [twinfiles]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jsonator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jc]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jacobi-motion]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jsonator]: Downloading https://files.pythonhosted.org/packages/06/81/6f34171453a8df3336b13ea9c27ad3ad07ff0f65010ffb7406990a9d2184/jsonator-0.1.4.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dolev-dublon]: Downloading https://files.pythonhosted.org/packages/35/2d/ac65ac7e22633b9f3d48c97113efa32e7d74a696ce6423fd3dc33016d0ab/dolev_dublon-0.0.1-py3-none-any.whl
+[2023-07-30 19:11:27] INFO root fetch - processPackages [scrapli-community]: Downloading https://files.pythonhosted.org/packages/07/80/84bcf42654b966618c3a4c15bd04ad66e374615379d1dd19d906ccc4ff8e/scrapli_community-2023.1.30.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [apkid]: Downloading https://files.pythonhosted.org/packages/95/92/5a3eeb5bce33af2e364b3e80cbfb81815f65f2ea4ba37619ae0295051536/apkid-2.1.4-py2.py3-none-any.whl
+[2023-07-30 19:11:27] INFO root fetch - processPackages [sewar]: Downloading https://files.pythonhosted.org/packages/90/90/71ad919f857cb3c069fe0e7865987e57879799b6be840091e20a1b8d354c/sewar-0.4.5.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [twinfiles]: Downloading https://files.pythonhosted.org/packages/64/96/921370927f7dbcc08dc85d4ed310a9f83d493c37a990f08a5fdef312344d/twinfiles-0.0.1.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jc]: Downloading https://files.pythonhosted.org/packages/48/07/8a4c81803e573ae79bfb33878dfd5626a7176b70fcc459dd687074fdab4e/jc-1.9.2.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jacobi-motion]: Downloading https://files.pythonhosted.org/packages/04/82/e528edef636ab4876d0703607d47edc8637af5029e3bac19a0f2e0ece2eb/jacobi_motion-0.0.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dolev-dublon]: Downloading https://files.pythonhosted.org/packages/80/da/5845317d28f5edc2b1e60897b25eb56bf8d3d844ead14f366f83221c0069/dolev_dublon-0.0.2.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jsonator]: Downloading https://files.pythonhosted.org/packages/ef/e6/64854be95ff9e80c6c73f2ebac339a91253742896e3ed0bd25de9714e510/jsonator-0.1.5.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [scrapli-community]: Downloading https://files.pythonhosted.org/packages/54/3b/f89232bef35f8668045759230a81cdbf75a499c9e9a7905c5b7a6e357f34/scrapli_community-2023.7.30.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [apkid]: Downloading https://files.pythonhosted.org/packages/c6/77/75e5469494eb6ba7dc089b70f594aa9674fc8569b12f082576e01a5164bb/apkid-2.1.5.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dolev-dublon]: executing diffoscope
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dolev-dublon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolev_dublon-0.0.1-py3-none-any.whl.zip tmp/dolev_dublon-0.0.2.tar.gz --markdown 20230730/d/dolev-dublon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 19:11:27] INFO root fetch - processPackages [sewar]: Downloading https://files.pythonhosted.org/packages/12/0d/34d780a20f77c3673a185c30b27bb5c7192a85f1e6acd9857e7713fa3607/sewar-0.4.6.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jsonator]: executing diffoscope
+[2023-07-30 19:11:27] INFO root fetch - processPackages [jsonator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonator-0.1.4.tar.gz tmp/jsonator-0.1.5.tar.gz --markdown 20230730/j/jsonator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-30 19:11:27] INFO root fetch - processPackages [twinfiles]: Downloading https://files.pythonhosted.org/packages/36/0d/74a49853739c4d50c93347f7dd9eb142e66785e2c5c0e5478895e4b0d86d/twinfiles-0.0.2.tar.gz
+[2023-07-30 19:11:27] INFO root fetch - processPackages [scrapli-community]: executing diffoscope
+[2023-07-30 19:11:27] INFO root fetch - processPackages [scrapli-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapli_community-2023.1.30.tar.gz tmp/scrapli_community-2023.7.30.tar.gz --markdown 20230730/s/scrapli-community/2023.1.30-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 19:11:27] INFO root fetch - processPackages [apkid]: executing diffoscope
+[2023-07-30 19:11:27] INFO root fetch - processPackages [apkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkid-2.1.4-py2.py3-none-any.whl.zip tmp/apkid-2.1.5.tar.gz --markdown 20230730/a/apkid/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-07-30 19:11:27] INFO root fetch - processPackages [sewar]: executing diffoscope
+[2023-07-30 19:11:27] INFO root fetch - processPackages [sewar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sewar-0.4.5.tar.gz tmp/sewar-0.4.6.tar.gz --markdown 20230730/s/sewar/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-30 19:11:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-30 19:11:28] INFO root fetch - processPackages [twinfiles]: executing diffoscope
+[2023-07-30 19:11:28] INFO root fetch - processPackages [twinfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinfiles-0.0.1.tar.gz tmp/twinfiles-0.0.2.tar.gz --markdown 20230730/t/twinfiles/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 19:11:28] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-30 19:11:28] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230730/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-30 19:11:28] INFO root fetch - processPackages [dolev-dublon]: Remove: archive file [/home/abi/fetcher/tmp/dolev_dublon-0.0.1-py3-none-any.whl.zip]
+[2023-07-30 19:11:28] INFO root fetch - processPackages [dolev-dublon]: Remove: archive file [/home/abi/fetcher/tmp/dolev_dublon-0.0.2.tar.gz]
+[2023-07-30 19:11:28] INFO root fetch - main [MainThread]: End processing [dolev-dublon]: success
+[2023-07-30 19:11:28] INFO root fetch - processPackages [jc]: Downloading https://files.pythonhosted.org/packages/82/79/2e005b1a767c449092be56b2a1265724a46d77a74e05c9fe6c28973c7a21/jc-1.9.3.tar.gz
+[2023-07-30 19:11:28] INFO root fetch - processPackages [jsonator]: Remove: archive file [/home/abi/fetcher/tmp/jsonator-0.1.4.tar.gz]
+[2023-07-30 19:11:28] INFO root fetch - processPackages [jsonator]: Remove: archive file [/home/abi/fetcher/tmp/jsonator-0.1.5.tar.gz]
+[2023-07-30 19:11:28] INFO root fetch - main [MainThread]: End processing [jsonator]: success
+[2023-07-30 19:11:29] INFO root fetch - processPackages [sewar]: Remove: archive file [/home/abi/fetcher/tmp/sewar-0.4.5.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - processPackages [sewar]: Remove: archive file [/home/abi/fetcher/tmp/sewar-0.4.6.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - main [MainThread]: End processing [sewar]: success
+[2023-07-30 19:11:29] INFO root fetch - processPackages [apkid]: Remove: archive file [/home/abi/fetcher/tmp/apkid-2.1.4-py2.py3-none-any.whl.zip]
+[2023-07-30 19:11:29] INFO root fetch - processPackages [apkid]: Remove: archive file [/home/abi/fetcher/tmp/apkid-2.1.5.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - main [MainThread]: End processing [apkid]: success
+[2023-07-30 19:11:29] INFO root fetch - processPackages [jc]: executing diffoscope
+[2023-07-30 19:11:29] INFO root fetch - processPackages [jc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jc-1.9.2.tar.gz tmp/jc-1.9.3.tar.gz --markdown 20230730/j/jc/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-30 19:11:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-30 19:11:29] INFO root fetch - processPackages [twinfiles]: Remove: archive file [/home/abi/fetcher/tmp/twinfiles-0.0.1.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - processPackages [twinfiles]: Remove: archive file [/home/abi/fetcher/tmp/twinfiles-0.0.2.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - main [MainThread]: End processing [twinfiles]: success
+[2023-07-30 19:11:29] INFO root fetch - processPackages [jacobi-motion]: Downloading https://files.pythonhosted.org/packages/32/34/e0f37ad181cffebee9913a7316dc47906c4d92b3242e1918eecc546c2945/jacobi_motion-0.0.9-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-07-30 19:11:29] INFO root fetch - processPackages [scrapli-community]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_community-2023.1.30.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - processPackages [scrapli-community]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_community-2023.7.30.tar.gz]
+[2023-07-30 19:11:29] INFO root fetch - main [MainThread]: End processing [scrapli-community]: success
+[2023-07-30 19:11:31] INFO root fetch - processPackages [jacobi-motion]: executing diffoscope
+[2023-07-30 19:11:31] INFO root fetch - processPackages [jacobi-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacobi_motion-0.0.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/jacobi_motion-0.0.9-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230730/j/jacobi-motion/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 19:11:34] INFO root fetch - processPackages [jc]: Remove: archive file [/home/abi/fetcher/tmp/jc-1.9.2.tar.gz]
+[2023-07-30 19:11:34] INFO root fetch - processPackages [jc]: Remove: archive file [/home/abi/fetcher/tmp/jc-1.9.3.tar.gz]
+[2023-07-30 19:11:34] INFO root fetch - main [MainThread]: End processing [jc]: success
+[2023-07-30 19:11:48] INFO root fetch - processPackages [jacobi-motion]: Remove: archive file [/home/abi/fetcher/tmp/jacobi_motion-0.0.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-07-30 19:11:48] INFO root fetch - processPackages [jacobi-motion]: Remove: archive file [/home/abi/fetcher/tmp/jacobi_motion-0.0.9-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-07-30 19:11:48] INFO root fetch - main [MainThread]: End processing [jacobi-motion]: success
+[2023-07-30 19:11:48] INFO root fetch - main [MainThread]: Store serial: [19097959]
