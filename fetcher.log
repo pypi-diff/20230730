@@ -5289,3 +5289,72 @@
 [2023-07-30 08:13:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230729.tar.gz]
 [2023-07-30 08:13:18] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-30 08:13:18] INFO root fetch - main [MainThread]: Store serial: [19094222]
+[2023-07-30 08:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094222]
+[2023-07-30 08:18:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awyes
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickhouse-arrow
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datarails
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gamla
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-session
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Linguify
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hishel
+[2023-07-30 08:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: np-workflows
+[2023-07-30 08:18:26] INFO root fetch - processPackages [gamla]: New version: [99] Old Version: [98]
+[2023-07-30 08:18:26] INFO root fetch - processPackages [awyes]: New version: [10.1.6] Old Version: [10.1.5]
+[2023-07-30 08:18:26] INFO root fetch - processPackages [hishel]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 08:18:26] INFO root fetch - processPackages [datarails]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-07-30 08:18:26] INFO root fetch - processPackages [clickhouse-arrow]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-30 08:18:26] INFO root fetch - processPackages [np-workflows]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-07-30 08:18:26] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-30 08:18:26] WARNING root fetch - processPackages [Linguify]: Skipping, unable to determine old version
+[2023-07-30 08:18:26] INFO root fetch - main [MainThread]: End processing [Linguify] error
+[2023-07-30 08:18:26] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/ce/7a/39bbee4e729752ef536dc2ec65e5f83e26d5d23c749da683ade14280e484/awyes-10.1.5.tar.gz
+[2023-07-30 08:18:26] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/9e/aa/444eaad9ac79e926d628257ee445a0f053f1cfdf0fdbcc83ac13f8e95537/hishel-0.0.5.tar.gz
+[2023-07-30 08:18:26] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/11/bd/e04606948eb3f3a5e94ed3cfe07e841967c1090b09247f70f56719985478/datarails-0.2.7.tar.gz
+[2023-07-30 08:18:26] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/a7/5e/2dfe84a2978b3a36ce5f1e59ab8f61160237c5d5274da6b13c8f9d584f6b/np_workflows-1.6.4.tar.gz
+[2023-07-30 08:18:26] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/69/f8/ecd46c1a43ef4f38dc58417cdb0231d02fe691e1bc702abaaa13d469a421/gamla-98.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [clickhouse-arrow]: Downloading https://files.pythonhosted.org/packages/ba/79/3370789653ed9a3c12ef70b3446e90b38b43534c8185293b35b88ba2a969/clickhouse_arrow-0.2.3.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/01/bc/c7d392a71dc3d9b6f84d389d4e9791f63c9a79abc22890d3d93b998171a2/hishel-0.0.6.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/40/9b/0121aa02e0cd9acfcdee8a6fd0b8fe918a180edf023df1445d304a304ae0/np_workflows-1.6.5.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/f9/43/48fbc404b5d8e1469a7150d3e628f40fb18c09f26d0947d1cdb150c89821/awyes-10.1.6.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/94/6e/0075c11e5aa7d15a9671648ab705e01a4a1b8ab73a00a8a0bfbc8b867f56/datarails-0.3.0.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2023-07-30 08:18:27] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.5.tar.gz tmp/hishel-0.0.6.tar.gz --markdown 20230730/h/hishel/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-30 08:18:27] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-30 08:18:27] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.4.tar.gz tmp/np_workflows-1.6.5.tar.gz --markdown 20230730/n/np-workflows/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-07-30 08:18:27] INFO root fetch - processPackages [datarails]: executing diffoscope
+[2023-07-30 08:18:27] INFO root fetch - processPackages [datarails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarails-0.2.7.tar.gz tmp/datarails-0.3.0.tar.gz --markdown 20230730/d/datarails/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 08:18:27] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-30 08:18:27] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.1.5.tar.gz tmp/awyes-10.1.6.tar.gz --markdown 20230730/a/awyes/10.1.5-10.1.6/diff.md --exclude *.pyd
+[2023-07-30 08:18:27] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/d5/30/3ac70220c721ace5db4771369280b855e8d9d0f11f63afae59c2a5877427/gamla-99.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [clickhouse-arrow]: Downloading https://files.pythonhosted.org/packages/f2/dd/3228544162532195dab928b9c31ca8749654be7a2fe771da954dc313e49d/clickhouse_arrow-0.3.0.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-07-30 08:18:27] INFO root fetch - processPackages [clickhouse-arrow]: executing diffoscope
+[2023-07-30 08:18:27] INFO root fetch - processPackages [clickhouse-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse_arrow-0.2.3.tar.gz tmp/clickhouse_arrow-0.3.0.tar.gz --markdown 20230730/c/clickhouse-arrow/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 08:18:27] INFO root fetch - processPackages [gamla]: executing diffoscope
+[2023-07-30 08:18:27] INFO root fetch - processPackages [gamla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamla-98.tar.gz tmp/gamla-99.tar.gz --markdown 20230730/g/gamla/98-99/diff.md --exclude *.pyd
+[2023-07-30 08:18:27] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-07-30 08:18:27] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230730/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-30 08:18:28] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.5.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.6.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2023-07-30 08:18:28] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.2.7.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.3.0.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [datarails]: success
+[2023-07-30 08:18:28] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.1.5.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.1.6.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-30 08:18:28] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.4.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.5.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-30 08:18:28] INFO root fetch - processPackages [clickhouse-arrow]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_arrow-0.2.3.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - processPackages [clickhouse-arrow]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_arrow-0.3.0.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [clickhouse-arrow]: success
+[2023-07-30 08:18:28] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-07-30 08:18:28] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-98.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-99.tar.gz]
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [gamla]: success
+[2023-07-30 08:18:28] INFO root fetch - main [MainThread]: Store serial: [19094245]
