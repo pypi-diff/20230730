@@ -5105,3 +5105,49 @@
 [2023-07-30 07:52:33] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
 [2023-07-30 07:52:33] INFO root fetch - main [MainThread]: End processing [knifes]: success
 [2023-07-30 07:52:33] INFO root fetch - main [MainThread]: Store serial: [19094148]
+[2023-07-30 07:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094148]
+[2023-07-30 07:57:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 07:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiida-worktree
+[2023-07-30 07:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-gui
+[2023-07-30 07:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfc
+[2023-07-30 07:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litechain
+[2023-07-30 07:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-gui
+[2023-07-30 07:57:42] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.95] Old Version: [0.0.50.94]
+[2023-07-30 07:57:42] INFO root fetch - processPackages [litechain]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-30 07:57:42] INFO root fetch - processPackages [aiida-worktree]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 07:57:42] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.95] Old Version: [0.0.50.94]
+[2023-07-30 07:57:42] INFO root fetch - processPackages [tfc]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-30 07:57:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/e4/6a/5704d7152635e0b27d9dfcd8167fd930e12fe27a7a9d05e9c27ef63793e4/abstract_gui-0.0.50.94.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/e4/6a/5704d7152635e0b27d9dfcd8167fd930e12fe27a7a9d05e9c27ef63793e4/abstract_gui-0.0.50.94.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [tfc]: Downloading https://files.pythonhosted.org/packages/1e/fc/fe1a26b99257b3a1d10f2f97176f1e395e77dc0a44006b53bbdf7bc562b9/tfc-1.0.6.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [litechain]: Downloading https://files.pythonhosted.org/packages/61/79/5841a9186f7c5733736e8e5c2321324d5d1782d8c563eee44c2bfea243a4/litechain-0.1.5.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [aiida-worktree]: Downloading https://files.pythonhosted.org/packages/a2/c3/53588cbc18ab6d36f8716aa8492c187a4c41f76c6e6d35e249c40719eef4/aiida-worktree-0.0.2.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/8c/cc/70c4c2dd68c277e7ebc2d3f8adabc24bf052591f577d936dc99c1e6bcc4e/abstract_gui-0.0.50.95.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/8c/cc/70c4c2dd68c277e7ebc2d3f8adabc24bf052591f577d936dc99c1e6bcc4e/abstract_gui-0.0.50.95.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [tfc]: Downloading https://files.pythonhosted.org/packages/76/d0/46546ef29856718373f0172bcd1e40ae458de8f441c3a609d0f6ae9cfd30/tfc-1.0.7.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [aiida-worktree]: Downloading https://files.pythonhosted.org/packages/0d/94/f12974dff209a333938d37018c36e5a20a273f538f1872df616b23ca7b02/aiida-worktree-0.0.3.tar.gz
+[2023-07-30 07:57:42] INFO root fetch - processPackages [litechain]: Downloading https://files.pythonhosted.org/packages/77/fe/1fd9278259fd38074761d48d3f9f445fc0f5b7efc81eaa721834407f324f/litechain-0.1.6.tar.gz
+[2023-07-30 07:57:43] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 07:57:43] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.94.tar.gz tmp/abstract_gui-0.0.50.95.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.94-0.0.50.95/diff.md --exclude *.pyd
+[2023-07-30 07:57:43] INFO root fetch - processPackages [aiida-worktree]: executing diffoscope
+[2023-07-30 07:57:43] INFO root fetch - processPackages [aiida-worktree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-worktree-0.0.2.tar.gz tmp/aiida-worktree-0.0.3.tar.gz --markdown 20230730/a/aiida-worktree/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 07:57:43] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 07:57:43] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.94.tar.gz tmp/abstract_gui-0.0.50.95.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.94-0.0.50.95/diff.md --exclude *.pyd
+[2023-07-30 07:57:43] INFO root fetch - processPackages [litechain]: executing diffoscope
+[2023-07-30 07:57:43] INFO root fetch - processPackages [litechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litechain-0.1.5.tar.gz tmp/litechain-0.1.6.tar.gz --markdown 20230730/l/litechain/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 07:57:43] INFO root fetch - processPackages [tfc]: executing diffoscope
+[2023-07-30 07:57:43] INFO root fetch - processPackages [tfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfc-1.0.6.tar.gz tmp/tfc-1.0.7.tar.gz --markdown 20230730/t/tfc/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-30 07:57:44] INFO root fetch - processPackages [litechain]: Remove: archive file [/home/abi/fetcher/tmp/litechain-0.1.5.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - processPackages [litechain]: Remove: archive file [/home/abi/fetcher/tmp/litechain-0.1.6.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - main [MainThread]: End processing [litechain]: success
+[2023-07-30 07:57:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.94.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.95.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 07:57:44] INFO root fetch - processPackages [tfc]: Remove: archive file [/home/abi/fetcher/tmp/tfc-1.0.6.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - processPackages [tfc]: Remove: archive file [/home/abi/fetcher/tmp/tfc-1.0.7.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - main [MainThread]: End processing [tfc]: success
+[2023-07-30 07:57:44] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 07:57:44] INFO root fetch - processPackages [aiida-worktree]: Remove: archive file [/home/abi/fetcher/tmp/aiida-worktree-0.0.2.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - processPackages [aiida-worktree]: Remove: archive file [/home/abi/fetcher/tmp/aiida-worktree-0.0.3.tar.gz]
+[2023-07-30 07:57:44] INFO root fetch - main [MainThread]: End processing [aiida-worktree]: success
+[2023-07-30 07:57:44] INFO root fetch - main [MainThread]: Store serial: [19094177]
