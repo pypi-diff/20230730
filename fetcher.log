@@ -12949,3 +12949,81 @@
 [2023-07-30 18:24:19] INFO root fetch - processPackages [dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/dbhydra-1.2.2.tar.gz]
 [2023-07-30 18:24:19] INFO root fetch - main [MainThread]: End processing [dbhydra]: success
 [2023-07-30 18:24:19] INFO root fetch - main [MainThread]: Store serial: [19097716]
+[2023-07-30 18:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097716]
+[2023-07-30 18:29:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swolfpy
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-nagabus
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imufusion
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctdd
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getmyancestors
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-caphid
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elastica-pipelines
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sql-constructor
+[2023-07-30 18:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mmcb-avt
+[2023-07-30 18:29:28] INFO root fetch - processPackages [swolfpy]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-30 18:29:28] WARNING root fetch - processPackages [napari-caphid]: Skipping, unable to determine old version
+[2023-07-30 18:29:28] INFO root fetch - main [MainThread]: End processing [napari-caphid] error
+[2023-07-30 18:29:28] INFO root fetch - processPackages [getmyancestors]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-30 18:29:28] INFO root fetch - processPackages [nonebot-plugin-nagabus]: New version: [0.2.7] Old Version: [0.2.6.post1]
+[2023-07-30 18:29:28] INFO root fetch - processPackages [elastica-pipelines]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-30 18:29:28] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-07-30 18:29:28] INFO root fetch - processPackages [ctdd]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 18:29:28] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-30 18:29:28] INFO root fetch - processPackages [imufusion]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-30 18:29:28] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/dc/32/e6f68c78fee8ee7a96b7ed28532db6440dc8d2086cd25efafb066aedd4b3/mmcb-avt-0.0.96.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f0/8c/ada8ac463e63035ac168abcd1fc921ec56cb3bebab8ad770978b6eb52806/sql_constructor-1.0.4.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [swolfpy]: Downloading https://files.pythonhosted.org/packages/44/5f/1325f7bc4db8420c3a58b60bf6311ff0806563b83549d7af202b7eaf167d/swolfpy-1.0.1.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/fe/58/62b2f94c7fd1ed547c4efd582e3848491d8a09d165941454860197f4fa90/nonebot_plugin_nagabus-0.2.6.post1.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [getmyancestors]: Downloading https://files.pythonhosted.org/packages/6a/ae/6bfd4d4d2d65634262c4d0670c0b52364594e5c6ca74ff3a3c5d0d03b915/getmyancestors-1.0.3.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [elastica-pipelines]: Downloading https://files.pythonhosted.org/packages/58/5b/729f7141dda6d675d4a91ef672086a25f2d0711a9f24c1c99ddeaedc4fea/elastica_pipelines-0.2.0.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [ctdd]: Downloading https://files.pythonhosted.org/packages/ba/ca/23a0673ceb00ccacfdea4c28ebadab85fff0d10b3901163c2d6f41b3b024/ctdd-0.0.6.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [imufusion]: Downloading https://files.pythonhosted.org/packages/a9/a7/f572bcc474972547a615eb146c0f9fe866138009cf1a613f4fc36e7dc547/imufusion-1.1.1.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/e1/89/3045812434a7c7ec64882b61b9001a1f2ff5cc041a3e785808244c513c6c/mmcb-avt-0.0.97.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/3a/f9/15e7719cfe80763db83d36d04778145fcde762ab92eaacb2f679dc4d1fcf/sql_constructor-1.0.5.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-07-30 18:29:28] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.96.tar.gz tmp/mmcb-avt-0.0.97.tar.gz --markdown 20230730/m/mmcb-avt/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-07-30 18:29:28] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 18:29:28] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.4.tar.gz tmp/sql_constructor-1.0.5.tar.gz --markdown 20230730/s/sql-constructor/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-30 18:29:28] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Downloading https://files.pythonhosted.org/packages/6e/1e/4a8d8e47981e61332671e52b68b2c5ded8f0daba7f3c7d46ff5aa785dcb9/nonebot_plugin_nagabus-0.2.7.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [ctdd]: Downloading https://files.pythonhosted.org/packages/8c/f3/85cf2a306deb9cd4ee300c139921127e8ff932f957b0627fbf339ec7ac56/ctdd-0.0.7.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [getmyancestors]: Downloading https://files.pythonhosted.org/packages/b8/c2/d0149c576b1a34e2c36aea8bf14c344b1ef0f871e47c5099b70a3a517405/getmyancestors-1.0.4.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [imufusion]: Downloading https://files.pythonhosted.org/packages/1a/7a/f9942bc50cb057eeb55fabd6597a0b68813d331f3088e8fc2687cf0b9bc8/imufusion-1.1.2.tar.gz
+[2023-07-30 18:29:28] INFO root fetch - processPackages [elastica-pipelines]: Downloading https://files.pythonhosted.org/packages/59/4f/5565c1ce0b5b2b114dc1026e56d21c421dc116ad8abf2737f0df68a7a86e/elastica_pipelines-1.0.0.tar.gz
+[2023-07-30 18:29:29] INFO root fetch - processPackages [nonebot-plugin-nagabus]: executing diffoscope
+[2023-07-30 18:29:29] INFO root fetch - processPackages [ctdd]: executing diffoscope
+[2023-07-30 18:29:29] INFO root fetch - processPackages [nonebot-plugin-nagabus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nagabus-0.2.6.post1.tar.gz tmp/nonebot_plugin_nagabus-0.2.7.tar.gz --markdown 20230730/n/nonebot-plugin-nagabus/0.2.6.post1-0.2.7/diff.md --exclude *.pyd
+[2023-07-30 18:29:29] INFO root fetch - processPackages [ctdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdd-0.0.6.tar.gz tmp/ctdd-0.0.7.tar.gz --markdown 20230730/c/ctdd/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 18:29:29] INFO root fetch - processPackages [getmyancestors]: executing diffoscope
+[2023-07-30 18:29:29] INFO root fetch - processPackages [getmyancestors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmyancestors-1.0.3.tar.gz tmp/getmyancestors-1.0.4.tar.gz --markdown 20230730/g/getmyancestors/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 18:29:29] INFO root fetch - processPackages [imufusion]: executing diffoscope
+[2023-07-30 18:29:29] INFO root fetch - processPackages [imufusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imufusion-1.1.1.tar.gz tmp/imufusion-1.1.2.tar.gz --markdown 20230730/i/imufusion/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 18:29:29] INFO root fetch - processPackages [elastica-pipelines]: executing diffoscope
+[2023-07-30 18:29:29] INFO root fetch - processPackages [elastica-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastica_pipelines-0.2.0.tar.gz tmp/elastica_pipelines-1.0.0.tar.gz --markdown 20230730/e/elastica-pipelines/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 18:29:29] INFO root fetch - processPackages [swolfpy]: Downloading https://files.pythonhosted.org/packages/cd/47/df56d15778c9747e60a5f2adc53cd6fae44347325b4f561eda86a5dd65c6/swolfpy-1.1.0.tar.gz
+[2023-07-30 18:29:29] INFO root fetch - processPackages [swolfpy]: executing diffoscope
+[2023-07-30 18:29:29] INFO root fetch - processPackages [swolfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swolfpy-1.0.1.tar.gz tmp/swolfpy-1.1.0.tar.gz --markdown 20230730/s/swolfpy/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 18:29:30] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.4.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.5.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 18:29:30] INFO root fetch - processPackages [ctdd]: Remove: archive file [/home/abi/fetcher/tmp/ctdd-0.0.6.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - processPackages [ctdd]: Remove: archive file [/home/abi/fetcher/tmp/ctdd-0.0.7.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - main [MainThread]: End processing [ctdd]: success
+[2023-07-30 18:29:30] INFO root fetch - processPackages [imufusion]: Remove: archive file [/home/abi/fetcher/tmp/imufusion-1.1.1.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - processPackages [imufusion]: Remove: archive file [/home/abi/fetcher/tmp/imufusion-1.1.2.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - main [MainThread]: End processing [imufusion]: success
+[2023-07-30 18:29:30] INFO root fetch - processPackages [getmyancestors]: Remove: archive file [/home/abi/fetcher/tmp/getmyancestors-1.0.3.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - processPackages [getmyancestors]: Remove: archive file [/home/abi/fetcher/tmp/getmyancestors-1.0.4.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - main [MainThread]: End processing [getmyancestors]: success
+[2023-07-30 18:29:30] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.96.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.97.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-07-30 18:29:30] INFO root fetch - processPackages [elastica-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/elastica_pipelines-0.2.0.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - processPackages [elastica-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/elastica_pipelines-1.0.0.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - main [MainThread]: End processing [elastica-pipelines]: success
+[2023-07-30 18:29:30] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.6.post1.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - processPackages [nonebot-plugin-nagabus]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nagabus-0.2.7.tar.gz]
+[2023-07-30 18:29:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nagabus]: success
+[2023-07-30 18:29:31] INFO root fetch - processPackages [swolfpy]: Remove: archive file [/home/abi/fetcher/tmp/swolfpy-1.0.1.tar.gz]
+[2023-07-30 18:29:31] INFO root fetch - processPackages [swolfpy]: Remove: archive file [/home/abi/fetcher/tmp/swolfpy-1.1.0.tar.gz]
+[2023-07-30 18:29:31] INFO root fetch - main [MainThread]: End processing [swolfpy]: success
+[2023-07-30 18:29:31] INFO root fetch - main [MainThread]: Store serial: [19097755]
