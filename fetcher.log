@@ -15829,3 +15829,36 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:12:31] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
 [2023-07-30 22:12:31] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-07-30 22:12:31] INFO root fetch - main [MainThread]: Store serial: [19099099]
+[2023-07-30 22:17:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099099]
+[2023-07-30 22:17:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 22:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ok-distri
+[2023-07-30 22:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: okserve
+[2023-07-30 22:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jamofetch
+[2023-07-30 22:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rebelai
+[2023-07-30 22:17:39] INFO root fetch - processPackages [okserve]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 22:17:39] WARNING root fetch - processPackages [ok-distri]: Skipping, unable to determine old version
+[2023-07-30 22:17:39] INFO root fetch - main [MainThread]: End processing [ok-distri] error
+[2023-07-30 22:17:39] INFO root fetch - processPackages [rebelai]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 22:17:39] INFO root fetch - processPackages [jamofetch]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-07-30 22:17:40] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/83/f6/1b08939765f5a68e326fa1fe7db633ec34e8518a878193089873b92a922e/jamofetch-3.7.0.tar.gz
+[2023-07-30 22:17:40] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/2e/62/3e029c46838ff0d0ec5666bddd39303e916717388a0455a0c7086071da0d/rebelai-1.0.1-py2.py3-none-any.whl
+[2023-07-30 22:17:40] INFO root fetch - processPackages [okserve]: Downloading https://files.pythonhosted.org/packages/ac/52/32f5a198ef656d78fc43bd27fb671e63e2a02ca5363bb1ef3124e13bc57d/okserve-0.1.0.tar.gz
+[2023-07-30 22:17:40] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/b6/fb/57dfc8da8aa0381e9afacf8e51ad5b6d2566902219a016beed5c727096f1/rebelai-1.0.2-py2.py3-none-any.whl
+[2023-07-30 22:17:40] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/60/84/c6dcb580e4ca5636eb4730ab50300f95d03e1b444eb7369da552695068df/jamofetch-3.7.1.tar.gz
+[2023-07-30 22:17:40] INFO root fetch - processPackages [okserve]: Downloading https://files.pythonhosted.org/packages/d0/a0/2158245b145b3f011a774126103e965ee3b918604040c5485cef914ba09c/okserve-0.1.1.tar.gz
+[2023-07-30 22:17:40] INFO root fetch - processPackages [rebelai]: executing diffoscope
+[2023-07-30 22:17:40] INFO root fetch - processPackages [rebelai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebelai-1.0.1-py2.py3-none-any.whl.zip tmp/rebelai-1.0.2-py2.py3-none-any.whl.zip --markdown 20230730/r/rebelai/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 22:17:40] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-30 22:17:40] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.7.0.tar.gz tmp/jamofetch-3.7.1.tar.gz --markdown 20230730/j/jamofetch/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-07-30 22:17:40] INFO root fetch - processPackages [okserve]: executing diffoscope
+[2023-07-30 22:17:40] INFO root fetch - processPackages [okserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okserve-0.1.0.tar.gz tmp/okserve-0.1.1.tar.gz --markdown 20230730/o/okserve/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 22:17:41] INFO root fetch - processPackages [okserve]: Remove: archive file [/home/abi/fetcher/tmp/okserve-0.1.0.tar.gz]
+[2023-07-30 22:17:41] INFO root fetch - processPackages [okserve]: Remove: archive file [/home/abi/fetcher/tmp/okserve-0.1.1.tar.gz]
+[2023-07-30 22:17:41] INFO root fetch - main [MainThread]: End processing [okserve]: success
+[2023-07-30 22:17:41] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-30 22:17:41] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-1.0.2-py2.py3-none-any.whl.zip]
+[2023-07-30 22:17:41] INFO root fetch - main [MainThread]: End processing [rebelai]: success
+[2023-07-30 22:17:41] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.0.tar.gz]
+[2023-07-30 22:17:41] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.1.tar.gz]
+[2023-07-30 22:17:41] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-30 22:17:41] INFO root fetch - main [MainThread]: Store serial: [19099115]
