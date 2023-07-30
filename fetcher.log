@@ -12683,3 +12683,78 @@
 [2023-07-30 18:03:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230730160047.tar.gz]
 [2023-07-30 18:03:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-30 18:03:12] INFO root fetch - main [MainThread]: Store serial: [19097572]
+[2023-07-30 18:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097572]
+[2023-07-30 18:08:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-test-helper
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openi-beta
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: InvokeAI
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notification-service-nightly
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dungeondriver
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-flow-nightly
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bagbag
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prettier-prints
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vistral
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: V2RayP
+[2023-07-30 18:08:21] WARNING root fetch - processPackages [python-test-helper]: Skipping, unable to determine old version
+[2023-07-30 18:08:21] INFO root fetch - main [MainThread]: End processing [python-test-helper] error
+[2023-07-30 18:08:21] INFO root fetch - processPackages [InvokeAI]: New version: [3.0.1rc2] Old Version: [3.0.1rc1]
+[2023-07-30 18:08:21] WARNING root fetch - processPackages [V2RayP]: Skipping, unable to determine old version
+[2023-07-30 18:08:21] INFO root fetch - main [MainThread]: End processing [V2RayP] error
+[2023-07-30 18:08:21] INFO root fetch - processPackages [vistral]: New version: [0.1.4] Old Version: [0.1.0a0]
+[2023-07-30 18:08:21] INFO root fetch - processPackages [prettier-prints]: New version: [1.1] Old Version: [0.1.0]
+[2023-07-30 18:08:21] INFO root fetch - processPackages [openi-beta]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-30 18:08:21] WARNING root fetch - processPackages [dungeondriver]: Skipping, unable to determine old version
+[2023-07-30 18:08:21] INFO root fetch - main [MainThread]: End processing [dungeondriver] error
+[2023-07-30 18:08:21] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-30 18:08:21] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-30 18:08:21] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/02/de/4888688b1edf6106de348331d43ba0a58d0da08f31e67ff8118c0b5597f7/InvokeAI-3.0.1rc1.tar.gz
+[2023-07-30 18:08:21] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-30 18:08:21] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-30 18:08:21] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-30 18:08:21] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/d9/a6/741eb676b58a5456d7959c65a30208818b7ce75df75a328cea57776c8c0e/openi-beta-2.0.6.tar.gz
+[2023-07-30 18:08:21] INFO root fetch - processPackages [vistral]: Downloading https://files.pythonhosted.org/packages/96/89/331a9104fa8832bee06bd13552c82e74b2dbcc3609134ffad2f21c3b7718/vistral-0.1.0a0.tar.gz
+[2023-07-30 18:08:21] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/bf/a8/227517aabef4c4e4ec3f6494c1e34b96afc1eb72bf0e099a0f70193f38a8/prettier_prints-0.1.0.tar.gz
+[2023-07-30 18:08:22] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/99/90/4b39e8ebed6b96e9b48be05151c4f1796979ff1689ad51452e0257bd3913/ai_flow_nightly-2023.7.9.tar.gz
+[2023-07-30 18:08:22] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/c7/4b/124fc5261f6060915e47111ca32199af3db938323021c15e986ffd6c0801/notification_service_nightly-2023.7.9.tar.gz
+[2023-07-30 18:08:22] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-30 18:08:22] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/d9/55/a90b9e4875bfeaab89840bf2c8f8dd31f282c8a6fbbfaff57d02cb06545c/openi-beta-2.0.7.tar.gz
+[2023-07-30 18:08:22] INFO root fetch - processPackages [vistral]: Downloading https://files.pythonhosted.org/packages/61/54/c8b384160ae113ee42ceb508c02bfe8641c0d676bc1cab39232ef38116fe/vistral-0.1.4.tar.gz
+[2023-07-30 18:08:22] INFO root fetch - processPackages [prettier-prints]: Downloading https://files.pythonhosted.org/packages/a5/26/c8d404f5e611fb20210a9595826810f96343c3701459c0d13aee9fa197bf/prettier_prints-1.1-py3-none-any.whl
+[2023-07-30 18:08:22] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/16/6c/907d3828ea5ddb4f21489e07a540747101b37f7bbdc6fd597aca5dffdcbe/InvokeAI-3.0.1rc2.tar.gz
+[2023-07-30 18:08:22] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-30 18:08:22] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230730/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-30 18:08:22] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-30 18:08:22] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230730/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-30 18:08:22] INFO root fetch - processPackages [vistral]: executing diffoscope
+[2023-07-30 18:08:22] INFO root fetch - processPackages [vistral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistral-0.1.0a0.tar.gz tmp/vistral-0.1.4.tar.gz --markdown 20230730/v/vistral/0.1.0a0-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 18:08:22] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-07-30 18:08:22] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.6.tar.gz tmp/openi-beta-2.0.7.tar.gz --markdown 20230730/o/openi-beta/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-30 18:08:22] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-30 18:08:22] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230730/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-30 18:08:22] INFO root fetch - processPackages [prettier-prints]: executing diffoscope
+[2023-07-30 18:08:22] INFO root fetch - processPackages [prettier-prints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettier_prints-0.1.0.tar.gz tmp/prettier_prints-1.1-py3-none-any.whl.zip --markdown 20230730/p/prettier-prints/0.1.0-1.1/diff.md --exclude *.pyd
+[2023-07-30 18:08:22] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2023-07-30 18:08:22] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-3.0.1rc1.tar.gz tmp/InvokeAI-3.0.1rc2.tar.gz --markdown 20230730/I/InvokeAI/3.0.1rc1-3.0.1rc2/diff.md --exclude *.pyd
+[2023-07-30 18:08:23] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.6.tar.gz]
+[2023-07-30 18:08:23] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.7.tar.gz]
+[2023-07-30 18:08:23] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-07-30 18:08:23] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-0.1.0.tar.gz]
+[2023-07-30 18:08:23] INFO root fetch - processPackages [prettier-prints]: Remove: archive file [/home/abi/fetcher/tmp/prettier_prints-1.1-py3-none-any.whl.zip]
+[2023-07-30 18:08:23] INFO root fetch - main [MainThread]: End processing [prettier-prints]: success
+[2023-07-30 18:08:23] INFO root fetch - processPackages [vistral]: Remove: archive file [/home/abi/fetcher/tmp/vistral-0.1.0a0.tar.gz]
+[2023-07-30 18:08:23] INFO root fetch - processPackages [vistral]: Remove: archive file [/home/abi/fetcher/tmp/vistral-0.1.4.tar.gz]
+[2023-07-30 18:08:23] INFO root fetch - main [MainThread]: End processing [vistral]: success
+[2023-07-30 18:08:23] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-30 18:08:23] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-30 18:08:23] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-30 18:08:24] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-30 18:08:24] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-30 18:08:24] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-30 18:08:24] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-30 18:08:24] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-30 18:08:24] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-30 18:08:43] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc1.tar.gz]
+[2023-07-30 18:08:43] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc2.tar.gz]
+[2023-07-30 18:08:43] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2023-07-30 18:08:43] INFO root fetch - main [MainThread]: Store serial: [19097607]
