@@ -12291,3 +12291,103 @@
 [2023-07-30 17:36:01] INFO root fetch - processPackages [solidpython2]: Remove: archive file [/home/abi/fetcher/tmp/solidpython2-2.0.3.tar.gz]
 [2023-07-30 17:36:01] INFO root fetch - main [MainThread]: End processing [solidpython2]: success
 [2023-07-30 17:36:01] INFO root fetch - main [MainThread]: Store serial: [19097415]
+[2023-07-30 17:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097415]
+[2023-07-30 17:41:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slack-logger-python
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmcb-avt
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yetl-framework
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homeassistant-historical-sensor
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llamaai
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: statprocon
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opencone
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TranslatorX
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multitrackpro
+[2023-07-30 17:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Electroplot
+[2023-07-30 17:41:10] WARNING root fetch - processPackages [llamaai]: Skipping, unable to determine old version
+[2023-07-30 17:41:10] INFO root fetch - processPackages [llamaai]: Start processing: pynequa
+[2023-07-30 17:41:10] INFO root fetch - main [MainThread]: End processing [llamaai] error
+[2023-07-30 17:41:10] WARNING root fetch - processPackages [opencone]: Skipping, unable to determine old version
+[2023-07-30 17:41:10] INFO root fetch - processPackages [opencone]: Start processing: TranslatorX
+[2023-07-30 17:41:10] INFO root fetch - main [MainThread]: End processing [opencone] error
+[2023-07-30 17:41:10] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.4.dev2] Old Version: [2.0.4.dev1]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [Electroplot]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [multitrackpro]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [statprocon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [TranslatorX]: New version: [1.2] Old Version: [1.1]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [slack-logger-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [homeassistant-historical-sensor]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-07-30 17:41:10] ERROR root fetch - processPackages [pynequa]: Unable to get metadata: No such project 'pynequa'
+[2023-07-30 17:41:10] INFO root fetch - processPackages [pynequa]: Start processing: dbhydra
+[2023-07-30 17:41:10] INFO root fetch - main [MainThread]: End processing [pynequa] error
+[2023-07-30 17:41:10] INFO root fetch - processPackages [TranslatorX]: New version: [1.2] Old Version: [1.1]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/16/c1/00006ea28c85357acb893c35bbeb77de89d4368d9a78fa9d595c05353a9d/statprocon-0.1.0.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [dbhydra]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-30 17:41:10] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/46/7e/c9758c504562e86a217a9049c5dc3a093cccb5317d499a882a2a3e71fcff/yetl-framework-2.0.4.dev1.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [Electroplot]: Downloading https://files.pythonhosted.org/packages/5a/74/42121482533f546eb54cca19cdf7861247f7d48bb81cdd6cf0e9f1da9dc3/Electroplot-1.0.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [dbhydra]: Downloading https://files.pythonhosted.org/packages/8f/55/b4b7f69ffe4fa340955026839efc924784744645cd85d993e0a7b177a32a/dbhydra-1.1.0.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [TranslatorX]: Downloading https://files.pythonhosted.org/packages/3d/14/63e2665345528c1ef66f31124dc3deab5fac9e1e2fcf3619157a641dbe62/TranslatorX-1.1.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [TranslatorX]: Downloading https://files.pythonhosted.org/packages/3d/14/63e2665345528c1ef66f31124dc3deab5fac9e1e2fcf3619157a641dbe62/TranslatorX-1.1.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/dc/32/e6f68c78fee8ee7a96b7ed28532db6440dc8d2086cd25efafb066aedd4b3/mmcb-avt-0.0.96.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [slack-logger-python]: Downloading https://files.pythonhosted.org/packages/ff/24/386c89903b2413ac6e6b6b273434d6a1b2810799bc2b9a1a863812fa9954/slack-logger-python-0.2.8.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [multitrackpro]: Downloading https://files.pythonhosted.org/packages/01/88/72e1de65927a8e72e634af0aa5b1e541af6f9b82a4a936d13ea8176662ec/multitrackpro-0.1.2.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/23/42/3bc2218a4481620bce38522d23ffa4110684f7e6ed82c3aa6db05bed05fa/homeassistant-historical-sensor-2.0.0rc1.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/e2/ec/aaa98ba5d05ad34e098893306a89d0ed1cfcc7c5a6d8042c0155c8bd419e/yetl-framework-2.0.4.dev2.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/68/fc/1a91c3a440b5ddbf1c35af25af4c0016273d104a76c930b19ee0b0fbdd2b/statprocon-0.1.1.tar.gz
+[2023-07-30 17:41:10] INFO root fetch - processPackages [Electroplot]: Downloading https://files.pythonhosted.org/packages/fb/ba/bb1e2ff994b79ee04825de797c9c500d5a626edfd1746ac6fb09c5f0123c/Electroplot-1.0.1.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [dbhydra]: Downloading https://files.pythonhosted.org/packages/05/13/676a136ef2277e82dcdefe21f0eada487b5c600b3db7e81a6876c34fab5f/dbhydra-1.2.0.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [TranslatorX]: Downloading https://files.pythonhosted.org/packages/36/15/aa2df5b5eae44d39f373c8649794b80d93ba5b4df4d4f1aace0c2ea0bfbb/TranslatorX-1.2.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [TranslatorX]: Downloading https://files.pythonhosted.org/packages/36/15/aa2df5b5eae44d39f373c8649794b80d93ba5b4df4d4f1aace0c2ea0bfbb/TranslatorX-1.2.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [slack-logger-python]: Downloading https://files.pythonhosted.org/packages/ac/3c/6d1ac88c9686d4322ad2d4e877bda05b6378e5bc4aa78dd3d115eac85d0c/slack-logger-python-0.2.9.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.4.dev1.tar.gz tmp/yetl-framework-2.0.4.dev2.tar.gz --markdown 20230730/y/yetl-framework/2.0.4.dev1-2.0.4.dev2/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [dbhydra]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [dbhydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbhydra-1.1.0.tar.gz tmp/dbhydra-1.2.0.tar.gz --markdown 20230730/d/dbhydra/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/e1/89/3045812434a7c7ec64882b61b9001a1f2ff5cc041a3e785808244c513c6c/mmcb-avt-0.0.97.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/c3/7f/7ba85b2e87ca5585818fe4f4c5070f976eb1ff6442d748001d9cbba354c0/homeassistant-historical-sensor-2.0.0rc2.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.1.0.tar.gz tmp/statprocon-0.1.1.tar.gz --markdown 20230730/s/statprocon/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [slack-logger-python]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [slack-logger-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-logger-python-0.2.8.tar.gz tmp/slack-logger-python-0.2.9.tar.gz --markdown 20230730/s/slack-logger-python/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [multitrackpro]: Downloading https://files.pythonhosted.org/packages/b7/39/77b09364006b7b1b47bafb46102e84418ee4347bdf38e48ca48c7af29b96/multitrackpro-0.1.3.tar.gz
+[2023-07-30 17:41:11] INFO root fetch - processPackages [Electroplot]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [Electroplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Electroplot-1.0.tar.gz tmp/Electroplot-1.0.1.tar.gz --markdown 20230730/E/Electroplot/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [TranslatorX]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [TranslatorX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TranslatorX-1.1.tar.gz tmp/TranslatorX-1.2.tar.gz --markdown 20230730/T/TranslatorX/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [TranslatorX]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [TranslatorX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TranslatorX-1.1.tar.gz tmp/TranslatorX-1.2.tar.gz --markdown 20230730/T/TranslatorX/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [homeassistant-historical-sensor]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [homeassistant-historical-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant-historical-sensor-2.0.0rc1.tar.gz tmp/homeassistant-historical-sensor-2.0.0rc2.tar.gz --markdown 20230730/h/homeassistant-historical-sensor/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.96.tar.gz tmp/mmcb-avt-0.0.97.tar.gz --markdown 20230730/m/mmcb-avt/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-07-30 17:41:11] INFO root fetch - processPackages [multitrackpro]: executing diffoscope
+[2023-07-30 17:41:11] INFO root fetch - processPackages [multitrackpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multitrackpro-0.1.2.tar.gz tmp/multitrackpro-0.1.3.tar.gz --markdown 20230730/m/multitrackpro/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-30 17:41:12] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.1.0.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.1.1.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-07-30 17:41:12] INFO root fetch - processPackages [TranslatorX]: Remove: archive file [/home/abi/fetcher/tmp/TranslatorX-1.1.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - processPackages [TranslatorX]: Remove: archive file [/home/abi/fetcher/tmp/TranslatorX-1.2.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - main [MainThread]: End processing [TranslatorX]: success
+[2023-07-30 17:41:12] INFO root fetch - processPackages [Electroplot]: Remove: archive file [/home/abi/fetcher/tmp/Electroplot-1.0.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - processPackages [Electroplot]: Remove: archive file [/home/abi/fetcher/tmp/Electroplot-1.0.1.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - main [MainThread]: End processing [Electroplot]: success
+[2023-07-30 17:41:12] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.4.dev1.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.4.dev2.tar.gz]
+[2023-07-30 17:41:12] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-30 17:41:12] INFO root fetch - main [MainThread]: End processing [TranslatorX]: success
+[2023-07-30 17:41:13] INFO root fetch - processPackages [slack-logger-python]: Remove: archive file [/home/abi/fetcher/tmp/slack-logger-python-0.2.8.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - processPackages [slack-logger-python]: Remove: archive file [/home/abi/fetcher/tmp/slack-logger-python-0.2.9.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - main [MainThread]: End processing [slack-logger-python]: success
+[2023-07-30 17:41:13] INFO root fetch - processPackages [dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/dbhydra-1.1.0.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - processPackages [dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/dbhydra-1.2.0.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - main [MainThread]: End processing [dbhydra]: success
+[2023-07-30 17:41:13] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.96.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.97.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-07-30 17:41:13] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-2.0.0rc1.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-2.0.0rc2.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - main [MainThread]: End processing [homeassistant-historical-sensor]: success
+[2023-07-30 17:41:13] INFO root fetch - processPackages [multitrackpro]: Remove: archive file [/home/abi/fetcher/tmp/multitrackpro-0.1.2.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - processPackages [multitrackpro]: Remove: archive file [/home/abi/fetcher/tmp/multitrackpro-0.1.3.tar.gz]
+[2023-07-30 17:41:13] INFO root fetch - main [MainThread]: End processing [multitrackpro]: success
+[2023-07-30 17:41:13] INFO root fetch - main [MainThread]: Store serial: [19097456]
