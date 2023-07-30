@@ -16874,3 +16874,37 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 23:37:46] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.4.tar.gz]
 [2023-07-30 23:37:46] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
 [2023-07-30 23:37:46] INFO root fetch - main [MainThread]: Store serial: [19099637]
+[2023-07-30 23:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099637]
+[2023-07-30 23:42:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slidge-style-parser
+[2023-07-30 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wikichangewatcher
+[2023-07-30 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plone.staticresources
+[2023-07-30 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maphis
+[2023-07-30 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CrossPy
+[2023-07-30 23:42:55] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-07-30 23:42:55] INFO root fetch - processPackages [wikichangewatcher]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 23:42:55] INFO root fetch - processPackages [maphis]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-30 23:42:55] INFO root fetch - processPackages [plone.staticresources]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-07-30 23:42:55] WARNING root fetch - processPackages [slidge-style-parser]: Skipping, unable to determine old version
+[2023-07-30 23:42:55] INFO root fetch - main [MainThread]: End processing [slidge-style-parser] error
+[2023-07-30 23:42:55] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-07-30 23:42:55] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/1b/3a/e80a971056396c66e52ab5f3517e369add1667ca79838654db0a19768fe2/wikichangewatcher-0.0.2-py3-none-any.whl
+[2023-07-30 23:42:55] INFO root fetch - processPackages [maphis]: Downloading https://files.pythonhosted.org/packages/10/3d/433156a448e1e88bc0a3115e62da58fe34b87a7a8adb7aae34b964accb14/maphis-1.0.6.tar.gz
+[2023-07-30 23:42:55] INFO root fetch - processPackages [plone.staticresources]: Downloading https://files.pythonhosted.org/packages/47/21/a0b80e35d51badbf59931eb7975d65a767074427a473338ef6e7d8d7f4ef/plone.staticresources-2.1.4.tar.gz
+[2023-07-30 23:42:55] WARNING root fetch - processPackages [maphis]: Skipping package: exceeds size limit 12737055>=10485760
+[2023-07-30 23:42:56] INFO root fetch - main [MainThread]: End processing [maphis] error
+[2023-07-30 23:42:56] WARNING root fetch - processPackages [plone.staticresources]: Skipping package: exceeds size limit 11061309>=10485760
+[2023-07-30 23:42:56] INFO root fetch - main [MainThread]: End processing [plone.staticresources] error
+[2023-07-30 23:42:56] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-07-30 23:42:56] INFO root fetch - processPackages [wikichangewatcher]: Downloading https://files.pythonhosted.org/packages/53/59/d04d0cc9883f31bde5cf857cef5b7377679da51b8f090e052e965434ef83/wikichangewatcher-0.0.3-py3-none-any.whl
+[2023-07-30 23:42:56] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-07-30 23:42:56] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230730/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:42:56] INFO root fetch - processPackages [wikichangewatcher]: executing diffoscope
+[2023-07-30 23:42:56] INFO root fetch - processPackages [wikichangewatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikichangewatcher-0.0.2-py3-none-any.whl.zip tmp/wikichangewatcher-0.0.3-py3-none-any.whl.zip --markdown 20230730/w/wikichangewatcher/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 23:42:56] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-07-30 23:42:56] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-07-30 23:42:56] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-07-30 23:42:57] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.0.2-py3-none-any.whl.zip]
+[2023-07-30 23:42:57] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.0.3-py3-none-any.whl.zip]
+[2023-07-30 23:42:57] INFO root fetch - main [MainThread]: End processing [wikichangewatcher]: success
+[2023-07-30 23:42:57] INFO root fetch - main [MainThread]: Store serial: [19099720]
