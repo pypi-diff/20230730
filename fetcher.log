@@ -9301,3 +9301,55 @@
 [2023-07-30 13:56:33] INFO root fetch - processPackages [epdx]: Remove: archive file [/home/abi/fetcher/tmp/epdx-0.3.0-cp38-abi3-win_amd64.whl.zip]
 [2023-07-30 13:56:33] INFO root fetch - main [MainThread]: End processing [epdx]: success
 [2023-07-30 13:56:33] INFO root fetch - main [MainThread]: Store serial: [19096065]
+[2023-07-30 14:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096065]
+[2023-07-30 14:01:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 14:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoCarver
+[2023-07-30 14:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-partiql-parser
+[2023-07-30 14:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-nast-mutation-test
+[2023-07-30 14:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compel
+[2023-07-30 14:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akeyless
+[2023-07-30 14:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoda-tk
+[2023-07-30 14:01:41] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: New version: [20230730.11.58.939301] Old Version: [20230727.11.6.740980]
+[2023-07-30 14:01:41] INFO root fetch - processPackages [akeyless]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-07-30 14:01:41] INFO root fetch - processPackages [py-partiql-parser]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-30 14:01:41] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 14:01:41] INFO root fetch - processPackages [AutoCarver]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-07-30 14:01:41] INFO root fetch - processPackages [compel]: New version: [2.0.2.dev1] Old Version: [2.0.1rc1]
+[2023-07-30 14:01:41] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/9e/5b/6fd9f4e0b73b59bcc71fd8d54c80974cb439f2c7686d3f5c0591ecef18db/compel-2.0.1rc1.tar.gz
+[2023-07-30 14:01:41] INFO root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Downloading https://files.pythonhosted.org/packages/07/48/bd2edf8d7724b75bbed5bec247859c58dd1ccb371ae39100b257561fd7d3/certora-cli-alpha-nast-mutation-test-20230727.11.6.740980.tar.gz
+[2023-07-30 14:01:41] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/8f/f6/fbd396d214afe12c1f95383c7caea9cde8cff3f92242905d99ff7110ff91/akeyless-3.3.8.tar.gz
+[2023-07-30 14:01:41] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/bb/3e/2df44d983bcad41330d768255900d61b143aac2b31fc4653c37196fcbbf3/scoda-tk-0.1.8.tar.gz
+[2023-07-30 14:01:41] WARNING root fetch - processPackages [certora-cli-alpha-nast-mutation-test]: Skipping package: exceeds size limit 37489306>=10485760
+[2023-07-30 14:01:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-nast-mutation-test] error
+[2023-07-30 14:01:41] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/5c/09/86f340bf71d602f1f381f9c9c462a07b6e8a8aaf7cf75d841ad469ff4a23/AutoCarver-5.1.8.tar.gz
+[2023-07-30 14:01:41] INFO root fetch - processPackages [py-partiql-parser]: Downloading https://files.pythonhosted.org/packages/23/be/9bd4f1d1648e80f74dc69ba1fe0c5ec333d386b8a234d38070a05577df39/py-partiql-parser-0.3.6.tar.gz
+[2023-07-30 14:01:41] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/2f/94/4afccb1cfa3091852d18f5be5f58e3a11a913c425b3a2b529ac71bf8ec6f/compel-2.0.2.dev1.tar.gz
+[2023-07-30 14:01:42] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/e8/d9/8da081d345c8ebc6b7977b210c018daa1ad612a88841d909c6eb4cc10562/AutoCarver-5.1.9.tar.gz
+[2023-07-30 14:01:42] INFO root fetch - processPackages [py-partiql-parser]: executing diffoscope
+[2023-07-30 14:01:42] INFO root fetch - processPackages [py-partiql-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-partiql-parser-0.3.5.tar.gz tmp/py-partiql-parser-0.3.6.tar.gz --markdown 20230730/p/py-partiql-parser/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-30 14:01:42] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/2a/b5/50ae6c4c5d2ec98060599a92755611e74c1e561ca9bc7dae41c508e187bc/akeyless-3.3.9.tar.gz
+[2023-07-30 14:01:42] INFO root fetch - processPackages [compel]: executing diffoscope
+[2023-07-30 14:01:42] INFO root fetch - processPackages [compel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compel-2.0.1rc1.tar.gz tmp/compel-2.0.2.dev1.tar.gz --markdown 20230730/c/compel/2.0.1rc1-2.0.2.dev1/diff.md --exclude *.pyd
+[2023-07-30 14:01:42] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/9c/69/ddbd522c1715558f0356a7eaaa06b3fd4fba93216800163057c8d2887ddd/scoda-tk-0.1.9.tar.gz
+[2023-07-30 14:01:42] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-30 14:01:42] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.1.8.tar.gz tmp/AutoCarver-5.1.9.tar.gz --markdown 20230730/A/AutoCarver/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-07-30 14:01:42] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2023-07-30 14:01:42] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.3.8.tar.gz tmp/akeyless-3.3.9.tar.gz --markdown 20230730/a/akeyless/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-07-30 14:01:42] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-30 14:01:42] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.1.8.tar.gz tmp/scoda-tk-0.1.9.tar.gz --markdown 20230730/s/scoda-tk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 14:01:43] INFO root fetch - processPackages [py-partiql-parser]: Remove: archive file [/home/abi/fetcher/tmp/py-partiql-parser-0.3.5.tar.gz]
+[2023-07-30 14:01:43] INFO root fetch - processPackages [py-partiql-parser]: Remove: archive file [/home/abi/fetcher/tmp/py-partiql-parser-0.3.6.tar.gz]
+[2023-07-30 14:01:43] INFO root fetch - main [MainThread]: End processing [py-partiql-parser]: success
+[2023-07-30 14:01:43] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.1rc1.tar.gz]
+[2023-07-30 14:01:43] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.2.dev1.tar.gz]
+[2023-07-30 14:01:43] INFO root fetch - main [MainThread]: End processing [compel]: success
+[2023-07-30 14:01:43] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.8.tar.gz]
+[2023-07-30 14:01:43] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.9.tar.gz]
+[2023-07-30 14:01:43] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-30 14:01:44] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.8.tar.gz]
+[2023-07-30 14:01:44] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.9.tar.gz]
+[2023-07-30 14:01:44] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-30 14:01:51] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.8.tar.gz]
+[2023-07-30 14:01:51] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
+[2023-07-30 14:01:51] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2023-07-30 14:01:51] INFO root fetch - main [MainThread]: Store serial: [19096093]
