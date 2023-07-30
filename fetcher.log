@@ -8224,3 +8224,108 @@
 [2023-07-30 12:33:05] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl.zip]
 [2023-07-30 12:33:05] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
 [2023-07-30 12:33:05] INFO root fetch - main [MainThread]: Store serial: [19095638]
+[2023-07-30 12:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095638]
+[2023-07-30 12:38:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psychrochart
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinjanator-plugins
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windmill-api
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wmill
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill-pg
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py3data
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sleepyemoji
+[2023-07-30 12:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: portablemc
+[2023-07-30 12:38:21] INFO root fetch - processPackages [sleepyemoji]: New version: [3.4] Old Version: [3.3]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [py3data]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [jinjanator-plugins]: New version: [23.2.0] Old Version: [23.1.0]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.3.dev2] Old Version: [8.3.dev1]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [portablemc]: New version: [4.0.0rc2] Old Version: [4.0.0rc1]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [psychrochart]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [pyarmor]: New version: [8.3.dev2] Old Version: [8.3.dev1]
+[2023-07-30 12:38:21] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/c8/c3/44b7768248a892fc0e905a8756d7add2c8ae03a3bb453d17721ac18293f4/sleepyemoji-3.3.tar.gz
+[2023-07-30 12:38:21] INFO root fetch - processPackages [portablemc]: Downloading https://files.pythonhosted.org/packages/99/ff/609db193daf9dbc46b41736052dc079396d686f45e073e5404ad491b8df5/portablemc-4.0.0rc1.tar.gz
+[2023-07-30 12:38:21] INFO root fetch - processPackages [py3data]: Downloading https://files.pythonhosted.org/packages/02/b7/b761e4b2328b25a69eaca5b2a0b7eb445377a285f693f1219778f295941c/py3data-0.3.tar.gz
+[2023-07-30 12:38:21] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/86/43/e9e561f3226243540c819b18fe5894cf3838d07d59b98f17464452702878/pyarmor.cli-8.3.dev1.zip
+[2023-07-30 12:38:21] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-30 12:38:21] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/90/a3/66e53b930dafdc8d25fbe787f63e60620f988df4cff25632c597818ad97d/psychrochart-0.9.1.tar.gz
+[2023-07-30 12:38:21] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/d9/a1/a81236255b5bf73e9a5f034e82b91e4de9e82e891e245b13b561f836de57/pyarmor-8.3.dev1.zip
+[2023-07-30 12:38:21] INFO root fetch - processPackages [jinjanator-plugins]: Downloading https://files.pythonhosted.org/packages/f0/1e/3657eedbb174833339757edbdc91f6208435792ee841a239973e76107745/jinjanator_plugins-23.1.0.tar.gz
+[2023-07-30 12:38:21] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-30 12:38:21] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/cc/f9/dc7c7a5d09f3d9494dfed425c6e6f0880341a94faf3d9905be4705c1496c/sleepyemoji-3.4.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [py3data]: Downloading https://files.pythonhosted.org/packages/26/c2/516bb3f44301aa52f577f84931665b1a9d6c227ee5a0dac5f0456596e9b2/py3data-0.3.1.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [portablemc]: Downloading https://files.pythonhosted.org/packages/61/a4/a3728ef97a1e0e1578b5e5c18f101b95867bff388cf8ac9270e89153af14/portablemc-4.0.0rc2.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/92/c8/50db8e9378484cbc1ebdc3129bbca6531a0b160ecf4feee492882d17ee05/pyarmor.cli-8.3.dev2.zip
+[2023-07-30 12:38:22] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-3.3.tar.gz tmp/sleepyemoji-3.4.tar.gz --markdown 20230730/s/sleepyemoji/3.3-3.4/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [psychrochart]: Downloading https://files.pythonhosted.org/packages/28/65/619b8a4a59a20acd15f594aac14c9db7ea1de88eef8742200e9c75fab634/psychrochart-0.9.2.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [py3data]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [py3data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3data-0.3.tar.gz tmp/py3data-0.3.1.tar.gz --markdown 20230730/p/py3data/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [jinjanator-plugins]: Downloading https://files.pythonhosted.org/packages/e5/6f/3b78329821f9b4a45dbd4b43ef24dfd4b30cf1d5e287f9c08c8cdfe086bf/jinjanator_plugins-23.2.0.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.3.dev1.zip tmp/pyarmor.cli-8.3.dev2.zip --markdown 20230730/p/pyarmor.cli/8.3.dev1-8.3.dev2/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230730/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [psychrochart]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [psychrochart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychrochart-0.9.1.tar.gz tmp/psychrochart-0.9.2.tar.gz --markdown 20230730/p/psychrochart/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-30 12:38:22] INFO root fetch - processPackages [portablemc]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [portablemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portablemc-4.0.0rc1.tar.gz tmp/portablemc-4.0.0rc2.tar.gz --markdown 20230730/p/portablemc/4.0.0rc1-4.0.0rc2/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [jinjanator-plugins]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [jinjanator-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjanator_plugins-23.1.0.tar.gz tmp/jinjanator_plugins-23.2.0.tar.gz --markdown 20230730/j/jinjanator-plugins/23.1.0-23.2.0/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/e0/9d/7afa4fae158ac80e508fbdfab0b23c25be3edfea1df4e6efe7e407aeed04/pyarmor-8.3.dev2.zip
+[2023-07-30 12:38:22] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230730/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230730/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-30 12:38:22] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-07-30 12:38:22] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.3.dev1.zip tmp/pyarmor-8.3.dev2.zip --markdown 20230730/p/pyarmor/8.3.dev1-8.3.dev2/diff.md --exclude *.pyd
+[2023-07-30 12:38:23] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.3.tar.gz]
+[2023-07-30 12:38:23] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.4.tar.gz]
+[2023-07-30 12:38:23] INFO root fetch - processPackages [sleepyemoji]: Start processing: sourmash-plugin-venn
+[2023-07-30 12:38:23] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 12:38:23] INFO root fetch - processPackages [py3data]: Remove: archive file [/home/abi/fetcher/tmp/py3data-0.3.tar.gz]
+[2023-07-30 12:38:23] INFO root fetch - processPackages [py3data]: Remove: archive file [/home/abi/fetcher/tmp/py3data-0.3.1.tar.gz]
+[2023-07-30 12:38:23] INFO root fetch - processPackages [py3data]: Start processing: memsparkline
+[2023-07-30 12:38:23] INFO root fetch - main [MainThread]: End processing [py3data]: success
+[2023-07-30 12:38:23] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-30 12:38:23] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-30 12:38:23] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-30 12:38:23] INFO root fetch - processPackages [sourmash-plugin-venn]: New version: [0.3] Old Version: [0.2]
+[2023-07-30 12:38:24] WARNING root fetch - processPackages [memsparkline]: Skipping, unable to determine old version
+[2023-07-30 12:38:24] INFO root fetch - main [MainThread]: End processing [memsparkline] error
+[2023-07-30 12:38:24] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.3.dev1.zip]
+[2023-07-30 12:38:24] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.3.dev2.zip]
+[2023-07-30 12:38:24] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-07-30 12:38:24] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-30 12:38:24] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.9.1.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - processPackages [psychrochart]: Remove: archive file [/home/abi/fetcher/tmp/psychrochart-0.9.2.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - main [MainThread]: End processing [psychrochart]: success
+[2023-07-30 12:38:24] INFO root fetch - processPackages [sourmash-plugin-venn]: Downloading https://files.pythonhosted.org/packages/ad/bb/a7b5230638e6cb45ebff3bd2b6f6f0274b9f9b8a72877e7cb6a7cae65841/sourmash_plugin_venn-0.2.tar.gz
+[2023-07-30 12:38:24] INFO root fetch - processPackages [jinjanator-plugins]: Remove: archive file [/home/abi/fetcher/tmp/jinjanator_plugins-23.1.0.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - processPackages [jinjanator-plugins]: Remove: archive file [/home/abi/fetcher/tmp/jinjanator_plugins-23.2.0.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - main [MainThread]: End processing [jinjanator-plugins]: success
+[2023-07-30 12:38:24] INFO root fetch - processPackages [portablemc]: Remove: archive file [/home/abi/fetcher/tmp/portablemc-4.0.0rc1.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - processPackages [portablemc]: Remove: archive file [/home/abi/fetcher/tmp/portablemc-4.0.0rc2.tar.gz]
+[2023-07-30 12:38:24] INFO root fetch - main [MainThread]: End processing [portablemc]: success
+[2023-07-30 12:38:24] INFO root fetch - processPackages [sourmash-plugin-venn]: Downloading https://files.pythonhosted.org/packages/58/c5/ea80fab75a73d25d1628fe1e5e48175ec69241b91c33d00f44f519b7be14/sourmash_plugin_venn-0.3.tar.gz
+[2023-07-30 12:38:24] INFO root fetch - processPackages [sourmash-plugin-venn]: executing diffoscope
+[2023-07-30 12:38:24] INFO root fetch - processPackages [sourmash-plugin-venn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourmash_plugin_venn-0.2.tar.gz tmp/sourmash_plugin_venn-0.3.tar.gz --markdown 20230730/s/sourmash-plugin-venn/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-30 12:38:25] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.3.dev1.zip]
+[2023-07-30 12:38:25] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.3.dev2.zip]
+[2023-07-30 12:38:25] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-07-30 12:38:25] INFO root fetch - processPackages [sourmash-plugin-venn]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_venn-0.2.tar.gz]
+[2023-07-30 12:38:25] INFO root fetch - processPackages [sourmash-plugin-venn]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_venn-0.3.tar.gz]
+[2023-07-30 12:38:25] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-venn]: success
+[2023-07-30 12:38:29] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-30 12:38:29] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-30 12:38:29] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-30 12:38:29] INFO root fetch - main [MainThread]: Store serial: [19095680]
