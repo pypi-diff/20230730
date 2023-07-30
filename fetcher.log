@@ -9190,3 +9190,45 @@
 [2023-07-30 13:41:02] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.6-py3-none-any.whl.zip]
 [2023-07-30 13:41:02] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
 [2023-07-30 13:41:02] INFO root fetch - main [MainThread]: Store serial: [19095999]
+[2023-07-30 13:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095999]
+[2023-07-30 13:46:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 13:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pfb-clean
+[2023-07-30 13:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airtouch2
+[2023-07-30 13:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymeterreader
+[2023-07-30 13:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyyt-cli
+[2023-07-30 13:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: balepy
+[2023-07-30 13:46:11] INFO root fetch - processPackages [airtouch2]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pymeterreader]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pyyt-cli]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-30 13:46:11] INFO root fetch - processPackages [balepy]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-30 13:46:11] WARNING root fetch - processPackages [pfb-clean]: Skipping, unable to determine old version
+[2023-07-30 13:46:11] INFO root fetch - main [MainThread]: End processing [pfb-clean] error
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/c6/c2/282f1cd902a34cdd8dd42cda24d7b11bf0e99cabcc9df51bb003e4c188d7/pyyt-cli-0.1.7.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/bf/fe/7f64102d789937f1a57e642bb59417b5358ce9bfc610e5318f60448c0868/airtouch2-0.7.7.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/d9/92/4b5a6c531edb811e13fa13eee0cd09bb681e502b1a2408ccde305e6b3717/balepy-0.9.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pymeterreader]: Downloading https://files.pythonhosted.org/packages/94/0f/d7f46116bb3aefc099fe89c48b872cf2f3010445c46f82dcb2eb9eeeb78d/pymeterreader-0.2.3.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/89/5f/416b3a89d3cd74ee03db5b05ac3c814ef1a1b42d06ccad5fc1da6b420360/pyyt-cli-0.2.0.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/57/7f/78b7144b2a055cbbace2f62360c693d20b59f2b2e83f41ceaf615d53f731/airtouch2-0.7.8.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/f3/01/baf5c8b97bce4ebcdd2a33ff969c0cd23e3b299ad1c7205e229de10b4ec4/balepy-0.9.1.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pyyt-cli]: executing diffoscope
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pyyt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyt-cli-0.1.7.tar.gz tmp/pyyt-cli-0.2.0.tar.gz --markdown 20230730/p/pyyt-cli/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 13:46:11] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-07-30 13:46:11] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.7.7.tar.gz tmp/airtouch2-0.7.8.tar.gz --markdown 20230730/a/airtouch2/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pymeterreader]: Downloading https://files.pythonhosted.org/packages/49/c1/49d582daac15fa3d90c28a7c761f6acb88ec760e4da5c692db8862c7d93e/pymeterreader-0.3.0.tar.gz
+[2023-07-30 13:46:11] INFO root fetch - processPackages [balepy]: executing diffoscope
+[2023-07-30 13:46:11] INFO root fetch - processPackages [balepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balepy-0.9.tar.gz tmp/balepy-0.9.1.tar.gz --markdown 20230730/b/balepy/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pymeterreader]: executing diffoscope
+[2023-07-30 13:46:11] INFO root fetch - processPackages [pymeterreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeterreader-0.2.3.tar.gz tmp/pymeterreader-0.3.0.tar.gz --markdown 20230730/p/pymeterreader/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 13:46:12] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.9.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.9.1.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - main [MainThread]: End processing [balepy]: success
+[2023-07-30 13:46:12] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.1.7.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.2.0.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - main [MainThread]: End processing [pyyt-cli]: success
+[2023-07-30 13:46:12] INFO root fetch - processPackages [pymeterreader]: Remove: archive file [/home/abi/fetcher/tmp/pymeterreader-0.2.3.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - processPackages [pymeterreader]: Remove: archive file [/home/abi/fetcher/tmp/pymeterreader-0.3.0.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - main [MainThread]: End processing [pymeterreader]: success
+[2023-07-30 13:46:12] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.7.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.8.tar.gz]
+[2023-07-30 13:46:12] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-07-30 13:46:12] INFO root fetch - main [MainThread]: Store serial: [19096018]
