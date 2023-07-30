@@ -8820,3 +8820,63 @@
 [2023-07-30 13:09:43] INFO root fetch - processPackages [scope-rl]: Remove: archive file [/home/abi/fetcher/tmp/scope-rl-0.2.1.tar.gz]
 [2023-07-30 13:09:43] INFO root fetch - main [MainThread]: End processing [scope-rl]: success
 [2023-07-30 13:09:43] INFO root fetch - main [MainThread]: Store serial: [19095867]
+[2023-07-30 13:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095867]
+[2023-07-30 13:14:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python3-commons
+[2023-07-30 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confutilPPP
+[2023-07-30 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: munin-plot
+[2023-07-30 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: puppy-muddi
+[2023-07-30 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knowledge-graph
+[2023-07-30 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: balepy
+[2023-07-30 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiggler-studiorabota
+[2023-07-30 13:14:52] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 13:14:52] INFO root fetch - processPackages [knowledge-graph]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 13:14:52] INFO root fetch - processPackages [balepy]: New version: [0.9] Old Version: [0.7]
+[2023-07-30 13:14:52] WARNING root fetch - processPackages [puppy-muddi]: Skipping, unable to determine old version
+[2023-07-30 13:14:52] INFO root fetch - main [MainThread]: End processing [puppy-muddi] error
+[2023-07-30 13:14:52] INFO root fetch - processPackages [munin-plot]: New version: [1.7] Old Version: [1.6]
+[2023-07-30 13:14:52] INFO root fetch - processPackages [python3-commons]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 13:14:52] INFO root fetch - processPackages [confutilPPP]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-30 13:14:53] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [munin-plot]: Downloading https://files.pythonhosted.org/packages/4c/ae/cb6349da672d2fe994173e59d16962dc85d9be91c4f4e6ad0f4b7cee210f/munin-plot-1.6.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/0f/d7/b58430f47e8ba5c6a8e11708d6ab38c5bf6ba25ece5066de715e89bf7151/python3-commons-0.1.1.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/33/54/d9a68a9eccce125fe16755b34f89565864b160c694fda1a59ca342a4334b/confutilPPP-1.1.0.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/47/90/475dd8feb480ff2b78563036de729dc01cbf5b25b2ac993862c1e62c8e47/knowledge-graph-0.0.8.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/d4/86/218668be170bde3a927c9187c21df4c04aabbc80e5267ef97d94fafa78b7/balepy-0.7.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-30 13:14:53] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230730/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 13:14:53] INFO root fetch - processPackages [munin-plot]: Downloading https://files.pythonhosted.org/packages/d6/71/551fb5efd5e811f70d016411088404d3d5df7cc2fdfd53f814951b4cccd5/munin-plot-1.7.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/f9/2a/f988ee230661eb4495a92b1ef382b497c1ebe4ba7c2b62a7348dffd0a5be/confutilPPP-1.1.1.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/59/d3/989a13a6db01cb9d843c241ee9fb030560e8bd3574b9030e7f71c65cb509/python3-commons-0.1.2.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [munin-plot]: executing diffoscope
+[2023-07-30 13:14:53] INFO root fetch - processPackages [munin-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munin-plot-1.6.tar.gz tmp/munin-plot-1.7.tar.gz --markdown 20230730/m/munin-plot/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-30 13:14:53] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/d9/92/4b5a6c531edb811e13fa13eee0cd09bb681e502b1a2408ccde305e6b3717/balepy-0.9.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [confutilPPP]: executing diffoscope
+[2023-07-30 13:14:53] INFO root fetch - processPackages [confutilPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confutilPPP-1.1.0.tar.gz tmp/confutilPPP-1.1.1.tar.gz --markdown 20230730/c/confutilPPP/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-30 13:14:53] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/9c/cf/8eb769891bf4b0813c7674ef29fbcd29b2c6cd65fec1ce5091bab2354116/knowledge-graph-0.0.9.tar.gz
+[2023-07-30 13:14:53] INFO root fetch - processPackages [balepy]: executing diffoscope
+[2023-07-30 13:14:53] INFO root fetch - processPackages [balepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balepy-0.7.tar.gz tmp/balepy-0.9.tar.gz --markdown 20230730/b/balepy/0.7-0.9/diff.md --exclude *.pyd
+[2023-07-30 13:14:53] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-30 13:14:53] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.1.1.tar.gz tmp/python3-commons-0.1.2.tar.gz --markdown 20230730/p/python3-commons/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 13:14:53] INFO root fetch - processPackages [knowledge-graph]: executing diffoscope
+[2023-07-30 13:14:53] INFO root fetch - processPackages [knowledge-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowledge-graph-0.0.8.tar.gz tmp/knowledge-graph-0.0.9.tar.gz --markdown 20230730/k/knowledge-graph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 13:14:54] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-30 13:14:54] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.1.0.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.1.1.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - main [MainThread]: End processing [confutilPPP]: success
+[2023-07-30 13:14:54] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.1.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.2.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-30 13:14:54] INFO root fetch - processPackages [knowledge-graph]: Remove: archive file [/home/abi/fetcher/tmp/knowledge-graph-0.0.8.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - processPackages [knowledge-graph]: Remove: archive file [/home/abi/fetcher/tmp/knowledge-graph-0.0.9.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - main [MainThread]: End processing [knowledge-graph]: success
+[2023-07-30 13:14:54] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.7.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.9.tar.gz]
+[2023-07-30 13:14:54] INFO root fetch - main [MainThread]: End processing [balepy]: success
+[2023-07-30 13:14:55] INFO root fetch - processPackages [munin-plot]: Remove: archive file [/home/abi/fetcher/tmp/munin-plot-1.6.tar.gz]
+[2023-07-30 13:14:55] INFO root fetch - processPackages [munin-plot]: Remove: archive file [/home/abi/fetcher/tmp/munin-plot-1.7.tar.gz]
+[2023-07-30 13:14:55] INFO root fetch - main [MainThread]: End processing [munin-plot]: success
+[2023-07-30 13:14:55] INFO root fetch - main [MainThread]: Store serial: [19095890]
