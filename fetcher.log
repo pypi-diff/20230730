@@ -16126,3 +16126,44 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:38:40] INFO root fetch - processPackages [grafana-wtf]: Remove: archive file [/home/abi/fetcher/tmp/grafana-wtf-0.9.0.tar.gz]
 [2023-07-30 22:38:40] INFO root fetch - main [MainThread]: End processing [grafana-wtf]: success
 [2023-07-30 22:38:40] INFO root fetch - main [MainThread]: Store serial: [19099268]
+[2023-07-30 22:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099268]
+[2023-07-30 22:43:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 22:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysr
+[2023-07-30 22:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: artigraph
+[2023-07-30 22:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ecosystem-flask
+[2023-07-30 22:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maphis
+[2023-07-30 22:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygdebias
+[2023-07-30 22:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mojo-xmodules
+[2023-07-30 22:43:49] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 22:43:49] WARNING root fetch - processPackages [artigraph]: Skipping, unable to determine old version
+[2023-07-30 22:43:49] INFO root fetch - main [MainThread]: End processing [artigraph] error
+[2023-07-30 22:43:49] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.3]
+[2023-07-30 22:43:49] INFO root fetch - processPackages [maphis]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-30 22:43:49] INFO root fetch - processPackages [pysr]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-30 22:43:49] WARNING root fetch - processPackages [pygdebias]: Skipping, unable to determine old version
+[2023-07-30 22:43:49] INFO root fetch - main [MainThread]: End processing [pygdebias] error
+[2023-07-30 22:43:49] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-30 22:43:49] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-30 22:43:49] INFO root fetch - processPackages [maphis]: Downloading https://files.pythonhosted.org/packages/16/c6/9d855ed96a847e93e5a33f7a5e3cfa18da7f31a348b3940d06ca03cde71f/maphis-1.0.4.tar.gz
+[2023-07-30 22:43:49] WARNING root fetch - processPackages [maphis]: Skipping package: exceeds size limit 19735936>=10485760
+[2023-07-30 22:43:49] INFO root fetch - main [MainThread]: End processing [maphis] error
+[2023-07-30 22:43:49] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-30 22:43:49] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/73/ab/db4ac056fdd819802b0be21ffe3646ee022a42f6a5dc9284315b12b4a5a0/pysr-0.9.4.tar.gz
+[2023-07-30 22:43:49] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-30 22:43:49] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.3.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230730/d/data-ecosystem-flask/202307.0.3-202307.0.4/diff.md --exclude *.pyd
+[2023-07-30 22:43:49] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-30 22:43:49] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-30 22:43:49] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230730/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 22:43:50] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/94/ab/d3fde0e696012fdbfa1a72dbc577dac59abbdf676445377b79642490eea7/pysr-0.9.5.tar.gz
+[2023-07-30 22:43:50] INFO root fetch - processPackages [pysr]: executing diffoscope
+[2023-07-30 22:43:50] INFO root fetch - processPackages [pysr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysr-0.9.4.tar.gz tmp/pysr-0.9.5.tar.gz --markdown 20230730/p/pysr/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-30 22:43:50] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-30 22:43:50] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-30 22:43:50] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-30 22:43:50] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-07-30 22:43:50] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-07-30 22:43:50] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-30 22:43:51] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.4.tar.gz]
+[2023-07-30 22:43:51] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.5.tar.gz]
+[2023-07-30 22:43:51] INFO root fetch - main [MainThread]: End processing [pysr]: success
+[2023-07-30 22:43:51] INFO root fetch - main [MainThread]: Store serial: [19099293]
