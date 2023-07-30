@@ -16535,3 +16535,78 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 23:15:57] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-07-30 23:15:57] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-07-30 23:15:57] INFO root fetch - main [MainThread]: Store serial: [19099495]
+[2023-07-30 23:21:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099495]
+[2023-07-30 23:21:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hermite-function
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dovesnap
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: demoparser
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pavimentados
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flota-app
+[2023-07-30 23:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlmesh
+[2023-07-30 23:21:06] INFO root fetch - processPackages [hermite-function]: New version: [1.1] Old Version: [1.0.1]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [pavimentados]: New version: [0.9.0] Old Version: [0.30.0]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [demoparser]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [dovesnap]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [flota-app]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-30 23:21:06] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-07-30 23:21:06] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/59/ee/c1a20fa32ca8fab449d09e3f103a15a227099b2a7ad2373e9b82fa558f1a/hermite-function-1.0.1.tar.gz
+[2023-07-30 23:21:06] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-30 23:21:06] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-30 23:21:06] INFO root fetch - processPackages [pavimentados]: Downloading https://files.pythonhosted.org/packages/ee/66/8b4288829b0148a6fe5c573ed2bf3c67fdbb9ef414cb71f5513ad778fcbf/pavimentados-0.30.0.tar.gz
+[2023-07-30 23:21:06] INFO root fetch - processPackages [demoparser]: Downloading https://files.pythonhosted.org/packages/a5/ea/ff8048db2b5dc907c5702a8361bfac39a20fff8ca150054a642a1092ac5e/demoparser-0.3.3-cp39-none-win_amd64.whl
+[2023-07-30 23:21:06] INFO root fetch - processPackages [flota-app]: Downloading https://files.pythonhosted.org/packages/fd/95/1ebfb7650c7178203e04a1604fd60541bec95e9364e2417fa51239c3f7ca/flota_app-0.1.2.tar.gz
+[2023-07-30 23:21:06] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/a2/e6/f71cf28b24aab659174dc91de5032583ee9b55bbb695aa2609c50821945a/dovesnap-1.1.8.tar.gz
+[2023-07-30 23:21:07] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-07-30 23:21:07] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/3c/4f/5a20c872dc4b630fa84c79e8caa1bef34378a33f7eb5ccaf4e0605dc47f9/hermite-function-1.1.tar.gz
+[2023-07-30 23:21:07] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-07-30 23:21:07] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230730/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-30 23:21:07] INFO root fetch - processPackages [hermite-function]: executing diffoscope
+[2023-07-30 23:21:07] INFO root fetch - processPackages [hermite-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermite-function-1.0.1.tar.gz tmp/hermite-function-1.1.tar.gz --markdown 20230730/h/hermite-function/1.0.1-1.1/diff.md --exclude *.pyd
+[2023-07-30 23:21:07] INFO root fetch - processPackages [flota-app]: Downloading https://files.pythonhosted.org/packages/0a/51/2f2cec3c065e1725e7f1c97215429779b485137e288450292231c288c2df/flota_app-0.1.3.tar.gz
+[2023-07-30 23:21:07] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/e1/3f/3f251da63cfc71584b48cba0dbbb080aa6b7eac6453e0e14a07aeb519b04/dovesnap-1.1.9.tar.gz
+[2023-07-30 23:21:07] INFO root fetch - processPackages [pavimentados]: Downloading https://files.pythonhosted.org/packages/d6/e0/ccbad42807221cd41b54f21f9a85e1900f2a49a2e39375e1ed974e680659/pavimentados-0.9.0.tar.gz
+[2023-07-30 23:21:07] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-30 23:21:07] INFO root fetch - processPackages [dovesnap]: executing diffoscope
+[2023-07-30 23:21:07] INFO root fetch - processPackages [dovesnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovesnap-1.1.8.tar.gz tmp/dovesnap-1.1.9.tar.gz --markdown 20230730/d/dovesnap/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-30 23:21:07] INFO root fetch - processPackages [demoparser]: Downloading https://files.pythonhosted.org/packages/c8/74/d31d3d8412fd9ed7f51d78115e3c5c3ac22dc5f7a207ddea1226b6c52150/demoparser-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 23:21:07] INFO root fetch - processPackages [flota-app]: executing diffoscope
+[2023-07-30 23:21:07] INFO root fetch - processPackages [flota-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flota_app-0.1.2.tar.gz tmp/flota_app-0.1.3.tar.gz --markdown 20230730/f/flota-app/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-30 23:21:07] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-30 23:21:07] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230730/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:21:07] INFO root fetch - processPackages [demoparser]: executing diffoscope
+[2023-07-30 23:21:07] INFO root fetch - processPackages [demoparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demoparser-0.3.3-cp39-none-win_amd64.whl.zip tmp/demoparser-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230730/d/demoparser/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-30 23:21:07] INFO root fetch - processPackages [pavimentados]: executing diffoscope
+[2023-07-30 23:21:07] INFO root fetch - processPackages [pavimentados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pavimentados-0.30.0.tar.gz tmp/pavimentados-0.9.0.tar.gz --markdown 20230730/p/pavimentados/0.30.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 23:21:07] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-30 23:21:08] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-1.0.1.tar.gz]
+[2023-07-30 23:21:08] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-1.1.tar.gz]
+[2023-07-30 23:21:08] INFO root fetch - main [MainThread]: End processing [hermite-function]: success
+[2023-07-30 23:21:08] INFO root fetch - processPackages [dovesnap]: Remove: archive file [/home/abi/fetcher/tmp/dovesnap-1.1.8.tar.gz]
+[2023-07-30 23:21:08] INFO root fetch - processPackages [dovesnap]: Remove: archive file [/home/abi/fetcher/tmp/dovesnap-1.1.9.tar.gz]
+[2023-07-30 23:21:08] INFO root fetch - main [MainThread]: End processing [dovesnap]: success
+[2023-07-30 23:21:09] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-07-30 23:21:09] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-07-30 23:21:09] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-07-30 23:21:09] INFO root fetch - processPackages [flota-app]: Remove: archive file [/home/abi/fetcher/tmp/flota_app-0.1.2.tar.gz]
+[2023-07-30 23:21:09] INFO root fetch - processPackages [flota-app]: Remove: archive file [/home/abi/fetcher/tmp/flota_app-0.1.3.tar.gz]
+[2023-07-30 23:21:09] INFO root fetch - main [MainThread]: End processing [flota-app]: success
+[2023-07-30 23:21:09] INFO root fetch - processPackages [pavimentados]: Remove: archive file [/home/abi/fetcher/tmp/pavimentados-0.30.0.tar.gz]
+[2023-07-30 23:21:09] INFO root fetch - processPackages [pavimentados]: Remove: archive file [/home/abi/fetcher/tmp/pavimentados-0.9.0.tar.gz]
+[2023-07-30 23:21:09] INFO root fetch - main [MainThread]: End processing [pavimentados]: success
+[2023-07-30 23:21:09] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-30 23:21:09] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230730/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 23:21:09] INFO root fetch - processPackages [demoparser]: Remove: archive file [/home/abi/fetcher/tmp/demoparser-0.3.3-cp39-none-win_amd64.whl.zip]
+[2023-07-30 23:21:09] INFO root fetch - processPackages [demoparser]: Remove: archive file [/home/abi/fetcher/tmp/demoparser-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-30 23:21:09] INFO root fetch - main [MainThread]: End processing [demoparser]: success
+[2023-07-30 23:21:21] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-30 23:21:21] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-30 23:21:21] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-30 23:21:38] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-30 23:21:38] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-30 23:21:38] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-30 23:21:38] INFO root fetch - main [MainThread]: Store serial: [19099523]
