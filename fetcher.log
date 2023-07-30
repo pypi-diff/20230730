@@ -4762,3 +4762,67 @@
 [2023-07-30 07:16:12] INFO root fetch - processPackages [deriva-client]: Remove: archive file [/home/abi/fetcher/tmp/deriva-client-1.6.3.tar.gz]
 [2023-07-30 07:16:12] INFO root fetch - main [MainThread]: End processing [deriva-client]: success
 [2023-07-30 07:16:12] INFO root fetch - main [MainThread]: Store serial: [19093959]
+[2023-07-30 07:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093959]
+[2023-07-30 07:21:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 07:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2023-07-30 07:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2023-07-30 07:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciform
+[2023-07-30 07:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sciform
+[2023-07-30 07:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: activity-tracking
+[2023-07-30 07:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: np-workflows
+[2023-07-30 07:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nn4n
+[2023-07-30 07:21:20] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-30 07:21:21] INFO root fetch - processPackages [activity-tracking]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 07:21:21] INFO root fetch - processPackages [nn4n]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 07:21:21] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-30 07:21:21] INFO root fetch - processPackages [np-workflows]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-07-30 07:21:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230730] Old Version: [0.5.4.dev20230729]
+[2023-07-30 07:21:21] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/a7/5e/2dfe84a2978b3a36ce5f1e59ab8f61160237c5d5274da6b13c8f9d584f6b/np_workflows-1.6.4.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/dd/c1/4537fa5d4c763e1b9e37cfa8bf145e82cec0f429a454096eb05d02736137/rapidpe_rift_pipe-0.5.4.dev20230729.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230729] Old Version: [2.14.0.dev20230728]
+[2023-07-30 07:21:21] INFO root fetch - processPackages [nn4n]: Downloading https://files.pythonhosted.org/packages/ed/86/5bd1a83382675838177c96282679b2726bf33a712004ecd7206a84c1bfef/nn4n-1.0.1.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [activity-tracking]: Downloading https://files.pythonhosted.org/packages/3f/6d/fe0a60e2af73ebea77501fc413b4909501da2c32035f6211ad38da4d8172/activity-tracking-0.0.1.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3e/29/2f6b3993b376326a42631a55f5762594e4db0ed01e7a9f3389517a4435dd/tflite_runtime_nightly-2.14.0.dev20230728-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-07-30 07:21:21] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/40/9b/0121aa02e0cd9acfcdee8a6fd0b8fe918a180edf023df1445d304a304ae0/np_workflows-1.6.5.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/51/28/d3d04ae960155c57182a254876c3845eb4695c081b6cdf9cdb9aafc5f4d2/rapidpe_rift_pipe-0.5.4.dev20230730.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [nn4n]: Downloading https://files.pythonhosted.org/packages/59/b2/4e761a3b678d6b4b7f39e5cae58c36b17cad343a75ba21582a181d052620/nn4n-1.0.2.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [activity-tracking]: Downloading https://files.pythonhosted.org/packages/49/b6/6dd3e4b4be741e1d0fd17950d04bc691849fdf7269ffb9db5c9e5d85af0c/activity-tracking-0.0.2.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [activity-tracking]: executing diffoscope
+[2023-07-30 07:21:21] INFO root fetch - processPackages [activity-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activity-tracking-0.0.1.tar.gz tmp/activity-tracking-0.0.2.tar.gz --markdown 20230730/a/activity-tracking/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 07:21:21] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-30 07:21:21] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.4.tar.gz tmp/np_workflows-1.6.5.tar.gz --markdown 20230730/n/np-workflows/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-07-30 07:21:21] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-07-30 07:21:21] INFO root fetch - processPackages [nn4n]: executing diffoscope
+[2023-07-30 07:21:21] INFO root fetch - processPackages [nn4n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nn4n-1.0.1.tar.gz tmp/nn4n-1.0.2.tar.gz --markdown 20230730/n/nn4n/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 07:21:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-30 07:21:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230729.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230730.tar.gz --markdown 20230730/r/rapidpe-rift-pipe/0.5.4.dev20230729-0.5.4.dev20230730/diff.md --exclude *.pyd
+[2023-07-30 07:21:22] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-07-30 07:21:22] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230730/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-30 07:21:22] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-07-30 07:21:22] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230730/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-30 07:21:22] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ed/bb/1ab3058fe9f7cb887a54cddedf24b5abefc8e62c4c95639dd868e8661661/tflite_runtime_nightly-2.14.0.dev20230729-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-07-30 07:21:22] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-30 07:21:22] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230728-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230729-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230730/t/tflite-runtime-nightly/2.14.0.dev20230728-2.14.0.dev20230729/diff.md --exclude *.pyd
+[2023-07-30 07:21:22] INFO root fetch - processPackages [activity-tracking]: Remove: archive file [/home/abi/fetcher/tmp/activity-tracking-0.0.1.tar.gz]
+[2023-07-30 07:21:22] INFO root fetch - processPackages [activity-tracking]: Remove: archive file [/home/abi/fetcher/tmp/activity-tracking-0.0.2.tar.gz]
+[2023-07-30 07:21:22] INFO root fetch - main [MainThread]: End processing [activity-tracking]: success
+[2023-07-30 07:21:23] INFO root fetch - processPackages [nn4n]: Remove: archive file [/home/abi/fetcher/tmp/nn4n-1.0.1.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - processPackages [nn4n]: Remove: archive file [/home/abi/fetcher/tmp/nn4n-1.0.2.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - main [MainThread]: End processing [nn4n]: success
+[2023-07-30 07:21:23] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230729.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230730.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-30 07:21:23] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.4.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.5.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-30 07:21:23] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-07-30 07:21:23] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-07-30 07:21:23] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-07-30 07:21:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230728-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-07-30 07:21:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230729-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-07-30 07:21:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-30 07:21:23] INFO root fetch - main [MainThread]: Store serial: [19093995]
