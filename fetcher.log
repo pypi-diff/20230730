@@ -7955,3 +7955,54 @@
 [2023-07-30 12:11:37] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.9.dev0.tar.gz]
 [2023-07-30 12:11:37] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
 [2023-07-30 12:11:37] INFO root fetch - main [MainThread]: Store serial: [19095454]
+[2023-07-30 12:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095454]
+[2023-07-30 12:16:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: get-some-ncbi-genomes
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: readmeai
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IisLJ
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huynhngocuyen
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-constructor
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prog-shojin-util
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: p2p-payme
+[2023-07-30 12:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3data
+[2023-07-30 12:16:45] INFO root fetch - processPackages [prog-shojin-util]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 12:16:45] WARNING root fetch - processPackages [huynhngocuyen]: Skipping, unable to determine old version
+[2023-07-30 12:16:45] INFO root fetch - main [MainThread]: End processing [huynhngocuyen] error
+[2023-07-30 12:16:45] WARNING root fetch - processPackages [IisLJ]: Skipping, unable to determine old version
+[2023-07-30 12:16:45] INFO root fetch - main [MainThread]: End processing [IisLJ] error
+[2023-07-30 12:16:45] INFO root fetch - processPackages [p2p-payme]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 12:16:45] INFO root fetch - processPackages [readmeai]: New version: [0.0.501] Old Version: [0.0.50]
+[2023-07-30 12:16:45] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-30 12:16:45] WARNING root fetch - processPackages [get-some-ncbi-genomes]: Skipping, unable to determine old version
+[2023-07-30 12:16:45] INFO root fetch - main [MainThread]: End processing [get-some-ncbi-genomes] error
+[2023-07-30 12:16:45] WARNING root fetch - processPackages [py3data]: Skipping, unable to determine old version
+[2023-07-30 12:16:45] INFO root fetch - main [MainThread]: End processing [py3data] error
+[2023-07-30 12:16:45] INFO root fetch - processPackages [p2p-payme]: Downloading https://files.pythonhosted.org/packages/fb/6c/34c7a2ef7a5cf207f44b9e9d26e021b0e376569f06669fc52f1a74c987a7/p2p-payme-0.1.3.tar.gz
+[2023-07-30 12:16:45] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cc/30/6246ec8f403d73bb69895dce825fc2033a0649a09f8a364697bb8d63733c/sql_constructor-1.0.2.tar.gz
+[2023-07-30 12:16:45] INFO root fetch - processPackages [prog-shojin-util]: Downloading https://files.pythonhosted.org/packages/9d/e3/7107d2c68315fcd2ef9ff3db759a5de287207e013d8175793fa8d44a82eb/prog_shojin_util-0.1.0.tar.gz
+[2023-07-30 12:16:45] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/a5/98/7484a5821e75c5e067730fc36e2baecc222a00dd366aeb37b0800b6b9b38/readmeai-0.0.50.tar.gz
+[2023-07-30 12:16:46] INFO root fetch - processPackages [p2p-payme]: Downloading https://files.pythonhosted.org/packages/7a/b7/1e9149d488312cd61159fb76d5010479c614b548042995eefe8b7b71a657/p2p-payme-0.1.4.tar.gz
+[2023-07-30 12:16:46] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/dc/13/644a8f11a718d09b5f07f75d07e7f10560a688a6310b93033bbc06101cb2/sql_constructor-1.0.3.tar.gz
+[2023-07-30 12:16:46] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/d5/ea/3e004f7d1d7dd8bdbb608ee0cd6b28c300474f2f45af7ea00dddc3cd0714/readmeai-0.0.501.tar.gz
+[2023-07-30 12:16:46] INFO root fetch - processPackages [prog-shojin-util]: Downloading https://files.pythonhosted.org/packages/69/39/dbca19b0eada2bc5e0918d5ba0baea55036733b73e0c09fad430c2868522/prog_shojin_util-0.1.1.tar.gz
+[2023-07-30 12:16:46] INFO root fetch - processPackages [p2p-payme]: executing diffoscope
+[2023-07-30 12:16:46] INFO root fetch - processPackages [p2p-payme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2p-payme-0.1.3.tar.gz tmp/p2p-payme-0.1.4.tar.gz --markdown 20230730/p/p2p-payme/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 12:16:46] INFO root fetch - processPackages [prog-shojin-util]: executing diffoscope
+[2023-07-30 12:16:46] INFO root fetch - processPackages [prog-shojin-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prog_shojin_util-0.1.0.tar.gz tmp/prog_shojin_util-0.1.1.tar.gz --markdown 20230730/p/prog-shojin-util/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 12:16:46] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 12:16:46] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.50.tar.gz tmp/readmeai-0.0.501.tar.gz --markdown 20230730/r/readmeai/0.0.50-0.0.501/diff.md --exclude *.pyd
+[2023-07-30 12:16:46] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 12:16:46] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.2.tar.gz tmp/sql_constructor-1.0.3.tar.gz --markdown 20230730/s/sql-constructor/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-30 12:16:47] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.2.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.3.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 12:16:47] INFO root fetch - processPackages [p2p-payme]: Remove: archive file [/home/abi/fetcher/tmp/p2p-payme-0.1.3.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - processPackages [p2p-payme]: Remove: archive file [/home/abi/fetcher/tmp/p2p-payme-0.1.4.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - main [MainThread]: End processing [p2p-payme]: success
+[2023-07-30 12:16:47] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.50.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.501.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 12:16:47] INFO root fetch - processPackages [prog-shojin-util]: Remove: archive file [/home/abi/fetcher/tmp/prog_shojin_util-0.1.0.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - processPackages [prog-shojin-util]: Remove: archive file [/home/abi/fetcher/tmp/prog_shojin_util-0.1.1.tar.gz]
+[2023-07-30 12:16:47] INFO root fetch - main [MainThread]: End processing [prog-shojin-util]: success
+[2023-07-30 12:16:47] INFO root fetch - main [MainThread]: Store serial: [19095485]
