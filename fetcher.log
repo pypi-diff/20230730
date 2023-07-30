@@ -11266,3 +11266,69 @@
 [2023-07-30 16:31:23] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.7.tar.gz]
 [2023-07-30 16:31:23] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-07-30 16:31:23] INFO root fetch - main [MainThread]: Store serial: [19096961]
+[2023-07-30 16:36:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096961]
+[2023-07-30 16:36:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymdptoolbox-roi
+[2023-07-30 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linfa-vi
+[2023-07-30 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compotime
+[2023-07-30 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hikari-orchestrator
+[2023-07-30 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-logstash-async
+[2023-07-30 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tola-payments
+[2023-07-30 16:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfury
+[2023-07-30 16:36:45] INFO root fetch - processPackages [python-logstash-async]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-07-30 16:36:45] INFO root fetch - processPackages [hikari-orchestrator]: New version: [0.1.1] Old Version: [0.1.0.post0]
+[2023-07-30 16:36:45] INFO root fetch - processPackages [pymdptoolbox-roi]: New version: [4.1b0] Old Version: [4.1.7]
+[2023-07-30 16:36:45] INFO root fetch - processPackages [tola-payments]: New version: [1.0.1] Old Version: [0.1.4]
+[2023-07-30 16:36:45] INFO root fetch - processPackages [linfa-vi]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-30 16:36:45] INFO root fetch - processPackages [compotime]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-30 16:36:45] INFO root fetch - processPackages [pyfury]: New version: [0.1.0a3] Old Version: [0.0.1.dev0]
+[2023-07-30 16:36:45] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/e1/02/011e5f3e6e68e831e301d4fb900a34d5ca6e47bfc1971cd2a05633b8cc16/linfa_vi-1.1.8.tar.gz
+[2023-07-30 16:36:45] INFO root fetch - processPackages [compotime]: Downloading https://files.pythonhosted.org/packages/81/ec/def1753db8ff2c56774580b04ef93c92c046f7d226d31b6555a6021eed11/compotime-0.1.0.tar.gz
+[2023-07-30 16:36:45] INFO root fetch - processPackages [python-logstash-async]: Downloading https://files.pythonhosted.org/packages/92/a4/c417a58669367c35139b0997b5aad500075cbdd66a20f2732dd039c62c7d/python-logstash-async-2.5.0.tar.gz
+[2023-07-30 16:36:45] INFO root fetch - processPackages [pymdptoolbox-roi]: Downloading https://files.pythonhosted.org/packages/07/da/42a61e5d08f8aa890c6cc4b1743489f7e5820db58ca5debdac903ae00cc8/pymdptoolbox-roi-4.1.7.tar.gz
+[2023-07-30 16:36:45] INFO root fetch - processPackages [hikari-orchestrator]: Downloading https://files.pythonhosted.org/packages/02/fb/79fb32a538147f1ce96e0cc9c4526d5427ea01fa48d8433c8826293f4280/hikari_orchestrator-0.1.0.post0.tar.gz
+[2023-07-30 16:36:45] INFO root fetch - processPackages [tola-payments]: Downloading https://files.pythonhosted.org/packages/4e/cb/614da79961f88d871e7e73009244713ec93343213253d5401e4a50ee9534/tola_payments-0.1.4.tar.gz
+[2023-07-30 16:36:45] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/79/f6/ff5816371e6f6f09316aff68c7927337f9230fe762e5b9246df4eeeca99b/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl
+[2023-07-30 16:36:46] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/6a/7e/438697f48497afb308107482f6aa42e8e98784e2df25f8cd88b4e1df8353/linfa_vi-1.1.9.tar.gz
+[2023-07-30 16:36:46] INFO root fetch - processPackages [compotime]: Downloading https://files.pythonhosted.org/packages/73/47/8d71ee2d1b3adcd0924f15cc8003ce2e222ecd3ccbb100f263b65e1979ed/compotime-0.2.0.tar.gz
+[2023-07-30 16:36:46] INFO root fetch - processPackages [python-logstash-async]: Downloading https://files.pythonhosted.org/packages/92/c9/8f062e07bba4b6ac388a271bc7834c69b3bc8f62e2d9c12b0560e3af6f9d/python-logstash-async-2.6.0.tar.gz
+[2023-07-30 16:36:46] INFO root fetch - processPackages [hikari-orchestrator]: Downloading https://files.pythonhosted.org/packages/c5/4b/4c36ae2c252aaa2bcd225701472ee5684676a19bcfe5740d3ef499ee2558/hikari_orchestrator-0.1.1.tar.gz
+[2023-07-30 16:36:46] INFO root fetch - processPackages [tola-payments]: Downloading https://files.pythonhosted.org/packages/87/65/0ae251bcf2dbd0be4e6593db66a101ac1d7bf61a619d4c22b0d290f7040e/tola_payments-1.0.1.tar.gz
+[2023-07-30 16:36:46] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-30 16:36:46] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.1.8.tar.gz tmp/linfa_vi-1.1.9.tar.gz --markdown 20230730/l/linfa-vi/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-30 16:36:46] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/ad/17/a9c2170faaff7413470500f64be148503d36083c759115f73f9c83c83a9e/pyfury-0.1.0a3-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-30 16:36:46] INFO root fetch - processPackages [python-logstash-async]: executing diffoscope
+[2023-07-30 16:36:46] INFO root fetch - processPackages [python-logstash-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-logstash-async-2.5.0.tar.gz tmp/python-logstash-async-2.6.0.tar.gz --markdown 20230730/p/python-logstash-async/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-07-30 16:36:46] INFO root fetch - processPackages [pymdptoolbox-roi]: Downloading https://files.pythonhosted.org/packages/5b/5b/e9fd428cff16400f8fad14d1dc91e5cc16b0117f14fa76d097c843e2fad5/pymdptoolbox-roi-4.1b0.tar.gz
+[2023-07-30 16:36:46] INFO root fetch - processPackages [compotime]: executing diffoscope
+[2023-07-30 16:36:46] INFO root fetch - processPackages [compotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compotime-0.1.0.tar.gz tmp/compotime-0.2.0.tar.gz --markdown 20230730/c/compotime/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 16:36:46] INFO root fetch - processPackages [hikari-orchestrator]: executing diffoscope
+[2023-07-30 16:36:46] INFO root fetch - processPackages [hikari-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_orchestrator-0.1.0.post0.tar.gz tmp/hikari_orchestrator-0.1.1.tar.gz --markdown 20230730/h/hikari-orchestrator/0.1.0.post0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 16:36:46] INFO root fetch - processPackages [tola-payments]: executing diffoscope
+[2023-07-30 16:36:46] INFO root fetch - processPackages [tola-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tola_payments-0.1.4.tar.gz tmp/tola_payments-1.0.1.tar.gz --markdown 20230730/t/tola-payments/0.1.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 16:36:46] INFO root fetch - processPackages [pymdptoolbox-roi]: executing diffoscope
+[2023-07-30 16:36:46] INFO root fetch - processPackages [pymdptoolbox-roi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymdptoolbox-roi-4.1.7.tar.gz tmp/pymdptoolbox-roi-4.1b0.tar.gz --markdown 20230730/p/pymdptoolbox-roi/4.1.7-4.1b0/diff.md --exclude *.pyd
+[2023-07-30 16:36:46] INFO root fetch - processPackages [pyfury]: executing diffoscope
+[2023-07-30 16:36:46] INFO root fetch - processPackages [pyfury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl.zip tmp/pyfury-0.1.0a3-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230730/p/pyfury/0.0.1.dev0-0.1.0a3/diff.md --exclude *.pyd
+[2023-07-30 16:36:47] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.8.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.9.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-30 16:36:47] INFO root fetch - processPackages [tola-payments]: Remove: archive file [/home/abi/fetcher/tmp/tola_payments-0.1.4.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - processPackages [tola-payments]: Remove: archive file [/home/abi/fetcher/tmp/tola_payments-1.0.1.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - main [MainThread]: End processing [tola-payments]: success
+[2023-07-30 16:36:47] INFO root fetch - processPackages [compotime]: Remove: archive file [/home/abi/fetcher/tmp/compotime-0.1.0.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - processPackages [compotime]: Remove: archive file [/home/abi/fetcher/tmp/compotime-0.2.0.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - main [MainThread]: End processing [compotime]: success
+[2023-07-30 16:36:47] INFO root fetch - processPackages [python-logstash-async]: Remove: archive file [/home/abi/fetcher/tmp/python-logstash-async-2.5.0.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - processPackages [python-logstash-async]: Remove: archive file [/home/abi/fetcher/tmp/python-logstash-async-2.6.0.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - main [MainThread]: End processing [python-logstash-async]: success
+[2023-07-30 16:36:47] INFO root fetch - processPackages [pymdptoolbox-roi]: Remove: archive file [/home/abi/fetcher/tmp/pymdptoolbox-roi-4.1.7.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - processPackages [pymdptoolbox-roi]: Remove: archive file [/home/abi/fetcher/tmp/pymdptoolbox-roi-4.1b0.tar.gz]
+[2023-07-30 16:36:47] INFO root fetch - main [MainThread]: End processing [pymdptoolbox-roi]: success
+[2023-07-30 16:36:48] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl.zip]
+[2023-07-30 16:36:48] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.1.0a3-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-30 16:36:48] INFO root fetch - main [MainThread]: End processing [pyfury]: success
+[2023-07-30 16:36:48] INFO root fetch - processPackages [hikari-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hikari_orchestrator-0.1.0.post0.tar.gz]
+[2023-07-30 16:36:48] INFO root fetch - processPackages [hikari-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hikari_orchestrator-0.1.1.tar.gz]
+[2023-07-30 16:36:48] INFO root fetch - main [MainThread]: End processing [hikari-orchestrator]: success
+[2023-07-30 16:36:48] INFO root fetch - main [MainThread]: Store serial: [19096986]
