@@ -2944,3 +2944,81 @@
 [2023-07-30 04:17:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.98.tar.gz]
 [2023-07-30 04:17:46] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-07-30 04:17:46] INFO root fetch - main [MainThread]: Store serial: [19093232]
+[2023-07-30 04:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093232]
+[2023-07-30 04:22:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monai-weekly
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-2-mermaid
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VN-transformer
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweetrpg-web-core
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aa-esi-status
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: allianceauth-afat
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mattress
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aa-timezones
+[2023-07-30 04:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aa-fleetfinder
+[2023-07-30 04:22:54] INFO root fetch - processPackages [monai-weekly]: New version: [1.3.dev2331] Old Version: [1.3.dev2330]
+[2023-07-30 04:22:54] WARNING root fetch - processPackages [pydantic-2-mermaid]: Skipping, unable to determine old version
+[2023-07-30 04:22:54] INFO root fetch - main [MainThread]: End processing [pydantic-2-mermaid] error
+[2023-07-30 04:22:54] INFO root fetch - processPackages [VN-transformer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 04:22:54] INFO root fetch - processPackages [aa-fleetfinder]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-30 04:22:54] INFO root fetch - processPackages [aa-timezones]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-30 04:22:54] INFO root fetch - processPackages [aa-esi-status]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-30 04:22:54] INFO root fetch - processPackages [mattress]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 04:22:54] INFO root fetch - processPackages [allianceauth-afat]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-30 04:22:54] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 04:22:54] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/00/28/3d59b7c69662e6f3a34a002639d969f42a9ecf213af532781310ecf5415f/VN-transformer-0.0.8.tar.gz
+[2023-07-30 04:22:54] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-esi-status]: Downloading https://files.pythonhosted.org/packages/f3/b8/9a9bf89eee4fc4b0eb4dae3f1e0a702b1dd57f399e0d5de3b3bb2bb31498/aa_esi_status-1.8.0.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/c8/21/d14f9c780efdeb8d2349a6b24941ff559105f55ee97c1cb68aa04da8c0cf/monai-weekly-1.3.dev2330.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-fleetfinder]: Downloading https://files.pythonhosted.org/packages/38/e1/ba156e07082a319feb6e515917a80bf0f87891456ec6c48b395f566a0cf6/aa_fleetfinder-1.3.0.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [allianceauth-afat]: Downloading https://files.pythonhosted.org/packages/38/37/fe37fc95609c20d8ff996ecee073d3ac8d2f801661bc71021c032b8f5b60/allianceauth_afat-2.9.6.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-timezones]: Downloading https://files.pythonhosted.org/packages/90/72/88bc759140568bf7d91306163813ef64201dc6648be9177eb1ca5e033c79/aa-timezones-1.8.0.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [mattress]: Downloading https://files.pythonhosted.org/packages/fb/cd/ed47c0fe06703f6f053c00b2ec7341eaefe3a8fa47afcec56b58b44ca7a4/mattress-0.0.4.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [VN-transformer]: Downloading https://files.pythonhosted.org/packages/f4/52/8e1b6b8e2043cff02222f3a05ee08cd1f8327c74694d1fbcdee4f5237ce1/VN-transformer-0.0.9.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-30 04:22:55] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230730/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 04:22:55] INFO root fetch - processPackages [VN-transformer]: executing diffoscope
+[2023-07-30 04:22:55] INFO root fetch - processPackages [VN-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VN-transformer-0.0.8.tar.gz tmp/VN-transformer-0.0.9.tar.gz --markdown 20230730/V/VN-transformer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-esi-status]: Downloading https://files.pythonhosted.org/packages/ff/d6/a16c7d1d9356719ff2486004e1a7f514c2b590050bc522c10b9ed38457d4/aa_esi_status-1.9.0.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-fleetfinder]: Downloading https://files.pythonhosted.org/packages/12/aa/740f87f65159e0d145923dedb80af0859a80590166d7a1efcdbef217f17e/aa_fleetfinder-1.3.1.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/9b/e9/742f4bca5a9b8e586f04aa985e49568c3fe7cc63251179d90eeedcfe817c/monai-weekly-1.3.dev2331.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [allianceauth-afat]: Downloading https://files.pythonhosted.org/packages/c7/98/1e23cfa7156a0c959ab2d32fe542b856b1ceb4c2fe51b84ab0f87647300e/allianceauth_afat-2.9.7.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [mattress]: Downloading https://files.pythonhosted.org/packages/bb/e7/272b4110a292390daf935f6d7127c6287ccd4c9b274cd1223e24d3dfb032/mattress-0.0.5.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-esi-status]: executing diffoscope
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-esi-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_esi_status-1.8.0.tar.gz tmp/aa_esi_status-1.9.0.tar.gz --markdown 20230730/a/aa-esi-status/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-fleetfinder]: executing diffoscope
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-fleetfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_fleetfinder-1.3.0.tar.gz tmp/aa_fleetfinder-1.3.1.tar.gz --markdown 20230730/a/aa-fleetfinder/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-timezones]: Downloading https://files.pythonhosted.org/packages/42/6b/f45b4abe322578e7ddc2cba523837f7aa8c2f1b44f83f052c2c600ebf95b/aa_timezones-1.9.0.tar.gz
+[2023-07-30 04:22:55] INFO root fetch - processPackages [monai-weekly]: executing diffoscope
+[2023-07-30 04:22:55] INFO root fetch - processPackages [monai-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-weekly-1.3.dev2330.tar.gz tmp/monai-weekly-1.3.dev2331.tar.gz --markdown 20230730/m/monai-weekly/1.3.dev2330-1.3.dev2331/diff.md --exclude *.pyd
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-timezones]: executing diffoscope
+[2023-07-30 04:22:55] INFO root fetch - processPackages [aa-timezones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-timezones-1.8.0.tar.gz tmp/aa_timezones-1.9.0.tar.gz --markdown 20230730/a/aa-timezones/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 04:22:55] INFO root fetch - processPackages [mattress]: executing diffoscope
+[2023-07-30 04:22:55] INFO root fetch - processPackages [mattress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattress-0.0.4.tar.gz tmp/mattress-0.0.5.tar.gz --markdown 20230730/m/mattress/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 04:22:56] INFO root fetch - processPackages [allianceauth-afat]: executing diffoscope
+[2023-07-30 04:22:56] INFO root fetch - processPackages [allianceauth-afat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth_afat-2.9.6.tar.gz tmp/allianceauth_afat-2.9.7.tar.gz --markdown 20230730/a/allianceauth-afat/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-30 04:22:56] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.8.tar.gz]
+[2023-07-30 04:22:56] INFO root fetch - processPackages [VN-transformer]: Remove: archive file [/home/abi/fetcher/tmp/VN-transformer-0.0.9.tar.gz]
+[2023-07-30 04:22:56] INFO root fetch - main [MainThread]: End processing [VN-transformer]: success
+[2023-07-30 04:22:56] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-30 04:22:56] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-30 04:22:56] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-30 04:22:57] INFO root fetch - processPackages [aa-esi-status]: Remove: archive file [/home/abi/fetcher/tmp/aa_esi_status-1.8.0.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - processPackages [aa-esi-status]: Remove: archive file [/home/abi/fetcher/tmp/aa_esi_status-1.9.0.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - main [MainThread]: End processing [aa-esi-status]: success
+[2023-07-30 04:22:57] INFO root fetch - processPackages [aa-fleetfinder]: Remove: archive file [/home/abi/fetcher/tmp/aa_fleetfinder-1.3.0.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - processPackages [aa-fleetfinder]: Remove: archive file [/home/abi/fetcher/tmp/aa_fleetfinder-1.3.1.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - main [MainThread]: End processing [aa-fleetfinder]: success
+[2023-07-30 04:22:57] INFO root fetch - processPackages [aa-timezones]: Remove: archive file [/home/abi/fetcher/tmp/aa-timezones-1.8.0.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - processPackages [aa-timezones]: Remove: archive file [/home/abi/fetcher/tmp/aa_timezones-1.9.0.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - main [MainThread]: End processing [aa-timezones]: success
+[2023-07-30 04:22:57] INFO root fetch - processPackages [allianceauth-afat]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_afat-2.9.6.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - processPackages [allianceauth-afat]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_afat-2.9.7.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - main [MainThread]: End processing [allianceauth-afat]: success
+[2023-07-30 04:22:57] INFO root fetch - processPackages [mattress]: Remove: archive file [/home/abi/fetcher/tmp/mattress-0.0.4.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - processPackages [mattress]: Remove: archive file [/home/abi/fetcher/tmp/mattress-0.0.5.tar.gz]
+[2023-07-30 04:22:57] INFO root fetch - main [MainThread]: End processing [mattress]: success
+[2023-07-30 04:23:03] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2330.tar.gz]
+[2023-07-30 04:23:03] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2331.tar.gz]
+[2023-07-30 04:23:03] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
+[2023-07-30 04:23:03] INFO root fetch - main [MainThread]: Store serial: [19093274]
