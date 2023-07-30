@@ -8131,3 +8131,96 @@
 [2023-07-30 12:27:28] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-4.3.dev1-cp39-none-any.whl.zip]
 [2023-07-30 12:27:28] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android]: success
 [2023-07-30 12:27:28] INFO root fetch - main [MainThread]: Store serial: [19095588]
+[2023-07-30 12:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095588]
+[2023-07-30 12:32:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor.cli.core.darwin
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strprogressbar
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.core.freebsd
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DS2STAC-Ingester
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boum
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyarmor.cli.core.linux
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python3-commons
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core.themida
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ag-llama-hub-s
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyarmor.cli.core.windows
+[2023-07-30 12:32:44] INFO root fetch - processPackages [strprogressbar]: New version: [0.2] Old Version: [0.1]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [boum]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [python3-commons]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [DS2STAC-Ingester]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ag-llama-hub-s]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:32:44] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/08/bb/a3dff8d0629892aebdeab443d4ba0a41d04120e62aca3e2a276a04ba5126/boum-1.3.0.tar.gz
+[2023-07-30 12:32:44] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/33/cd/3a51971ddee571fffdd6b135cd60b654f0befbbf89c58efc5e522f58a99e/python3-commons-0.1.0.tar.gz
+[2023-07-30 12:32:44] INFO root fetch - processPackages [ag-llama-hub-s]: Downloading https://files.pythonhosted.org/packages/9e/8e/71a8164258d606da002612ce70b99f5a60b035b315481ba6a45fefa76559/ag_llama_hub_s-0.0.12.tar.gz
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/9d/cf/9b2212d76bb009f95eb9ff35e7e1f1c8ab8f5ffa89e596f3a3fb15a77631/pyarmor.cli.core.linux-4.3.0-cp39-none-any.whl
+[2023-07-30 12:32:44] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/74/75/f9fe0013802989091d553b634cdeaf04a86069a9d722d3968cc31086fb3f/DS2STAC-Ingester-1.0.0.tar.gz
+[2023-07-30 12:32:44] INFO root fetch - processPackages [strprogressbar]: Downloading https://files.pythonhosted.org/packages/b3/d9/5d1d43e6816e02274f1ca1c55f506a4c20926345fc9df45fa37c7f0e5856/strprogressbar-0.1.tar.gz
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/48/34/1a0740d85e24bb0178f45caca60734edf13031d832f8e728f1e191410db7/pyarmor.cli.core.darwin-4.3.0-cp39-none-any.whl
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/59/12/64238361eca9b24300ed8b54ac83143a9701082633940d28dc81ae513921/pyarmor.cli.core.windows-4.3.0-cp37-none-any.whl
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/fb/fb/1ad9c86debeeb19f9e29d278c8d6cd7b21f3491eca472be11afaf2f29348/pyarmor.cli.core.freebsd-4.3.0-cp39-none-any.whl
+[2023-07-30 12:32:44] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/82/29/1b2804f564b7151144d5161b1d2fd25dce528f03bfdbc9b539cddfacbd80/pyarmor.cli.core.themida-4.3.0-cp39-none-any.whl
+[2023-07-30 12:32:45] INFO root fetch - processPackages [boum]: Downloading https://files.pythonhosted.org/packages/0e/04/0f784a9a620964b752a5d579f872f66c4d085d6433f22fbce6139e9b02dd/boum-1.4.0.tar.gz
+[2023-07-30 12:32:45] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/0f/d7/b58430f47e8ba5c6a8e11708d6ab38c5bf6ba25ece5066de715e89bf7151/python3-commons-0.1.1.tar.gz
+[2023-07-30 12:32:45] INFO root fetch - processPackages [ag-llama-hub-s]: Downloading https://files.pythonhosted.org/packages/64/70/83d58cd17c6941454456dcd1463a2bc7239a4b3c91d650a2318d8b46abee/ag_llama_hub_s-0.0.13.tar.gz
+[2023-07-30 12:32:45] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/68/23/33f5ae2621f41b8166e08fe3c5c13614079e7f2c0bef7cba2a8010a13a51/DS2STAC-Ingester-1.0.1.tar.gz
+[2023-07-30 12:32:45] INFO root fetch - processPackages [strprogressbar]: Downloading https://files.pythonhosted.org/packages/3f/38/7288ba98386d353ea187119cac598e1c781d7f70b16449909e3fd49ff88c/strprogressbar-0.2.tar.gz
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/5e/5e/30fa5095ec9d6539d99494484d599aaba619d9872266298609be9549024a/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl
+[2023-07-30 12:32:45] INFO root fetch - processPackages [boum]: executing diffoscope
+[2023-07-30 12:32:45] INFO root fetch - processPackages [boum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boum-1.3.0.tar.gz tmp/boum-1.4.0.tar.gz --markdown 20230730/b/boum/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-30 12:32:45] INFO root fetch - processPackages [ag-llama-hub-s]: executing diffoscope
+[2023-07-30 12:32:45] INFO root fetch - processPackages [ag-llama-hub-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_hub_s-0.0.12.tar.gz tmp/ag_llama_hub_s-0.0.13.tar.gz --markdown 20230730/a/ag-llama-hub-s/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-30 12:32:45] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-30 12:32:45] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.1.0.tar.gz tmp/python3-commons-0.1.1.tar.gz --markdown 20230730/p/python3-commons/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 12:32:45] INFO root fetch - processPackages [strprogressbar]: executing diffoscope
+[2023-07-30 12:32:45] INFO root fetch - processPackages [strprogressbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strprogressbar-0.1.tar.gz tmp/strprogressbar-0.2.tar.gz --markdown 20230730/s/strprogressbar/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/a2/53/ee14e6f3a54820f61f5e84dae2ef1fa402fde0ccf876328f6c97e9464b8f/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl
+[2023-07-30 12:32:45] INFO root fetch - processPackages [DS2STAC-Ingester]: executing diffoscope
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/5a/02/61f7f99345f8dc659adf42ec8c343ed9698c3a7e9a2a01cb8ccb775e4220/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl
+[2023-07-30 12:32:45] INFO root fetch - processPackages [DS2STAC-Ingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DS2STAC-Ingester-1.0.0.tar.gz tmp/DS2STAC-Ingester-1.0.1.tar.gz --markdown 20230730/D/DS2STAC-Ingester/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-4.3.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl.zip --markdown 20230730/p/pyarmor.cli.core.freebsd/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-4.3.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl.zip --markdown 20230730/p/pyarmor.cli.core.linux/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:32:45] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/a2/bd/ae4a9a70554d004afc1b383346ccb4f8a16b233a9b81e4ba3db50f245426/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl
+[2023-07-30 12:32:46] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2023-07-30 12:32:46] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-4.3.0-cp37-none-any.whl.zip tmp/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl.zip --markdown 20230730/p/pyarmor.cli.core.windows/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:32:46] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2023-07-30 12:32:46] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-4.3.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl.zip --markdown 20230730/p/pyarmor.cli.core.darwin/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:32:46] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.3.0.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - processPackages [boum]: Remove: archive file [/home/abi/fetcher/tmp/boum-1.4.0.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - main [MainThread]: End processing [boum]: success
+[2023-07-30 12:32:46] INFO root fetch - processPackages [strprogressbar]: Remove: archive file [/home/abi/fetcher/tmp/strprogressbar-0.1.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - processPackages [strprogressbar]: Remove: archive file [/home/abi/fetcher/tmp/strprogressbar-0.2.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - main [MainThread]: End processing [strprogressbar]: success
+[2023-07-30 12:32:46] INFO root fetch - processPackages [ag-llama-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub_s-0.0.12.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - processPackages [ag-llama-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub_s-0.0.13.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - main [MainThread]: End processing [ag-llama-hub-s]: success
+[2023-07-30 12:32:46] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.0.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.1.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-30 12:32:46] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.0.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.1.tar.gz]
+[2023-07-30 12:32:46] INFO root fetch - main [MainThread]: End processing [DS2STAC-Ingester]: success
+[2023-07-30 12:32:47] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-4.3.0-cp37-none-any.whl.zip]
+[2023-07-30 12:32:47] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-30 12:32:47] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2023-07-30 12:32:47] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/60/1a/0c7bd9c0b54dd929397ea0009e06cabc371970164f539a2f229035a1eeb4/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl
+[2023-07-30 12:32:47] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2023-07-30 12:32:47] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-4.3.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl.zip --markdown 20230730/p/pyarmor.cli.core.themida/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:32:48] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-4.3.0-cp39-none-any.whl.zip]
+[2023-07-30 12:32:48] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-30 12:32:48] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2023-07-30 12:32:50] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-4.3.0-cp39-none-any.whl.zip]
+[2023-07-30 12:32:50] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-30 12:32:50] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-07-30 12:32:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-4.3.0-cp39-none-any.whl.zip]
+[2023-07-30 12:32:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-30 12:32:52] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2023-07-30 12:33:05] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-4.3.0-cp39-none-any.whl.zip]
+[2023-07-30 12:33:05] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-30 12:33:05] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2023-07-30 12:33:05] INFO root fetch - main [MainThread]: Store serial: [19095638]
