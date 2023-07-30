@@ -6340,3 +6340,45 @@
 [2023-07-30 10:11:22] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230730.tar.gz]
 [2023-07-30 10:11:22] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-30 10:11:22] INFO root fetch - main [MainThread]: Store serial: [19094663]
+[2023-07-30 10:16:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094663]
+[2023-07-30 10:16:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 10:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valeriepieris
+[2023-07-30 10:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sql-constructor
+[2023-07-30 10:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shshsh
+[2023-07-30 10:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-07-30 10:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bdating-common
+[2023-07-30 10:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: readmeai
+[2023-07-30 10:16:31] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-30 10:16:31] WARNING root fetch - processPackages [readmeai]: Skipping, unable to determine old version
+[2023-07-30 10:16:31] INFO root fetch - main [MainThread]: End processing [readmeai] error
+[2023-07-30 10:16:31] INFO root fetch - processPackages [valeriepieris]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 10:16:31] WARNING root fetch - processPackages [shshsh]: Skipping, unable to determine old version
+[2023-07-30 10:16:31] INFO root fetch - main [MainThread]: End processing [shshsh] error
+[2023-07-30 10:16:31] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-30 10:16:31] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-07-30 10:16:31] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230730] Old Version: [2.14.0.dev20230729]
+[2023-07-30 10:16:31] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/ae/9d/bd1158e5b4707b0cdf9180a79183086f6a8b492f0d5bb2cf530414198607/sql_constructor-1.0.0.tar.gz
+[2023-07-30 10:16:31] INFO root fetch - processPackages [valeriepieris]: Downloading https://files.pythonhosted.org/packages/cf/10/54cbd1d9605d01982ed006ad3f7a43d1c33b1bd59bfba54b22213a67c32e/valeriepieris-0.1.0.tar.gz
+[2023-07-30 10:16:31] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/fc/b5/c84d5e5764dddfcf607383f4470edc5791316a5fa182bf48d1abe47a4f22/tf_nightly-2.14.0.dev20230729-cp39-cp39-win_amd64.whl
+[2023-07-30 10:16:31] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-07-30 10:16:31] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/4c/e6/a936894027f627bc18cbd2694acedeb1905685999ef6c4995f857c7c1ab5/sql_constructor-1.0.1.tar.gz
+[2023-07-30 10:16:31] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-07-30 10:16:31] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230730/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-30 10:16:31] INFO root fetch - processPackages [valeriepieris]: Downloading https://files.pythonhosted.org/packages/b8/7c/2828cc96adddc9b32552e2a3ea9bf5e46cc899672b27e5623aea3dd26087/valeriepieris-0.1.1.tar.gz
+[2023-07-30 10:16:31] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 10:16:31] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.0.tar.gz tmp/sql_constructor-1.0.1.tar.gz --markdown 20230730/s/sql-constructor/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 10:16:32] INFO root fetch - processPackages [valeriepieris]: executing diffoscope
+[2023-07-30 10:16:32] INFO root fetch - processPackages [valeriepieris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valeriepieris-0.1.0.tar.gz tmp/valeriepieris-0.1.1.tar.gz --markdown 20230730/v/valeriepieris/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 10:16:32] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f5/19/360d858f40bd72d3e07435521bcf1ef890328ac25d52d533652507b23918/tf_nightly-2.14.0.dev20230730-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 10:16:32] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 489658847>=10485760
+[2023-07-30 10:16:32] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-30 10:16:32] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.0.tar.gz]
+[2023-07-30 10:16:32] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.1.tar.gz]
+[2023-07-30 10:16:32] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 10:16:32] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-07-30 10:16:32] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-07-30 10:16:32] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-07-30 10:16:32] INFO root fetch - processPackages [valeriepieris]: Remove: archive file [/home/abi/fetcher/tmp/valeriepieris-0.1.0.tar.gz]
+[2023-07-30 10:16:32] INFO root fetch - processPackages [valeriepieris]: Remove: archive file [/home/abi/fetcher/tmp/valeriepieris-0.1.1.tar.gz]
+[2023-07-30 10:16:32] INFO root fetch - main [MainThread]: End processing [valeriepieris]: success
+[2023-07-30 10:16:32] INFO root fetch - main [MainThread]: Store serial: [19094683]
