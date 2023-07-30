@@ -3133,3 +3133,51 @@
 [2023-07-30 04:39:05] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.5.tar.gz]
 [2023-07-30 04:39:05] INFO root fetch - main [MainThread]: End processing [garth]: success
 [2023-07-30 04:39:05] INFO root fetch - main [MainThread]: Store serial: [19093309]
+[2023-07-30 04:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093309]
+[2023-07-30 04:44:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-torchvision-tfms
+[2023-07-30 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ir-support
+[2023-07-30 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geomancy
+[2023-07-30 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-07-30 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phap
+[2023-07-30 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rusty-chrono
+[2023-07-30 04:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-asset-number
+[2023-07-30 04:44:13] INFO root fetch - processPackages [phap]: New version: [3.1.0a5] Old Version: [3.1.0a3]
+[2023-07-30 04:44:13] INFO root fetch - processPackages [odoo-addon-account-asset-number]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.3]
+[2023-07-30 04:44:13] WARNING root fetch - processPackages [cjm-torchvision-tfms]: Skipping, unable to determine old version
+[2023-07-30 04:44:13] INFO root fetch - main [MainThread]: End processing [cjm-torchvision-tfms] error
+[2023-07-30 04:44:13] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-30 04:44:13] INFO root fetch - processPackages [geomancy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-30 04:44:13] WARNING root fetch - processPackages [ir-support]: Skipping, unable to determine old version
+[2023-07-30 04:44:13] INFO root fetch - main [MainThread]: End processing [ir-support] error
+[2023-07-30 04:44:13] WARNING root fetch - processPackages [rusty-chrono]: Skipping, unable to determine old version
+[2023-07-30 04:44:13] INFO root fetch - main [MainThread]: End processing [rusty-chrono] error
+[2023-07-30 04:44:13] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/39/68/93a021685485931338b68ee160db5475a06bbf1cc06b9e7d7ad8a040b602/geomancy-0.9.3.tar.gz
+[2023-07-30 04:44:13] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Downloading https://files.pythonhosted.org/packages/31/7c/a54e38bbbf9d95a710b390a7d8e13795b7c9daaf25b9f39e9702d851195f/odoo_addon_account_asset_number-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-30 04:44:13] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/9a/2f/8d45b19a08d8aec823782565725393505d24b92ce82ccff4c0f9051640cf/phap-3.1.0a3.tar.gz
+[2023-07-30 04:44:13] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-30 04:44:14] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/35/a2/c764a10bc659f9516effb49259e2e7ef25e5db333264834e36b076bf28ba/geomancy-0.9.4.tar.gz
+[2023-07-30 04:44:14] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/04/f1/db4ddd7cbfb4427863e01cf9a229ac5a6551dda093001cb7bc695f1b8d5e/phap-3.1.0a5.tar.gz
+[2023-07-30 04:44:14] INFO root fetch - processPackages [geomancy]: executing diffoscope
+[2023-07-30 04:44:14] INFO root fetch - processPackages [geomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomancy-0.9.3.tar.gz tmp/geomancy-0.9.4.tar.gz --markdown 20230730/g/geomancy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-30 04:44:14] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-30 04:44:14] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Downloading https://files.pythonhosted.org/packages/6e/b9/68dc27f1bcfed8af10337dbd77f6d0827d5e8f7b1eb472ec9bc96ec3aa32/odoo_addon_account_asset_number-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-30 04:44:14] INFO root fetch - processPackages [phap]: executing diffoscope
+[2023-07-30 04:44:14] INFO root fetch - processPackages [phap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phap-3.1.0a3.tar.gz tmp/phap-3.1.0a5.tar.gz --markdown 20230730/p/phap/3.1.0a3-3.1.0a5/diff.md --exclude *.pyd
+[2023-07-30 04:44:14] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-30 04:44:14] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230730/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-30 04:44:14] INFO root fetch - processPackages [odoo-addon-account-asset-number]: executing diffoscope
+[2023-07-30 04:44:14] INFO root fetch - processPackages [odoo-addon-account-asset-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_number-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_asset_number-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-account-asset-number/15.0.1.0.0.3-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-30 04:44:15] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-30 04:44:15] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-30 04:44:15] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-30 04:44:15] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0a3.tar.gz]
+[2023-07-30 04:44:15] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0a5.tar.gz]
+[2023-07-30 04:44:15] INFO root fetch - main [MainThread]: End processing [phap]: success
+[2023-07-30 04:44:15] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.9.3.tar.gz]
+[2023-07-30 04:44:15] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.9.4.tar.gz]
+[2023-07-30 04:44:15] INFO root fetch - main [MainThread]: End processing [geomancy]: success
+[2023-07-30 04:44:15] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_number-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-30 04:44:15] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_number-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-30 04:44:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-number]: success
+[2023-07-30 04:44:15] INFO root fetch - main [MainThread]: Store serial: [19093335]
