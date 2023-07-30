@@ -9954,3 +9954,42 @@
 [2023-07-30 14:59:03] INFO root fetch - processPackages [sneakpeek-py]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek_py-0.2.1.tar.gz]
 [2023-07-30 14:59:03] INFO root fetch - main [MainThread]: End processing [sneakpeek-py]: success
 [2023-07-30 14:59:03] INFO root fetch - main [MainThread]: Store serial: [19096340]
+[2023-07-30 15:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096340]
+[2023-07-30 15:04:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: light-labyrinth
+[2023-07-30 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otSpec
+[2023-07-30 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmdtrix
+[2023-07-30 15:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-30 15:04:12] INFO root fetch - processPackages [cmdtrix]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-30 15:04:12] INFO root fetch - processPackages [otSpec]: New version: [0.1.32] Old Version: [0.1.31]
+[2023-07-30 15:04:12] INFO root fetch - processPackages [light-labyrinth]: New version: [1.0.0] Old Version: [0.2.8]
+[2023-07-30 15:04:12] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.30] Old Version: [2023.7.29]
+[2023-07-30 15:04:12] INFO root fetch - processPackages [otSpec]: Downloading https://files.pythonhosted.org/packages/0b/49/f5da8fdfff7f2bfcec093fc0fc06badaf8f0d3869c7b9e5f307c8f606dd4/otSpec-0.1.31.tar.gz
+[2023-07-30 15:04:12] INFO root fetch - processPackages [cmdtrix]: Downloading https://files.pythonhosted.org/packages/5c/85/7feb14d1cced2baaf88dbaea969a3b5ac5aed7f9b337ae0c65a026c22c76/cmdtrix-0.1.7.tar.gz
+[2023-07-30 15:04:12] INFO root fetch - processPackages [light-labyrinth]: Downloading https://files.pythonhosted.org/packages/3d/56/cfd8ee6fd3d3f9bc3bf6fcd8884a9ffe1ba05c9e959a6fb954d96b6da90b/light_labyrinth-0.2.8-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 15:04:12] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bf/fb/b99d8780ff8ea3b71ba280c3a6a1be9d12dadc35cf8cb057d3d59e86710f/fbgemm_gpu_nightly_cpu-2023.7.29-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-30 15:04:12] INFO root fetch - processPackages [cmdtrix]: Downloading https://files.pythonhosted.org/packages/12/01/d8d8c47eed470b71b94747e3934417424518a5cd234aa083d327e73f0d37/cmdtrix-0.1.8.tar.gz
+[2023-07-30 15:04:12] INFO root fetch - processPackages [otSpec]: Downloading https://files.pythonhosted.org/packages/b8/a6/4e60726ce7249af7d032e4e1a596b41e7dd17bcc35509d60b423ca6ed034/otSpec-0.1.32.tar.gz
+[2023-07-30 15:04:12] INFO root fetch - processPackages [cmdtrix]: executing diffoscope
+[2023-07-30 15:04:12] INFO root fetch - processPackages [cmdtrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdtrix-0.1.7.tar.gz tmp/cmdtrix-0.1.8.tar.gz --markdown 20230730/c/cmdtrix/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-30 15:04:12] INFO root fetch - processPackages [otSpec]: executing diffoscope
+[2023-07-30 15:04:12] INFO root fetch - processPackages [otSpec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otSpec-0.1.31.tar.gz tmp/otSpec-0.1.32.tar.gz --markdown 20230730/o/otSpec/0.1.31-0.1.32/diff.md --exclude *.pyd
+[2023-07-30 15:04:12] INFO root fetch - processPackages [light-labyrinth]: Downloading https://files.pythonhosted.org/packages/9e/b4/ee4c4a627a37ada04172339a9e663461cf4e4317afd3b20f6c60cc3b6e03/light_labyrinth-1.0.0-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 15:04:13] INFO root fetch - processPackages [light-labyrinth]: executing diffoscope
+[2023-07-30 15:04:13] INFO root fetch - processPackages [light-labyrinth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/light_labyrinth-0.2.8-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/light_labyrinth-1.0.0-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230730/l/light-labyrinth/0.2.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 15:04:13] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/93/dc/3f92fb5831bcc48309f1c34a255a92cc4594e61e060e37ca4008c04efa2a/fbgemm_gpu_nightly_cpu-2023.7.30-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-30 15:04:13] INFO root fetch - processPackages [cmdtrix]: Remove: archive file [/home/abi/fetcher/tmp/cmdtrix-0.1.7.tar.gz]
+[2023-07-30 15:04:13] INFO root fetch - processPackages [cmdtrix]: Remove: archive file [/home/abi/fetcher/tmp/cmdtrix-0.1.8.tar.gz]
+[2023-07-30 15:04:13] INFO root fetch - main [MainThread]: End processing [cmdtrix]: success
+[2023-07-30 15:04:13] INFO root fetch - processPackages [otSpec]: Remove: archive file [/home/abi/fetcher/tmp/otSpec-0.1.31.tar.gz]
+[2023-07-30 15:04:13] INFO root fetch - processPackages [otSpec]: Remove: archive file [/home/abi/fetcher/tmp/otSpec-0.1.32.tar.gz]
+[2023-07-30 15:04:13] INFO root fetch - main [MainThread]: End processing [otSpec]: success
+[2023-07-30 15:04:14] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-30 15:04:14] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.29-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.30-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230730/f/fbgemm-gpu-nightly-cpu/2023.7.29-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 15:04:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.29-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-30 15:04:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.30-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-30 15:04:15] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-30 15:04:16] INFO root fetch - processPackages [light-labyrinth]: Remove: archive file [/home/abi/fetcher/tmp/light_labyrinth-0.2.8-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-30 15:04:16] INFO root fetch - processPackages [light-labyrinth]: Remove: archive file [/home/abi/fetcher/tmp/light_labyrinth-1.0.0-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-30 15:04:16] INFO root fetch - main [MainThread]: End processing [light-labyrinth]: success
+[2023-07-30 15:04:16] INFO root fetch - main [MainThread]: Store serial: [19096375]
