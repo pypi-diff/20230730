@@ -13205,3 +13205,49 @@
 [2023-07-30 18:45:34] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.9.0.tar.gz]
 [2023-07-30 18:45:34] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
 [2023-07-30 18:45:34] INFO root fetch - main [MainThread]: Store serial: [19097833]
+[2023-07-30 18:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097833]
+[2023-07-30 18:50:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 18:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TSolLum
+[2023-07-30 18:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhyypapihawkmod
+[2023-07-30 18:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deker-local-adapters
+[2023-07-30 18:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-historical-currencies
+[2023-07-30 18:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-constructor
+[2023-07-30 18:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MACS3
+[2023-07-30 18:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sql-constructor
+[2023-07-30 18:50:42] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.3.0b3] Old Version: [1.2.0b8]
+[2023-07-30 18:50:42] WARNING root fetch - processPackages [django-historical-currencies]: Skipping, unable to determine old version
+[2023-07-30 18:50:42] INFO root fetch - main [MainThread]: End processing [django-historical-currencies] error
+[2023-07-30 18:50:42] INFO root fetch - processPackages [MACS3]: New version: [3.0.0b3] Old Version: [3.0.0b2]
+[2023-07-30 18:50:42] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 18:50:42] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 18:50:42] ERROR root fetch - processPackages [TSolLum]: Unable to get metadata: No such project 'TSolLum'
+[2023-07-30 18:50:42] INFO root fetch - main [MainThread]: End processing [TSolLum] error
+[2023-07-30 18:50:42] WARNING root fetch - processPackages [deker-local-adapters]: Skipping, unable to determine old version
+[2023-07-30 18:50:42] INFO root fetch - main [MainThread]: End processing [deker-local-adapters] error
+[2023-07-30 18:50:42] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/5e/47/f9e5f3b71fca9d4e5479381d3a943bf69306c36e349311a17ea27da32a1f/pyhyypapihawkmod-1.2.0b8.tar.gz
+[2023-07-30 18:50:42] INFO root fetch - processPackages [MACS3]: Downloading https://files.pythonhosted.org/packages/2a/3f/600ae5656310e4ba6861bfe53b985c424e0e0855a27c0962bb03b0df9970/MACS3-3.0.0b2.tar.gz
+[2023-07-30 18:50:42] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cd/5b/2656e2e18fb7fb5059b0cfb98d4d52feab159c549dd27c4ddb0271885dc6/sql_constructor-1.0.8.tar.gz
+[2023-07-30 18:50:42] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cd/5b/2656e2e18fb7fb5059b0cfb98d4d52feab159c549dd27c4ddb0271885dc6/sql_constructor-1.0.8.tar.gz
+[2023-07-30 18:50:43] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/e1/43/cbdf672ebd9b3ca7e5099661d14867ececfff13d4ae32612241ff0203b6d/pyhyypapihawkmod-1.3.0b3.tar.gz
+[2023-07-30 18:50:43] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f7/79/bfeea056a49359e2c9d0f8be14168f7842a6c3f5c963e7e246e1809403b4/sql_constructor-1.0.9.tar.gz
+[2023-07-30 18:50:43] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f7/79/bfeea056a49359e2c9d0f8be14168f7842a6c3f5c963e7e246e1809403b4/sql_constructor-1.0.9.tar.gz
+[2023-07-30 18:50:43] INFO root fetch - processPackages [MACS3]: Downloading https://files.pythonhosted.org/packages/5f/ca/d5a64e33e643f2b9eb5f48571c48655999a0a2c22e5baf3cc815d729cad7/MACS3-3.0.0b3.tar.gz
+[2023-07-30 18:50:43] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-07-30 18:50:43] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.2.0b8.tar.gz tmp/pyhyypapihawkmod-1.3.0b3.tar.gz --markdown 20230730/p/pyhyypapihawkmod/1.2.0b8-1.3.0b3/diff.md --exclude *.pyd
+[2023-07-30 18:50:43] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 18:50:43] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.8.tar.gz tmp/sql_constructor-1.0.9.tar.gz --markdown 20230730/s/sql-constructor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 18:50:43] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 18:50:43] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.8.tar.gz tmp/sql_constructor-1.0.9.tar.gz --markdown 20230730/s/sql-constructor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 18:50:43] INFO root fetch - processPackages [MACS3]: executing diffoscope
+[2023-07-30 18:50:43] INFO root fetch - processPackages [MACS3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MACS3-3.0.0b2.tar.gz tmp/MACS3-3.0.0b3.tar.gz --markdown 20230730/M/MACS3/3.0.0b2-3.0.0b3/diff.md --exclude *.pyd
+[2023-07-30 18:50:44] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.8.tar.gz]
+[2023-07-30 18:50:44] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.9.tar.gz]
+[2023-07-30 18:50:44] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 18:50:44] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 18:50:44] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.2.0b8.tar.gz]
+[2023-07-30 18:50:44] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.3.0b3.tar.gz]
+[2023-07-30 18:50:44] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-07-30 18:50:45] INFO root fetch - processPackages [MACS3]: Remove: archive file [/home/abi/fetcher/tmp/MACS3-3.0.0b2.tar.gz]
+[2023-07-30 18:50:45] INFO root fetch - processPackages [MACS3]: Remove: archive file [/home/abi/fetcher/tmp/MACS3-3.0.0b3.tar.gz]
+[2023-07-30 18:50:45] INFO root fetch - main [MainThread]: End processing [MACS3]: success
+[2023-07-30 18:50:45] INFO root fetch - main [MainThread]: Store serial: [19097859]
