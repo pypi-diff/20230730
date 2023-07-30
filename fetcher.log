@@ -11332,3 +11332,78 @@
 [2023-07-30 16:36:48] INFO root fetch - processPackages [hikari-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hikari_orchestrator-0.1.1.tar.gz]
 [2023-07-30 16:36:48] INFO root fetch - main [MainThread]: End processing [hikari-orchestrator]: success
 [2023-07-30 16:36:48] INFO root fetch - main [MainThread]: Store serial: [19096986]
+[2023-07-30 16:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096986]
+[2023-07-30 16:41:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TGDbot
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clippets
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twscrape
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atro-args
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: first-breaks-picking
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyepsilla
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-flask
+[2023-07-30 16:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphreduce
+[2023-07-30 16:41:56] INFO root fetch - processPackages [pyepsilla]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-30 16:41:56] INFO root fetch - processPackages [first-breaks-picking]: New version: [0.4.0a0] Old Version: [0.3.0b0]
+[2023-07-30 16:41:56] INFO root fetch - processPackages [TGDbot]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-30 16:41:56] INFO root fetch - processPackages [clippets]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-30 16:41:56] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.3]
+[2023-07-30 16:41:56] INFO root fetch - processPackages [twscrape]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-30 16:41:56] INFO root fetch - processPackages [graphreduce]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-30 16:41:56] INFO root fetch - processPackages [atro-args]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-30 16:41:57] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/f3/52/113d86ed96662f160c8b3469f10be14340df0f546fd71915f2f579f118f0/pyepsilla-0.0.9.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/f5/e7/32324f0065f7436635e3e4e151d9822c98595ae446213aee353e96a41547/atro_args-0.2.4.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [clippets]: Downloading https://files.pythonhosted.org/packages/12/83/5198d05f0efe335a330d36bbcf177e71d602c457268699809d755926840f/clippets-0.0.1.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [TGDbot]: Downloading https://files.pythonhosted.org/packages/34/cc/ea46873c01e3e6314af2eafb807cd52e6653373ab82fcf1faad37f043fc4/TGDbot-0.3.4-py3-none-any.whl
+[2023-07-30 16:41:57] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/e4/b7/3f0d40f4ffad013c6f4d772149916fd8534926742007bbd49227189f5e91/first-breaks-picking-0.3.0b0.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/95/4f/46570b152c8df77abfa305010161035f13abc2087b0294db814bbeef8790/twscrape-0.6.0.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/49/2a/e34a1f6052d283d873e55772ac671e65c328d4778c9be2904a856f5eff2d/graphreduce-1.5.3.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/8c/7f/f493c709283b8507beb6db6751773c01ad3bbab395f3fd6501d95b9d273e/pyepsilla-0.1.0.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/a4/ae/c93eee14a0fcd9b282f2d74f8da606ee4a08891d901f7666f42116a13183/atro_args-0.2.5.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [clippets]: Downloading https://files.pythonhosted.org/packages/61/3f/46e185a5f292df2ac833af90f874c022e86ebaf86a8c59afb3f311dfa022/clippets-0.1.0.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [TGDbot]: Downloading https://files.pythonhosted.org/packages/b5/ad/2d0c3c0f96de431b5ecc30505703c755702098a4be41d5ac20c45ab9e412/TGDbot-0.3.5-py3-none-any.whl
+[2023-07-30 16:41:57] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-30 16:41:57] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.3.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230730/d/data-ecosystem-flask/202307.0.3-202307.0.4/diff.md --exclude *.pyd
+[2023-07-30 16:41:57] INFO root fetch - processPackages [pyepsilla]: executing diffoscope
+[2023-07-30 16:41:57] INFO root fetch - processPackages [pyepsilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepsilla-0.0.9.tar.gz tmp/pyepsilla-0.1.0.tar.gz --markdown 20230730/p/pyepsilla/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-30 16:41:57] INFO root fetch - processPackages [atro-args]: executing diffoscope
+[2023-07-30 16:41:57] INFO root fetch - processPackages [atro-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_args-0.2.4.tar.gz tmp/atro_args-0.2.5.tar.gz --markdown 20230730/a/atro-args/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-30 16:41:57] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/02/43/a68bbd5890009852bb912e805e48695c5bfb0b83c8bcb05abd0b845b88bd/first-breaks-picking-0.4.0a0.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/86/bc/24aaf180fedcf25d142c9281f2c0af82c9c257d976e0fa505dcf2b2be8a7/graphreduce-1.5.4.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/39/cb/fb94189daa4b6d06257443fd7df7e96bfb2f940f256e8fa907032e91e93e/twscrape-0.7.0.tar.gz
+[2023-07-30 16:41:57] INFO root fetch - processPackages [clippets]: executing diffoscope
+[2023-07-30 16:41:57] INFO root fetch - processPackages [clippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clippets-0.0.1.tar.gz tmp/clippets-0.1.0.tar.gz --markdown 20230730/c/clippets/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-30 16:41:57] INFO root fetch - processPackages [TGDbot]: executing diffoscope
+[2023-07-30 16:41:57] INFO root fetch - processPackages [TGDbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TGDbot-0.3.4-py3-none-any.whl.zip tmp/TGDbot-0.3.5-py3-none-any.whl.zip --markdown 20230730/T/TGDbot/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-30 16:41:57] INFO root fetch - processPackages [first-breaks-picking]: executing diffoscope
+[2023-07-30 16:41:57] INFO root fetch - processPackages [first-breaks-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first-breaks-picking-0.3.0b0.tar.gz tmp/first-breaks-picking-0.4.0a0.tar.gz --markdown 20230730/f/first-breaks-picking/0.3.0b0-0.4.0a0/diff.md --exclude *.pyd
+[2023-07-30 16:41:57] INFO root fetch - processPackages [twscrape]: executing diffoscope
+[2023-07-30 16:41:57] INFO root fetch - processPackages [twscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twscrape-0.6.0.tar.gz tmp/twscrape-0.7.0.tar.gz --markdown 20230730/t/twscrape/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-30 16:41:58] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-07-30 16:41:58] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-1.5.3.tar.gz tmp/graphreduce-1.5.4.tar.gz --markdown 20230730/g/graphreduce/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-30 16:41:58] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-30 16:41:58] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-30 16:41:58] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-30 16:41:59] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.2.4.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.2.5.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [atro-args]: success
+[2023-07-30 16:41:59] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.0.9.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.1.0.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [pyepsilla]: success
+[2023-07-30 16:41:59] INFO root fetch - processPackages [TGDbot]: Remove: archive file [/home/abi/fetcher/tmp/TGDbot-0.3.4-py3-none-any.whl.zip]
+[2023-07-30 16:41:59] INFO root fetch - processPackages [TGDbot]: Remove: archive file [/home/abi/fetcher/tmp/TGDbot-0.3.5-py3-none-any.whl.zip]
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [TGDbot]: success
+[2023-07-30 16:41:59] INFO root fetch - processPackages [clippets]: Remove: archive file [/home/abi/fetcher/tmp/clippets-0.0.1.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - processPackages [clippets]: Remove: archive file [/home/abi/fetcher/tmp/clippets-0.1.0.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [clippets]: success
+[2023-07-30 16:41:59] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first-breaks-picking-0.3.0b0.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first-breaks-picking-0.4.0a0.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [first-breaks-picking]: success
+[2023-07-30 16:41:59] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.3.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.4.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-07-30 16:41:59] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.6.0.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.7.0.tar.gz]
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [twscrape]: success
+[2023-07-30 16:41:59] INFO root fetch - main [MainThread]: Store serial: [19097008]
