@@ -6821,3 +6821,69 @@
 [2023-07-30 10:52:57] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-30 10:52:57] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-30 10:52:58] INFO root fetch - main [MainThread]: Store serial: [19094830]
+[2023-07-30 10:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094830]
+[2023-07-30 10:58:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betwatch
+[2023-07-30 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moss-decoder
+[2023-07-30 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoda-tk
+[2023-07-30 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BukeColabProject
+[2023-07-30 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-30 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2023-07-30 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OneOnOne
+[2023-07-30 10:58:06] INFO root fetch - processPackages [betwatch]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-07-30 10:58:06] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-30 10:58:07] INFO root fetch - processPackages [BukeColabProject]: New version: [1.0.0] Old Version: [0.4.6]
+[2023-07-30 10:58:07] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.8] Old Version: [0.3.9.7.2]
+[2023-07-30 10:58:07] INFO root fetch - processPackages [OneOnOne]: New version: [0.696] Old Version: [0.6959]
+[2023-07-30 10:58:07] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-30 10:58:07] INFO root fetch - processPackages [moss-decoder]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-07-30 10:58:07] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/57/4f/1c5349d9bdd94e454bda1c47303f88f3ec19f5a4e8c575f01b14df43a0e2/scoda-tk-0.1.4.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/3a/0e/207980ba43a54ea9773335a2b904c0b7bcd6592824dbc9eff47f5ab844cd/OneOnOne-0.6959.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/0b/37/da1b7066ae8ab0b0f90a28e9e95945ad338e6ff735430d912e5fb9c987c3/BukeColabProject-0.4.6.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/d8/13/33bc49f63d184a5c1eaaf0dda5417b55968b164792a90d4446cffc08a85f/betwatch-1.0.8.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [moss-decoder]: Downloading https://files.pythonhosted.org/packages/6f/3b/122ab87be9b1872a02977cfc0e26522d0105ee226021a120a360bfe39213/moss_decoder-0.4.3.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/b2/ff/33acb6f75a8d798764e203ba49ba88ea65f41b3d10383005833d39d40e5d/nonebot_plugin_stable_diffusion_diao-0.3.9.7.2.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f8/e8/79b6ecb9cfc94cebe459bcd7837c045a1be92d02b030db8e8a8103265ef3/OneOnOne-0.696.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/d9/0f/cfe14fd9504395769fc13b6bba7ca05d958021f075a7bd0881126d096200/BukeColabProject-1.0.0.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/30/0f/e2cc663330770d3032c389289a0aa13e5625dbb6c858c7dcc6e06ec3ecb4/scoda-tk-0.1.5.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/e1/dd/50ce6706115a969f9963dbab643aee57d76be48543aa35b9c06279b57f3a/betwatch-1.1.0.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 10:58:07] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6959.tar.gz tmp/OneOnOne-0.696.tar.gz --markdown 20230730/O/OneOnOne/0.6959-0.696/diff.md --exclude *.pyd
+[2023-07-30 10:58:07] INFO root fetch - processPackages [BukeColabProject]: executing diffoscope
+[2023-07-30 10:58:07] INFO root fetch - processPackages [BukeColabProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BukeColabProject-0.4.6.tar.gz tmp/BukeColabProject-1.0.0.tar.gz --markdown 20230730/B/BukeColabProject/0.4.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 10:58:07] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-07-30 10:58:07] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.0.8.tar.gz tmp/betwatch-1.1.0.tar.gz --markdown 20230730/b/betwatch/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 10:58:07] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-30 10:58:07] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.1.4.tar.gz tmp/scoda-tk-0.1.5.tar.gz --markdown 20230730/s/scoda-tk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-30 10:58:07] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/eb/ce/6175cc8688c3f002b115ccd8ccb5883526e56601b7c03b85ec088177e8cb/nonebot_plugin_stable_diffusion_diao-0.3.9.8.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-30 10:58:07] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-30 10:58:07] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.7.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.tar.gz --markdown 20230730/n/nonebot-plugin-stable-diffusion-diao/0.3.9.7.2-0.3.9.8/diff.md --exclude *.pyd
+[2023-07-30 10:58:08] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-30 10:58:08] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230730/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-30 10:58:08] INFO root fetch - processPackages [moss-decoder]: Downloading https://files.pythonhosted.org/packages/d7/3a/5d043dc6ca6d1f38172695d4a205ff00b4b7ec237b798d51f5d074581fad/moss_decoder-0.5.0.tar.gz
+[2023-07-30 10:58:08] INFO root fetch - processPackages [moss-decoder]: executing diffoscope
+[2023-07-30 10:58:08] INFO root fetch - processPackages [moss-decoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moss_decoder-0.4.3.tar.gz tmp/moss_decoder-0.5.0.tar.gz --markdown 20230730/m/moss-decoder/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-07-30 10:58:08] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.0.8.tar.gz]
+[2023-07-30 10:58:08] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.1.0.tar.gz]
+[2023-07-30 10:58:08] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-07-30 10:58:08] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-0.4.6.tar.gz]
+[2023-07-30 10:58:08] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-1.0.0.tar.gz]
+[2023-07-30 10:58:08] INFO root fetch - main [MainThread]: End processing [BukeColabProject]: success
+[2023-07-30 10:58:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.7.2.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-30 10:58:09] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6959.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.696.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 10:58:09] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-30 10:58:09] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.4.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.5.tar.gz]
+[2023-07-30 10:58:09] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-30 10:58:10] INFO root fetch - processPackages [moss-decoder]: Remove: archive file [/home/abi/fetcher/tmp/moss_decoder-0.4.3.tar.gz]
+[2023-07-30 10:58:10] INFO root fetch - processPackages [moss-decoder]: Remove: archive file [/home/abi/fetcher/tmp/moss_decoder-0.5.0.tar.gz]
+[2023-07-30 10:58:10] INFO root fetch - main [MainThread]: End processing [moss-decoder]: success
+[2023-07-30 10:58:10] INFO root fetch - main [MainThread]: Store serial: [19094925]
