@@ -14078,3 +14078,64 @@
 [2023-07-30 20:09:27] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-07-30 20:09:27] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-07-30 20:09:27] INFO root fetch - main [MainThread]: Store serial: [19098221]
+[2023-07-30 20:14:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098221]
+[2023-07-30 20:14:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsv2py
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ydl-podcast
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netscorpion
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telepost
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: expert-intelligence-toolbox
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsws
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ghcr-badge
+[2023-07-30 20:14:36] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 20:14:36] INFO root fetch - processPackages [telepost]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 20:14:36] INFO root fetch - processPackages [tsv2py]: New version: [0.2] Old Version: [0.1.1]
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ydl-podcast]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-30 20:14:36] INFO root fetch - processPackages [netscorpion]: New version: [0.0.1.2] Old Version: [0.0.1]
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ghcr-badge]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-30 20:14:36] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/5f/7d/c57f7c1abd3196516aaaa90b6345307ac8db085e235baab03018ec4bc1e8/ydl_podcast-1.1.1.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [telepost]: Downloading https://files.pythonhosted.org/packages/fd/be/f5ee583df1272725368970d504c7249605fe098502be4808c41d73707604/telepost-0.0.8.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ghcr-badge]: Downloading https://files.pythonhosted.org/packages/2b/f9/38286aafbdc48b0456847b67b0aae7cf216aedd11d0c7fb14e56e552a428/ghcr_badge-0.3.1.tar.gz
+[2023-07-30 20:14:36] ERROR root fetch - processPackages [netscorpion]: Unable to fetch info: No such project/version 'netscorpion' 0.0.1
+[2023-07-30 20:14:36] INFO root fetch - main [MainThread]: End processing [netscorpion] error
+[2023-07-30 20:14:36] INFO root fetch - processPackages [tsv2py]: Downloading https://files.pythonhosted.org/packages/88/e0/fe057d48caebc9987cd25e2b5937dddb383124d89136cd7b0d8ed2edbc61/tsv2py-0.1.1.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/40/fb/9be770539086662970504680f1acf44332baec0c6c98893d28732b7f0d6a/ydl_podcast-1.2.0.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [telepost]: Downloading https://files.pythonhosted.org/packages/d6/f7/495972073ca7f73268032dc5dc16d15a3504e949ebccf4fd7ede133dd1a4/telepost-0.0.9.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [ghcr-badge]: Downloading https://files.pythonhosted.org/packages/08/bc/e172a4f348f3aface39fe6707e9a0cf19ed338924355efb5b0102b83ae4c/ghcr_badge-0.3.2.tar.gz
+[2023-07-30 20:14:36] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 20:14:36] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 20:14:37] INFO root fetch - processPackages [tsv2py]: Downloading https://files.pythonhosted.org/packages/ee/e3/8d5498f479d161d03121cb2097ce8a0de355662e7a2782dfb22a127e3bae/tsv2py-0.2.tar.gz
+[2023-07-30 20:14:37] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-30 20:14:37] INFO root fetch - processPackages [ydl-podcast]: executing diffoscope
+[2023-07-30 20:14:37] INFO root fetch - processPackages [ydl-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl_podcast-1.1.1.tar.gz tmp/ydl_podcast-1.2.0.tar.gz --markdown 20230730/y/ydl-podcast/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-30 20:14:37] INFO root fetch - processPackages [telepost]: executing diffoscope
+[2023-07-30 20:14:37] INFO root fetch - processPackages [telepost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepost-0.0.8.tar.gz tmp/telepost-0.0.9.tar.gz --markdown 20230730/t/telepost/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 20:14:37] INFO root fetch - processPackages [ghcr-badge]: executing diffoscope
+[2023-07-30 20:14:37] INFO root fetch - processPackages [ghcr-badge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghcr_badge-0.3.1.tar.gz tmp/ghcr_badge-0.3.2.tar.gz --markdown 20230730/g/ghcr-badge/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-30 20:14:37] INFO root fetch - processPackages [tsv2py]: executing diffoscope
+[2023-07-30 20:14:37] INFO root fetch - processPackages [tsv2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsv2py-0.1.1.tar.gz tmp/tsv2py-0.2.tar.gz --markdown 20230730/t/tsv2py/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-07-30 20:14:37] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-30 20:14:37] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230730/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 20:14:38] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 20:14:38] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.1.1.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.2.0.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - main [MainThread]: End processing [ydl-podcast]: success
+[2023-07-30 20:14:38] INFO root fetch - processPackages [telepost]: Remove: archive file [/home/abi/fetcher/tmp/telepost-0.0.8.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - processPackages [telepost]: Remove: archive file [/home/abi/fetcher/tmp/telepost-0.0.9.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - main [MainThread]: End processing [telepost]: success
+[2023-07-30 20:14:38] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-30 20:14:38] INFO root fetch - processPackages [tsv2py]: Remove: archive file [/home/abi/fetcher/tmp/tsv2py-0.1.1.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - processPackages [tsv2py]: Remove: archive file [/home/abi/fetcher/tmp/tsv2py-0.2.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - main [MainThread]: End processing [tsv2py]: success
+[2023-07-30 20:14:38] INFO root fetch - processPackages [ghcr-badge]: Remove: archive file [/home/abi/fetcher/tmp/ghcr_badge-0.3.1.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - processPackages [ghcr-badge]: Remove: archive file [/home/abi/fetcher/tmp/ghcr_badge-0.3.2.tar.gz]
+[2023-07-30 20:14:38] INFO root fetch - main [MainThread]: End processing [ghcr-badge]: success
+[2023-07-30 20:14:38] INFO root fetch - main [MainThread]: Store serial: [19098256]
