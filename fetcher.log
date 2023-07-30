@@ -16015,3 +16015,63 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:28:18] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-30 22:28:18] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-30 22:28:18] INFO root fetch - main [MainThread]: Store serial: [19099208]
+[2023-07-30 22:33:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099208]
+[2023-07-30 22:33:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 22:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jamofetch
+[2023-07-30 22:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chimera-core
+[2023-07-30 22:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gehomesdk
+[2023-07-30 22:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-univer
+[2023-07-30 22:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petisco
+[2023-07-30 22:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openpile
+[2023-07-30 22:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FinderZ
+[2023-07-30 22:33:27] WARNING root fetch - processPackages [chimera-core]: Skipping, unable to determine old version
+[2023-07-30 22:33:27] INFO root fetch - main [MainThread]: End processing [chimera-core] error
+[2023-07-30 22:33:27] INFO root fetch - processPackages [jamofetch]: New version: [3.7.3] Old Version: [3.7.2]
+[2023-07-30 22:33:27] INFO root fetch - processPackages [FinderZ]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-30 22:33:27] INFO root fetch - processPackages [gehomesdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-30 22:33:27] INFO root fetch - processPackages [openpile]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-30 22:33:27] INFO root fetch - processPackages [python-univer]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-30 22:33:27] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-07-30 22:33:27] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/1d/fd/b0c09bf0db4d158f691e04865710b67f77c479a2284133d911df37b8e88f/jamofetch-3.7.2.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/78/e5/65dceafdeed2a83f4b797c95f5b80947cac4ec3190896167f2cd247dc1a0/gehomesdk-0.5.8.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [openpile]: Downloading https://files.pythonhosted.org/packages/8d/ae/e46667e16f7bfbaca381327491b54921f53e66b80163e59a1b3d66cfc49d/openpile-0.3.3.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/23/9a/b10d580c2727441be8fd61eba1cae0710023a1584ad35372582731741e91/finderz-2.0.2.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/96/9c/e6d1fde11c9a95418c2ff19331dcfae884dd7303fe58f4bcefe5eb98c6e7/python-univer-1.4.8.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/5d/14/ca1060e76076aab267e2a6e7dccae7575d443a3075ccc7203d8704e52b3a/gehomesdk-0.5.9.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [gehomesdk]: executing diffoscope
+[2023-07-30 22:33:27] INFO root fetch - processPackages [gehomesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gehomesdk-0.5.8.tar.gz tmp/gehomesdk-0.5.9.tar.gz --markdown 20230730/g/gehomesdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-30 22:33:27] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/60/b8/6e3baebb1fc167ac9dfee1233c057d8cbc623e2072a9d7158d687b4d839b/jamofetch-3.7.3.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/80/b2/9f59d17723ff176419cc89afb171738361ea8363a9b69f95302507b8cbdb/python-univer-1.4.9.tar.gz
+[2023-07-30 22:33:27] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-30 22:33:27] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.7.2.tar.gz tmp/jamofetch-3.7.3.tar.gz --markdown 20230730/j/jamofetch/3.7.2-3.7.3/diff.md --exclude *.pyd
+[2023-07-30 22:33:27] INFO root fetch - processPackages [openpile]: Downloading https://files.pythonhosted.org/packages/0c/fe/cade6373570cffa2e680090a70ad1640914c7fc4185d89c8ae31f527c324/openpile-0.4.0.tar.gz
+[2023-07-30 22:33:28] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/9b/bc/0ab866d52fa74087c905c075658b97cd6c85ae2aef309320da46176d0d50/finderz-2.0.3.tar.gz
+[2023-07-30 22:33:28] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-07-30 22:33:28] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-30 22:33:28] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.8.tar.gz tmp/python-univer-1.4.9.tar.gz --markdown 20230730/p/python-univer/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-30 22:33:28] INFO root fetch - processPackages [openpile]: executing diffoscope
+[2023-07-30 22:33:28] INFO root fetch - processPackages [openpile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpile-0.3.3.tar.gz tmp/openpile-0.4.0.tar.gz --markdown 20230730/o/openpile/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-30 22:33:28] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-07-30 22:33:28] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230730/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-07-30 22:33:28] INFO root fetch - processPackages [FinderZ]: executing diffoscope
+[2023-07-30 22:33:28] INFO root fetch - processPackages [FinderZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finderz-2.0.2.tar.gz tmp/finderz-2.0.3.tar.gz --markdown 20230730/F/FinderZ/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-30 22:33:28] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.2.tar.gz]
+[2023-07-30 22:33:28] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.3.tar.gz]
+[2023-07-30 22:33:28] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-30 22:33:29] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.8.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.9.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-30 22:33:29] INFO root fetch - processPackages [openpile]: Remove: archive file [/home/abi/fetcher/tmp/openpile-0.3.3.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - processPackages [openpile]: Remove: archive file [/home/abi/fetcher/tmp/openpile-0.4.0.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - main [MainThread]: End processing [openpile]: success
+[2023-07-30 22:33:29] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.2.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.3.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - main [MainThread]: End processing [FinderZ]: success
+[2023-07-30 22:33:29] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.8.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.9.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - main [MainThread]: End processing [gehomesdk]: success
+[2023-07-30 22:33:29] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-07-30 22:33:29] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-07-30 22:33:29] INFO root fetch - main [MainThread]: Store serial: [19099235]
