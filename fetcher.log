@@ -15862,3 +15862,103 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:17:41] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.1.tar.gz]
 [2023-07-30 22:17:41] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
 [2023-07-30 22:17:41] INFO root fetch - main [MainThread]: Store serial: [19099115]
+[2023-07-30 22:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099115]
+[2023-07-30 22:22:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoQPF
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-index
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Logbook
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stripenn
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seagoat
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jamofetch
+[2023-07-30 22:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logpie
+[2023-07-30 22:22:50] INFO root fetch - processPackages [AutoQPF]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [llama-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [gpt-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [seagoat]: New version: [0.8.8] Old Version: [0.8.0]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [jamofetch]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [logpie]: New version: [4.0.0] Old Version: [3.0.3]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [stripenn]: New version: [1.1.7] Old Version: [1.1.65.9]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [Logbook]: New version: [1.6.0] Old Version: [1.5.3]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-30 22:22:50] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/2f/e7/26c0a77d20d762a2e856738f0f1e38342069be88566479653d9d9118e33a/llama_index-0.7.8.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/a9/fc/759318b247b4f445b1da56bb0d8b711a7de1adda75a92c3fd92176d9984c/gpt_index-0.7.8.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/94/6f/85e9a85cb7aa8f8b9f20071b64309c24e01645d8fa1adeb26fadc7c7b39a/AutoQPF-0.1.6.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/c6/70/3daefdfefd459b6f5719e0a81c30b09b552a4a5f1c948032d55300d927d2/seagoat-0.8.0.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [Logbook]: Downloading https://files.pythonhosted.org/packages/2f/d9/16ac346f7c0102835814cc9e5b684aaadea101560bb932a2403bd26b2320/Logbook-1.5.3.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/60/84/c6dcb580e4ca5636eb4730ab50300f95d03e1b444eb7369da552695068df/jamofetch-3.7.1.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [logpie]: Downloading https://files.pythonhosted.org/packages/f9/00/70616268c84c39775c70642fe310345443e207ed14157838e4d6ca97e202/logpie-3.0.3.tar.gz
+[2023-07-30 22:22:50] INFO root fetch - processPackages [stripenn]: Downloading https://files.pythonhosted.org/packages/82/93/490079153f2a9e8f173cd3740e047b01ee33df31336ee5382d30c455f5e4/stripenn-1.1.65.9.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/1a/7c/9e8aceb37943ab1d15e27d69ed3e650c7692b3669e2d293bd325e988437f/llama_index-0.7.9.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fb/cd/b6cf67186f1ef0f3078acd211131fce74e74d15332fa85c6bdcdc2812534/gpt_index-0.7.9.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/b8/2a/52765abe2498dc76afd6b21e36eab161ebf37eb774ebda71ddfa668ae0e1/AutoQPF-0.1.7.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/5e/74/a0afa45e15ea95dc77b4633d5d337a2688e351277860ec06afa60d6e39d6/seagoat-0.8.8.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/1d/fd/b0c09bf0db4d158f691e04865710b67f77c479a2284133d911df37b8e88f/jamofetch-3.7.2.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [AutoQPF]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [AutoQPF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoQPF-0.1.6.tar.gz tmp/AutoQPF-0.1.7.tar.gz --markdown 20230730/A/AutoQPF/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.7.8.tar.gz tmp/llama_index-0.7.9.tar.gz --markdown 20230730/l/llama-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230730/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.7.8.tar.gz tmp/gpt_index-0.7.9.tar.gz --markdown 20230730/g/gpt-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [Logbook]: Downloading https://files.pythonhosted.org/packages/26/86/aab9956e3a5a320aef2a9be78461544a94e778b30c9a22497fa03e952907/Logbook-1.6.0.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230730/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.8.0.tar.gz tmp/seagoat-0.8.8.tar.gz --markdown 20230730/s/seagoat/0.8.0-0.8.8/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.7.1.tar.gz tmp/jamofetch-3.7.2.tar.gz --markdown 20230730/j/jamofetch/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [logpie]: Downloading https://files.pythonhosted.org/packages/b9/ba/ac0ef21b0a49ae959c64bc38ab38901e8e60dff4ead2887a9ed82aff1bc9/logpie-4.0.0.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [logpie]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [logpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logpie-3.0.3.tar.gz tmp/logpie-4.0.0.tar.gz --markdown 20230730/l/logpie/3.0.3-4.0.0/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [stripenn]: Downloading https://files.pythonhosted.org/packages/ab/17/c5f9002115fddf73a27b192fd653c090cc07e06b059e3bdf9a146093401a/stripenn-1.1.7.tar.gz
+[2023-07-30 22:22:51] INFO root fetch - processPackages [Logbook]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [Logbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Logbook-1.5.3.tar.gz tmp/Logbook-1.6.0.tar.gz --markdown 20230730/L/Logbook/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2023-07-30 22:22:51] INFO root fetch - processPackages [stripenn]: executing diffoscope
+[2023-07-30 22:22:51] INFO root fetch - processPackages [stripenn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripenn-1.1.65.9.tar.gz tmp/stripenn-1.1.7.tar.gz --markdown 20230730/s/stripenn/1.1.65.9-1.1.7/diff.md --exclude *.pyd
+[2023-07-30 22:22:53] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.6.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.7.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [AutoQPF]: Start processing: gpt-synthesizer
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
+[2023-07-30 22:22:53] INFO root fetch - processPackages [gpt-synthesizer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [logpie]: Remove: archive file [/home/abi/fetcher/tmp/logpie-3.0.3.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [logpie]: Remove: archive file [/home/abi/fetcher/tmp/logpie-4.0.0.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [logpie]: success
+[2023-07-30 22:22:53] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-30 22:22:53] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.1.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.2.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-30 22:22:53] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.8.0.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.8.8.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-30 22:22:53] INFO root fetch - processPackages [gpt-synthesizer]: Downloading https://files.pythonhosted.org/packages/53/26/c63a8a4ee788800cef0be7d0e8b9a07e1bbf495ee6e5b5fc6176be0fbaa5/gpt-synthesizer-0.0.1.tar.gz
+[2023-07-30 22:22:53] INFO root fetch - processPackages [stripenn]: Remove: archive file [/home/abi/fetcher/tmp/stripenn-1.1.65.9.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [stripenn]: Remove: archive file [/home/abi/fetcher/tmp/stripenn-1.1.7.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [stripenn]: success
+[2023-07-30 22:22:53] INFO root fetch - processPackages [gpt-synthesizer]: Downloading https://files.pythonhosted.org/packages/3a/79/3c17792b576e584cb60cfdbb854abab912af78e4558eadccb572e7dc3d2f/gpt-synthesizer-0.0.2.tar.gz
+[2023-07-30 22:22:53] INFO root fetch - processPackages [Logbook]: Remove: archive file [/home/abi/fetcher/tmp/Logbook-1.5.3.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - processPackages [Logbook]: Remove: archive file [/home/abi/fetcher/tmp/Logbook-1.6.0.tar.gz]
+[2023-07-30 22:22:53] INFO root fetch - main [MainThread]: End processing [Logbook]: success
+[2023-07-30 22:22:53] INFO root fetch - processPackages [gpt-synthesizer]: executing diffoscope
+[2023-07-30 22:22:53] INFO root fetch - processPackages [gpt-synthesizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-synthesizer-0.0.1.tar.gz tmp/gpt-synthesizer-0.0.2.tar.gz --markdown 20230730/g/gpt-synthesizer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 22:22:54] INFO root fetch - processPackages [gpt-synthesizer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-synthesizer-0.0.1.tar.gz]
+[2023-07-30 22:22:54] INFO root fetch - processPackages [gpt-synthesizer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-synthesizer-0.0.2.tar.gz]
+[2023-07-30 22:22:54] INFO root fetch - main [MainThread]: End processing [gpt-synthesizer]: success
+[2023-07-30 22:22:55] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.8.tar.gz]
+[2023-07-30 22:22:55] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.9.tar.gz]
+[2023-07-30 22:22:55] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-30 22:22:55] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.8.tar.gz]
+[2023-07-30 22:22:55] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.9.tar.gz]
+[2023-07-30 22:22:55] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-30 22:22:55] INFO root fetch - main [MainThread]: Store serial: [19099184]
