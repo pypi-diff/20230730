@@ -14960,3 +14960,95 @@
 [2023-07-30 21:11:59] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-1.0.2-cp39-cp39-win_amd64.whl.zip]
 [2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
 [2023-07-30 21:11:59] INFO root fetch - main [MainThread]: Store serial: [19098694]
+[2023-07-30 21:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098694]
+[2023-07-30 21:17:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suite2p
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: examon-core
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compositional-logger
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-ms8607
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teneva-bm
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-rds-database-running-scheduler
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gammarer.aws-frontend-web-app-deploy-stack
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sxm-signagenode
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: convtools
+[2023-07-30 21:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langroid
+[2023-07-30 21:17:08] INFO root fetch - processPackages [teneva-bm]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [examon-core]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [adafruit-circuitpython-ms8607]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-30 21:17:08] WARNING root fetch - processPackages [compositional-logger]: Skipping, unable to determine old version
+[2023-07-30 21:17:08] INFO root fetch - processPackages [compositional-logger]: Start processing: aiogram3-di
+[2023-07-30 21:17:08] INFO root fetch - processPackages [sxm-signagenode]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-30 21:17:08] INFO root fetch - main [MainThread]: End processing [compositional-logger] error
+[2023-07-30 21:17:08] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [suite2p]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/8c/ab/dc4df425b5751376819ea16a9b0771bcea2d7723bc20264c101b962ae6f1/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [convtools]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/11/b4/94ffc713333f6c02798a75754e7584afe91321da93c547bf3a3544e30954/teneva_bm-0.6.1.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [aiogram3-di]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-30 21:17:08] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/45/8f/4de552455b818c1fee368d64e2a3c210f58076f620ce40b1bc3975f534ae/gammarer.aws-frontend-web-app-deploy-stack-0.5.8.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [adafruit-circuitpython-ms8607]: Downloading https://files.pythonhosted.org/packages/53/33/d5d1005dd3b3765a2343ba755467e9d059b6b2a7f08a6b24cd5a107d9d7e/adafruit-circuitpython-ms8607-1.0.8.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/38/05/7b38a6c7d86957e3510f6a9c44b6948b4089bea98cee51b0393327296d15/examon_core-1.1.1.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [suite2p]: Downloading https://files.pythonhosted.org/packages/a5/18/87be8a942939cfc4845ecfb6f5ba4c1cae494a3374879e8566f49e48dffe/suite2p-0.9.2.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/61/fb/1a21bbd4fe2f6693f9d1694588ab1d6a4656ab1fac2a80264522212067e2/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz
+[2023-07-30 21:17:08] INFO root fetch - processPackages [convtools]: Downloading https://files.pythonhosted.org/packages/d9/e2/ccae005b9d75509f8762d2778f53f4ec451a31f389ef6f4dad4429467a92/convtools-1.4.0.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [sxm-signagenode]: Downloading https://files.pythonhosted.org/packages/8d/f9/44da601e7a0abe62ca2fdca54a43b6df0f8afce5a08f9e07e200e77cd115/sxm-signagenode-0.2.2.tar.gz
+[2023-07-30 21:17:09] WARNING root fetch - processPackages [suite2p]: Skipping package: exceeds size limit 27787882>=10485760
+[2023-07-30 21:17:09] INFO root fetch - main [MainThread]: End processing [suite2p] error
+[2023-07-30 21:17:09] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/f8/e8/3b3d1c708dc5ca38d0ec5126d3105cdfb5bb46d54f75a85722fd24e14181/aiogram3_di-1.0.2.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz --markdown 20230730/g/gammarer.aws-rds-database-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/a7/50/bc9863bc9e0548d1a3be8246d5886386b8b23785fadb1e1901b8acd0f02b/gammarer.aws-frontend-web-app-deploy-stack-0.5.9.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/20/b4/b6b70bfa9213f45c71b8f6348b2c03a75ebbc581cde47be53dcdff2350dd/teneva_bm-0.6.2.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/e1/2b/532e423f1db02d5c9788505df94a39a79cfd37dabdaebec4136e0148421f/examon_core-1.1.2.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [adafruit-circuitpython-ms8607]: Downloading https://files.pythonhosted.org/packages/de/dc/fe9d8ba03ab28095f3b7ce55c931a317465a45831bcc2cdc1d78122df71d/adafruit-circuitpython-ms8607-1.0.9.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.8.tar.gz tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.9.tar.gz --markdown 20230730/g/gammarer.aws-frontend-web-app-deploy-stack/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230730/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [convtools]: Downloading https://files.pythonhosted.org/packages/eb/6d/6b495f9e7551e028784781fdefaa0879bb02693ae91b807bc5e9f57f1d50/convtools-1.5.0.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [aiogram3-di]: Downloading https://files.pythonhosted.org/packages/b6/14/0f8a65042a7f64dc9c1a80da5bf43478b87e3085deb0ffe15bd7d780763d/aiogram3_di-1.0.3.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [sxm-signagenode]: Downloading https://files.pythonhosted.org/packages/67/7f/726c3bc4beb1ef652c34ffbda5def588bcfab6f48d8090dbd1a9f2f93b0d/sxm-signagenode-0.2.3.tar.gz
+[2023-07-30 21:17:09] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.1.1.tar.gz tmp/examon_core-1.1.2.tar.gz --markdown 20230730/e/examon-core/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.6.1.tar.gz tmp/teneva_bm-0.6.2.tar.gz --markdown 20230730/t/teneva-bm/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [adafruit-circuitpython-ms8607]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [adafruit-circuitpython-ms8607]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ms8607-1.0.8.tar.gz tmp/adafruit-circuitpython-ms8607-1.0.9.tar.gz --markdown 20230730/a/adafruit-circuitpython-ms8607/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [convtools]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [convtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convtools-1.4.0.tar.gz tmp/convtools-1.5.0.tar.gz --markdown 20230730/c/convtools/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [aiogram3-di]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [aiogram3-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_di-1.0.2.tar.gz tmp/aiogram3_di-1.0.3.tar.gz --markdown 20230730/a/aiogram3-di/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-30 21:17:09] INFO root fetch - processPackages [sxm-signagenode]: executing diffoscope
+[2023-07-30 21:17:09] INFO root fetch - processPackages [sxm-signagenode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sxm-signagenode-0.2.2.tar.gz tmp/sxm-signagenode-0.2.3.tar.gz --markdown 20230730/s/sxm-signagenode/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-30 21:17:10] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz]
+[2023-07-30 21:17:10] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz]
+[2023-07-30 21:17:10] INFO root fetch - main [MainThread]: End processing [gammarer.aws-rds-database-running-scheduler]: success
+[2023-07-30 21:17:10] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.8.tar.gz]
+[2023-07-30 21:17:10] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.9.tar.gz]
+[2023-07-30 21:17:10] INFO root fetch - main [MainThread]: End processing [gammarer.aws-frontend-web-app-deploy-stack]: success
+[2023-07-30 21:17:11] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.1.1.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.1.2.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-30 21:17:11] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.2.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - processPackages [aiogram3-di]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_di-1.0.3.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: End processing [aiogram3-di]: success
+[2023-07-30 21:17:11] INFO root fetch - processPackages [adafruit-circuitpython-ms8607]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-ms8607-1.0.8.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - processPackages [adafruit-circuitpython-ms8607]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-ms8607-1.0.9.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ms8607]: success
+[2023-07-30 21:17:11] INFO root fetch - processPackages [sxm-signagenode]: Remove: archive file [/home/abi/fetcher/tmp/sxm-signagenode-0.2.2.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - processPackages [sxm-signagenode]: Remove: archive file [/home/abi/fetcher/tmp/sxm-signagenode-0.2.3.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: End processing [sxm-signagenode]: success
+[2023-07-30 21:17:11] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-30 21:17:11] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.6.1.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.6.2.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-07-30 21:17:11] INFO root fetch - processPackages [convtools]: Remove: archive file [/home/abi/fetcher/tmp/convtools-1.4.0.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - processPackages [convtools]: Remove: archive file [/home/abi/fetcher/tmp/convtools-1.5.0.tar.gz]
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: End processing [convtools]: success
+[2023-07-30 21:17:11] INFO root fetch - main [MainThread]: Store serial: [19098734]
