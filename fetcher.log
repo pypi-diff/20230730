@@ -6082,3 +6082,48 @@
 [2023-07-30 09:45:14] INFO root fetch - processPackages [freqtrade]: Remove: archive file [/home/abi/fetcher/tmp/freqtrade-2023.7.tar.gz]
 [2023-07-30 09:45:14] INFO root fetch - main [MainThread]: End processing [freqtrade]: success
 [2023-07-30 09:45:14] INFO root fetch - main [MainThread]: Store serial: [19094513]
+[2023-07-30 09:50:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094513]
+[2023-07-30 09:50:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 09:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: youth-version-of-setu4
+[2023-07-30 09:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salinic
+[2023-07-30 09:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dreamplace
+[2023-07-30 09:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheb3
+[2023-07-30 09:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whois-parser
+[2023-07-30 09:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nightly
+[2023-07-30 09:50:23] INFO root fetch - processPackages [youth-version-of-setu4]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 09:50:23] WARNING root fetch - processPackages [salinic]: Skipping, unable to determine old version
+[2023-07-30 09:50:23] INFO root fetch - main [MainThread]: End processing [salinic] error
+[2023-07-30 09:50:23] WARNING root fetch - processPackages [dreamplace]: Skipping, unable to determine old version
+[2023-07-30 09:50:23] INFO root fetch - main [MainThread]: End processing [dreamplace] error
+[2023-07-30 09:50:23] INFO root fetch - processPackages [cheb3]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-30 09:50:23] INFO root fetch - processPackages [whois-parser]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-30 09:50:23] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-30 09:50:23] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-30 09:50:23] INFO root fetch - processPackages [youth-version-of-setu4]: Downloading https://files.pythonhosted.org/packages/a7/a6/49dd0bbddd24c7c4db3eb5d6dc8838818c2f1258b4bbbe922bde623e5036/youth-version-of-setu4-0.0.8.tar.gz
+[2023-07-30 09:50:23] INFO root fetch - processPackages [whois-parser]: Downloading https://files.pythonhosted.org/packages/e9/33/daa686463c17d318513511bd376a3cf2c3665d0d1705247508bf5c776563/whois_parser-0.2.0.tar.gz
+[2023-07-30 09:50:23] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/3e/63/a968f97b31902bc1f769a260281fb30706a64d8ba47e9e0ac545cd25ecca/cheb3-0.7.5.tar.gz
+[2023-07-30 09:50:24] INFO root fetch - processPackages [whois-parser]: Downloading https://files.pythonhosted.org/packages/c5/44/5d852a293633429cc696da726d6d7c9ddbe5a127018dee0a5fd1233ae931/whois_parser-0.3.0.tar.gz
+[2023-07-30 09:50:24] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-30 09:50:24] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/e0/8c/7b88265f05e0a19f100fa6a791b5d8f4ed6016319b7c42479e47d53940ee/cheb3-0.7.6.tar.gz
+[2023-07-30 09:50:24] INFO root fetch - processPackages [cheb3]: executing diffoscope
+[2023-07-30 09:50:24] INFO root fetch - processPackages [cheb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheb3-0.7.5.tar.gz tmp/cheb3-0.7.6.tar.gz --markdown 20230730/c/cheb3/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-30 09:50:24] INFO root fetch - processPackages [whois-parser]: executing diffoscope
+[2023-07-30 09:50:24] INFO root fetch - processPackages [whois-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whois_parser-0.2.0.tar.gz tmp/whois_parser-0.3.0.tar.gz --markdown 20230730/w/whois-parser/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 09:50:24] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-30 09:50:24] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230730/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-30 09:50:25] INFO root fetch - processPackages [whois-parser]: Remove: archive file [/home/abi/fetcher/tmp/whois_parser-0.2.0.tar.gz]
+[2023-07-30 09:50:25] INFO root fetch - processPackages [whois-parser]: Remove: archive file [/home/abi/fetcher/tmp/whois_parser-0.3.0.tar.gz]
+[2023-07-30 09:50:25] INFO root fetch - main [MainThread]: End processing [whois-parser]: success
+[2023-07-30 09:50:25] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.5.tar.gz]
+[2023-07-30 09:50:25] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.6.tar.gz]
+[2023-07-30 09:50:25] INFO root fetch - main [MainThread]: End processing [cheb3]: success
+[2023-07-30 09:50:26] INFO root fetch - processPackages [youth-version-of-setu4]: Downloading https://files.pythonhosted.org/packages/e3/51/7c3835836df98674eb53b39bf18b3a0f01427944e1324089db4ae7a12fd3/youth-version-of-setu4-0.0.9.tar.gz
+[2023-07-30 09:50:27] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-30 09:50:27] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-30 09:50:27] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-30 09:50:29] INFO root fetch - processPackages [youth-version-of-setu4]: executing diffoscope
+[2023-07-30 09:50:29] INFO root fetch - processPackages [youth-version-of-setu4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youth-version-of-setu4-0.0.8.tar.gz tmp/youth-version-of-setu4-0.0.9.tar.gz --markdown 20230730/y/youth-version-of-setu4/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 09:50:33] INFO root fetch - processPackages [youth-version-of-setu4]: Remove: archive file [/home/abi/fetcher/tmp/youth-version-of-setu4-0.0.8.tar.gz]
+[2023-07-30 09:50:33] INFO root fetch - processPackages [youth-version-of-setu4]: Remove: archive file [/home/abi/fetcher/tmp/youth-version-of-setu4-0.0.9.tar.gz]
+[2023-07-30 09:50:33] INFO root fetch - main [MainThread]: End processing [youth-version-of-setu4]: success
+[2023-07-30 09:50:33] INFO root fetch - main [MainThread]: Store serial: [19094536]
