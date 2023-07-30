@@ -3959,3 +3959,68 @@
 [2023-07-30 05:47:25] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.1.tar.gz]
 [2023-07-30 05:47:25] INFO root fetch - main [MainThread]: End processing [zood]: success
 [2023-07-30 05:47:25] INFO root fetch - main [MainThread]: Store serial: [19093618]
+[2023-07-30 05:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093618]
+[2023-07-30 05:52:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-next-cdk
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-helper-mod
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SGtSNEpiPy
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-simplewebsite-deploy
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-workflows
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prog-shojin-util
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syntaxlight
+[2023-07-30 05:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: equilibrator-cache
+[2023-07-30 05:52:34] INFO root fetch - processPackages [py-helper-mod]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-07-30 05:52:34] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 05:52:34] WARNING root fetch - processPackages [prog-shojin-util]: Skipping, unable to determine old version
+[2023-07-30 05:52:34] INFO root fetch - main [MainThread]: End processing [prog-shojin-util] error
+[2023-07-30 05:52:34] INFO root fetch - processPackages [equilibrator-cache]: New version: [0.5.0b1] Old Version: [0.4.6]
+[2023-07-30 05:52:34] INFO root fetch - processPackages [SGtSNEpiPy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-30 05:52:34] INFO root fetch - processPackages [open-next-cdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 05:52:34] INFO root fetch - processPackages [np-workflows]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-30 05:52:34] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-30 05:52:34] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/19/27/b2a25165af23bf01c67172b7b91dfb618966b5eae855fd770fc8d864e90a/equilibrator-cache-0.4.6.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/b9/f5/52bee05124c4573457966f7344821fa8d2a5a8f9c967ab1b06766c6e75d1/np_workflows-1.6.3.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/43/1b/628338209c18e0e448ae5bfe94752bf1d0192d7e85623dca7bb0838faf72/py-helper-mod-0.0.50.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/9d/aa/d55f982ce73de4fdc715de4bcdb1381429c65f776f15897a6f1c9734cf5a/SGtSNEpiPy-1.0.7.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/02/09/509568941e2977294b6ec9c2c0e2cac9e1ce7100d236a2d2edb7092f92f6/cdk-simplewebsite-deploy-2.0.8.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [open-next-cdk]: Downloading https://files.pythonhosted.org/packages/cd/7b/61f5bbaabd4ded11511c723d5ddd10088b1b050100ae77b567fa157c95f2/open-next-cdk-0.0.5.tar.gz
+[2023-07-30 05:52:34] WARNING root fetch - processPackages [open-next-cdk]: Skipping package: exceeds size limit 93893700>=10485760
+[2023-07-30 05:52:34] INFO root fetch - main [MainThread]: End processing [open-next-cdk] error
+[2023-07-30 05:52:34] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/c4/d6/14610fd67d158a1ce44aa2e957d69951fda8ec91f1ebcce6042e8d59d857/equilibrator-cache-0.5.0b1.tar.gz
+[2023-07-30 05:52:34] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/a7/5e/2dfe84a2978b3a36ce5f1e59ab8f61160237c5d5274da6b13c8f9d584f6b/np_workflows-1.6.4.tar.gz
+[2023-07-30 05:52:35] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-30 05:52:35] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230730/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 05:52:35] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/f8/cc/6653b33123026c98d51528e1b37190bbdda5e9d3e3b858686b518c378c40/SGtSNEpiPy-1.0.8.tar.gz
+[2023-07-30 05:52:35] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/ec/2f/06d1885f14a02cbb226189d2cf0519ad9f561a50a19fc7987c4620d63e20/py-helper-mod-0.0.51.tar.gz
+[2023-07-30 05:52:35] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/a5/35/77391fb27067de60169cb289bd2577928fdd4a47f364673fe38812583ee9/cdk-simplewebsite-deploy-2.0.9.tar.gz
+[2023-07-30 05:52:35] INFO root fetch - processPackages [equilibrator-cache]: executing diffoscope
+[2023-07-30 05:52:35] INFO root fetch - processPackages [equilibrator-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-cache-0.4.6.tar.gz tmp/equilibrator-cache-0.5.0b1.tar.gz --markdown 20230730/e/equilibrator-cache/0.4.6-0.5.0b1/diff.md --exclude *.pyd
+[2023-07-30 05:52:35] INFO root fetch - processPackages [SGtSNEpiPy]: executing diffoscope
+[2023-07-30 05:52:35] INFO root fetch - processPackages [SGtSNEpiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGtSNEpiPy-1.0.7.tar.gz tmp/SGtSNEpiPy-1.0.8.tar.gz --markdown 20230730/S/SGtSNEpiPy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-30 05:52:35] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: executing diffoscope
+[2023-07-30 05:52:35] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz --markdown 20230730/c/cdk-simplewebsite-deploy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-30 05:52:35] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-30 05:52:35] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.3.tar.gz tmp/np_workflows-1.6.4.tar.gz --markdown 20230730/n/np-workflows/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-30 05:52:35] INFO root fetch - processPackages [py-helper-mod]: executing diffoscope
+[2023-07-30 05:52:35] INFO root fetch - processPackages [py-helper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-helper-mod-0.0.50.tar.gz tmp/py-helper-mod-0.0.51.tar.gz --markdown 20230730/p/py-helper-mod/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-07-30 05:52:36] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.7.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.8.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy]: success
+[2023-07-30 05:52:36] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-30 05:52:36] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - main [MainThread]: End processing [cdk-simplewebsite-deploy]: success
+[2023-07-30 05:52:36] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.4.6.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.5.0b1.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - main [MainThread]: End processing [equilibrator-cache]: success
+[2023-07-30 05:52:36] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.50.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.51.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - main [MainThread]: End processing [py-helper-mod]: success
+[2023-07-30 05:52:36] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.3.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.4.tar.gz]
+[2023-07-30 05:52:36] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-30 05:52:36] INFO root fetch - main [MainThread]: Store serial: [19093645]
