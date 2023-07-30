@@ -2727,3 +2727,85 @@
 [2023-07-30 03:56:53] INFO root fetch - main [MainThread]: End processing [gmpg]: success
 [2023-07-30 03:56:53] INFO root fetch - main [MainThread]: End processing [gmpg]: success
 [2023-07-30 03:56:53] INFO root fetch - main [MainThread]: Store serial: [19093166]
+[2023-07-30 04:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093166]
+[2023-07-30 04:02:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webint
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webint-code
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canopy-platform
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telepost
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-exec
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-ecosystem-services
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfsd
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlx-exec
+[2023-07-30 04:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tweety-ns
+[2023-07-30 04:02:02] INFO root fetch - processPackages [webint-code]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [sqlx-exec]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [telepost]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [tweety-ns]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [sqlx-exec]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 04:02:02] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/00/72/2d10840c10b2084953d92d692fa115383089437f09c754d3a703c4bdd86e/tweety-ns-0.9.5.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [telepost]: Downloading https://files.pythonhosted.org/packages/fd/be/f5ee583df1272725368970d504c7249605fe098502be4808c41d73707604/telepost-0.0.8.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/01/07/f5cf35f2f764a8fb0ca1cf996c00e73d20af5680ac80c3238ebc2aed601c/canopy-platform-0.0.7.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/c4/d5/bb52c5749573169fc79b40022da7d05e2204f33bb2f6be12a98b16bfea3b/sqlx-exec-1.3.2.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/c4/d5/bb52c5749573169fc79b40022da7d05e2204f33bb2f6be12a98b16bfea3b/sqlx-exec-1.3.2.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [webint-code]: Downloading https://files.pythonhosted.org/packages/bd/b4/f64534ddcba3fdc8cead1dade0fc35d52fd117e7571488ef8d744e0a8a59/webint_code-0.0.22.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/42/4b/ccc995b423281681af4329fc9b74ebca49b5bf43a516d576459c419b486b/webint-0.1.8.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [telepost]: Downloading https://files.pythonhosted.org/packages/d6/f7/495972073ca7f73268032dc5dc16d15a3504e949ebccf4fd7ede133dd1a4/telepost-0.0.9.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [telepost]: executing diffoscope
+[2023-07-30 04:02:02] INFO root fetch - processPackages [telepost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepost-0.0.8.tar.gz tmp/telepost-0.0.9.tar.gz --markdown 20230730/t/telepost/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 04:02:02] INFO root fetch - processPackages [webint-code]: Downloading https://files.pythonhosted.org/packages/a9/6e/022957e71c477f71034e9d7730b388fb495dc1a4485a5f2673da05a678ff/webint_code-0.0.23.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/2f/5d/2cd75caf7771ab5fe07dbe20dc3f66d04d9374a9627e548c923dd37a1f8f/canopy-platform-0.0.9.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/e5/b1/6d0d50afd4b5244e2428a94ba56c7b61c100c61a23b4fd053c2cf5bb2e51/sqlx-exec-1.3.3.tar.gz
+[2023-07-30 04:02:02] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-30 04:02:02] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230730/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 04:02:02] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/e5/b1/6d0d50afd4b5244e2428a94ba56c7b61c100c61a23b4fd053c2cf5bb2e51/sqlx-exec-1.3.3.tar.gz
+[2023-07-30 04:02:03] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/42/b3/e1aacbd1c00ce51a464cb09abccf7eef79bfd4eb572fee6cd1b6f9d583f8/tweety-ns-0.9.6.tar.gz
+[2023-07-30 04:02:03] INFO root fetch - processPackages [webint-code]: executing diffoscope
+[2023-07-30 04:02:03] INFO root fetch - processPackages [webint-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_code-0.0.22.tar.gz tmp/webint_code-0.0.23.tar.gz --markdown 20230730/w/webint-code/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-30 04:02:03] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-07-30 04:02:03] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230730/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 04:02:03] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-30 04:02:03] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.3.2.tar.gz tmp/sqlx-exec-1.3.3.tar.gz --markdown 20230730/s/sqlx-exec/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-30 04:02:03] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-07-30 04:02:03] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-30 04:02:03] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.3.2.tar.gz tmp/sqlx-exec-1.3.3.tar.gz --markdown 20230730/s/sqlx-exec/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-30 04:02:03] INFO root fetch - processPackages [tweety-ns]: executing diffoscope
+[2023-07-30 04:02:03] INFO root fetch - processPackages [tweety-ns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweety-ns-0.9.5.tar.gz tmp/tweety-ns-0.9.6.tar.gz --markdown 20230730/t/tweety-ns/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-30 04:02:03] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-30 04:02:03] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230730/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-07-30 04:02:04] INFO root fetch - processPackages [telepost]: Remove: archive file [/home/abi/fetcher/tmp/telepost-0.0.8.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - processPackages [telepost]: Remove: archive file [/home/abi/fetcher/tmp/telepost-0.0.9.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [telepost]: success
+[2023-07-30 04:02:04] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.7.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.9.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-07-30 04:02:04] INFO root fetch - processPackages [webint-code]: Remove: archive file [/home/abi/fetcher/tmp/webint_code-0.0.22.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - processPackages [webint-code]: Remove: archive file [/home/abi/fetcher/tmp/webint_code-0.0.23.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [webint-code]: success
+[2023-07-30 04:02:04] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-30 04:02:04] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety-ns-0.9.5.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety-ns-0.9.6.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [tweety-ns]: success
+[2023-07-30 04:02:04] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.2.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.3.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-30 04:02:04] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.8.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
+[2023-07-30 04:02:04] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-30 04:02:04] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/f4/be/5553cc674f3905c35a02f9069bad2384cbae83ac40e14f3949e72c082fa7/webint-0.1.9.tar.gz
+[2023-07-30 04:02:08] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-07-30 04:02:08] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230730/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 04:02:12] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.8.tar.gz]
+[2023-07-30 04:02:12] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.9.tar.gz]
+[2023-07-30 04:02:12] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-07-30 04:02:12] INFO root fetch - main [MainThread]: Store serial: [19093191]
