@@ -4868,3 +4868,47 @@
 [2023-07-30 07:26:33] INFO root fetch - processPackages [kiwoomapi]: Remove: archive file [/home/abi/fetcher/tmp/kiwoomapi-0.3.3.tar.gz]
 [2023-07-30 07:26:33] INFO root fetch - main [MainThread]: End processing [kiwoomapi]: success
 [2023-07-30 07:26:33] INFO root fetch - main [MainThread]: Store serial: [19094015]
+[2023-07-30 07:31:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094015]
+[2023-07-30 07:31:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 07:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-07-30 07:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-gui
+[2023-07-30 07:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-next-cdk
+[2023-07-30 07:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heatmap_cli
+[2023-07-30 07:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: local-llm-cli
+[2023-07-30 07:31:42] INFO root fetch - processPackages [local-llm-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 07:31:42] INFO root fetch - processPackages [heatmap_cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 07:31:42] INFO root fetch - processPackages [open-next-cdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 07:31:42] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.8] Old Version: [0.0.50.7]
+[2023-07-30 07:31:42] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-30 07:31:42] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-30 07:31:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/83/1e/ce0cd0a3c04fc716cc22908305bcccd4306d07b674d9a8d0515897b6564a/abstract_gui-0.0.50.7.tar.gz
+[2023-07-30 07:31:42] INFO root fetch - processPackages [local-llm-cli]: Downloading https://files.pythonhosted.org/packages/1d/61/37a1139e22cf806199c35f581b9a08bbe4b482b5742f96eec9a98ad5846d/local_llm_cli-0.1.0.tar.gz
+[2023-07-30 07:31:42] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/16/29/2f8fd12c1044c354c4771cc4ac39e39adbeab017c234442ebaa6cabb4c8e/heatmap_cli-0.2.1.tar.gz
+[2023-07-30 07:31:42] INFO root fetch - processPackages [open-next-cdk]: Downloading https://files.pythonhosted.org/packages/97/2a/a4b4631913f14ee0f1bdba827460b63267e23668b517a2d10aeddbf2f7de/open-next-cdk-0.0.6.tar.gz
+[2023-07-30 07:31:42] WARNING root fetch - processPackages [open-next-cdk]: Skipping package: exceeds size limit 93897870>=10485760
+[2023-07-30 07:31:42] INFO root fetch - main [MainThread]: End processing [open-next-cdk] error
+[2023-07-30 07:31:43] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-30 07:31:43] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/99/77/3ed0cf855ed4291da7bbb93c5570bdb1b6c1e8fb5eec783b8bcfcbf41814/abstract_gui-0.0.50.8.tar.gz
+[2023-07-30 07:31:43] INFO root fetch - processPackages [local-llm-cli]: Downloading https://files.pythonhosted.org/packages/86/ab/02bf7d97ebc1da45ac1b226baa879760b8f69e59dce83494ded3e15325c3/local_llm_cli-0.1.1.tar.gz
+[2023-07-30 07:31:43] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-30 07:31:43] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230730/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-30 07:31:43] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/56/ad/caba4f062538ac3edd5d20f7bb4704148524de8b0b57d0cfedd16092618b/heatmap_cli-0.2.2.tar.gz
+[2023-07-30 07:31:43] INFO root fetch - processPackages [local-llm-cli]: executing diffoscope
+[2023-07-30 07:31:43] INFO root fetch - processPackages [local-llm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_llm_cli-0.1.0.tar.gz tmp/local_llm_cli-0.1.1.tar.gz --markdown 20230730/l/local-llm-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 07:31:43] INFO root fetch - processPackages [heatmap_cli]: executing diffoscope
+[2023-07-30 07:31:43] INFO root fetch - processPackages [heatmap_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heatmap_cli-0.2.1.tar.gz tmp/heatmap_cli-0.2.2.tar.gz --markdown 20230730/h/heatmap_cli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 07:31:43] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 07:31:43] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.7.tar.gz tmp/abstract_gui-0.0.50.8.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.7-0.0.50.8/diff.md --exclude *.pyd
+[2023-07-30 07:31:43] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-30 07:31:43] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-30 07:31:43] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-30 07:31:44] INFO root fetch - processPackages [local-llm-cli]: Remove: archive file [/home/abi/fetcher/tmp/local_llm_cli-0.1.0.tar.gz]
+[2023-07-30 07:31:44] INFO root fetch - processPackages [local-llm-cli]: Remove: archive file [/home/abi/fetcher/tmp/local_llm_cli-0.1.1.tar.gz]
+[2023-07-30 07:31:44] INFO root fetch - main [MainThread]: End processing [local-llm-cli]: success
+[2023-07-30 07:31:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.7.tar.gz]
+[2023-07-30 07:31:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.8.tar.gz]
+[2023-07-30 07:31:44] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 07:31:44] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.2.1.tar.gz]
+[2023-07-30 07:31:44] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.2.2.tar.gz]
+[2023-07-30 07:31:44] INFO root fetch - main [MainThread]: End processing [heatmap_cli]: success
+[2023-07-30 07:31:44] INFO root fetch - main [MainThread]: Store serial: [19094031]
