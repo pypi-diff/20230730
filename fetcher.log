@@ -8454,3 +8454,50 @@
 [2023-07-30 12:48:53] INFO root fetch - processPackages [pytest-html]: Remove: archive file [/home/abi/fetcher/tmp/pytest_html-4.0.0rc5.tar.gz]
 [2023-07-30 12:48:53] INFO root fetch - main [MainThread]: End processing [pytest-html]: success
 [2023-07-30 12:48:53] INFO root fetch - main [MainThread]: Store serial: [19095727]
+[2023-07-30 12:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095727]
+[2023-07-30 12:54:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 12:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amt-tools
+[2023-07-30 12:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-eks
+[2023-07-30 12:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lexikanon
+[2023-07-30 12:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometheus-kubernetes-cli
+[2023-07-30 12:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raspi-system
+[2023-07-30 12:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfscanner
+[2023-07-30 12:54:01] INFO root fetch - processPackages [raspi-system]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-30 12:54:01] INFO root fetch - processPackages [amt-tools]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-30 12:54:01] INFO root fetch - processPackages [lexikanon]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-30 12:54:01] INFO root fetch - processPackages [cfscanner]: New version: [1.4.2] Old Version: [1.4.0a3]
+[2023-07-30 12:54:01] INFO root fetch - processPackages [pulumi-eks]: New version: [1.1.0a1690710619] Old Version: [1.1.0a1683060605]
+[2023-07-30 12:54:01] WARNING root fetch - processPackages [prometheus-kubernetes-cli]: Skipping, unable to determine old version
+[2023-07-30 12:54:01] INFO root fetch - main [MainThread]: End processing [prometheus-kubernetes-cli] error
+[2023-07-30 12:54:02] INFO root fetch - processPackages [raspi-system]: Downloading https://files.pythonhosted.org/packages/44/7a/8b840d99178b5cd055a7016515248249e4bb6e3db28f1d9a120191a4dcb8/raspi-system-0.1.3.tar.gz
+[2023-07-30 12:54:02] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/46/98/f9132aa98f3f3f0108dda472a71c750d142933a1c2628eb905cb0497fe44/lexikanon-0.3.2.tar.gz
+[2023-07-30 12:54:02] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/30/8d/028b95d85be5587606cc33f48b20e193eee6dcfcb58ffff0e9e447cf8cc9/cfscanner-1.4.0a3.tar.gz
+[2023-07-30 12:54:02] INFO root fetch - processPackages [amt-tools]: Downloading https://files.pythonhosted.org/packages/2f/eb/274102bfd940199cad6372f5a02041544fd05abd1c9058d068ece5319209/amt-tools-0.3.1.tar.gz
+[2023-07-30 12:54:02] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 19285357>=10485760
+[2023-07-30 12:54:02] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-07-30 12:54:02] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/f4/49/4589a3b4b5fa3dc7ab5ea7a5f87da10a91ef91cc59c9f312d3979b9cbc5f/pulumi_eks-1.1.0a1683060605.tar.gz
+[2023-07-30 12:54:02] INFO root fetch - processPackages [raspi-system]: Downloading https://files.pythonhosted.org/packages/c5/43/f337fe05829c831c28217046ce58491a58db68f0f43a74abf08f61efe22c/raspi-system-0.2.0.tar.gz
+[2023-07-30 12:54:02] INFO root fetch - processPackages [amt-tools]: Downloading https://files.pythonhosted.org/packages/04/3f/3db565c9dcd4b77fd87d9a94c8f090375b2dff0845199c829a45da94df5b/amt_tools-0.3.2-py3-none-any.whl
+[2023-07-30 12:54:02] INFO root fetch - processPackages [raspi-system]: executing diffoscope
+[2023-07-30 12:54:02] INFO root fetch - processPackages [raspi-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspi-system-0.1.3.tar.gz tmp/raspi-system-0.2.0.tar.gz --markdown 20230730/r/raspi-system/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 12:54:02] INFO root fetch - processPackages [amt-tools]: executing diffoscope
+[2023-07-30 12:54:02] INFO root fetch - processPackages [amt-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amt-tools-0.3.1.tar.gz tmp/amt_tools-0.3.2-py3-none-any.whl.zip --markdown 20230730/a/amt-tools/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-30 12:54:02] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/d5/ae/71eb5a19fca768a98c50be9f9fe172c40931662d1784354b4fbdca558b55/pulumi_eks-1.1.0a1690710619.tar.gz
+[2023-07-30 12:54:02] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/90/98/e5b0c000a82f4c3fa5ca7ff1fdca47a699de09226e1073048c85eb6749c0/lexikanon-0.4.0.tar.gz
+[2023-07-30 12:54:02] INFO root fetch - processPackages [pulumi-eks]: executing diffoscope
+[2023-07-30 12:54:02] INFO root fetch - processPackages [pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_eks-1.1.0a1683060605.tar.gz tmp/pulumi_eks-1.1.0a1690710619.tar.gz --markdown 20230730/p/pulumi-eks/1.1.0a1683060605-1.1.0a1690710619/diff.md --exclude *.pyd
+[2023-07-30 12:54:02] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-07-30 12:54:02] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.3.2.tar.gz tmp/lexikanon-0.4.0.tar.gz --markdown 20230730/l/lexikanon/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-30 12:54:03] INFO root fetch - processPackages [raspi-system]: Remove: archive file [/home/abi/fetcher/tmp/raspi-system-0.1.3.tar.gz]
+[2023-07-30 12:54:03] INFO root fetch - processPackages [raspi-system]: Remove: archive file [/home/abi/fetcher/tmp/raspi-system-0.2.0.tar.gz]
+[2023-07-30 12:54:03] INFO root fetch - main [MainThread]: End processing [raspi-system]: success
+[2023-07-30 12:54:03] INFO root fetch - processPackages [amt-tools]: Remove: archive file [/home/abi/fetcher/tmp/amt-tools-0.3.1.tar.gz]
+[2023-07-30 12:54:03] INFO root fetch - processPackages [amt-tools]: Remove: archive file [/home/abi/fetcher/tmp/amt_tools-0.3.2-py3-none-any.whl.zip]
+[2023-07-30 12:54:03] INFO root fetch - main [MainThread]: End processing [amt-tools]: success
+[2023-07-30 12:54:03] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-1.1.0a1683060605.tar.gz]
+[2023-07-30 12:54:03] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-1.1.0a1690710619.tar.gz]
+[2023-07-30 12:54:03] INFO root fetch - main [MainThread]: End processing [pulumi-eks]: success
+[2023-07-30 12:54:03] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.3.2.tar.gz]
+[2023-07-30 12:54:03] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.4.0.tar.gz]
+[2023-07-30 12:54:03] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-07-30 12:54:03] INFO root fetch - main [MainThread]: Store serial: [19095744]
