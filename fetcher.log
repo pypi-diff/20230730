@@ -13357,3 +13357,44 @@
 [2023-07-30 19:01:08] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
 [2023-07-30 19:01:08] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
 [2023-07-30 19:01:08] INFO root fetch - main [MainThread]: Store serial: [19097905]
+[2023-07-30 19:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097905]
+[2023-07-30 19:06:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend
+[2023-07-30 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xliee-sentry-telegram
+[2023-07-30 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dolev-dublon
+[2023-07-30 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TSolLum
+[2023-07-30 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonator
+[2023-07-30 19:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrapli-netconf
+[2023-07-30 19:06:16] WARNING root fetch - processPackages [TSolLum]: Skipping, unable to determine old version
+[2023-07-30 19:06:16] INFO root fetch - main [MainThread]: End processing [TSolLum] error
+[2023-07-30 19:06:16] INFO root fetch - processPackages [xliee-sentry-telegram]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-30 19:06:16] INFO root fetch - processPackages [jsonator]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 19:06:16] INFO root fetch - processPackages [scrapli-netconf]: New version: [2023.7.30] Old Version: [2023.1.30]
+[2023-07-30 19:06:16] WARNING root fetch - processPackages [dolev-dublon]: Skipping, unable to determine old version
+[2023-07-30 19:06:16] INFO root fetch - main [MainThread]: End processing [dolev-dublon] error
+[2023-07-30 19:06:16] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-30 19:06:17] INFO root fetch - processPackages [xliee-sentry-telegram]: Downloading https://files.pythonhosted.org/packages/c4/e4/f07389c7037b7397817b7c6ecd8cfea2e762e8d3b2e74c86ab07540f3fda/xliee_sentry_telegram-0.6.5.tar.gz
+[2023-07-30 19:06:17] INFO root fetch - processPackages [jsonator]: Downloading https://files.pythonhosted.org/packages/f9/cc/ff4fdfca114f8de23a2f7f51593b51eed16ec8a415ca80e6687986958ca1/jsonator-0.1.3.tar.gz
+[2023-07-30 19:06:17] INFO root fetch - processPackages [scrapli-netconf]: Downloading https://files.pythonhosted.org/packages/2b/a0/89b4d748e0b9795f63766908037c0633145f9026676cdf187a480f507c66/scrapli_netconf-2023.1.30.tar.gz
+[2023-07-30 19:06:17] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 19:06:17] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-30 19:06:17] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-30 19:06:17] INFO root fetch - processPackages [xliee-sentry-telegram]: Downloading https://files.pythonhosted.org/packages/b5/12/805f17b0a7818afd961196b4e175fab0acbbd56dbecbb7085a068e93212f/xliee_sentry_telegram-0.6.6.tar.gz
+[2023-07-30 19:06:17] INFO root fetch - processPackages [xliee-sentry-telegram]: executing diffoscope
+[2023-07-30 19:06:17] INFO root fetch - processPackages [xliee-sentry-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xliee_sentry_telegram-0.6.5.tar.gz tmp/xliee_sentry_telegram-0.6.6.tar.gz --markdown 20230730/x/xliee-sentry-telegram/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-30 19:06:17] INFO root fetch - processPackages [jsonator]: Downloading https://files.pythonhosted.org/packages/06/81/6f34171453a8df3336b13ea9c27ad3ad07ff0f65010ffb7406990a9d2184/jsonator-0.1.4.tar.gz
+[2023-07-30 19:06:17] INFO root fetch - processPackages [scrapli-netconf]: Downloading https://files.pythonhosted.org/packages/07/5f/5120e3c51b40d62dfd4c8e200ee8c8a87c2996b5a27d10fee5d11a000a0d/scrapli_netconf-2023.7.30.tar.gz
+[2023-07-30 19:06:17] INFO root fetch - processPackages [jsonator]: executing diffoscope
+[2023-07-30 19:06:17] INFO root fetch - processPackages [jsonator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonator-0.1.3.tar.gz tmp/jsonator-0.1.4.tar.gz --markdown 20230730/j/jsonator/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 19:06:17] INFO root fetch - processPackages [scrapli-netconf]: executing diffoscope
+[2023-07-30 19:06:17] INFO root fetch - processPackages [scrapli-netconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapli_netconf-2023.1.30.tar.gz tmp/scrapli_netconf-2023.7.30.tar.gz --markdown 20230730/s/scrapli-netconf/2023.1.30-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 19:06:18] INFO root fetch - processPackages [xliee-sentry-telegram]: Remove: archive file [/home/abi/fetcher/tmp/xliee_sentry_telegram-0.6.5.tar.gz]
+[2023-07-30 19:06:18] INFO root fetch - processPackages [xliee-sentry-telegram]: Remove: archive file [/home/abi/fetcher/tmp/xliee_sentry_telegram-0.6.6.tar.gz]
+[2023-07-30 19:06:18] INFO root fetch - main [MainThread]: End processing [xliee-sentry-telegram]: success
+[2023-07-30 19:06:18] INFO root fetch - processPackages [scrapli-netconf]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_netconf-2023.1.30.tar.gz]
+[2023-07-30 19:06:18] INFO root fetch - processPackages [scrapli-netconf]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_netconf-2023.7.30.tar.gz]
+[2023-07-30 19:06:18] INFO root fetch - main [MainThread]: End processing [scrapli-netconf]: success
+[2023-07-30 19:06:18] INFO root fetch - processPackages [jsonator]: Remove: archive file [/home/abi/fetcher/tmp/jsonator-0.1.3.tar.gz]
+[2023-07-30 19:06:18] INFO root fetch - processPackages [jsonator]: Remove: archive file [/home/abi/fetcher/tmp/jsonator-0.1.4.tar.gz]
+[2023-07-30 19:06:18] INFO root fetch - main [MainThread]: End processing [jsonator]: success
+[2023-07-30 19:06:18] INFO root fetch - main [MainThread]: Store serial: [19097928]
