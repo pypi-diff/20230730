@@ -7439,3 +7439,70 @@
 [2023-07-30 11:34:35] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.8.tar.gz]
 [2023-07-30 11:34:35] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
 [2023-07-30 11:34:35] INFO root fetch - main [MainThread]: Store serial: [19095123]
+[2023-07-30 11:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095123]
+[2023-07-30 11:39:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scienced
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleepyemoji
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mathslib
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ANSIController
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clown-sort
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleepyemoji
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyColorimetry
+[2023-07-30 11:39:44] INFO root fetch - processPackages [clown-sort]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ANSIController]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 11:39:44] INFO root fetch - processPackages [sleepyemoji]: New version: [2.9] Old Version: [2.8]
+[2023-07-30 11:39:44] WARNING root fetch - processPackages [scienced]: Skipping, unable to determine old version
+[2023-07-30 11:39:44] INFO root fetch - processPackages [PyColorimetry]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-30 11:39:44] INFO root fetch - main [MainThread]: End processing [scienced] error
+[2023-07-30 11:39:44] INFO root fetch - processPackages [mathslib]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-30 11:39:44] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-30 11:39:44] INFO root fetch - processPackages [sleepyemoji]: New version: [2.9] Old Version: [2.8]
+[2023-07-30 11:39:44] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/17/d0/3589686e8e4821790121c79bb813daf542e5be2a09500a283e0e0b2620a8/ANSIController-1.0.5.tar.gz
+[2023-07-30 11:39:44] INFO root fetch - processPackages [mathslib]: Downloading https://files.pythonhosted.org/packages/01/fa/be76aea3e83b5d0a1fee25b72d666e8a70d012d07c84d1fa2ae2bd4bea4e/mathslib-3.0.0.tar.gz
+[2023-07-30 11:39:44] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-30 11:39:44] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/3f/46/b63a4806ececb364a388ede69d33af8ade76e162e021acc4ce92321f0b5c/clown_sort-1.9.1.tar.gz
+[2023-07-30 11:39:44] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/19/3f/6e65f0c16a26539a17807ae9bbbe68dba4847832f6f1e8d3d8e7b128bda0/sleepyemoji-2.8.tar.gz
+[2023-07-30 11:39:44] INFO root fetch - processPackages [PyColorimetry]: Downloading https://files.pythonhosted.org/packages/74/53/d826edd8035c2cf85de4edccda2b276aba952ea2bff4f001a4227e607b61/PyColorimetry-1.0.0.tar.gz
+[2023-07-30 11:39:44] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/19/3f/6e65f0c16a26539a17807ae9bbbe68dba4847832f6f1e8d3d8e7b128bda0/sleepyemoji-2.8.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/41/47/b18fabd8496793e8c8aac6c13c1902eda0f2227a9d7eb13aac8df2d6c864/ANSIController-1.0.6.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [mathslib]: Downloading https://files.pythonhosted.org/packages/07/c4/f8e5e18a3b2b8bfdf2df1832edb03b8d177df0f038fdc5541b8154ee5bd6/mathslib-3.1.0.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/57/6c/0395c7d6b90ebe4e22ef34d64c2df965fa969b1af57b258ec8e25222594a/sleepyemoji-2.9.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 11:39:45] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-1.0.5.tar.gz tmp/ANSIController-1.0.6.tar.gz --markdown 20230730/A/ANSIController/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 11:39:45] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/57/6c/0395c7d6b90ebe4e22ef34d64c2df965fa969b1af57b258ec8e25222594a/sleepyemoji-2.9.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [PyColorimetry]: Downloading https://files.pythonhosted.org/packages/2d/9f/16c8a4874d3f69493fdd15d0df5c7448c35031e34639839cb25553650675/PyColorimetry-1.1.0.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-30 11:39:45] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230730/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-30 11:39:45] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/f6/c4/535fbfc37d98ba4acde24c7470f61d9f9b072a57de52a0092a07d268651c/clown_sort-1.9.2.tar.gz
+[2023-07-30 11:39:45] INFO root fetch - processPackages [mathslib]: executing diffoscope
+[2023-07-30 11:39:45] INFO root fetch - processPackages [mathslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathslib-3.0.0.tar.gz tmp/mathslib-3.1.0.tar.gz --markdown 20230730/m/mathslib/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-30 11:39:45] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:39:45] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:39:45] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.8.tar.gz tmp/sleepyemoji-2.9.tar.gz --markdown 20230730/s/sleepyemoji/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-30 11:39:45] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.8.tar.gz tmp/sleepyemoji-2.9.tar.gz --markdown 20230730/s/sleepyemoji/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-30 11:39:45] INFO root fetch - processPackages [PyColorimetry]: executing diffoscope
+[2023-07-30 11:39:45] INFO root fetch - processPackages [PyColorimetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyColorimetry-1.0.0.tar.gz tmp/PyColorimetry-1.1.0.tar.gz --markdown 20230730/P/PyColorimetry/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 11:39:45] INFO root fetch - processPackages [clown-sort]: executing diffoscope
+[2023-07-30 11:39:45] INFO root fetch - processPackages [clown-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clown_sort-1.9.1.tar.gz tmp/clown_sort-1.9.2.tar.gz --markdown 20230730/c/clown-sort/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-30 11:39:46] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.5.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.6.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 11:39:46] INFO root fetch - processPackages [PyColorimetry]: Remove: archive file [/home/abi/fetcher/tmp/PyColorimetry-1.0.0.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - processPackages [PyColorimetry]: Remove: archive file [/home/abi/fetcher/tmp/PyColorimetry-1.1.0.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [PyColorimetry]: success
+[2023-07-30 11:39:46] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.8.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.9.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:39:46] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:39:46] INFO root fetch - processPackages [mathslib]: Remove: archive file [/home/abi/fetcher/tmp/mathslib-3.0.0.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - processPackages [mathslib]: Remove: archive file [/home/abi/fetcher/tmp/mathslib-3.1.0.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [mathslib]: success
+[2023-07-30 11:39:46] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.9.1.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.9.2.tar.gz]
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [clown-sort]: success
+[2023-07-30 11:39:46] INFO root fetch - main [MainThread]: Store serial: [19095148]
