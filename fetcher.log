@@ -3784,3 +3784,54 @@
 [2023-07-30 05:26:38] INFO root fetch - processPackages [py40kie]: Remove: archive file [/home/abi/fetcher/tmp/py40kie-0.2.1.tar.gz]
 [2023-07-30 05:26:38] INFO root fetch - main [MainThread]: End processing [py40kie]: success
 [2023-07-30 05:26:38] INFO root fetch - main [MainThread]: Store serial: [19093540]
+[2023-07-30 05:31:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093540]
+[2023-07-30 05:31:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 05:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: distributions-Erfham
+[2023-07-30 05:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-alconna
+[2023-07-30 05:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maci
+[2023-07-30 05:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsws
+[2023-07-30 05:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p2pd
+[2023-07-30 05:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tnnt-templates
+[2023-07-30 05:31:47] WARNING root fetch - processPackages [distributions-Erfham]: Skipping, unable to determine old version
+[2023-07-30 05:31:47] INFO root fetch - main [MainThread]: End processing [distributions-Erfham] error
+[2023-07-30 05:31:47] INFO root fetch - processPackages [maci]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-30 05:31:47] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-30 05:31:47] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 05:31:47] INFO root fetch - processPackages [p2pd]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-07-30 05:31:47] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [tnnt-templates]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-30 05:31:47] INFO root fetch - processPackages [maci]: Downloading https://files.pythonhosted.org/packages/38/3f/06a3c3986fcd9ce2ea7fc68bf3e386acf5d3c895942cc0579a5edfc4d0e5/maci-0.5.0.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [p2pd]: Downloading https://files.pythonhosted.org/packages/da/ed/8b0df51817a28aa02574b62cf4bbc577e47674d322bd146ed7ef3ea67257/p2pd-2.6.0.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [tnnt-templates]: Downloading https://files.pythonhosted.org/packages/d1/e0/ab0d836433861e73744dcbfc541d75129882f627965ca3e76ad7e9260546/tnnt_templates-2.9.1.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 05:31:47] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 05:31:47] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [maci]: Downloading https://files.pythonhosted.org/packages/25/bd/a81010695c279394981001a6ff83a383dca7d72c13190199ed7305a74d2e/maci-0.5.1.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [p2pd]: Downloading https://files.pythonhosted.org/packages/09/7d/59597126d6163ed0e143e33ae4df4c615e0aefbc35c91283b7eea813a417/p2pd-2.7.0.tar.gz
+[2023-07-30 05:31:47] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-07-30 05:31:47] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20230730/n/nonebot-plugin-alconna/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-30 05:31:47] INFO root fetch - processPackages [maci]: executing diffoscope
+[2023-07-30 05:31:47] INFO root fetch - processPackages [maci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maci-0.5.0.tar.gz tmp/maci-0.5.1.tar.gz --markdown 20230730/m/maci/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-30 05:31:48] INFO root fetch - processPackages [p2pd]: executing diffoscope
+[2023-07-30 05:31:48] INFO root fetch - processPackages [p2pd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2pd-2.6.0.tar.gz tmp/p2pd-2.7.0.tar.gz --markdown 20230730/p/p2pd/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-07-30 05:31:48] INFO root fetch - processPackages [tnnt-templates]: Downloading https://files.pythonhosted.org/packages/bf/c3/2106e819f8bad59c4f6136e64848963445d22afb86192e08dc8b2380bc50/tnnt_templates-2.9.2.tar.gz
+[2023-07-30 05:31:48] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 05:31:48] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 05:31:48] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 05:31:48] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2023-07-30 05:31:48] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2023-07-30 05:31:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-07-30 05:31:48] INFO root fetch - processPackages [maci]: Remove: archive file [/home/abi/fetcher/tmp/maci-0.5.0.tar.gz]
+[2023-07-30 05:31:48] INFO root fetch - processPackages [maci]: Remove: archive file [/home/abi/fetcher/tmp/maci-0.5.1.tar.gz]
+[2023-07-30 05:31:48] INFO root fetch - main [MainThread]: End processing [maci]: success
+[2023-07-30 05:31:49] INFO root fetch - processPackages [p2pd]: Remove: archive file [/home/abi/fetcher/tmp/p2pd-2.6.0.tar.gz]
+[2023-07-30 05:31:49] INFO root fetch - processPackages [p2pd]: Remove: archive file [/home/abi/fetcher/tmp/p2pd-2.7.0.tar.gz]
+[2023-07-30 05:31:49] INFO root fetch - main [MainThread]: End processing [p2pd]: success
+[2023-07-30 05:31:49] INFO root fetch - processPackages [tnnt-templates]: executing diffoscope
+[2023-07-30 05:31:49] INFO root fetch - processPackages [tnnt-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tnnt_templates-2.9.1.tar.gz tmp/tnnt_templates-2.9.2.tar.gz --markdown 20230730/t/tnnt-templates/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-30 05:31:54] INFO root fetch - processPackages [tnnt-templates]: Remove: archive file [/home/abi/fetcher/tmp/tnnt_templates-2.9.1.tar.gz]
+[2023-07-30 05:31:54] INFO root fetch - processPackages [tnnt-templates]: Remove: archive file [/home/abi/fetcher/tmp/tnnt_templates-2.9.2.tar.gz]
+[2023-07-30 05:31:54] INFO root fetch - main [MainThread]: End processing [tnnt-templates]: success
+[2023-07-30 05:31:54] INFO root fetch - main [MainThread]: Store serial: [19093557]
