@@ -10328,3 +10328,88 @@
 [2023-07-30 15:28:05] INFO root fetch - processPackages [sneakpeek-py]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek_py-0.2.2.tar.gz]
 [2023-07-30 15:28:05] INFO root fetch - main [MainThread]: End processing [sneakpeek-py]: success
 [2023-07-30 15:28:05] INFO root fetch - main [MainThread]: Store serial: [19096511]
+[2023-07-30 15:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096511]
+[2023-07-30 15:33:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: demisto-sdk
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prettier-prints
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: realtime-twitter-api
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: packt-ll
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: empiric-network
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-dllib-spark3
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca-spark3
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian-spark3
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos-spark3
+[2023-07-30 15:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-spark3
+[2023-07-30 15:33:14] WARNING root fetch - processPackages [prettier-prints]: Skipping, unable to determine old version
+[2023-07-30 15:33:14] INFO root fetch - processPackages [prettier-prints]: Start processing: gvsbuild
+[2023-07-30 15:33:14] INFO root fetch - main [MainThread]: End processing [prettier-prints] error
+[2023-07-30 15:33:14] INFO root fetch - processPackages [empiric-network]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-30 15:33:14] WARNING root fetch - processPackages [packt-ll]: Skipping, unable to determine old version
+[2023-07-30 15:33:14] INFO root fetch - processPackages [packt-ll]: Start processing: wassncplot
+[2023-07-30 15:33:14] INFO root fetch - main [MainThread]: End processing [packt-ll] error
+[2023-07-30 15:33:14] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:33:14] WARNING root fetch - processPackages [realtime-twitter-api]: Skipping, unable to determine old version
+[2023-07-30 15:33:14] INFO root fetch - main [MainThread]: End processing [realtime-twitter-api] error
+[2023-07-30 15:33:14] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:33:14] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-30 15:33:14] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:33:14] INFO root fetch - processPackages [gvsbuild]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-30 15:33:14] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:33:14] INFO root fetch - processPackages [wassncplot]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-07-30 15:33:14] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:33:14] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/5f/1d/41c355b10d6b0bcc85b7b7f525d3a3cf8aa582b0d1c5d1e1b496082b7338/empiric_network-1.6.8.tar.gz
+[2023-07-30 15:33:14] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/de/b8/a7faed98a8498ca90f32259b70c23976bc4b9a0870d13f856c0c58702e29/bigdl_chronos_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:33:14] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/dd/2a/1efdfe1b3cd287e1916a6ac56222b5af3779e41069b8cdabd1a35a150d77/bigdl-dllib-spark3-2.4.0b20230729.tar.gz
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/8d/d5/3e8d4333c2e5f74813c70464844fcb8a6b369349679f19b4c34dcf288f7b/bigdl_friesian_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:33:15] INFO root fetch - processPackages [gvsbuild]: Downloading https://files.pythonhosted.org/packages/b5/7d/3d9babb5a90c0290d766e31ab5e51b5ddffed5e5c2828d1e7fa6bc8de6ea/gvsbuild-2023.7.0.tar.gz
+[2023-07-30 15:33:15] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2023-07-30 15:33:15] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 63745138>=10485760
+[2023-07-30 15:33:15] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/bf/0b/12ac3b5234d694f2fed1dd6a66212a89586facc641cca87227133f3b9dd6/bigdl_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:33:15] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/10/0a/cdb817206db1487e092a7a869fec27fb8fb5ad47e2e388f1a3c517b33b1d/wassncplot-2.1.1.tar.gz
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/64/3e/3ee8379c64ba6b6481ee0b8e8a03454b4b2e94cb73b1f8c6dbf14efbf319/bigdl_orca_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:33:15] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20212136>=10485760
+[2023-07-30 15:33:15] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-30 15:33:15] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/77/b4/7406ebf5fac19a1e5e572ef27c7b6de51b4ce90603a59cad4e79672611aa/empiric_network-1.6.9.tar.gz
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/0a/05/151015bf6974c69ccfb36eedce2c7a5c62e3d77ebb5a3bdc563b3a7dcf5a/bigdl_chronos_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/f4/80/6c7aedc014889130d395ea378ed2b4f1fbdc108ce3ac3ed150e18e13663d/bigdl_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/36/bf/ce13513d7fc60d286a24cd652c92155265ffc4ad83d3a9aa2d07e5999ca1/bigdl_friesian_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:33:15] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/84/de/1e70f4e987afad687d9514cd09223ba6d2091f424254e192b7e49449d5c9/wassncplot-2.2.0.tar.gz
+[2023-07-30 15:33:15] INFO root fetch - processPackages [empiric-network]: executing diffoscope
+[2023-07-30 15:33:15] INFO root fetch - processPackages [empiric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empiric_network-1.6.8.tar.gz tmp/empiric_network-1.6.9.tar.gz --markdown 20230730/e/empiric-network/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl-chronos-spark3/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:33:15] INFO root fetch - processPackages [wassncplot]: executing diffoscope
+[2023-07-30 15:33:15] INFO root fetch - processPackages [wassncplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wassncplot-2.1.1.tar.gz tmp/wassncplot-2.2.0.tar.gz --markdown 20230730/w/wassncplot/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-07-30 15:33:15] INFO root fetch - processPackages [gvsbuild]: Downloading https://files.pythonhosted.org/packages/a3/fe/913539cdcfe005c8972e08918e81cbfb44b93e8ea8a95ed83b0ab1926efd/gvsbuild-2023.7.1.tar.gz
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl-spark3/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-30 15:33:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl-friesian-spark3/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:33:15] INFO root fetch - processPackages [gvsbuild]: executing diffoscope
+[2023-07-30 15:33:15] INFO root fetch - processPackages [gvsbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvsbuild-2023.7.0.tar.gz tmp/gvsbuild-2023.7.1.tar.gz --markdown 20230730/g/gvsbuild/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-30 15:33:15] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2023-07-30 15:33:16] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-07-30 15:33:16] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230730/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 15:33:16] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:33:16] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:33:16] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-30 15:33:16] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.1.1.tar.gz]
+[2023-07-30 15:33:16] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.2.0.tar.gz]
+[2023-07-30 15:33:16] INFO root fetch - main [MainThread]: End processing [wassncplot]: success
+[2023-07-30 15:33:16] INFO root fetch - processPackages [empiric-network]: Remove: archive file [/home/abi/fetcher/tmp/empiric_network-1.6.8.tar.gz]
+[2023-07-30 15:33:16] INFO root fetch - processPackages [empiric-network]: Remove: archive file [/home/abi/fetcher/tmp/empiric_network-1.6.9.tar.gz]
+[2023-07-30 15:33:16] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
+[2023-07-30 15:33:17] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:33:17] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:33:17] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-30 15:33:17] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:33:17] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:33:17] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-30 15:33:21] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.8.3.tar.gz]
+[2023-07-30 15:33:21] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
+[2023-07-30 15:33:21] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-07-30 15:33:23] INFO root fetch - processPackages [gvsbuild]: Remove: archive file [/home/abi/fetcher/tmp/gvsbuild-2023.7.0.tar.gz]
+[2023-07-30 15:33:23] INFO root fetch - processPackages [gvsbuild]: Remove: archive file [/home/abi/fetcher/tmp/gvsbuild-2023.7.1.tar.gz]
+[2023-07-30 15:33:23] INFO root fetch - main [MainThread]: End processing [gvsbuild]: success
+[2023-07-30 15:33:23] INFO root fetch - main [MainThread]: Store serial: [19096550]
