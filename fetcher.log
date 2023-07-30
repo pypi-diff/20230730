@@ -16908,3 +16908,35 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 23:42:57] INFO root fetch - processPackages [wikichangewatcher]: Remove: archive file [/home/abi/fetcher/tmp/wikichangewatcher-0.0.3-py3-none-any.whl.zip]
 [2023-07-30 23:42:57] INFO root fetch - main [MainThread]: End processing [wikichangewatcher]: success
 [2023-07-30 23:42:57] INFO root fetch - main [MainThread]: Store serial: [19099720]
+[2023-07-30 23:48:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099720]
+[2023-07-30 23:48:05] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-30 23:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099720]
+[2023-07-30 23:53:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 23:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solutions-builder
+[2023-07-30 23:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgeshared
+[2023-07-30 23:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgeconnector
+[2023-07-30 23:53:11] INFO root fetch - processPackages [solutions-builder]: New version: [1.15.0] Old Version: [1.14.0]
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/b6/5a/0e66891dd12466d8cb2db98ba2763c6b9908471011412ce28189b07ed3e0/systembridgeconnector-3.8.0.dev8.tar.gz
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-30 23:53:11] INFO root fetch - processPackages [solutions-builder]: Downloading https://files.pythonhosted.org/packages/db/e7/8f691b9c5046608e78ae0567ac7245ae4b9ff34d3183c2dbaa78ca3fe826/solutions_builder-1.14.0.tar.gz
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-30 23:53:11] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev8.tar.gz tmp/systembridgeconnector-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeconnector/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:53:11] INFO root fetch - processPackages [solutions-builder]: Downloading https://files.pythonhosted.org/packages/1a/22/c195c6c812ffd25b09a230e2402b5fcf8c0294ac15b0b3a75ba7f90f999b/solutions_builder-1.15.0.tar.gz
+[2023-07-30 23:53:11] INFO root fetch - processPackages [solutions-builder]: executing diffoscope
+[2023-07-30 23:53:11] INFO root fetch - processPackages [solutions-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solutions_builder-1.14.0.tar.gz tmp/solutions_builder-1.15.0.tar.gz --markdown 20230730/s/solutions-builder/1.14.0-1.15.0/diff.md --exclude *.pyd
+[2023-07-30 23:53:12] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-30 23:53:12] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-30 23:53:12] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-30 23:53:12] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev8.tar.gz]
+[2023-07-30 23:53:12] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-30 23:53:12] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-30 23:53:13] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.14.0.tar.gz]
+[2023-07-30 23:53:13] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.15.0.tar.gz]
+[2023-07-30 23:53:13] INFO root fetch - main [MainThread]: End processing [solutions-builder]: success
+[2023-07-30 23:53:13] INFO root fetch - main [MainThread]: Store serial: [19099731]
