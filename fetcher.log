@@ -12493,3 +12493,136 @@
 [2023-07-30 17:52:42] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.7.9.tar.gz]
 [2023-07-30 17:52:42] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
 [2023-07-30 17:52:42] INFO root fetch - main [MainThread]: Store serial: [19097499]
+[2023-07-30 17:57:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097499]
+[2023-07-30 17:57:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlx-exec
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlx-batis
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epubgen
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Janex
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-base-template
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-script-logged-technical-forker
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Janex
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reytool
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatglm-cpp
+[2023-07-30 17:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-poke
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-exec]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [epubgen]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [nonebot-plugin-poke]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-batis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 17:57:53] WARNING root fetch - processPackages [flask-script-logged-technical-forker]: Skipping, unable to determine old version
+[2023-07-30 17:57:53] INFO root fetch - processPackages [chatglm-cpp]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [flask-script-logged-technical-forker]: Start processing: Janex
+[2023-07-30 17:57:53] INFO root fetch - main [MainThread]: End processing [flask-script-logged-technical-forker] error
+[2023-07-30 17:57:53] INFO root fetch - processPackages [django-base-template]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/e3/65/022b54933dbe00113d218c4180030e5c39971e0bb2c581cff7fe3c10a3a8/sqlx-exec-1.3.9.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [epubgen]: Downloading https://files.pythonhosted.org/packages/24/88/883e31e17c05e051a6abbf13cfd66e46480bb37776313494f08a4ff12941/epubgen-0.2.0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [django-base-template]: Downloading https://files.pythonhosted.org/packages/2a/01/f0a0bec971ca7f33d095b881ebd3d38c6726995da238616e067928fed2bd/django_base_template-1.0.0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [chatglm-cpp]: Downloading https://files.pythonhosted.org/packages/bd/74/366950020a721b0238ee0b74a162a503c617f3488bdb2fe14dc20fac1e7f/chatglm-cpp-0.2.1.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/0f/1b/a1fdb1d28da00833ee31da6ff2d64843da2b6aab1ab4c2b949aa3a1ccdeb/sqlx-batis-0.1.8.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-30 17:57:53] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/3e/c4/78a24277ace4f7f13306426c4c193c1b7a7e14927060d4d47a396643b1dc/nonebot_plugin_poke-0.1.0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [epubgen]: Downloading https://files.pythonhosted.org/packages/60/77/fc12c93423d4a94ca4e50fb5b1263ad5cd77fcb81c2e8e7939e02961ee85/epubgen-0.3.0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/52/12/380caa8de176216ede9872aaaaa2017c3c7952faa4a8595892f67607b902/sqlx-exec-1.4.0.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [epubgen]: executing diffoscope
+[2023-07-30 17:57:53] INFO root fetch - processPackages [epubgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epubgen-0.2.0.tar.gz tmp/epubgen-0.3.0.tar.gz --markdown 20230730/e/epubgen/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/67/cd/7d8f1a540cff51bb79728e17988cf72d7a0c675b9416a172759231e16971/sqlx-batis-0.1.9.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-30 17:57:53] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.3.9.tar.gz tmp/sqlx-exec-1.4.0.tar.gz --markdown 20230730/s/sqlx-exec/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-30 17:57:53] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/a4/50/f890bbc7ce4a0b95c82848142a96fbc3c8387d19d4122413e82251ac00a5/nonebot_plugin_poke-0.1.1.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-07-30 17:57:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-07-30 17:57:54] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-07-30 17:57:54] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.1.8.tar.gz tmp/sqlx-batis-0.1.9.tar.gz --markdown 20230730/s/sqlx-batis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 17:57:54] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-30 17:57:54] INFO root fetch - processPackages [nonebot-plugin-poke]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [nonebot-plugin-poke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_poke-0.1.0.tar.gz tmp/nonebot_plugin_poke-0.1.1.tar.gz --markdown 20230730/n/nonebot-plugin-poke/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 17:57:54] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230730/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 17:57:54] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230730/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 17:57:54] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230730/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 17:57:54] INFO root fetch - processPackages [chatglm-cpp]: Downloading https://files.pythonhosted.org/packages/2d/0a/6ec9704fec03c0ff6add951f3ccb073b6f1191cd90341dfacb4dc0c0a0cb/chatglm-cpp-0.2.2.tar.gz
+[2023-07-30 17:57:54] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230730/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-30 17:57:54] INFO root fetch - processPackages [chatglm-cpp]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [chatglm-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-cpp-0.2.1.tar.gz tmp/chatglm-cpp-0.2.2.tar.gz --markdown 20230730/c/chatglm-cpp/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 17:57:54] INFO root fetch - processPackages [django-base-template]: Downloading https://files.pythonhosted.org/packages/cc/5e/f5276b097db020889f6099ba548f550fabce54a1ac8b051a04b15d8608e5/django_base_template-1.0.3.tar.gz
+[2023-07-30 17:57:54] INFO root fetch - processPackages [django-base-template]: executing diffoscope
+[2023-07-30 17:57:54] INFO root fetch - processPackages [django-base-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_base_template-1.0.0.tar.gz tmp/django_base_template-1.0.3.tar.gz --markdown 20230730/d/django-base-template/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-07-30 17:57:55] INFO root fetch - processPackages [epubgen]: Remove: archive file [/home/abi/fetcher/tmp/epubgen-0.2.0.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [epubgen]: Remove: archive file [/home/abi/fetcher/tmp/epubgen-0.3.0.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [epubgen]: Start processing: jina
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [epubgen]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.9.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.0.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [sqlx-exec]: Start processing: opet
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [opet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-30 17:57:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [Janex]: Start processing: pdx
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [pdx]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [Janex]: Start processing: diagnostic
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [opet]: Downloading https://files.pythonhosted.org/packages/64/24/3d40d4693d50ddfe0c3e466af9c76f0681cf334a2d1019ed837ba58e2b10/opet-0.0.3.tar.gz
+[2023-07-30 17:57:55] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.1.0.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.1.1.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [nonebot-plugin-poke]: Start processing: codex-of-the-damned
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-poke]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [diagnostic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [codex-of-the-damned]: New version: [1.9] Old Version: [1.8]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [pdx]: Downloading https://files.pythonhosted.org/packages/43/8b/feeb5a9bb49d72088bf7b6cc851b97a3a3678ac10048463dc96dc6e6a787/pdx-0.5.1.tar.gz
+[2023-07-30 17:57:55] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.8.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.9.tar.gz]
+[2023-07-30 17:57:55] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-07-30 17:57:55] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-30 17:57:55] INFO root fetch - processPackages [diagnostic]: Downloading https://files.pythonhosted.org/packages/31/3e/696ccf121f5cecca76b426b7b54703bbfb271d4644101109dbe6f3bb73c3/diagnostic-1.0.0.tar.gz
+[2023-07-30 17:57:55] INFO root fetch - processPackages [opet]: Downloading https://files.pythonhosted.org/packages/2f/52/bbf71bf20010b87156e45265058e755d8b61352add972c19e666e11fac7e/opet-0.0.4.tar.gz
+[2023-07-30 17:57:56] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-30 17:57:56] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230730/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:57:56] INFO root fetch - processPackages [codex-of-the-damned]: Downloading https://files.pythonhosted.org/packages/c2/11/df884619fc13a601b050cb3e01ceb86181c35a4ee94f824c8544d07562f3/codex-of-the-damned-1.8.tar.gz
+[2023-07-30 17:57:56] INFO root fetch - processPackages [opet]: executing diffoscope
+[2023-07-30 17:57:56] INFO root fetch - processPackages [opet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opet-0.0.3.tar.gz tmp/opet-0.0.4.tar.gz --markdown 20230730/o/opet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 17:57:56] INFO root fetch - processPackages [pdx]: Downloading https://files.pythonhosted.org/packages/54/4a/8832f5f6ed5f86b112dd8fcc51ac5b293c593441109c4120f8c426f6d39f/pdx-0.6.0.tar.gz
+[2023-07-30 17:57:56] WARNING root fetch - processPackages [codex-of-the-damned]: Skipping package: exceeds size limit 17715792>=10485760
+[2023-07-30 17:57:56] INFO root fetch - main [MainThread]: End processing [codex-of-the-damned] error
+[2023-07-30 17:57:56] INFO root fetch - processPackages [pdx]: executing diffoscope
+[2023-07-30 17:57:56] INFO root fetch - processPackages [pdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdx-0.5.1.tar.gz tmp/pdx-0.6.0.tar.gz --markdown 20230730/p/pdx/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-30 17:57:56] INFO root fetch - processPackages [diagnostic]: Downloading https://files.pythonhosted.org/packages/fd/f1/4f4e442c7f78928a8bf03cab7e3751486c0bd067619e0a59d6d48aff933d/diagnostic-1.0.1.tar.gz
+[2023-07-30 17:57:56] INFO root fetch - processPackages [diagnostic]: executing diffoscope
+[2023-07-30 17:57:56] INFO root fetch - processPackages [diagnostic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagnostic-1.0.0.tar.gz tmp/diagnostic-1.0.1.tar.gz --markdown 20230730/d/diagnostic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 17:57:56] INFO root fetch - processPackages [opet]: Remove: archive file [/home/abi/fetcher/tmp/opet-0.0.3.tar.gz]
+[2023-07-30 17:57:56] INFO root fetch - processPackages [opet]: Remove: archive file [/home/abi/fetcher/tmp/opet-0.0.4.tar.gz]
+[2023-07-30 17:57:56] INFO root fetch - main [MainThread]: End processing [opet]: success
+[2023-07-30 17:57:57] INFO root fetch - processPackages [diagnostic]: Remove: archive file [/home/abi/fetcher/tmp/diagnostic-1.0.0.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - processPackages [diagnostic]: Remove: archive file [/home/abi/fetcher/tmp/diagnostic-1.0.1.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - main [MainThread]: End processing [diagnostic]: success
+[2023-07-30 17:57:57] INFO root fetch - processPackages [pdx]: Remove: archive file [/home/abi/fetcher/tmp/pdx-0.5.1.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - processPackages [pdx]: Remove: archive file [/home/abi/fetcher/tmp/pdx-0.6.0.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - main [MainThread]: End processing [pdx]: success
+[2023-07-30 17:57:57] INFO root fetch - processPackages [django-base-template]: Remove: archive file [/home/abi/fetcher/tmp/django_base_template-1.0.0.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - processPackages [django-base-template]: Remove: archive file [/home/abi/fetcher/tmp/django_base_template-1.0.3.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - main [MainThread]: End processing [django-base-template]: success
+[2023-07-30 17:57:57] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-30 17:57:57] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-30 17:57:58] INFO root fetch - processPackages [chatglm-cpp]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cpp-0.2.1.tar.gz]
+[2023-07-30 17:57:58] INFO root fetch - processPackages [chatglm-cpp]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cpp-0.2.2.tar.gz]
+[2023-07-30 17:57:58] INFO root fetch - main [MainThread]: End processing [chatglm-cpp]: success
+[2023-07-30 17:57:58] INFO root fetch - main [MainThread]: Store serial: [19097556]
