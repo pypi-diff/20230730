@@ -6127,3 +6127,51 @@
 [2023-07-30 09:50:33] INFO root fetch - processPackages [youth-version-of-setu4]: Remove: archive file [/home/abi/fetcher/tmp/youth-version-of-setu4-0.0.9.tar.gz]
 [2023-07-30 09:50:33] INFO root fetch - main [MainThread]: End processing [youth-version-of-setu4]: success
 [2023-07-30 09:50:33] INFO root fetch - main [MainThread]: Store serial: [19094536]
+[2023-07-30 09:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094536]
+[2023-07-30 09:55:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 09:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statute-utils
+[2023-07-30 09:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2023-07-30 09:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-tailwind-cli
+[2023-07-30 09:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argrelay
+[2023-07-30 09:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toui
+[2023-07-30 09:55:46] INFO root fetch - processPackages [toui]: New version: [3.0.3b0] Old Version: [3.0.3]
+[2023-07-30 09:55:46] INFO root fetch - processPackages [argrelay]: New version: [0.1.0.dev2] Old Version: [0.1.0.dev1]
+[2023-07-30 09:55:46] INFO root fetch - processPackages [django-tailwind-cli]: New version: [2.0.4] Old Version: [2.0.2]
+[2023-07-30 09:55:46] INFO root fetch - processPackages [statute-utils]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-30 09:55:46] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/7b/7e/38829909a35bff5a59c4be3b88605c568eae9ab926b431763328b2804a91/toui-3.0.3.tar.gz
+[2023-07-30 09:55:46] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/17/25/8624905545373f8816f67972044e9832485133c9ee776d2ca985a196e85d/argrelay-0.1.0.dev1.tar.gz
+[2023-07-30 09:55:46] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/4a/0c/8d7d96d8c9ede476ffeabe0279c8843ee52a8f07d88f65ec061f3dfb260c/statute_utils-0.6.3.tar.gz
+[2023-07-30 09:55:46] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230730] Old Version: [2.14.0.dev20230729]
+[2023-07-30 09:55:46] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/7f/39/1bb8d6d90faa97d6af92577a82733674f26006d87527a6df8a27276bfad4/django_tailwind_cli-2.0.2.tar.gz
+[2023-07-30 09:55:46] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b4/83/0b2c8f3099b8ee128e1b546a926bc15a824d79891e6a232a1cdaddba13de/tf_nightly_cpu-2.14.0.dev20230729-cp39-cp39-win_amd64.whl
+[2023-07-30 09:55:46] INFO root fetch - processPackages [toui]: Downloading https://files.pythonhosted.org/packages/14/20/8d9c6152efd50f7d32181846ca725d76c2b77779f3da7364077012e1ccdf/toui-3.0.3b0-py3.10.egg
+[2023-07-30 09:55:46] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/94/e0/4e49ba4bbd86a4b52cbf08b2fdaf0c8f6fcff7ecec2635c5794ce6ba3d9c/argrelay-0.1.0.dev2.tar.gz
+[2023-07-30 09:55:46] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/08/f8/2d0c878a2a55f21c18297ca04a472103f1e11f1a99aca01ca23cc48707a3/statute_utils-0.6.4.tar.gz
+[2023-07-30 09:55:46] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/60/b4/2f1130765a8e7d6ddc5a275e6f18e924240da250481cc2d81ccc2b81de11/django_tailwind_cli-2.0.4.tar.gz
+[2023-07-30 09:55:46] INFO root fetch - processPackages [toui]: executing diffoscope
+[2023-07-30 09:55:46] INFO root fetch - processPackages [toui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toui-3.0.3.tar.gz tmp/toui-3.0.3b0-py3.10.egg --markdown 20230730/t/toui/3.0.3-3.0.3b0/diff.md --exclude *.pyd
+[2023-07-30 09:55:46] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-30 09:55:46] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.6.3.tar.gz tmp/statute_utils-0.6.4.tar.gz --markdown 20230730/s/statute-utils/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-30 09:55:46] INFO root fetch - processPackages [django-tailwind-cli]: executing diffoscope
+[2023-07-30 09:55:46] INFO root fetch - processPackages [django-tailwind-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tailwind_cli-2.0.2.tar.gz tmp/django_tailwind_cli-2.0.4.tar.gz --markdown 20230730/d/django-tailwind-cli/2.0.2-2.0.4/diff.md --exclude *.pyd
+[2023-07-30 09:55:47] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/58/d1/d0cc2257013232b373dce4d1cb01bfa7c2c91eeb270dc016d175fc15ea16/tf_nightly_cpu-2.14.0.dev20230730-cp39-cp39-win_amd64.whl
+[2023-07-30 09:55:47] INFO root fetch - processPackages [argrelay]: executing diffoscope
+[2023-07-30 09:55:47] INFO root fetch - processPackages [argrelay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argrelay-0.1.0.dev1.tar.gz tmp/argrelay-0.1.0.dev2.tar.gz --markdown 20230730/a/argrelay/0.1.0.dev1-0.1.0.dev2/diff.md --exclude *.pyd
+[2023-07-30 09:55:47] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-30 09:55:47] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230729-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230730-cp39-cp39-win_amd64.whl.zip --markdown 20230730/t/tf-nightly-cpu/2.14.0.dev20230729-2.14.0.dev20230730/diff.md --exclude *.pyd
+[2023-07-30 09:55:47] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-2.0.2.tar.gz]
+[2023-07-30 09:55:47] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-2.0.4.tar.gz]
+[2023-07-30 09:55:47] INFO root fetch - main [MainThread]: End processing [django-tailwind-cli]: success
+[2023-07-30 09:55:47] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.0.3.tar.gz]
+[2023-07-30 09:55:47] INFO root fetch - processPackages [toui]: Remove: archive file [/home/abi/fetcher/tmp/toui-3.0.3b0-py3.10.egg]
+[2023-07-30 09:55:47] INFO root fetch - main [MainThread]: End processing [toui]: success
+[2023-07-30 09:55:47] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.3.tar.gz]
+[2023-07-30 09:55:47] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.4.tar.gz]
+[2023-07-30 09:55:47] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-30 09:55:48] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230729-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 09:55:48] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230730-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 09:55:48] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-30 09:55:48] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev1.tar.gz]
+[2023-07-30 09:55:48] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev2.tar.gz]
+[2023-07-30 09:55:48] INFO root fetch - main [MainThread]: End processing [argrelay]: success
+[2023-07-30 09:55:48] INFO root fetch - main [MainThread]: Store serial: [19094555]
