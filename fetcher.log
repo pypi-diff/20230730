@@ -6271,3 +6271,72 @@
 [2023-07-30 10:06:11] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6957.tar.gz]
 [2023-07-30 10:06:11] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-30 10:06:11] INFO root fetch - main [MainThread]: Store serial: [19094638]
+[2023-07-30 10:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094638]
+[2023-07-30 10:11:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycode
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyimporters-csv
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gymnasium-connect-four
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OneOnOne
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moscot
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readmeai
+[2023-07-30 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-tailwind-cli
+[2023-07-30 10:11:19] INFO root fetch - processPackages [django-tailwind-cli]: New version: [2.0.4] Old Version: [2.0.2]
+[2023-07-30 10:11:19] INFO root fetch - processPackages [cycode]: New version: [1.0.0] Old Version: [0.2.6.dev9]
+[2023-07-30 10:11:19] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-30 10:11:19] WARNING root fetch - processPackages [readmeai]: Skipping, unable to determine old version
+[2023-07-30 10:11:19] INFO root fetch - main [MainThread]: End processing [readmeai] error
+[2023-07-30 10:11:19] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 10:11:19] INFO root fetch - processPackages [moscot]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-30 10:11:19] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230730] Old Version: [0.4.3.dev20230729]
+[2023-07-30 10:11:19] INFO root fetch - processPackages [OneOnOne]: New version: [0.6958] Old Version: [0.6957]
+[2023-07-30 10:11:19] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/7f/39/1bb8d6d90faa97d6af92577a82733674f26006d87527a6df8a27276bfad4/django_tailwind_cli-2.0.2.tar.gz
+[2023-07-30 10:11:19] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/fa/34/e425522e37ff0035fdc85fd142db726bb5e9f8200325fcc388581f34a0bc/pyglove-0.4.3.dev20230729.tar.gz
+[2023-07-30 10:11:19] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f0/4c/631db9ddd3cbee9676688bf8192d6440a3e51021bfd34d23ebfdd0ce7de1/OneOnOne-0.6957.tar.gz
+[2023-07-30 10:11:19] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 10:11:19] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/a6/68/c266ea07f91acb3085ab1c7e927faa12448dc25deb416714f05f6e0fd746/gymnasium_connect_four-1.2.4.tar.gz
+[2023-07-30 10:11:19] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/8f/bc3f9b68e32f000f61eb48472d3882d83ee7f5529bfb88ef231e64e45b51/cycode-0.2.6.dev9.tar.gz
+[2023-07-30 10:11:19] INFO root fetch - processPackages [moscot]: Downloading https://files.pythonhosted.org/packages/4c/d2/d741d0c3007b1fbbf8b6d22a9d20bb3ccb5772a102640d275dc20b1003ce/moscot-0.3.0.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/60/b4/2f1130765a8e7d6ddc5a275e6f18e924240da250481cc2d81ccc2b81de11/django_tailwind_cli-2.0.4.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [django-tailwind-cli]: executing diffoscope
+[2023-07-30 10:11:20] INFO root fetch - processPackages [django-tailwind-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tailwind_cli-2.0.2.tar.gz tmp/django_tailwind_cli-2.0.4.tar.gz --markdown 20230730/d/django-tailwind-cli/2.0.2-2.0.4/diff.md --exclude *.pyd
+[2023-07-30 10:11:20] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/65/5f/09fcc51ec66329aacbe74f1439c80c309b6bc53700d39ae538b46cdd8dcf/gymnasium_connect_four-1.2.5.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/3f/cd/43c5a2bfa1a474b69f4c4f562ba69f9f182163cf6bbd08f7a0d1813d2e25/OneOnOne-0.6958.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/3e/0d/8a2e07d6ec56ba12e606430bd562aca987123cd88969c014346446c647f4/pyglove-0.4.3.dev20230730.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 10:11:20] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 10:11:20] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/f1/29/5225ef43f33e036a01f11a236c66f9247a6ec45c04177692a7ea6de42ee5/cycode-1.0.0.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [moscot]: Downloading https://files.pythonhosted.org/packages/80/a9/4279b7739fecd1756c4a20cbae621ebc8c942849071b168885c9c0fbab15/moscot-0.3.1.tar.gz
+[2023-07-30 10:11:20] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-30 10:11:20] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.4.tar.gz tmp/gymnasium_connect_four-1.2.5.tar.gz --markdown 20230730/g/gymnasium-connect-four/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-30 10:11:20] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 10:11:20] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6957.tar.gz tmp/OneOnOne-0.6958.tar.gz --markdown 20230730/O/OneOnOne/0.6957-0.6958/diff.md --exclude *.pyd
+[2023-07-30 10:11:20] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-30 10:11:20] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev9.tar.gz tmp/cycode-1.0.0.tar.gz --markdown 20230730/c/cycode/0.2.6.dev9-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 10:11:20] INFO root fetch - processPackages [moscot]: executing diffoscope
+[2023-07-30 10:11:20] INFO root fetch - processPackages [moscot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moscot-0.3.0.tar.gz tmp/moscot-0.3.1.tar.gz --markdown 20230730/m/moscot/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 10:11:20] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-30 10:11:20] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230729.tar.gz tmp/pyglove-0.4.3.dev20230730.tar.gz --markdown 20230730/p/pyglove/0.4.3.dev20230729-0.4.3.dev20230730/diff.md --exclude *.pyd
+[2023-07-30 10:11:21] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-2.0.2.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-2.0.4.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - main [MainThread]: End processing [django-tailwind-cli]: success
+[2023-07-30 10:11:21] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 10:11:21] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.4.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.5.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-30 10:11:21] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6957.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6958.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 10:11:21] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev9.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.0.0.tar.gz]
+[2023-07-30 10:11:21] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-30 10:11:22] INFO root fetch - processPackages [moscot]: Remove: archive file [/home/abi/fetcher/tmp/moscot-0.3.0.tar.gz]
+[2023-07-30 10:11:22] INFO root fetch - processPackages [moscot]: Remove: archive file [/home/abi/fetcher/tmp/moscot-0.3.1.tar.gz]
+[2023-07-30 10:11:22] INFO root fetch - main [MainThread]: End processing [moscot]: success
+[2023-07-30 10:11:22] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230729.tar.gz]
+[2023-07-30 10:11:22] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230730.tar.gz]
+[2023-07-30 10:11:22] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-30 10:11:22] INFO root fetch - main [MainThread]: Store serial: [19094663]
