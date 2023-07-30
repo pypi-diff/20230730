@@ -4434,3 +4434,15 @@
 [2023-07-30 06:39:45] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
 [2023-07-30 06:39:45] INFO root fetch - main [MainThread]: End processing [hmfs]: success
 [2023-07-30 06:39:45] INFO root fetch - main [MainThread]: Store serial: [19093818]
+[2023-07-30 06:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093818]
+[2023-07-30 06:44:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-30 06:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniosl
+[2023-07-30 06:44:54] INFO root fetch - processPackages [miniosl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 06:44:54] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/ec/23/0a40da03e8d4efaa180037441979bfeecb3b76264d97ff4a9b50aca248fb/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-07-30 06:44:54] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/52/e1/2eae407bda00f8e2ae889b1f97fba9a3c2178f4caeaaf633f7febb6f2b16/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-07-30 06:44:55] INFO root fetch - processPackages [miniosl]: executing diffoscope
+[2023-07-30 06:44:55] INFO root fetch - processPackages [miniosl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip --markdown 20230730/m/miniosl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 06:45:03] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-07-30 06:45:03] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-07-30 06:45:03] INFO root fetch - main [MainThread]: End processing [miniosl]: success
+[2023-07-30 06:45:03] INFO root fetch - main [MainThread]: Store serial: [19093820]
