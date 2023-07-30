@@ -16075,3 +16075,54 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:33:29] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
 [2023-07-30 22:33:29] INFO root fetch - main [MainThread]: End processing [petisco]: success
 [2023-07-30 22:33:29] INFO root fetch - main [MainThread]: Store serial: [19099235]
+[2023-07-30 22:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099235]
+[2023-07-30 22:38:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyOnlineSVR
+[2023-07-30 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-image-source-search
+[2023-07-30 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: circleapi
+[2023-07-30 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i18nice
+[2023-07-30 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opet
+[2023-07-30 22:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grafana-wtf
+[2023-07-30 22:38:38] WARNING root fetch - processPackages [circleapi]: Skipping, unable to determine old version
+[2023-07-30 22:38:38] INFO root fetch - main [MainThread]: End processing [circleapi] error
+[2023-07-30 22:38:38] INFO root fetch - processPackages [grafana-wtf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 22:38:38] INFO root fetch - processPackages [opet]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 22:38:38] INFO root fetch - processPackages [google-image-source-search]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 22:38:38] INFO root fetch - processPackages [i18nice]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-30 22:38:38] INFO root fetch - processPackages [PyOnlineSVR]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 22:38:38] INFO root fetch - processPackages [opet]: Downloading https://files.pythonhosted.org/packages/0b/89/08b9aa611c63b271b2547a83a48e588692b5315f44f2d3a6b57a923588d0/opet-0.0.5.tar.gz
+[2023-07-30 22:38:38] INFO root fetch - processPackages [google-image-source-search]: Downloading https://files.pythonhosted.org/packages/d7/9b/3cfbd4d0d6c90491c8d1d7a06724cc148a70bc8a636b746a821835603d53/google-image-source-search-0.0.1.tar.gz
+[2023-07-30 22:38:38] INFO root fetch - processPackages [grafana-wtf]: Downloading https://files.pythonhosted.org/packages/03/46/3c2947587455a09e6fc9e6a00491c38dc3d038127d142314029a921d4c82/grafana-wtf-0.8.1.tar.gz
+[2023-07-30 22:38:38] INFO root fetch - processPackages [PyOnlineSVR]: Downloading https://files.pythonhosted.org/packages/3a/ac/75f47b9e26bf6af5f8e244e058e5af03f499f3f8f9f6a72d5ea4bf8e051d/PyOnlineSVR-0.0.3.tar.gz
+[2023-07-30 22:38:38] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/f0/f0/efe46377e850ce08e81eb9bddf0947561635bac1080f7d5876c8837f3d90/i18nice-0.6.2.tar.gz
+[2023-07-30 22:38:39] INFO root fetch - processPackages [opet]: Downloading https://files.pythonhosted.org/packages/85/66/34f9cea26113e0504656b20284ab913933078abfdd93de885562ea5730bc/opet-0.0.6.tar.gz
+[2023-07-30 22:38:39] INFO root fetch - processPackages [google-image-source-search]: Downloading https://files.pythonhosted.org/packages/d3/33/b185ebe83dd8f7825349a8069b8d568e731644c6c78da2e6254f182dfbff/google-image-source-search-0.0.2.tar.gz
+[2023-07-30 22:38:39] INFO root fetch - processPackages [i18nice]: Downloading https://files.pythonhosted.org/packages/48/42/6518dbfa30c3cd1f4995cde58b9cea0c433445b5b2231dc3bb85dd3b5da1/i18nice-0.7.0.tar.gz
+[2023-07-30 22:38:39] INFO root fetch - processPackages [grafana-wtf]: Downloading https://files.pythonhosted.org/packages/8f/df/038fd6635aab21eb312317cc01fbe2e36c7e666f23cd7e40960bc2373f4e/grafana-wtf-0.9.0.tar.gz
+[2023-07-30 22:38:39] INFO root fetch - processPackages [PyOnlineSVR]: Downloading https://files.pythonhosted.org/packages/31/f2/bb713dd09f6a7a79f98a6c5d0b981d682366550da58fc3ca249379a96e6e/PyOnlineSVR-0.0.4.tar.gz
+[2023-07-30 22:38:39] INFO root fetch - processPackages [opet]: executing diffoscope
+[2023-07-30 22:38:39] INFO root fetch - processPackages [opet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opet-0.0.5.tar.gz tmp/opet-0.0.6.tar.gz --markdown 20230730/o/opet/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-30 22:38:39] INFO root fetch - processPackages [google-image-source-search]: executing diffoscope
+[2023-07-30 22:38:39] INFO root fetch - processPackages [google-image-source-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-image-source-search-0.0.1.tar.gz tmp/google-image-source-search-0.0.2.tar.gz --markdown 20230730/g/google-image-source-search/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 22:38:39] INFO root fetch - processPackages [i18nice]: executing diffoscope
+[2023-07-30 22:38:39] INFO root fetch - processPackages [i18nice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i18nice-0.6.2.tar.gz tmp/i18nice-0.7.0.tar.gz --markdown 20230730/i/i18nice/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-30 22:38:39] INFO root fetch - processPackages [PyOnlineSVR]: executing diffoscope
+[2023-07-30 22:38:39] INFO root fetch - processPackages [PyOnlineSVR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOnlineSVR-0.0.3.tar.gz tmp/PyOnlineSVR-0.0.4.tar.gz --markdown 20230730/P/PyOnlineSVR/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 22:38:39] INFO root fetch - processPackages [grafana-wtf]: executing diffoscope
+[2023-07-30 22:38:39] INFO root fetch - processPackages [grafana-wtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana-wtf-0.8.1.tar.gz tmp/grafana-wtf-0.9.0.tar.gz --markdown 20230730/g/grafana-wtf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 22:38:40] INFO root fetch - processPackages [google-image-source-search]: Remove: archive file [/home/abi/fetcher/tmp/google-image-source-search-0.0.1.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - processPackages [google-image-source-search]: Remove: archive file [/home/abi/fetcher/tmp/google-image-source-search-0.0.2.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - main [MainThread]: End processing [google-image-source-search]: success
+[2023-07-30 22:38:40] INFO root fetch - processPackages [opet]: Remove: archive file [/home/abi/fetcher/tmp/opet-0.0.5.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - processPackages [opet]: Remove: archive file [/home/abi/fetcher/tmp/opet-0.0.6.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - main [MainThread]: End processing [opet]: success
+[2023-07-30 22:38:40] INFO root fetch - processPackages [PyOnlineSVR]: Remove: archive file [/home/abi/fetcher/tmp/PyOnlineSVR-0.0.3.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - processPackages [PyOnlineSVR]: Remove: archive file [/home/abi/fetcher/tmp/PyOnlineSVR-0.0.4.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - main [MainThread]: End processing [PyOnlineSVR]: success
+[2023-07-30 22:38:40] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.6.2.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - processPackages [i18nice]: Remove: archive file [/home/abi/fetcher/tmp/i18nice-0.7.0.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - main [MainThread]: End processing [i18nice]: success
+[2023-07-30 22:38:40] INFO root fetch - processPackages [grafana-wtf]: Remove: archive file [/home/abi/fetcher/tmp/grafana-wtf-0.8.1.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - processPackages [grafana-wtf]: Remove: archive file [/home/abi/fetcher/tmp/grafana-wtf-0.9.0.tar.gz]
+[2023-07-30 22:38:40] INFO root fetch - main [MainThread]: End processing [grafana-wtf]: success
+[2023-07-30 22:38:40] INFO root fetch - main [MainThread]: Store serial: [19099268]
