@@ -4659,3 +4659,85 @@
 [2023-07-30 07:05:50] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.91.tar.gz]
 [2023-07-30 07:05:50] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-07-30 07:05:50] INFO root fetch - main [MainThread]: Store serial: [19093918]
+[2023-07-30 07:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093918]
+[2023-07-30 07:10:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mass-composition
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfc
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdiff
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: knifes
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorage
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-homeassistant-custom-component
+[2023-07-30 07:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yambs
+[2023-07-30 07:10:59] INFO root fetch - processPackages [yambs]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [pdiff]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [tensorage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [tfc]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230730] Old Version: [23.8.0a230729]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.85]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230730] Old Version: [23.8.0a230729]
+[2023-07-30 07:10:59] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/2c/1d/a5158cd9fe2a3bfe4a17f2c27095a8ad0388cf742463a9e83b13c2cca5c7/yambs-2.2.0.tar.gz
+[2023-07-30 07:10:59] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/21/f3/1315c118196ed3cf2a57965be0a8b47f3f64edf8636e985dee37eaa2cb11/dask-cuda-23.8.0a230729.tar.gz
+[2023-07-30 07:10:59] INFO root fetch - processPackages [pdiff]: Downloading https://files.pythonhosted.org/packages/86/bc/5920e630cd2159fa604dd520e14205470a80f4c5959f5007d47bb1a5709d/pdiff-1.1.3.tar.gz
+[2023-07-30 07:10:59] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/21/f3/1315c118196ed3cf2a57965be0a8b47f3f64edf8636e985dee37eaa2cb11/dask-cuda-23.8.0a230729.tar.gz
+[2023-07-30 07:10:59] INFO root fetch - processPackages [tfc]: Downloading https://files.pythonhosted.org/packages/fb/5a/719377a2382c9bb17f81efe0725da5e7d920710db386922b1207add5c0b0/tfc-1.0.5.tar.gz
+[2023-07-30 07:10:59] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-07-30 07:10:59] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/30/bf/77d9397877de55e6c705f34b17d2f12b403dfdbd53ad0788ddea622d53b7/tensorage-0.0.1.tar.gz
+[2023-07-30 07:10:59] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/83/79/0701057a004bbeb7a02a49fb90208251d1022a816c224217f60c5ffb8641/knifes-0.8.85.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/79/ba/56c2c3b676e5b72a10e6484a9ac4342a42d44667f451d646938c43fa56d2/yambs-2.2.1.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [pdiff]: Downloading https://files.pythonhosted.org/packages/0a/b4/37c13ba28107998673bee37ab4efa075e7f3059f68539c193ad14ca3128f/pdiff-1.1.4.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-2.2.0.tar.gz tmp/yambs-2.2.1.tar.gz --markdown 20230730/y/yambs/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e8/a5/231a4bc9fc03d6e21de801cc30dac44b0b1bd479eaa7ecf214105d2238f9/dask-cuda-23.8.0a230730.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/e8/a5/231a4bc9fc03d6e21de801cc30dac44b0b1bd479eaa7ecf214105d2238f9/dask-cuda-23.8.0a230730.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [tfc]: Downloading https://files.pythonhosted.org/packages/1e/fc/fe1a26b99257b3a1d10f2f97176f1e395e77dc0a44006b53bbdf7bc562b9/tfc-1.0.6.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [pdiff]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [pdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdiff-1.1.3.tar.gz tmp/pdiff-1.1.4.tar.gz --markdown 20230730/p/pdiff/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.85.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230730/k/knifes/0.8.85-0.8.9/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/10/0e/71726c51a65825eb6e2be6ddb90c35afb967d1ffd93edb48d61b42e82286/tensorage-0.0.2.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-30 07:11:00] INFO root fetch - processPackages [tfc]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [tfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfc-1.0.5.tar.gz tmp/tfc-1.0.6.tar.gz --markdown 20230730/t/tfc/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230730/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230729.tar.gz tmp/dask-cuda-23.8.0a230730.tar.gz --markdown 20230730/d/dask-cuda/23.8.0a230729-23.8.0a230730/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230729.tar.gz tmp/dask-cuda-23.8.0a230730.tar.gz --markdown 20230730/d/dask-cuda/23.8.0a230729-23.8.0a230730/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230730/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-30 07:11:00] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-07-30 07:11:00] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.1.tar.gz tmp/tensorage-0.0.2.tar.gz --markdown 20230730/t/tensorage/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 07:11:01] INFO root fetch - processPackages [pdiff]: Remove: archive file [/home/abi/fetcher/tmp/pdiff-1.1.3.tar.gz]
+[2023-07-30 07:11:01] INFO root fetch - processPackages [pdiff]: Remove: archive file [/home/abi/fetcher/tmp/pdiff-1.1.4.tar.gz]
+[2023-07-30 07:11:01] INFO root fetch - main [MainThread]: End processing [pdiff]: success
+[2023-07-30 07:11:02] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.1.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.2.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-07-30 07:11:02] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.85.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-07-30 07:11:02] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-30 07:11:02] INFO root fetch - processPackages [tfc]: Remove: archive file [/home/abi/fetcher/tmp/tfc-1.0.5.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - processPackages [tfc]: Remove: archive file [/home/abi/fetcher/tmp/tfc-1.0.6.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [tfc]: success
+[2023-07-30 07:11:02] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.2.0.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.2.1.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-30 07:11:02] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-07-30 07:11:02] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230729.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230730.tar.gz]
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-30 07:11:02] INFO root fetch - main [MainThread]: Store serial: [19093953]
