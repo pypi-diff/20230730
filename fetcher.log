@@ -2323,3 +2323,85 @@
 [2023-07-30 03:27:53] INFO root fetch - processPackages [lmk-python]: Remove: archive file [/home/abi/fetcher/tmp/lmk_python-0.1.0.tar.gz]
 [2023-07-30 03:27:53] INFO root fetch - main [MainThread]: End processing [lmk-python]: success
 [2023-07-30 03:27:53] INFO root fetch - main [MainThread]: Store serial: [19093013]
+[2023-07-30 03:32:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093013]
+[2023-07-30 03:33:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetrpg-api-core
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetrpg-web-core
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioregistry
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-wordpress
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agentloop
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DdlGeneric
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psychoanalyze
+[2023-07-30 03:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-07-30 03:33:02] INFO root fetch - processPackages [agentloop]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [DdlGeneric]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [psychoanalyze]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [bioregistry]: New version: [0.9.90] Old Version: [0.9.9]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-30 03:33:02] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.9.0.9.dev202307291690302491] Old Version: [1.9.0.9.dev202307281690302491]
+[2023-07-30 03:33:02] INFO root fetch - processPackages [DdlGeneric]: Downloading https://files.pythonhosted.org/packages/6b/52/b8d7614c36ed54fe751216688bb8dcfb8150273aee6e13bf3e8d983d3184/DdlGeneric-1.0.1.tar.gz
+[2023-07-30 03:33:02] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/d8/6e/24faa1ff2ef1d30faf3e729ad3a8bf277ca3c6c3e022ceb5bb269848680f/psychoanalyze-0.8.2.tar.gz
+[2023-07-30 03:33:02] INFO root fetch - processPackages [agentloop]: Downloading https://files.pythonhosted.org/packages/2c/f2/eda5263693d12eaab0ec45f4fd929a4cb236b5013c3edc2bb00a8b9b80c6/agentloop-0.1.5.tar.gz
+[2023-07-30 03:33:02] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-30 03:33:02] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-30 03:33:02] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/6d/f4/029bec7c4d8572fa2ec7976763a4c12818f90c36ed81f002985dd2528f13/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl
+[2023-07-30 03:33:03] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230730/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 03:33:03] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/c7/3e/20562618c11bf2dd547d998986c52815c104fa65b3b84b5256210fbb8564/bioregistry-0.9.90.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [agentloop]: Downloading https://files.pythonhosted.org/packages/54/61/c30006f16bf03937398a88e8c45d9278b3a0a4beca271cfecfbfeabed162/agentloop-0.2.0.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [DdlGeneric]: Downloading https://files.pythonhosted.org/packages/70/78/deebc6b68540554ccf793d5ef2f09ec5d9a7aaceffbbf5e50de07d20fc9b/DdlGeneric-1.0.2.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/64/71/52a8dafc70d84bf880d184bf50c6c070499ef5fd55a0d9514af9a63a7e76/psychoanalyze-0.8.3.tar.gz
+[2023-07-30 03:33:03] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230730/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 03:33:03] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230730/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 03:33:03] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230730/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 03:33:03] INFO root fetch - processPackages [agentloop]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [agentloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentloop-0.1.5.tar.gz tmp/agentloop-0.2.0.tar.gz --markdown 20230730/a/agentloop/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 03:33:03] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.9.tar.gz tmp/bioregistry-0.9.90.tar.gz --markdown 20230730/b/bioregistry/0.9.9-0.9.90/diff.md --exclude *.pyd
+[2023-07-30 03:33:03] INFO root fetch - processPackages [DdlGeneric]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [DdlGeneric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DdlGeneric-1.0.1.tar.gz tmp/DdlGeneric-1.0.2.tar.gz --markdown 20230730/D/DdlGeneric/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 03:33:03] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/80/92/e195c8c38b8df23fcaef945b62c89a4c70a46873ff81eca94077385cd393/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl
+[2023-07-30 03:33:03] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-30 03:33:03] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.8.2.tar.gz tmp/psychoanalyze-0.8.3.tar.gz --markdown 20230730/p/psychoanalyze/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-30 03:33:04] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-30 03:33:04] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl.zip --markdown 20230730/p/pyagrum-nightly/1.9.0.9.dev202307281690302491-1.9.0.9.dev202307291690302491/diff.md --exclude *.pyd
+[2023-07-30 03:33:04] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-30 03:33:04] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-30 03:33:04] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-30 03:33:04] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-30 03:33:04] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-30 03:33:04] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-30 03:33:05] INFO root fetch - processPackages [agentloop]: Remove: archive file [/home/abi/fetcher/tmp/agentloop-0.1.5.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - processPackages [agentloop]: Remove: archive file [/home/abi/fetcher/tmp/agentloop-0.2.0.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - main [MainThread]: End processing [agentloop]: success
+[2023-07-30 03:33:05] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-30 03:33:05] INFO root fetch - processPackages [DdlGeneric]: Remove: archive file [/home/abi/fetcher/tmp/DdlGeneric-1.0.1.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - processPackages [DdlGeneric]: Remove: archive file [/home/abi/fetcher/tmp/DdlGeneric-1.0.2.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - main [MainThread]: End processing [DdlGeneric]: success
+[2023-07-30 03:33:05] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-30 03:33:05] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.2.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.3.tar.gz]
+[2023-07-30 03:33:05] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-30 03:33:05] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 03:33:05] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307291690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 03:33:05] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-30 03:36:03] ERROR root fetch - processPackages [bioregistry]: Timeout during execution of pkgdiff
+[2023-07-30 03:36:03] INFO root fetch - main [MainThread]: End processing [bioregistry] error
+[2023-07-30 03:36:03] INFO root fetch - main [MainThread]: Store serial: [19093058]
