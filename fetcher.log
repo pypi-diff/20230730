@@ -12794,3 +12794,114 @@
 [2023-07-30 18:13:53] INFO root fetch - processPackages [Falmark]: Remove: archive file [/home/abi/fetcher/tmp/Falmark-1.1.0.tar.gz]
 [2023-07-30 18:13:53] INFO root fetch - main [MainThread]: End processing [Falmark]: success
 [2023-07-30 18:13:53] INFO root fetch - main [MainThread]: Store serial: [19097627]
+[2023-07-30 18:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097627]
+[2023-07-30 18:19:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swolfpy-inputdata
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-dag
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DS2STAC-Ingester
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmdcomp
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsws
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ooo-dev-tools
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-axes
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kuki
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-fn
+[2023-07-30 18:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aa-srp
+[2023-07-30 18:19:02] INFO root fetch - processPackages [kuki]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [swolfpy-inputdata]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [DS2STAC-Ingester]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [simple-dag]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [cmdcomp]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [gpt-fn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [aa-srp]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [django-axes]: New version: [6.1.0] Old Version: [6.0.5]
+[2023-07-30 18:19:02] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/15/d7/f608545baec68f4b85ad647a8da3f27d158bccf5f94f02329ada43891bcf/DS2STAC-Ingester-1.0.2.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/da/99/218fc648c722848d38c1d8f4a5f2a525ea8d43a6184076cb1ad88f60778b/kuki-0.9.8.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [swolfpy-inputdata]: Downloading https://files.pythonhosted.org/packages/1d/53/8bf5e3db88f0420e65199a06bded0afe66bcccda2254aacdc1db5d99fe3a/swolfpy_inputdata-1.0.0.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [simple-dag]: Downloading https://files.pythonhosted.org/packages/53/16/c31ca20e9862d7b9ee485ad124cef5691f2084397b5f07f58b7dc1873cc6/simple_dag-0.1.0.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/39/ce/80681975ca5ffb1c93d008504f7941275c460f78d738cf39086df4fcc651/cmdcomp-1.2.0.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/48/f6/f7f2aa2988867e0579f4739d27cbee4197a8ba1bbed04d51028be93c6876/gpt_fn-0.0.8.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [aa-srp]: Downloading https://files.pythonhosted.org/packages/26/f0/0609c383bef2d4abf3f8e76317c18d74237a0f05ebb96acdaf2a29974a8c/aa-srp-1.8.0.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/92/12/2867c45e64c12e4e8ddf122e84b32f7648b76a7efe5cf6a9c3bd25d91cc8/django-axes-6.0.5.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 18:19:02] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/ab/2e/9cddc295e55f9a2b80affb96a71451f7c99c869cf5ba788927f2a19c2b90/DS2STAC-Ingester-1.0.3.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/40/78/c6dc6dc08631a7f7078269d05a6492604f923e324c4c0b013e8ed3ecb538/kuki-0.9.9.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [simple-dag]: Downloading https://files.pythonhosted.org/packages/ac/c6/3c9fba799e8ee5da97ab4740aa114febb4abf26fdeee484525d7ef5a0cf6/simple_dag-0.1.1.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/12/87/8f707a8283b4c6b8e0cb97921b090dd6654ac19d2d2dbf85b277dbf5471a/cmdcomp-2.0.0.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [swolfpy-inputdata]: Downloading https://files.pythonhosted.org/packages/23/3e/36e290925043b4c9587afc132255a536b1a5bfb5283bf76615bba60aa825/swolfpy_inputdata-1.1.0.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/c9/81/7bedf961e7418e7e383c6cdbba75916c2a32d01b18476dbe3bf8792163b7/django-axes-6.1.0.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [kuki]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [kuki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuki-0.9.8.tar.gz tmp/kuki-0.9.9.tar.gz --markdown 20230730/k/kuki/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [DS2STAC-Ingester]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [DS2STAC-Ingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DS2STAC-Ingester-1.0.2.tar.gz tmp/DS2STAC-Ingester-1.0.3.tar.gz --markdown 20230730/D/DS2STAC-Ingester/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/74/b5/f715746762ff234b25f769893c791ea0292979bcd6af05d22d664b281c5b/gpt_fn-0.0.9.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-1.2.0.tar.gz tmp/cmdcomp-2.0.0.tar.gz --markdown 20230730/c/cmdcomp/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [django-axes]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [django-axes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-axes-6.0.5.tar.gz tmp/django-axes-6.1.0.tar.gz --markdown 20230730/d/django-axes/6.0.5-6.1.0/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [swolfpy-inputdata]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [swolfpy-inputdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swolfpy_inputdata-1.0.0.tar.gz tmp/swolfpy_inputdata-1.1.0.tar.gz --markdown 20230730/s/swolfpy-inputdata/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.0.8.tar.gz tmp/gpt_fn-0.0.9.tar.gz --markdown 20230730/g/gpt-fn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [simple-dag]: executing diffoscope
+[2023-07-30 18:19:03] INFO root fetch - processPackages [simple-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_dag-0.1.0.tar.gz tmp/simple_dag-0.1.1.tar.gz --markdown 20230730/s/simple-dag/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 18:19:03] INFO root fetch - processPackages [aa-srp]: Downloading https://files.pythonhosted.org/packages/46/9e/ca72e888c462adcdf1fb647897f72bafe6fc0db59f73188759399b223772/aa-srp-1.9.0.tar.gz
+[2023-07-30 18:19:03] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2023-07-30 18:19:04] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [dsws]: Start processing: sqllineage
+[2023-07-30 18:19:04] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 18:19:04] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-07-30 18:19:04] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20230730/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-30 18:19:04] INFO root fetch - processPackages [sqllineage]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [aa-srp]: executing diffoscope
+[2023-07-30 18:19:04] INFO root fetch - processPackages [aa-srp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-srp-1.8.0.tar.gz tmp/aa-srp-1.9.0.tar.gz --markdown 20230730/a/aa-srp/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 18:19:04] INFO root fetch - processPackages [sqllineage]: Downloading https://files.pythonhosted.org/packages/7d/a6/5199f3f5e77a041cec139fc9bd173a9ca3313b354a2459e20cc16ee50dd5/sqllineage-1.4.5.tar.gz
+[2023-07-30 18:19:04] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.2.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.3.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [DS2STAC-Ingester]: Start processing: python3-commons
+[2023-07-30 18:19:04] INFO root fetch - main [MainThread]: End processing [DS2STAC-Ingester]: success
+[2023-07-30 18:19:04] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.8.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.9.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - main [MainThread]: End processing [kuki]: success
+[2023-07-30 18:19:04] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.2.0.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.0.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-07-30 18:19:04] INFO root fetch - processPackages [python3-commons]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [simple-dag]: Remove: archive file [/home/abi/fetcher/tmp/simple_dag-0.1.0.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - processPackages [simple-dag]: Remove: archive file [/home/abi/fetcher/tmp/simple_dag-0.1.1.tar.gz]
+[2023-07-30 18:19:04] INFO root fetch - main [MainThread]: End processing [simple-dag]: success
+[2023-07-30 18:19:04] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/46/a8/ae9acb0bcb5d1e58ba47d336d2f25c454074ff9d3c6d63c8fac0825d74fa/python3-commons-0.1.3.tar.gz
+[2023-07-30 18:19:05] INFO root fetch - processPackages [swolfpy-inputdata]: Remove: archive file [/home/abi/fetcher/tmp/swolfpy_inputdata-1.0.0.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - processPackages [swolfpy-inputdata]: Remove: archive file [/home/abi/fetcher/tmp/swolfpy_inputdata-1.1.0.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - main [MainThread]: End processing [swolfpy-inputdata]: success
+[2023-07-30 18:19:05] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.8.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.9.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2023-07-30 18:19:05] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/b7/b1/8092c483c1be8908e41e5e9ba3e24e207006651a5f24fc4ace2ce370739f/python3-commons-0.1.4.tar.gz
+[2023-07-30 18:19:05] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-30 18:19:05] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.1.3.tar.gz tmp/python3-commons-0.1.4.tar.gz --markdown 20230730/p/python3-commons/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 18:19:05] INFO root fetch - processPackages [sqllineage]: Downloading https://files.pythonhosted.org/packages/ec/97/c62ff1308e106b8a6de861206f6a54e41e64aef3d694ae90edb276d20360/sqllineage-1.4.6.tar.gz
+[2023-07-30 18:19:05] INFO root fetch - processPackages [django-axes]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-6.0.5.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - processPackages [django-axes]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-6.1.0.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - main [MainThread]: End processing [django-axes]: success
+[2023-07-30 18:19:05] INFO root fetch - processPackages [aa-srp]: Remove: archive file [/home/abi/fetcher/tmp/aa-srp-1.8.0.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - processPackages [aa-srp]: Remove: archive file [/home/abi/fetcher/tmp/aa-srp-1.9.0.tar.gz]
+[2023-07-30 18:19:05] INFO root fetch - main [MainThread]: End processing [aa-srp]: success
+[2023-07-30 18:19:06] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.3.tar.gz]
+[2023-07-30 18:19:06] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.4.tar.gz]
+[2023-07-30 18:19:06] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-30 18:19:06] INFO root fetch - processPackages [sqllineage]: executing diffoscope
+[2023-07-30 18:19:06] INFO root fetch - processPackages [sqllineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqllineage-1.4.5.tar.gz tmp/sqllineage-1.4.6.tar.gz --markdown 20230730/s/sqllineage/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-30 18:19:09] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2023-07-30 18:19:09] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2023-07-30 18:19:09] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-07-30 18:19:09] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.5.tar.gz]
+[2023-07-30 18:19:09] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.6.tar.gz]
+[2023-07-30 18:19:09] INFO root fetch - main [MainThread]: End processing [sqllineage]: success
+[2023-07-30 18:19:09] INFO root fetch - main [MainThread]: Store serial: [19097661]
