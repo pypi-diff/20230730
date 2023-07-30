@@ -1892,3 +1892,86 @@
 [2023-07-30 02:45:23] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.3.1.tar.gz]
 [2023-07-30 02:45:23] INFO root fetch - main [MainThread]: End processing [pyyeti]: success
 [2023-07-30 02:45:23] INFO root fetch - main [MainThread]: Store serial: [19092837]
+[2023-07-30 02:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092837]
+[2023-07-30 02:50:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDecision
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garth
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdgpt
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ANSIController
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartloop
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alias-gen
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: github4api
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hds-stats
+[2023-07-30 02:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dvc-objects
+[2023-07-30 02:50:32] INFO root fetch - processPackages [mdgpt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [garth]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [pyDecision]: New version: [4.1.9] Old Version: [4.1.7]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [smartloop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [alias-gen]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-30 02:50:32] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 02:50:32] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 02:50:32] INFO root fetch - processPackages [hds-stats]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [github4api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [dvc-objects]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-30 02:50:32] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/01/ba/6663eedaa91941b291da97ed80aa0fa2e965e790db1139d675ac9f1730a4/mdgpt-0.3.0.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/72/dc/ed7a5e67c2b14b23ec432de1f7ba5f4d3d287f00f858034210f0046c98d2/smartloop-1.0.8.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/ce/66/634fce4c0d0c8a305a329f01a56e0172287425246f542338fd02ced340c4/pyDecision-4.1.7.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/5b/73/69d96bba9c5051d6a9e0cd32646fbdf4ac282f9a5f74116a2fa311bfc7db/hds-stats-0.3.4.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/c7/93/e8e7a55c84a7ce3453a632239895bfe768d8afc6b509f37426634ea6c5ed/alias_gen-0.6.3.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/13/ef/09b46a8c7865dffb752ba1b96da6134b21adc78b93f9220fc5638a6cd4d7/garth-0.3.1.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [github4api]: Downloading https://files.pythonhosted.org/packages/ce/0c/050eb50bb9dabf2c4a233458880aba89c20c5a73b6d8227d76f30919aac7/github4api-1.1.8.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/bc/df/73361bacbd1309f1c294796ef25e1906cb21c3b1e39cc33c9b2cf45650e3/dvc-objects-0.8.0.tar.gz
+[2023-07-30 02:50:32] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-30 02:50:32] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-30 02:50:32] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/de/f3/a7ca8090fd3fb5bd070cad7f9c8c52ca9895eb23e79886f4bd28bd45c029/hds-stats-0.3.5.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/40/a4/9568f01c93fd3e5632513072db33cb292ad15c98f67224e94b61f936b9fa/mdgpt-0.3.1.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-07-30 02:50:32] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.3.4.tar.gz tmp/hds-stats-0.3.5.tar.gz --markdown 20230730/h/hds-stats/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-30 02:50:32] INFO root fetch - processPackages [smartloop]: Downloading https://files.pythonhosted.org/packages/2c/9a/1a5f1aa059a4c5590a4e562acbc09bdd408bc1528a5824dcf8fc3a5a1d58/smartloop-1.0.9.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/0e/f3/0785ef92db4baaf825d00c4516572deeb0c90f28ed5767cb6de8aefacf5a/pyDecision-4.1.9.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/58/0f/6101859fc876a53c5bf258226d537fea6f08075cf43ff513b25ea7e83246/alias_gen-0.6.4.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [mdgpt]: executing diffoscope
+[2023-07-30 02:50:32] INFO root fetch - processPackages [mdgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdgpt-0.3.0.tar.gz tmp/mdgpt-0.3.1.tar.gz --markdown 20230730/m/mdgpt/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 02:50:32] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/67/64/c60313bbdd833060c9f5173fc025253cdc170fe7c9991327c3ca5a08e79e/garth-0.3.2.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [github4api]: Downloading https://files.pythonhosted.org/packages/6a/82/18258a8e9e7034bb3e724c6d0d06453b0fd149c297b5fc5e2471a274c2f8/github4api-1.1.9.tar.gz
+[2023-07-30 02:50:32] INFO root fetch - processPackages [alias-gen]: executing diffoscope
+[2023-07-30 02:50:32] INFO root fetch - processPackages [alias-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alias_gen-0.6.3.tar.gz tmp/alias_gen-0.6.4.tar.gz --markdown 20230730/a/alias-gen/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-30 02:50:32] INFO root fetch - processPackages [smartloop]: executing diffoscope
+[2023-07-30 02:50:32] INFO root fetch - processPackages [smartloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartloop-1.0.8.tar.gz tmp/smartloop-1.0.9.tar.gz --markdown 20230730/s/smartloop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 02:50:33] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-30 02:50:33] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-4.1.7.tar.gz tmp/pyDecision-4.1.9.tar.gz --markdown 20230730/p/pyDecision/4.1.7-4.1.9/diff.md --exclude *.pyd
+[2023-07-30 02:50:33] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-30 02:50:33] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.3.1.tar.gz tmp/garth-0.3.2.tar.gz --markdown 20230730/g/garth/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-30 02:50:33] INFO root fetch - processPackages [github4api]: executing diffoscope
+[2023-07-30 02:50:33] INFO root fetch - processPackages [github4api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github4api-1.1.8.tar.gz tmp/github4api-1.1.9.tar.gz --markdown 20230730/g/github4api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-30 02:50:33] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/0e/18/e00adb4b827fc8f0d52d3b67d2d82af47094f116204a62904453ea2bd952/dvc-objects-0.9.0.tar.gz
+[2023-07-30 02:50:33] INFO root fetch - processPackages [dvc-objects]: executing diffoscope
+[2023-07-30 02:50:33] INFO root fetch - processPackages [dvc-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-objects-0.8.0.tar.gz tmp/dvc-objects-0.9.0.tar.gz --markdown 20230730/d/dvc-objects/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 02:50:34] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.4.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.5.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-07-30 02:50:34] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.3.0.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.3.1.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [mdgpt]: success
+[2023-07-30 02:50:34] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.3.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.4.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [alias-gen]: success
+[2023-07-30 02:50:34] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.8.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [smartloop]: Remove: archive file [/home/abi/fetcher/tmp/smartloop-1.0.9.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [smartloop]: success
+[2023-07-30 02:50:34] INFO root fetch - processPackages [github4api]: Remove: archive file [/home/abi/fetcher/tmp/github4api-1.1.8.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [github4api]: Remove: archive file [/home/abi/fetcher/tmp/github4api-1.1.9.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [github4api]: success
+[2023-07-30 02:50:34] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.1.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.2.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-30 02:50:34] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.1.7.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.1.9.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-30 02:50:34] INFO root fetch - processPackages [dvc-objects]: Remove: archive file [/home/abi/fetcher/tmp/dvc-objects-0.8.0.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - processPackages [dvc-objects]: Remove: archive file [/home/abi/fetcher/tmp/dvc-objects-0.9.0.tar.gz]
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: End processing [dvc-objects]: success
+[2023-07-30 02:50:34] INFO root fetch - main [MainThread]: Store serial: [19092868]
