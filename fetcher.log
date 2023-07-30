@@ -3022,3 +3022,63 @@
 [2023-07-30 04:23:03] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2331.tar.gz]
 [2023-07-30 04:23:03] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
 [2023-07-30 04:23:03] INFO root fetch - main [MainThread]: Store serial: [19093274]
+[2023-07-30 04:28:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093274]
+[2023-07-30 04:28:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-07-30 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openplugincore
+[2023-07-30 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: askbot
+[2023-07-30 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monailabel-weekly
+[2023-07-30 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garth
+[2023-07-30 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naif-eop-high-prec
+[2023-07-30 04:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuicord
+[2023-07-30 04:28:11] INFO root fetch - processPackages [monailabel-weekly]: New version: [0.5.dev2331] Old Version: [0.5.dev2330]
+[2023-07-30 04:28:11] WARNING root fetch - processPackages [tuicord]: Skipping, unable to determine old version
+[2023-07-30 04:28:11] INFO root fetch - main [MainThread]: End processing [tuicord] error
+[2023-07-30 04:28:11] INFO root fetch - processPackages [garth]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-30 04:28:11] INFO root fetch - processPackages [openplugincore]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-30 04:28:11] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-30 04:28:11] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230730] Old Version: [1.2.20230729]
+[2023-07-30 04:28:11] INFO root fetch - processPackages [askbot]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-30 04:28:11] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/55/4e/6c99d9fe25016b847e3ba4b6b44dae48262a878ad5aa8acd17753ab2f8bd/garth-0.3.3.tar.gz
+[2023-07-30 04:28:11] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/ec/bc/8dea6ffcf428021a9addf6b46c15bb25ad5545a5fcd16cc1bf6f754c0443/openplugincore-0.6.0.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/5f/10/b129d4ca575856a9e9f0cc78f70b66baaaf734628a2b7be85728654eaa83/iam_actions-1.2.20230729.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/54/7a/39e67e681140433726668f7b27cec878f667c19500f6cc885da55690f035/monailabel_weekly-0.5.dev2330-py3-none-any.whl
+[2023-07-30 04:28:12] INFO root fetch - processPackages [askbot]: Downloading https://files.pythonhosted.org/packages/02/63/46008c898f152b54e409e34198eb0873c0b6d25c3cabb5805a373ae4f79b/askbot-0.9.3.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/55/ad/9a4c18e404753aad9740b8887e1296821fbd3587bd0cd57954bfb2376aa0/openplugincore-0.6.1.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/3f/72/436754157d049c8a1db6867d017ced9acbeea4c935b5068abd4bdaf9c8c4/garth-0.3.4.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/02/6b/3cf849996299918f78fa33f8992e772f38280d66d910c7014fe55ed3cf07/iam_actions-1.2.20230730.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-07-30 04:28:12] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.6.0.tar.gz tmp/openplugincore-0.6.1.tar.gz --markdown 20230730/o/openplugincore/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-30 04:28:12] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-30 04:28:12] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.3.3.tar.gz tmp/garth-0.3.4.tar.gz --markdown 20230730/g/garth/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-30 04:28:12] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-30 04:28:12] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-30 04:28:12] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230729.tar.gz tmp/iam_actions-1.2.20230730.tar.gz --markdown 20230730/i/iam-actions/1.2.20230729-1.2.20230730/diff.md --exclude *.pyd
+[2023-07-30 04:28:12] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-30 04:28:12] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230730/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-30 04:28:13] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.6.0.tar.gz]
+[2023-07-30 04:28:13] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.6.1.tar.gz]
+[2023-07-30 04:28:13] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-07-30 04:28:13] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.3.tar.gz]
+[2023-07-30 04:28:13] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.4.tar.gz]
+[2023-07-30 04:28:13] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-30 04:28:13] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/d6/40/e129eb92f699e6370051bfcf055a5d1a533609dbcb0dbede8fd511a5ba9e/monailabel_weekly-0.5.dev2331-py3-none-any.whl
+[2023-07-30 04:28:14] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230729.tar.gz]
+[2023-07-30 04:28:14] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230730.tar.gz]
+[2023-07-30 04:28:14] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-30 04:28:14] INFO root fetch - processPackages [askbot]: Downloading https://files.pythonhosted.org/packages/13/6a/70048b89199ed146aea573941da123edd82b3ba779b9c6a847fc046223a0/askbot-0.9.4.tar.gz
+[2023-07-30 04:28:15] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-30 04:28:15] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-30 04:28:15] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-30 04:28:15] INFO root fetch - processPackages [monailabel-weekly]: executing diffoscope
+[2023-07-30 04:28:15] INFO root fetch - processPackages [monailabel-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel_weekly-0.5.dev2330-py3-none-any.whl.zip tmp/monailabel_weekly-0.5.dev2331-py3-none-any.whl.zip --markdown 20230730/m/monailabel-weekly/0.5.dev2330-0.5.dev2331/diff.md --exclude *.pyd
+[2023-07-30 04:28:17] INFO root fetch - processPackages [askbot]: executing diffoscope
+[2023-07-30 04:28:17] INFO root fetch - processPackages [askbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askbot-0.9.3.tar.gz tmp/askbot-0.9.4.tar.gz --markdown 20230730/a/askbot/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-30 04:28:18] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2330-py3-none-any.whl.zip]
+[2023-07-30 04:28:18] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2331-py3-none-any.whl.zip]
+[2023-07-30 04:28:18] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
+[2023-07-30 04:28:35] INFO root fetch - processPackages [askbot]: Remove: archive file [/home/abi/fetcher/tmp/askbot-0.9.3.tar.gz]
+[2023-07-30 04:28:35] INFO root fetch - processPackages [askbot]: Remove: archive file [/home/abi/fetcher/tmp/askbot-0.9.4.tar.gz]
+[2023-07-30 04:28:35] INFO root fetch - main [MainThread]: End processing [askbot]: success
+[2023-07-30 04:28:35] INFO root fetch - main [MainThread]: Store serial: [19093295]
