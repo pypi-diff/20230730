@@ -13995,3 +13995,86 @@
 [2023-07-30 20:04:14] INFO root fetch - processPackages [ckanext-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-toolbelt-0.4.6.tar.gz]
 [2023-07-30 20:04:14] INFO root fetch - main [MainThread]: End processing [ckanext-toolbelt]: success
 [2023-07-30 20:04:14] INFO root fetch - main [MainThread]: Store serial: [19098180]
+[2023-07-30 20:09:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098180]
+[2023-07-30 20:09:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SqlalchemyMixin
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netscorpion
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider-nightly
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdup
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataclasses-json
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-xvirt
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ximu3
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abd-clam
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sloth-framework
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epubgen
+[2023-07-30 20:09:22] INFO root fetch - processPackages [ximu3]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-30 20:09:22] WARNING root fetch - processPackages [netscorpion]: Skipping, unable to determine old version
+[2023-07-30 20:09:22] INFO root fetch - main [MainThread]: End processing [netscorpion] error
+[2023-07-30 20:09:22] INFO root fetch - processPackages [SqlalchemyMixin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 20:09:22] INFO root fetch - processPackages [pytest-xvirt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-30 20:09:22] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 20:09:22] INFO root fetch - processPackages [epubgen]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-30 20:09:22] INFO root fetch - processPackages [dataclasses-json]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-30 20:09:22] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-07-30 20:09:22] INFO root fetch - processPackages [fastdup]: New version: [1.31] Old Version: [1.30]
+[2023-07-30 20:09:23] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-07-30 20:09:23] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [epubgen]: Downloading https://files.pythonhosted.org/packages/e5/85/6f74c6bfbae855bd9c447136f295007f48e9f2d95b70dc5dce844aa044bc/epubgen-0.4.0.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [pytest-xvirt]: Downloading https://files.pythonhosted.org/packages/41/a2/d3f1270df64802e8e7c553caf7378c3ed99d6450851fb061390f88cadff1/pytest-xvirt-0.1.4.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/5a/98/43fba8f20b0ff829ac2a13f7e6ac7d14d23def9f7947efd8b7727a59e590/ximu3-1.2.1-cp39-cp39-win_amd64.whl
+[2023-07-30 20:09:23] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/ed/63/10cdc14908f3c9fdb9c21631275d2805853f6156b761a391e6f8918377e1/dataclasses-json-0.5.8.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [SqlalchemyMixin]: Downloading https://files.pythonhosted.org/packages/00/85/479eac067ac3022c2a7573ed68163779027b6907f7d699321c850e5b54c5/SqlalchemyMixin-0.0.8.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/75/0d/006a214eaeb72416cf89a7becfc002641eb8a9514ecd0ddbda137b98bcb2/sloth-framework-0.1.8.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/c6/3d/6d02a9d77defa865ddab0610984dd73ec4ae20aa1b464d52fed5c9d3cfb8/fastdup-1.30-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-07-30 20:09:23] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-07-30 20:09:23] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75144042>=10485760
+[2023-07-30 20:09:23] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-07-30 20:09:23] INFO root fetch - processPackages [epubgen]: Downloading https://files.pythonhosted.org/packages/73/53/aad35af14a68e586668bf64592d7daf3439d637b7aa862f6a3f074c7894a/epubgen-0.4.1.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [pytest-xvirt]: Downloading https://files.pythonhosted.org/packages/32/75/bccee4361c2f80bb5b4e17ac9406b31a64f62e99c60c11fc3f70ded9d3ad/pytest-xvirt-0.1.5.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/86/c2/db1972ba8fda56d1c3317d8cca1c06af4b5df7e3c94345048d10cf4c7bf4/dataclasses-json-0.5.9.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-07-30 20:09:23] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230730/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-07-30 20:09:23] INFO root fetch - processPackages [epubgen]: executing diffoscope
+[2023-07-30 20:09:23] INFO root fetch - processPackages [epubgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epubgen-0.4.0.tar.gz tmp/epubgen-0.4.1.tar.gz --markdown 20230730/e/epubgen/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-30 20:09:23] INFO root fetch - processPackages [pytest-xvirt]: executing diffoscope
+[2023-07-30 20:09:23] INFO root fetch - processPackages [pytest-xvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-xvirt-0.1.4.tar.gz tmp/pytest-xvirt-0.1.5.tar.gz --markdown 20230730/p/pytest-xvirt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-30 20:09:23] INFO root fetch - processPackages [SqlalchemyMixin]: Downloading https://files.pythonhosted.org/packages/87/ac/029433bb3b014b81ae195d5de2dec105940e4a87992995f1bddc4572f09e/SqlalchemyMixin-0.0.9.tar.gz
+[2023-07-30 20:09:23] INFO root fetch - processPackages [dataclasses-json]: executing diffoscope
+[2023-07-30 20:09:23] INFO root fetch - processPackages [dataclasses-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-json-0.5.8.tar.gz tmp/dataclasses-json-0.5.9.tar.gz --markdown 20230730/d/dataclasses-json/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-30 20:09:23] INFO root fetch - processPackages [SqlalchemyMixin]: executing diffoscope
+[2023-07-30 20:09:23] INFO root fetch - processPackages [SqlalchemyMixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SqlalchemyMixin-0.0.8.tar.gz tmp/SqlalchemyMixin-0.0.9.tar.gz --markdown 20230730/S/SqlalchemyMixin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 20:09:23] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/71/ae/459e0962ff2f9fb11a7ad944070c2a108202b7654002d6330165f0b04e86/ximu3-1.2.2-cp39-cp39-win_amd64.whl
+[2023-07-30 20:09:23] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/1b/5e/f7756769bdc54ffa207ac448c35548cc179b70dca456bf78b6d4997e96f9/sloth-framework-0.1.9.tar.gz
+[2023-07-30 20:09:24] INFO root fetch - processPackages [ximu3]: executing diffoscope
+[2023-07-30 20:09:24] INFO root fetch - processPackages [ximu3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ximu3-1.2.1-cp39-cp39-win_amd64.whl.zip tmp/ximu3-1.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20230730/x/ximu3/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-30 20:09:24] INFO root fetch - processPackages [epubgen]: Remove: archive file [/home/abi/fetcher/tmp/epubgen-0.4.0.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - processPackages [pytest-xvirt]: Remove: archive file [/home/abi/fetcher/tmp/pytest-xvirt-0.1.4.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - processPackages [epubgen]: Remove: archive file [/home/abi/fetcher/tmp/epubgen-0.4.1.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - processPackages [pytest-xvirt]: Remove: archive file [/home/abi/fetcher/tmp/pytest-xvirt-0.1.5.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - main [MainThread]: End processing [epubgen]: success
+[2023-07-30 20:09:24] INFO root fetch - main [MainThread]: End processing [pytest-xvirt]: success
+[2023-07-30 20:09:24] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-07-30 20:09:24] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.8.tar.gz tmp/sloth-framework-0.1.9.tar.gz --markdown 20230730/s/sloth-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 20:09:24] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-07-30 20:09:24] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-07-30 20:09:24] INFO root fetch - processPackages [SqlalchemyMixin]: Remove: archive file [/home/abi/fetcher/tmp/SqlalchemyMixin-0.0.8.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - processPackages [SqlalchemyMixin]: Remove: archive file [/home/abi/fetcher/tmp/SqlalchemyMixin-0.0.9.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - main [MainThread]: End processing [SqlalchemyMixin]: success
+[2023-07-30 20:09:24] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-json-0.5.8.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-json-0.5.9.tar.gz]
+[2023-07-30 20:09:24] INFO root fetch - main [MainThread]: End processing [dataclasses-json]: success
+[2023-07-30 20:09:25] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.2.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 20:09:25] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.2.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 20:09:25] INFO root fetch - main [MainThread]: End processing [ximu3]: success
+[2023-07-30 20:09:26] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-07-30 20:09:26] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230730/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-07-30 20:09:27] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.8.tar.gz]
+[2023-07-30 20:09:27] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.9.tar.gz]
+[2023-07-30 20:09:27] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-07-30 20:09:27] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-07-30 20:09:27] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-07-30 20:09:27] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-07-30 20:09:27] INFO root fetch - main [MainThread]: Store serial: [19098221]
