@@ -8931,3 +8931,90 @@
 [2023-07-30 13:20:05] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
 [2023-07-30 13:20:05] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
 [2023-07-30 13:20:05] INFO root fetch - main [MainThread]: Store serial: [19095911]
+[2023-07-30 13:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095911]
+[2023-07-30 13:25:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prometheus-kubernetes-cli
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amatak-shop
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thematos
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zylo-admin
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scikit-llm
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchtnt-nightly
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: panda-utils
+[2023-07-30 13:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2023-07-30 13:25:14] INFO root fetch - processPackages [amatak-shop]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [zylo-admin]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-30 13:25:14] WARNING root fetch - processPackages [prometheus-kubernetes-cli]: Skipping, unable to determine old version
+[2023-07-30 13:25:14] INFO root fetch - main [MainThread]: End processing [prometheus-kubernetes-cli] error
+[2023-07-30 13:25:14] INFO root fetch - processPackages [panda-utils]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [thematos]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [scikit-llm]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/db/74/791176a6f30bfeefd033aac71e356c6bb1387979ccd05fcad517c244b47d/amatak-shop-1.0.9.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-30 13:25:14] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/68/2e/1530e925d65e5170f504fe14cc303194539d886249d17734b16ec8e12df4/thematos-0.2.1.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-30 13:25:14] INFO root fetch - processPackages [scikit-llm]: Downloading https://files.pythonhosted.org/packages/f9/3d/f4862eaf79f4025cc19d7c5007b78a12ba2358eeadcb7d69022ac37fb725/scikit-llm-0.3.0.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [zylo-admin]: Downloading https://files.pythonhosted.org/packages/04/e9/4c5bfb69a8cc5e529bc1684d9c5d21c337104dae75444413e09d555461ca/zylo-admin-1.0.0.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/ce/2d/e9bebe160ea8c0e25d1e3cbb49cc7f9ff0803bbe54595d56d368fc94c124/panda_utils-1.4.1.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-30 13:25:14] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/e4/0f/085ba78453672a736660c7dd675277a65a996be57c59e651b566ec13e722/thematos-0.2.2.tar.gz
+[2023-07-30 13:25:14] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-30 13:25:15] INFO root fetch - processPackages [zylo-admin]: Downloading https://files.pythonhosted.org/packages/cd/28/491eaf97c6ae4be0ff1e928c3b78ecb1a2fec32436fd2bc3f8ed654a1894/zylo_admin-1.0.1-py3-none-any.whl
+[2023-07-30 13:25:15] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/a0/4a/c281906298ea0998652511d1ed168d5d6d2cda0f8e5c7cc97f6560d64d71/amatak-shop-1.1.0.tar.gz
+[2023-07-30 13:25:15] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/58/cc/78aa18602c037848b64eb10df054e516aace972583ee380e827c304d8ec1/panda_utils-1.4.2.tar.gz
+[2023-07-30 13:25:15] INFO root fetch - processPackages [scikit-llm]: Downloading https://files.pythonhosted.org/packages/b5/4c/f29ae32bf7994e417ec7d19b8c66bc0d77316a9f5596c919c6bcf94c278c/scikit-llm-0.3.1.tar.gz
+[2023-07-30 13:25:15] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230730/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-30 13:25:15] INFO root fetch - processPackages [thematos]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [thematos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thematos-0.2.1.tar.gz tmp/thematos-0.2.2.tar.gz --markdown 20230730/t/thematos/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 13:25:15] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-30 13:25:15] INFO root fetch - processPackages [zylo-admin]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [zylo-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-admin-1.0.0.tar.gz tmp/zylo_admin-1.0.1-py3-none-any.whl.zip --markdown 20230730/z/zylo-admin/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 13:25:15] INFO root fetch - processPackages [scikit-llm]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [scikit-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-llm-0.3.0.tar.gz tmp/scikit-llm-0.3.1.tar.gz --markdown 20230730/s/scikit-llm/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 13:25:15] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.4.1.tar.gz tmp/panda_utils-1.4.2.tar.gz --markdown 20230730/p/panda-utils/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-30 13:25:15] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-30 13:25:15] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230730/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-30 13:25:15] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230730/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-30 13:25:15] INFO root fetch - processPackages [amatak-shop]: executing diffoscope
+[2023-07-30 13:25:15] INFO root fetch - processPackages [amatak-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amatak-shop-1.0.9.tar.gz tmp/amatak-shop-1.1.0.tar.gz --markdown 20230730/a/amatak-shop/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 13:25:16] INFO root fetch - processPackages [zylo-admin]: Remove: archive file [/home/abi/fetcher/tmp/zylo-admin-1.0.0.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - processPackages [zylo-admin]: Remove: archive file [/home/abi/fetcher/tmp/zylo_admin-1.0.1-py3-none-any.whl.zip]
+[2023-07-30 13:25:16] INFO root fetch - main [MainThread]: End processing [zylo-admin]: success
+[2023-07-30 13:25:16] INFO root fetch - processPackages [thematos]: Remove: archive file [/home/abi/fetcher/tmp/thematos-0.2.1.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - processPackages [thematos]: Remove: archive file [/home/abi/fetcher/tmp/thematos-0.2.2.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - main [MainThread]: End processing [thematos]: success
+[2023-07-30 13:25:16] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-30 13:25:16] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230730/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-30 13:25:16] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-30 13:25:16] INFO root fetch - processPackages [scikit-llm]: Remove: archive file [/home/abi/fetcher/tmp/scikit-llm-0.3.0.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - processPackages [scikit-llm]: Remove: archive file [/home/abi/fetcher/tmp/scikit-llm-0.3.1.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - main [MainThread]: End processing [scikit-llm]: success
+[2023-07-30 13:25:16] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.4.1.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.4.2.tar.gz]
+[2023-07-30 13:25:16] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-07-30 13:25:17] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 13:25:17] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 13:25:17] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-30 13:25:18] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.9.tar.gz]
+[2023-07-30 13:25:18] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.1.0.tar.gz]
+[2023-07-30 13:25:18] INFO root fetch - main [MainThread]: End processing [amatak-shop]: success
+[2023-07-30 13:25:18] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-30 13:25:18] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-30 13:25:18] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-30 13:25:29] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-30 13:25:29] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-30 13:25:29] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-30 13:25:29] INFO root fetch - main [MainThread]: Store serial: [19095941]
