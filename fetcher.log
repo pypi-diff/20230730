@@ -5076,3 +5076,32 @@
 [2023-07-30 07:47:23] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
 [2023-07-30 07:47:23] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-07-30 07:47:23] INFO root fetch - main [MainThread]: Store serial: [19094133]
+[2023-07-30 07:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094133]
+[2023-07-30 07:52:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 07:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knifes
+[2023-07-30 07:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toxid
+[2023-07-30 07:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rl-warp-drive
+[2023-07-30 07:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-gen
+[2023-07-30 07:52:32] WARNING root fetch - processPackages [toxid]: Skipping, unable to determine old version
+[2023-07-30 07:52:32] INFO root fetch - main [MainThread]: End processing [toxid] error
+[2023-07-30 07:52:32] INFO root fetch - processPackages [fastapi-gen]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 07:52:32] INFO root fetch - processPackages [rl-warp-drive]: New version: [2.5.0] Old Version: [2.4]
+[2023-07-30 07:52:32] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.86]
+[2023-07-30 07:52:32] INFO root fetch - processPackages [fastapi-gen]: Downloading https://files.pythonhosted.org/packages/75/1d/c81fadf03de0b3237f21a27a4eb8762c8751d75e5c376fd6b91c4a6528cd/fastapi_gen-0.1.0.tar.gz
+[2023-07-30 07:52:32] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/3b/a3/71521fe889c007eac8e5c6cbf98b2024bb0b7e40412454fc8a5586d80c84/knifes-0.8.86.tar.gz
+[2023-07-30 07:52:32] INFO root fetch - processPackages [rl-warp-drive]: Downloading https://files.pythonhosted.org/packages/2b/bd/1d68f08f65febf79a55c7cf6f2aa2482e2633f1721d8310e57442479bb58/rl-warp-drive-2.4.tar.gz
+[2023-07-30 07:52:32] WARNING root fetch - processPackages [rl-warp-drive]: Skipping package: exceeds size limit 11750516>=10485760
+[2023-07-30 07:52:32] INFO root fetch - main [MainThread]: End processing [rl-warp-drive] error
+[2023-07-30 07:52:32] INFO root fetch - processPackages [fastapi-gen]: Downloading https://files.pythonhosted.org/packages/a5/b5/b1a8116bd50d3324281fbe9c259bc7cdc4ae383a18f0b0838a94810d5d1e/fastapi_gen-0.1.1.tar.gz
+[2023-07-30 07:52:32] INFO root fetch - processPackages [fastapi-gen]: executing diffoscope
+[2023-07-30 07:52:32] INFO root fetch - processPackages [fastapi-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_gen-0.1.0.tar.gz tmp/fastapi_gen-0.1.1.tar.gz --markdown 20230730/f/fastapi-gen/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 07:52:32] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-07-30 07:52:32] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-07-30 07:52:32] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.86.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230730/k/knifes/0.8.86-0.8.9/diff.md --exclude *.pyd
+[2023-07-30 07:52:33] INFO root fetch - processPackages [fastapi-gen]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_gen-0.1.0.tar.gz]
+[2023-07-30 07:52:33] INFO root fetch - processPackages [fastapi-gen]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_gen-0.1.1.tar.gz]
+[2023-07-30 07:52:33] INFO root fetch - main [MainThread]: End processing [fastapi-gen]: success
+[2023-07-30 07:52:33] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.86.tar.gz]
+[2023-07-30 07:52:33] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-07-30 07:52:33] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-07-30 07:52:33] INFO root fetch - main [MainThread]: Store serial: [19094148]
