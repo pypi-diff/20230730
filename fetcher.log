@@ -10146,3 +10146,105 @@
 [2023-07-30 15:14:42] INFO root fetch - processPackages [nmma]: Remove: archive file [/home/abi/fetcher/tmp/nmma-0.0.9.tar.gz]
 [2023-07-30 15:14:42] INFO root fetch - main [MainThread]: End processing [nmma]: success
 [2023-07-30 15:14:42] INFO root fetch - main [MainThread]: Store serial: [19096430]
+[2023-07-30 15:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096430]
+[2023-07-30 15:19:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circt
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-apl
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-nano
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-llm
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trufle
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-chronos
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-serving
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stadiamaps
+[2023-07-30 15:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcicutils
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 15:19:53] WARNING root fetch - processPackages [trufle]: Skipping, unable to determine old version
+[2023-07-30 15:19:53] INFO root fetch - processPackages [trufle]: Start processing: bridgeapi
+[2023-07-30 15:19:53] INFO root fetch - main [MainThread]: End processing [trufle] error
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [stadiamaps]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [circt]: New version: [1.48.1.dev91] Old Version: [1.48.1.dev80]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [dcicutils]: New version: [7.6.0.2b8] Old Version: [7.6.0.2b7]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.926] Old Version: [0.0.925]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bridgeapi]: New version: [1.1.0] Old Version: [1.0.0b2]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/12/5a/f86b7e1f29fdba4eda22ee9bb61a74a8a34c6b0312e4b1e943698dbdfc0f/bigdl_llm-2.4.0b20230729-py3-none-win_amd64.whl
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/14/20/faec498c2b9624ae320b70d5ca2fa2ab69dba0c8f7b975934164f87c6e43/nbdev-apl-0.0.925.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/14/4e/e6414656d32d268c0a62ef67eb5028431c577d13d3d58cc36ef1357b231d/stadiamaps-1.0.6.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/6c/8a/70d3ae06c854b523f0c5bcccc081476f3cf02abf0fe174b87de43313da4b/bigdl_chronos-2.4.0b20230729-py3-none-win_amd64.whl
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bridgeapi]: Downloading https://files.pythonhosted.org/packages/8c/30/d55cf5f2ba4a7a55164729e4c3070390670a652b9687c0e2806c383186fe/bridgeapi-1.0.0b2.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/5d/dc/ef15d88bfe1cc5d95d6c232f1e82b0a48d3da6b5087e2b889e74cdf0de1a/bigdl_serving-2.4.0b20230729-py2.py3-none-any.whl
+[2023-07-30 15:19:53] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-30 15:19:53] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.48.1.dev80-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.1.dev91-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230730/c/circt/1.48.1.dev80-1.48.1.dev91/diff.md --exclude *.pyd
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/9c/dd/5121e642b6661b38ee7817f99327bab1c1ba1dbf13ea9bd1375e31c81c7c/bigdl_nano-2.4.0b20230729-py3-none-win_amd64.whl
+[2023-07-30 15:19:53] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/6a/87/0c9a1fc86082d1d748d87a6ec1b625e51d42683804da88eba3e8c41b8ebd/dcicutils-7.6.0.2b7.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/af/f7/2b51cd4ec05bfe10014c8e91e92ea9a404bd7eb92912d5e704a335fcce24/nbdev-apl-0.0.926.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-30 15:19:53] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230730/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bridgeapi]: Downloading https://files.pythonhosted.org/packages/0c/f6/f636e4763fecb46d67fa140acb8b51e897626a83b1098e9a2814ace9e7e2/bridgeapi-1.1.0.tar.gz
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/57/fc/a80f86059d14ddf6ce84c94c0787ed29e83240bb800e23032ebd145505ef/bigdl_serving-2.4.0b20230730-py2.py3-none-any.whl
+[2023-07-30 15:19:53] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/33/62/fdf8758c2633969f248653a67298a22a05e88242134d8191396bd707429a/bigdl_llm-2.4.0b20230730-py3-none-win_amd64.whl
+[2023-07-30 15:19:53] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/31/52/13c8ccfc95e16044d2e8a6706bbe054d6839f1c9b1c5fe9bf1f8df3fff9d/stadiamaps-1.0.7.tar.gz
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/19/26/ff0a2167416bdff7c8c2833eed9abc3176ced9febb06341852364e0926f3/bigdl_chronos-2.4.0b20230730-py3-none-win_amd64.whl
+[2023-07-30 15:19:54] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/d4/b6/8e0fd78213744ba9b19c6351b7bb85f26873439673e1bdc57616ad1fb21a/dcicutils-7.6.0.2b8.tar.gz
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bridgeapi]: executing diffoscope
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bridgeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeapi-1.0.0b2.tar.gz tmp/bridgeapi-1.1.0.tar.gz --markdown 20230730/b/bridgeapi/1.0.0b2-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 15:19:54] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-30 15:19:54] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.925.tar.gz tmp/nbdev-apl-0.0.926.tar.gz --markdown 20230730/n/nbdev-apl/0.0.925-0.0.926/diff.md --exclude *.pyd
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230729-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230730-py2.py3-none-any.whl.zip --markdown 20230730/b/bigdl-serving/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:19:54] INFO root fetch - processPackages [stadiamaps]: executing diffoscope
+[2023-07-30 15:19:54] INFO root fetch - processPackages [stadiamaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadiamaps-1.0.6.tar.gz tmp/stadiamaps-1.0.7.tar.gz --markdown 20230730/s/stadiamaps/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-30 15:19:54] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-07-30 15:19:54] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.6.0.2b7.tar.gz tmp/dcicutils-7.6.0.2b8.tar.gz --markdown 20230730/d/dcicutils/7.6.0.2b7-7.6.0.2b8/diff.md --exclude *.pyd
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/50/ee/731ea3f491bec31a1e3d642c756c0fd1f7f9e71a6d88633157d599f42773/bigdl_nano-2.4.0b20230730-py3-none-win_amd64.whl
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230729-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230730-py3-none-win_amd64.whl.zip --markdown 20230730/b/bigdl-chronos/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-30 15:19:54] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230729-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230730-py3-none-win_amd64.whl.zip --markdown 20230730/b/bigdl-llm/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:19:55] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-30 15:19:55] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230729-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230730-py3-none-win_amd64.whl.zip --markdown 20230730/b/bigdl-nano/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:19:55] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - processPackages [nbdev-django]: Start processing: wbBase
+[2023-07-30 15:19:55] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-30 15:19:55] INFO root fetch - processPackages [wbBase]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-30 15:19:55] INFO root fetch - processPackages [wbBase]: Downloading https://files.pythonhosted.org/packages/50/7c/f246a1c464e1f51c4c60f18340e4aa726d31dbc262d0522f273968f1fcdc/wbBase-0.2.2.tar.gz
+[2023-07-30 15:19:55] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230729-py2.py3-none-any.whl.zip]
+[2023-07-30 15:19:55] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230730-py2.py3-none-any.whl.zip]
+[2023-07-30 15:19:55] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-30 15:19:55] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.925.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.926.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-30 15:19:55] INFO root fetch - processPackages [bridgeapi]: Remove: archive file [/home/abi/fetcher/tmp/bridgeapi-1.0.0b2.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - processPackages [bridgeapi]: Remove: archive file [/home/abi/fetcher/tmp/bridgeapi-1.1.0.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - main [MainThread]: End processing [bridgeapi]: success
+[2023-07-30 15:19:55] INFO root fetch - processPackages [wbBase]: Downloading https://files.pythonhosted.org/packages/04/e8/e0fb49bdea909d07277cf80388a806e9f52612e1501e0fa5ba7b851e19e1/wbBase-0.2.3.tar.gz
+[2023-07-30 15:19:55] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.2b7.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.2b8.tar.gz]
+[2023-07-30 15:19:55] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-07-30 15:19:56] INFO root fetch - processPackages [wbBase]: executing diffoscope
+[2023-07-30 15:19:56] INFO root fetch - processPackages [wbBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbBase-0.2.2.tar.gz tmp/wbBase-0.2.3.tar.gz --markdown 20230730/w/wbBase/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-30 15:19:56] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230729-py3-none-win_amd64.whl.zip]
+[2023-07-30 15:19:56] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230730-py3-none-win_amd64.whl.zip]
+[2023-07-30 15:19:56] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-30 15:19:57] INFO root fetch - processPackages [wbBase]: Remove: archive file [/home/abi/fetcher/tmp/wbBase-0.2.2.tar.gz]
+[2023-07-30 15:19:57] INFO root fetch - processPackages [wbBase]: Remove: archive file [/home/abi/fetcher/tmp/wbBase-0.2.3.tar.gz]
+[2023-07-30 15:19:57] INFO root fetch - main [MainThread]: End processing [wbBase]: success
+[2023-07-30 15:19:57] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.6.tar.gz]
+[2023-07-30 15:19:57] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.7.tar.gz]
+[2023-07-30 15:19:57] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
+[2023-07-30 15:19:57] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230729-py3-none-win_amd64.whl.zip]
+[2023-07-30 15:19:57] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230730-py3-none-win_amd64.whl.zip]
+[2023-07-30 15:19:57] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-30 15:20:08] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230729-py3-none-win_amd64.whl.zip]
+[2023-07-30 15:20:08] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230730-py3-none-win_amd64.whl.zip]
+[2023-07-30 15:20:08] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-30 15:22:53] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-07-30 15:22:53] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-07-30 15:22:53] INFO root fetch - main [MainThread]: Store serial: [19096470]
