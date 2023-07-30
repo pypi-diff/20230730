@@ -4608,3 +4608,54 @@
 [2023-07-30 07:00:39] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
 [2023-07-30 07:00:39] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-07-30 07:00:39] INFO root fetch - main [MainThread]: Store serial: [19093901]
+[2023-07-30 07:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093901]
+[2023-07-30 07:05:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 07:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2023-07-30 07:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioclaude-api
+[2023-07-30 07:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kobo-md
+[2023-07-30 07:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kobo-md
+[2023-07-30 07:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moptipy
+[2023-07-30 07:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-07-30 07:05:47] INFO root fetch - processPackages [aioclaude-api]: New version: [1.0.15] Old Version: [1.0.14]
+[2023-07-30 07:05:47] INFO root fetch - processPackages [kobo-md]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-30 07:05:47] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230730] Old Version: [0.1.1.dev20230729]
+[2023-07-30 07:05:47] INFO root fetch - processPackages [kobo-md]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-30 07:05:47] INFO root fetch - processPackages [NikGapps]: New version: [1.70] Old Version: [1.69]
+[2023-07-30 07:05:47] INFO root fetch - processPackages [moptipy]: New version: [0.9.91] Old Version: [0.9.90]
+[2023-07-30 07:05:47] INFO root fetch - processPackages [aioclaude-api]: Downloading https://files.pythonhosted.org/packages/f6/0a/557b8753765f08ea1e146982b74b8b87aaad55bdd2825f6a7c8576e07206/aioclaude-api-1.0.14.tar.gz
+[2023-07-30 07:05:47] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/2b/9e/cb02a66418dea42a6aabfaa378af1a7cef11d63fd8bf8deb036f17533952/rapid_pe-0.1.1.dev20230729.tar.gz
+[2023-07-30 07:05:47] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/ce/8b/e1fd68f79e5be5d4441c55e4722075bb4d9d2dd1059e76a3f770db00e915/kobo_md-0.1.6-py3.11.egg
+[2023-07-30 07:05:48] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/ce/8b/e1fd68f79e5be5d4441c55e4722075bb4d9d2dd1059e76a3f770db00e915/kobo_md-0.1.6-py3.11.egg
+[2023-07-30 07:05:48] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/78/0b/cf42fa7e969642c56da252d1fa1f8dfb52546398b10279f552f942bac56e/NikGapps-1.69.tar.gz
+[2023-07-30 07:05:48] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41566429>=10485760
+[2023-07-30 07:05:48] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-30 07:05:48] INFO root fetch - processPackages [aioclaude-api]: Downloading https://files.pythonhosted.org/packages/34/59/fc40bc78ac17e0ca82a02381de9df3280f96dff7924c6391e76a52751ff0/aioclaude-api-1.0.15.tar.gz
+[2023-07-30 07:05:48] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/00/e4/9ca7fc68c27590ecab5dff76b9f51ed4ea7f2ad0702c1462a84c66b6f60d/moptipy-0.9.90.tar.gz
+[2023-07-30 07:05:48] INFO root fetch - processPackages [aioclaude-api]: executing diffoscope
+[2023-07-30 07:05:48] INFO root fetch - processPackages [aioclaude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioclaude-api-1.0.14.tar.gz tmp/aioclaude-api-1.0.15.tar.gz --markdown 20230730/a/aioclaude-api/1.0.14-1.0.15/diff.md --exclude *.pyd
+[2023-07-30 07:05:48] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/61/4c/261684d6142349e4c618d10769ec0d007dbae9f317d841f12a87f61198f0/rapid_pe-0.1.1.dev20230730.tar.gz
+[2023-07-30 07:05:48] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/4d/71/70a68737c0bdbf5b4cd2c42b2594cb58f782eeb6262a3f72601bf7ebb55f/kobo-md-0.1.7.tar.gz
+[2023-07-30 07:05:48] INFO root fetch - processPackages [kobo-md]: Downloading https://files.pythonhosted.org/packages/4d/71/70a68737c0bdbf5b4cd2c42b2594cb58f782eeb6262a3f72601bf7ebb55f/kobo-md-0.1.7.tar.gz
+[2023-07-30 07:05:48] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-30 07:05:48] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230729.tar.gz tmp/rapid_pe-0.1.1.dev20230730.tar.gz --markdown 20230730/r/rapid-pe/0.1.1.dev20230729-0.1.1.dev20230730/diff.md --exclude *.pyd
+[2023-07-30 07:05:48] INFO root fetch - processPackages [kobo-md]: executing diffoscope
+[2023-07-30 07:05:48] INFO root fetch - processPackages [kobo-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo_md-0.1.6-py3.11.egg tmp/kobo-md-0.1.7.tar.gz --markdown 20230730/k/kobo-md/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-30 07:05:48] INFO root fetch - processPackages [kobo-md]: executing diffoscope
+[2023-07-30 07:05:48] INFO root fetch - processPackages [kobo-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo_md-0.1.6-py3.11.egg tmp/kobo-md-0.1.7.tar.gz --markdown 20230730/k/kobo-md/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-30 07:05:48] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/cf/6e215c96f7a333f07353dab4c3455f565d6f69b7d606778ef5546c1e622c/moptipy-0.9.91.tar.gz
+[2023-07-30 07:05:48] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-30 07:05:48] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.90.tar.gz tmp/moptipy-0.9.91.tar.gz --markdown 20230730/m/moptipy/0.9.90-0.9.91/diff.md --exclude *.pyd
+[2023-07-30 07:05:49] INFO root fetch - processPackages [aioclaude-api]: Remove: archive file [/home/abi/fetcher/tmp/aioclaude-api-1.0.14.tar.gz]
+[2023-07-30 07:05:49] INFO root fetch - processPackages [aioclaude-api]: Remove: archive file [/home/abi/fetcher/tmp/aioclaude-api-1.0.15.tar.gz]
+[2023-07-30 07:05:49] INFO root fetch - main [MainThread]: End processing [aioclaude-api]: success
+[2023-07-30 07:05:49] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo_md-0.1.6-py3.11.egg]
+[2023-07-30 07:05:49] INFO root fetch - processPackages [kobo-md]: Remove: archive file [/home/abi/fetcher/tmp/kobo-md-0.1.7.tar.gz]
+[2023-07-30 07:05:49] INFO root fetch - main [MainThread]: End processing [kobo-md]: success
+[2023-07-30 07:05:49] INFO root fetch - main [MainThread]: End processing [kobo-md]: success
+[2023-07-30 07:05:49] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230729.tar.gz]
+[2023-07-30 07:05:49] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230730.tar.gz]
+[2023-07-30 07:05:49] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-30 07:05:50] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.90.tar.gz]
+[2023-07-30 07:05:50] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.91.tar.gz]
+[2023-07-30 07:05:50] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-30 07:05:50] INFO root fetch - main [MainThread]: Store serial: [19093918]
