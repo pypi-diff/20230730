@@ -2887,3 +2887,60 @@
 [2023-07-30 04:12:34] INFO root fetch - processPackages [sos-notebook]: Remove: archive file [/home/abi/fetcher/tmp/sos-notebook-0.9.9.8.tar.gz]
 [2023-07-30 04:12:34] INFO root fetch - main [MainThread]: End processing [sos-notebook]: success
 [2023-07-30 04:12:34] INFO root fetch - main [MainThread]: Store serial: [19093214]
+[2023-07-30 04:17:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093214]
+[2023-07-30 04:17:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ns-asphalt9
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-mermaid
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-library-objects
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langroid
+[2023-07-30 04:17:42] INFO root fetch - processPackages [pydantic-mermaid]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-30 04:17:42] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-30 04:17:42] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-30 04:17:42] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.98] Old Version: [1.0.97]
+[2023-07-30 04:17:42] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/f9/22/3852578596ed779583cdfe2e4678ec1a4753e55fcb329abb2f5c157eb9ad/ns_asphalt9-0.2.0.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 04:17:43] INFO root fetch - processPackages [pydantic-mermaid]: Downloading https://files.pythonhosted.org/packages/bd/f3/07b004f12d62d146d0f9badb78e826478d54fad90bb152b500fadf019c92/pydantic-mermaid-0.2.0.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/8e/d9/51bafa85d8e1af14660fd8e49fc42676ef847f0971aa797e4d741b6ef5b4/seven_cloudapp_frame-1.0.97.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/9f/45/f72f075d39ab70e257c7987ea827080c5851b510dd3f540bd33a3924af99/ns_asphalt9-0.2.1.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-30 04:17:43] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230730/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-30 04:17:43] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-30 04:17:43] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230730/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-30 04:17:43] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-30 04:17:43] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.2.0.tar.gz tmp/ns_asphalt9-0.2.1.tar.gz --markdown 20230730/n/ns-asphalt9/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 04:17:43] INFO root fetch - processPackages [pydantic-mermaid]: Downloading https://files.pythonhosted.org/packages/79/d4/21d23a99f5cbdb7c753042c9e683c47d010144a476a1dc142422d98e560f/pydantic-mermaid-0.3.0.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/9a/20/c80a711561939c2767fb78449f1eadee325cb963fe364d7416a7eeb49606/seven_cloudapp_frame-1.0.98.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [pydantic-mermaid]: executing diffoscope
+[2023-07-30 04:17:43] INFO root fetch - processPackages [pydantic-mermaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-mermaid-0.2.0.tar.gz tmp/pydantic-mermaid-0.3.0.tar.gz --markdown 20230730/p/pydantic-mermaid/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 04:17:43] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-30 04:17:43] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.97.tar.gz tmp/seven_cloudapp_frame-1.0.98.tar.gz --markdown 20230730/s/seven-cloudapp-frame/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2023-07-30 04:17:43] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-30 04:17:43] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-30 04:17:43] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230730/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 04:17:44] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.2.0.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.2.1.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-30 04:17:44] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-30 04:17:44] INFO root fetch - processPackages [pydantic-mermaid]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-mermaid-0.2.0.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - processPackages [pydantic-mermaid]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-mermaid-0.3.0.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - main [MainThread]: End processing [pydantic-mermaid]: success
+[2023-07-30 04:17:44] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-30 04:17:44] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-30 04:17:45] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-30 04:17:45] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-30 04:17:45] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-30 04:17:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.97.tar.gz]
+[2023-07-30 04:17:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.98.tar.gz]
+[2023-07-30 04:17:46] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-30 04:17:46] INFO root fetch - main [MainThread]: Store serial: [19093232]
