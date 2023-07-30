@@ -13512,3 +13512,76 @@
 [2023-07-30 19:17:02] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
 [2023-07-30 19:17:02] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
 [2023-07-30 19:17:02] INFO root fetch - main [MainThread]: Store serial: [19097977]
+[2023-07-30 19:22:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097977]
+[2023-07-30 19:22:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapli-cfg
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datapipe-core
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapli-replay
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nornir-scrapli
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchaug
+[2023-07-30 19:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gammarer.aws-secure-bucket
+[2023-07-30 19:22:10] INFO root fetch - processPackages [datapipe-core]: New version: [0.13.0a7] Old Version: [0.13.0a6]
+[2023-07-30 19:22:10] INFO root fetch - processPackages [scrapli-replay]: New version: [2023.7.30] Old Version: [2023.1.30.post1]
+[2023-07-30 19:22:10] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-30 19:22:10] INFO root fetch - processPackages [scrapli-cfg]: New version: [2023.7.30] Old Version: [2023.1.30]
+[2023-07-30 19:22:10] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-30 19:22:11] INFO root fetch - processPackages [torchaug]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 19:22:11] INFO root fetch - processPackages [nornir-scrapli]: New version: [2023.7.30] Old Version: [2023.1.30.post1]
+[2023-07-30 19:22:11] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/e5/38/5b420860f93794e18802eacf479e833a4db9e09459fe2a4186487210f680/gammarer.aws-secure-bucket-0.9.8.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/e8/55/009968b900475c4409b42fa0c8c451892a7428282ebc770fff94b2c8284c/datapipe_core-0.13.0a6.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-cfg]: Downloading https://files.pythonhosted.org/packages/19/21/48ec38f17b59a7672dfbf89a43623f1ec688f8401cebbf84d656698b116f/scrapli_cfg-2023.1.30.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-replay]: Downloading https://files.pythonhosted.org/packages/31/93/82777e489d8110d05169fef626e38775ac7af16497ce259644bbc0fb304f/scrapli_replay-2023.1.30.post1.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [torchaug]: Downloading https://files.pythonhosted.org/packages/63/1f/0c61bb048a01608e7ab8194c1dba5273c7e4efbcac07ad7ad76813d811b9/torchaug-0.2.1.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/36/90/e611ddc1c76866489b8236c7bc76c65f47dd2d74abf84c84dc89478cee6c/gammarer.aws-secure-bucket-0.9.9.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [nornir-scrapli]: Downloading https://files.pythonhosted.org/packages/4e/bc/85f23f8da920fc1a142d10af201007ed3bb53c49a26871020d3b9ff6480e/nornir_scrapli-2023.1.30.post1.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/02/57/51f268e6a689efbd8ecd5f6795e7ad68255a1ea617afa9c02ebc682e1be7/datapipe_core-0.13.0a7.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-cfg]: Downloading https://files.pythonhosted.org/packages/b4/bc/ab9c54fbbf197c7cf58488cab9cee02bdaef505191f893534e3dec200b12/scrapli_cfg-2023.7.30.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2023-07-30 19:22:11] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz --markdown 20230730/g/gammarer.aws-secure-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230730/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-30 19:22:11] INFO root fetch - processPackages [datapipe-core]: executing diffoscope
+[2023-07-30 19:22:11] INFO root fetch - processPackages [datapipe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapipe_core-0.13.0a6.tar.gz tmp/datapipe_core-0.13.0a7.tar.gz --markdown 20230730/d/datapipe-core/0.13.0a6-0.13.0a7/diff.md --exclude *.pyd
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-30 19:22:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230730/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-30 19:22:11] INFO root fetch - processPackages [torchaug]: Downloading https://files.pythonhosted.org/packages/5e/74/b201a22288d4a4d4f1884fa2762429e156c79796f8258ce103a5402641b6/torchaug-0.2.2.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-replay]: Downloading https://files.pythonhosted.org/packages/c4/0b/5b7fc95c193b91cf57c44d907176eab7981abee807b92e0c55ac2756dda8/scrapli_replay-2023.7.30.tar.gz
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-cfg]: executing diffoscope
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-cfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapli_cfg-2023.1.30.tar.gz tmp/scrapli_cfg-2023.7.30.tar.gz --markdown 20230730/s/scrapli-cfg/2023.1.30-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 19:22:11] INFO root fetch - processPackages [torchaug]: executing diffoscope
+[2023-07-30 19:22:11] INFO root fetch - processPackages [torchaug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchaug-0.2.1.tar.gz tmp/torchaug-0.2.2.tar.gz --markdown 20230730/t/torchaug/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-replay]: executing diffoscope
+[2023-07-30 19:22:11] INFO root fetch - processPackages [scrapli-replay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapli_replay-2023.1.30.post1.tar.gz tmp/scrapli_replay-2023.7.30.tar.gz --markdown 20230730/s/scrapli-replay/2023.1.30.post1-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 19:22:11] INFO root fetch - processPackages [nornir-scrapli]: Downloading https://files.pythonhosted.org/packages/ce/25/df925dc3faeb2843a13a4f131de560046bf130c2ab37a6197b1a10857f53/nornir_scrapli-2023.7.30.tar.gz
+[2023-07-30 19:22:12] INFO root fetch - processPackages [nornir-scrapli]: executing diffoscope
+[2023-07-30 19:22:12] INFO root fetch - processPackages [nornir-scrapli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_scrapli-2023.1.30.post1.tar.gz tmp/nornir_scrapli-2023.7.30.tar.gz --markdown 20230730/n/nornir-scrapli/2023.1.30.post1-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 19:22:12] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz]
+[2023-07-30 19:22:12] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz]
+[2023-07-30 19:22:12] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2023-07-30 19:22:13] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-30 19:22:13] INFO root fetch - processPackages [torchaug]: Remove: archive file [/home/abi/fetcher/tmp/torchaug-0.2.1.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - processPackages [torchaug]: Remove: archive file [/home/abi/fetcher/tmp/torchaug-0.2.2.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: End processing [torchaug]: success
+[2023-07-30 19:22:13] INFO root fetch - processPackages [scrapli-cfg]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_cfg-2023.1.30.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - processPackages [scrapli-cfg]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_cfg-2023.7.30.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: End processing [scrapli-cfg]: success
+[2023-07-30 19:22:13] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0a6.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0a7.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: End processing [datapipe-core]: success
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-30 19:22:13] INFO root fetch - processPackages [nornir-scrapli]: Remove: archive file [/home/abi/fetcher/tmp/nornir_scrapli-2023.1.30.post1.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - processPackages [nornir-scrapli]: Remove: archive file [/home/abi/fetcher/tmp/nornir_scrapli-2023.7.30.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: End processing [nornir-scrapli]: success
+[2023-07-30 19:22:13] INFO root fetch - processPackages [scrapli-replay]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_replay-2023.1.30.post1.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - processPackages [scrapli-replay]: Remove: archive file [/home/abi/fetcher/tmp/scrapli_replay-2023.7.30.tar.gz]
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: End processing [scrapli-replay]: success
+[2023-07-30 19:22:13] INFO root fetch - main [MainThread]: Store serial: [19098004]
