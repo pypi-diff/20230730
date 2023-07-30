@@ -16316,3 +16316,15 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:54:45] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.9.tar.gz]
 [2023-07-30 22:54:45] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
 [2023-07-30 22:54:45] INFO root fetch - main [MainThread]: Store serial: [19099343]
+[2023-07-30 22:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099343]
+[2023-07-30 22:59:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-30 22:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flota-app
+[2023-07-30 22:59:53] INFO root fetch - processPackages [flota-app]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 22:59:53] INFO root fetch - processPackages [flota-app]: Downloading https://files.pythonhosted.org/packages/1a/91/bff57f01f475a4cd0fe9da25925027ed01f12be267fe6da4e16cf7bca74e/flota_app-0.1.1.tar.gz
+[2023-07-30 22:59:54] INFO root fetch - processPackages [flota-app]: Downloading https://files.pythonhosted.org/packages/fd/95/1ebfb7650c7178203e04a1604fd60541bec95e9364e2417fa51239c3f7ca/flota_app-0.1.2.tar.gz
+[2023-07-30 22:59:54] INFO root fetch - processPackages [flota-app]: executing diffoscope
+[2023-07-30 22:59:54] INFO root fetch - processPackages [flota-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flota_app-0.1.1.tar.gz tmp/flota_app-0.1.2.tar.gz --markdown 20230730/f/flota-app/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 22:59:55] INFO root fetch - processPackages [flota-app]: Remove: archive file [/home/abi/fetcher/tmp/flota_app-0.1.1.tar.gz]
+[2023-07-30 22:59:55] INFO root fetch - processPackages [flota-app]: Remove: archive file [/home/abi/fetcher/tmp/flota_app-0.1.2.tar.gz]
+[2023-07-30 22:59:55] INFO root fetch - main [MainThread]: End processing [flota-app]: success
+[2023-07-30 22:59:55] INFO root fetch - main [MainThread]: Store serial: [19099348]
