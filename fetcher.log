@@ -7780,3 +7780,72 @@
 [2023-07-30 12:00:40] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.5.tar.gz]
 [2023-07-30 12:00:40] INFO root fetch - main [MainThread]: End processing [lino-react]: success
 [2023-07-30 12:00:40] INFO root fetch - main [MainThread]: Store serial: [19095311]
+[2023-07-30 12:05:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095311]
+[2023-07-30 12:05:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretix-sumup
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiopvpc
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-reverb-nightly
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spyx
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OneOnOne
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faucetconfrpc
+[2023-07-30 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sifer
+[2023-07-30 12:05:48] INFO root fetch - processPackages [pretix-sumup]: New version: [1.0.3a0] Old Version: [1.0.3]
+[2023-07-30 12:05:48] INFO root fetch - processPackages [OneOnOne]: New version: [0.707] Old Version: [0.706]
+[2023-07-30 12:05:48] INFO root fetch - processPackages [aiopvpc]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-30 12:05:48] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 12:05:48] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.4.dev1] Old Version: [2.0.3]
+[2023-07-30 12:05:48] INFO root fetch - processPackages [faucetconfrpc]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 12:05:48] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-30 12:05:49] WARNING root fetch - processPackages [sifer]: Skipping, unable to determine old version
+[2023-07-30 12:05:49] INFO root fetch - main [MainThread]: End processing [sifer] error
+[2023-07-30 12:05:49] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/77/a2/fb651d6cc439917bb8f7ee88b0b9eade87e23b984a714e3259d976fc59a1/OneOnOne-0.706.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/bc/35/7ed78903d6cba7e44cabe58b5edc04992e171847b4a033ac055c461300ad/pretix-sumup-1.0.3.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-30 12:05:49] INFO root fetch - processPackages [aiopvpc]: Downloading https://files.pythonhosted.org/packages/d7/01/2adf82126a6910949f4a51d6d8ace384de60c916bc9e114e8c9fdc8dd6d2/aiopvpc-4.2.1.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [faucetconfrpc]: Downloading https://files.pythonhosted.org/packages/04/ab/9211c7bc1a14ae84b63427b94b9eff1fa292cf14afa607f6264bd6631dbf/faucetconfrpc-0.8.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/d4/97/50d87fbc56a2b720b079d3bf5ec71dccaeec7ddddd72958808f399645453/yetl-framework-2.0.3.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/14/96/b20ce1646703f347d04f60e3e40a6f4939bdff63fcbaf922e2736e5038dd/pretix-sumup-1.0.3a0.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-07-30 12:05:49] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230730/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 12:05:49] INFO root fetch - processPackages [aiopvpc]: Downloading https://files.pythonhosted.org/packages/ea/c8/42660e2ab680a949d5c9497b438c821979e8209914648c96bcce9856c051/aiopvpc-4.2.2.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/7b/03/05341d35791f57dd4083318d848c863ed7f0c9391d3285418abf6664bd09/OneOnOne-0.707.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [faucetconfrpc]: Downloading https://files.pythonhosted.org/packages/65/6c/3d6a93f305a4a5dd20e2ec3b3ff84c4af817bb3de6b7f4de59eaf6342e35/faucetconfrpc-0.9.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [aiopvpc]: executing diffoscope
+[2023-07-30 12:05:49] INFO root fetch - processPackages [aiopvpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopvpc-4.2.1.tar.gz tmp/aiopvpc-4.2.2.tar.gz --markdown 20230730/a/aiopvpc/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-07-30 12:05:49] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/46/7e/c9758c504562e86a217a9049c5dc3a093cccb5317d499a882a2a3e71fcff/yetl-framework-2.0.4.dev1.tar.gz
+[2023-07-30 12:05:49] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-30 12:05:49] INFO root fetch - processPackages [pretix-sumup]: executing diffoscope
+[2023-07-30 12:05:49] INFO root fetch - processPackages [pretix-sumup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-sumup-1.0.3.tar.gz tmp/pretix-sumup-1.0.3a0.tar.gz --markdown 20230730/p/pretix-sumup/1.0.3-1.0.3a0/diff.md --exclude *.pyd
+[2023-07-30 12:05:49] INFO root fetch - processPackages [faucetconfrpc]: executing diffoscope
+[2023-07-30 12:05:49] INFO root fetch - processPackages [faucetconfrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faucetconfrpc-0.8.tar.gz tmp/faucetconfrpc-0.9.tar.gz --markdown 20230730/f/faucetconfrpc/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 12:05:49] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-30 12:05:49] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.3.tar.gz tmp/yetl-framework-2.0.4.dev1.tar.gz --markdown 20230730/y/yetl-framework/2.0.3-2.0.4.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:05:50] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 12:05:50] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.706.tar.gz tmp/OneOnOne-0.707.tar.gz --markdown 20230730/O/OneOnOne/0.706-0.707/diff.md --exclude *.pyd
+[2023-07-30 12:05:50] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-07-30 12:05:50] INFO root fetch - processPackages [aiopvpc]: Remove: archive file [/home/abi/fetcher/tmp/aiopvpc-4.2.1.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - processPackages [aiopvpc]: Remove: archive file [/home/abi/fetcher/tmp/aiopvpc-4.2.2.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - main [MainThread]: End processing [aiopvpc]: success
+[2023-07-30 12:05:50] INFO root fetch - processPackages [faucetconfrpc]: Remove: archive file [/home/abi/fetcher/tmp/faucetconfrpc-0.8.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - processPackages [faucetconfrpc]: Remove: archive file [/home/abi/fetcher/tmp/faucetconfrpc-0.9.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - main [MainThread]: End processing [faucetconfrpc]: success
+[2023-07-30 12:05:50] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.3.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.3a0.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - main [MainThread]: End processing [pretix-sumup]: success
+[2023-07-30 12:05:50] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.3.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.4.dev1.tar.gz]
+[2023-07-30 12:05:50] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-30 12:05:50] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-30 12:05:50] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230730/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-30 12:05:51] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.706.tar.gz]
+[2023-07-30 12:05:51] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.707.tar.gz]
+[2023-07-30 12:05:51] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 12:06:23] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-30 12:06:23] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-30 12:06:23] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-30 12:06:23] INFO root fetch - main [MainThread]: Store serial: [19095336]
