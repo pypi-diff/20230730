@@ -13251,3 +13251,55 @@
 [2023-07-30 18:50:45] INFO root fetch - processPackages [MACS3]: Remove: archive file [/home/abi/fetcher/tmp/MACS3-3.0.0b3.tar.gz]
 [2023-07-30 18:50:45] INFO root fetch - main [MainThread]: End processing [MACS3]: success
 [2023-07-30 18:50:45] INFO root fetch - main [MainThread]: Store serial: [19097859]
+[2023-07-30 18:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097859]
+[2023-07-30 18:55:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdcomp
+[2023-07-30 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TSolLum
+[2023-07-30 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlx-exec
+[2023-07-30 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-hub
+[2023-07-30 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-30 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gwemopt
+[2023-07-30 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapli
+[2023-07-30 18:55:54] INFO root fetch - processPackages [sqlx-exec]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-30 18:55:54] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 18:55:54] INFO root fetch - processPackages [cmdcomp]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-30 18:55:54] WARNING root fetch - processPackages [TSolLum]: Skipping, unable to determine old version
+[2023-07-30 18:55:54] INFO root fetch - main [MainThread]: End processing [TSolLum] error
+[2023-07-30 18:55:54] INFO root fetch - processPackages [gwemopt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-30 18:55:54] INFO root fetch - processPackages [llama-hub]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 18:55:54] INFO root fetch - processPackages [scrapli]: New version: [2023.7.30] Old Version: [2023.1.30]
+[2023-07-30 18:55:54] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/52/12/380caa8de176216ede9872aaaaa2017c3c7952faa4a8595892f67607b902/sqlx-exec-1.4.0.tar.gz
+[2023-07-30 18:55:54] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/12/87/8f707a8283b4c6b8e0cb97921b090dd6654ac19d2d2dbf85b277dbf5471a/cmdcomp-2.0.0.tar.gz
+[2023-07-30 18:55:54] INFO root fetch - processPackages [gwemopt]: Downloading https://files.pythonhosted.org/packages/d3/28/209079daed3feef6dffb1af1179f3fb5009e9105b49187d8ddd0d9daa0d4/gwemopt-0.1.5.tar.gz
+[2023-07-30 18:55:54] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-30 18:55:54] WARNING root fetch - processPackages [gwemopt]: Skipping package: exceeds size limit 113238152>=10485760
+[2023-07-30 18:55:54] INFO root fetch - main [MainThread]: End processing [gwemopt] error
+[2023-07-30 18:55:54] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/f1/8b/b9694e693e40532b5b2701f63af194df1337a5a7c1cf375a2dee8a79d0be/llama_hub-0.0.8.tar.gz
+[2023-07-30 18:55:54] INFO root fetch - processPackages [scrapli]: Downloading https://files.pythonhosted.org/packages/97/d3/489fdab2e8a27d50761bd6d3d6de5ae1aa8f104297140caab2140f2d5ae0/scrapli-2023.1.30.tar.gz
+[2023-07-30 18:55:54] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-30 18:55:54] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-30 18:55:54] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/c0/6c/809908aefcfca39dcc8f9cf71e5a10fe2c106e9fe754e3081953c1d47327/cmdcomp-2.0.1.tar.gz
+[2023-07-30 18:55:54] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/82/fb/c595cc39b1f7711a752340a8f58b7f3dbf370359ad9c89e6c40eed1bf9fd/sqlx-exec-1.4.1.tar.gz
+[2023-07-30 18:55:54] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-07-30 18:55:54] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-2.0.0.tar.gz tmp/cmdcomp-2.0.1.tar.gz --markdown 20230730/c/cmdcomp/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-30 18:55:54] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-30 18:55:54] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.4.0.tar.gz tmp/sqlx-exec-1.4.1.tar.gz --markdown 20230730/s/sqlx-exec/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-30 18:55:54] INFO root fetch - processPackages [scrapli]: Downloading https://files.pythonhosted.org/packages/91/e0/5970df2004bf6df345ec4d58e3328d6bbc9886cf50be0a5a16cb306fa58b/scrapli-2023.7.30.tar.gz
+[2023-07-30 18:55:55] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/e1/40/ea69e1f5816723a46e1c4f454de34f5530b6d47f17842977405864762893/llama_hub-0.0.9.tar.gz
+[2023-07-30 18:55:55] INFO root fetch - processPackages [scrapli]: executing diffoscope
+[2023-07-30 18:55:55] INFO root fetch - processPackages [scrapli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapli-2023.1.30.tar.gz tmp/scrapli-2023.7.30.tar.gz --markdown 20230730/s/scrapli/2023.1.30-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 18:55:55] INFO root fetch - processPackages [llama-hub]: executing diffoscope
+[2023-07-30 18:55:55] INFO root fetch - processPackages [llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_hub-0.0.8.tar.gz tmp/llama_hub-0.0.9.tar.gz --markdown 20230730/l/llama-hub/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 18:55:55] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.0.tar.gz]
+[2023-07-30 18:55:55] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.1.tar.gz]
+[2023-07-30 18:55:55] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-07-30 18:55:55] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.0.tar.gz]
+[2023-07-30 18:55:55] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.1.tar.gz]
+[2023-07-30 18:55:55] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-30 18:55:56] INFO root fetch - processPackages [scrapli]: Remove: archive file [/home/abi/fetcher/tmp/scrapli-2023.1.30.tar.gz]
+[2023-07-30 18:55:56] INFO root fetch - processPackages [scrapli]: Remove: archive file [/home/abi/fetcher/tmp/scrapli-2023.7.30.tar.gz]
+[2023-07-30 18:55:56] INFO root fetch - main [MainThread]: End processing [scrapli]: success
+[2023-07-30 18:55:57] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.8.tar.gz]
+[2023-07-30 18:55:57] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.9.tar.gz]
+[2023-07-30 18:55:57] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
+[2023-07-30 18:55:57] INFO root fetch - main [MainThread]: Store serial: [19097880]
