@@ -13773,3 +13773,39 @@
 [2023-07-30 19:43:05] INFO root fetch - processPackages [faster-coco-eval]: Remove: archive file [/home/abi/fetcher/tmp/faster-coco-eval-1.3.3.tar.gz]
 [2023-07-30 19:43:05] INFO root fetch - main [MainThread]: End processing [faster-coco-eval]: success
 [2023-07-30 19:43:05] INFO root fetch - main [MainThread]: Store serial: [19098088]
+[2023-07-30 19:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098088]
+[2023-07-30 19:48:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 19:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alertmanagermeshtastic
+[2023-07-30 19:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oneutil
+[2023-07-30 19:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: progfiguration
+[2023-07-30 19:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: allocine-seances
+[2023-07-30 19:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: x-transformers
+[2023-07-30 19:48:14] INFO root fetch - processPackages [progfiguration]: New version: [0.0.2a7] Old Version: [0.0.2a6]
+[2023-07-30 19:48:14] INFO root fetch - processPackages [allocine-seances]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 19:48:14] WARNING root fetch - processPackages [alertmanagermeshtastic]: Skipping, unable to determine old version
+[2023-07-30 19:48:14] INFO root fetch - main [MainThread]: End processing [alertmanagermeshtastic] error
+[2023-07-30 19:48:14] WARNING root fetch - processPackages [oneutil]: Skipping, unable to determine old version
+[2023-07-30 19:48:14] INFO root fetch - main [MainThread]: End processing [oneutil] error
+[2023-07-30 19:48:14] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-30 19:48:14] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/02/e6/4eef46df2fef0aac42dfe6bbe532193ed5f969296791637086732a0a0f12/progfiguration-0.0.2a6.tar.gz
+[2023-07-30 19:48:14] INFO root fetch - processPackages [allocine-seances]: Downloading https://files.pythonhosted.org/packages/85/a1/cb087a8532d7e25b9f312cfac5fd0cd0770c45e329362ae0baad94fe4e63/allocine-seances-0.0.6.tar.gz
+[2023-07-30 19:48:14] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-07-30 19:48:14] INFO root fetch - processPackages [allocine-seances]: Downloading https://files.pythonhosted.org/packages/34/bf/a134492a624607ecc651af16847f7536ebc2c6aef64ba620cbdc5a6b6084/allocine-seances-0.0.7.tar.gz
+[2023-07-30 19:48:14] INFO root fetch - processPackages [progfiguration]: Downloading https://files.pythonhosted.org/packages/45/e2/1a9b4b3fe11830991ddccaa779aefb1b9c9ae4fbea373f1cb0b9ff499c42/progfiguration-0.0.2a7.tar.gz
+[2023-07-30 19:48:14] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-07-30 19:48:14] INFO root fetch - processPackages [allocine-seances]: executing diffoscope
+[2023-07-30 19:48:14] INFO root fetch - processPackages [allocine-seances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocine-seances-0.0.6.tar.gz tmp/allocine-seances-0.0.7.tar.gz --markdown 20230730/a/allocine-seances/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 19:48:15] INFO root fetch - processPackages [progfiguration]: executing diffoscope
+[2023-07-30 19:48:15] INFO root fetch - processPackages [progfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progfiguration-0.0.2a6.tar.gz tmp/progfiguration-0.0.2a7.tar.gz --markdown 20230730/p/progfiguration/0.0.2a6-0.0.2a7/diff.md --exclude *.pyd
+[2023-07-30 19:48:15] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-07-30 19:48:15] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230730/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-30 19:48:15] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.1.tar.gz]
+[2023-07-30 19:48:15] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.2.tar.gz]
+[2023-07-30 19:48:15] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-07-30 19:48:15] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a6.tar.gz]
+[2023-07-30 19:48:15] INFO root fetch - processPackages [progfiguration]: Remove: archive file [/home/abi/fetcher/tmp/progfiguration-0.0.2a7.tar.gz]
+[2023-07-30 19:48:15] INFO root fetch - main [MainThread]: End processing [progfiguration]: success
+[2023-07-30 19:48:15] INFO root fetch - processPackages [allocine-seances]: Remove: archive file [/home/abi/fetcher/tmp/allocine-seances-0.0.6.tar.gz]
+[2023-07-30 19:48:15] INFO root fetch - processPackages [allocine-seances]: Remove: archive file [/home/abi/fetcher/tmp/allocine-seances-0.0.7.tar.gz]
+[2023-07-30 19:48:15] INFO root fetch - main [MainThread]: End processing [allocine-seances]: success
+[2023-07-30 19:48:15] INFO root fetch - main [MainThread]: Store serial: [19098110]
