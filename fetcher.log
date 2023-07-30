@@ -6175,3 +6175,48 @@
 [2023-07-30 09:55:48] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev2.tar.gz]
 [2023-07-30 09:55:48] INFO root fetch - main [MainThread]: End processing [argrelay]: success
 [2023-07-30 09:55:48] INFO root fetch - main [MainThread]: Store serial: [19094555]
+[2023-07-30 10:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094555]
+[2023-07-30 10:00:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wml.core
+[2023-07-30 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: describealign
+[2023-07-30 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valeriepieris
+[2023-07-30 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e57
+[2023-07-30 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: activity-tracking
+[2023-07-30 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2023-07-30 10:00:57] WARNING root fetch - processPackages [valeriepieris]: Skipping, unable to determine old version
+[2023-07-30 10:00:57] INFO root fetch - main [MainThread]: End processing [valeriepieris] error
+[2023-07-30 10:00:57] INFO root fetch - processPackages [describealign]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-30 10:00:57] INFO root fetch - processPackages [activity-tracking]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 10:00:57] WARNING root fetch - processPackages [wml.core]: Skipping, unable to determine old version
+[2023-07-30 10:00:57] INFO root fetch - main [MainThread]: End processing [wml.core] error
+[2023-07-30 10:00:57] INFO root fetch - processPackages [e57]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-30 10:00:57] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.98] Old Version: [1.0.97]
+[2023-07-30 10:00:57] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/8e/d9/51bafa85d8e1af14660fd8e49fc42676ef847f0971aa797e4d741b6ef5b4/seven_cloudapp_frame-1.0.97.tar.gz
+[2023-07-30 10:00:57] INFO root fetch - processPackages [activity-tracking]: Downloading https://files.pythonhosted.org/packages/49/b6/6dd3e4b4be741e1d0fd17950d04bc691849fdf7269ffb9db5c9e5d85af0c/activity-tracking-0.0.2.tar.gz
+[2023-07-30 10:00:57] INFO root fetch - processPackages [describealign]: Downloading https://files.pythonhosted.org/packages/55/d8/9c482504f58debaae6098dc9fac929a153e1e67110d5b283c6c5f63925bb/describealign-0.1.2.tar.gz
+[2023-07-30 10:00:57] INFO root fetch - processPackages [e57]: Downloading https://files.pythonhosted.org/packages/85/f2/c8a599d2f292dd8af43a64da48e805c67a0cc1d8563384dcdef5ecc5beef/e57-0.1.0a1.tar.gz
+[2023-07-30 10:00:57] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/9a/20/c80a711561939c2767fb78449f1eadee325cb963fe364d7416a7eeb49606/seven_cloudapp_frame-1.0.98.tar.gz
+[2023-07-30 10:00:58] INFO root fetch - processPackages [activity-tracking]: Downloading https://files.pythonhosted.org/packages/25/d9/2a7958005392d93049f5880d2417ce7b2e45fadac262d6bf096dd548bd42/activity-tracking-0.0.3.tar.gz
+[2023-07-30 10:00:58] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-30 10:00:58] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.97.tar.gz tmp/seven_cloudapp_frame-1.0.98.tar.gz --markdown 20230730/s/seven-cloudapp-frame/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2023-07-30 10:00:58] INFO root fetch - processPackages [describealign]: Downloading https://files.pythonhosted.org/packages/8d/fa/32ed1dcb60cbcecd330ce4b3a1471c8f103c980f9f7850a09b282072719c/describealign-0.1.3.tar.gz
+[2023-07-30 10:00:58] INFO root fetch - processPackages [activity-tracking]: executing diffoscope
+[2023-07-30 10:00:58] INFO root fetch - processPackages [activity-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activity-tracking-0.0.2.tar.gz tmp/activity-tracking-0.0.3.tar.gz --markdown 20230730/a/activity-tracking/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 10:00:58] INFO root fetch - processPackages [e57]: Downloading https://files.pythonhosted.org/packages/64/80/def43be48c7480e5947f676b9a6ebf60106d9e60f4108932beebca9df13e/e57-0.1.0a2.tar.gz
+[2023-07-30 10:00:58] INFO root fetch - processPackages [describealign]: executing diffoscope
+[2023-07-30 10:00:58] INFO root fetch - processPackages [describealign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/describealign-0.1.2.tar.gz tmp/describealign-0.1.3.tar.gz --markdown 20230730/d/describealign/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-30 10:00:58] INFO root fetch - processPackages [e57]: executing diffoscope
+[2023-07-30 10:00:58] INFO root fetch - processPackages [e57]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e57-0.1.0a1.tar.gz tmp/e57-0.1.0a2.tar.gz --markdown 20230730/e/e57/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-30 10:00:59] INFO root fetch - processPackages [activity-tracking]: Remove: archive file [/home/abi/fetcher/tmp/activity-tracking-0.0.2.tar.gz]
+[2023-07-30 10:00:59] INFO root fetch - processPackages [activity-tracking]: Remove: archive file [/home/abi/fetcher/tmp/activity-tracking-0.0.3.tar.gz]
+[2023-07-30 10:00:59] INFO root fetch - main [MainThread]: End processing [activity-tracking]: success
+[2023-07-30 10:00:59] INFO root fetch - processPackages [describealign]: Remove: archive file [/home/abi/fetcher/tmp/describealign-0.1.2.tar.gz]
+[2023-07-30 10:00:59] INFO root fetch - processPackages [describealign]: Remove: archive file [/home/abi/fetcher/tmp/describealign-0.1.3.tar.gz]
+[2023-07-30 10:00:59] INFO root fetch - main [MainThread]: End processing [describealign]: success
+[2023-07-30 10:00:59] INFO root fetch - processPackages [e57]: Remove: archive file [/home/abi/fetcher/tmp/e57-0.1.0a1.tar.gz]
+[2023-07-30 10:00:59] INFO root fetch - processPackages [e57]: Remove: archive file [/home/abi/fetcher/tmp/e57-0.1.0a2.tar.gz]
+[2023-07-30 10:00:59] INFO root fetch - main [MainThread]: End processing [e57]: success
+[2023-07-30 10:01:00] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.97.tar.gz]
+[2023-07-30 10:01:00] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.98.tar.gz]
+[2023-07-30 10:01:00] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-30 10:01:00] INFO root fetch - main [MainThread]: Store serial: [19094619]
