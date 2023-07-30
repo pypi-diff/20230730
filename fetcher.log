@@ -8068,3 +8068,66 @@
 [2023-07-30 12:21:59] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2023-07-30 12:21:59] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2023-07-30 12:21:59] INFO root fetch - main [MainThread]: Store serial: [19095541]
+[2023-07-30 12:27:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095541]
+[2023-07-30 12:27:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strprogressbar
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-composition
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libre-chat
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbpi4
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.core.alpine
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chik-blockchain
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyarmor.cli.core.android
+[2023-07-30 12:27:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simpleworkspace
+[2023-07-30 12:27:08] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:27:08] WARNING root fetch - processPackages [strprogressbar]: Skipping, unable to determine old version
+[2023-07-30 12:27:08] INFO root fetch - main [MainThread]: End processing [strprogressbar] error
+[2023-07-30 12:27:08] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 12:27:08] INFO root fetch - processPackages [chik-blockchain]: New version: [1.8.4] Old Version: [1.8.3rc1]
+[2023-07-30 12:27:08] INFO root fetch - processPackages [cbpi4]: New version: [4.1.7rc1] Old Version: [4.1.7]
+[2023-07-30 12:27:08] WARNING root fetch - processPackages [libre-chat]: Skipping, unable to determine old version
+[2023-07-30 12:27:08] INFO root fetch - main [MainThread]: End processing [libre-chat] error
+[2023-07-30 12:27:08] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-07-30 12:27:08] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-30 12:27:08] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:27:08] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/59/52/62aca580b0fca5c38da5f3ea55840ee5e037e0fe0bf933d93487f60886c5/pyarmor.cli.core.alpine-4.3.0-cp39-none-any.whl
+[2023-07-30 12:27:08] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/b2/74/2b46d1aaf3881051d6b7b6119b1b258dbe5d3e9e7af38de019f7821fb586/chik-blockchain-1.8.3rc1.tar.gz
+[2023-07-30 12:27:08] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/c4/5c/41f20d108393c32ee8f24c1a72ff53b7475ed5e8465ebbcdbaaff9be15c4/cbpi4-4.1.7.tar.gz
+[2023-07-30 12:27:08] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-07-30 12:27:08] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-30 12:27:08] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/9e/2f/71809f0a45a4d2b8faff8f33a162a6d17400e97145ede21b2945852059de/pyarmor.cli.core.android-4.3.0-cp37-none-any.whl
+[2023-07-30 12:27:08] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-07-30 12:27:08] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230730/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 12:27:08] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/58/6c/3d21df275b61927b14f3c334c613ea6a1500739229d7715cf8694c8ad82c/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl
+[2023-07-30 12:27:08] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-30 12:27:08] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-30 12:27:08] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230730/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-30 12:27:09] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2023-07-30 12:27:09] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-4.3.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl.zip --markdown 20230730/p/pyarmor.cli.core.alpine/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:27:09] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/ef/ce/ce9d0013b537f742cfc9b78e727d92d1227c41a7f22e8bc2c658189aaaa3/chik-blockchain-1.8.4.tar.gz
+[2023-07-30 12:27:09] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/c3/16/7a96484bcb15df9f34e5dd026ce5fcbe521b59391b645b8ae1158d8d7f09/pyarmor.cli.core.android-4.3.dev1-cp39-none-any.whl
+[2023-07-30 12:27:09] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-07-30 12:27:09] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-07-30 12:27:09] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-07-30 12:27:09] INFO root fetch - processPackages [chik-blockchain]: executing diffoscope
+[2023-07-30 12:27:09] INFO root fetch - processPackages [chik-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik-blockchain-1.8.3rc1.tar.gz tmp/chik-blockchain-1.8.4.tar.gz --markdown 20230730/c/chik-blockchain/1.8.3rc1-1.8.4/diff.md --exclude *.pyd
+[2023-07-30 12:27:09] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-30 12:27:09] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-30 12:27:09] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-30 12:27:10] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/21/eb/15dd42d16073469bf1fc2fb44c647828cebedeacf917461aa3cd400a5f7c/cbpi4-4.1.7rc1.tar.gz
+[2023-07-30 12:27:10] INFO root fetch - processPackages [pyarmor.cli.core.android]: executing diffoscope
+[2023-07-30 12:27:10] INFO root fetch - processPackages [pyarmor.cli.core.android]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.android-4.3.0-cp37-none-any.whl.zip tmp/pyarmor.cli.core.android-4.3.dev1-cp39-none-any.whl.zip --markdown 20230730/p/pyarmor.cli.core.android/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:27:11] INFO root fetch - processPackages [cbpi4]: executing diffoscope
+[2023-07-30 12:27:11] INFO root fetch - processPackages [cbpi4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-4.1.7.tar.gz tmp/cbpi4-4.1.7rc1.tar.gz --markdown 20230730/c/cbpi4/4.1.7-4.1.7rc1/diff.md --exclude *.pyd
+[2023-07-30 12:27:13] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.1.7.tar.gz]
+[2023-07-30 12:27:13] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.1.7rc1.tar.gz]
+[2023-07-30 12:27:13] INFO root fetch - main [MainThread]: End processing [cbpi4]: success
+[2023-07-30 12:27:16] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-4.3.0-cp39-none-any.whl.zip]
+[2023-07-30 12:27:16] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-30 12:27:16] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2023-07-30 12:27:19] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik-blockchain-1.8.3rc1.tar.gz]
+[2023-07-30 12:27:19] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik-blockchain-1.8.4.tar.gz]
+[2023-07-30 12:27:19] INFO root fetch - main [MainThread]: End processing [chik-blockchain]: success
+[2023-07-30 12:27:28] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-4.3.0-cp37-none-any.whl.zip]
+[2023-07-30 12:27:28] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-30 12:27:28] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android]: success
+[2023-07-30 12:27:28] INFO root fetch - main [MainThread]: Store serial: [19095588]
