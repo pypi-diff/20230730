@@ -4826,3 +4826,45 @@
 [2023-07-30 07:21:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230729-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2023-07-30 07:21:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-30 07:21:23] INFO root fetch - main [MainThread]: Store serial: [19093995]
+[2023-07-30 07:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093995]
+[2023-07-30 07:26:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libs-n-utils-package-uq-2022
+[2023-07-30 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytch-fetch
+[2023-07-30 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: local-llm-cli
+[2023-07-30 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiwoomapi
+[2023-07-30 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i7api
+[2023-07-30 07:26:32] INFO root fetch - processPackages [kiwoomapi]: New version: [0.3.3] Old Version: [0.0.3]
+[2023-07-30 07:26:32] WARNING root fetch - processPackages [local-llm-cli]: Skipping, unable to determine old version
+[2023-07-30 07:26:32] INFO root fetch - processPackages [i7api]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-30 07:26:32] INFO root fetch - main [MainThread]: End processing [local-llm-cli] error
+[2023-07-30 07:26:32] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 07:26:32] INFO root fetch - processPackages [pytch-fetch]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-30 07:26:32] INFO root fetch - processPackages [i7api]: Downloading https://files.pythonhosted.org/packages/c7/a5/f5013354a8cdda20e123706c54a170b54ef50bd733fba3808614dfc4e6a2/i7api-1.0.0.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [kiwoomapi]: Downloading https://files.pythonhosted.org/packages/6c/91/29884ff5982ab5fff97e4f7bbf07772700b5d6a16b949b28cb72dfdde56e/kiwoomapi-0.0.3.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/09/a8/ac3c1ada1e1072f7ed26b7dfebb5610fe03bddf8fa416c8c266a7fd916e6/pytch-fetch-1.1.1.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/e0/ed/ec1597b877d66f3b50d8e6781f87d931cbd1b4b9af4a50fa14e7bd97cf69/libs_n_utils_package_uq_2022-0.0.3.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [kiwoomapi]: Downloading https://files.pythonhosted.org/packages/4a/a1/026b9d41f25609379169e9f071d78aecd8b4532235ec76a1bb45369ce080/kiwoomapi-0.3.3.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [i7api]: Downloading https://files.pythonhosted.org/packages/3b/71/63dd2fd660f12be3013ab7f4287ea0422b1556dfbb3d9aabbfe33251a1d1/i7api-2.0.0.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [pytch-fetch]: Downloading https://files.pythonhosted.org/packages/d0/53/4e0b41de2308ac9ff235ebbf829cd8dd093d8d9e702487910406446bbca7/pytch-fetch-1.2.0.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/ae/d0/0704406abf870abcc97a89b28b930f7bb43e6f617242b4543ae49b44a01c/libs_n_utils_package_uq_2022-0.0.4.tar.gz
+[2023-07-30 07:26:32] INFO root fetch - processPackages [kiwoomapi]: executing diffoscope
+[2023-07-30 07:26:32] INFO root fetch - processPackages [kiwoomapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwoomapi-0.0.3.tar.gz tmp/kiwoomapi-0.3.3.tar.gz --markdown 20230730/k/kiwoomapi/0.0.3-0.3.3/diff.md --exclude *.pyd
+[2023-07-30 07:26:32] INFO root fetch - processPackages [i7api]: executing diffoscope
+[2023-07-30 07:26:32] INFO root fetch - processPackages [i7api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i7api-1.0.0.tar.gz tmp/i7api-2.0.0.tar.gz --markdown 20230730/i/i7api/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-30 07:26:33] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: executing diffoscope
+[2023-07-30 07:26:33] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libs_n_utils_package_uq_2022-0.0.3.tar.gz tmp/libs_n_utils_package_uq_2022-0.0.4.tar.gz --markdown 20230730/l/libs-n-utils-package-uq-2022/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 07:26:33] INFO root fetch - processPackages [pytch-fetch]: executing diffoscope
+[2023-07-30 07:26:33] INFO root fetch - processPackages [pytch-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytch-fetch-1.1.1.tar.gz tmp/pytch-fetch-1.2.0.tar.gz --markdown 20230730/p/pytch-fetch/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-30 07:26:33] INFO root fetch - processPackages [i7api]: Remove: archive file [/home/abi/fetcher/tmp/i7api-1.0.0.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - processPackages [i7api]: Remove: archive file [/home/abi/fetcher/tmp/i7api-2.0.0.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - main [MainThread]: End processing [i7api]: success
+[2023-07-30 07:26:33] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.1.1.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - processPackages [pytch-fetch]: Remove: archive file [/home/abi/fetcher/tmp/pytch-fetch-1.2.0.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - main [MainThread]: End processing [pytch-fetch]: success
+[2023-07-30 07:26:33] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.3.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.4.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - main [MainThread]: End processing [libs-n-utils-package-uq-2022]: success
+[2023-07-30 07:26:33] INFO root fetch - processPackages [kiwoomapi]: Remove: archive file [/home/abi/fetcher/tmp/kiwoomapi-0.0.3.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - processPackages [kiwoomapi]: Remove: archive file [/home/abi/fetcher/tmp/kiwoomapi-0.3.3.tar.gz]
+[2023-07-30 07:26:33] INFO root fetch - main [MainThread]: End processing [kiwoomapi]: success
+[2023-07-30 07:26:33] INFO root fetch - main [MainThread]: Store serial: [19094015]
