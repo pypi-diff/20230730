@@ -2101,3 +2101,45 @@
 [2023-07-30 03:01:36] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-07-30 03:01:36] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-07-30 03:01:36] INFO root fetch - main [MainThread]: Store serial: [19092921]
+[2023-07-30 03:06:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092921]
+[2023-07-30 03:06:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyBibX
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: switchblade
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ANSIController
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ouija
+[2023-07-30 03:06:44] INFO root fetch - processPackages [pyBibX]: New version: [3.2.0] Old Version: [3.1.9]
+[2023-07-30 03:06:44] INFO root fetch - processPackages [switchblade]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 03:06:44] WARNING root fetch - processPackages [ouija]: Skipping, unable to determine old version
+[2023-07-30 03:06:44] INFO root fetch - main [MainThread]: End processing [ouija] error
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ANSIController]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 03:06:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-30 03:06:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/b6/3f/9bb852b47a383567f2c1429ac9e4bf58e4b4e8fd303e224725a8fa254286/ANSIController-0.0.6.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [switchblade]: Downloading https://files.pythonhosted.org/packages/02/26/76f4b54d6f0f6ba0ad4d3e18f3c9fd5d70290c066d34e66ffcc91bfb8c72/switchblade-0.0.4.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/e5/25/5b0dbce1212703a029e37d94ccc4a1dcd698a9cc4b5ebab532f113508953/pyBibX-3.1.9.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/c4/78/736273378d8cec188d644886f2e1d9e5491382735f5b9c6b266e4d807107/ANSIController-0.0.7.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [switchblade]: Downloading https://files.pythonhosted.org/packages/f3/60/75e8ee78252e7a861aa50a1078eac5cf7284bcad6d6887fac259dcef5318/switchblade-0.0.5.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/c4/18/17bd68be5acf2647f9d941a9e391dbaae98c7493121e222711d0e25328d1/pyBibX-3.2.0.tar.gz
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 03:06:44] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-0.0.6.tar.gz tmp/ANSIController-0.0.7.tar.gz --markdown 20230730/A/ANSIController/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 03:06:44] INFO root fetch - processPackages [switchblade]: executing diffoscope
+[2023-07-30 03:06:44] INFO root fetch - processPackages [switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchblade-0.0.4.tar.gz tmp/switchblade-0.0.5.tar.gz --markdown 20230730/s/switchblade/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 03:06:45] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2023-07-30 03:06:45] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-3.1.9.tar.gz tmp/pyBibX-3.2.0.tar.gz --markdown 20230730/p/pyBibX/3.1.9-3.2.0/diff.md --exclude *.pyd
+[2023-07-30 03:06:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-30 03:06:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230730/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-30 03:06:45] INFO root fetch - processPackages [switchblade]: Remove: archive file [/home/abi/fetcher/tmp/switchblade-0.0.4.tar.gz]
+[2023-07-30 03:06:45] INFO root fetch - processPackages [switchblade]: Remove: archive file [/home/abi/fetcher/tmp/switchblade-0.0.5.tar.gz]
+[2023-07-30 03:06:45] INFO root fetch - main [MainThread]: End processing [switchblade]: success
+[2023-07-30 03:06:45] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-0.0.6.tar.gz]
+[2023-07-30 03:06:45] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-0.0.7.tar.gz]
+[2023-07-30 03:06:45] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 03:06:46] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.1.9.tar.gz]
+[2023-07-30 03:06:46] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.2.0.tar.gz]
+[2023-07-30 03:06:46] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2023-07-30 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-30 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-30 03:06:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-30 03:06:46] INFO root fetch - main [MainThread]: Store serial: [19092939]
