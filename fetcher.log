@@ -9262,3 +9262,42 @@
 [2023-07-30 13:51:23] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.2.1.tar.gz]
 [2023-07-30 13:51:23] INFO root fetch - main [MainThread]: End processing [pyyt-cli]: success
 [2023-07-30 13:51:23] INFO root fetch - main [MainThread]: Store serial: [19096031]
+[2023-07-30 13:56:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096031]
+[2023-07-30 13:56:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-07-30 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epdx
+[2023-07-30 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emcstream
+[2023-07-30 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: millheater
+[2023-07-30 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magicinpaint-cpu
+[2023-07-30 13:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magicinpaint-gpu
+[2023-07-30 13:56:31] WARNING root fetch - processPackages [magicinpaint-cpu]: Skipping, unable to determine old version
+[2023-07-30 13:56:31] INFO root fetch - main [MainThread]: End processing [magicinpaint-cpu] error
+[2023-07-30 13:56:31] INFO root fetch - processPackages [epdx]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-30 13:56:31] WARNING root fetch - processPackages [emcstream]: Skipping, unable to determine old version
+[2023-07-30 13:56:31] INFO root fetch - main [MainThread]: End processing [emcstream] error
+[2023-07-30 13:56:31] INFO root fetch - processPackages [millheater]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 13:56:31] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 13:56:31] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-30 13:56:31] WARNING root fetch - processPackages [magicinpaint-gpu]: Skipping, unable to determine old version
+[2023-07-30 13:56:31] INFO root fetch - main [MainThread]: End processing [magicinpaint-gpu] error
+[2023-07-30 13:56:31] INFO root fetch - processPackages [epdx]: Downloading https://files.pythonhosted.org/packages/05/e4/7b96918b4284e0f948f86f74fdbc222f63472b791f4aa1095607ae8be376/epdx-0.2.8-cp38-abi3-win_amd64.whl
+[2023-07-30 13:56:31] INFO root fetch - processPackages [millheater]: Downloading https://files.pythonhosted.org/packages/76/33/b560be2f003efe36050fe00b1008736ee4fefb2716da6ccafe8f6b829317/millheater-0.8.1.tar.gz
+[2023-07-30 13:56:31] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-30 13:56:31] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-30 13:56:31] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230730/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 13:56:32] INFO root fetch - processPackages [epdx]: Downloading https://files.pythonhosted.org/packages/ca/3f/0dfdfb635c3956e665e0d324e5631fd8632503f57b0ee42c8653ff2e43d0/epdx-0.3.0-cp38-abi3-win_amd64.whl
+[2023-07-30 13:56:32] INFO root fetch - processPackages [millheater]: Downloading https://files.pythonhosted.org/packages/c9/7f/710229388cac4bdfece2a573d1239062d2194fee81dba82a2f955d6e5bf9/millheater-0.9.0.tar.gz
+[2023-07-30 13:56:32] INFO root fetch - processPackages [millheater]: executing diffoscope
+[2023-07-30 13:56:32] INFO root fetch - processPackages [millheater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/millheater-0.8.1.tar.gz tmp/millheater-0.9.0.tar.gz --markdown 20230730/m/millheater/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 13:56:32] INFO root fetch - processPackages [epdx]: executing diffoscope
+[2023-07-30 13:56:32] INFO root fetch - processPackages [epdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epdx-0.2.8-cp38-abi3-win_amd64.whl.zip tmp/epdx-0.3.0-cp38-abi3-win_amd64.whl.zip --markdown 20230730/e/epdx/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 13:56:32] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-30 13:56:32] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-30 13:56:32] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-30 13:56:33] INFO root fetch - processPackages [millheater]: Remove: archive file [/home/abi/fetcher/tmp/millheater-0.8.1.tar.gz]
+[2023-07-30 13:56:33] INFO root fetch - processPackages [millheater]: Remove: archive file [/home/abi/fetcher/tmp/millheater-0.9.0.tar.gz]
+[2023-07-30 13:56:33] INFO root fetch - main [MainThread]: End processing [millheater]: success
+[2023-07-30 13:56:33] INFO root fetch - processPackages [epdx]: Remove: archive file [/home/abi/fetcher/tmp/epdx-0.2.8-cp38-abi3-win_amd64.whl.zip]
+[2023-07-30 13:56:33] INFO root fetch - processPackages [epdx]: Remove: archive file [/home/abi/fetcher/tmp/epdx-0.3.0-cp38-abi3-win_amd64.whl.zip]
+[2023-07-30 13:56:33] INFO root fetch - main [MainThread]: End processing [epdx]: success
+[2023-07-30 13:56:33] INFO root fetch - main [MainThread]: Store serial: [19096065]
