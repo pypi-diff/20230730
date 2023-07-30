@@ -15157,3 +15157,72 @@
 [2023-07-30 21:22:25] INFO root fetch - processPackages [conda-lock]: Remove: archive file [/home/abi/fetcher/tmp/conda_lock-2.1.2.tar.gz]
 [2023-07-30 21:22:25] INFO root fetch - main [MainThread]: End processing [conda-lock]: success
 [2023-07-30 21:22:25] INFO root fetch - main [MainThread]: Store serial: [19098768]
+[2023-07-30 21:27:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098768]
+[2023-07-30 21:27:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: empiric-network
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-daily-cloud-watch-logs-archiver
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assrs
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strictdoc
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DS2STAC-Ingester
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvxbson
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matan
+[2023-07-30 21:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-checkdocs
+[2023-07-30 21:27:34] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: New version: [0.11.9] Old Version: [0.11.8]
+[2023-07-30 21:27:34] WARNING root fetch - processPackages [assrs]: Skipping, unable to determine old version
+[2023-07-30 21:27:34] INFO root fetch - main [MainThread]: End processing [assrs] error
+[2023-07-30 21:27:34] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 21:27:34] INFO root fetch - processPackages [DS2STAC-Ingester]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 21:27:34] INFO root fetch - processPackages [cvxbson]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 21:27:34] INFO root fetch - processPackages [matan]: New version: [0.1.6] Old Version: [0.1.5.2.9]
+[2023-07-30 21:27:34] INFO root fetch - processPackages [pytest-checkdocs]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-30 21:27:34] INFO root fetch - processPackages [empiric-network]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-30 21:27:34] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/54/07/0f9ff730b05d5ac129a82a4ff6623be8dcd5e0b4c2b2d7a4d7e241528cb9/DS2STAC-Ingester-1.0.5.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/48/65/5ce9f8a299725852df96251e8573ce6ae7aa4f7556829d5940ed7945d3a1/matan-0.1.5.2.9.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/1b/9e/1dba0665ad083bd3e16d821966eb5fe472464d1cf0e869d77bc356dcf442/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.8.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/5f/1d/41c355b10d6b0bcc85b7b7f525d3a3cf8aa582b0d1c5d1e1b496082b7338/empiric_network-1.6.8.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [cvxbson]: Downloading https://files.pythonhosted.org/packages/91/ae/8987fc728e35a6a0675425eb12a13f5108fc72525cf84e60c6126823da52/cvxbson-0.0.2.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [pytest-checkdocs]: Downloading https://files.pythonhosted.org/packages/62/e2/70e51c1852d35ff8dae8d532a2abbae167f069867d4eddde788a298c2174/pytest-checkdocs-2.8.1.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/24/d0/02f78810bffa472867a3375e36ccc086c2122617169b9475b37e4985c218/matan-0.1.6.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/3e/86/d1e47db6c155fabe385e351303cb7dd51ec2ea80fa55591718fde5566cae/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz
+[2023-07-30 21:27:34] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/98/1f/1cd1453aebfa97116a1eab0920c92b0c4e2b8a945a4dbd7cbba7e7b60423/DS2STAC-Ingester-1.0.6.tar.gz
+[2023-07-30 21:27:35] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: executing diffoscope
+[2023-07-30 21:27:35] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.8.tar.gz tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz --markdown 20230730/g/gammarer.aws-daily-cloud-watch-logs-archiver/0.11.8-0.11.9/diff.md --exclude *.pyd
+[2023-07-30 21:27:35] INFO root fetch - processPackages [matan]: executing diffoscope
+[2023-07-30 21:27:35] INFO root fetch - processPackages [matan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matan-0.1.5.2.9.tar.gz tmp/matan-0.1.6.tar.gz --markdown 20230730/m/matan/0.1.5.2.9-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 21:27:35] INFO root fetch - processPackages [cvxbson]: Downloading https://files.pythonhosted.org/packages/31/df/b15a317b2d7dee2c3a032cdd1e81b6e0453db66e490ca61c736ba3b89b4f/cvxbson-0.0.3.tar.gz
+[2023-07-30 21:27:35] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/77/b4/7406ebf5fac19a1e5e572ef27c7b6de51b4ce90603a59cad4e79672611aa/empiric_network-1.6.9.tar.gz
+[2023-07-30 21:27:35] INFO root fetch - processPackages [DS2STAC-Ingester]: executing diffoscope
+[2023-07-30 21:27:35] INFO root fetch - processPackages [DS2STAC-Ingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DS2STAC-Ingester-1.0.5.tar.gz tmp/DS2STAC-Ingester-1.0.6.tar.gz --markdown 20230730/D/DS2STAC-Ingester/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 21:27:35] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-07-30 21:27:35] INFO root fetch - processPackages [pytest-checkdocs]: Downloading https://files.pythonhosted.org/packages/ad/ab/dad19dd5014ff948dd4d1905b6d6e5beb8a9728e60a156723182abe75286/pytest-checkdocs-2.9.0.tar.gz
+[2023-07-30 21:27:35] INFO root fetch - processPackages [cvxbson]: executing diffoscope
+[2023-07-30 21:27:35] INFO root fetch - processPackages [cvxbson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxbson-0.0.2.tar.gz tmp/cvxbson-0.0.3.tar.gz --markdown 20230730/c/cvxbson/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 21:27:35] INFO root fetch - processPackages [empiric-network]: executing diffoscope
+[2023-07-30 21:27:35] INFO root fetch - processPackages [empiric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empiric_network-1.6.8.tar.gz tmp/empiric_network-1.6.9.tar.gz --markdown 20230730/e/empiric-network/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-30 21:27:35] INFO root fetch - processPackages [pytest-checkdocs]: executing diffoscope
+[2023-07-30 21:27:35] INFO root fetch - processPackages [pytest-checkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-checkdocs-2.8.1.tar.gz tmp/pytest-checkdocs-2.9.0.tar.gz --markdown 20230730/p/pytest-checkdocs/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-30 21:27:35] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-07-30 21:27:35] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230730/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 21:27:36] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.8.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: End processing [gammarer.aws-daily-cloud-watch-logs-archiver]: success
+[2023-07-30 21:27:36] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.5.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.6.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: End processing [DS2STAC-Ingester]: success
+[2023-07-30 21:27:36] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.9.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.6.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: End processing [matan]: success
+[2023-07-30 21:27:36] INFO root fetch - processPackages [cvxbson]: Remove: archive file [/home/abi/fetcher/tmp/cvxbson-0.0.2.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - processPackages [cvxbson]: Remove: archive file [/home/abi/fetcher/tmp/cvxbson-0.0.3.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: End processing [cvxbson]: success
+[2023-07-30 21:27:36] INFO root fetch - processPackages [empiric-network]: Remove: archive file [/home/abi/fetcher/tmp/empiric_network-1.6.8.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - processPackages [empiric-network]: Remove: archive file [/home/abi/fetcher/tmp/empiric_network-1.6.9.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
+[2023-07-30 21:27:36] INFO root fetch - processPackages [pytest-checkdocs]: Remove: archive file [/home/abi/fetcher/tmp/pytest-checkdocs-2.8.1.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - processPackages [pytest-checkdocs]: Remove: archive file [/home/abi/fetcher/tmp/pytest-checkdocs-2.9.0.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: End processing [pytest-checkdocs]: success
+[2023-07-30 21:27:36] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-07-30 21:27:36] INFO root fetch - main [MainThread]: Store serial: [19098851]
