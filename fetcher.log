@@ -13149,3 +13149,59 @@
 [2023-07-30 18:40:23] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.401.1.tar.gz]
 [2023-07-30 18:40:23] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-30 18:40:23] INFO root fetch - main [MainThread]: Store serial: [19097813]
+[2023-07-30 18:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097813]
+[2023-07-30 18:45:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 18:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wetterdienst
+[2023-07-30 18:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoQPF
+[2023-07-30 18:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrall
+[2023-07-30 18:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwemopt
+[2023-07-30 18:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsollum
+[2023-07-30 18:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nengo-edge
+[2023-07-30 18:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uszipstats
+[2023-07-30 18:45:31] INFO root fetch - processPackages [nengo-edge]: New version: [23.7.30] Old Version: [23.2.23]
+[2023-07-30 18:45:31] INFO root fetch - processPackages [gwemopt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-30 18:45:31] ERROR root fetch - processPackages [tsollum]: Unable to get metadata: No such project 'tsollum'
+[2023-07-30 18:45:31] INFO root fetch - main [MainThread]: End processing [tsollum] error
+[2023-07-30 18:45:31] INFO root fetch - processPackages [wetterdienst]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-30 18:45:31] INFO root fetch - processPackages [scrall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 18:45:31] INFO root fetch - processPackages [uszipstats]: New version: [0.5] Old Version: [0.4]
+[2023-07-30 18:45:32] INFO root fetch - processPackages [AutoQPF]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-30 18:45:32] INFO root fetch - processPackages [uszipstats]: Downloading https://files.pythonhosted.org/packages/42/b0/241d9c61d1c7130ac1bfee86c8fe84622321dc3fc20e0059960717b185d8/uszipstats-0.4.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [gwemopt]: Downloading https://files.pythonhosted.org/packages/53/53/966a76a5ecce47df24f40b9ffb47210a321700809494d23fdd7b1bcd6dcf/gwemopt-0.1.4.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [nengo-edge]: Downloading https://files.pythonhosted.org/packages/e5/25/6b4b4587aa0fccb53cf0d3ae1b1b12a765090b4d0904d643de220254e00b/nengo-edge-23.2.23.tar.gz
+[2023-07-30 18:45:32] WARNING root fetch - processPackages [gwemopt]: Skipping package: exceeds size limit 113237275>=10485760
+[2023-07-30 18:45:32] INFO root fetch - main [MainThread]: End processing [gwemopt] error
+[2023-07-30 18:45:32] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/61/d4/11fa6a7135dbc8088f75a3629c52cb3355744ee5b3df9c6c55695e7fc269/AutoQPF-0.1.4.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/de/00/9be7725773d762b1329f041571b6d1925040ba279ca0d8793d9bb0f39264/scrall-0.2.8.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/78/63/b1277e512023f32d07e5f1100acb1a89b8df6544f68710d48e7c999ddfe7/wetterdienst-0.8.0.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [uszipstats]: Downloading https://files.pythonhosted.org/packages/d5/b4/88bb702831fdcc417a745982dc435d4fc7e8f9efa7764549be117dfc8f9d/uszipstats-0.5.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/f4/59/dffa3e8a059493f47ce261fa866743150ecf634a259f3b1d7090f79278b7/AutoQPF-0.1.5.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [nengo-edge]: Downloading https://files.pythonhosted.org/packages/90/1a/3dc63aea986e4c63eb9c3cec24f11da5390a85a8e43ef31f6e9200657320/nengo-edge-23.7.30.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/9a/df/ccceb037295ae0343198d907678498d8862f523ce37edf85f3e7717dd05f/scrall-0.2.9.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/93/c1/a193d03f936306ba30a17b6df7557fb21eb06ece6da61b94796737ad977a/wetterdienst-0.9.0.tar.gz
+[2023-07-30 18:45:32] INFO root fetch - processPackages [uszipstats]: executing diffoscope
+[2023-07-30 18:45:32] INFO root fetch - processPackages [uszipstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uszipstats-0.4.tar.gz tmp/uszipstats-0.5.tar.gz --markdown 20230730/u/uszipstats/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-30 18:45:32] INFO root fetch - processPackages [AutoQPF]: executing diffoscope
+[2023-07-30 18:45:32] INFO root fetch - processPackages [AutoQPF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoQPF-0.1.4.tar.gz tmp/AutoQPF-0.1.5.tar.gz --markdown 20230730/A/AutoQPF/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-30 18:45:32] INFO root fetch - processPackages [nengo-edge]: executing diffoscope
+[2023-07-30 18:45:32] INFO root fetch - processPackages [nengo-edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nengo-edge-23.2.23.tar.gz tmp/nengo-edge-23.7.30.tar.gz --markdown 20230730/n/nengo-edge/23.2.23-23.7.30/diff.md --exclude *.pyd
+[2023-07-30 18:45:32] INFO root fetch - processPackages [scrall]: executing diffoscope
+[2023-07-30 18:45:32] INFO root fetch - processPackages [scrall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrall-0.2.8.tar.gz tmp/scrall-0.2.9.tar.gz --markdown 20230730/s/scrall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 18:45:32] INFO root fetch - processPackages [wetterdienst]: executing diffoscope
+[2023-07-30 18:45:32] INFO root fetch - processPackages [wetterdienst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wetterdienst-0.8.0.tar.gz tmp/wetterdienst-0.9.0.tar.gz --markdown 20230730/w/wetterdienst/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 18:45:33] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.4.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.5.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
+[2023-07-30 18:45:33] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.8.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.9.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - main [MainThread]: End processing [scrall]: success
+[2023-07-30 18:45:33] INFO root fetch - processPackages [nengo-edge]: Remove: archive file [/home/abi/fetcher/tmp/nengo-edge-23.2.23.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - processPackages [nengo-edge]: Remove: archive file [/home/abi/fetcher/tmp/nengo-edge-23.7.30.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - main [MainThread]: End processing [nengo-edge]: success
+[2023-07-30 18:45:33] INFO root fetch - processPackages [uszipstats]: Remove: archive file [/home/abi/fetcher/tmp/uszipstats-0.4.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - processPackages [uszipstats]: Remove: archive file [/home/abi/fetcher/tmp/uszipstats-0.5.tar.gz]
+[2023-07-30 18:45:33] INFO root fetch - main [MainThread]: End processing [uszipstats]: success
+[2023-07-30 18:45:34] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.8.0.tar.gz]
+[2023-07-30 18:45:34] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.9.0.tar.gz]
+[2023-07-30 18:45:34] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
+[2023-07-30 18:45:34] INFO root fetch - main [MainThread]: Store serial: [19097833]
