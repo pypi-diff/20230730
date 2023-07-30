@@ -9372,3 +9372,42 @@
 [2023-07-30 14:07:00] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262725662>=10485760
 [2023-07-30 14:07:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
 [2023-07-30 14:07:00] INFO root fetch - main [MainThread]: Store serial: [19096108]
+[2023-07-30 14:12:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096108]
+[2023-07-30 14:12:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ag-llama-api-s
+[2023-07-30 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: srpc
+[2023-07-30 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySDM
+[2023-07-30 14:12:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i8-terminal
+[2023-07-30 14:12:08] INFO root fetch - processPackages [srpc]: New version: [4.2.9] Old Version: [4.2.12]
+[2023-07-30 14:12:08] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-30 14:12:08] INFO root fetch - processPackages [ag-llama-api-s]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 14:12:08] INFO root fetch - processPackages [PySDM]: New version: [2.9] Old Version: [2.8]
+[2023-07-30 14:12:08] INFO root fetch - processPackages [srpc]: Downloading https://files.pythonhosted.org/packages/85/83/1ba53274274f98939ca3ef6e58a7261fbffde20aec55067399156f449312/srpc-4.2.12-cp311-none-macosx_10_9_universal2.whl
+[2023-07-30 14:12:08] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/73/6b/1f17514655bb325e4dd1d803628b471e37e46f47d02c13ddf52f64dcf516/i8-terminal-0.2.98.tar.gz
+[2023-07-30 14:12:08] INFO root fetch - processPackages [ag-llama-api-s]: Downloading https://files.pythonhosted.org/packages/bb/45/0a9ac5821056da5da55daed360c9fcca34f4b6bc1e71f854991e6d6f19d5/ag_llama_api_s-0.0.8.tar.gz
+[2023-07-30 14:12:09] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/17/d1/08e0d17cbe649fc4b7076f8d101822c798dbbb7083219645877912e8855e/PySDM-2.8.tar.gz
+[2023-07-30 14:12:09] INFO root fetch - processPackages [ag-llama-api-s]: Downloading https://files.pythonhosted.org/packages/f0/5b/e888b743bc1a236813965dd0a3d12437ea7aa616caaa8a5fe9e8ab297c2d/ag_llama_api_s-0.0.9.tar.gz
+[2023-07-30 14:12:09] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/0d/9b/1163b714a690548e552246c039246a258470d53b0e1257bfffce97b31a43/i8-terminal-0.2.99.tar.gz
+[2023-07-30 14:12:09] INFO root fetch - processPackages [srpc]: Downloading https://files.pythonhosted.org/packages/1f/a6/fe6f49fb51d02fe56f3f17042410bfb27ae828b91fb48b28bb24cfd299b9/srpc-4.2.9-cp311-none-win_amd64.whl
+[2023-07-30 14:12:09] INFO root fetch - processPackages [ag-llama-api-s]: executing diffoscope
+[2023-07-30 14:12:09] INFO root fetch - processPackages [ag-llama-api-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api_s-0.0.8.tar.gz tmp/ag_llama_api_s-0.0.9.tar.gz --markdown 20230730/a/ag-llama-api-s/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 14:12:09] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-07-30 14:12:09] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.98.tar.gz tmp/i8-terminal-0.2.99.tar.gz --markdown 20230730/i/i8-terminal/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-30 14:12:09] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/a0/87/500d29854c171383aeec947323457a0e9a4b56dad81353ffeb13c855c1af/PySDM-2.9.tar.gz
+[2023-07-30 14:12:09] INFO root fetch - processPackages [PySDM]: executing diffoscope
+[2023-07-30 14:12:09] INFO root fetch - processPackages [PySDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-2.8.tar.gz tmp/PySDM-2.9.tar.gz --markdown 20230730/P/PySDM/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-30 14:12:09] INFO root fetch - processPackages [srpc]: executing diffoscope
+[2023-07-30 14:12:09] INFO root fetch - processPackages [srpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srpc-4.2.12-cp311-none-macosx_10_9_universal2.whl.zip tmp/srpc-4.2.9-cp311-none-win_amd64.whl.zip --markdown 20230730/s/srpc/4.2.12-4.2.9/diff.md --exclude *.pyd
+[2023-07-30 14:12:10] INFO root fetch - processPackages [ag-llama-api-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api_s-0.0.8.tar.gz]
+[2023-07-30 14:12:10] INFO root fetch - processPackages [ag-llama-api-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api_s-0.0.9.tar.gz]
+[2023-07-30 14:12:10] INFO root fetch - main [MainThread]: End processing [ag-llama-api-s]: success
+[2023-07-30 14:12:10] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.98.tar.gz]
+[2023-07-30 14:12:10] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.99.tar.gz]
+[2023-07-30 14:12:10] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-07-30 14:12:10] INFO root fetch - processPackages [srpc]: Remove: archive file [/home/abi/fetcher/tmp/srpc-4.2.12-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-07-30 14:12:10] INFO root fetch - processPackages [srpc]: Remove: archive file [/home/abi/fetcher/tmp/srpc-4.2.9-cp311-none-win_amd64.whl.zip]
+[2023-07-30 14:12:10] INFO root fetch - main [MainThread]: End processing [srpc]: success
+[2023-07-30 14:12:11] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.8.tar.gz]
+[2023-07-30 14:12:11] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.9.tar.gz]
+[2023-07-30 14:12:11] INFO root fetch - main [MainThread]: End processing [PySDM]: success
+[2023-07-30 14:12:11] INFO root fetch - main [MainThread]: Store serial: [19096120]
