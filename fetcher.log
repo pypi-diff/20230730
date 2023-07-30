@@ -6033,3 +6033,52 @@
 [2023-07-30 09:40:01] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.9.tar.gz]
 [2023-07-30 09:40:01] INFO root fetch - main [MainThread]: End processing [swibots]: success
 [2023-07-30 09:40:01] INFO root fetch - main [MainThread]: Store serial: [19094493]
+[2023-07-30 09:45:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094493]
+[2023-07-30 09:45:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 09:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amatak-shop
+[2023-07-30 09:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gtempco2
+[2023-07-30 09:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: splam
+[2023-07-30 09:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freqtrade
+[2023-07-30 09:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aksharify
+[2023-07-30 09:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-setu4
+[2023-07-30 09:45:10] INFO root fetch - processPackages [nonebot-plugin-setu4]: New version: [0.3.114514] Old Version: [0.2.114514]
+[2023-07-30 09:45:10] INFO root fetch - processPackages [aksharify]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-30 09:45:10] INFO root fetch - processPackages [amatak-shop]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-30 09:45:10] INFO root fetch - processPackages [gtempco2]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 09:45:10] INFO root fetch - processPackages [splam]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-30 09:45:10] INFO root fetch - processPackages [freqtrade]: New version: [2023.7] Old Version: [2023.6]
+[2023-07-30 09:45:10] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/27/45/1faa4919be1f6462da9d1e0b68b87e9df99a46c910343054a739a373f66c/amatak-shop-1.0.7.tar.gz
+[2023-07-30 09:45:10] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/91/b8/bf11474b10eda73d7e3bdc3e0d513cea222cdbcf227daa815b6d99f899de/aksharify-0.1.9.tar.gz
+[2023-07-30 09:45:10] INFO root fetch - processPackages [nonebot-plugin-setu4]: Downloading https://files.pythonhosted.org/packages/e2/6e/0b6b32bbec7f576a2ae4190e6732f839d25778503dee59556bd7a63e44ad/nonebot_plugin_setu4-0.2.114514.tar.gz
+[2023-07-30 09:45:10] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/69/e9/a8418eb5309c4b68e111837e956f824ef2d4fc04f15b07ba25c20de157ee/gtempco2-0.0.6.tar.gz
+[2023-07-30 09:45:10] INFO root fetch - processPackages [freqtrade]: Downloading https://files.pythonhosted.org/packages/47/a9/fb948caba57d053afb8094f9f6c055f58b9cf2dc2bb19244bf90891580c3/freqtrade-2023.6.tar.gz
+[2023-07-30 09:45:10] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/67/44/44bd83f836534c4fa402a0470c3d72b41d7e8c8ad860f9886f54570da2e6/splam-1.0.0.tar.gz
+[2023-07-30 09:45:10] WARNING root fetch - processPackages [splam]: Skipping package: exceeds size limit 40574257>=10485760
+[2023-07-30 09:45:10] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-07-30 09:45:10] WARNING root fetch - processPackages [nonebot-plugin-setu4]: Skipping package: exceeds size limit 11417453>=10485760
+[2023-07-30 09:45:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-setu4] error
+[2023-07-30 09:45:10] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/65/2a/216b062c27f4363a83ff09888b1929d039f25678fc5996be8a338a4469b0/amatak-shop-1.0.8.tar.gz
+[2023-07-30 09:45:11] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/1f/20/84f57cbdf63a559589a8be3a67771086fd9cfb5d259b4cfac6fe9ff64c54/aksharify-0.2.0.tar.gz
+[2023-07-30 09:45:11] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/7d/83/b99aa818b5aa0730b58407a8881e95f317f642c43d4cb576d2065beb01d5/gtempco2-0.0.7.tar.gz
+[2023-07-30 09:45:11] INFO root fetch - processPackages [aksharify]: executing diffoscope
+[2023-07-30 09:45:11] INFO root fetch - processPackages [aksharify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aksharify-0.1.9.tar.gz tmp/aksharify-0.2.0.tar.gz --markdown 20230730/a/aksharify/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 09:45:11] INFO root fetch - processPackages [freqtrade]: Downloading https://files.pythonhosted.org/packages/83/4a/dd97ea52d079bfe48c051b9e276b16564a5a4dff8bb587c5d67022a35c0c/freqtrade-2023.7.tar.gz
+[2023-07-30 09:45:11] INFO root fetch - processPackages [gtempco2]: executing diffoscope
+[2023-07-30 09:45:11] INFO root fetch - processPackages [gtempco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtempco2-0.0.6.tar.gz tmp/gtempco2-0.0.7.tar.gz --markdown 20230730/g/gtempco2/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 09:45:11] INFO root fetch - processPackages [amatak-shop]: executing diffoscope
+[2023-07-30 09:45:11] INFO root fetch - processPackages [amatak-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amatak-shop-1.0.7.tar.gz tmp/amatak-shop-1.0.8.tar.gz --markdown 20230730/a/amatak-shop/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-30 09:45:11] INFO root fetch - processPackages [freqtrade]: executing diffoscope
+[2023-07-30 09:45:11] INFO root fetch - processPackages [freqtrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freqtrade-2023.6.tar.gz tmp/freqtrade-2023.7.tar.gz --markdown 20230730/f/freqtrade/2023.6-2023.7/diff.md --exclude *.pyd
+[2023-07-30 09:45:11] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.6.tar.gz]
+[2023-07-30 09:45:11] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.7.tar.gz]
+[2023-07-30 09:45:11] INFO root fetch - main [MainThread]: End processing [gtempco2]: success
+[2023-07-30 09:45:12] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.9.tar.gz]
+[2023-07-30 09:45:12] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.2.0.tar.gz]
+[2023-07-30 09:45:12] INFO root fetch - main [MainThread]: End processing [aksharify]: success
+[2023-07-30 09:45:12] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.7.tar.gz]
+[2023-07-30 09:45:12] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.8.tar.gz]
+[2023-07-30 09:45:12] INFO root fetch - main [MainThread]: End processing [amatak-shop]: success
+[2023-07-30 09:45:14] INFO root fetch - processPackages [freqtrade]: Remove: archive file [/home/abi/fetcher/tmp/freqtrade-2023.6.tar.gz]
+[2023-07-30 09:45:14] INFO root fetch - processPackages [freqtrade]: Remove: archive file [/home/abi/fetcher/tmp/freqtrade-2023.7.tar.gz]
+[2023-07-30 09:45:14] INFO root fetch - main [MainThread]: End processing [freqtrade]: success
+[2023-07-30 09:45:14] INFO root fetch - main [MainThread]: Store serial: [19094513]
