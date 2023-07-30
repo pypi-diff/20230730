@@ -11407,3 +11407,84 @@
 [2023-07-30 16:41:59] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.7.0.tar.gz]
 [2023-07-30 16:41:59] INFO root fetch - main [MainThread]: End processing [twscrape]: success
 [2023-07-30 16:41:59] INFO root fetch - main [MainThread]: Store serial: [19097008]
+[2023-07-30 16:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097008]
+[2023-07-30 16:47:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmcb-avt
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: httpdbg
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oimbot
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hiddifypanel
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: siriuspy
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tabpymigrate
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seagoat
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: first-breaks-picking
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hibp-downloader
+[2023-07-30 16:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: soagen
+[2023-07-30 16:47:08] WARNING root fetch - processPackages [hibp-downloader]: Skipping, unable to determine old version
+[2023-07-30 16:47:08] INFO root fetch - main [MainThread]: End processing [hibp-downloader] error
+[2023-07-30 16:47:08] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.96] Old Version: [0.0.94]
+[2023-07-30 16:47:08] WARNING root fetch - processPackages [tabpymigrate]: Skipping, unable to determine old version
+[2023-07-30 16:47:08] INFO root fetch - main [MainThread]: End processing [tabpymigrate] error
+[2023-07-30 16:47:08] INFO root fetch - processPackages [soagen]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 16:47:08] INFO root fetch - processPackages [seagoat]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-30 16:47:08] INFO root fetch - processPackages [first-breaks-picking]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-07-30 16:47:08] INFO root fetch - processPackages [oimbot]: New version: [6.6.0] Old Version: [5.0.0]
+[2023-07-30 16:47:08] INFO root fetch - processPackages [httpdbg]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-07-30 16:47:08] INFO root fetch - processPackages [siriuspy]: New version: [2.79.0] Old Version: [2.78.0]
+[2023-07-30 16:47:08] INFO root fetch - processPackages [hiddifypanel]: New version: [7.1.9] Old Version: [7.1.5]
+[2023-07-30 16:47:08] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/02/43/a68bbd5890009852bb912e805e48695c5bfb0b83c8bcb05abd0b845b88bd/first-breaks-picking-0.4.0a0.tar.gz
+[2023-07-30 16:47:08] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/88/42/b6aa1481422e4e3bf84e6c5d76628c222b2334d290cb2671906944a7255e/mmcb-avt-0.0.94.tar.gz
+[2023-07-30 16:47:08] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/b0/0d/9b6a4232e2a4af87c256ba78ba578d527d0cacd502a2630c5ff9a72c4dd4/soagen-0.1.0.tar.gz
+[2023-07-30 16:47:08] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/42/2f/a980040250c6c1c1119b88d04bbaee88c328b88fa95311096914ea2c4f03/seagoat-0.7.2.tar.gz
+[2023-07-30 16:47:08] INFO root fetch - processPackages [oimbot]: Downloading https://files.pythonhosted.org/packages/29/fa/60e869b7b4e5a6562ec235a5dc924d130f5723f1427505ac416d94da563b/oimbot-5.0.0-py3-none-any.whl
+[2023-07-30 16:47:08] INFO root fetch - processPackages [httpdbg]: Downloading https://files.pythonhosted.org/packages/1b/a3/7ed2c38b442075d27c204ae158c8a5530b5bc2a235e643230cc563cf6229/httpdbg-0.8.5.tar.gz
+[2023-07-30 16:47:08] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/d3/55/f6e968832f1840fc494bf60bf46db6f7ccc9cea0e7b1da3ca44b005ea026/hiddifypanel-7.1.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-30 16:47:08] INFO root fetch - processPackages [siriuspy]: Downloading https://files.pythonhosted.org/packages/98/96/5aaba8265fc096077f58efe5cd756238a31b74cc944f34a8fc5cc0ebece7/siriuspy-2.78.0.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/13/ed/41453ce739ead2424ace530a0895c8df2323ab422eb235e1ac7249bc1287/first-breaks-picking-0.4.0a1.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/dc/32/e6f68c78fee8ee7a96b7ed28532db6440dc8d2086cd25efafb066aedd4b3/mmcb-avt-0.0.96.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/1d/96/591e23309b9f7d4b5ea8407eecfc6ddd06cd617ffafdd196e76e05ad180a/seagoat-0.7.3.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [soagen]: Downloading https://files.pythonhosted.org/packages/fa/69/b238556450ca07c1e61abdb7bad9dee74271c49c429d0618d955781bc431/soagen-0.1.1.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-07-30 16:47:09] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.94.tar.gz tmp/mmcb-avt-0.0.96.tar.gz --markdown 20230730/m/mmcb-avt/0.0.94-0.0.96/diff.md --exclude *.pyd
+[2023-07-30 16:47:09] INFO root fetch - processPackages [first-breaks-picking]: executing diffoscope
+[2023-07-30 16:47:09] INFO root fetch - processPackages [first-breaks-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first-breaks-picking-0.4.0a0.tar.gz tmp/first-breaks-picking-0.4.0a1.tar.gz --markdown 20230730/f/first-breaks-picking/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-07-30 16:47:09] INFO root fetch - processPackages [siriuspy]: Downloading https://files.pythonhosted.org/packages/b9/b6/dad11d9cc92d789067548ad32141e2d91be25f96fd6e7fbac938759c6bb1/siriuspy-2.79.0.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-30 16:47:09] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.7.2.tar.gz tmp/seagoat-0.7.3.tar.gz --markdown 20230730/s/seagoat/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-30 16:47:09] INFO root fetch - processPackages [soagen]: executing diffoscope
+[2023-07-30 16:47:09] INFO root fetch - processPackages [soagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soagen-0.1.0.tar.gz tmp/soagen-0.1.1.tar.gz --markdown 20230730/s/soagen/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 16:47:09] INFO root fetch - processPackages [oimbot]: Downloading https://files.pythonhosted.org/packages/55/90/35989741f9dda9c617d30a97b00e310dfaf145fed09d2abd96caac336e8e/oimbot-6.6.0-py3-none-any.whl
+[2023-07-30 16:47:09] INFO root fetch - processPackages [siriuspy]: executing diffoscope
+[2023-07-30 16:47:09] INFO root fetch - processPackages [siriuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siriuspy-2.78.0.tar.gz tmp/siriuspy-2.79.0.tar.gz --markdown 20230730/s/siriuspy/2.78.0-2.79.0/diff.md --exclude *.pyd
+[2023-07-30 16:47:09] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/05/d4/62624f77f4ec1289bc7bc2e0122fa8d4566a67c9a7c149de1361c928d072/hiddifypanel-7.1.9.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [oimbot]: executing diffoscope
+[2023-07-30 16:47:09] INFO root fetch - processPackages [oimbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oimbot-5.0.0-py3-none-any.whl.zip tmp/oimbot-6.6.0-py3-none-any.whl.zip --markdown 20230730/o/oimbot/5.0.0-6.6.0/diff.md --exclude *.pyd
+[2023-07-30 16:47:09] INFO root fetch - processPackages [httpdbg]: Downloading https://files.pythonhosted.org/packages/b7/73/efb34ac06e425eb86724d0adc4860d55bd8a6ef41114ccd9bd3d400e2dc7/httpdbg-0.9.0.tar.gz
+[2023-07-30 16:47:09] INFO root fetch - processPackages [httpdbg]: executing diffoscope
+[2023-07-30 16:47:09] INFO root fetch - processPackages [httpdbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpdbg-0.8.5.tar.gz tmp/httpdbg-0.9.0.tar.gz --markdown 20230730/h/httpdbg/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 16:47:10] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first-breaks-picking-0.4.0a0.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first-breaks-picking-0.4.0a1.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - main [MainThread]: End processing [first-breaks-picking]: success
+[2023-07-30 16:47:10] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.94.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.96.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-07-30 16:47:10] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.7.2.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.7.3.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-30 16:47:10] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-07-30 16:47:10] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.1.9.tar.gz --markdown 20230730/h/hiddifypanel/7.1.5-7.1.9/diff.md --exclude *.pyd
+[2023-07-30 16:47:10] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.1.0.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - processPackages [soagen]: Remove: archive file [/home/abi/fetcher/tmp/soagen-0.1.1.tar.gz]
+[2023-07-30 16:47:10] INFO root fetch - main [MainThread]: End processing [soagen]: success
+[2023-07-30 16:47:10] INFO root fetch - processPackages [oimbot]: Remove: archive file [/home/abi/fetcher/tmp/oimbot-5.0.0-py3-none-any.whl.zip]
+[2023-07-30 16:47:10] INFO root fetch - processPackages [oimbot]: Remove: archive file [/home/abi/fetcher/tmp/oimbot-6.6.0-py3-none-any.whl.zip]
+[2023-07-30 16:47:10] INFO root fetch - main [MainThread]: End processing [oimbot]: success
+[2023-07-30 16:47:11] INFO root fetch - processPackages [httpdbg]: Remove: archive file [/home/abi/fetcher/tmp/httpdbg-0.8.5.tar.gz]
+[2023-07-30 16:47:11] INFO root fetch - processPackages [httpdbg]: Remove: archive file [/home/abi/fetcher/tmp/httpdbg-0.9.0.tar.gz]
+[2023-07-30 16:47:11] INFO root fetch - main [MainThread]: End processing [httpdbg]: success
+[2023-07-30 16:47:12] INFO root fetch - processPackages [siriuspy]: Remove: archive file [/home/abi/fetcher/tmp/siriuspy-2.78.0.tar.gz]
+[2023-07-30 16:47:12] INFO root fetch - processPackages [siriuspy]: Remove: archive file [/home/abi/fetcher/tmp/siriuspy-2.79.0.tar.gz]
+[2023-07-30 16:47:12] INFO root fetch - main [MainThread]: End processing [siriuspy]: success
+[2023-07-30 16:47:16] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-30 16:47:16] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.9.tar.gz]
+[2023-07-30 16:47:16] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-07-30 16:47:16] INFO root fetch - main [MainThread]: Store serial: [19097041]
