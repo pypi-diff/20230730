@@ -15325,3 +15325,67 @@
 [2023-07-30 21:32:49] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.1.12.tar.gz]
 [2023-07-30 21:32:49] INFO root fetch - main [MainThread]: End processing [examon-beginners-package]: success
 [2023-07-30 21:32:49] INFO root fetch - main [MainThread]: Store serial: [19098885]
+[2023-07-30 21:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098885]
+[2023-07-30 21:37:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maphis
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-image-source-search
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matan
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgefrontend
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matan
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DmxOscServer
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sync-pre-commit-lock
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matan
+[2023-07-30 21:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neuralprocesses
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: New version: [0.1.6] Old Version: [0.1.5.2.9]
+[2023-07-30 21:37:58] WARNING root fetch - processPackages [DmxOscServer]: Skipping, unable to determine old version
+[2023-07-30 21:37:58] INFO root fetch - main [MainThread]: End processing [DmxOscServer] error
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: New version: [0.1.6] Old Version: [0.1.5.2.9]
+[2023-07-30 21:37:58] WARNING root fetch - processPackages [google-image-source-search]: Skipping, unable to determine old version
+[2023-07-30 21:37:58] INFO root fetch - main [MainThread]: End processing [google-image-source-search] error
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: New version: [0.1.6] Old Version: [0.1.5.2.9]
+[2023-07-30 21:37:58] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 21:37:58] INFO root fetch - processPackages [sync-pre-commit-lock]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-30 21:37:58] INFO root fetch - processPackages [maphis]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-30 21:37:58] INFO root fetch - processPackages [neuralprocesses]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/48/65/5ce9f8a299725852df96251e8573ce6ae7aa4f7556829d5940ed7945d3a1/matan-0.1.5.2.9.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/48/65/5ce9f8a299725852df96251e8573ce6ae7aa4f7556829d5940ed7945d3a1/matan-0.1.5.2.9.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/48/65/5ce9f8a299725852df96251e8573ce6ae7aa4f7556829d5940ed7945d3a1/matan-0.1.5.2.9.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [maphis]: Downloading https://files.pythonhosted.org/packages/6d/14/7e92fa79d3f3416f22a52bae4f8d114158fdbb28c741ed804ceabaec7d16/maphis-1.0.2.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [sync-pre-commit-lock]: Downloading https://files.pythonhosted.org/packages/c4/a8/75f3cfb6e7fbadb47a90f167507c74fc9abcf73a32d2d697bcf8454ac12d/sync_pre_commit_lock-0.2.0.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [neuralprocesses]: Downloading https://files.pythonhosted.org/packages/fa/74/00c542439fb4ebd81054f4ca789b62455d88ec2c4b7fad239804bf80f294/neuralprocesses-0.2.1.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/24/d0/02f78810bffa472867a3375e36ccc086c2122617169b9475b37e4985c218/matan-0.1.6.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/24/d0/02f78810bffa472867a3375e36ccc086c2122617169b9475b37e4985c218/matan-0.1.6.tar.gz
+[2023-07-30 21:37:58] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/24/d0/02f78810bffa472867a3375e36ccc086c2122617169b9475b37e4985c218/matan-0.1.6.tar.gz
+[2023-07-30 21:37:58] WARNING root fetch - processPackages [maphis]: Skipping package: exceeds size limit 18561196>=10485760
+[2023-07-30 21:37:58] INFO root fetch - main [MainThread]: End processing [maphis] error
+[2023-07-30 21:37:58] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-30 21:37:59] INFO root fetch - processPackages [matan]: executing diffoscope
+[2023-07-30 21:37:59] INFO root fetch - processPackages [matan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matan-0.1.5.2.9.tar.gz tmp/matan-0.1.6.tar.gz --markdown 20230730/m/matan/0.1.5.2.9-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 21:37:59] INFO root fetch - processPackages [matan]: executing diffoscope
+[2023-07-30 21:37:59] INFO root fetch - processPackages [matan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matan-0.1.5.2.9.tar.gz tmp/matan-0.1.6.tar.gz --markdown 20230730/m/matan/0.1.5.2.9-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 21:37:59] INFO root fetch - processPackages [matan]: executing diffoscope
+[2023-07-30 21:37:59] INFO root fetch - processPackages [matan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matan-0.1.5.2.9.tar.gz tmp/matan-0.1.6.tar.gz --markdown 20230730/m/matan/0.1.5.2.9-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 21:37:59] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-30 21:37:59] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 21:37:59] INFO root fetch - processPackages [sync-pre-commit-lock]: Downloading https://files.pythonhosted.org/packages/1c/b1/873a525e8910ddff33f27d29fb82ce4c03ede01ce3a90e23712afab7aa15/sync_pre_commit_lock-0.2.1.tar.gz
+[2023-07-30 21:37:59] INFO root fetch - processPackages [neuralprocesses]: Downloading https://files.pythonhosted.org/packages/b6/4e/66bc0f11ec88996527653edb93721768a97231db69823dd8a968321450f4/neuralprocesses-0.2.2.tar.gz
+[2023-07-30 21:37:59] INFO root fetch - processPackages [sync-pre-commit-lock]: executing diffoscope
+[2023-07-30 21:37:59] INFO root fetch - processPackages [sync-pre-commit-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sync_pre_commit_lock-0.2.0.tar.gz tmp/sync_pre_commit_lock-0.2.1.tar.gz --markdown 20230730/s/sync-pre-commit-lock/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 21:37:59] INFO root fetch - processPackages [neuralprocesses]: executing diffoscope
+[2023-07-30 21:37:59] INFO root fetch - processPackages [neuralprocesses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralprocesses-0.2.1.tar.gz tmp/neuralprocesses-0.2.2.tar.gz --markdown 20230730/n/neuralprocesses/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 21:38:00] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.9.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.6.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - main [MainThread]: End processing [matan]: success
+[2023-07-30 21:38:00] INFO root fetch - main [MainThread]: End processing [matan]: success
+[2023-07-30 21:38:00] INFO root fetch - main [MainThread]: End processing [matan]: success
+[2023-07-30 21:38:00] INFO root fetch - processPackages [sync-pre-commit-lock]: Remove: archive file [/home/abi/fetcher/tmp/sync_pre_commit_lock-0.2.0.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - processPackages [sync-pre-commit-lock]: Remove: archive file [/home/abi/fetcher/tmp/sync_pre_commit_lock-0.2.1.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - main [MainThread]: End processing [sync-pre-commit-lock]: success
+[2023-07-30 21:38:00] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-30 21:38:00] INFO root fetch - processPackages [neuralprocesses]: Remove: archive file [/home/abi/fetcher/tmp/neuralprocesses-0.2.1.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - processPackages [neuralprocesses]: Remove: archive file [/home/abi/fetcher/tmp/neuralprocesses-0.2.2.tar.gz]
+[2023-07-30 21:38:00] INFO root fetch - main [MainThread]: End processing [neuralprocesses]: success
+[2023-07-30 21:38:00] INFO root fetch - main [MainThread]: Store serial: [19098916]
