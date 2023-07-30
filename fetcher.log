@@ -3868,3 +3868,54 @@
 [2023-07-30 05:37:04] INFO root fetch - processPackages [scranpy]: Remove: archive file [/home/abi/fetcher/tmp/scranpy-0.0.2.tar.gz]
 [2023-07-30 05:37:04] INFO root fetch - main [MainThread]: End processing [scranpy]: success
 [2023-07-30 05:37:04] INFO root fetch - main [MainThread]: Store serial: [19093581]
+[2023-07-30 05:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093581]
+[2023-07-30 05:42:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 05:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andak
+[2023-07-30 05:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amatak-shop
+[2023-07-30 05:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Linguify
+[2023-07-30 05:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zylo
+[2023-07-30 05:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zood
+[2023-07-30 05:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bambooai
+[2023-07-30 05:42:12] INFO root fetch - processPackages [amatak-shop]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 05:42:12] INFO root fetch - processPackages [zood]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-07-30 05:42:12] WARNING root fetch - processPackages [andak]: Skipping, unable to determine old version
+[2023-07-30 05:42:12] INFO root fetch - main [MainThread]: End processing [andak] error
+[2023-07-30 05:42:12] INFO root fetch - processPackages [Linguify]: New version: [0.2] Old Version: [0.1]
+[2023-07-30 05:42:12] INFO root fetch - processPackages [zylo]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-30 05:42:12] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-30 05:42:12] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/e4/10/2b05eb2a18e31c019d2585c82e94ca486e72d3aab3b325b7b8307001b40b/amatak-shop-1.0.5.tar.gz
+[2023-07-30 05:42:12] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/00/59/33689a3b10ad5a4f88f283117a892a5a8a4a4339d74ecd8f1ca36090d9cc/Linguify-0.1.tar.gz
+[2023-07-30 05:42:12] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/37/9a/4b1eda7d3238a99b3c2ce01778b17f7d7684070fd206a52a9aaeb251222d/zylo-2.0.3.tar.gz
+[2023-07-30 05:42:12] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/0c/04/d1291d54e709f4aaaf28720d8f053823070e815d298927c3ee8e724f6d1d/zood-0.7.6.tar.gz
+[2023-07-30 05:42:13] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2023-07-30 05:42:13] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/a7/d4/0e248341fe2b2560e3d1ae202eff410e463a101bc1fc7dd8dc965ff9bd04/amatak-shop-1.0.6.tar.gz
+[2023-07-30 05:42:13] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/16/7f/d571bfa62045831b366b697cf6b06ecb95d97ead1499114a36bd5af073bf/Linguify-0.2.tar.gz
+[2023-07-30 05:42:13] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/d7/7b/8830b86064bab2b8f20897bfb24ae223fb7d85e2ae036b2cd155a15aae51/zylo-2.0.4.tar.gz
+[2023-07-30 05:42:13] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/f8/b1/0dbac1d327501baeb338cc0ae509960dfa4ab5385b5876034fbdf61c35c3/zood-0.8.0.tar.gz
+[2023-07-30 05:42:13] INFO root fetch - processPackages [amatak-shop]: executing diffoscope
+[2023-07-30 05:42:13] INFO root fetch - processPackages [amatak-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amatak-shop-1.0.5.tar.gz tmp/amatak-shop-1.0.6.tar.gz --markdown 20230730/a/amatak-shop/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 05:42:13] INFO root fetch - processPackages [Linguify]: executing diffoscope
+[2023-07-30 05:42:13] INFO root fetch - processPackages [Linguify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Linguify-0.1.tar.gz tmp/Linguify-0.2.tar.gz --markdown 20230730/L/Linguify/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-30 05:42:13] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2023-07-30 05:42:13] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-30 05:42:13] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-2.0.3.tar.gz tmp/zylo-2.0.4.tar.gz --markdown 20230730/z/zylo/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-30 05:42:13] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-30 05:42:13] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.6.tar.gz tmp/zood-0.8.0.tar.gz --markdown 20230730/z/zood/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-07-30 05:42:13] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-07-30 05:42:13] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20230730/b/bambooai/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-30 05:42:14] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-0.1.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-0.2.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - main [MainThread]: End processing [Linguify]: success
+[2023-07-30 05:42:14] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.3.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.4.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-30 05:42:14] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-07-30 05:42:14] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.5.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.6.tar.gz]
+[2023-07-30 05:42:14] INFO root fetch - main [MainThread]: End processing [amatak-shop]: success
+[2023-07-30 05:42:15] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.6.tar.gz]
+[2023-07-30 05:42:15] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.0.tar.gz]
+[2023-07-30 05:42:15] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-30 05:42:15] INFO root fetch - main [MainThread]: Store serial: [19093601]
