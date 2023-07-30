@@ -13066,3 +13066,86 @@
 [2023-07-30 18:34:42] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.9.tar.gz]
 [2023-07-30 18:34:42] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
 [2023-07-30 18:34:42] INFO root fetch - main [MainThread]: Store serial: [19097783]
+[2023-07-30 18:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097783]
+[2023-07-30 18:39:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql-constructor
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmcb-avt
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghcr-badge
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: richery
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TESPy
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-us
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Qwack
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feathub-nightly
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fl-studio-api-stubs
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uszipstats
+[2023-07-30 18:39:50] INFO root fetch - processPackages [TESPy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-30 18:39:50] INFO root fetch - processPackages [fl-studio-api-stubs]: New version: [28.2.1] Old Version: [28.2.0]
+[2023-07-30 18:39:50] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-30 18:39:50] INFO root fetch - processPackages [richery]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 18:39:50] WARNING root fetch - processPackages [Qwack]: Skipping, unable to determine old version
+[2023-07-30 18:39:50] INFO root fetch - processPackages [ghcr-badge]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-30 18:39:50] INFO root fetch - main [MainThread]: End processing [Qwack] error
+[2023-07-30 18:39:50] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 18:39:50] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230729] Old Version: [0.1.dev20230728]
+[2023-07-30 18:39:50] INFO root fetch - processPackages [policyengine-us]: New version: [0.401.1] Old Version: [0.401.0]
+[2023-07-30 18:39:51] INFO root fetch - processPackages [uszipstats]: New version: [0.4] Old Version: [0.3]
+[2023-07-30 18:39:51] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/df/7f/472c3e6b735c3718d23b0f8804f93820eaefd9d4e8e9343320d9f73dbf62/feathub_nightly-0.1.dev20230728-py3-none-any.whl
+[2023-07-30 18:39:51] INFO root fetch - processPackages [fl-studio-api-stubs]: Downloading https://files.pythonhosted.org/packages/5b/27/be2a45927bbcf9fab546798bb7d72055ac882aa415503ac9114b594ab6dd/fl_studio_api_stubs-28.2.0.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/fc/d3/5ae158ad61c31d6a3afeed4122b5ede40181711efcb7a383026c06d9daf0/sql_constructor-1.0.6.tar.gz
+[2023-07-30 18:39:51] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12599826>=10485760
+[2023-07-30 18:39:51] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-30 18:39:51] INFO root fetch - processPackages [TESPy]: Downloading https://files.pythonhosted.org/packages/f3/ec/9d2ff4a3ea32c9b9f4d527c67e6eb49ce4b0471e66c96132b6d3fedec8c2/TESPy-0.6.2.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/16/d7/4fe3e4094100f03d08fa1f410f596dacfba72723ce69be49b0ea49361226/mmcb-avt-0.0.98.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [ghcr-badge]: Downloading https://files.pythonhosted.org/packages/70/22/0d1449915407816a287c22b2be1c11156dd2e727d51cbbfdfeeaa184df29/ghcr_badge-0.2.1.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [richery]: Downloading https://files.pythonhosted.org/packages/ce/3b/3c7063654630d2aa11c4c9cf8c2d42020b04538ab589610bce568426efe4/richery-0.1.0.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [uszipstats]: Downloading https://files.pythonhosted.org/packages/70/d4/d016f757dd423a33a1d9ffae98abc2d87d8a129c2704cf2c42fd8a8a821a/uszipstats-0.3.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f8/93/9f96e9c1578d5571ce40c76651d8d8d3a7dbb838065dfdfdcb4b1873ada2/policyengine-us-0.401.0.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [fl-studio-api-stubs]: Downloading https://files.pythonhosted.org/packages/4d/9b/e2b15a6275578652859fe70630c6cb0d3c63e33a09f488c45d6302537a2b/fl_studio_api_stubs-28.2.1.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [ghcr-badge]: Downloading https://files.pythonhosted.org/packages/b0/f4/1e70652d6b1e987e4af3e114eed733f84d8496154b50d07f4069113868b8/ghcr_badge-0.3.0.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f9/93/b51a2380da390bedf2a6a592152ba011293ecd97215608383b50624ffce6/sql_constructor-1.0.7.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [richery]: Downloading https://files.pythonhosted.org/packages/07/fd/4d486a8498a08a195805a6eb80fb7754c85a0d00b83aff0f5590a9a52371/richery-0.1.1.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [uszipstats]: Downloading https://files.pythonhosted.org/packages/42/b0/241d9c61d1c7130ac1bfee86c8fe84622321dc3fc20e0059960717b185d8/uszipstats-0.4.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [fl-studio-api-stubs]: executing diffoscope
+[2023-07-30 18:39:51] INFO root fetch - processPackages [fl-studio-api-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fl_studio_api_stubs-28.2.0.tar.gz tmp/fl_studio_api_stubs-28.2.1.tar.gz --markdown 20230730/f/fl-studio-api-stubs/28.2.0-28.2.1/diff.md --exclude *.pyd
+[2023-07-30 18:39:51] INFO root fetch - processPackages [TESPy]: Downloading https://files.pythonhosted.org/packages/9f/c3/f3f189e7e24b0f3c2deeaf57c87ac07e1adb759b70c210f01a99170aaeb3/TESPy-0.6.3.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/12/64/9e2debedf2e579aa60d1875df6b2347d152959a81be1006b3b93c1c1cf85/mmcb-avt-0.0.99.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [ghcr-badge]: executing diffoscope
+[2023-07-30 18:39:51] INFO root fetch - processPackages [ghcr-badge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghcr_badge-0.2.1.tar.gz tmp/ghcr_badge-0.3.0.tar.gz --markdown 20230730/g/ghcr-badge/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 18:39:51] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/4b/9f/32e33b81c1e948a0181f5dc5d68487f755f0ea81901bd6292e8a34cb6d14/policyengine-us-0.401.1.tar.gz
+[2023-07-30 18:39:51] INFO root fetch - processPackages [richery]: executing diffoscope
+[2023-07-30 18:39:51] INFO root fetch - processPackages [richery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richery-0.1.0.tar.gz tmp/richery-0.1.1.tar.gz --markdown 20230730/r/richery/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 18:39:51] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 18:39:51] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.6.tar.gz tmp/sql_constructor-1.0.7.tar.gz --markdown 20230730/s/sql-constructor/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-30 18:39:51] INFO root fetch - processPackages [uszipstats]: executing diffoscope
+[2023-07-30 18:39:51] INFO root fetch - processPackages [uszipstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uszipstats-0.3.tar.gz tmp/uszipstats-0.4.tar.gz --markdown 20230730/u/uszipstats/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-30 18:39:52] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-07-30 18:39:52] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.98.tar.gz tmp/mmcb-avt-0.0.99.tar.gz --markdown 20230730/m/mmcb-avt/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 18:39:52] INFO root fetch - processPackages [TESPy]: executing diffoscope
+[2023-07-30 18:39:52] INFO root fetch - processPackages [TESPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TESPy-0.6.2.tar.gz tmp/TESPy-0.6.3.tar.gz --markdown 20230730/T/TESPy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-30 18:39:52] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-30 18:39:52] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.401.0.tar.gz tmp/policyengine-us-0.401.1.tar.gz --markdown 20230730/p/policyengine-us/0.401.0-0.401.1/diff.md --exclude *.pyd
+[2023-07-30 18:39:52] INFO root fetch - processPackages [richery]: Remove: archive file [/home/abi/fetcher/tmp/richery-0.1.0.tar.gz]
+[2023-07-30 18:39:52] INFO root fetch - processPackages [richery]: Remove: archive file [/home/abi/fetcher/tmp/richery-0.1.1.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - main [MainThread]: End processing [richery]: success
+[2023-07-30 18:39:53] INFO root fetch - processPackages [uszipstats]: Remove: archive file [/home/abi/fetcher/tmp/uszipstats-0.3.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - processPackages [uszipstats]: Remove: archive file [/home/abi/fetcher/tmp/uszipstats-0.4.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - main [MainThread]: End processing [uszipstats]: success
+[2023-07-30 18:39:53] INFO root fetch - processPackages [ghcr-badge]: Remove: archive file [/home/abi/fetcher/tmp/ghcr_badge-0.2.1.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - processPackages [ghcr-badge]: Remove: archive file [/home/abi/fetcher/tmp/ghcr_badge-0.3.0.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - main [MainThread]: End processing [ghcr-badge]: success
+[2023-07-30 18:39:53] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.6.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.7.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 18:39:53] INFO root fetch - processPackages [fl-studio-api-stubs]: Remove: archive file [/home/abi/fetcher/tmp/fl_studio_api_stubs-28.2.0.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - processPackages [fl-studio-api-stubs]: Remove: archive file [/home/abi/fetcher/tmp/fl_studio_api_stubs-28.2.1.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - main [MainThread]: End processing [fl-studio-api-stubs]: success
+[2023-07-30 18:39:53] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.98.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.99.tar.gz]
+[2023-07-30 18:39:53] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-07-30 18:39:55] INFO root fetch - processPackages [TESPy]: Remove: archive file [/home/abi/fetcher/tmp/TESPy-0.6.2.tar.gz]
+[2023-07-30 18:39:55] INFO root fetch - processPackages [TESPy]: Remove: archive file [/home/abi/fetcher/tmp/TESPy-0.6.3.tar.gz]
+[2023-07-30 18:39:55] INFO root fetch - main [MainThread]: End processing [TESPy]: success
+[2023-07-30 18:40:23] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.401.0.tar.gz]
+[2023-07-30 18:40:23] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.401.1.tar.gz]
+[2023-07-30 18:40:23] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-30 18:40:23] INFO root fetch - main [MainThread]: Store serial: [19097813]
