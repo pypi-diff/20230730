@@ -16469,3 +16469,69 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 23:10:17] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.9.tar.gz]
 [2023-07-30 23:10:17] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
 [2023-07-30 23:10:17] INFO root fetch - main [MainThread]: Store serial: [19099470]
+[2023-07-30 23:15:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099470]
+[2023-07-30 23:15:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 23:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycsgogpt
+[2023-07-30 23:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dokuwikidumper
+[2023-07-30 23:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gtempco2
+[2023-07-30 23:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmesh
+[2023-07-30 23:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: add-trailing-comma
+[2023-07-30 23:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hermite-function
+[2023-07-30 23:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyats-genie-command-parse
+[2023-07-30 23:15:26] INFO root fetch - processPackages [pycsgogpt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-30 23:15:26] INFO root fetch - processPackages [gtempco2]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 23:15:26] INFO root fetch - processPackages [hermite-function]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-30 23:15:26] INFO root fetch - processPackages [add-trailing-comma]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-30 23:15:26] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 23:15:26] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 23:15:26] INFO root fetch - processPackages [pyats-genie-command-parse]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-30 23:15:26] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/7d/83/b99aa818b5aa0730b58407a8881e95f317f642c43d4cb576d2065beb01d5/gtempco2-0.0.7.tar.gz
+[2023-07-30 23:15:26] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-30 23:15:26] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/2d/71/fe88167bb787cbbb9a4e5ee3ea8ead1ad21c5091a673721f122bc8a2ec9f/hermite-function-1.0.tar.gz
+[2023-07-30 23:15:26] INFO root fetch - processPackages [pycsgogpt]: Downloading https://files.pythonhosted.org/packages/46/f2/76af626a7989299a83439b6268efd8409c63cb7c0eedbcb7cdb327f36d22/pycsgogpt-0.1.5.tar.gz
+[2023-07-30 23:15:26] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8a/77/6dec3b11bf518fac347215309f743f5b619907f701930657ce67b1a56294/dokuwikidumper-0.1.8.tar.gz
+[2023-07-30 23:15:26] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/9b/ce/a502ad2690d79a80b8c51b9ed6a0e409c5afbac06ce7ee77ca73f2a5daa7/add_trailing_comma-3.0.0.tar.gz
+[2023-07-30 23:15:26] INFO root fetch - processPackages [pyats-genie-command-parse]: Downloading https://files.pythonhosted.org/packages/57/23/3a96e17dba7fc0312f7d4f6116b2b8839ea5514ea0fcbeaf58af6e068d02/pyats-genie-command-parse-1.3.6.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/64/17/8de80a1830133d4a4bd194c638b635e3dfd73b935ef886164a6ebd480366/gtempco2-0.0.8.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [hermite-function]: Downloading https://files.pythonhosted.org/packages/59/ee/c1a20fa32ca8fab449d09e3f103a15a227099b2a7ad2373e9b82fa558f1a/hermite-function-1.0.1.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [pycsgogpt]: Downloading https://files.pythonhosted.org/packages/8a/06/a15bc3fac90241d0204bf17bea65491097599ee4262164baa97776e046ad/pycsgogpt-0.1.6.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [dokuwikidumper]: Downloading https://files.pythonhosted.org/packages/8e/0b/c59e9f31ad583ecbb464b66cbce93ebe16efa5f9597f9aea718ec09587fb/dokuwikidumper-0.1.9.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [pyats-genie-command-parse]: Downloading https://files.pythonhosted.org/packages/61/5a/3a4f3eb1051914fe08760ffb04ab7bed77844d705a57ce34c6cc8e62260c/pyats-genie-command-parse-1.3.7.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/97/35/600913775221fa03aa8c2a6906b013403611eb3eb2c8516a9ae2e7ee3e85/add_trailing_comma-3.0.1.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [hermite-function]: executing diffoscope
+[2023-07-30 23:15:27] INFO root fetch - processPackages [hermite-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermite-function-1.0.tar.gz tmp/hermite-function-1.0.1.tar.gz --markdown 20230730/h/hermite-function/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 23:15:27] INFO root fetch - processPackages [pycsgogpt]: executing diffoscope
+[2023-07-30 23:15:27] INFO root fetch - processPackages [pycsgogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycsgogpt-0.1.5.tar.gz tmp/pycsgogpt-0.1.6.tar.gz --markdown 20230730/p/pycsgogpt/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 23:15:27] INFO root fetch - processPackages [gtempco2]: executing diffoscope
+[2023-07-30 23:15:27] INFO root fetch - processPackages [gtempco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtempco2-0.0.7.tar.gz tmp/gtempco2-0.0.8.tar.gz --markdown 20230730/g/gtempco2/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 23:15:27] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-30 23:15:27] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-07-30 23:15:27] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230730/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 23:15:27] INFO root fetch - processPackages [pyats-genie-command-parse]: executing diffoscope
+[2023-07-30 23:15:27] INFO root fetch - processPackages [pyats-genie-command-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyats-genie-command-parse-1.3.6.tar.gz tmp/pyats-genie-command-parse-1.3.7.tar.gz --markdown 20230730/p/pyats-genie-command-parse/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-30 23:15:27] INFO root fetch - processPackages [add-trailing-comma]: executing diffoscope
+[2023-07-30 23:15:27] INFO root fetch - processPackages [add-trailing-comma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/add_trailing_comma-3.0.0.tar.gz tmp/add_trailing_comma-3.0.1.tar.gz --markdown 20230730/a/add-trailing-comma/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-30 23:15:27] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-30 23:15:27] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230730/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 23:15:28] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.7.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.8.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - main [MainThread]: End processing [gtempco2]: success
+[2023-07-30 23:15:28] INFO root fetch - processPackages [pycsgogpt]: Remove: archive file [/home/abi/fetcher/tmp/pycsgogpt-0.1.5.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - processPackages [pycsgogpt]: Remove: archive file [/home/abi/fetcher/tmp/pycsgogpt-0.1.6.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - main [MainThread]: End processing [pycsgogpt]: success
+[2023-07-30 23:15:28] INFO root fetch - processPackages [pyats-genie-command-parse]: Remove: archive file [/home/abi/fetcher/tmp/pyats-genie-command-parse-1.3.6.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - processPackages [pyats-genie-command-parse]: Remove: archive file [/home/abi/fetcher/tmp/pyats-genie-command-parse-1.3.7.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - main [MainThread]: End processing [pyats-genie-command-parse]: success
+[2023-07-30 23:15:28] INFO root fetch - processPackages [dokuwikidumper]: Remove: archive file [/home/abi/fetcher/tmp/dokuwikidumper-0.1.8.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - processPackages [dokuwikidumper]: Remove: archive file [/home/abi/fetcher/tmp/dokuwikidumper-0.1.9.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-07-30 23:15:28] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-1.0.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - processPackages [hermite-function]: Remove: archive file [/home/abi/fetcher/tmp/hermite-function-1.0.1.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - main [MainThread]: End processing [hermite-function]: success
+[2023-07-30 23:15:28] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-3.0.0.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-3.0.1.tar.gz]
+[2023-07-30 23:15:28] INFO root fetch - main [MainThread]: End processing [add-trailing-comma]: success
+[2023-07-30 23:15:57] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-30 23:15:57] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-30 23:15:57] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-30 23:15:57] INFO root fetch - main [MainThread]: Store serial: [19099495]
