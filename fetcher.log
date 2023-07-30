@@ -4369,3 +4369,68 @@
 [2023-07-30 06:34:32] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-07-30 06:34:32] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-07-30 06:34:32] INFO root fetch - main [MainThread]: Store serial: [19093774]
+[2023-07-30 06:39:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093774]
+[2023-07-30 06:39:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nn4n
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aibasics
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyepsilla
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikGapps
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hmfs
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jobbergate-core
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jobbergate-api
+[2023-07-30 06:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jobbergate-cli
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-cli]: New version: [3.6.0] Old Version: [3.5.0a7]
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-core]: New version: [3.6.0] Old Version: [3.5.0a7]
+[2023-07-30 06:39:42] INFO root fetch - processPackages [aibasics]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-30 06:39:42] INFO root fetch - processPackages [pyepsilla]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-api]: New version: [3.6.0] Old Version: [3.5.0a7]
+[2023-07-30 06:39:42] INFO root fetch - processPackages [NikGapps]: New version: [1.68] Old Version: [1.67]
+[2023-07-30 06:39:42] INFO root fetch - processPackages [hmfs]: New version: [1.1.6] Old Version: [1.1.5147]
+[2023-07-30 06:39:42] WARNING root fetch - processPackages [nn4n]: Skipping, unable to determine old version
+[2023-07-30 06:39:42] INFO root fetch - main [MainThread]: End processing [nn4n] error
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-core]: Downloading https://files.pythonhosted.org/packages/73/59/2f15d997b34e3afc357526a7c3fba5063ada9421070d981de36575c9414a/jobbergate_core-3.5.0a7.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [aibasics]: Downloading https://files.pythonhosted.org/packages/9d/64/96f9b1e7ca8883e5339eb49af9031d5e4d6a11a9d0954fa3c82d3157b7e4/aibasics-0.2.2.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-cli]: Downloading https://files.pythonhosted.org/packages/c4/aa/8cdc5361fb0e034e6c1eed5bd5d007bd6e2dc09709fb5e8cd9a6496aa190/jobbergate_cli-3.5.0a7.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/78/00/ba921d0b81e37c46ec2e175d0bcc0be0c966862aa4347ecf7f0b01ab97b9/NikGapps-1.67.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/85/c6/a7c6cf4d9dab7c1a7905d1cbf8a7c281f42732b05aa3bcb2b93bdebb64c7/pyepsilla-0.0.8.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/7a/b2/a7b05cf5649b77a5c6e286c9663cad38933e6b115846f48f24d0a5c29f91/hmfs-1.1.5147.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-api]: Downloading https://files.pythonhosted.org/packages/c1/a2/4956954551f7c92b738798fced0406ab9a39ba67e0d12f7de294cbb7c0ad/jobbergate_api-3.5.0a7.tar.gz
+[2023-07-30 06:39:42] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41566305>=10485760
+[2023-07-30 06:39:42] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-30 06:39:42] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/f3/52/113d86ed96662f160c8b3469f10be14340df0f546fd71915f2f579f118f0/pyepsilla-0.0.9.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-core]: Downloading https://files.pythonhosted.org/packages/e8/52/ad8b23a02eee63269817f4eb8987c33de974aa27a3a52758d0396e89c2d1/jobbergate_core-3.6.0.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [aibasics]: Downloading https://files.pythonhosted.org/packages/50/a4/6877bb632baa03f33b94d24fdd0d71ab2ad6abe2ecf7b837ecd87b1cee4f/aibasics-0.2.3.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-cli]: Downloading https://files.pythonhosted.org/packages/35/73/997998a2aa14030aee5e1b6eb7989eebe70390d022ef81cc0af7f99e885b/jobbergate_cli-3.6.0.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/9f/e2/2aeaa17665627542a9bcb80c17dcf663309ba83964369dd3ef9fa4ffc362/hmfs-1.1.6.tar.gz
+[2023-07-30 06:39:42] INFO root fetch - processPackages [aibasics]: executing diffoscope
+[2023-07-30 06:39:42] INFO root fetch - processPackages [aibasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibasics-0.2.2.tar.gz tmp/aibasics-0.2.3.tar.gz --markdown 20230730/a/aibasics/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-30 06:39:42] INFO root fetch - processPackages [jobbergate-api]: Downloading https://files.pythonhosted.org/packages/2f/09/13ac783e0f8d213ad4bf69b01bb8bbf0b22e640822cc920419596f268f0f/jobbergate_api-3.6.0.tar.gz
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-core]: executing diffoscope
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobbergate_core-3.5.0a7.tar.gz tmp/jobbergate_core-3.6.0.tar.gz --markdown 20230730/j/jobbergate-core/3.5.0a7-3.6.0/diff.md --exclude *.pyd
+[2023-07-30 06:39:43] INFO root fetch - processPackages [pyepsilla]: executing diffoscope
+[2023-07-30 06:39:43] INFO root fetch - processPackages [pyepsilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepsilla-0.0.8.tar.gz tmp/pyepsilla-0.0.9.tar.gz --markdown 20230730/p/pyepsilla/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-cli]: executing diffoscope
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobbergate_cli-3.5.0a7.tar.gz tmp/jobbergate_cli-3.6.0.tar.gz --markdown 20230730/j/jobbergate-cli/3.5.0a7-3.6.0/diff.md --exclude *.pyd
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-api]: executing diffoscope
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobbergate_api-3.5.0a7.tar.gz tmp/jobbergate_api-3.6.0.tar.gz --markdown 20230730/j/jobbergate-api/3.5.0a7-3.6.0/diff.md --exclude *.pyd
+[2023-07-30 06:39:43] INFO root fetch - processPackages [hmfs]: executing diffoscope
+[2023-07-30 06:39:43] INFO root fetch - processPackages [hmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmfs-1.1.5147.tar.gz tmp/hmfs-1.1.6.tar.gz --markdown 20230730/h/hmfs/1.1.5147-1.1.6/diff.md --exclude *.pyd
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-core]: Remove: archive file [/home/abi/fetcher/tmp/jobbergate_core-3.5.0a7.tar.gz]
+[2023-07-30 06:39:43] INFO root fetch - processPackages [jobbergate-core]: Remove: archive file [/home/abi/fetcher/tmp/jobbergate_core-3.6.0.tar.gz]
+[2023-07-30 06:39:43] INFO root fetch - main [MainThread]: End processing [jobbergate-core]: success
+[2023-07-30 06:39:44] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.0.8.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.0.9.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - main [MainThread]: End processing [pyepsilla]: success
+[2023-07-30 06:39:44] INFO root fetch - processPackages [aibasics]: Remove: archive file [/home/abi/fetcher/tmp/aibasics-0.2.2.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - processPackages [aibasics]: Remove: archive file [/home/abi/fetcher/tmp/aibasics-0.2.3.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - main [MainThread]: End processing [aibasics]: success
+[2023-07-30 06:39:44] INFO root fetch - processPackages [jobbergate-cli]: Remove: archive file [/home/abi/fetcher/tmp/jobbergate_cli-3.5.0a7.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - processPackages [jobbergate-cli]: Remove: archive file [/home/abi/fetcher/tmp/jobbergate_cli-3.6.0.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - main [MainThread]: End processing [jobbergate-cli]: success
+[2023-07-30 06:39:44] INFO root fetch - processPackages [jobbergate-api]: Remove: archive file [/home/abi/fetcher/tmp/jobbergate_api-3.5.0a7.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - processPackages [jobbergate-api]: Remove: archive file [/home/abi/fetcher/tmp/jobbergate_api-3.6.0.tar.gz]
+[2023-07-30 06:39:44] INFO root fetch - main [MainThread]: End processing [jobbergate-api]: success
+[2023-07-30 06:39:45] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.5147.tar.gz]
+[2023-07-30 06:39:45] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
+[2023-07-30 06:39:45] INFO root fetch - main [MainThread]: End processing [hmfs]: success
+[2023-07-30 06:39:45] INFO root fetch - main [MainThread]: Store serial: [19093818]
