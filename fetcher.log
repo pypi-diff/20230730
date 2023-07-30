@@ -12222,3 +12222,72 @@
 [2023-07-30 17:30:49] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.1.7.tar.gz]
 [2023-07-30 17:30:49] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
 [2023-07-30 17:30:49] INFO root fetch - main [MainThread]: Store serial: [19097378]
+[2023-07-30 17:35:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097378]
+[2023-07-30 17:35:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavanda
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solidpython2
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TSolLum
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcsc-data-common
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyutils
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opet
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fusion-engine
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TranslatorX
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsno
+[2023-07-30 17:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epubgen
+[2023-07-30 17:35:58] WARNING root fetch - processPackages [opet]: Skipping, unable to determine old version
+[2023-07-30 17:35:58] INFO root fetch - main [MainThread]: End processing [opet] error
+[2023-07-30 17:35:58] WARNING root fetch - processPackages [lavanda]: Skipping, unable to determine old version
+[2023-07-30 17:35:58] INFO root fetch - main [MainThread]: End processing [lavanda] error
+[2023-07-30 17:35:58] INFO root fetch - processPackages [TSolLum]: New version: [0.2] Old Version: [0.1]
+[2023-07-30 17:35:58] INFO root fetch - processPackages [pyutils]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-07-30 17:35:58] WARNING root fetch - processPackages [TranslatorX]: Skipping, unable to determine old version
+[2023-07-30 17:35:58] INFO root fetch - main [MainThread]: End processing [TranslatorX] error
+[2023-07-30 17:35:58] INFO root fetch - processPackages [solidpython2]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-30 17:35:58] INFO root fetch - processPackages [fusion-engine]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-07-30 17:35:58] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-30 17:35:58] INFO root fetch - processPackages [jsno]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-30 17:35:58] WARNING root fetch - processPackages [epubgen]: Skipping, unable to determine old version
+[2023-07-30 17:35:58] INFO root fetch - main [MainThread]: End processing [epubgen] error
+[2023-07-30 17:35:58] INFO root fetch - processPackages [TSolLum]: Downloading https://files.pythonhosted.org/packages/85/14/90715ed728f69f58df0478d556c1183cb92f2daf9fc24ecb96eab05b2900/TSolLum-0.1.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/27/50/3ae892a4bd4fcdaa42f4a04d9bd0076733357c659cf7c794bdc24883d3cf/pyutils-0.0.1b8-py3-none-any.whl
+[2023-07-30 17:35:58] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/b5/5d/5e5dc4cac796518011892403eb2f9ee526d2cb71f3755b5d6c50ce261602/fusion-engine-0.3.0.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/12/10/b4c5f837a8b2650eda452dba16aa6cf804873fbbddeb4b6e76fc36565545/vcsc_data_common-0.2.2.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [solidpython2]: Downloading https://files.pythonhosted.org/packages/3e/7a/fdb48ef54f13f3016b8bacefc6faaa760e832cf623fa0c91901c6227de69/solidpython2-2.0.2.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [jsno]: Downloading https://files.pythonhosted.org/packages/de/59/e7fea88501af6d8867974773440bdd1160e4259589d2532581a943eab0a6/jsno-1.0.3.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [TSolLum]: Downloading https://files.pythonhosted.org/packages/05/d6/ac5c86fbb391b858c68ff5958f6d7b1b57e56e3c5c6991cfae7389b38d44/TSolLum-0.2.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [TSolLum]: executing diffoscope
+[2023-07-30 17:35:58] INFO root fetch - processPackages [TSolLum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSolLum-0.1.tar.gz tmp/TSolLum-0.2.tar.gz --markdown 20230730/T/TSolLum/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-30 17:35:58] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/35/cf/f9bd46c833ce9d7e4a3573c7ae909e08f6cca1989174573a627718c175cc/fusion-engine-1.0.0.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/d3/41/e4e605bf8895b69dc13eadb1a39c514642c3eb41d34af4e21be48320ba1f/vcsc_data_common-0.2.3.tar.gz
+[2023-07-30 17:35:58] INFO root fetch - processPackages [jsno]: Downloading https://files.pythonhosted.org/packages/3e/eb/00294dc19a0bb4d7ca0c099b0878105be8bcb51659850c61b38a29cad5ac/jsno-1.0.4.tar.gz
+[2023-07-30 17:35:59] INFO root fetch - processPackages [solidpython2]: Downloading https://files.pythonhosted.org/packages/e7/06/3584318f0851ba1bd76033075bcab95ee00e472050215755cdb2a7fc4f85/solidpython2-2.0.3.tar.gz
+[2023-07-30 17:35:59] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-30 17:35:59] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.3.0.tar.gz tmp/fusion-engine-1.0.0.tar.gz --markdown 20230730/f/fusion-engine/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 17:35:59] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-07-30 17:35:59] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.2.2.tar.gz tmp/vcsc_data_common-0.2.3.tar.gz --markdown 20230730/v/vcsc-data-common/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-30 17:35:59] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/c8/9a/0d17bafc8102fc91fad611435c794bf7de1fd2751d1710ad8a41f99a4da1/pyutils-0.0.1b9-py3-none-any.whl
+[2023-07-30 17:35:59] INFO root fetch - processPackages [solidpython2]: executing diffoscope
+[2023-07-30 17:35:59] INFO root fetch - processPackages [solidpython2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidpython2-2.0.2.tar.gz tmp/solidpython2-2.0.3.tar.gz --markdown 20230730/s/solidpython2/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-30 17:35:59] INFO root fetch - processPackages [jsno]: executing diffoscope
+[2023-07-30 17:35:59] INFO root fetch - processPackages [jsno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsno-1.0.3.tar.gz tmp/jsno-1.0.4.tar.gz --markdown 20230730/j/jsno/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 17:35:59] INFO root fetch - processPackages [pyutils]: executing diffoscope
+[2023-07-30 17:35:59] INFO root fetch - processPackages [pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils-0.0.1b8-py3-none-any.whl.zip tmp/pyutils-0.0.1b9-py3-none-any.whl.zip --markdown 20230730/p/pyutils/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-07-30 17:35:59] INFO root fetch - processPackages [TSolLum]: Remove: archive file [/home/abi/fetcher/tmp/TSolLum-0.1.tar.gz]
+[2023-07-30 17:35:59] INFO root fetch - processPackages [TSolLum]: Remove: archive file [/home/abi/fetcher/tmp/TSolLum-0.2.tar.gz]
+[2023-07-30 17:35:59] INFO root fetch - main [MainThread]: End processing [TSolLum]: success
+[2023-07-30 17:36:00] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.2.2.tar.gz]
+[2023-07-30 17:36:00] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.2.3.tar.gz]
+[2023-07-30 17:36:00] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-07-30 17:36:00] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.3.0.tar.gz]
+[2023-07-30 17:36:00] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-1.0.0.tar.gz]
+[2023-07-30 17:36:00] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-30 17:36:00] INFO root fetch - processPackages [jsno]: Remove: archive file [/home/abi/fetcher/tmp/jsno-1.0.3.tar.gz]
+[2023-07-30 17:36:00] INFO root fetch - processPackages [jsno]: Remove: archive file [/home/abi/fetcher/tmp/jsno-1.0.4.tar.gz]
+[2023-07-30 17:36:00] INFO root fetch - main [MainThread]: End processing [jsno]: success
+[2023-07-30 17:36:00] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b8-py3-none-any.whl.zip]
+[2023-07-30 17:36:00] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b9-py3-none-any.whl.zip]
+[2023-07-30 17:36:00] INFO root fetch - main [MainThread]: End processing [pyutils]: success
+[2023-07-30 17:36:01] INFO root fetch - processPackages [solidpython2]: Remove: archive file [/home/abi/fetcher/tmp/solidpython2-2.0.2.tar.gz]
+[2023-07-30 17:36:01] INFO root fetch - processPackages [solidpython2]: Remove: archive file [/home/abi/fetcher/tmp/solidpython2-2.0.3.tar.gz]
+[2023-07-30 17:36:01] INFO root fetch - main [MainThread]: End processing [solidpython2]: success
+[2023-07-30 17:36:01] INFO root fetch - main [MainThread]: Store serial: [19097415]
