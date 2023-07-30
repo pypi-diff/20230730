@@ -9450,3 +9450,72 @@
 [2023-07-30 14:17:22] INFO root fetch - processPackages [magicinpaint-gpu]: Remove: archive file [/home/abi/fetcher/tmp/magicinpaint_gpu-1.0.2-cp39-cp39-win_amd64.whl.zip]
 [2023-07-30 14:17:22] INFO root fetch - main [MainThread]: End processing [magicinpaint-gpu]: success
 [2023-07-30 14:17:22] INFO root fetch - main [MainThread]: Store serial: [19096142]
+[2023-07-30 14:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096142]
+[2023-07-30 14:22:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyyt-cli
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dispenser
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moosez
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mcsrv-xImAnton
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enveasy
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ag-llama-hub-s
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-on-whales
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagshub
+[2023-07-30 14:22:30] INFO root fetch - processPackages [pyyt-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 14:22:30] INFO root fetch - processPackages [moosez]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ag-llama-hub-s]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-30 14:22:30] INFO root fetch - processPackages [dispenser]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-30 14:22:30] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/25/96/d544d541457e59d36a0d3157efd4aa8736286f809de66d339e0e5398b4a7/pyyt-cli-0.2.1.tar.gz
+[2023-07-30 14:22:30] WARNING root fetch - processPackages [enveasy]: Skipping, unable to determine old version
+[2023-07-30 14:22:30] INFO root fetch - main [MainThread]: End processing [enveasy] error
+[2023-07-30 14:22:30] INFO root fetch - processPackages [mcsrv-xImAnton]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ag-llama-hub-s]: Downloading https://files.pythonhosted.org/packages/9e/8e/71a8164258d606da002612ce70b99f5a60b035b315481ba6a45fefa76559/ag_llama_hub_s-0.0.12.tar.gz
+[2023-07-30 14:22:30] INFO root fetch - processPackages [python-on-whales]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-30 14:22:30] INFO root fetch - processPackages [dagshub]: New version: [0.3.1] Old Version: [0.3.0.post4]
+[2023-07-30 14:22:30] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/5d/43/b94bdeb0235f2939b112a93430b06da478dadb30ca2ff13660674b49bc25/moosez-2.2.8.tar.gz
+[2023-07-30 14:22:30] INFO root fetch - processPackages [dispenser]: Downloading https://files.pythonhosted.org/packages/30/19/0e333e5534b233b586420417ed1425e381c4bb79fd0658f87fc006f2b231/dispenser-0.2.2.tar.gz
+[2023-07-30 14:22:30] INFO root fetch - processPackages [mcsrv-xImAnton]: Downloading https://files.pythonhosted.org/packages/c7/d4/0e382b11c45bfb54ae0a02d68ba6e00bff13de4cd24d5edd7237f5bb46d4/mcsrv-xImAnton-1.2.0.tar.gz
+[2023-07-30 14:22:30] INFO root fetch - processPackages [ag-llama-hub-s]: Downloading https://files.pythonhosted.org/packages/64/70/83d58cd17c6941454456dcd1463a2bc7239a4b3c91d650a2318d8b46abee/ag_llama_hub_s-0.0.13.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/f8/7c/78a0adf6c2458f5dedd657bb4b2c0f4669749f7cbb50f47c11f74ea95e89/dagshub-0.3.0.post4.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/d9/f0/319da83ef2f4393333d8923f5c4ff5b1a1c3a5d50ae19c5480e95087fa36/pyyt-cli-0.2.2.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/0c/de/d0175a21add24a0aa116a24f4ad4a78b8304f3f520b6637d75dfbeccaf3c/python-on-whales-0.9.0.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [ag-llama-hub-s]: executing diffoscope
+[2023-07-30 14:22:31] INFO root fetch - processPackages [ag-llama-hub-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_hub_s-0.0.12.tar.gz tmp/ag_llama_hub_s-0.0.13.tar.gz --markdown 20230730/a/ag-llama-hub-s/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-30 14:22:31] INFO root fetch - processPackages [dispenser]: Downloading https://files.pythonhosted.org/packages/77/42/216f67ecdca9a562d8d09724d7207a1632d37a6c39fa45a9f06904870a30/dispenser-0.3.0.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/94/60/32c4aed371a9e9ed0956e4d6265f1b7081c6067fbc7a2b618faf0e708524/moosez-2.2.9.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [mcsrv-xImAnton]: Downloading https://files.pythonhosted.org/packages/c5/d6/94e5dc7c8de6d7ae9bd0da646bee2a864b45527f2ddc30bba8a9d049d9a4/mcsrv-xImAnton-1.3.0.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [pyyt-cli]: executing diffoscope
+[2023-07-30 14:22:31] INFO root fetch - processPackages [pyyt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyt-cli-0.2.1.tar.gz tmp/pyyt-cli-0.2.2.tar.gz --markdown 20230730/p/pyyt-cli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 14:22:31] INFO root fetch - processPackages [dispenser]: executing diffoscope
+[2023-07-30 14:22:31] INFO root fetch - processPackages [dispenser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispenser-0.2.2.tar.gz tmp/dispenser-0.3.0.tar.gz --markdown 20230730/d/dispenser/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 14:22:31] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/ec/a2/259a5a138ccce7b5de7a40224403f822a1498525c2f4af1a8e07b121207e/dagshub-0.3.1-py3-none-any.whl
+[2023-07-30 14:22:31] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-30 14:22:31] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.8.tar.gz tmp/moosez-2.2.9.tar.gz --markdown 20230730/m/moosez/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-30 14:22:31] INFO root fetch - processPackages [mcsrv-xImAnton]: executing diffoscope
+[2023-07-30 14:22:31] INFO root fetch - processPackages [mcsrv-xImAnton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcsrv-xImAnton-1.2.0.tar.gz tmp/mcsrv-xImAnton-1.3.0.tar.gz --markdown 20230730/m/mcsrv-xImAnton/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-30 14:22:31] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/b9/5b/0086caaf50bcfe2ed377d292d379aa4c7b4cb19fda4fa69159452c73dccb/python-on-whales-0.9.1.tar.gz
+[2023-07-30 14:22:31] INFO root fetch - processPackages [python-on-whales]: executing diffoscope
+[2023-07-30 14:22:31] INFO root fetch - processPackages [python-on-whales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-on-whales-0.9.0.tar.gz tmp/python-on-whales-0.9.1.tar.gz --markdown 20230730/p/python-on-whales/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-30 14:22:31] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-30 14:22:31] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.0.post4.tar.gz tmp/dagshub-0.3.1-py3-none-any.whl.zip --markdown 20230730/d/dagshub/0.3.0.post4-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 14:22:32] INFO root fetch - processPackages [ag-llama-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub_s-0.0.12.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - processPackages [ag-llama-hub-s]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_hub_s-0.0.13.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [ag-llama-hub-s]: success
+[2023-07-30 14:22:32] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.2.1.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.2.2.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [pyyt-cli]: success
+[2023-07-30 14:22:32] INFO root fetch - processPackages [dispenser]: Remove: archive file [/home/abi/fetcher/tmp/dispenser-0.2.2.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - processPackages [dispenser]: Remove: archive file [/home/abi/fetcher/tmp/dispenser-0.3.0.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [dispenser]: success
+[2023-07-30 14:22:32] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.8.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.9.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-30 14:22:32] INFO root fetch - processPackages [mcsrv-xImAnton]: Remove: archive file [/home/abi/fetcher/tmp/mcsrv-xImAnton-1.2.0.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - processPackages [mcsrv-xImAnton]: Remove: archive file [/home/abi/fetcher/tmp/mcsrv-xImAnton-1.3.0.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [mcsrv-xImAnton]: success
+[2023-07-30 14:22:32] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post4.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.1-py3-none-any.whl.zip]
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-30 14:22:32] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.0.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.1.tar.gz]
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [python-on-whales]: success
+[2023-07-30 14:22:32] INFO root fetch - main [MainThread]: Store serial: [19096164]
