@@ -9888,3 +9888,18 @@
 [2023-07-30 14:48:41] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
 [2023-07-30 14:48:41] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
 [2023-07-30 14:48:41] INFO root fetch - main [MainThread]: Store serial: [19096314]
+[2023-07-30 14:53:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096314]
+[2023-07-30 14:53:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-30 14:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: potnanny
+[2023-07-30 14:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: budgeteer
+[2023-07-30 14:53:50] INFO root fetch - processPackages [potnanny]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 14:53:50] WARNING root fetch - processPackages [budgeteer]: Skipping, unable to determine old version
+[2023-07-30 14:53:50] INFO root fetch - main [MainThread]: End processing [budgeteer] error
+[2023-07-30 14:53:50] INFO root fetch - processPackages [potnanny]: Downloading https://files.pythonhosted.org/packages/b1/94/86f7d84463265d244806868304a4ca7d1747833014ffc194f605c2770e02/potnanny-0.1.1.tar.gz
+[2023-07-30 14:53:51] INFO root fetch - processPackages [potnanny]: Downloading https://files.pythonhosted.org/packages/3f/53/78bb429dc70be64183c1c70c810bffad85afc8f0391de5fc68d24d631201/potnanny-0.1.2.tar.gz
+[2023-07-30 14:53:51] INFO root fetch - processPackages [potnanny]: executing diffoscope
+[2023-07-30 14:53:51] INFO root fetch - processPackages [potnanny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potnanny-0.1.1.tar.gz tmp/potnanny-0.1.2.tar.gz --markdown 20230730/p/potnanny/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 14:53:52] INFO root fetch - processPackages [potnanny]: Remove: archive file [/home/abi/fetcher/tmp/potnanny-0.1.1.tar.gz]
+[2023-07-30 14:53:52] INFO root fetch - processPackages [potnanny]: Remove: archive file [/home/abi/fetcher/tmp/potnanny-0.1.2.tar.gz]
+[2023-07-30 14:53:52] INFO root fetch - main [MainThread]: End processing [potnanny]: success
+[2023-07-30 14:53:52] INFO root fetch - main [MainThread]: Store serial: [19096322]
