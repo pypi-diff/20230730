@@ -8403,3 +8403,54 @@
 [2023-07-30 12:43:41] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230729.tar.gz]
 [2023-07-30 12:43:41] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2023-07-30 12:43:41] INFO root fetch - main [MainThread]: Store serial: [19095707]
+[2023-07-30 12:48:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095707]
+[2023-07-30 12:48:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 12:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-html
+[2023-07-30 12:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ozer
+[2023-07-30 12:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visualise
+[2023-07-30 12:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seagoat
+[2023-07-30 12:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: component-contribution
+[2023-07-30 12:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taskipy
+[2023-07-30 12:48:50] INFO root fetch - processPackages [component-contribution]: New version: [0.5.0b1] Old Version: [0.4.6]
+[2023-07-30 12:48:50] WARNING root fetch - processPackages [visualise]: Skipping, unable to determine old version
+[2023-07-30 12:48:50] INFO root fetch - main [MainThread]: End processing [visualise] error
+[2023-07-30 12:48:50] INFO root fetch - processPackages [ozer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 12:48:50] INFO root fetch - processPackages [seagoat]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-30 12:48:50] INFO root fetch - processPackages [pytest-html]: New version: [4.0.0rc5] Old Version: [4.0.0rc4]
+[2023-07-30 12:48:50] INFO root fetch - processPackages [taskipy]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-30 12:48:50] INFO root fetch - processPackages [component-contribution]: Downloading https://files.pythonhosted.org/packages/96/04/959cbb93177b49f183cdacbe6c8fbb6a71d89bf4b6f81b42807449354756/component-contribution-0.4.6.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/ca/44/42d3ccd03824cf1d5bd4127977e404c06c500d21f1231867555bf2ab6874/seagoat-0.7.1.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [ozer]: Downloading https://files.pythonhosted.org/packages/c1/c8/afd1f99d1ae1b7d50adc42a6e94f104c5352efd7884abd372f741159f01f/ozer-0.1.0.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [pytest-html]: Downloading https://files.pythonhosted.org/packages/2f/6e/651539d53c657c7fc6ed865a23a7ae9f7ef7cb8e5d9e6563975f8ce7df15/pytest_html-4.0.0rc4.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [taskipy]: Downloading https://files.pythonhosted.org/packages/e0/cb/184cefa69870cb3e4b35ae72f6cdd346d7c7d6367afcc4b81e165c5186df/taskipy-1.8.2.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/42/2f/a980040250c6c1c1119b88d04bbaee88c328b88fa95311096914ea2c4f03/seagoat-0.7.2.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [component-contribution]: Downloading https://files.pythonhosted.org/packages/57/5a/d98d0e1901363aec7d263faf1cc985c7f1c8ac9ba19edb5751d4ea30f4c9/component-contribution-0.5.0b1.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [ozer]: Downloading https://files.pythonhosted.org/packages/96/51/3c6b20e613fa1ae68942a301759ed999c1c755e3376f7bb8276919635be9/ozer-0.1.1.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-30 12:48:50] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.7.1.tar.gz tmp/seagoat-0.7.2.tar.gz --markdown 20230730/s/seagoat/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-30 12:48:50] INFO root fetch - processPackages [ozer]: executing diffoscope
+[2023-07-30 12:48:50] INFO root fetch - processPackages [ozer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozer-0.1.0.tar.gz tmp/ozer-0.1.1.tar.gz --markdown 20230730/o/ozer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 12:48:50] INFO root fetch - processPackages [pytest-html]: Downloading https://files.pythonhosted.org/packages/45/80/722a1f171a1538dacee6a2c4eb636d4e8c72fe3a58adc27c30b3cc6b005c/pytest_html-4.0.0rc5.tar.gz
+[2023-07-30 12:48:50] INFO root fetch - processPackages [component-contribution]: executing diffoscope
+[2023-07-30 12:48:50] INFO root fetch - processPackages [component-contribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/component-contribution-0.4.6.tar.gz tmp/component-contribution-0.5.0b1.tar.gz --markdown 20230730/c/component-contribution/0.4.6-0.5.0b1/diff.md --exclude *.pyd
+[2023-07-30 12:48:50] INFO root fetch - processPackages [taskipy]: Downloading https://files.pythonhosted.org/packages/79/54/fd460129c71ec41464da5cc3e360d3e466d4054630d295f25a5368914bde/taskipy-1.9.0.tar.gz
+[2023-07-30 12:48:51] INFO root fetch - processPackages [pytest-html]: executing diffoscope
+[2023-07-30 12:48:51] INFO root fetch - processPackages [pytest-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_html-4.0.0rc4.tar.gz tmp/pytest_html-4.0.0rc5.tar.gz --markdown 20230730/p/pytest-html/4.0.0rc4-4.0.0rc5/diff.md --exclude *.pyd
+[2023-07-30 12:48:51] INFO root fetch - processPackages [taskipy]: executing diffoscope
+[2023-07-30 12:48:51] INFO root fetch - processPackages [taskipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskipy-1.8.2.tar.gz tmp/taskipy-1.9.0.tar.gz --markdown 20230730/t/taskipy/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 12:48:51] INFO root fetch - processPackages [ozer]: Remove: archive file [/home/abi/fetcher/tmp/ozer-0.1.0.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - processPackages [ozer]: Remove: archive file [/home/abi/fetcher/tmp/ozer-0.1.1.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - main [MainThread]: End processing [ozer]: success
+[2023-07-30 12:48:51] INFO root fetch - processPackages [component-contribution]: Remove: archive file [/home/abi/fetcher/tmp/component-contribution-0.4.6.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - processPackages [component-contribution]: Remove: archive file [/home/abi/fetcher/tmp/component-contribution-0.5.0b1.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - main [MainThread]: End processing [component-contribution]: success
+[2023-07-30 12:48:51] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.7.1.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.7.2.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-30 12:48:51] INFO root fetch - processPackages [taskipy]: Remove: archive file [/home/abi/fetcher/tmp/taskipy-1.8.2.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - processPackages [taskipy]: Remove: archive file [/home/abi/fetcher/tmp/taskipy-1.9.0.tar.gz]
+[2023-07-30 12:48:51] INFO root fetch - main [MainThread]: End processing [taskipy]: success
+[2023-07-30 12:48:53] INFO root fetch - processPackages [pytest-html]: Remove: archive file [/home/abi/fetcher/tmp/pytest_html-4.0.0rc4.tar.gz]
+[2023-07-30 12:48:53] INFO root fetch - processPackages [pytest-html]: Remove: archive file [/home/abi/fetcher/tmp/pytest_html-4.0.0rc5.tar.gz]
+[2023-07-30 12:48:53] INFO root fetch - main [MainThread]: End processing [pytest-html]: success
+[2023-07-30 12:48:53] INFO root fetch - main [MainThread]: Store serial: [19095727]
