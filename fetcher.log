@@ -9411,3 +9411,42 @@
 [2023-07-30 14:12:11] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.9.tar.gz]
 [2023-07-30 14:12:11] INFO root fetch - main [MainThread]: End processing [PySDM]: success
 [2023-07-30 14:12:11] INFO root fetch - main [MainThread]: Store serial: [19096120]
+[2023-07-30 14:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096120]
+[2023-07-30 14:17:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axion
+[2023-07-30 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magicinpaint-cpu
+[2023-07-30 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magicinpaint-gpu
+[2023-07-30 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: equilibrator-api
+[2023-07-30 14:17:20] INFO root fetch - processPackages [magicinpaint-cpu]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 14:17:20] INFO root fetch - processPackages [axion]: New version: [3.6.8] Old Version: [3.6.7]
+[2023-07-30 14:17:20] INFO root fetch - processPackages [magicinpaint-gpu]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 14:17:20] INFO root fetch - processPackages [equilibrator-api]: New version: [0.5.0b1] Old Version: [0.4.8b1]
+[2023-07-30 14:17:20] INFO root fetch - processPackages [magicinpaint-cpu]: Downloading https://files.pythonhosted.org/packages/68/96/afeb069a0f459703fc3232556b462f755201e459d46cb8c9be997e4e56c9/magicinpaint_cpu-1.0.1-cp39-cp39-win_amd64.whl
+[2023-07-30 14:17:20] INFO root fetch - processPackages [magicinpaint-gpu]: Downloading https://files.pythonhosted.org/packages/4c/2c/64afd45a8b20c7767d4d81174724cdcf0bc1af8bea86a133ce73f07ced7f/magicinpaint_gpu-1.0.1-cp39-cp39-win_amd64.whl
+[2023-07-30 14:17:20] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/54/a7/444368ede0a470a02250940e1c440d4502814fdb3ee5b878af9a821ed606/axion-3.6.7-cp311-none-win_amd64.whl
+[2023-07-30 14:17:20] INFO root fetch - processPackages [equilibrator-api]: Downloading https://files.pythonhosted.org/packages/94/6a/1a0719d3288bde3d52a6c31f4fd0f97d7fc7e0e91674bb3626fb3a7dba0d/equilibrator-api-0.4.8b1.tar.gz
+[2023-07-30 14:17:20] INFO root fetch - processPackages [magicinpaint-cpu]: Downloading https://files.pythonhosted.org/packages/6c/03/21328e07a8f3f3ccac95416381cfca1d1e72427bd69de43d833a4898c2f1/magicinpaint_cpu-1.0.2-cp39-cp39-win_amd64.whl
+[2023-07-30 14:17:20] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/26/e3/1affabf2853491bcff15e051aa05e918838c3465cfdf78a69d26160e1dd1/axion-3.6.8-cp311-none-macosx_10_9_universal2.whl
+[2023-07-30 14:17:20] INFO root fetch - processPackages [equilibrator-api]: Downloading https://files.pythonhosted.org/packages/20/ed/b35ae70090ec3431ae87ae508ec6e8d2f0cd1f9f36f252f3581789497f99/equilibrator-api-0.5.0b1.tar.gz
+[2023-07-30 14:17:21] INFO root fetch - processPackages [magicinpaint-gpu]: Downloading https://files.pythonhosted.org/packages/fe/69/87b350ab674cf140717807611ab2b79a7a3fa806c31f8f53b59eaf03efa2/magicinpaint_gpu-1.0.2-cp39-cp39-win_amd64.whl
+[2023-07-30 14:17:21] INFO root fetch - processPackages [equilibrator-api]: executing diffoscope
+[2023-07-30 14:17:21] INFO root fetch - processPackages [equilibrator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-api-0.4.8b1.tar.gz tmp/equilibrator-api-0.5.0b1.tar.gz --markdown 20230730/e/equilibrator-api/0.4.8b1-0.5.0b1/diff.md --exclude *.pyd
+[2023-07-30 14:17:21] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-30 14:17:21] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.6.7-cp311-none-win_amd64.whl.zip tmp/axion-3.6.8-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230730/a/axion/3.6.7-3.6.8/diff.md --exclude *.pyd
+[2023-07-30 14:17:21] INFO root fetch - processPackages [magicinpaint-cpu]: executing diffoscope
+[2023-07-30 14:17:21] INFO root fetch - processPackages [magicinpaint-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicinpaint_cpu-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/magicinpaint_cpu-1.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230730/m/magicinpaint-cpu/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 14:17:21] INFO root fetch - processPackages [magicinpaint-gpu]: executing diffoscope
+[2023-07-30 14:17:21] INFO root fetch - processPackages [magicinpaint-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicinpaint_gpu-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/magicinpaint_gpu-1.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230730/m/magicinpaint-gpu/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 14:17:22] INFO root fetch - processPackages [magicinpaint-cpu]: Remove: archive file [/home/abi/fetcher/tmp/magicinpaint_cpu-1.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 14:17:22] INFO root fetch - processPackages [magicinpaint-cpu]: Remove: archive file [/home/abi/fetcher/tmp/magicinpaint_cpu-1.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 14:17:22] INFO root fetch - main [MainThread]: End processing [magicinpaint-cpu]: success
+[2023-07-30 14:17:22] INFO root fetch - processPackages [equilibrator-api]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-api-0.4.8b1.tar.gz]
+[2023-07-30 14:17:22] INFO root fetch - processPackages [equilibrator-api]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-api-0.5.0b1.tar.gz]
+[2023-07-30 14:17:22] INFO root fetch - main [MainThread]: End processing [equilibrator-api]: success
+[2023-07-30 14:17:22] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.7-cp311-none-win_amd64.whl.zip]
+[2023-07-30 14:17:22] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.8-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-07-30 14:17:22] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-30 14:17:22] INFO root fetch - processPackages [magicinpaint-gpu]: Remove: archive file [/home/abi/fetcher/tmp/magicinpaint_gpu-1.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 14:17:22] INFO root fetch - processPackages [magicinpaint-gpu]: Remove: archive file [/home/abi/fetcher/tmp/magicinpaint_gpu-1.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 14:17:22] INFO root fetch - main [MainThread]: End processing [magicinpaint-gpu]: success
+[2023-07-30 14:17:22] INFO root fetch - main [MainThread]: Store serial: [19096142]
