@@ -13303,3 +13303,57 @@
 [2023-07-30 18:55:57] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.9.tar.gz]
 [2023-07-30 18:55:57] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
 [2023-07-30 18:55:57] INFO root fetch - main [MainThread]: Store serial: [19097880]
+[2023-07-30 19:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097880]
+[2023-07-30 19:01:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 19:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql-constructor
+[2023-07-30 19:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xliee-sentry-telegram
+[2023-07-30 19:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotel-manage-soumya
+[2023-07-30 19:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfixest
+[2023-07-30 19:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-30 19:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strawberry-graphql
+[2023-07-30 19:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sql-constructor
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 19:01:06] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 19:01:06] INFO root fetch - processPackages [xliee-sentry-telegram]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 19:01:06] INFO root fetch - processPackages [pyfixest]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-30 19:01:06] WARNING root fetch - processPackages [hotel-manage-soumya]: Skipping, unable to determine old version
+[2023-07-30 19:01:06] INFO root fetch - main [MainThread]: End processing [hotel-manage-soumya] error
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cd/5b/2656e2e18fb7fb5059b0cfb98d4d52feab159c549dd27c4ddb0271885dc6/sql_constructor-1.0.8.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cd/5b/2656e2e18fb7fb5059b0cfb98d4d52feab159c549dd27c4ddb0271885dc6/sql_constructor-1.0.8.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-30 19:01:06] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/17/e4/1d90d8b06688737b356860c6641f5b8cb7c7a4890c71f7b55349367dc708/pyfixest-0.7.2.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [xliee-sentry-telegram]: Downloading https://files.pythonhosted.org/packages/a5/8f/f3f3a76864847a7f31ecde2501921ddadf1f82dc8b95257ec8a2b7b08ba9/xliee_sentry_telegram-0.6.4.tar.gz
+[2023-07-30 19:01:06] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-30 19:01:06] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f7/79/bfeea056a49359e2c9d0f8be14168f7842a6c3f5c963e7e246e1809403b4/sql_constructor-1.0.9.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f7/79/bfeea056a49359e2c9d0f8be14168f7842a6c3f5c963e7e246e1809403b4/sql_constructor-1.0.9.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.8.tar.gz tmp/sql_constructor-1.0.9.tar.gz --markdown 20230730/s/sql-constructor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 19:01:06] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/e3/87/4dc642223c9255f64a1f302bbbf0afe81bc814e327bb6431a808d9547004/pyfixest-0.7.3.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 19:01:06] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.8.tar.gz tmp/sql_constructor-1.0.9.tar.gz --markdown 20230730/s/sql-constructor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 19:01:06] INFO root fetch - processPackages [xliee-sentry-telegram]: Downloading https://files.pythonhosted.org/packages/c4/e4/f07389c7037b7397817b7c6ecd8cfea2e762e8d3b2e74c86ab07540f3fda/xliee_sentry_telegram-0.6.5.tar.gz
+[2023-07-30 19:01:06] INFO root fetch - processPackages [pyfixest]: executing diffoscope
+[2023-07-30 19:01:06] INFO root fetch - processPackages [pyfixest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfixest-0.7.2.tar.gz tmp/pyfixest-0.7.3.tar.gz --markdown 20230730/p/pyfixest/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-30 19:01:06] INFO root fetch - processPackages [xliee-sentry-telegram]: executing diffoscope
+[2023-07-30 19:01:06] INFO root fetch - processPackages [xliee-sentry-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xliee_sentry_telegram-0.6.4.tar.gz tmp/xliee_sentry_telegram-0.6.5.tar.gz --markdown 20230730/x/xliee-sentry-telegram/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-30 19:01:06] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-30 19:01:07] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-30 19:01:07] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230730/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-30 19:01:07] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.8.tar.gz]
+[2023-07-30 19:01:07] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.9.tar.gz]
+[2023-07-30 19:01:07] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 19:01:07] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 19:01:07] INFO root fetch - processPackages [xliee-sentry-telegram]: Remove: archive file [/home/abi/fetcher/tmp/xliee_sentry_telegram-0.6.4.tar.gz]
+[2023-07-30 19:01:07] INFO root fetch - processPackages [xliee-sentry-telegram]: Remove: archive file [/home/abi/fetcher/tmp/xliee_sentry_telegram-0.6.5.tar.gz]
+[2023-07-30 19:01:07] INFO root fetch - main [MainThread]: End processing [xliee-sentry-telegram]: success
+[2023-07-30 19:01:07] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.7.2.tar.gz]
+[2023-07-30 19:01:07] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.7.3.tar.gz]
+[2023-07-30 19:01:07] INFO root fetch - main [MainThread]: End processing [pyfixest]: success
+[2023-07-30 19:01:08] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-30 19:01:08] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-30 19:01:08] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-30 19:01:08] INFO root fetch - main [MainThread]: Store serial: [19097905]
