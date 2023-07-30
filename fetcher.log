@@ -14262,3 +14262,82 @@
 [2023-07-30 20:24:59] INFO root fetch - processPackages [androidtvremote2]: Remove: archive file [/home/abi/fetcher/tmp/androidtvremote2-0.0.9.tar.gz]
 [2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [androidtvremote2]: success
 [2023-07-30 20:24:59] INFO root fetch - main [MainThread]: Store serial: [19098325]
+[2023-07-30 20:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098325]
+[2023-07-30 20:30:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepcomp
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eo-styleguide
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotel-manage-soumya
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gammarer.aws-secure-frontend-web-app-cloudfront-distribution
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atooms-dynamics
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HandyLLM
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctransformers
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netscorpion
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eo-styleguide
+[2023-07-30 20:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: data-ecosystem-flask
+[2023-07-30 20:30:09] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-30 20:30:09] WARNING root fetch - processPackages [hotel-manage-soumya]: Skipping, unable to determine old version
+[2023-07-30 20:30:09] INFO root fetch - main [MainThread]: End processing [hotel-manage-soumya] error
+[2023-07-30 20:30:09] INFO root fetch - processPackages [eo-styleguide]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-07-30 20:30:09] INFO root fetch - processPackages [HandyLLM]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-30 20:30:09] INFO root fetch - processPackages [atooms-dynamics]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-30 20:30:09] INFO root fetch - processPackages [eo-styleguide]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-07-30 20:30:09] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.3]
+[2023-07-30 20:30:09] INFO root fetch - processPackages [deepcomp]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-30 20:30:09] INFO root fetch - processPackages [ctransformers]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 20:30:09] WARNING root fetch - processPackages [netscorpion]: Skipping, unable to determine old version
+[2023-07-30 20:30:09] INFO root fetch - main [MainThread]: End processing [netscorpion] error
+[2023-07-30 20:30:09] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/10/40/48dc80e0b32999bb8fc12683ee66313865233870cf0075b5c1abf04098d7/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.8.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/3a/98/4752210f8c37f88360ff5d9e7c97fa0c9ed69f3bf41c0c66d159d689da87/eo_styleguide-0.0.1a5.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/3a/98/4752210f8c37f88360ff5d9e7c97fa0c9ed69f3bf41c0c66d159d689da87/eo_styleguide-0.0.1a5.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/08/49/b9d387c16feb2b385ef8feb446adc272fe4f1c33e592e1bf9c66617304bf/HandyLLM-0.5.0.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [atooms-dynamics]: Downloading https://files.pythonhosted.org/packages/c8/07/84309441ece6cacb8282121188f8c5e9f47e3db782e6f58e49c210a94ed1/atooms_dynamics-1.1.0-py2.py3-none-any.whl
+[2023-07-30 20:30:09] INFO root fetch - processPackages [deepcomp]: Downloading https://files.pythonhosted.org/packages/e6/fc/131165dcbd0be511a0d9adf2599b59d662389335008b514a8c6ee5ed0a89/deepcomp-1.4.1.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/f8/b5/b244e28dbaa3006d70a3ce502e7ba862384f95cbd5df6718038b58d30bc9/ctransformers-0.2.8.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/74/80/f64127d9e8ec12b7f9ecaef1bc131bbed7a86bbbf04dfc8d90e632ec79a3/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.9.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-30 20:30:09] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.3.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230730/d/data-ecosystem-flask/202307.0.3-202307.0.4/diff.md --exclude *.pyd
+[2023-07-30 20:30:09] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: executing diffoscope
+[2023-07-30 20:30:09] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.8.tar.gz tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.9.tar.gz --markdown 20230730/g/gammarer.aws-secure-frontend-web-app-cloudfront-distribution/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-30 20:30:09] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/5c/e5/fd98fadc6f0fcecaa37a507a4f462ebbc105e7682c3df8db6ced64278b98/eo_styleguide-0.0.1a6.tar.gz
+[2023-07-30 20:30:09] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/5c/e5/fd98fadc6f0fcecaa37a507a4f462ebbc105e7682c3df8db6ced64278b98/eo_styleguide-0.0.1a6.tar.gz
+[2023-07-30 20:30:10] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/50/90/ed2f5084ece66290668cf3a0fb5b2556f4acd6ca1d1baf41a17c22a83d81/HandyLLM-0.5.1.tar.gz
+[2023-07-30 20:30:10] INFO root fetch - processPackages [atooms-dynamics]: Downloading https://files.pythonhosted.org/packages/4e/38/b56ebb498d4a50af3185e9c446f6971393039ad8b8182b2c05a2724131d8/atooms_dynamics-1.1.1-py2.py3-none-any.whl
+[2023-07-30 20:30:10] INFO root fetch - processPackages [deepcomp]: Downloading https://files.pythonhosted.org/packages/db/40/dfc44c7c0f686445daf12fcdc5be118bbc874016f44dd9253aa9a914bbe7/deepcomp-1.4.2.tar.gz
+[2023-07-30 20:30:10] INFO root fetch - processPackages [eo-styleguide]: executing diffoscope
+[2023-07-30 20:30:10] INFO root fetch - processPackages [eo-styleguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_styleguide-0.0.1a5.tar.gz tmp/eo_styleguide-0.0.1a6.tar.gz --markdown 20230730/e/eo-styleguide/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-07-30 20:30:10] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/6c/6a/51fe0e5f1a8aa79becd03dc0b6c195896d7c8eddfae48dd1190c1c0b7710/ctransformers-0.2.9.tar.gz
+[2023-07-30 20:30:10] INFO root fetch - processPackages [eo-styleguide]: executing diffoscope
+[2023-07-30 20:30:10] INFO root fetch - processPackages [eo-styleguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_styleguide-0.0.1a5.tar.gz tmp/eo_styleguide-0.0.1a6.tar.gz --markdown 20230730/e/eo-styleguide/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-07-30 20:30:10] INFO root fetch - processPackages [deepcomp]: executing diffoscope
+[2023-07-30 20:30:10] INFO root fetch - processPackages [deepcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcomp-1.4.1.tar.gz tmp/deepcomp-1.4.2.tar.gz --markdown 20230730/d/deepcomp/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-30 20:30:10] INFO root fetch - processPackages [atooms-dynamics]: executing diffoscope
+[2023-07-30 20:30:10] INFO root fetch - processPackages [atooms-dynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atooms_dynamics-1.1.0-py2.py3-none-any.whl.zip tmp/atooms_dynamics-1.1.1-py2.py3-none-any.whl.zip --markdown 20230730/a/atooms-dynamics/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-30 20:30:10] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2023-07-30 20:30:10] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandyLLM-0.5.0.tar.gz tmp/HandyLLM-0.5.1.tar.gz --markdown 20230730/H/HandyLLM/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-30 20:30:10] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-07-30 20:30:10] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.8.tar.gz tmp/ctransformers-0.2.9.tar.gz --markdown 20230730/c/ctransformers/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 20:30:11] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-30 20:30:11] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a5.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a6.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - main [MainThread]: End processing [eo-styleguide]: success
+[2023-07-30 20:30:11] INFO root fetch - main [MainThread]: End processing [eo-styleguide]: success
+[2023-07-30 20:30:11] INFO root fetch - processPackages [atooms-dynamics]: Remove: archive file [/home/abi/fetcher/tmp/atooms_dynamics-1.1.0-py2.py3-none-any.whl.zip]
+[2023-07-30 20:30:11] INFO root fetch - processPackages [atooms-dynamics]: Remove: archive file [/home/abi/fetcher/tmp/atooms_dynamics-1.1.1-py2.py3-none-any.whl.zip]
+[2023-07-30 20:30:11] INFO root fetch - main [MainThread]: End processing [atooms-dynamics]: success
+[2023-07-30 20:30:11] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.8.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.9.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
+[2023-07-30 20:30:11] INFO root fetch - processPackages [deepcomp]: Remove: archive file [/home/abi/fetcher/tmp/deepcomp-1.4.1.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - processPackages [deepcomp]: Remove: archive file [/home/abi/fetcher/tmp/deepcomp-1.4.2.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - main [MainThread]: End processing [deepcomp]: success
+[2023-07-30 20:30:11] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.5.0.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.5.1.tar.gz]
+[2023-07-30 20:30:11] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2023-07-30 20:30:12] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.8.tar.gz]
+[2023-07-30 20:30:12] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
+[2023-07-30 20:30:12] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-07-30 20:30:12] INFO root fetch - main [MainThread]: Store serial: [19098358]
