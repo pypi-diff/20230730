@@ -11007,3 +11007,87 @@
 [2023-07-30 16:14:58] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.9.tar.gz]
 [2023-07-30 16:14:58] INFO root fetch - main [MainThread]: End processing [biliup]: success
 [2023-07-30 16:14:58] INFO root fetch - main [MainThread]: Store serial: [19096866]
+[2023-07-30 16:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096866]
+[2023-07-30 16:20:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atooms
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bilireq
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argrelay
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuidbtv
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: md-translate
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: InvokeAI
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linfa-vi
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assamer
+[2023-07-30 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-30 16:20:06] INFO root fetch - processPackages [tuidbtv]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [linfa-vi]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [bilireq]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [md-translate]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [InvokeAI]: New version: [3.0.1rc2] Old Version: [3.0.1rc1]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [assamer]: New version: [1.3.7] Old Version: [1.3.5]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [argrelay]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [atooms]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-30 16:20:06] INFO root fetch - processPackages [bilireq]: Downloading https://files.pythonhosted.org/packages/ad/2c/ad24e896b3c7e2c8a15e4d276bbeba5a940cbcc14083bf33b36e1f0b3888/bilireq-0.2.7.tar.gz
+[2023-07-30 16:20:06] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/3f/6e/8aa0fde615fe33a34ab9624554fbc16329d74337f364066f6a82d7b45aa2/linfa_vi-1.1.7.tar.gz
+[2023-07-30 16:20:06] INFO root fetch - processPackages [md-translate]: Downloading https://files.pythonhosted.org/packages/ae/7b/a8d2783b5ac2499dcc2920f60e3639816a0a0d1c845074bde58afe0fbbbd/md_translate-3.0.2.tar.gz
+[2023-07-30 16:20:06] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/94/e0/4e49ba4bbd86a4b52cbf08b2fdaf0c8f6fcff7ecec2635c5794ce6ba3d9c/argrelay-0.1.0.dev2.tar.gz
+[2023-07-30 16:20:06] INFO root fetch - processPackages [tuidbtv]: Downloading https://files.pythonhosted.org/packages/b6/c6/9d8fa04f06eef4a5bce2c295fb5c616c46de666a714f6c5314f053ce90ba/tuidbtv-0.1.9.tar.gz
+[2023-07-30 16:20:06] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-30 16:20:06] INFO root fetch - processPackages [assamer]: Downloading https://files.pythonhosted.org/packages/6e/db/0e6c82ef497441d7cb3431e23a1dff20926f36ddb6567fcf890877b3751a/assamer-1.3.5.tar.gz
+[2023-07-30 16:20:06] INFO root fetch - processPackages [atooms]: Downloading https://files.pythonhosted.org/packages/72/05/3614983e3773244bcb66527e931d3a65c79ad03472203e4d2fe1a5078033/atooms-3.8.1-py2.py3-none-any.whl
+[2023-07-30 16:20:07] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/02/de/4888688b1edf6106de348331d43ba0a58d0da08f31e67ff8118c0b5597f7/InvokeAI-3.0.1rc1.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/e1/02/011e5f3e6e68e831e301d4fb900a34d5ca6e47bfc1971cd2a05633b8cc16/linfa_vi-1.1.8.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [bilireq]: Downloading https://files.pythonhosted.org/packages/04/90/47965a57601edbd8cc79449ea7119493515d56b6b780e3e8684f29008fe9/bilireq-0.2.8.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [md-translate]: Downloading https://files.pythonhosted.org/packages/54/97/bff9cf243ab37abf6be188b0c09069ca457ab4a883d99115aa607545e9f6/md_translate-3.0.3.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [tuidbtv]: Downloading https://files.pythonhosted.org/packages/ee/e5/b9114e081934eb84ca4b878fb22d66bcd2e7e3c6823085b111eff4e078f3/tuidbtv-0.2.0.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [argrelay]: Downloading https://files.pythonhosted.org/packages/e8/1f/c95ed956491684a1d1ed2214a01a9c98c467ef3afec12f90ea9f4275471a/argrelay-0.1.0.dev3.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [assamer]: Downloading https://files.pythonhosted.org/packages/b3/c4/0c5fff504ba489a218a3e8874de51b96bdfea241a6e7adc443be54f8878c/assamer-1.3.7.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [atooms]: Downloading https://files.pythonhosted.org/packages/7d/bc/04af53c5cd55237944265769fdba4f778dd39a4da8595686d406cab24d8e/atooms-3.9.0-py2.py3-none-any.whl
+[2023-07-30 16:20:07] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230730/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.1.7.tar.gz tmp/linfa_vi-1.1.8.tar.gz --markdown 20230730/l/linfa-vi/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [md-translate]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [md-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md_translate-3.0.2.tar.gz tmp/md_translate-3.0.3.tar.gz --markdown 20230730/m/md-translate/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [tuidbtv]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [tuidbtv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuidbtv-0.1.9.tar.gz tmp/tuidbtv-0.2.0.tar.gz --markdown 20230730/t/tuidbtv/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [assamer]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [assamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assamer-1.3.5.tar.gz tmp/assamer-1.3.7.tar.gz --markdown 20230730/a/assamer/1.3.5-1.3.7/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [atooms]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [atooms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atooms-3.8.1-py2.py3-none-any.whl.zip tmp/atooms-3.9.0-py2.py3-none-any.whl.zip --markdown 20230730/a/atooms/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/16/6c/907d3828ea5ddb4f21489e07a540747101b37f7bbdc6fd597aca5dffdcbe/InvokeAI-3.0.1rc2.tar.gz
+[2023-07-30 16:20:07] INFO root fetch - processPackages [bilireq]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [bilireq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilireq-0.2.7.tar.gz tmp/bilireq-0.2.8.tar.gz --markdown 20230730/b/bilireq/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [argrelay]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [argrelay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argrelay-0.1.0.dev2.tar.gz tmp/argrelay-0.1.0.dev3.tar.gz --markdown 20230730/a/argrelay/0.1.0.dev2-0.1.0.dev3/diff.md --exclude *.pyd
+[2023-07-30 16:20:07] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2023-07-30 16:20:07] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-3.0.1rc1.tar.gz tmp/InvokeAI-3.0.1rc2.tar.gz --markdown 20230730/I/InvokeAI/3.0.1rc1-3.0.1rc2/diff.md --exclude *.pyd
+[2023-07-30 16:20:09] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.7.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.8.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-30 16:20:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-30 16:20:09] INFO root fetch - processPackages [tuidbtv]: Remove: archive file [/home/abi/fetcher/tmp/tuidbtv-0.1.9.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - processPackages [tuidbtv]: Remove: archive file [/home/abi/fetcher/tmp/tuidbtv-0.2.0.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - main [MainThread]: End processing [tuidbtv]: success
+[2023-07-30 16:20:09] INFO root fetch - processPackages [md-translate]: Remove: archive file [/home/abi/fetcher/tmp/md_translate-3.0.2.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - processPackages [md-translate]: Remove: archive file [/home/abi/fetcher/tmp/md_translate-3.0.3.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - main [MainThread]: End processing [md-translate]: success
+[2023-07-30 16:20:09] INFO root fetch - processPackages [atooms]: Remove: archive file [/home/abi/fetcher/tmp/atooms-3.8.1-py2.py3-none-any.whl.zip]
+[2023-07-30 16:20:09] INFO root fetch - processPackages [atooms]: Remove: archive file [/home/abi/fetcher/tmp/atooms-3.9.0-py2.py3-none-any.whl.zip]
+[2023-07-30 16:20:09] INFO root fetch - main [MainThread]: End processing [atooms]: success
+[2023-07-30 16:20:09] INFO root fetch - processPackages [assamer]: Remove: archive file [/home/abi/fetcher/tmp/assamer-1.3.5.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - processPackages [assamer]: Remove: archive file [/home/abi/fetcher/tmp/assamer-1.3.7.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - main [MainThread]: End processing [assamer]: success
+[2023-07-30 16:20:09] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev2.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - processPackages [argrelay]: Remove: archive file [/home/abi/fetcher/tmp/argrelay-0.1.0.dev3.tar.gz]
+[2023-07-30 16:20:09] INFO root fetch - main [MainThread]: End processing [argrelay]: success
+[2023-07-30 16:20:11] INFO root fetch - processPackages [bilireq]: Remove: archive file [/home/abi/fetcher/tmp/bilireq-0.2.7.tar.gz]
+[2023-07-30 16:20:11] INFO root fetch - processPackages [bilireq]: Remove: archive file [/home/abi/fetcher/tmp/bilireq-0.2.8.tar.gz]
+[2023-07-30 16:20:11] INFO root fetch - main [MainThread]: End processing [bilireq]: success
+[2023-07-30 16:20:29] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc1.tar.gz]
+[2023-07-30 16:20:29] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc2.tar.gz]
+[2023-07-30 16:20:29] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2023-07-30 16:20:29] INFO root fetch - main [MainThread]: Store serial: [19096891]
