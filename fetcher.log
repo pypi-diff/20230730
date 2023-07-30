@@ -9903,3 +9903,54 @@
 [2023-07-30 14:53:52] INFO root fetch - processPackages [potnanny]: Remove: archive file [/home/abi/fetcher/tmp/potnanny-0.1.2.tar.gz]
 [2023-07-30 14:53:52] INFO root fetch - main [MainThread]: End processing [potnanny]: success
 [2023-07-30 14:53:52] INFO root fetch - main [MainThread]: Store serial: [19096322]
+[2023-07-30 14:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096322]
+[2023-07-30 14:59:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitnob
+[2023-07-30 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langful
+[2023-07-30 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sneakpeek-py
+[2023-07-30 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fshare
+[2023-07-30 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentagenda
+[2023-07-30 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IPRA
+[2023-07-30 14:59:00] INFO root fetch - processPackages [langful]: New version: [0.41] Old Version: [0.40]
+[2023-07-30 14:59:00] INFO root fetch - processPackages [sneakpeek-py]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-07-30 14:59:00] INFO root fetch - processPackages [agentagenda]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 14:59:00] INFO root fetch - processPackages [bitnob]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-30 14:59:00] WARNING root fetch - processPackages [fshare]: Skipping, unable to determine old version
+[2023-07-30 14:59:00] INFO root fetch - main [MainThread]: End processing [fshare] error
+[2023-07-30 14:59:00] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/98/b8/725d9de7a742b69cfa63a2bbecb0392e41f2ba61caef1694700b7c357426/langful-0.40-py3-none-any.whl
+[2023-07-30 14:59:00] INFO root fetch - processPackages [IPRA]: New version: [3.18.51] Old Version: [3.17.51]
+[2023-07-30 14:59:00] INFO root fetch - processPackages [agentagenda]: Downloading https://files.pythonhosted.org/packages/3d/32/223adb71b02ac780aeda36587561c7aec414b5235f26371cde7adcd84c8c/agentagenda-0.0.7.tar.gz
+[2023-07-30 14:59:01] INFO root fetch - processPackages [sneakpeek-py]: Downloading https://files.pythonhosted.org/packages/6e/b5/b628c0df2e17f43e92530939351ac446d88e7d0c19b819418f0016d061bf/sneakpeek_py-0.1.9.tar.gz
+[2023-07-30 14:59:01] INFO root fetch - processPackages [bitnob]: Downloading https://files.pythonhosted.org/packages/0f/71/d8652ecf0507fe615b1c8f89b2bca451f71e30526639081458a1647591d1/bitnob-1.2.8.tar.gz
+[2023-07-30 14:59:01] INFO root fetch - processPackages [IPRA]: Downloading https://files.pythonhosted.org/packages/fa/59/4d073b29f604b844153bc7f640c8a5e31a6e0f57c343dfe9d659f9c99997/IPRA-3.17.51-py3-none-any.whl
+[2023-07-30 14:59:01] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/73/3c/1ac650a9e1507b83856f3198b219f8042d58882f4c0d74fac7aa905cacc5/langful-0.41-py3-none-any.whl
+[2023-07-30 14:59:01] INFO root fetch - processPackages [agentagenda]: Downloading https://files.pythonhosted.org/packages/60/cb/d7aa7ada31736c89c11b5617793d997899f022b7ea082b6ed1b6cde1dfd6/agentagenda-0.0.8.tar.gz
+[2023-07-30 14:59:01] INFO root fetch - processPackages [bitnob]: Downloading https://files.pythonhosted.org/packages/b7/ab/7a63f016eb0a17dab883db985e816c53252a712663b0fb9dfe87e090af75/bitnob-1.2.9.tar.gz
+[2023-07-30 14:59:01] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-30 14:59:01] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.40-py3-none-any.whl.zip tmp/langful-0.41-py3-none-any.whl.zip --markdown 20230730/l/langful/0.40-0.41/diff.md --exclude *.pyd
+[2023-07-30 14:59:01] INFO root fetch - processPackages [agentagenda]: executing diffoscope
+[2023-07-30 14:59:01] INFO root fetch - processPackages [agentagenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentagenda-0.0.7.tar.gz tmp/agentagenda-0.0.8.tar.gz --markdown 20230730/a/agentagenda/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 14:59:01] INFO root fetch - processPackages [IPRA]: Downloading https://files.pythonhosted.org/packages/48/e7/9642b50506255051fbe84acee66048d07e1ac99c301e84284a601fe25577/IPRA-3.18.51-py3-none-any.whl
+[2023-07-30 14:59:01] INFO root fetch - processPackages [bitnob]: executing diffoscope
+[2023-07-30 14:59:01] INFO root fetch - processPackages [bitnob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitnob-1.2.8.tar.gz tmp/bitnob-1.2.9.tar.gz --markdown 20230730/b/bitnob/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-30 14:59:01] INFO root fetch - processPackages [IPRA]: executing diffoscope
+[2023-07-30 14:59:01] INFO root fetch - processPackages [IPRA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPRA-3.17.51-py3-none-any.whl.zip tmp/IPRA-3.18.51-py3-none-any.whl.zip --markdown 20230730/I/IPRA/3.17.51-3.18.51/diff.md --exclude *.pyd
+[2023-07-30 14:59:01] INFO root fetch - processPackages [sneakpeek-py]: Downloading https://files.pythonhosted.org/packages/4a/3d/2fb3d7dd45bfcfbde4510f076d541a00c3192e2de725e267ae220dc1d64e/sneakpeek_py-0.2.1.tar.gz
+[2023-07-30 14:59:02] INFO root fetch - processPackages [sneakpeek-py]: executing diffoscope
+[2023-07-30 14:59:02] INFO root fetch - processPackages [sneakpeek-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneakpeek_py-0.1.9.tar.gz tmp/sneakpeek_py-0.2.1.tar.gz --markdown 20230730/s/sneakpeek-py/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 14:59:02] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.40-py3-none-any.whl.zip]
+[2023-07-30 14:59:02] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.41-py3-none-any.whl.zip]
+[2023-07-30 14:59:02] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-30 14:59:02] INFO root fetch - processPackages [agentagenda]: Remove: archive file [/home/abi/fetcher/tmp/agentagenda-0.0.7.tar.gz]
+[2023-07-30 14:59:02] INFO root fetch - processPackages [agentagenda]: Remove: archive file [/home/abi/fetcher/tmp/agentagenda-0.0.8.tar.gz]
+[2023-07-30 14:59:02] INFO root fetch - main [MainThread]: End processing [agentagenda]: success
+[2023-07-30 14:59:02] INFO root fetch - processPackages [bitnob]: Remove: archive file [/home/abi/fetcher/tmp/bitnob-1.2.8.tar.gz]
+[2023-07-30 14:59:02] INFO root fetch - processPackages [bitnob]: Remove: archive file [/home/abi/fetcher/tmp/bitnob-1.2.9.tar.gz]
+[2023-07-30 14:59:02] INFO root fetch - main [MainThread]: End processing [bitnob]: success
+[2023-07-30 14:59:02] INFO root fetch - processPackages [IPRA]: Remove: archive file [/home/abi/fetcher/tmp/IPRA-3.17.51-py3-none-any.whl.zip]
+[2023-07-30 14:59:02] INFO root fetch - processPackages [IPRA]: Remove: archive file [/home/abi/fetcher/tmp/IPRA-3.18.51-py3-none-any.whl.zip]
+[2023-07-30 14:59:02] INFO root fetch - main [MainThread]: End processing [IPRA]: success
+[2023-07-30 14:59:03] INFO root fetch - processPackages [sneakpeek-py]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek_py-0.1.9.tar.gz]
+[2023-07-30 14:59:03] INFO root fetch - processPackages [sneakpeek-py]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek_py-0.2.1.tar.gz]
+[2023-07-30 14:59:03] INFO root fetch - main [MainThread]: End processing [sneakpeek-py]: success
+[2023-07-30 14:59:03] INFO root fetch - main [MainThread]: Store serial: [19096340]
