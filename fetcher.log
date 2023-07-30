@@ -9164,3 +9164,29 @@
 [2023-07-30 13:35:52] INFO root fetch - processPackages [unidata-blocks]: Remove: archive file [/home/abi/fetcher/tmp/unidata-blocks-0.0.4.tar.gz]
 [2023-07-30 13:35:52] INFO root fetch - main [MainThread]: End processing [unidata-blocks]: success
 [2023-07-30 13:35:52] INFO root fetch - main [MainThread]: Store serial: [19095990]
+[2023-07-30 13:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095990]
+[2023-07-30 13:41:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 13:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScriptCollection
+[2023-07-30 13:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-07-30 13:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyyt-cli
+[2023-07-30 13:41:01] INFO root fetch - processPackages [pyyt-cli]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-30 13:41:01] INFO root fetch - processPackages [ScriptCollection]: New version: [3.4.6] Old Version: [3.4.4]
+[2023-07-30 13:41:01] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/91/2b/27bc34944dac3332ab222d4f8c485858d4c7970d100eb18512eb4f5822ad/pyyt-cli-0.1.6.tar.gz
+[2023-07-30 13:41:01] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101690715538] Old Version: [0.0.101690542799]
+[2023-07-30 13:41:01] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/54/b6/d422db299d32ac3b6f2092e71bd7ad757b08ceeb9a48bfe41d4bc714a53c/ScriptCollection-3.4.4-py3-none-any.whl
+[2023-07-30 13:41:01] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/89/fb/e21844d46fabf16073293951874cc6528712879c029e1a81d9fd6c2a9a72/pyre-check-nightly-0.0.101690542799.tar.gz
+[2023-07-30 13:41:01] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23784294>=10485760
+[2023-07-30 13:41:01] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-30 13:41:01] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/c6/c2/282f1cd902a34cdd8dd42cda24d7b11bf0e99cabcc9df51bb003e4c188d7/pyyt-cli-0.1.7.tar.gz
+[2023-07-30 13:41:01] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/10/91/f6160bf7c0856c005f3339bca7e4013825e15527a00830d0b641af105141/ScriptCollection-3.4.6-py3-none-any.whl
+[2023-07-30 13:41:01] INFO root fetch - processPackages [pyyt-cli]: executing diffoscope
+[2023-07-30 13:41:01] INFO root fetch - processPackages [pyyt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyt-cli-0.1.6.tar.gz tmp/pyyt-cli-0.1.7.tar.gz --markdown 20230730/p/pyyt-cli/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-30 13:41:01] INFO root fetch - processPackages [ScriptCollection]: executing diffoscope
+[2023-07-30 13:41:01] INFO root fetch - processPackages [ScriptCollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScriptCollection-3.4.4-py3-none-any.whl.zip tmp/ScriptCollection-3.4.6-py3-none-any.whl.zip --markdown 20230730/S/ScriptCollection/3.4.4-3.4.6/diff.md --exclude *.pyd
+[2023-07-30 13:41:02] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.1.6.tar.gz]
+[2023-07-30 13:41:02] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.1.7.tar.gz]
+[2023-07-30 13:41:02] INFO root fetch - main [MainThread]: End processing [pyyt-cli]: success
+[2023-07-30 13:41:02] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.4-py3-none-any.whl.zip]
+[2023-07-30 13:41:02] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.6-py3-none-any.whl.zip]
+[2023-07-30 13:41:02] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
+[2023-07-30 13:41:02] INFO root fetch - main [MainThread]: Store serial: [19095999]
