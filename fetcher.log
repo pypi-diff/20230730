@@ -6511,3 +6511,86 @@
 [2023-07-30 10:26:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307300824-py3-none-any.whl.zip]
 [2023-07-30 10:26:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-30 10:26:57] INFO root fetch - main [MainThread]: Store serial: [19094727]
+[2023-07-30 10:32:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094727]
+[2023-07-30 10:32:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-shopfloor-mobile
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-shopfloor
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whois-parser
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readmeai
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: readmeai
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bili-eta
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readmeai
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hezar
+[2023-07-30 10:32:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tcafe-attending-bot
+[2023-07-30 10:32:05] INFO root fetch - processPackages [readmeai]: New version: [0.0.448] Old Version: [0.0.447]
+[2023-07-30 10:32:05] WARNING root fetch - processPackages [bili-eta]: Skipping, unable to determine old version
+[2023-07-30 10:32:05] INFO root fetch - main [MainThread]: End processing [bili-eta] error
+[2023-07-30 10:32:05] INFO root fetch - processPackages [readmeai]: New version: [0.0.448] Old Version: [0.0.447]
+[2023-07-30 10:32:05] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2023-07-30 10:32:05] INFO root fetch - processPackages [hezar]: New version: [0.18.0] Old Version: [0.17.4]
+[2023-07-30 10:32:05] INFO root fetch - processPackages [whois-parser]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-30 10:32:05] INFO root fetch - processPackages [readmeai]: New version: [0.0.448] Old Version: [0.0.447]
+[2023-07-30 10:32:05] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.3.5.0] Old Version: [14.0.3.4.1.dev1]
+[2023-07-30 10:32:05] INFO root fetch - processPackages [kfish]: New version: [99.0.202307300828] Old Version: [99.0.202307291940]
+[2023-07-30 10:32:05] INFO root fetch - processPackages [tcafe-attending-bot]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-07-30 10:32:06] INFO root fetch - processPackages [whois-parser]: Downloading https://files.pythonhosted.org/packages/c5/44/5d852a293633429cc696da726d6d7c9ddbe5a127018dee0a5fd1233ae931/whois_parser-0.3.0.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/8a/8a/49092ac4b5a9d36995dee28029b5e7187163b47827066d28c794fca566a6/hezar-0.17.4.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/a2/c7/b717cce643e4b442bfd620b25a7cc945ad727790622651b3b2638e715d70/readmeai-0.0.447.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/a2/c7/b717cce643e4b442bfd620b25a7cc945ad727790622651b3b2638e715d70/readmeai-0.0.447.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/ba/06/c2401ea2ab2bf2bfe0870a30fb0872bfb1fb5ea9bf0f77734765cfce8b99/odoo14_addon_shopfloor-14.0.3.4.1.dev1-py3-none-any.whl
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/a2/c7/b717cce643e4b442bfd620b25a7cc945ad727790622651b3b2638e715d70/readmeai-0.0.447.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/79/cf/81a85bdc431a682799de2675a72aee90bc5f51677760d040bf7848ca7e46/kfish-99.0.202307291940-py3-none-any.whl
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/af/c7/2dfad19c93c73bc908c931517bb0a44366c1e3dee31a33df4b10efa23db2/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl
+[2023-07-30 10:32:06] INFO root fetch - processPackages [tcafe-attending-bot]: Downloading https://files.pythonhosted.org/packages/97/b4/6c3d3297cbdad1708e866bf97501a4c87f86fc4be6c527e607fbfc4adb93/tcafe%20attending%20bot-0.1.2.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [whois-parser]: Downloading https://files.pythonhosted.org/packages/e3/64/b33c9b252359101ed14cfdced7c5548d2f35721140854062d357050abe6f/whois_parser-0.3.1.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/b1/58/43192b3f0aca9509393242936953965103a82f0d445cea650f6ac73f1b76/hezar-0.18.0.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/fd/c5/b6bb58046afc7554a3c246ae2775b4882fbf1109f91660e41067516969df/readmeai-0.0.448.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/fd/c5/b6bb58046afc7554a3c246ae2775b4882fbf1109f91660e41067516969df/readmeai-0.0.448.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/2f/6e/14ab6453ced1661a6b5602805fad7d728aa88c4b9a6ee488cc34914f24a9/kfish-99.0.202307300828-py3-none-any.whl
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/fd/c5/b6bb58046afc7554a3c246ae2775b4882fbf1109f91660e41067516969df/readmeai-0.0.448.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/37/7c/7bbe77cab05c19eaf8891c9004df23a8a4c9816094983db87a4abbe9b7e4/odoo14_addon_shopfloor-14.0.3.5.0-py3-none-any.whl
+[2023-07-30 10:32:06] INFO root fetch - processPackages [tcafe-attending-bot]: Downloading https://files.pythonhosted.org/packages/3b/91/54a748ac9b792e77b79cbecc1bc1fa78006f3a8c9dbd926ef3c2a90fb506/tcafe_attending_bot-1.0.0.tar.gz
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/c3/23/8526362ab9300aa58a210d8569f60632603010270fa72c28f63373aca95c/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl
+[2023-07-30 10:32:06] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.17.4.tar.gz tmp/hezar-0.18.0.tar.gz --markdown 20230730/h/hezar/0.17.4-0.18.0/diff.md --exclude *.pyd
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.447.tar.gz tmp/readmeai-0.0.448.tar.gz --markdown 20230730/r/readmeai/0.0.447-0.0.448/diff.md --exclude *.pyd
+[2023-07-30 10:32:06] INFO root fetch - processPackages [whois-parser]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [whois-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whois_parser-0.3.0.tar.gz tmp/whois_parser-0.3.1.tar.gz --markdown 20230730/w/whois-parser/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.447.tar.gz tmp/readmeai-0.0.448.tar.gz --markdown 20230730/r/readmeai/0.0.447-0.0.448/diff.md --exclude *.pyd
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.447.tar.gz tmp/readmeai-0.0.448.tar.gz --markdown 20230730/r/readmeai/0.0.447-0.0.448/diff.md --exclude *.pyd
+[2023-07-30 10:32:06] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307291940-py3-none-any.whl.zip tmp/kfish-99.0.202307300828-py3-none-any.whl.zip --markdown 20230730/k/kfish/99.0.202307291940-99.0.202307300828/diff.md --exclude *.pyd
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230730/o/odoo14-addon-shopfloor-mobile/14.0.1.9.1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-07-30 10:32:06] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.3.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.3.5.0-py3-none-any.whl.zip --markdown 20230730/o/odoo14-addon-shopfloor/14.0.3.4.1.dev1-14.0.3.5.0/diff.md --exclude *.pyd
+[2023-07-30 10:32:07] INFO root fetch - processPackages [tcafe-attending-bot]: executing diffoscope
+[2023-07-30 10:32:07] INFO root fetch - processPackages [tcafe-attending-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcafe attending bot-0.1.2.tar.gz tmp/tcafe_attending_bot-1.0.0.tar.gz --markdown 20230730/t/tcafe-attending-bot/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 10:32:08] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.447.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.448.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:32:08] INFO root fetch - processPackages [tcafe-attending-bot]: Remove: archive file [/home/abi/fetcher/tmp/tcafe attending bot-0.1.2.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - processPackages [tcafe-attending-bot]: Remove: archive file [/home/abi/fetcher/tmp/tcafe_attending_bot-1.0.0.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [tcafe-attending-bot]: success
+[2023-07-30 10:32:08] INFO root fetch - processPackages [whois-parser]: Remove: archive file [/home/abi/fetcher/tmp/whois_parser-0.3.0.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - processPackages [whois-parser]: Remove: archive file [/home/abi/fetcher/tmp/whois_parser-0.3.1.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [whois-parser]: success
+[2023-07-30 10:32:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307291940-py3-none-any.whl.zip]
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:32:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307300828-py3-none-any.whl.zip]
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-30 10:32:08] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.17.4.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.18.0.tar.gz]
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-30 10:32:08] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip]
+[2023-07-30 10:32:08] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip]
+[2023-07-30 10:32:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile]: success
+[2023-07-30 10:32:09] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.4.1.dev1-py3-none-any.whl.zip]
+[2023-07-30 10:32:09] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.5.0-py3-none-any.whl.zip]
+[2023-07-30 10:32:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-07-30 10:32:09] INFO root fetch - main [MainThread]: Store serial: [19094756]
