@@ -7665,3 +7665,59 @@
 [2023-07-30 11:50:08] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.705.tar.gz]
 [2023-07-30 11:50:08] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-30 11:50:08] INFO root fetch - main [MainThread]: Store serial: [19095258]
+[2023-07-30 11:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095258]
+[2023-07-30 11:55:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs_puml
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANSIController
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sura
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mediaify
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OneOnOne
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rustplus
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyNyaaTa
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ANSIController]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-30 11:55:17] WARNING root fetch - processPackages [sura]: Skipping, unable to determine old version
+[2023-07-30 11:55:17] INFO root fetch - main [MainThread]: End processing [sura] error
+[2023-07-30 11:55:17] INFO root fetch - processPackages [mkdocs_puml]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-30 11:55:17] INFO root fetch - processPackages [rustplus]: New version: [5.6.9] Old Version: [5.6.8]
+[2023-07-30 11:55:17] INFO root fetch - processPackages [OneOnOne]: New version: [0.706] Old Version: [0.705]
+[2023-07-30 11:55:17] INFO root fetch - processPackages [mediaify]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-30 11:55:17] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/02/b8/be774f2939caa854af75399b45e5b7ee6cb1957b85836dd660029aca896a/OneOnOne-0.705.tar.gz
+[2023-07-30 11:55:17] INFO root fetch - processPackages [PyNyaaTa]: New version: [202307300954] Old Version: [202307101440]
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/49/31/70c3785e34e57705ddb63ecbfad39b5020e5fac5794df6b5cc2b44b9bd9a/ANSIController-1.0.7.tar.gz
+[2023-07-30 11:55:17] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/65/14/da20fbdff66c30555124dcd5b1649daffc6b7b81c556a8171292e53f52ef/mediaify-3.0.4.tar.gz
+[2023-07-30 11:55:17] INFO root fetch - processPackages [mkdocs_puml]: Downloading https://files.pythonhosted.org/packages/25/0e/5b0d21fe24ac22e244970c8ac14fc5f97841ed68fec595eb637037af5fca/mkdocs_puml-1.2.2.tar.gz
+[2023-07-30 11:55:17] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/a6/c7/5b15e1a33254ede43ea9942843352b60d9059dd743a78e2884728dd69db0/rustplus-5.6.8.tar.gz
+[2023-07-30 11:55:17] WARNING root fetch - processPackages [mediaify]: Skipping package: exceeds size limit 43541447>=10485760
+[2023-07-30 11:55:17] INFO root fetch - main [MainThread]: End processing [mediaify] error
+[2023-07-30 11:55:17] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/bb/c8/3429d7159f5c6f2a090c5ba05b0124088e2b9fe7303caf09c8618ac95248/PyNyaaTa-202307101440.tar.gz
+[2023-07-30 11:55:17] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/3e/76/c8d93d6f6606de4d22331b199439dac20b2af1bafcff6e245bb4b72dad8a/ANSIController-1.0.8.tar.gz
+[2023-07-30 11:55:17] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/77/a2/fb651d6cc439917bb8f7ee88b0b9eade87e23b984a714e3259d976fc59a1/OneOnOne-0.706.tar.gz
+[2023-07-30 11:55:17] INFO root fetch - processPackages [mkdocs_puml]: Downloading https://files.pythonhosted.org/packages/f4/fc/174089098c3a62a973d578525a30510c2dd9bc3ecbc157169469a2aa32f7/mkdocs_puml-1.2.3.tar.gz
+[2023-07-30 11:55:18] INFO root fetch - processPackages [rustplus]: Downloading https://files.pythonhosted.org/packages/89/04/f1067632a53b4bb171039a8bad90d522a22b903e7fa99ce43210d7c03a22/rustplus-5.6.9.tar.gz
+[2023-07-30 11:55:18] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 11:55:18] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-1.0.7.tar.gz tmp/ANSIController-1.0.8.tar.gz --markdown 20230730/A/ANSIController/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-30 11:55:18] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/cf/00/6d4145ea5bbaccd7bc39cdf46bb5868b263b74fa6883c9aaa18339913069/PyNyaaTa-202307300954.tar.gz
+[2023-07-30 11:55:18] INFO root fetch - processPackages [mkdocs_puml]: executing diffoscope
+[2023-07-30 11:55:18] INFO root fetch - processPackages [mkdocs_puml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_puml-1.2.2.tar.gz tmp/mkdocs_puml-1.2.3.tar.gz --markdown 20230730/m/mkdocs_puml/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-30 11:55:18] INFO root fetch - processPackages [rustplus]: executing diffoscope
+[2023-07-30 11:55:18] INFO root fetch - processPackages [rustplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustplus-5.6.8.tar.gz tmp/rustplus-5.6.9.tar.gz --markdown 20230730/r/rustplus/5.6.8-5.6.9/diff.md --exclude *.pyd
+[2023-07-30 11:55:18] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-07-30 11:55:18] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202307101440.tar.gz tmp/PyNyaaTa-202307300954.tar.gz --markdown 20230730/P/PyNyaaTa/202307101440-202307300954/diff.md --exclude *.pyd
+[2023-07-30 11:55:18] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 11:55:18] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.705.tar.gz tmp/OneOnOne-0.706.tar.gz --markdown 20230730/O/OneOnOne/0.705-0.706/diff.md --exclude *.pyd
+[2023-07-30 11:55:19] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.7.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.8.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 11:55:19] INFO root fetch - processPackages [mkdocs_puml]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_puml-1.2.2.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - processPackages [mkdocs_puml]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_puml-1.2.3.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - main [MainThread]: End processing [mkdocs_puml]: success
+[2023-07-30 11:55:19] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.705.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.706.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 11:55:19] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307101440.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307300954.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-07-30 11:55:19] INFO root fetch - processPackages [rustplus]: Remove: archive file [/home/abi/fetcher/tmp/rustplus-5.6.8.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - processPackages [rustplus]: Remove: archive file [/home/abi/fetcher/tmp/rustplus-5.6.9.tar.gz]
+[2023-07-30 11:55:19] INFO root fetch - main [MainThread]: End processing [rustplus]: success
+[2023-07-30 11:55:19] INFO root fetch - main [MainThread]: Store serial: [19095283]
