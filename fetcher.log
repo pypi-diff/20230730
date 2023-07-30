@@ -10649,3 +10649,122 @@
 [2023-07-30 15:43:49] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: Remove: archive file [/home/abi/fetcher/tmp/proxy.py-uxspoilers-plugin-2021.5.18.post4.tar.gz]
 [2023-07-30 15:43:49] INFO root fetch - main [MainThread]: End processing [proxy.py-uxspoilers-plugin]: success
 [2023-07-30 15:43:49] INFO root fetch - main [MainThread]: Store serial: [19096636]
+[2023-07-30 15:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096636]
+[2023-07-30 15:48:57] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customs-dtoc
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntaxlight
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: copulogram
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-orca
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-friesian
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib-spark2
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-orca-spark2
+[2023-07-30 15:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neuroimager
+[2023-07-30 15:48:57] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:57] INFO root fetch - processPackages [copulogram]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 15:48:57] INFO root fetch - processPackages [neuroimager]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 15:48:57] WARNING root fetch - processPackages [customs-dtoc]: Skipping, unable to determine old version
+[2023-07-30 15:48:57] INFO root fetch - processPackages [customs-dtoc]: Start processing: bigdl-friesian-spark2
+[2023-07-30 15:48:57] INFO root fetch - main [MainThread]: End processing [customs-dtoc] error
+[2023-07-30 15:48:57] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 15:48:57] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:57] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:57] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:57] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:57] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:58] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-30 15:48:58] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/c6/90/af8b74b560532519ae11ccf201c8ba04aa0ef20190067779e18671ead354/neuroimager-0.0.7.tar.gz
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/84/f1/64f3bf82e858fc553aad56e8d9ba68bc8c0a31a03c36715b9916bdd21719/bigdl_orca-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/1a/47/1b39f4453029dd51258d9cb6fc83c989cf4f46ad11c2a168931841b1ee09/bigdl-dllib-2.4.0b20230729.tar.gz
+[2023-07-30 15:48:58] INFO root fetch - processPackages [copulogram]: Downloading https://files.pythonhosted.org/packages/81/9c/10b06b9d60d3a471732c20ac3cbc4a4586328f72ee876d3269f41b373341/copulogram-0.0.2.tar.gz
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/6d/a4/0e275f26aa1da3faca4f1e5a0e2aeadb27f27585d7110912e7f944e5ba18/bigdl-dllib-spark2-2.4.0b20230729.tar.gz
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/9f/f5/f879472aeee0e51bce45c18580c0bc23de1899bc47ab1118f020e3206786/bigdl-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/36/93/93fdd812afa2eb925bd99cca2e6f7e4bcb4a177ddf80d2adb1bbdb17a533/bigdl_friesian-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/9b/ec/ce34f9e06c888afcae876c1b7be08b3902c31b33299503fe3ba1ba213294/bigdl_orca_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20374392>=10485760
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-chronos-spark2
+[2023-07-30 15:48:58] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/cb/12/388e739bfe103cf64529396c51e503e1c2736349fe99f16677fac05de8ed/bigdl_friesian_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53639174>=10485760
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-spark2
+[2023-07-30 15:48:58] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-30 15:48:58] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53639306>=10485760
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: stream-gears
+[2023-07-30 15:48:58] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:58] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-30 15:48:58] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20374474>=10485760
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: aidriver
+[2023-07-30 15:48:58] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230730] Old Version: [2.4.0b20230729]
+[2023-07-30 15:48:58] INFO root fetch - processPackages [stream-gears]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 15:48:58] WARNING root fetch - processPackages [aidriver]: Skipping, unable to determine old version
+[2023-07-30 15:48:58] INFO root fetch - processPackages [aidriver]: Start processing: isyatirimhisse
+[2023-07-30 15:48:58] INFO root fetch - main [MainThread]: End processing [aidriver] error
+[2023-07-30 15:48:58] INFO root fetch - processPackages [copulogram]: Downloading https://files.pythonhosted.org/packages/38/a5/52ebd0855e758785791175283dd8b75dd060acd562a7be15b0d662bcc9b1/copulogram-0.0.3.tar.gz
+[2023-07-30 15:48:58] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/cf/4b/2e7ccac4a8bc9c81cef66d3f36ca163e7bf6a3f7a42b7ac7e73c60d437b3/neuroimager-0.0.8.tar.gz
+[2023-07-30 15:48:58] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-30 15:48:58] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230730/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 15:48:58] INFO root fetch - processPackages [isyatirimhisse]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/2c/b1/fbd7cc9cbd0f2a9c14ca3b7e8ec0a3f293619ba41716fef3dc751298aa94/bigdl-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [copulogram]: executing diffoscope
+[2023-07-30 15:48:58] INFO root fetch - processPackages [copulogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copulogram-0.0.2.tar.gz tmp/copulogram-0.0.3.tar.gz --markdown 20230730/c/copulogram/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/4c/07/e8c44bb5473a24b8b8e11c0efd9d60522cb6fb73b1ee87a17b4085971c01/bigdl_friesian-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/f8/b2/6deabc4e95478e214971751e9fe482d600885a64e6a748ea45dc4ac9b2e3/bigdl_chronos_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/c2/68/9ef69dbd20767ccf4454594518e4944450ca15c389acbf258de8c5a6dd6c/bigdl_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [neuroimager]: executing diffoscope
+[2023-07-30 15:48:58] INFO root fetch - processPackages [neuroimager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroimager-0.0.7.tar.gz tmp/neuroimager-0.0.8.tar.gz --markdown 20230730/n/neuroimager/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 15:48:58] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/9b/ca/7c47e25dbc61dff3f786c12d908d2a7f5d3a33ed2968369fb796b7d8c7d6/bigdl_friesian_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:58] INFO root fetch - processPackages [stream-gears]: Downloading https://files.pythonhosted.org/packages/13/81/79efb8e292403dc0e02ea78b266635644e038eac384fbfe481a2a8a68074/stream_gears-0.1.8.tar.gz
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:48:59] INFO root fetch - processPackages [isyatirimhisse]: Downloading https://files.pythonhosted.org/packages/8b/29/5a616fb09a5de7c70fc0c6073d2d6179c3e30917f593d17d47b55ae0c1f4/isyatirimhisse-0.1.1.tar.gz
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl-friesian/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl-friesian-spark2/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/c6/b7/cde11b99635693e01633d83c8fd7f27f7f63f4cc5a9e984c77a9b71d1183/bigdl_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/2b/ed/ea48482636b6ff343123929ef808470c359e70355be42a1f46cc92e1fe17/bigdl_chronos_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl
+[2023-07-30 15:48:59] INFO root fetch - processPackages [stream-gears]: Downloading https://files.pythonhosted.org/packages/8c/e7/74a603e774f52cb59d3b1b07ce874ef8180426c14aa6f1316a255772b5c7/stream_gears-0.1.9.tar.gz
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl-spark2/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:48:59] INFO root fetch - processPackages [stream-gears]: executing diffoscope
+[2023-07-30 15:48:59] INFO root fetch - processPackages [isyatirimhisse]: Downloading https://files.pythonhosted.org/packages/b3/d0/f9272a3da3961ebbbb0761a0c940372819827bb29cd8806594e98fc45bfa/isyatirimhisse-0.2.0.tar.gz
+[2023-07-30 15:48:59] INFO root fetch - processPackages [stream-gears]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_gears-0.1.8.tar.gz tmp/stream_gears-0.1.9.tar.gz --markdown 20230730/s/stream-gears/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-30 15:48:59] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip --markdown 20230730/b/bigdl-chronos-spark2/2.4.0b20230729-2.4.0b20230730/diff.md --exclude *.pyd
+[2023-07-30 15:48:59] INFO root fetch - processPackages [isyatirimhisse]: executing diffoscope
+[2023-07-30 15:48:59] INFO root fetch - processPackages [isyatirimhisse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isyatirimhisse-0.1.1.tar.gz tmp/isyatirimhisse-0.2.0.tar.gz --markdown 20230730/i/isyatirimhisse/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 15:49:00] INFO root fetch - processPackages [copulogram]: Remove: archive file [/home/abi/fetcher/tmp/copulogram-0.0.2.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [copulogram]: Remove: archive file [/home/abi/fetcher/tmp/copulogram-0.0.3.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [copulogram]: success
+[2023-07-30 15:49:00] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.7.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.8.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [neuroimager]: success
+[2023-07-30 15:49:00] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-30 15:49:00] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-30 15:49:00] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-30 15:49:00] INFO root fetch - processPackages [isyatirimhisse]: Remove: archive file [/home/abi/fetcher/tmp/isyatirimhisse-0.1.1.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [isyatirimhisse]: Remove: archive file [/home/abi/fetcher/tmp/isyatirimhisse-0.2.0.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [isyatirimhisse]: success
+[2023-07-30 15:49:00] INFO root fetch - processPackages [stream-gears]: Remove: archive file [/home/abi/fetcher/tmp/stream_gears-0.1.8.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [stream-gears]: Remove: archive file [/home/abi/fetcher/tmp/stream_gears-0.1.9.tar.gz]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [stream-gears]: success
+[2023-07-30 15:49:00] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:00] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:00] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-30 15:49:01] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:01] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:01] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-30 15:49:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230729-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-30 15:49:01] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-30 15:49:01] INFO root fetch - main [MainThread]: Store serial: [19096736]
