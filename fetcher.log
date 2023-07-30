@@ -5358,3 +5358,49 @@
 [2023-07-30 08:18:28] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-99.tar.gz]
 [2023-07-30 08:18:28] INFO root fetch - main [MainThread]: End processing [gamla]: success
 [2023-07-30 08:18:28] INFO root fetch - main [MainThread]: Store serial: [19094245]
+[2023-07-30 08:23:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094245]
+[2023-07-30 08:23:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 08:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-07-30 08:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datarails
+[2023-07-30 08:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-30 08:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-mcversion
+[2023-07-30 08:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magnus
+[2023-07-30 08:23:37] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.992] Old Version: [0.0.50.991]
+[2023-07-30 08:23:37] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.992] Old Version: [0.0.50.991]
+[2023-07-30 08:23:37] INFO root fetch - processPackages [nonebot-plugin-mcversion]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 08:23:37] INFO root fetch - processPackages [datarails]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-30 08:23:37] INFO root fetch - processPackages [magnus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-30 08:23:37] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/94/6e/0075c11e5aa7d15a9671648ab705e01a4a1b8ab73a00a8a0bfbc8b867f56/datarails-0.3.0.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/6c/58/379b90804b0c5b14c5da66c7b881efdd35601fd7954efe2c3921f9ef3039/abstract_gui-0.0.50.991.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/6c/58/379b90804b0c5b14c5da66c7b881efdd35601fd7954efe2c3921f9ef3039/abstract_gui-0.0.50.991.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/b2/2f/1881cceb90c18f910b50899c3a4033642c3cc3ba61b9d57cb0651ad6d3a9/nonebot-plugin-mcversion-0.2.1.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/90/39/6e79fcb32eeb63890ea90c481570e93e3cc96f5428dd4de86e0421b4a87d/magnus-0.4.8.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [datarails]: Downloading https://files.pythonhosted.org/packages/d0/3a/5c25153627573ddc414d488e12bc87de7b4f87ea0fcdd59dba14ac9fb3bb/datarails-0.3.1.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f5/9d/58f326a3a2d4b81188eb9caf9fffdbee38226ceb1f01baeea73c12b2f5f8/abstract_gui-0.0.50.992.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f5/9d/58f326a3a2d4b81188eb9caf9fffdbee38226ceb1f01baeea73c12b2f5f8/abstract_gui-0.0.50.992.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Downloading https://files.pythonhosted.org/packages/90/9e/d77f599dced6be6065c2b0f53da96be15485eb2c7ed66d464923e2d5a006/nonebot-plugin-mcversion-0.2.2.tar.gz
+[2023-07-30 08:23:37] INFO root fetch - processPackages [datarails]: executing diffoscope
+[2023-07-30 08:23:37] INFO root fetch - processPackages [datarails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarails-0.3.0.tar.gz tmp/datarails-0.3.1.tar.gz --markdown 20230730/d/datarails/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 08:23:38] INFO root fetch - processPackages [nonebot-plugin-mcversion]: executing diffoscope
+[2023-07-30 08:23:38] INFO root fetch - processPackages [nonebot-plugin-mcversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcversion-0.2.1.tar.gz tmp/nonebot-plugin-mcversion-0.2.2.tar.gz --markdown 20230730/n/nonebot-plugin-mcversion/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 08:23:38] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 08:23:38] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.991.tar.gz tmp/abstract_gui-0.0.50.992.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.991-0.0.50.992/diff.md --exclude *.pyd
+[2023-07-30 08:23:38] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 08:23:38] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.991.tar.gz tmp/abstract_gui-0.0.50.992.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.991-0.0.50.992/diff.md --exclude *.pyd
+[2023-07-30 08:23:38] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/44/a5/abfc74ee3d541331891e45d0986c3171ab5084231cebacc144a6afd310b0/magnus-0.4.9.tar.gz
+[2023-07-30 08:23:38] INFO root fetch - processPackages [magnus]: executing diffoscope
+[2023-07-30 08:23:38] INFO root fetch - processPackages [magnus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnus-0.4.8.tar.gz tmp/magnus-0.4.9.tar.gz --markdown 20230730/m/magnus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-30 08:23:38] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.3.0.tar.gz]
+[2023-07-30 08:23:38] INFO root fetch - processPackages [datarails]: Remove: archive file [/home/abi/fetcher/tmp/datarails-0.3.1.tar.gz]
+[2023-07-30 08:23:38] INFO root fetch - main [MainThread]: End processing [datarails]: success
+[2023-07-30 08:23:39] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.991.tar.gz]
+[2023-07-30 08:23:39] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.992.tar.gz]
+[2023-07-30 08:23:39] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 08:23:39] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.1.tar.gz]
+[2023-07-30 08:23:39] INFO root fetch - processPackages [nonebot-plugin-mcversion]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcversion-0.2.2.tar.gz]
+[2023-07-30 08:23:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcversion]: success
+[2023-07-30 08:23:39] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 08:23:39] INFO root fetch - processPackages [magnus]: Remove: archive file [/home/abi/fetcher/tmp/magnus-0.4.8.tar.gz]
+[2023-07-30 08:23:39] INFO root fetch - processPackages [magnus]: Remove: archive file [/home/abi/fetcher/tmp/magnus-0.4.9.tar.gz]
+[2023-07-30 08:23:39] INFO root fetch - main [MainThread]: End processing [magnus]: success
+[2023-07-30 08:23:39] INFO root fetch - main [MainThread]: Store serial: [19094262]
