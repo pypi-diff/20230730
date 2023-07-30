@@ -10935,3 +10935,42 @@
 [2023-07-30 16:04:36] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-1.1.tar.gz]
 [2023-07-30 16:04:36] INFO root fetch - main [MainThread]: End processing [balepy]: success
 [2023-07-30 16:04:36] INFO root fetch - main [MainThread]: Store serial: [19096840]
+[2023-07-30 16:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096840]
+[2023-07-30 16:09:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 16:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorage
+[2023-07-30 16:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorboardX
+[2023-07-30 16:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utils4cpp
+[2023-07-30 16:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soco-cli
+[2023-07-30 16:09:44] INFO root fetch - processPackages [utils4cpp]: New version: [0.0.32] Old Version: [0.0.29]
+[2023-07-30 16:09:44] INFO root fetch - processPackages [tensorage]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 16:09:44] INFO root fetch - processPackages [tensorboardX]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-07-30 16:09:44] INFO root fetch - processPackages [soco-cli]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-30 16:09:45] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/14/57/27d08a3a4248f3f536a6523dfce3a99735b445212d301cbfcf7da6a0851a/tensorage-0.0.3.tar.gz
+[2023-07-30 16:09:45] INFO root fetch - processPackages [soco-cli]: Downloading https://files.pythonhosted.org/packages/08/77/18dc625b150748a1c5cd44aaf95740bd0a39b53399acd07bf3c461e2b10d/soco-cli-0.4.8.tar.gz
+[2023-07-30 16:09:45] INFO root fetch - processPackages [tensorboardX]: Downloading https://files.pythonhosted.org/packages/a7/63/3a14e5e130bf6ad7f31183813258ff7f9dbe7af780406422dfd10306a38f/tensorboardX-2.6.1.tar.gz
+[2023-07-30 16:09:45] INFO root fetch - processPackages [utils4cpp]: Downloading https://files.pythonhosted.org/packages/f6/8b/d7b2ba96be9529790314db74cfea33dcc54b74e03a0eaa7cd46597ecb6c6/utils4cpp-0.0.29.tar.gz
+[2023-07-30 16:09:45] INFO root fetch - processPackages [soco-cli]: Downloading https://files.pythonhosted.org/packages/9c/20/022b3752b29a24cf2ab7a66eff45702404292a0de61533d8eeea70de84d0/soco-cli-0.4.9.tar.gz
+[2023-07-30 16:09:45] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/21/fd/ec27ade356d5689dc850b6d182859a9621d00f4b087e92b7747e958eb472/tensorage-0.0.4.tar.gz
+[2023-07-30 16:09:45] INFO root fetch - processPackages [soco-cli]: executing diffoscope
+[2023-07-30 16:09:45] INFO root fetch - processPackages [soco-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soco-cli-0.4.8.tar.gz tmp/soco-cli-0.4.9.tar.gz --markdown 20230730/s/soco-cli/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-30 16:09:45] INFO root fetch - processPackages [utils4cpp]: Downloading https://files.pythonhosted.org/packages/15/75/9c2da1f77892e211b05e3eacf6973c25f69b63cf54fa2eff908e850407ae/utils4cpp-0.0.32.tar.gz
+[2023-07-30 16:09:45] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-07-30 16:09:45] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.3.tar.gz tmp/tensorage-0.0.4.tar.gz --markdown 20230730/t/tensorage/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 16:09:45] INFO root fetch - processPackages [utils4cpp]: executing diffoscope
+[2023-07-30 16:09:45] INFO root fetch - processPackages [utils4cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils4cpp-0.0.29.tar.gz tmp/utils4cpp-0.0.32.tar.gz --markdown 20230730/u/utils4cpp/0.0.29-0.0.32/diff.md --exclude *.pyd
+[2023-07-30 16:09:45] INFO root fetch - processPackages [tensorboardX]: Downloading https://files.pythonhosted.org/packages/3e/17/a28214e8a4c9ed965b5237ca7428ac42ca88d786ff557c394c6dcfdcd2ae/tensorboardX-2.6.2.tar.gz
+[2023-07-30 16:09:46] INFO root fetch - processPackages [tensorboardX]: executing diffoscope
+[2023-07-30 16:09:46] INFO root fetch - processPackages [tensorboardX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorboardX-2.6.1.tar.gz tmp/tensorboardX-2.6.2.tar.gz --markdown 20230730/t/tensorboardX/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-07-30 16:09:46] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.3.tar.gz]
+[2023-07-30 16:09:46] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.4.tar.gz]
+[2023-07-30 16:09:46] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-07-30 16:09:46] INFO root fetch - processPackages [soco-cli]: Remove: archive file [/home/abi/fetcher/tmp/soco-cli-0.4.8.tar.gz]
+[2023-07-30 16:09:46] INFO root fetch - processPackages [soco-cli]: Remove: archive file [/home/abi/fetcher/tmp/soco-cli-0.4.9.tar.gz]
+[2023-07-30 16:09:46] INFO root fetch - main [MainThread]: End processing [soco-cli]: success
+[2023-07-30 16:09:46] INFO root fetch - processPackages [utils4cpp]: Remove: archive file [/home/abi/fetcher/tmp/utils4cpp-0.0.29.tar.gz]
+[2023-07-30 16:09:46] INFO root fetch - processPackages [utils4cpp]: Remove: archive file [/home/abi/fetcher/tmp/utils4cpp-0.0.32.tar.gz]
+[2023-07-30 16:09:46] INFO root fetch - main [MainThread]: End processing [utils4cpp]: success
+[2023-07-30 16:09:47] INFO root fetch - processPackages [tensorboardX]: Remove: archive file [/home/abi/fetcher/tmp/tensorboardX-2.6.1.tar.gz]
+[2023-07-30 16:09:47] INFO root fetch - processPackages [tensorboardX]: Remove: archive file [/home/abi/fetcher/tmp/tensorboardX-2.6.2.tar.gz]
+[2023-07-30 16:09:47] INFO root fetch - main [MainThread]: End processing [tensorboardX]: success
+[2023-07-30 16:09:47] INFO root fetch - main [MainThread]: Store serial: [19096851]
