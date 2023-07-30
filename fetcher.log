@@ -14341,3 +14341,112 @@
 [2023-07-30 20:30:12] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
 [2023-07-30 20:30:12] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
 [2023-07-30 20:30:12] INFO root fetch - main [MainThread]: Store serial: [19098358]
+[2023-07-30 20:35:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098358]
+[2023-07-30 20:35:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorage
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypiele
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quisk
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: durkinza.cdk-networkfirewall-l2
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owly
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypiele
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgeshared
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systembridgeconnector
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-sql
+[2023-07-30 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xctools-kamaalio
+[2023-07-30 20:35:21] INFO root fetch - processPackages [gs-sql]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [pypiele]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [xctools-kamaalio]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [pypiele]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [tensorage]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [owly]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [quisk]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 20:35:21] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-30 20:35:21] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/b6/5a/0e66891dd12466d8cb2db98ba2763c6b9908471011412ce28189b07ed3e0/systembridgeconnector-3.8.0.dev8.tar.gz
+[2023-07-30 20:35:21] INFO root fetch - processPackages [pypiele]: Downloading https://files.pythonhosted.org/packages/1b/6f/cd21fce31e6e98ae335304226e7ecf87dae12bdcb1e625028fcb0af4a930/pypiele-1.0.1.tar.gz
+[2023-07-30 20:35:21] INFO root fetch - processPackages [pypiele]: Downloading https://files.pythonhosted.org/packages/1b/6f/cd21fce31e6e98ae335304226e7ecf87dae12bdcb1e625028fcb0af4a930/pypiele-1.0.1.tar.gz
+[2023-07-30 20:35:21] INFO root fetch - processPackages [xctools-kamaalio]: Downloading https://files.pythonhosted.org/packages/1c/63/654a1ed6156ba8fbe87d2bac89c3d7884593f57fb21b4b016be4f73ff4fb/xctools_kamaalio-0.0.4.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [gs-sql]: Downloading https://files.pythonhosted.org/packages/0f/97/5494d961bdfbf1baaea26c09d475b2e29aa7cb81681ef2a59d04f389f552/gs_sql-0.0.2.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/21/fd/ec27ade356d5689dc850b6d182859a9621d00f4b087e92b7747e958eb472/tensorage-0.0.4.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Downloading https://files.pythonhosted.org/packages/d4/60/a84c631db2d3e56f0951a8346f723b213f3d15b2385738b050334bcb9192/durkinza.cdk-networkfirewall-l2-0.0.2.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [owly]: Downloading https://files.pythonhosted.org/packages/c7/92/159c4f9d9d3c35e0e6f5046d507f6efe4441a9c9dbf687fa0b261e4803f6/owly-0.0.2.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [quisk]: Downloading https://files.pythonhosted.org/packages/d7/4d/6a4558f6f8b306005c0d908ec12b1568c6301e25680ffeacce2019bd0318/quisk-4.2.8.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [xctools-kamaalio]: Downloading https://files.pythonhosted.org/packages/a6/38/9b47cdb882744376ab2d2a2c2d2d6eacd5f5297a335c05a4da5607916cd7/xctools_kamaalio-0.0.5.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev8.tar.gz tmp/systembridgeconnector-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeconnector/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [gs-sql]: Downloading https://files.pythonhosted.org/packages/d7/48/433e883639108544639e585ae92cde7e1a3b0361214b06692db353b785d6/gs_sql-0.0.3.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/b4/d9/d80ce16f4add17e35057066e80256436f395b5c489487cb097336d2b3f0f/tensorage-0.0.5.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [xctools-kamaalio]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [xctools-kamaalio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xctools_kamaalio-0.0.4.tar.gz tmp/xctools_kamaalio-0.0.5.tar.gz --markdown 20230730/x/xctools-kamaalio/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [owly]: Downloading https://files.pythonhosted.org/packages/21/d7/e7bc49d221619867ce8749c526bf76b7bf2ff0a25c04055ec33105baf84c/owly-0.0.3.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Downloading https://files.pythonhosted.org/packages/ff/c7/bb4c4bdb79534e9f5f7dabbf9c3605a26e3e3a2da7c62f5d55d379105d54/durkinza.cdk-networkfirewall-l2-0.0.3.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [pypiele]: Downloading https://files.pythonhosted.org/packages/88/cd/07cb827fe0df5bf951d5e77fffe1ada5d24a199e7412f3ab8373217d929d/pypiele-1.0.2.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [gs-sql]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [gs-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_sql-0.0.2.tar.gz tmp/gs_sql-0.0.3.tar.gz --markdown 20230730/g/gs-sql/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [pypiele]: Downloading https://files.pythonhosted.org/packages/88/cd/07cb827fe0df5bf951d5e77fffe1ada5d24a199e7412f3ab8373217d929d/pypiele-1.0.2.tar.gz
+[2023-07-30 20:35:22] INFO root fetch - processPackages [owly]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [owly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owly-0.0.2.tar.gz tmp/owly-0.0.3.tar.gz --markdown 20230730/o/owly/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.4.tar.gz tmp/tensorage-0.0.5.tar.gz --markdown 20230730/t/tensorage/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/durkinza.cdk-networkfirewall-l2-0.0.2.tar.gz tmp/durkinza.cdk-networkfirewall-l2-0.0.3.tar.gz --markdown 20230730/d/durkinza.cdk-networkfirewall-l2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [pypiele]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [pypiele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypiele-1.0.1.tar.gz tmp/pypiele-1.0.2.tar.gz --markdown 20230730/p/pypiele/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 20:35:22] INFO root fetch - processPackages [pypiele]: executing diffoscope
+[2023-07-30 20:35:22] INFO root fetch - processPackages [pypiele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypiele-1.0.1.tar.gz tmp/pypiele-1.0.2.tar.gz --markdown 20230730/p/pypiele/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 20:35:23] INFO root fetch - processPackages [quisk]: Downloading https://files.pythonhosted.org/packages/de/3d/9500e98d1a250189b29023e08209879947fd920f4176e8ece480e705f956/quisk-4.2.9.tar.gz
+[2023-07-30 20:35:23] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev8.tar.gz]
+[2023-07-30 20:35:23] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-30 20:35:23] INFO root fetch - processPackages [systembridgeconnector]: Start processing: systembridgecli
+[2023-07-30 20:35:23] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-30 20:35:23] INFO root fetch - processPackages [xctools-kamaalio]: Remove: archive file [/home/abi/fetcher/tmp/xctools_kamaalio-0.0.4.tar.gz]
+[2023-07-30 20:35:23] INFO root fetch - processPackages [xctools-kamaalio]: Remove: archive file [/home/abi/fetcher/tmp/xctools_kamaalio-0.0.5.tar.gz]
+[2023-07-30 20:35:23] INFO root fetch - processPackages [xctools-kamaalio]: Start processing: systembridgegui
+[2023-07-30 20:35:23] INFO root fetch - main [MainThread]: End processing [xctools-kamaalio]: success
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-30 20:35:24] INFO root fetch - processPackages [gs-sql]: Remove: archive file [/home/abi/fetcher/tmp/gs_sql-0.0.2.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [gs-sql]: Remove: archive file [/home/abi/fetcher/tmp/gs_sql-0.0.3.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - main [MainThread]: End processing [gs-sql]: success
+[2023-07-30 20:35:24] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Remove: archive file [/home/abi/fetcher/tmp/durkinza.cdk-networkfirewall-l2-0.0.2.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [durkinza.cdk-networkfirewall-l2]: Remove: archive file [/home/abi/fetcher/tmp/durkinza.cdk-networkfirewall-l2-0.0.3.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - main [MainThread]: End processing [durkinza.cdk-networkfirewall-l2]: success
+[2023-07-30 20:35:24] INFO root fetch - processPackages [pypiele]: Remove: archive file [/home/abi/fetcher/tmp/pypiele-1.0.1.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [pypiele]: Remove: archive file [/home/abi/fetcher/tmp/pypiele-1.0.2.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - main [MainThread]: End processing [pypiele]: success
+[2023-07-30 20:35:24] INFO root fetch - main [MainThread]: End processing [pypiele]: success
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-30 20:35:24] INFO root fetch - processPackages [owly]: Remove: archive file [/home/abi/fetcher/tmp/owly-0.0.2.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [owly]: Remove: archive file [/home/abi/fetcher/tmp/owly-0.0.3.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - main [MainThread]: End processing [owly]: success
+[2023-07-30 20:35:24] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.4.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.5.tar.gz]
+[2023-07-30 20:35:24] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev8.tar.gz tmp/systembridgegui-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgegui/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-30 20:35:24] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 20:35:25] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-30 20:35:25] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-30 20:35:25] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-30 20:35:25] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-30 20:35:25] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-30 20:35:25] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-30 20:35:25] INFO root fetch - processPackages [quisk]: executing diffoscope
+[2023-07-30 20:35:25] INFO root fetch - processPackages [quisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quisk-4.2.8.tar.gz tmp/quisk-4.2.9.tar.gz --markdown 20230730/q/quisk/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-07-30 20:35:27] INFO root fetch - processPackages [quisk]: Remove: archive file [/home/abi/fetcher/tmp/quisk-4.2.8.tar.gz]
+[2023-07-30 20:35:27] INFO root fetch - processPackages [quisk]: Remove: archive file [/home/abi/fetcher/tmp/quisk-4.2.9.tar.gz]
+[2023-07-30 20:35:27] INFO root fetch - main [MainThread]: End processing [quisk]: success
+[2023-07-30 20:35:27] INFO root fetch - main [MainThread]: Store serial: [19098408]
