@@ -3586,3 +3586,93 @@
 [2023-07-30 05:00:46] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-16.0.1.0.2.9-py3-none-any.whl.zip]
 [2023-07-30 05:00:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand]: success
 [2023-07-30 05:00:46] INFO root fetch - main [MainThread]: Store serial: [19093445]
+[2023-07-30 05:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093445]
+[2023-07-30 05:05:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-brand
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-brand
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-build-core
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crnpy
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybw-comic
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rule-engine
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Remilia
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rusty-chrono
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agentagenda
+[2023-07-30 05:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atomman
+[2023-07-30 05:05:54] INFO root fetch - processPackages [rule-engine]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-30 05:05:54] INFO root fetch - processPackages [odoo-addon-brand]: New version: [16.0.1.0.2.9] Old Version: [16.0.1.0.2.7]
+[2023-07-30 05:05:54] INFO root fetch - processPackages [odoo-addon-product-brand]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.5]
+[2023-07-30 05:05:54] INFO root fetch - processPackages [crnpy]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-30 05:05:54] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-07-30 05:05:54] INFO root fetch - processPackages [pybw-comic]: Start processing: syntaxlight
+[2023-07-30 05:05:54] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-07-30 05:05:54] WARNING root fetch - processPackages [rusty-chrono]: Skipping, unable to determine old version
+[2023-07-30 05:05:54] INFO root fetch - main [MainThread]: End processing [rusty-chrono] error
+[2023-07-30 05:05:54] INFO root fetch - processPackages [Remilia]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-07-30 05:05:54] INFO root fetch - processPackages [agentagenda]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 05:05:54] INFO root fetch - processPackages [scikit-build-core]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-30 05:05:54] INFO root fetch - processPackages [atomman]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-30 05:05:54] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/56/2a/1d890f473cd00767d9c35ff32acb2cf576afdf5aae241542dab452b34ca2/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl
+[2023-07-30 05:05:55] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/55/15/9ed18bd749e31354fd1c16b4cafe744061466f33e99d6349a70a3a081261/odoo_addon_product_brand-16.0.1.0.1.5-py3-none-any.whl
+[2023-07-30 05:05:55] INFO root fetch - processPackages [rule-engine]: Downloading https://files.pythonhosted.org/packages/9d/5c/849eed5d3496096a802174cd43689757913a9e40f088a4268e27f534693e/rule-engine-4.0.0.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/c4/aa/70e53ca7ee907d95142f52407360677cb229826fffc663f752dde4334170/crnpy-0.5.0.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [Remilia]: Downloading https://files.pythonhosted.org/packages/29/e9/f624b169e8582d83f501699363459f17e9dcce23ff838e118545ab0de074/remilia-1.1.8.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [atomman]: Downloading https://files.pythonhosted.org/packages/f9/17/9f80851255a7f518a59f49ffdffe41034bad57a896d9007bd1d6b0fafd6d/atomman-1.4.8.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/7a/53/cfaef4a4a698e7919c22a5d0805c137eb1d07f257bf0dbd16529aab20b19/scikit_build_core-0.4.7.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [agentagenda]: Downloading https://files.pythonhosted.org/packages/69/1f/bceda674adcf222a0060c563086fe63cfd1445dee710996f316e6724d6dd/agentagenda-0.0.6.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/22/26/19a4cb53154b523c54924a21ddccaee6a0cc20acc484f7b357093aa9292c/odoo_addon_brand-16.0.1.0.2.9-py3-none-any.whl
+[2023-07-30 05:05:55] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/e0/1e/d1bbe7db4d58b0c04abe6fa8a54df64a2bdf87b6d2a57d22eafe7bc51eaf/odoo_addon_product_brand-16.0.1.0.1.6-py3-none-any.whl
+[2023-07-30 05:05:55] INFO root fetch - processPackages [rule-engine]: Downloading https://files.pythonhosted.org/packages/69/3f/6f65bae84f37d77832bdde4ec515034a50bf9aa7e947389d0a634532f98c/rule-engine-4.0.1.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-brand]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [Remilia]: Downloading https://files.pythonhosted.org/packages/fe/26/bd8ec05655885f01b81d376ea66e8237b719f902c3150524d69252bd0d42/remilia-1.2.0.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl.zip tmp/odoo_addon_brand-16.0.1.0.2.9-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-brand/16.0.1.0.2.7-16.0.1.0.2.9/diff.md --exclude *.pyd
+[2023-07-30 05:05:55] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230730/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 05:05:55] INFO root fetch - processPackages [agentagenda]: Downloading https://files.pythonhosted.org/packages/3d/32/223adb71b02ac780aeda36587561c7aec414b5235f26371cde7adcd84c8c/agentagenda-0.0.7.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/96/06/a8c27d8c9ab4382c2be602d8dfa33c40ea1692bac6039fad4afc86af59ec/scikit_build_core-0.4.8.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/f2/39/aeb1cb5459b75b6183cfc424675a680beb56a553e919cae8870fb57448fc/crnpy-0.5.1.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [rule-engine]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [rule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rule-engine-4.0.0.tar.gz tmp/rule-engine-4.0.1.tar.gz --markdown 20230730/r/rule-engine/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-product-brand]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [odoo-addon-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_brand-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_product_brand-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-product-brand/16.0.1.0.1.5-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-07-30 05:05:55] INFO root fetch - processPackages [Remilia]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [Remilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remilia-1.1.8.tar.gz tmp/remilia-1.2.0.tar.gz --markdown 20230730/R/Remilia/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-07-30 05:05:55] INFO root fetch - processPackages [atomman]: Downloading https://files.pythonhosted.org/packages/4a/8c/ee156cfd31631860aa0b5668272aedfc745ef308faece9f8a726d63a16fd/atomman-1.4.9.tar.gz
+[2023-07-30 05:05:55] INFO root fetch - processPackages [agentagenda]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [agentagenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentagenda-0.0.6.tar.gz tmp/agentagenda-0.0.7.tar.gz --markdown 20230730/a/agentagenda/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 05:05:55] INFO root fetch - processPackages [crnpy]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [crnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crnpy-0.5.0.tar.gz tmp/crnpy-0.5.1.tar.gz --markdown 20230730/c/crnpy/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-30 05:05:55] INFO root fetch - processPackages [scikit-build-core]: executing diffoscope
+[2023-07-30 05:05:55] INFO root fetch - processPackages [scikit-build-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core-0.4.7.tar.gz tmp/scikit_build_core-0.4.8.tar.gz --markdown 20230730/s/scikit-build-core/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-30 05:05:56] INFO root fetch - processPackages [atomman]: executing diffoscope
+[2023-07-30 05:05:56] INFO root fetch - processPackages [atomman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomman-1.4.8.tar.gz tmp/atomman-1.4.9.tar.gz --markdown 20230730/a/atomman/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-30 05:05:57] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-07-30 05:05:57] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-16.0.1.0.2.9-py3-none-any.whl.zip]
+[2023-07-30 05:05:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand]: success
+[2023-07-30 05:05:57] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-30 05:05:57] INFO root fetch - processPackages [rule-engine]: Remove: archive file [/home/abi/fetcher/tmp/rule-engine-4.0.0.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - processPackages [rule-engine]: Remove: archive file [/home/abi/fetcher/tmp/rule-engine-4.0.1.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - main [MainThread]: End processing [rule-engine]: success
+[2023-07-30 05:05:57] INFO root fetch - processPackages [agentagenda]: Remove: archive file [/home/abi/fetcher/tmp/agentagenda-0.0.6.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - processPackages [agentagenda]: Remove: archive file [/home/abi/fetcher/tmp/agentagenda-0.0.7.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - main [MainThread]: End processing [agentagenda]: success
+[2023-07-30 05:05:57] INFO root fetch - processPackages [Remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.1.8.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - processPackages [Remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.2.0.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - main [MainThread]: End processing [Remilia]: success
+[2023-07-30 05:05:57] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.5.0.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.5.1.tar.gz]
+[2023-07-30 05:05:57] INFO root fetch - main [MainThread]: End processing [crnpy]: success
+[2023-07-30 05:05:57] INFO root fetch - processPackages [odoo-addon-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_brand-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-07-30 05:05:57] INFO root fetch - processPackages [odoo-addon-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_brand-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-07-30 05:05:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-brand]: success
+[2023-07-30 05:05:58] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.7.tar.gz]
+[2023-07-30 05:05:58] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.8.tar.gz]
+[2023-07-30 05:05:58] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
+[2023-07-30 05:05:58] INFO root fetch - processPackages [atomman]: Remove: archive file [/home/abi/fetcher/tmp/atomman-1.4.8.tar.gz]
+[2023-07-30 05:05:58] INFO root fetch - processPackages [atomman]: Remove: archive file [/home/abi/fetcher/tmp/atomman-1.4.9.tar.gz]
+[2023-07-30 05:05:58] INFO root fetch - main [MainThread]: End processing [atomman]: success
+[2023-07-30 05:05:58] INFO root fetch - main [MainThread]: Store serial: [19093480]
