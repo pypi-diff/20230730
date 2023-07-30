@@ -5664,3 +5664,66 @@
 [2023-07-30 08:52:48] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.6.tar.gz]
 [2023-07-30 08:52:48] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2023-07-30 08:52:48] INFO root fetch - main [MainThread]: Store serial: [19094354]
+[2023-07-30 08:57:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094354]
+[2023-07-30 08:57:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usody-sanitize
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klib
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoda-tk
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gfx-perps-sdk
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdkit
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KindaTools
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gfx-perps-sdk
+[2023-07-30 08:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unigui
+[2023-07-30 08:57:57] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 08:57:57] INFO root fetch - processPackages [klib]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-30 08:57:57] INFO root fetch - processPackages [gfx-perps-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 08:57:57] INFO root fetch - processPackages [gfx-perps-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 08:57:57] INFO root fetch - processPackages [usody-sanitize]: New version: [0.1.1b1] Old Version: [0.1.0b7]
+[2023-07-30 08:57:57] WARNING root fetch - processPackages [KindaTools]: Skipping, unable to determine old version
+[2023-07-30 08:57:57] INFO root fetch - main [MainThread]: End processing [KindaTools] error
+[2023-07-30 08:57:57] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-30 08:57:57] INFO root fetch - processPackages [unigui]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-30 08:57:57] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-30 08:57:57] INFO root fetch - processPackages [gfx-perps-sdk]: Downloading https://files.pythonhosted.org/packages/64/6a/c8b3dded68df732286bfb8c5960ef5d508bef9b57e79ac2806f881fa4b58/gfx-perps-sdk-0.0.2.tar.gz
+[2023-07-30 08:57:57] INFO root fetch - processPackages [gfx-perps-sdk]: Downloading https://files.pythonhosted.org/packages/64/6a/c8b3dded68df732286bfb8c5960ef5d508bef9b57e79ac2806f881fa4b58/gfx-perps-sdk-0.0.2.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [klib]: Downloading https://files.pythonhosted.org/packages/a5/38/2de49e8a3b3f31b8ae4a1e748c2fc01b04f7402fef90a6fa28b05a0d4efb/klib-1.1.1.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/3b/af/b736ff18a77f4df275d771a72933c193e93948382178ef932279b184288d/scoda-tk-0.1.1.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/36/71/09267b452af3711022f4601bd8790ba277173a43bef3be792cdbffd24c9d/usody_sanitize-0.1.0b7.tar.gz
+[2023-07-30 08:57:58] WARNING root fetch - processPackages [scoda-tk]: Skipping package: exceeds size limit 11120250>=10485760
+[2023-07-30 08:57:58] INFO root fetch - main [MainThread]: End processing [scoda-tk] error
+[2023-07-30 08:57:58] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/fe/ca/cd5a55ed8de9a904abcaf5faa68f499286a11c09b6c24debcc3d70a305d9/unigui-1.9.6.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [gfx-perps-sdk]: Downloading https://files.pythonhosted.org/packages/52/57/8b2b53e4780b8774b1058ecb6f7ffd1d530376fe438c9a5243614aacd275/gfx_perps_sdk-0.0.3.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [gfx-perps-sdk]: Downloading https://files.pythonhosted.org/packages/52/57/8b2b53e4780b8774b1058ecb6f7ffd1d530376fe438c9a5243614aacd275/gfx_perps_sdk-0.0.3.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [klib]: Downloading https://files.pythonhosted.org/packages/01/c1/f2544b52cce64480df84d24fbbe122f09e5e1b9f73ec204bc7101438c9de/klib-1.1.2.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-30 08:57:58] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230730/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-30 08:57:58] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/df/0e/d7a935f2dbaea1b98cbdc6286606acb02461efb86274dd4c4871232486f0/usody_sanitize-0.1.1b1.tar.gz
+[2023-07-30 08:57:58] INFO root fetch - processPackages [klib]: executing diffoscope
+[2023-07-30 08:57:58] INFO root fetch - processPackages [klib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klib-1.1.1.tar.gz tmp/klib-1.1.2.tar.gz --markdown 20230730/k/klib/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 08:57:58] INFO root fetch - processPackages [gfx-perps-sdk]: executing diffoscope
+[2023-07-30 08:57:58] INFO root fetch - processPackages [gfx-perps-sdk]: executing diffoscope
+[2023-07-30 08:57:58] INFO root fetch - processPackages [gfx-perps-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfx-perps-sdk-0.0.2.tar.gz tmp/gfx_perps_sdk-0.0.3.tar.gz --markdown 20230730/g/gfx-perps-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 08:57:58] INFO root fetch - processPackages [gfx-perps-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfx-perps-sdk-0.0.2.tar.gz tmp/gfx_perps_sdk-0.0.3.tar.gz --markdown 20230730/g/gfx-perps-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 08:57:58] INFO root fetch - processPackages [usody-sanitize]: executing diffoscope
+[2023-07-30 08:57:58] INFO root fetch - processPackages [usody-sanitize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usody_sanitize-0.1.0b7.tar.gz tmp/usody_sanitize-0.1.1b1.tar.gz --markdown 20230730/u/usody-sanitize/0.1.0b7-0.1.1b1/diff.md --exclude *.pyd
+[2023-07-30 08:57:58] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/6b/f9/db0cd2edfc449f9839d49c407f290c5bb439dee9a21a25ef6ef6000eb127/unigui-1.9.7.tar.gz
+[2023-07-30 08:57:59] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-30 08:57:59] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.9.6.tar.gz tmp/unigui-1.9.7.tar.gz --markdown 20230730/u/unigui/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-30 08:58:00] INFO root fetch - processPackages [klib]: Remove: archive file [/home/abi/fetcher/tmp/klib-1.1.1.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - processPackages [klib]: Remove: archive file [/home/abi/fetcher/tmp/klib-1.1.2.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - main [MainThread]: End processing [klib]: success
+[2023-07-30 08:58:00] INFO root fetch - processPackages [gfx-perps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx-perps-sdk-0.0.2.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - processPackages [gfx-perps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gfx_perps_sdk-0.0.3.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - main [MainThread]: End processing [gfx-perps-sdk]: success
+[2023-07-30 08:58:00] INFO root fetch - main [MainThread]: End processing [gfx-perps-sdk]: success
+[2023-07-30 08:58:00] INFO root fetch - processPackages [usody-sanitize]: Remove: archive file [/home/abi/fetcher/tmp/usody_sanitize-0.1.0b7.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - processPackages [usody-sanitize]: Remove: archive file [/home/abi/fetcher/tmp/usody_sanitize-0.1.1b1.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - main [MainThread]: End processing [usody-sanitize]: success
+[2023-07-30 08:58:00] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-30 08:58:00] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-30 08:58:17] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.6.tar.gz]
+[2023-07-30 08:58:17] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.7.tar.gz]
+[2023-07-30 08:58:17] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-30 08:58:17] INFO root fetch - main [MainThread]: Store serial: [19094377]
