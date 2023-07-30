@@ -5172,3 +5172,51 @@
 [2023-07-30 08:02:54] INFO root fetch - processPackages [pyp2p]: Remove: archive file [/home/abi/fetcher/tmp/pyp2p-0.8.2.tar.gz]
 [2023-07-30 08:02:54] INFO root fetch - main [MainThread]: End processing [pyp2p]: success
 [2023-07-30 08:02:54] INFO root fetch - main [MainThread]: Store serial: [19094183]
+[2023-07-30 08:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094183]
+[2023-07-30 08:08:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 08:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-selenium-screenshot
+[2023-07-30 08:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-30 08:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyp2p
+[2023-07-30 08:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-gui
+[2023-07-30 08:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ytdl-sub
+[2023-07-30 08:08:02] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.97] Old Version: [0.0.50.96]
+[2023-07-30 08:08:02] INFO root fetch - processPackages [pytest-selenium-screenshot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 08:08:02] INFO root fetch - processPackages [OneOnOne]: New version: [0.6949] Old Version: [0.6948]
+[2023-07-30 08:08:02] INFO root fetch - processPackages [pyp2p]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-30 08:08:02] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.7.30] Old Version: [2023.7.28]
+[2023-07-30 08:08:02] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/bd/88/2ed133d9f71cc265dfa79afe704d3f72d71c4d51ffc513a9fdecad719cf5/abstract_gui-0.0.50.96.tar.gz
+[2023-07-30 08:08:02] INFO root fetch - processPackages [pyp2p]: Downloading https://files.pythonhosted.org/packages/6a/e2/fdb45c2d36c62245c60a41a5b6b80190354de12313cbbd5f140da4140260/pyp2p-0.8.2.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [pytest-selenium-screenshot]: Downloading https://files.pythonhosted.org/packages/87/78/1b168810d3ccb19e7ac85a57cf06b0f412ff2e07b95ed8a52612262b5a59/pytest_selenium_screenshot-0.0.1.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/9b/1c/58d2772ceb3e7fe7d07a7347bf70d25c0e3c12afa38e210ef6514e2aafd1/OneOnOne-0.6948.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/63/04/a1f47b6e1c492cff64d53dcdc320b27a5e1bb65bf8db2698eb3321738c6b/ytdl-sub-2023.7.28.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/20/9b/cda918ef5ca4ea41770bd65a921b7d23f233a9c1a98a788a6216e322a2d9/abstract_gui-0.0.50.97.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [pyp2p]: Downloading https://files.pythonhosted.org/packages/3f/36/ca7e456fb6cc350f84af2441e020646943e860963ddc9db5ca11ee034369/pyp2p-0.8.3.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [pytest-selenium-screenshot]: Downloading https://files.pythonhosted.org/packages/81/ab/1a29c27967f754897e2d704d94d953fae66d30885e147201a8f42588f4f6/pytest_selenium_screenshot-0.0.2.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 08:08:03] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.96.tar.gz tmp/abstract_gui-0.0.50.97.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.96-0.0.50.97/diff.md --exclude *.pyd
+[2023-07-30 08:08:03] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/4f/22/f03fb82f52eba2cea7239200716c36fc5a9e50f2b71c9bb03118c9774e7c/ytdl-sub-2023.7.30.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/ba/9e/458fb37c9422ae6c8e18db505711f4ac81d9332ca8ce866ab2d48cac35c3/OneOnOne-0.6949.tar.gz
+[2023-07-30 08:08:03] INFO root fetch - processPackages [pyp2p]: executing diffoscope
+[2023-07-30 08:08:03] INFO root fetch - processPackages [pyp2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp2p-0.8.2.tar.gz tmp/pyp2p-0.8.3.tar.gz --markdown 20230730/p/pyp2p/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-30 08:08:03] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-07-30 08:08:03] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.7.28.tar.gz tmp/ytdl-sub-2023.7.30.tar.gz --markdown 20230730/y/ytdl-sub/2023.7.28-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 08:08:03] INFO root fetch - processPackages [pytest-selenium-screenshot]: executing diffoscope
+[2023-07-30 08:08:03] INFO root fetch - processPackages [pytest-selenium-screenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_selenium_screenshot-0.0.1.tar.gz tmp/pytest_selenium_screenshot-0.0.2.tar.gz --markdown 20230730/p/pytest-selenium-screenshot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 08:08:03] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 08:08:03] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6948.tar.gz tmp/OneOnOne-0.6949.tar.gz --markdown 20230730/O/OneOnOne/0.6948-0.6949/diff.md --exclude *.pyd
+[2023-07-30 08:08:04] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.96.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.97.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 08:08:04] INFO root fetch - processPackages [pytest-selenium-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/pytest_selenium_screenshot-0.0.1.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - processPackages [pytest-selenium-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/pytest_selenium_screenshot-0.0.2.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - main [MainThread]: End processing [pytest-selenium-screenshot]: success
+[2023-07-30 08:08:04] INFO root fetch - processPackages [pyp2p]: Remove: archive file [/home/abi/fetcher/tmp/pyp2p-0.8.2.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - processPackages [pyp2p]: Remove: archive file [/home/abi/fetcher/tmp/pyp2p-0.8.3.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - main [MainThread]: End processing [pyp2p]: success
+[2023-07-30 08:08:04] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.28.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.7.30.tar.gz]
+[2023-07-30 08:08:04] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-07-30 08:08:05] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6948.tar.gz]
+[2023-07-30 08:08:05] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6949.tar.gz]
+[2023-07-30 08:08:05] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 08:08:05] INFO root fetch - main [MainThread]: Store serial: [19094197]
