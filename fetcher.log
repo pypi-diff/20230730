@@ -4467,3 +4467,70 @@
 [2023-07-30 06:50:16] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-2.2.1.tar.gz]
 [2023-07-30 06:50:16] INFO root fetch - main [MainThread]: End processing [yambs]: success
 [2023-07-30 06:50:16] INFO root fetch - main [MainThread]: Store serial: [19093827]
+[2023-07-30 06:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093827]
+[2023-07-30 06:55:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-jobstorm
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polyclonal
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TMDBTraktSyncer
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: byquant
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikGapps
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyDolarVenezuela
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hojichar
+[2023-07-30 06:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-purchase-allowed-product
+[2023-07-30 06:55:24] INFO root fetch - processPackages [jupyter-jobstorm]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [byquant]: New version: [1.7.30] Old Version: [1.7.29]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: New version: [16.0.2.0.0.3] Old Version: [16.0.2.0.0.2]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [hojichar]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [polyclonal]: New version: [6.5] Old Version: [6.4]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [NikGapps]: New version: [1.69] Old Version: [1.68]
+[2023-07-30 06:55:24] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/c0/51/d356b3bdfb19851ec296cf0d33254c2e3a07c7f44143447734bca7820933/pyDolarVenezuela-1.1.1-py3-none-any.whl
+[2023-07-30 06:55:24] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/73/8f/6198c5751335a8ca67071c491ff1fa7f869e71f5c11899afb48cdf564cce/hojichar-0.7.1.tar.gz
+[2023-07-30 06:55:24] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/c9/0c/da7e5b1d894d2cea4d810c40e92660216f6e90e30a43de9e549a166558f9/byquant-1.7.29.tar.gz
+[2023-07-30 06:55:24] INFO root fetch - processPackages [jupyter-jobstorm]: Downloading https://files.pythonhosted.org/packages/81/a0/92295505a4995ae88459cdef66ce1dc36849e8a363dba4a6c532d6e63b73/jupyter_jobstorm-0.2.0-py3-none-any.whl
+[2023-07-30 06:55:24] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/6e/56/7829817ee309073b5107816d1b741320b85cd3cb6e588a962f9ff23edb9d/TMDBTraktSyncer-1.4.1.tar.gz
+[2023-07-30 06:55:25] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/1d/0c/7b926cf4c3f88295da53a4c290dc5e6a5439078c3ff83b8b2605c915f9a6/NikGapps-1.68.tar.gz
+[2023-07-30 06:55:25] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/e1/d9/5594cb98a289f33180629d780c9e57702bf969ad5eaee3dae9d649c7c5ca/odoo_addon_purchase_allowed_product-16.0.2.0.0.2-py3-none-any.whl
+[2023-07-30 06:55:25] INFO root fetch - processPackages [polyclonal]: Downloading https://files.pythonhosted.org/packages/02/81/3dec9aab580d16b89b31021cfbd1dfda8bb4bb6e10c11eb1456d213cf2ed/polyclonal-6.4.tar.gz
+[2023-07-30 06:55:25] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41566447>=10485760
+[2023-07-30 06:55:25] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-30 06:55:25] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/7b/3a/e112529dcfc4a65df35d61c083277bf875a2b83ca5edc2897550707344fd/pyDolarVenezuela-1.1.2-py3-none-any.whl
+[2023-07-30 06:55:25] WARNING root fetch - processPackages [polyclonal]: Skipping package: exceeds size limit 42057677>=10485760
+[2023-07-30 06:55:25] INFO root fetch - main [MainThread]: End processing [polyclonal] error
+[2023-07-30 06:55:25] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/25/25/01a108f87b8e2208c5f090154973e7aba9c5f0b7b5eb34bb1e347b8afc04/hojichar-0.7.2.tar.gz
+[2023-07-30 06:55:25] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2023-07-30 06:55:25] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDolarVenezuela-1.1.1-py3-none-any.whl.zip tmp/pyDolarVenezuela-1.1.2-py3-none-any.whl.zip --markdown 20230730/p/pyDolarVenezuela/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 06:55:25] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/a0/68/a3ecc11fc73882e55f132316553c5688239c6c64297ec54e183fe33c9dc2/TMDBTraktSyncer-1.5.0.tar.gz
+[2023-07-30 06:55:25] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/e4/1e/be036808c979d657fafa54b28e336278c8265ef5c893a2c2bda0327a6f96/byquant-1.7.30.tar.gz
+[2023-07-30 06:55:25] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/04/46/e7b0e6ddcdeed64220d5b8edf20b6a54da294193af1014a4eb66bc2f18c0/odoo_addon_purchase_allowed_product-16.0.2.0.0.3-py3-none-any.whl
+[2023-07-30 06:55:25] INFO root fetch - processPackages [jupyter-jobstorm]: Downloading https://files.pythonhosted.org/packages/ad/07/66931aca43910b44d0ecfa5f05407b5ee4910854e5726fd6998a0f9f5e94/jupyter_jobstorm-0.2.1-py3-none-any.whl
+[2023-07-30 06:55:25] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-07-30 06:55:25] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.7.1.tar.gz tmp/hojichar-0.7.2.tar.gz --markdown 20230730/h/hojichar/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-30 06:55:25] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-07-30 06:55:25] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.4.1.tar.gz tmp/TMDBTraktSyncer-1.5.0.tar.gz --markdown 20230730/T/TMDBTraktSyncer/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-30 06:55:25] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: executing diffoscope
+[2023-07-30 06:55:25] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0.3-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-purchase-allowed-product/16.0.2.0.0.2-16.0.2.0.0.3/diff.md --exclude *.pyd
+[2023-07-30 06:55:25] INFO root fetch - processPackages [jupyter-jobstorm]: executing diffoscope
+[2023-07-30 06:55:25] INFO root fetch - processPackages [jupyter-jobstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_jobstorm-0.2.0-py3-none-any.whl.zip tmp/jupyter_jobstorm-0.2.1-py3-none-any.whl.zip --markdown 20230730/j/jupyter-jobstorm/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 06:55:25] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-30 06:55:25] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.29.tar.gz tmp/byquant-1.7.30.tar.gz --markdown 20230730/b/byquant/1.7.29-1.7.30/diff.md --exclude *.pyd
+[2023-07-30 06:55:26] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.1.1-py3-none-any.whl.zip]
+[2023-07-30 06:55:26] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.1.2-py3-none-any.whl.zip]
+[2023-07-30 06:55:26] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2023-07-30 06:55:26] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.7.1.tar.gz]
+[2023-07-30 06:55:26] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.7.2.tar.gz]
+[2023-07-30 06:55:26] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-07-30 06:55:26] INFO root fetch - processPackages [jupyter-jobstorm]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jobstorm-0.2.0-py3-none-any.whl.zip]
+[2023-07-30 06:55:26] INFO root fetch - processPackages [jupyter-jobstorm]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_jobstorm-0.2.1-py3-none-any.whl.zip]
+[2023-07-30 06:55:26] INFO root fetch - main [MainThread]: End processing [jupyter-jobstorm]: success
+[2023-07-30 06:55:26] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.4.1.tar.gz]
+[2023-07-30 06:55:26] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.5.0.tar.gz]
+[2023-07-30 06:55:26] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-07-30 06:55:26] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2023-07-30 06:55:26] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_allowed_product-16.0.2.0.0.3-py3-none-any.whl.zip]
+[2023-07-30 06:55:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-allowed-product]: success
+[2023-07-30 06:55:27] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.29.tar.gz]
+[2023-07-30 06:55:27] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.30.tar.gz]
+[2023-07-30 06:55:27] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-30 06:55:27] INFO root fetch - main [MainThread]: Store serial: [19093847]
