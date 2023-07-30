@@ -3112,3 +3112,24 @@
 [2023-07-30 04:33:55] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.dev0.tar.gz]
 [2023-07-30 04:33:55] INFO root fetch - main [MainThread]: End processing [starlette-admin]: success
 [2023-07-30 04:33:55] INFO root fetch - main [MainThread]: Store serial: [19093303]
+[2023-07-30 04:38:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093303]
+[2023-07-30 04:39:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-30 04:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heybooster-toolkit
+[2023-07-30 04:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garth
+[2023-07-30 04:39:03] INFO root fetch - processPackages [garth]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-30 04:39:03] INFO root fetch - processPackages [heybooster-toolkit]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-07-30 04:39:03] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/3f/72/436754157d049c8a1db6867d017ced9acbeea4c935b5068abd4bdaf9c8c4/garth-0.3.4.tar.gz
+[2023-07-30 04:39:04] INFO root fetch - processPackages [heybooster-toolkit]: Downloading https://files.pythonhosted.org/packages/4c/b8/1339007473e1a06d99dd16a09365e0d70af8385738e0f4b85e905ee0414a/heybooster-toolkit-0.0.39.tar.gz
+[2023-07-30 04:39:04] INFO root fetch - processPackages [heybooster-toolkit]: Downloading https://files.pythonhosted.org/packages/f3/14/4210fa3960865b3b27182b42363d03e1d623d329995db4fd3d755468e2f4/heybooster-toolkit-0.0.40.tar.gz
+[2023-07-30 04:39:04] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/33/f7/75245929557e00aff163596f007af615e59a06e7ea2f423caa0b34a10ad8/garth-0.3.5.tar.gz
+[2023-07-30 04:39:04] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-30 04:39:04] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.3.4.tar.gz tmp/garth-0.3.5.tar.gz --markdown 20230730/g/garth/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-30 04:39:04] INFO root fetch - processPackages [heybooster-toolkit]: executing diffoscope
+[2023-07-30 04:39:04] INFO root fetch - processPackages [heybooster-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heybooster-toolkit-0.0.39.tar.gz tmp/heybooster-toolkit-0.0.40.tar.gz --markdown 20230730/h/heybooster-toolkit/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-07-30 04:39:05] INFO root fetch - processPackages [heybooster-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/heybooster-toolkit-0.0.39.tar.gz]
+[2023-07-30 04:39:05] INFO root fetch - processPackages [heybooster-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/heybooster-toolkit-0.0.40.tar.gz]
+[2023-07-30 04:39:05] INFO root fetch - main [MainThread]: End processing [heybooster-toolkit]: success
+[2023-07-30 04:39:05] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.4.tar.gz]
+[2023-07-30 04:39:05] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.5.tar.gz]
+[2023-07-30 04:39:05] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-30 04:39:05] INFO root fetch - main [MainThread]: Store serial: [19093309]
