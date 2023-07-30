@@ -2281,3 +2281,45 @@
 [2023-07-30 03:22:34] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-30 03:22:34] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-30 03:22:34] INFO root fetch - main [MainThread]: Store serial: [19092996]
+[2023-07-30 03:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092996]
+[2023-07-30 03:27:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 03:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsj-queue-lib
+[2023-07-30 03:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANSIController
+[2023-07-30 03:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmk-python
+[2023-07-30 03:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garth
+[2023-07-30 03:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: always-updates
+[2023-07-30 03:27:42] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 03:27:42] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 03:27:42] INFO root fetch - processPackages [lmk-python]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-07-30 03:27:42] INFO root fetch - processPackages [garth]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-30 03:27:42] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-30 03:27:42] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-30 03:27:42] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/67/64/c60313bbdd833060c9f5173fc025253cdc170fe7c9991327c3ca5a08e79e/garth-0.3.2.tar.gz
+[2023-07-30 03:27:42] INFO root fetch - processPackages [lmk-python]: Downloading https://files.pythonhosted.org/packages/79/f5/6c5b0c299f35bbd490c42556a75eb77f81f1607c7baae2f96476dab3ffd3/lmk_python-0.0.7.tar.gz
+[2023-07-30 03:27:42] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/54/fb/ce4920e7957885280318c71f0d86f6d4983e3dbc3cdc9e4dfee4341a9086/nsj_queue_lib-0.5.5.tar.gz
+[2023-07-30 03:27:42] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-30 03:27:43] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/55/4e/6c99d9fe25016b847e3ba4b6b44dae48262a878ad5aa8acd17753ab2f8bd/garth-0.3.3.tar.gz
+[2023-07-30 03:27:43] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-30 03:27:43] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.3.2.tar.gz tmp/garth-0.3.3.tar.gz --markdown 20230730/g/garth/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-30 03:27:43] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/df/a8/81ec48842cb93ab2faf82b8c7d176afe72a4cd4a78e62cd53687cf925e3f/nsj_queue_lib-0.5.6.tar.gz
+[2023-07-30 03:27:43] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-30 03:27:43] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-30 03:27:43] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.5.5.tar.gz tmp/nsj_queue_lib-0.5.6.tar.gz --markdown 20230730/n/nsj-queue-lib/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-30 03:27:43] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-30 03:27:43] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230730/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-30 03:27:43] INFO root fetch - processPackages [lmk-python]: Downloading https://files.pythonhosted.org/packages/2d/14/3ce5650286ef5c4c9f663203dbef79cfd71584f2ec1c856bb0ed83107b78/lmk_python-0.1.0.tar.gz
+[2023-07-30 03:27:43] INFO root fetch - processPackages [lmk-python]: executing diffoscope
+[2023-07-30 03:27:43] INFO root fetch - processPackages [lmk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmk_python-0.0.7.tar.gz tmp/lmk_python-0.1.0.tar.gz --markdown 20230730/l/lmk-python/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-07-30 03:27:44] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.5.5.tar.gz]
+[2023-07-30 03:27:44] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.5.6.tar.gz]
+[2023-07-30 03:27:44] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-30 03:27:44] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.2.tar.gz]
+[2023-07-30 03:27:44] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.3.tar.gz]
+[2023-07-30 03:27:44] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-30 03:27:44] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-30 03:27:44] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-30 03:27:44] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-30 03:27:53] INFO root fetch - processPackages [lmk-python]: Remove: archive file [/home/abi/fetcher/tmp/lmk_python-0.0.7.tar.gz]
+[2023-07-30 03:27:53] INFO root fetch - processPackages [lmk-python]: Remove: archive file [/home/abi/fetcher/tmp/lmk_python-0.1.0.tar.gz]
+[2023-07-30 03:27:53] INFO root fetch - main [MainThread]: End processing [lmk-python]: success
+[2023-07-30 03:27:53] INFO root fetch - main [MainThread]: Store serial: [19093013]
