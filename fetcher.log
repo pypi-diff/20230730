@@ -12391,3 +12391,51 @@
 [2023-07-30 17:41:13] INFO root fetch - processPackages [multitrackpro]: Remove: archive file [/home/abi/fetcher/tmp/multitrackpro-0.1.3.tar.gz]
 [2023-07-30 17:41:13] INFO root fetch - main [MainThread]: End processing [multitrackpro]: success
 [2023-07-30 17:41:13] INFO root fetch - main [MainThread]: Store serial: [19097456]
+[2023-07-30 17:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097456]
+[2023-07-30 17:46:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 17:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pasta-eln
+[2023-07-30 17:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: begoneads
+[2023-07-30 17:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcia-utils
+[2023-07-30 17:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pympipool
+[2023-07-30 17:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multipleloader
+[2023-07-30 17:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opet
+[2023-07-30 17:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-2-mermaid
+[2023-07-30 17:46:21] INFO root fetch - processPackages [pympipool]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-07-30 17:46:21] INFO root fetch - processPackages [tcia-utils]: New version: [1.6.1] Old Version: [1.6]
+[2023-07-30 17:46:21] WARNING root fetch - processPackages [multipleloader]: Skipping, unable to determine old version
+[2023-07-30 17:46:21] INFO root fetch - main [MainThread]: End processing [multipleloader] error
+[2023-07-30 17:46:21] INFO root fetch - processPackages [begoneads]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 17:46:21] WARNING root fetch - processPackages [pydantic-2-mermaid]: Skipping, unable to determine old version
+[2023-07-30 17:46:21] INFO root fetch - main [MainThread]: End processing [pydantic-2-mermaid] error
+[2023-07-30 17:46:21] WARNING root fetch - processPackages [opet]: Skipping, unable to determine old version
+[2023-07-30 17:46:21] INFO root fetch - main [MainThread]: End processing [opet] error
+[2023-07-30 17:46:21] INFO root fetch - processPackages [pasta-eln]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-07-30 17:46:21] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/a6/80/4f9ad243f00aa1f48da7c0c31431835eb7e208bc710913d3fcb3fbfd2a6f/pympipool-0.5.8.tar.gz
+[2023-07-30 17:46:21] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/b6/9c/c4efd92c2c39beadb50e1958423115f85635da7f4f41a56ffe9069c250cb/tcia_utils-1.6.tar.gz
+[2023-07-30 17:46:21] INFO root fetch - processPackages [begoneads]: Downloading https://files.pythonhosted.org/packages/e6/03/6ca219932c4c0256ced848174090d3ec4c24a0530b0c0447818d138c440f/begoneads-0.0.8.tar.gz
+[2023-07-30 17:46:21] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/f9/d4/1c252dbbb3f3cf0a5748d9a9055e73df4621dc3757762faf4089aae0139b/pasta_eln-2.4.5-py3-none-any.whl
+[2023-07-30 17:46:22] INFO root fetch - processPackages [tcia-utils]: Downloading https://files.pythonhosted.org/packages/1a/20/7a03e727571edfe1eea8b1829dfa741baa0fd66d2559d2a361fd01fca028/tcia_utils-1.6.1.tar.gz
+[2023-07-30 17:46:22] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/a1/9c/540a21f803ee8d47ff75ed58ab9ecf0559b6b1767632ac70d9ca4bf85c6d/pympipool-0.6.0.tar.gz
+[2023-07-30 17:46:22] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/1a/17/e8b6cfdc2ee6b11075e2e66876d9374b84d0b5122e25fda7a3556d98e682/pasta_eln-2.4.6-py3-none-any.whl
+[2023-07-30 17:46:22] INFO root fetch - processPackages [begoneads]: Downloading https://files.pythonhosted.org/packages/29/c7/8d6decaeb2cbc117a2a4d17dc4ac929eda0e400fbcb237f8446528c63985/begoneads-0.0.9.tar.gz
+[2023-07-30 17:46:22] INFO root fetch - processPackages [tcia-utils]: executing diffoscope
+[2023-07-30 17:46:22] INFO root fetch - processPackages [tcia-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcia_utils-1.6.tar.gz tmp/tcia_utils-1.6.1.tar.gz --markdown 20230730/t/tcia-utils/1.6-1.6.1/diff.md --exclude *.pyd
+[2023-07-30 17:46:22] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-07-30 17:46:22] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.5.8.tar.gz tmp/pympipool-0.6.0.tar.gz --markdown 20230730/p/pympipool/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-07-30 17:46:22] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-07-30 17:46:22] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.4.5-py3-none-any.whl.zip tmp/pasta_eln-2.4.6-py3-none-any.whl.zip --markdown 20230730/p/pasta-eln/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-07-30 17:46:22] INFO root fetch - processPackages [begoneads]: executing diffoscope
+[2023-07-30 17:46:22] INFO root fetch - processPackages [begoneads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/begoneads-0.0.8.tar.gz tmp/begoneads-0.0.9.tar.gz --markdown 20230730/b/begoneads/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 17:46:23] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.tar.gz]
+[2023-07-30 17:46:23] INFO root fetch - processPackages [tcia-utils]: Remove: archive file [/home/abi/fetcher/tmp/tcia_utils-1.6.1.tar.gz]
+[2023-07-30 17:46:23] INFO root fetch - main [MainThread]: End processing [tcia-utils]: success
+[2023-07-30 17:46:23] INFO root fetch - processPackages [begoneads]: Remove: archive file [/home/abi/fetcher/tmp/begoneads-0.0.8.tar.gz]
+[2023-07-30 17:46:23] INFO root fetch - processPackages [begoneads]: Remove: archive file [/home/abi/fetcher/tmp/begoneads-0.0.9.tar.gz]
+[2023-07-30 17:46:23] INFO root fetch - main [MainThread]: End processing [begoneads]: success
+[2023-07-30 17:46:23] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.8.tar.gz]
+[2023-07-30 17:46:23] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.6.0.tar.gz]
+[2023-07-30 17:46:23] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-07-30 17:46:23] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.5-py3-none-any.whl.zip]
+[2023-07-30 17:46:23] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.6-py3-none-any.whl.zip]
+[2023-07-30 17:46:23] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-07-30 17:46:23] INFO root fetch - main [MainThread]: Store serial: [19097481]
