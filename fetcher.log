@@ -7316,3 +7316,63 @@
 [2023-07-30 11:24:12] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-1.0.4.tar.gz]
 [2023-07-30 11:24:12] INFO root fetch - main [MainThread]: End processing [iorclient]: success
 [2023-07-30 11:24:12] INFO root fetch - main [MainThread]: Store serial: [19095083]
+[2023-07-30 11:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095083]
+[2023-07-30 11:29:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feeluown
+[2023-07-30 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntaxlight
+[2023-07-30 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoda-tk
+[2023-07-30 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyimporters-csv
+[2023-07-30 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycur
+[2023-07-30 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: totolo
+[2023-07-30 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dev-tools-supporter
+[2023-07-30 11:29:21] INFO root fetch - processPackages [totolo]: New version: [0.4] Old Version: [0.3]
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pycur]: New version: [2023.7.30.3] Old Version: [2023.7.29.2]
+[2023-07-30 11:29:21] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 11:29:21] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-30 11:29:21] INFO root fetch - processPackages [feeluown]: New version: [3.8.9] Old Version: [3.8.8]
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 11:29:21] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/6c/da/756295670b04af10e10aea07d8da98425bbc1ad521111908a20cc2b3aa8c/scoda-tk-0.1.6.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/32/55/1053868179fbb902b432d73cd2fccc7b97c04197091345899686ed5dbccf/totolo-0.3.tar.gz
+[2023-07-30 11:29:21] WARNING root fetch - processPackages [dev-tools-supporter]: Skipping, unable to determine old version
+[2023-07-30 11:29:21] INFO root fetch - main [MainThread]: End processing [dev-tools-supporter] error
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pycur]: Downloading https://files.pythonhosted.org/packages/14/91/b9abbeb5cf203a59cfe38a914c47704ba013555dbfd378669f65f751dcff/pycur-2023.7.29.2.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [feeluown]: Downloading https://files.pythonhosted.org/packages/b6/72/ff8da1bd3377ba3d147035234180e0238047bf9d9639ef7d84d506279610/feeluown-3.8.8.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-30 11:29:21] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230730/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 11:29:21] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/19/fd/3469226130a4c03edfae8d9a20f583bbecdb4435fb86b1aed91a22f1eeb7/totolo-0.4.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pycur]: Downloading https://files.pythonhosted.org/packages/1b/9d/2135adcdb5edf2d5382f0d29d9a25285c0aee242ead8215d82df8af1f693/pycur-2023.7.30.3.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 11:29:21] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/96/9a/72117a8ecb11a06e778ae48752c2ccd4fd5f26427c181d9e48148f4b7c47/scoda-tk-0.1.7.tar.gz
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pycur]: executing diffoscope
+[2023-07-30 11:29:21] INFO root fetch - processPackages [pycur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycur-2023.7.29.2.tar.gz tmp/pycur-2023.7.30.3.tar.gz --markdown 20230730/p/pycur/2023.7.29.2-2023.7.30.3/diff.md --exclude *.pyd
+[2023-07-30 11:29:21] INFO root fetch - processPackages [feeluown]: Downloading https://files.pythonhosted.org/packages/92/e1/a88c7fc7debde230d7462322224cac832390da8a868e580b01b7d2f8badb/feeluown-3.8.9.tar.gz
+[2023-07-30 11:29:22] INFO root fetch - processPackages [totolo]: executing diffoscope
+[2023-07-30 11:29:22] INFO root fetch - processPackages [totolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totolo-0.3.tar.gz tmp/totolo-0.4.tar.gz --markdown 20230730/t/totolo/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-30 11:29:22] INFO root fetch - processPackages [feeluown]: executing diffoscope
+[2023-07-30 11:29:22] INFO root fetch - processPackages [feeluown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feeluown-3.8.8.tar.gz tmp/feeluown-3.8.9.tar.gz --markdown 20230730/f/feeluown/3.8.8-3.8.9/diff.md --exclude *.pyd
+[2023-07-30 11:29:22] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-30 11:29:22] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.1.6.tar.gz tmp/scoda-tk-0.1.7.tar.gz --markdown 20230730/s/scoda-tk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-30 11:29:22] INFO root fetch - processPackages [pycur]: Remove: archive file [/home/abi/fetcher/tmp/pycur-2023.7.29.2.tar.gz]
+[2023-07-30 11:29:22] INFO root fetch - processPackages [pycur]: Remove: archive file [/home/abi/fetcher/tmp/pycur-2023.7.30.3.tar.gz]
+[2023-07-30 11:29:22] INFO root fetch - main [MainThread]: End processing [pycur]: success
+[2023-07-30 11:29:22] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 11:29:22] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 11:29:22] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 11:29:22] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-30 11:29:22] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-30 11:29:22] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-30 11:29:23] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-0.3.tar.gz]
+[2023-07-30 11:29:23] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-0.4.tar.gz]
+[2023-07-30 11:29:23] INFO root fetch - main [MainThread]: End processing [totolo]: success
+[2023-07-30 11:29:24] INFO root fetch - processPackages [feeluown]: Remove: archive file [/home/abi/fetcher/tmp/feeluown-3.8.8.tar.gz]
+[2023-07-30 11:29:24] INFO root fetch - processPackages [feeluown]: Remove: archive file [/home/abi/fetcher/tmp/feeluown-3.8.9.tar.gz]
+[2023-07-30 11:29:24] INFO root fetch - main [MainThread]: End processing [feeluown]: success
+[2023-07-30 11:29:24] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.6.tar.gz]
+[2023-07-30 11:29:24] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.7.tar.gz]
+[2023-07-30 11:29:24] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-30 11:29:24] INFO root fetch - main [MainThread]: Store serial: [19095104]
