@@ -5905,3 +5905,36 @@
 [2023-07-30 09:24:26] INFO root fetch - processPackages [lib-list]: Remove: archive file [/home/abi/fetcher/tmp/lib_list-1.1.9.tar.gz]
 [2023-07-30 09:24:26] INFO root fetch - main [MainThread]: End processing [lib-list]: success
 [2023-07-30 09:24:26] INFO root fetch - main [MainThread]: Store serial: [19094432]
+[2023-07-30 09:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094432]
+[2023-07-30 09:29:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 09:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gymnasium-connect-four
+[2023-07-30 09:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sql-constructor
+[2023-07-30 09:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mtbase
+[2023-07-30 09:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cookies-utilities
+[2023-07-30 09:29:35] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-30 09:29:35] WARNING root fetch - processPackages [sql-constructor]: Skipping, unable to determine old version
+[2023-07-30 09:29:35] INFO root fetch - main [MainThread]: End processing [sql-constructor] error
+[2023-07-30 09:29:35] INFO root fetch - processPackages [cookies-utilities]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 09:29:35] INFO root fetch - processPackages [mtbase]: New version: [4.6.202307300727] Old Version: [4.6.202306090341]
+[2023-07-30 09:29:35] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/ea/a0/df9feed672e54c77c30f26b45f1a44880277d7b952730c4c44ab1e4464c0/gymnasium_connect_four-1.2.2.tar.gz
+[2023-07-30 09:29:35] INFO root fetch - processPackages [cookies-utilities]: Downloading https://files.pythonhosted.org/packages/72/7a/603a43b54b612a782c02060f35610d06e8cdcdd91846f6258d941d61baf6/cookies_utilities-0.0.2.tar.gz
+[2023-07-30 09:29:35] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/30/e2/4647fb2765bcb6ec1650ef5f5e438b3843f6f561c4dae977e5397c6e66ac/mtbase-4.6.202306090341-py3-none-any.whl
+[2023-07-30 09:29:35] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/ad/57/76d94c57642df76c8ab07e279f8f4e62dc5a140ac050669ad2e6f45c3c20/gymnasium_connect_four-1.2.3.tar.gz
+[2023-07-30 09:29:35] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-30 09:29:35] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.2.tar.gz tmp/gymnasium_connect_four-1.2.3.tar.gz --markdown 20230730/g/gymnasium-connect-four/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-30 09:29:35] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/aa/98/066e228fefbde2fd70810fb9302b976c15877ccd69ebf435bcd08cf3a4fd/mtbase-4.6.202307300727-py3-none-any.whl
+[2023-07-30 09:29:35] INFO root fetch - processPackages [cookies-utilities]: Downloading https://files.pythonhosted.org/packages/bf/5d/e78a681917e1c5c49933d831549af83655a0dc57be3b5d44f0929933fdcb/cookies_utilities-0.0.3.tar.gz
+[2023-07-30 09:29:35] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-07-30 09:29:35] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.6.202306090341-py3-none-any.whl.zip tmp/mtbase-4.6.202307300727-py3-none-any.whl.zip --markdown 20230730/m/mtbase/4.6.202306090341-4.6.202307300727/diff.md --exclude *.pyd
+[2023-07-30 09:29:36] INFO root fetch - processPackages [cookies-utilities]: executing diffoscope
+[2023-07-30 09:29:36] INFO root fetch - processPackages [cookies-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookies_utilities-0.0.2.tar.gz tmp/cookies_utilities-0.0.3.tar.gz --markdown 20230730/c/cookies-utilities/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 09:29:37] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.2.tar.gz]
+[2023-07-30 09:29:37] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.3.tar.gz]
+[2023-07-30 09:29:37] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-30 09:29:37] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.6.202306090341-py3-none-any.whl.zip]
+[2023-07-30 09:29:37] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.6.202307300727-py3-none-any.whl.zip]
+[2023-07-30 09:29:37] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-07-30 09:29:38] INFO root fetch - processPackages [cookies-utilities]: Remove: archive file [/home/abi/fetcher/tmp/cookies_utilities-0.0.2.tar.gz]
+[2023-07-30 09:29:38] INFO root fetch - processPackages [cookies-utilities]: Remove: archive file [/home/abi/fetcher/tmp/cookies_utilities-0.0.3.tar.gz]
+[2023-07-30 09:29:38] INFO root fetch - main [MainThread]: End processing [cookies-utilities]: success
+[2023-07-30 09:29:38] INFO root fetch - main [MainThread]: Store serial: [19094445]
