@@ -10768,3 +10768,60 @@
 [2023-07-30 15:49:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230730-py3-none-manylinux1_x86_64.whl.zip]
 [2023-07-30 15:49:01] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
 [2023-07-30 15:49:01] INFO root fetch - main [MainThread]: Store serial: [19096736]
+[2023-07-30 15:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096736]
+[2023-07-30 15:54:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 15:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymdptoolbox-roi
+[2023-07-30 15:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dwopt
+[2023-07-30 15:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atro-args
+[2023-07-30 15:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-config-diff
+[2023-07-30 15:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anita
+[2023-07-30 15:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speedtools
+[2023-07-30 15:54:10] INFO root fetch - processPackages [dwopt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 15:54:10] INFO root fetch - processPackages [pymdptoolbox-roi]: New version: [4.1b0] Old Version: [4.1.6]
+[2023-07-30 15:54:10] INFO root fetch - processPackages [anita]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 15:54:10] INFO root fetch - processPackages [speedtools]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-30 15:54:10] INFO root fetch - processPackages [netbox-config-diff]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-30 15:54:10] INFO root fetch - processPackages [atro-args]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-30 15:54:10] INFO root fetch - processPackages [dwopt]: Downloading https://files.pythonhosted.org/packages/2a/c4/3d9aa6230632c7490250a319278447704aaad59fe0d22cecfd290a21a5af/dwopt-0.0.7.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [pymdptoolbox-roi]: Downloading https://files.pythonhosted.org/packages/14/d4/62b583ad89d0780354eb3b9c89070a788af59a8e7a8323a861d60a209f21/pymdptoolbox-roi-4.1.6.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/f9/1a/4a6272b35cc49f54be6ca66901aca8abfc2658ca9f2699be966a5fc9d106/atro_args-0.2.3.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [speedtools]: Downloading https://files.pythonhosted.org/packages/43/25/718d8a53d881e82b5c0bbdc308daf3f643e12447763cd8d2a77e963f300f/speedtools-0.3.0.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [netbox-config-diff]: Downloading https://files.pythonhosted.org/packages/77/9c/e42aa33d48570545c4bea1c7cd0b79981c1f9b55d8dfed3225d518e91af0/netbox-config-diff-1.0.0.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [anita]: Downloading https://files.pythonhosted.org/packages/97/63/56df5d3295e3e95dc685895b031ceae25e37430c009a30900647f2d87c62/anita-0.1.8.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [dwopt]: Downloading https://files.pythonhosted.org/packages/1b/f3/764708dc76ff4932e88addc2e838bdd993ba2fc08f4c1c8732a26cb6780a/dwopt-0.0.8.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/f5/e7/32324f0065f7436635e3e4e151d9822c98595ae446213aee353e96a41547/atro_args-0.2.4.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [pymdptoolbox-roi]: Downloading https://files.pythonhosted.org/packages/5b/5b/e9fd428cff16400f8fad14d1dc91e5cc16b0117f14fa76d097c843e2fad5/pymdptoolbox-roi-4.1b0.tar.gz
+[2023-07-30 15:54:10] INFO root fetch - processPackages [dwopt]: executing diffoscope
+[2023-07-30 15:54:10] INFO root fetch - processPackages [dwopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwopt-0.0.7.tar.gz tmp/dwopt-0.0.8.tar.gz --markdown 20230730/d/dwopt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 15:54:10] INFO root fetch - processPackages [speedtools]: Downloading https://files.pythonhosted.org/packages/9c/0c/fe3880dbb43a286b9d7eb13506f042b6e47626cdd89dc1ac7422f68a5cbd/speedtools-0.4.0.tar.gz
+[2023-07-30 15:54:11] INFO root fetch - processPackages [atro-args]: executing diffoscope
+[2023-07-30 15:54:11] INFO root fetch - processPackages [atro-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_args-0.2.3.tar.gz tmp/atro_args-0.2.4.tar.gz --markdown 20230730/a/atro-args/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-30 15:54:11] INFO root fetch - processPackages [netbox-config-diff]: Downloading https://files.pythonhosted.org/packages/04/39/47f2c447d9b1126a4b8863de6e1b670fa991765b36f14bc3e0e3271ef665/netbox-config-diff-1.1.0.tar.gz
+[2023-07-30 15:54:11] INFO root fetch - processPackages [anita]: Downloading https://files.pythonhosted.org/packages/a3/d4/aab82238c4ebf99eae4353270a2f30eae8ec92138df282b3fcd5a0d9f9c6/anita-0.1.9.tar.gz
+[2023-07-30 15:54:11] INFO root fetch - processPackages [pymdptoolbox-roi]: executing diffoscope
+[2023-07-30 15:54:11] INFO root fetch - processPackages [pymdptoolbox-roi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymdptoolbox-roi-4.1.6.tar.gz tmp/pymdptoolbox-roi-4.1b0.tar.gz --markdown 20230730/p/pymdptoolbox-roi/4.1.6-4.1b0/diff.md --exclude *.pyd
+[2023-07-30 15:54:11] INFO root fetch - processPackages [speedtools]: executing diffoscope
+[2023-07-30 15:54:11] INFO root fetch - processPackages [speedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtools-0.3.0.tar.gz tmp/speedtools-0.4.0.tar.gz --markdown 20230730/s/speedtools/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-30 15:54:11] INFO root fetch - processPackages [netbox-config-diff]: executing diffoscope
+[2023-07-30 15:54:11] INFO root fetch - processPackages [netbox-config-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-config-diff-1.0.0.tar.gz tmp/netbox-config-diff-1.1.0.tar.gz --markdown 20230730/n/netbox-config-diff/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 15:54:11] INFO root fetch - processPackages [anita]: executing diffoscope
+[2023-07-30 15:54:11] INFO root fetch - processPackages [anita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anita-0.1.8.tar.gz tmp/anita-0.1.9.tar.gz --markdown 20230730/a/anita/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 15:54:11] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.2.3.tar.gz]
+[2023-07-30 15:54:11] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.2.4.tar.gz]
+[2023-07-30 15:54:11] INFO root fetch - main [MainThread]: End processing [atro-args]: success
+[2023-07-30 15:54:12] INFO root fetch - processPackages [pymdptoolbox-roi]: Remove: archive file [/home/abi/fetcher/tmp/pymdptoolbox-roi-4.1.6.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - processPackages [pymdptoolbox-roi]: Remove: archive file [/home/abi/fetcher/tmp/pymdptoolbox-roi-4.1b0.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - main [MainThread]: End processing [pymdptoolbox-roi]: success
+[2023-07-30 15:54:12] INFO root fetch - processPackages [dwopt]: Remove: archive file [/home/abi/fetcher/tmp/dwopt-0.0.7.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - processPackages [dwopt]: Remove: archive file [/home/abi/fetcher/tmp/dwopt-0.0.8.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - main [MainThread]: End processing [dwopt]: success
+[2023-07-30 15:54:12] INFO root fetch - processPackages [anita]: Remove: archive file [/home/abi/fetcher/tmp/anita-0.1.8.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - processPackages [anita]: Remove: archive file [/home/abi/fetcher/tmp/anita-0.1.9.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - main [MainThread]: End processing [anita]: success
+[2023-07-30 15:54:12] INFO root fetch - processPackages [speedtools]: Remove: archive file [/home/abi/fetcher/tmp/speedtools-0.3.0.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - processPackages [speedtools]: Remove: archive file [/home/abi/fetcher/tmp/speedtools-0.4.0.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - main [MainThread]: End processing [speedtools]: success
+[2023-07-30 15:54:12] INFO root fetch - processPackages [netbox-config-diff]: Remove: archive file [/home/abi/fetcher/tmp/netbox-config-diff-1.0.0.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - processPackages [netbox-config-diff]: Remove: archive file [/home/abi/fetcher/tmp/netbox-config-diff-1.1.0.tar.gz]
+[2023-07-30 15:54:12] INFO root fetch - main [MainThread]: End processing [netbox-config-diff]: success
+[2023-07-30 15:54:12] INFO root fetch - main [MainThread]: Store serial: [19096776]
