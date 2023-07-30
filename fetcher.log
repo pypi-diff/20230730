@@ -7721,3 +7721,62 @@
 [2023-07-30 11:55:19] INFO root fetch - processPackages [rustplus]: Remove: archive file [/home/abi/fetcher/tmp/rustplus-5.6.9.tar.gz]
 [2023-07-30 11:55:19] INFO root fetch - main [MainThread]: End processing [rustplus]: success
 [2023-07-30 11:55:19] INFO root fetch - main [MainThread]: Store serial: [19095283]
+[2023-07-30 12:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095283]
+[2023-07-30 12:00:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abuse-whois
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mediaify
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lino-react
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleepyemoji
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python3-commons
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xinglan
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xinghuo
+[2023-07-30 12:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-digitalocean
+[2023-07-30 12:00:27] WARNING root fetch - processPackages [xinghuo]: Skipping, unable to determine old version
+[2023-07-30 12:00:27] INFO root fetch - main [MainThread]: End processing [xinghuo] error
+[2023-07-30 12:00:27] INFO root fetch - processPackages [abuse-whois]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-30 12:00:27] INFO root fetch - processPackages [mediaify]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-07-30 12:00:27] INFO root fetch - processPackages [sleepyemoji]: New version: [3.3] Old Version: [3.2]
+[2023-07-30 12:00:27] WARNING root fetch - processPackages [xinglan]: Skipping, unable to determine old version
+[2023-07-30 12:00:27] INFO root fetch - main [MainThread]: End processing [xinglan] error
+[2023-07-30 12:00:27] INFO root fetch - processPackages [lino-react]: New version: [23.7.5] Old Version: [23.7.4]
+[2023-07-30 12:00:27] INFO root fetch - processPackages [python3-commons]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-30 12:00:28] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/3e/6d/ec58a8913cd3a74e92a7c16cc462c7628d8e4de7f6c404197258b14cb2e2/sleepyemoji-3.2.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-07-30 12:00:28] INFO root fetch - processPackages [abuse-whois]: Downloading https://files.pythonhosted.org/packages/8d/f4/379e54f539c77ecc6fe111de02d54025d0947a426fa91c78239f6a631cd2/abuse_whois-0.7.1.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/a3/c6/be5f8bc2796d96306dcf576383cd18c79be68120e5ac82cd5efccc435bcd/mediaify-3.0.5.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/5f/f3/d875107dc7e55fe5a35509025413eff64f7d978dbceb19982e18ba1a5ca3/python3-commons-0.0.9.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/b1/66/5b447970c7089d3d82b3b8230ed631d99a75c23ff5981b41cbaca2983f20/lino_react-23.7.4.tar.gz
+[2023-07-30 12:00:28] WARNING root fetch - processPackages [mediaify]: Skipping package: exceeds size limit 43541477>=10485760
+[2023-07-30 12:00:28] INFO root fetch - main [MainThread]: End processing [mediaify] error
+[2023-07-30 12:00:28] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/c8/c3/44b7768248a892fc0e905a8756d7add2c8ae03a3bb453d17721ac18293f4/sleepyemoji-3.3.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 12:00:28] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-3.2.tar.gz tmp/sleepyemoji-3.3.tar.gz --markdown 20230730/s/sleepyemoji/3.2-3.3/diff.md --exclude *.pyd
+[2023-07-30 12:00:28] INFO root fetch - processPackages [abuse-whois]: Downloading https://files.pythonhosted.org/packages/17/12/8580810f1d1ae96239568e90d7924dd59ae76a0746eaac56727b7a54c459/abuse_whois-0.7.2.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/33/cd/3a51971ddee571fffdd6b135cd60b654f0befbbf89c58efc5e522f58a99e/python3-commons-0.1.0.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [abuse-whois]: executing diffoscope
+[2023-07-30 12:00:28] INFO root fetch - processPackages [abuse-whois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuse_whois-0.7.1.tar.gz tmp/abuse_whois-0.7.2.tar.gz --markdown 20230730/a/abuse-whois/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-30 12:00:28] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-30 12:00:28] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.9.tar.gz tmp/python3-commons-0.1.0.tar.gz --markdown 20230730/p/python3-commons/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-30 12:00:28] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/0c/8e/2469f7cd4006a0d34a44875749cdbb296b6062b6e1fd660ad344cb78e32d/lino_react-23.7.5.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2023-07-30 12:00:28] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-07-30 12:00:28] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.7.4.tar.gz tmp/lino_react-23.7.5.tar.gz --markdown 20230730/l/lino-react/23.7.4-23.7.5/diff.md --exclude *.pyd
+[2023-07-30 12:00:28] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-07-30 12:00:28] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230730/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-07-30 12:00:29] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.2.tar.gz]
+[2023-07-30 12:00:29] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.3.tar.gz]
+[2023-07-30 12:00:29] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 12:00:29] INFO root fetch - processPackages [abuse-whois]: Remove: archive file [/home/abi/fetcher/tmp/abuse_whois-0.7.1.tar.gz]
+[2023-07-30 12:00:29] INFO root fetch - processPackages [abuse-whois]: Remove: archive file [/home/abi/fetcher/tmp/abuse_whois-0.7.2.tar.gz]
+[2023-07-30 12:00:29] INFO root fetch - main [MainThread]: End processing [abuse-whois]: success
+[2023-07-30 12:00:29] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.9.tar.gz]
+[2023-07-30 12:00:29] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.0.tar.gz]
+[2023-07-30 12:00:29] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-30 12:00:30] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2023-07-30 12:00:30] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2023-07-30 12:00:30] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-07-30 12:00:40] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.4.tar.gz]
+[2023-07-30 12:00:40] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.5.tar.gz]
+[2023-07-30 12:00:40] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-07-30 12:00:40] INFO root fetch - main [MainThread]: Store serial: [19095311]
