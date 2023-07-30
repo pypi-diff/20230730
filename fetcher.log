@@ -3772,3 +3772,15 @@
 [2023-07-30 05:21:29] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
 [2023-07-30 05:21:29] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
 [2023-07-30 05:21:29] INFO root fetch - main [MainThread]: Store serial: [19093537]
+[2023-07-30 05:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093537]
+[2023-07-30 05:26:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-30 05:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py40kie
+[2023-07-30 05:26:37] INFO root fetch - processPackages [py40kie]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-30 05:26:37] INFO root fetch - processPackages [py40kie]: Downloading https://files.pythonhosted.org/packages/09/b8/7acb65a3ee062a44581dd31eca5da4e16861f37878ebb71191b87af698fc/py40kie-0.2.0.tar.gz
+[2023-07-30 05:26:37] INFO root fetch - processPackages [py40kie]: Downloading https://files.pythonhosted.org/packages/1c/e6/b01dfe08ea3f44ce505bc47eea512e772c365a241afe082a0417e3687f45/py40kie-0.2.1.tar.gz
+[2023-07-30 05:26:37] INFO root fetch - processPackages [py40kie]: executing diffoscope
+[2023-07-30 05:26:37] INFO root fetch - processPackages [py40kie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py40kie-0.2.0.tar.gz tmp/py40kie-0.2.1.tar.gz --markdown 20230730/p/py40kie/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 05:26:38] INFO root fetch - processPackages [py40kie]: Remove: archive file [/home/abi/fetcher/tmp/py40kie-0.2.0.tar.gz]
+[2023-07-30 05:26:38] INFO root fetch - processPackages [py40kie]: Remove: archive file [/home/abi/fetcher/tmp/py40kie-0.2.1.tar.gz]
+[2023-07-30 05:26:38] INFO root fetch - main [MainThread]: End processing [py40kie]: success
+[2023-07-30 05:26:38] INFO root fetch - main [MainThread]: Store serial: [19093540]
