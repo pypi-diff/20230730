@@ -7147,3 +7147,128 @@
 [2023-07-30 11:13:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.702.tar.gz]
 [2023-07-30 11:13:46] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-30 11:13:46] INFO root fetch - main [MainThread]: Store serial: [19095012]
+[2023-07-30 11:18:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095012]
+[2023-07-30 11:18:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyslink
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sleepyemoji
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valipy
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colossus
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valipy
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyColorimetry
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleepyemoji
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fgo-api-types
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyimporters-csv
+[2023-07-30 11:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-30 11:18:55] INFO root fetch - processPackages [pyslink]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [sleepyemoji]: New version: [2.6] Old Version: [2.5]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [valipy]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [colossus]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-30 11:18:55] WARNING root fetch - processPackages [PyColorimetry]: Skipping, unable to determine old version
+[2023-07-30 11:18:55] INFO root fetch - processPackages [PyColorimetry]: Start processing: scsd
+[2023-07-30 11:18:55] INFO root fetch - main [MainThread]: End processing [PyColorimetry] error
+[2023-07-30 11:18:55] INFO root fetch - processPackages [valipy]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [sleepyemoji]: New version: [2.6] Old Version: [2.5]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/cf/eb/d0f09ba9db903f0de006a37c9de50924a600017b5e8347793c8d3dae1c84/sleepyemoji-2.5.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/cf/eb/d0f09ba9db903f0de006a37c9de50924a600017b5e8347793c8d3dae1c84/sleepyemoji-2.5.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 11:18:55] INFO root fetch - processPackages [pyslink]: Downloading https://files.pythonhosted.org/packages/04/e4/e8996ff464cc37d4f8fdc05ac543934838ab2e582d1180ea2819896f2c75/pyslink-0.3.0.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [colossus]: Downloading https://files.pythonhosted.org/packages/55/9d/a401aea9a02651d1b3f4ced01a0efd846e2579f38597d7996fd3feafd5a6/colossus-1.3.1-py2.py3-none-any.whl
+[2023-07-30 11:18:55] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/9e/d3/9403d72788b6de22e7fdc41f0f85cb1aefac25b9c04a64fc0d9b932287ba/valipy-0.1.6.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/9e/d3/9403d72788b6de22e7fdc41f0f85cb1aefac25b9c04a64fc0d9b932287ba/valipy-0.1.6.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [pyslink]: Downloading https://files.pythonhosted.org/packages/3f/fb/2996b079cc9172791316f526022118e62b17b82c69c436aae438d6906508/pyslink-0.4.0.tar.gz
+[2023-07-30 11:18:55] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-30 11:18:56] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/dc/7c/5d52e088413431f0fb590c8a1b5410c59f2a6f98208ff3b8dc4495eb7d6e/sleepyemoji-2.6.tar.gz
+[2023-07-30 11:18:56] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/dc/7c/5d52e088413431f0fb590c8a1b5410c59f2a6f98208ff3b8dc4495eb7d6e/sleepyemoji-2.6.tar.gz
+[2023-07-30 11:18:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230730/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [pyslink]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [pyslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslink-0.3.0.tar.gz tmp/pyslink-0.4.0.tar.gz --markdown 20230730/p/pyslink/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [colossus]: Downloading https://files.pythonhosted.org/packages/ff/50/35e063cff35725fcd51f1c6bdb9c072a26934fc676914cfafe7f64d6d02d/colossus-1.3.2-py2.py3-none-any.whl
+[2023-07-30 11:18:56] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230730/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [colossus]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [colossus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colossus-1.3.1-py2.py3-none-any.whl.zip tmp/colossus-1.3.2-py2.py3-none-any.whl.zip --markdown 20230730/c/colossus/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/fc/c1/1f467ec69e3555d4d47b0691cccc0e584d51972bcd3a5bfe5d87a318735c/valipy-0.2.0.tar.gz
+[2023-07-30 11:18:56] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/fc/c1/1f467ec69e3555d4d47b0691cccc0e584d51972bcd3a5bfe5d87a318735c/valipy-0.2.0.tar.gz
+[2023-07-30 11:18:56] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.5.tar.gz tmp/sleepyemoji-2.6.tar.gz --markdown 20230730/s/sleepyemoji/2.5-2.6/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.5.tar.gz tmp/sleepyemoji-2.6.tar.gz --markdown 20230730/s/sleepyemoji/2.5-2.6/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-07-30 11:18:56] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.1.6.tar.gz tmp/valipy-0.2.0.tar.gz --markdown 20230730/v/valipy/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.1.6.tar.gz tmp/valipy-0.2.0.tar.gz --markdown 20230730/v/valipy/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 11:18:56] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-07-30 11:18:56] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230730/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 11:18:57] INFO root fetch - processPackages [pyslink]: Remove: archive file [/home/abi/fetcher/tmp/pyslink-0.3.0.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [pyslink]: Remove: archive file [/home/abi/fetcher/tmp/pyslink-0.4.0.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [pyslink]: Start processing: spanishconjugator
+[2023-07-30 11:18:57] INFO root fetch - main [MainThread]: End processing [pyslink]: success
+[2023-07-30 11:18:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [spanishconjugator]: Start processing: OneOnOne
+[2023-07-30 11:18:57] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-30 11:18:57] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [pyimporters-csv]: Start processing: ag-llama-hub-s
+[2023-07-30 11:18:57] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 11:18:57] INFO root fetch - processPackages [OneOnOne]: New version: [0.702] Old Version: [0.701]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [fgo-api-types]: Start processing: tbp-nightly
+[2023-07-30 11:18:57] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-30 11:18:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-30 11:18:57] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/d0/8c/f37a27e0e55786aec73cc1012b4eaa9dea4ed8ff47c2a86ed92238f8fdae/OneOnOne-0.701.tar.gz
+[2023-07-30 11:18:57] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.5.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.6.tar.gz]
+[2023-07-30 11:18:57] INFO root fetch - processPackages [sleepyemoji]: Start processing: odoo14-addon-stock-picking-auto-create-package
+[2023-07-30 11:18:57] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:18:57] ERROR root fetch - processPackages [ag-llama-hub-s]: Unable to get metadata: No such project 'ag-llama-hub-s'
+[2023-07-30 11:18:57] INFO root fetch - main [MainThread]: End processing [ag-llama-hub-s] error
+[2023-07-30 11:18:57] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-30 11:18:57] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:18:58] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.1.6.tar.gz]
+[2023-07-30 11:18:58] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.2.0.tar.gz]
+[2023-07-30 11:18:58] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-07-30 11:18:58] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-07-30 11:18:58] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-30 11:18:58] WARNING root fetch - processPackages [odoo14-addon-stock-picking-auto-create-package]: Skipping, unable to determine old version
+[2023-07-30 11:18:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-auto-create-package] error
+[2023-07-30 11:18:58] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-07-30 11:18:58] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-07-30 11:18:58] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-07-30 11:18:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-30 11:18:58] INFO root fetch - processPackages [colossus]: Remove: archive file [/home/abi/fetcher/tmp/colossus-1.3.1-py2.py3-none-any.whl.zip]
+[2023-07-30 11:18:58] INFO root fetch - processPackages [colossus]: Remove: archive file [/home/abi/fetcher/tmp/colossus-1.3.2-py2.py3-none-any.whl.zip]
+[2023-07-30 11:18:58] INFO root fetch - main [MainThread]: End processing [colossus]: success
+[2023-07-30 11:18:58] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b5/d7/a4a94d18099d0424a6f5daab2614ed75a95bc2ff3022338dd109f43e2b5f/OneOnOne-0.702.tar.gz
+[2023-07-30 11:18:58] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-30 11:18:58] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230730/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-30 11:18:58] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 11:18:58] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.701.tar.gz tmp/OneOnOne-0.702.tar.gz --markdown 20230730/O/OneOnOne/0.701-0.702/diff.md --exclude *.pyd
+[2023-07-30 11:18:59] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-30 11:18:59] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-30 11:18:59] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-30 11:18:59] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-30 11:18:59] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.701.tar.gz]
+[2023-07-30 11:18:59] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.702.tar.gz]
+[2023-07-30 11:18:59] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 11:18:59] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-30 11:18:59] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230730/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-30 11:19:01] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-30 11:19:01] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-30 11:19:01] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-30 11:19:01] INFO root fetch - main [MainThread]: Store serial: [19095070]
