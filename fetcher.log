@@ -9232,3 +9232,33 @@
 [2023-07-30 13:46:12] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.8.tar.gz]
 [2023-07-30 13:46:12] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
 [2023-07-30 13:46:12] INFO root fetch - main [MainThread]: Store serial: [19096018]
+[2023-07-30 13:51:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096018]
+[2023-07-30 13:51:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 13:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: photondemo
+[2023-07-30 13:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyyt-cli
+[2023-07-30 13:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: confutilPPP
+[2023-07-30 13:51:21] INFO root fetch - processPackages [confutilPPP]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-30 13:51:21] INFO root fetch - processPackages [photondemo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 13:51:21] INFO root fetch - processPackages [pyyt-cli]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-30 13:51:21] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/89/5f/416b3a89d3cd74ee03db5b05ac3c814ef1a1b42d06ccad5fc1da6b420360/pyyt-cli-0.2.0.tar.gz
+[2023-07-30 13:51:21] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/f9/2a/f988ee230661eb4495a92b1ef382b497c1ebe4ba7c2b62a7348dffd0a5be/confutilPPP-1.1.1.tar.gz
+[2023-07-30 13:51:21] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/0a/6d/7932cd610a0541b76d781bb7f7bdd31d7a2f5dd2384d1eac4c2f87af88f3/photondemo-0.0.8.tar.gz
+[2023-07-30 13:51:21] INFO root fetch - processPackages [pyyt-cli]: Downloading https://files.pythonhosted.org/packages/25/96/d544d541457e59d36a0d3157efd4aa8736286f809de66d339e0e5398b4a7/pyyt-cli-0.2.1.tar.gz
+[2023-07-30 13:51:21] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/25/da/aa3a7b835c3381d373820766aecbd24c07e04b7a5a6be99e29320bd74189/confutilPPP-1.1.2.tar.gz
+[2023-07-30 13:51:22] INFO root fetch - processPackages [pyyt-cli]: executing diffoscope
+[2023-07-30 13:51:22] INFO root fetch - processPackages [pyyt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyt-cli-0.2.0.tar.gz tmp/pyyt-cli-0.2.1.tar.gz --markdown 20230730/p/pyyt-cli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 13:51:22] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/2f/9e/40812f7ad1e8f5454f4c951d1ed05c6cb8c153661e3ca9c0592c6603a2e0/photondemo-0.0.9.tar.gz
+[2023-07-30 13:51:22] INFO root fetch - processPackages [confutilPPP]: executing diffoscope
+[2023-07-30 13:51:22] INFO root fetch - processPackages [confutilPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confutilPPP-1.1.1.tar.gz tmp/confutilPPP-1.1.2.tar.gz --markdown 20230730/c/confutilPPP/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 13:51:22] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-30 13:51:22] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.8.tar.gz tmp/photondemo-0.0.9.tar.gz --markdown 20230730/p/photondemo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 13:51:23] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.1.1.tar.gz]
+[2023-07-30 13:51:23] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.1.2.tar.gz]
+[2023-07-30 13:51:23] INFO root fetch - main [MainThread]: End processing [confutilPPP]: success
+[2023-07-30 13:51:23] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.8.tar.gz]
+[2023-07-30 13:51:23] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.9.tar.gz]
+[2023-07-30 13:51:23] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-30 13:51:23] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.2.0.tar.gz]
+[2023-07-30 13:51:23] INFO root fetch - processPackages [pyyt-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyyt-cli-0.2.1.tar.gz]
+[2023-07-30 13:51:23] INFO root fetch - main [MainThread]: End processing [pyyt-cli]: success
+[2023-07-30 13:51:23] INFO root fetch - main [MainThread]: Store serial: [19096031]
