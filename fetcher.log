@@ -6382,3 +6382,49 @@
 [2023-07-30 10:16:32] INFO root fetch - processPackages [valeriepieris]: Remove: archive file [/home/abi/fetcher/tmp/valeriepieris-0.1.1.tar.gz]
 [2023-07-30 10:16:32] INFO root fetch - main [MainThread]: End processing [valeriepieris]: success
 [2023-07-30 10:16:32] INFO root fetch - main [MainThread]: Store serial: [19094683]
+[2023-07-30 10:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094683]
+[2023-07-30 10:21:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 10:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tezeta
+[2023-07-30 10:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-30 10:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdkit
+[2023-07-30 10:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readmeai
+[2023-07-30 10:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readmeai
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-07-30 10:21:41] INFO root fetch - processPackages [OneOnOne]: New version: [0.6959] Old Version: [0.6958]
+[2023-07-30 10:21:41] INFO root fetch - processPackages [tezeta]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-07-30 10:21:41] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-30 10:21:41] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/3f/cd/43c5a2bfa1a474b69f4c4f562ba69f9f182163cf6bbd08f7a0d1813d2e25/OneOnOne-0.6958.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/75/fb/e81114130826344f30235d3511b5d4a826f8435d4dc8b6187b17ce2c7d16/readmeai-0.0.41.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [tezeta]: Downloading https://files.pythonhosted.org/packages/0a/66/56fae4b082cf4ee15301e667ca5d1495cb92484217afe075b674d37223a2/tezeta-0.1.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/75/fb/e81114130826344f30235d3511b5d4a826f8435d4dc8b6187b17ce2c7d16/readmeai-0.0.41.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/3a/0e/207980ba43a54ea9773335a2b904c0b7bcd6592824dbc9eff47f5ab844cd/OneOnOne-0.6959.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-30 10:21:41] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230730/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-30 10:21:41] INFO root fetch - processPackages [tezeta]: Downloading https://files.pythonhosted.org/packages/7e/6d/20cafe8e5e9b227872e97899008c06e45e7c90b2e0682bf9a860dd6340cb/tezeta-0.1.1.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 10:21:41] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6958.tar.gz tmp/OneOnOne-0.6959.tar.gz --markdown 20230730/O/OneOnOne/0.6958-0.6959/diff.md --exclude *.pyd
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/6a/9a/f07906dbfa59d9139669bb960b9cb8071ee1eb7f4dd078c9a29d76c88971/readmeai-0.0.42.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/6a/9a/f07906dbfa59d9139669bb960b9cb8071ee1eb7f4dd078c9a29d76c88971/readmeai-0.0.42.tar.gz
+[2023-07-30 10:21:41] INFO root fetch - processPackages [tezeta]: executing diffoscope
+[2023-07-30 10:21:41] INFO root fetch - processPackages [tezeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tezeta-0.1.tar.gz tmp/tezeta-0.1.1.tar.gz --markdown 20230730/t/tezeta/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.41.tar.gz tmp/readmeai-0.0.42.tar.gz --markdown 20230730/r/readmeai/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:21:41] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.41.tar.gz tmp/readmeai-0.0.42.tar.gz --markdown 20230730/r/readmeai/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-07-30 10:21:42] INFO root fetch - processPackages [tezeta]: Remove: archive file [/home/abi/fetcher/tmp/tezeta-0.1.tar.gz]
+[2023-07-30 10:21:42] INFO root fetch - processPackages [tezeta]: Remove: archive file [/home/abi/fetcher/tmp/tezeta-0.1.1.tar.gz]
+[2023-07-30 10:21:42] INFO root fetch - main [MainThread]: End processing [tezeta]: success
+[2023-07-30 10:21:42] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-30 10:21:42] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-30 10:21:42] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-30 10:21:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.41.tar.gz]
+[2023-07-30 10:21:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.42.tar.gz]
+[2023-07-30 10:21:43] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:21:43] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:21:43] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6958.tar.gz]
+[2023-07-30 10:21:43] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6959.tar.gz]
+[2023-07-30 10:21:43] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 10:21:43] INFO root fetch - main [MainThread]: Store serial: [19094698]
