@@ -2143,3 +2143,51 @@
 [2023-07-30 03:06:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-30 03:06:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-30 03:06:46] INFO root fetch - main [MainThread]: Store serial: [19092939]
+[2023-07-30 03:11:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092939]
+[2023-07-30 03:11:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaraco.structures
+[2023-07-30 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANSIController
+[2023-07-30 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fasttq
+[2023-07-30 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-hugo-deploy
+[2023-07-30 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dl-matrix
+[2023-07-30 03:11:54] INFO root fetch - processPackages [jaraco.structures]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-30 03:11:54] INFO root fetch - processPackages [ANSIController]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 03:11:54] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 03:11:54] INFO root fetch - processPackages [fasttq]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-30 03:11:54] INFO root fetch - processPackages [dl-matrix]: New version: [0.5] Old Version: [0.4]
+[2023-07-30 03:11:54] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/c4/78/736273378d8cec188d644886f2e1d9e5491382735f5b9c6b266e4d807107/ANSIController-0.0.7.tar.gz
+[2023-07-30 03:11:54] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/4e/a8/6f53be65c34e35a73978461d9ee30ad4c0d903886768cfa2f2fdd701fa7c/fasttq-1.0.7.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [jaraco.structures]: Downloading https://files.pythonhosted.org/packages/ef/34/cb65229507779918cce0708b956b11310e5e2fea72b355b23334ae61b2bd/jaraco.structures-2.1.0.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [dl-matrix]: Downloading https://files.pythonhosted.org/packages/c3/85/05d52656b7d4a339da78b1be5152ce618e2adc05d938e2ae82320c9eb810/dl_matrix-0.4.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/2d/f9/ce75eb2f0ddf4abb0c03b39fc3ca2905251bf8c107e28298868bed5442cc/ANSIController-0.0.8.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-30 03:11:55] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230730/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 03:11:55] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 03:11:55] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-0.0.7.tar.gz tmp/ANSIController-0.0.8.tar.gz --markdown 20230730/A/ANSIController/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 03:11:55] INFO root fetch - processPackages [jaraco.structures]: Downloading https://files.pythonhosted.org/packages/50/5c/2393896708bee4c9e984638112cdef5efab7e6127a72ebbb24aacf334be1/jaraco.structures-2.2.0.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [fasttq]: Downloading https://files.pythonhosted.org/packages/ca/e4/cafb3fcb355ade5b9e5e1423da9d548819756541d41dabf42f2dbca5df27/fasttq-1.0.8.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [jaraco.structures]: executing diffoscope
+[2023-07-30 03:11:55] INFO root fetch - processPackages [jaraco.structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.structures-2.1.0.tar.gz tmp/jaraco.structures-2.2.0.tar.gz --markdown 20230730/j/jaraco.structures/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-30 03:11:55] INFO root fetch - processPackages [fasttq]: executing diffoscope
+[2023-07-30 03:11:55] INFO root fetch - processPackages [fasttq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttq-1.0.7.tar.gz tmp/fasttq-1.0.8.tar.gz --markdown 20230730/f/fasttq/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-30 03:11:55] INFO root fetch - processPackages [dl-matrix]: Downloading https://files.pythonhosted.org/packages/f4/f5/113e35549220f3f2c7fbd60cc1649a23bd8b3480af087ca5a9782bf9e43d/dl_matrix-0.5.tar.gz
+[2023-07-30 03:11:55] INFO root fetch - processPackages [dl-matrix]: executing diffoscope
+[2023-07-30 03:11:55] INFO root fetch - processPackages [dl-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_matrix-0.4.tar.gz tmp/dl_matrix-0.5.tar.gz --markdown 20230730/d/dl-matrix/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-30 03:11:56] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-0.0.7.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-0.0.8.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 03:11:56] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-30 03:11:56] INFO root fetch - processPackages [jaraco.structures]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.structures-2.1.0.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - processPackages [jaraco.structures]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.structures-2.2.0.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - main [MainThread]: End processing [jaraco.structures]: success
+[2023-07-30 03:11:56] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.7.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - processPackages [fasttq]: Remove: archive file [/home/abi/fetcher/tmp/fasttq-1.0.8.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - main [MainThread]: End processing [fasttq]: success
+[2023-07-30 03:11:56] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.4.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.5.tar.gz]
+[2023-07-30 03:11:56] INFO root fetch - main [MainThread]: End processing [dl-matrix]: success
+[2023-07-30 03:11:56] INFO root fetch - main [MainThread]: Store serial: [19092955]
