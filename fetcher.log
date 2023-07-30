@@ -5512,3 +5512,116 @@
 [2023-07-30 08:42:12] ERROR root fetch - processPackages [sklearn2pmml]: Timeout during execution of pkgdiff
 [2023-07-30 08:42:12] INFO root fetch - main [MainThread]: End processing [sklearn2pmml] error
 [2023-07-30 08:42:12] INFO root fetch - main [MainThread]: Store serial: [19094298]
+[2023-07-30 08:47:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094298]
+[2023-07-30 08:47:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gfx-perps-sdk
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-ui-booking
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaal
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorage
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipen-board
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: greynoiselabs
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: settus
+[2023-07-30 08:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dicergirl
+[2023-07-30 08:47:21] WARNING root fetch - processPackages [my-ui-booking]: Skipping, unable to determine old version
+[2023-07-30 08:47:21] INFO root fetch - processPackages [my-ui-booking]: Start processing: pyImageJGui
+[2023-07-30 08:47:21] INFO root fetch - main [MainThread]: End processing [my-ui-booking] error
+[2023-07-30 08:47:21] INFO root fetch - processPackages [tensorage]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [jaal]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [greynoiselabs]: New version: [0.1.7] Old Version: [0.1.23]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [settus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 08:47:21] WARNING root fetch - processPackages [gfx-perps-sdk]: Skipping, unable to determine old version
+[2023-07-30 08:47:21] INFO root fetch - processPackages [gfx-perps-sdk]: Start processing: mysqlx
+[2023-07-30 08:47:21] INFO root fetch - main [MainThread]: End processing [gfx-perps-sdk] error
+[2023-07-30 08:47:21] INFO root fetch - processPackages [dicergirl]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [pipen-board]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [OneOnOne]: New version: [0.6954] Old Version: [0.6953]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230730.6.43.787357] Old Version: [20230729.13.16.714874]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [pyImageJGui]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/05/cf/8e150a48d45ec725a03bb03ddad81013e8e2eba21316fb83dedee1d0eef8/dicergirl-3.0.4.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [mysqlx]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-07-30 08:47:21] INFO root fetch - processPackages [settus]: Downloading https://files.pythonhosted.org/packages/db/e2/941aadf65f7e6ef6adef93a4f7883d122c6de84244964f8198e1e0ce57c7/settus-0.0.1.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/10/0e/71726c51a65825eb6e2be6ddb90c35afb967d1ffd93edb48d61b42e82286/tensorage-0.0.2.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/4d/10/b792b6ea2eaa7f27ba52d26a593b4dedbd76ee48577444448478a766e928/pyimagejgui-0.0.8.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [jaal]: Downloading https://files.pythonhosted.org/packages/65/82/63f8a3c560fe016034bdf32b3deb6e0fab678c005622acc7e94a4b5cfc99/jaal-0.1.4.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [greynoiselabs]: Downloading https://files.pythonhosted.org/packages/f2/74/07066c4ccc7b8bea93105ca971c978ef57d7015ac795f28fa3d188505c4e/greynoiselabs-0.1.23.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/f0/77/a7326354354b2f167a1e2728429131ed130aeb7e83c8d9a78f1bd8178c59/certora-cli-alpha-master-20230729.13.16.714874.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/1f/b3/09e75f80b0fda7765c7992394d692394492f7b174a2815401fda5a273178/OneOnOne-0.6953.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/04/9d/3281dec4a03b36d75cf141a5e5ea45d81862765e4b15663180b7128562d7/mysqlx-1.6.9.tar.gz
+[2023-07-30 08:47:21] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/30/b3/0a2fa7c6ea969d4b3d6d69855231167f47e96815bdb0b995b510fb91c113/pipen_board-0.8.3.tar.gz
+[2023-07-30 08:47:21] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37695950>=10485760
+[2023-07-30 08:47:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: amatak-shop
+[2023-07-30 08:47:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-30 08:47:21] INFO root fetch - processPackages [amatak-shop]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-30 08:47:22] INFO root fetch - processPackages [settus]: Downloading https://files.pythonhosted.org/packages/62/5b/14a025f459024e71031d11b4080532cd2b6859e3b0ed15513103b5c4af14/settus-0.0.2.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/00/ef/12853d292f8a8d9466cc026445b1d97dd8c3cddd938823fbf7abfe1d40be/dicergirl-3.0.5.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/14/57/27d08a3a4248f3f536a6523dfce3a99735b445212d301cbfcf7da6a0851a/tensorage-0.0.3.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/06/2c/8562c767ca9367f27fa5b4a87fa79d15f5bd4f3552bf8b05c4773db4a2da/pyimagejgui-0.0.9.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/a7/d4/0e248341fe2b2560e3d1ae202eff410e463a101bc1fc7dd8dc965ff9bd04/amatak-shop-1.0.6.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [jaal]: Downloading https://files.pythonhosted.org/packages/53/0f/9fe2bf2de756bb9a5bdf131c0faf9d9c295267f375cfc56f9d144ae412a5/jaal-0.1.5.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [greynoiselabs]: Downloading https://files.pythonhosted.org/packages/5d/ff/86662e3ea80cde4c69e315f406b6aa397ed499d826221ae240fccc89b07c/greynoiselabs-0.1.7.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [settus]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [settus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settus-0.0.1.tar.gz tmp/settus-0.0.2.tar.gz --markdown 20230730/s/settus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/fe/3a/87406b812fbc0279cc9bf115d05d85a77cfac378be2059956b75e3f23b73/OneOnOne-0.6954.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/a7/7a/7d7bf83f409c39922399a1dd77e30b6848c64f1a9156f631b82e2ebbffc5/mysqlx-1.7.0.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/aa/b3/84dd8325efa743f854a5205d5e260fa504dac15d89b15bc03daddc583f17/pipen_board-0.9.0.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.4.tar.gz tmp/dicergirl-3.0.5.tar.gz --markdown 20230730/d/dicergirl/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.2.tar.gz tmp/tensorage-0.0.3.tar.gz --markdown 20230730/t/tensorage/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [pyImageJGui]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [pyImageJGui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimagejgui-0.0.8.tar.gz tmp/pyimagejgui-0.0.9.tar.gz --markdown 20230730/p/pyImageJGui/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [jaal]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [jaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaal-0.1.4.tar.gz tmp/jaal-0.1.5.tar.gz --markdown 20230730/j/jaal/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [greynoiselabs]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [greynoiselabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greynoiselabs-0.1.23.tar.gz tmp/greynoiselabs-0.1.7.tar.gz --markdown 20230730/g/greynoiselabs/0.1.23-0.1.7/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.6.9.tar.gz tmp/mysqlx-1.7.0.tar.gz --markdown 20230730/m/mysqlx/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6953.tar.gz tmp/OneOnOne-0.6954.tar.gz --markdown 20230730/O/OneOnOne/0.6953-0.6954/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.8.3.tar.gz tmp/pipen_board-0.9.0.tar.gz --markdown 20230730/p/pipen-board/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 08:47:22] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/27/45/1faa4919be1f6462da9d1e0b68b87e9df99a46c910343054a739a373f66c/amatak-shop-1.0.7.tar.gz
+[2023-07-30 08:47:22] INFO root fetch - processPackages [amatak-shop]: executing diffoscope
+[2023-07-30 08:47:22] INFO root fetch - processPackages [amatak-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amatak-shop-1.0.6.tar.gz tmp/amatak-shop-1.0.7.tar.gz --markdown 20230730/a/amatak-shop/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-30 08:47:25] INFO root fetch - processPackages [settus]: Remove: archive file [/home/abi/fetcher/tmp/settus-0.0.1.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [settus]: Remove: archive file [/home/abi/fetcher/tmp/settus-0.0.2.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [settus]: Start processing: cloudlanguagetools
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [settus]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [cloudlanguagetools]: New version: [6.3] Old Version: [6.2]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.2.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.3.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/9d/68/6d402d74696dcf764d5875e1bab321b1cd5a9dbf017f5fb2653887368bfc/cloudlanguagetools-6.2.tar.gz
+[2023-07-30 08:47:25] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyimagejgui-0.0.8.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyimagejgui-0.0.9.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [pyImageJGui]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.9.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.7.0.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [jaal]: Remove: archive file [/home/abi/fetcher/tmp/jaal-0.1.4.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [jaal]: Remove: archive file [/home/abi/fetcher/tmp/jaal-0.1.5.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [jaal]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/e2/34/09c964a3a1f7e6d26778c1a21021df3d3802653e28f3b8b250efd0906cfd/cloudlanguagetools-6.3.tar.gz
+[2023-07-30 08:47:25] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.4.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.5.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [greynoiselabs]: Remove: archive file [/home/abi/fetcher/tmp/greynoiselabs-0.1.23.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [greynoiselabs]: Remove: archive file [/home/abi/fetcher/tmp/greynoiselabs-0.1.7.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [greynoiselabs]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-07-30 08:47:25] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-6.2.tar.gz tmp/cloudlanguagetools-6.3.tar.gz --markdown 20230730/c/cloudlanguagetools/6.2-6.3/diff.md --exclude *.pyd
+[2023-07-30 08:47:25] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6953.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6954.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 08:47:25] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.6.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.7.tar.gz]
+[2023-07-30 08:47:25] INFO root fetch - main [MainThread]: End processing [amatak-shop]: success
+[2023-07-30 08:47:28] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-6.2.tar.gz]
+[2023-07-30 08:47:28] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-6.3.tar.gz]
+[2023-07-30 08:47:28] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-07-30 08:47:37] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.3.tar.gz]
+[2023-07-30 08:47:37] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.9.0.tar.gz]
+[2023-07-30 08:47:37] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-07-30 08:47:37] INFO root fetch - main [MainThread]: Store serial: [19094342]
