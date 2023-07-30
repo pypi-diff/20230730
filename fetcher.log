@@ -7272,3 +7272,47 @@
 [2023-07-30 11:19:01] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-30 11:19:01] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-30 11:19:01] INFO root fetch - main [MainThread]: Store serial: [19095070]
+[2023-07-30 11:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095070]
+[2023-07-30 11:24:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 11:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valipy
+[2023-07-30 11:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyimporters-csv
+[2023-07-30 11:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valipy
+[2023-07-30 11:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyimporters-csv
+[2023-07-30 11:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iorclient
+[2023-07-30 11:24:10] INFO root fetch - processPackages [valipy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 11:24:10] INFO root fetch - processPackages [valipy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 11:24:10] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 11:24:10] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 11:24:10] INFO root fetch - processPackages [iorclient]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-30 11:24:10] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 11:24:10] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 11:24:10] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/f6/4a/a97a12fd431135778da1ffaa09eabbfc0d176b82e676c5a1fda6aaf56b27/valipy-0.2.1.tar.gz
+[2023-07-30 11:24:10] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/f6/4a/a97a12fd431135778da1ffaa09eabbfc0d176b82e676c5a1fda6aaf56b27/valipy-0.2.1.tar.gz
+[2023-07-30 11:24:11] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/1f/e8/ab202d30e96bb3b56b03d7a6070d4188877027c6065f5a8d0e57cf9053d6/iorclient-1.0.2.tar.gz
+[2023-07-30 11:24:11] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 11:24:11] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 11:24:11] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 11:24:11] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 11:24:11] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 11:24:11] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 11:24:11] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/0c/f0/734836b8e89e7fc784f33725828f01919951570392f341ac5e35bc9c4b6c/valipy-0.2.2.tar.gz
+[2023-07-30 11:24:11] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/0c/f0/734836b8e89e7fc784f33725828f01919951570392f341ac5e35bc9c4b6c/valipy-0.2.2.tar.gz
+[2023-07-30 11:24:11] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/c3/ee/ab9008a894e278b2d1bd7df9ba0283f307624f001b5a380f566a919e5602/iorclient-1.0.4.tar.gz
+[2023-07-30 11:24:11] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-07-30 11:24:11] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.2.1.tar.gz tmp/valipy-0.2.2.tar.gz --markdown 20230730/v/valipy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 11:24:11] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-07-30 11:24:11] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.2.1.tar.gz tmp/valipy-0.2.2.tar.gz --markdown 20230730/v/valipy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 11:24:11] INFO root fetch - processPackages [iorclient]: executing diffoscope
+[2023-07-30 11:24:11] INFO root fetch - processPackages [iorclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iorclient-1.0.2.tar.gz tmp/iorclient-1.0.4.tar.gz --markdown 20230730/i/iorclient/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 11:24:12] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 11:24:12] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 11:24:12] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 11:24:12] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 11:24:12] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.2.1.tar.gz]
+[2023-07-30 11:24:12] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.2.2.tar.gz]
+[2023-07-30 11:24:12] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-07-30 11:24:12] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-07-30 11:24:12] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-1.0.2.tar.gz]
+[2023-07-30 11:24:12] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-1.0.4.tar.gz]
+[2023-07-30 11:24:12] INFO root fetch - main [MainThread]: End processing [iorclient]: success
+[2023-07-30 11:24:12] INFO root fetch - main [MainThread]: Store serial: [19095083]
