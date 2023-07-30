@@ -2848,3 +2848,42 @@
 [2023-07-30 04:07:22] INFO root fetch - processPackages [cogdb]: Remove: archive file [/home/abi/fetcher/tmp/cogdb-3.0.7.tar.gz]
 [2023-07-30 04:07:22] INFO root fetch - main [MainThread]: End processing [cogdb]: success
 [2023-07-30 04:07:22] INFO root fetch - main [MainThread]: Store serial: [19093202]
+[2023-07-30 04:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093202]
+[2023-07-30 04:12:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 04:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sos-notebook
+[2023-07-30 04:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-fleetpings
+[2023-07-30 04:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aa-bulletin-board
+[2023-07-30 04:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aa-discord-announcements
+[2023-07-30 04:12:31] INFO root fetch - processPackages [aa-bulletin-board]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-30 04:12:31] INFO root fetch - processPackages [aa-fleetpings]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-30 04:12:31] INFO root fetch - processPackages [sos-notebook]: New version: [0.9.9.8] Old Version: [0.9.9.7]
+[2023-07-30 04:12:31] INFO root fetch - processPackages [aa-discord-announcements]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-30 04:12:31] INFO root fetch - processPackages [sos-notebook]: Downloading https://files.pythonhosted.org/packages/ac/9f/23ac7c6163dfac3183864340d8679c504e45fa8b9cf7f4cfc888a27bffdd/sos-notebook-0.9.9.7.tar.gz
+[2023-07-30 04:12:31] INFO root fetch - processPackages [aa-bulletin-board]: Downloading https://files.pythonhosted.org/packages/ad/82/cf444b2475f13d2bf10671d36a9c2c7e6b7f75ced13d41ea92ea836e56ee/aa_bulletin_board-1.8.0.tar.gz
+[2023-07-30 04:12:31] INFO root fetch - processPackages [aa-fleetpings]: Downloading https://files.pythonhosted.org/packages/6f/43/53ce4e45ae524845710ece83ebcc43cda4ace54d61a02784733d8fd431ce/aa-fleetpings-2.8.0.tar.gz
+[2023-07-30 04:12:31] INFO root fetch - processPackages [aa-discord-announcements]: Downloading https://files.pythonhosted.org/packages/da/ac/b2b0910a00927ccef869ffc89d6466b6be05a4330fe64dd1cb3f435cfc24/aa_discord_announcements-1.2.2.tar.gz
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-bulletin-board]: Downloading https://files.pythonhosted.org/packages/ed/8c/67b82685b64520827e7db5aa62a2a13a3e7c847b4bff2f977f8863cea3fb/aa_bulletin_board-1.9.0.tar.gz
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-discord-announcements]: Downloading https://files.pythonhosted.org/packages/00/a3/b725ef786d29442f76e8467639a2ebb1083d0e65c1ab5f1fa74790bbd892/aa_discord_announcements-1.2.3.tar.gz
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-fleetpings]: Downloading https://files.pythonhosted.org/packages/7f/14/4c243bf6d8a4878656db6db2f8778fedc654d8b1b378a2a259cb4ac511f0/aa-fleetpings-2.9.0.tar.gz
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-bulletin-board]: executing diffoscope
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-bulletin-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_bulletin_board-1.8.0.tar.gz tmp/aa_bulletin_board-1.9.0.tar.gz --markdown 20230730/a/aa-bulletin-board/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-fleetpings]: executing diffoscope
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-fleetpings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-fleetpings-2.8.0.tar.gz tmp/aa-fleetpings-2.9.0.tar.gz --markdown 20230730/a/aa-fleetpings/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-discord-announcements]: executing diffoscope
+[2023-07-30 04:12:32] INFO root fetch - processPackages [aa-discord-announcements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_discord_announcements-1.2.2.tar.gz tmp/aa_discord_announcements-1.2.3.tar.gz --markdown 20230730/a/aa-discord-announcements/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-30 04:12:32] INFO root fetch - processPackages [sos-notebook]: Downloading https://files.pythonhosted.org/packages/93/b0/beb3ae6a73423d1582e46897c4c0facc528bf2372566f8dbefae3d063f6c/sos-notebook-0.9.9.8.tar.gz
+[2023-07-30 04:12:33] INFO root fetch - processPackages [aa-bulletin-board]: Remove: archive file [/home/abi/fetcher/tmp/aa_bulletin_board-1.8.0.tar.gz]
+[2023-07-30 04:12:33] INFO root fetch - processPackages [aa-bulletin-board]: Remove: archive file [/home/abi/fetcher/tmp/aa_bulletin_board-1.9.0.tar.gz]
+[2023-07-30 04:12:33] INFO root fetch - main [MainThread]: End processing [aa-bulletin-board]: success
+[2023-07-30 04:12:33] INFO root fetch - processPackages [sos-notebook]: executing diffoscope
+[2023-07-30 04:12:33] INFO root fetch - processPackages [sos-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sos-notebook-0.9.9.7.tar.gz tmp/sos-notebook-0.9.9.8.tar.gz --markdown 20230730/s/sos-notebook/0.9.9.7-0.9.9.8/diff.md --exclude *.pyd
+[2023-07-30 04:12:33] INFO root fetch - processPackages [aa-discord-announcements]: Remove: archive file [/home/abi/fetcher/tmp/aa_discord_announcements-1.2.2.tar.gz]
+[2023-07-30 04:12:33] INFO root fetch - processPackages [aa-discord-announcements]: Remove: archive file [/home/abi/fetcher/tmp/aa_discord_announcements-1.2.3.tar.gz]
+[2023-07-30 04:12:33] INFO root fetch - main [MainThread]: End processing [aa-discord-announcements]: success
+[2023-07-30 04:12:33] INFO root fetch - processPackages [aa-fleetpings]: Remove: archive file [/home/abi/fetcher/tmp/aa-fleetpings-2.8.0.tar.gz]
+[2023-07-30 04:12:33] INFO root fetch - processPackages [aa-fleetpings]: Remove: archive file [/home/abi/fetcher/tmp/aa-fleetpings-2.9.0.tar.gz]
+[2023-07-30 04:12:33] INFO root fetch - main [MainThread]: End processing [aa-fleetpings]: success
+[2023-07-30 04:12:34] INFO root fetch - processPackages [sos-notebook]: Remove: archive file [/home/abi/fetcher/tmp/sos-notebook-0.9.9.7.tar.gz]
+[2023-07-30 04:12:34] INFO root fetch - processPackages [sos-notebook]: Remove: archive file [/home/abi/fetcher/tmp/sos-notebook-0.9.9.8.tar.gz]
+[2023-07-30 04:12:34] INFO root fetch - main [MainThread]: End processing [sos-notebook]: success
+[2023-07-30 04:12:34] INFO root fetch - main [MainThread]: Store serial: [19093214]
