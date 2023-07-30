@@ -8740,3 +8740,50 @@
 [2023-07-30 12:59:22] INFO root fetch - processPackages [galaxy-web-apps]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-apps-23.0.5.tar.gz]
 [2023-07-30 12:59:22] INFO root fetch - main [MainThread]: End processing [galaxy-web-apps]: success
 [2023-07-30 12:59:22] INFO root fetch - main [MainThread]: Store serial: [19095833]
+[2023-07-30 13:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095833]
+[2023-07-30 13:04:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 13:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: port-ocean
+[2023-07-30 13:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esentity
+[2023-07-30 13:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimporters-csv
+[2023-07-30 13:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aspose-barcode-for-python-via-java
+[2023-07-30 13:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prometheus-kubernetes-cli
+[2023-07-30 13:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spider-scrape
+[2023-07-30 13:04:31] INFO root fetch - processPackages [spider-scrape]: New version: [0.0.2] Old Version: [0.0.1rc3]
+[2023-07-30 13:04:31] WARNING root fetch - processPackages [prometheus-kubernetes-cli]: Skipping, unable to determine old version
+[2023-07-30 13:04:31] INFO root fetch - main [MainThread]: End processing [prometheus-kubernetes-cli] error
+[2023-07-30 13:04:31] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: New version: [23.7] Old Version: [23.6.1]
+[2023-07-30 13:04:31] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 13:04:31] INFO root fetch - processPackages [port-ocean]: New version: [0.1.3rc3] Old Version: [0.1.3rc2]
+[2023-07-30 13:04:31] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-30 13:04:31] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [spider-scrape]: Downloading https://files.pythonhosted.org/packages/81/61/f403562caa750f957ee5508478ce6db96b895316a166f72514336296c284/spider_scrape-0.0.1rc3.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: Downloading https://files.pythonhosted.org/packages/a9/0b/5643b1512c85f6d4192e8ab54b00d3dd81f7b5565bd895561aab3bfc4478/aspose-barcode-for-python-via-java-23.6.1.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/03/e2/6b49551473e3c0721a92e960d99efa4192b6ce57ef142c803c3e1cbb92a6/port_ocean-0.1.3rc2.tar.gz
+[2023-07-30 13:04:32] WARNING root fetch - processPackages [aspose-barcode-for-python-via-java]: Skipping package: exceeds size limit 14203528>=10485760
+[2023-07-30 13:04:32] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-java] error
+[2023-07-30 13:04:32] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 13:04:32] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 13:04:32] INFO root fetch - processPackages [spider-scrape]: Downloading https://files.pythonhosted.org/packages/6a/19/7640b62020c144396623172ce3fcb4aad7fc8b5e9944a49d94c134341723/spider_scrape-0.0.2.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/41/28/98dca0fbd1482fd95f5c28b42a2b71a714f1cb69759279a79fc7b2cb79c1/port_ocean-0.1.3rc3.tar.gz
+[2023-07-30 13:04:32] INFO root fetch - processPackages [spider-scrape]: executing diffoscope
+[2023-07-30 13:04:32] INFO root fetch - processPackages [spider-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider_scrape-0.0.1rc3.tar.gz tmp/spider_scrape-0.0.2.tar.gz --markdown 20230730/s/spider-scrape/0.0.1rc3-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 13:04:32] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2023-07-30 13:04:32] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20230730/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-30 13:04:32] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-30 13:04:32] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.3rc2.tar.gz tmp/port_ocean-0.1.3rc3.tar.gz --markdown 20230730/p/port-ocean/0.1.3rc2-0.1.3rc3/diff.md --exclude *.pyd
+[2023-07-30 13:04:33] INFO root fetch - processPackages [spider-scrape]: Remove: archive file [/home/abi/fetcher/tmp/spider_scrape-0.0.1rc3.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - processPackages [spider-scrape]: Remove: archive file [/home/abi/fetcher/tmp/spider_scrape-0.0.2.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - main [MainThread]: End processing [spider-scrape]: success
+[2023-07-30 13:04:33] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 13:04:33] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2023-07-30 13:04:33] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc2.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc3.tar.gz]
+[2023-07-30 13:04:33] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-30 13:04:33] INFO root fetch - main [MainThread]: Store serial: [19095853]
