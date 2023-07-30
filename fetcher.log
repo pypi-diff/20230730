@@ -12905,3 +12905,47 @@
 [2023-07-30 18:19:09] INFO root fetch - processPackages [sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/sqllineage-1.4.6.tar.gz]
 [2023-07-30 18:19:09] INFO root fetch - main [MainThread]: End processing [sqllineage]: success
 [2023-07-30 18:19:09] INFO root fetch - main [MainThread]: Store serial: [19097661]
+[2023-07-30 18:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097661]
+[2023-07-30 18:24:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 18:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swolfpy-processmodels
+[2023-07-30 18:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbhydra
+[2023-07-30 18:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgsqlx
+[2023-07-30 18:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nagisa
+[2023-07-30 18:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysqlx
+[2023-07-30 18:24:17] INFO root fetch - processPackages [swolfpy-processmodels]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-30 18:24:17] INFO root fetch - processPackages [pgsqlx]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-30 18:24:17] INFO root fetch - processPackages [mysqlx]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-30 18:24:17] INFO root fetch - processPackages [dbhydra]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-30 18:24:17] INFO root fetch - processPackages [nagisa]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 18:24:17] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/df/d4/fc4c2a9f80b46da5482e287ce38beef933b6f96d9e0b7696532aeb47640b/pgsqlx-1.7.1.tar.gz
+[2023-07-30 18:24:17] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/a7/7a/7d7bf83f409c39922399a1dd77e30b6848c64f1a9156f631b82e2ebbffc5/mysqlx-1.7.0.tar.gz
+[2023-07-30 18:24:17] INFO root fetch - processPackages [swolfpy-processmodels]: Downloading https://files.pythonhosted.org/packages/fc/3d/e59defc20a8c632d6c44da806154aa8e345d25aa65372af8b2a0a840976e/swolfpy_processmodels-1.0.0.tar.gz
+[2023-07-30 18:24:17] INFO root fetch - processPackages [dbhydra]: Downloading https://files.pythonhosted.org/packages/3a/9f/891310931d843e872b666c6355ab34272fcfd293ccd6b800294f024a33af/dbhydra-1.2.1.tar.gz
+[2023-07-30 18:24:17] INFO root fetch - processPackages [nagisa]: Downloading https://files.pythonhosted.org/packages/af/81/2c61ffc4c532efc41e9fdd95109c3d844ff0627d212d95adee3744faa6dc/nagisa-0.2.8.tar.gz
+[2023-07-30 18:24:18] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/a0/32/aeef3cf64eb5d0d4fc720717741d991997a7175993047c399a079096781d/pgsqlx-1.7.2.tar.gz
+[2023-07-30 18:24:18] WARNING root fetch - processPackages [nagisa]: Skipping package: exceeds size limit 20901208>=10485760
+[2023-07-30 18:24:18] INFO root fetch - main [MainThread]: End processing [nagisa] error
+[2023-07-30 18:24:18] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/e9/8a/8a9c11ede3a0b371e83237f135e9327c44c39b28798b9af97a53fd376020/mysqlx-1.7.1.tar.gz
+[2023-07-30 18:24:18] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-30 18:24:18] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.7.1.tar.gz tmp/pgsqlx-1.7.2.tar.gz --markdown 20230730/p/pgsqlx/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-30 18:24:18] INFO root fetch - processPackages [swolfpy-processmodels]: Downloading https://files.pythonhosted.org/packages/37/3f/04fc8c3b3a621ee5a750f74b48a5401bde526a906c52c755f66310307073/swolfpy_processmodels-1.1.0.tar.gz
+[2023-07-30 18:24:18] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-30 18:24:18] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.7.0.tar.gz tmp/mysqlx-1.7.1.tar.gz --markdown 20230730/m/mysqlx/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-30 18:24:18] INFO root fetch - processPackages [swolfpy-processmodels]: executing diffoscope
+[2023-07-30 18:24:18] INFO root fetch - processPackages [swolfpy-processmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swolfpy_processmodels-1.0.0.tar.gz tmp/swolfpy_processmodels-1.1.0.tar.gz --markdown 20230730/s/swolfpy-processmodels/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 18:24:18] INFO root fetch - processPackages [dbhydra]: Downloading https://files.pythonhosted.org/packages/01/67/74a637b50dc67944b1598b7e19f392ccd82351add31008e141ccb17877bd/dbhydra-1.2.2.tar.gz
+[2023-07-30 18:24:18] INFO root fetch - processPackages [dbhydra]: executing diffoscope
+[2023-07-30 18:24:18] INFO root fetch - processPackages [dbhydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbhydra-1.2.1.tar.gz tmp/dbhydra-1.2.2.tar.gz --markdown 20230730/d/dbhydra/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-30 18:24:19] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.7.0.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.7.1.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-30 18:24:19] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.7.1.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.7.2.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-30 18:24:19] INFO root fetch - processPackages [swolfpy-processmodels]: Remove: archive file [/home/abi/fetcher/tmp/swolfpy_processmodels-1.0.0.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - processPackages [swolfpy-processmodels]: Remove: archive file [/home/abi/fetcher/tmp/swolfpy_processmodels-1.1.0.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - main [MainThread]: End processing [swolfpy-processmodels]: success
+[2023-07-30 18:24:19] INFO root fetch - processPackages [dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/dbhydra-1.2.1.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - processPackages [dbhydra]: Remove: archive file [/home/abi/fetcher/tmp/dbhydra-1.2.2.tar.gz]
+[2023-07-30 18:24:19] INFO root fetch - main [MainThread]: End processing [dbhydra]: success
+[2023-07-30 18:24:19] INFO root fetch - main [MainThread]: Store serial: [19097716]
