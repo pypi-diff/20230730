@@ -13482,3 +13482,33 @@
 [2023-07-30 19:11:48] INFO root fetch - processPackages [jacobi-motion]: Remove: archive file [/home/abi/fetcher/tmp/jacobi_motion-0.0.9-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2023-07-30 19:11:48] INFO root fetch - main [MainThread]: End processing [jacobi-motion]: success
 [2023-07-30 19:11:48] INFO root fetch - main [MainThread]: Store serial: [19097959]
+[2023-07-30 19:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097959]
+[2023-07-30 19:17:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 19:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-ec2-instance-connect-custom-resource
+[2023-07-30 19:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolev-dublon
+[2023-07-30 19:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abd-clam
+[2023-07-30 19:17:00] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-30 19:17:00] INFO root fetch - processPackages [dolev-dublon]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 19:17:00] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-07-30 19:17:00] INFO root fetch - processPackages [dolev-dublon]: Downloading https://files.pythonhosted.org/packages/80/da/5845317d28f5edc2b1e60897b25eb56bf8d3d844ead14f366f83221c0069/dolev_dublon-0.0.2.tar.gz
+[2023-07-30 19:17:00] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-07-30 19:17:00] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/02/84/53d9af231ae417392b8cf916016b6ebdfbc6a5035a937ef4a4b793c93bb8/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz
+[2023-07-30 19:17:00] INFO root fetch - processPackages [dolev-dublon]: Downloading https://files.pythonhosted.org/packages/fe/e9/3280e713c45da5c255cfb7fd8a531225cac9bca6e6e68f8b45dc9d49096c/dolev_dublon-0.0.3.tar.gz
+[2023-07-30 19:17:01] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/7c/1d/e7137888c846c616b7512dd23bad20cfe2b2f147461f96689a373187927f/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz
+[2023-07-30 19:17:01] INFO root fetch - processPackages [dolev-dublon]: executing diffoscope
+[2023-07-30 19:17:01] INFO root fetch - processPackages [dolev-dublon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolev_dublon-0.0.2.tar.gz tmp/dolev_dublon-0.0.3.tar.gz --markdown 20230730/d/dolev-dublon/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 19:17:01] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: executing diffoscope
+[2023-07-30 19:17:01] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz --markdown 20230730/g/gammarer.aws-ec2-instance-connect-custom-resource/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-30 19:17:01] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-07-30 19:17:01] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-07-30 19:17:01] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230730/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-07-30 19:17:01] INFO root fetch - processPackages [dolev-dublon]: Remove: archive file [/home/abi/fetcher/tmp/dolev_dublon-0.0.2.tar.gz]
+[2023-07-30 19:17:01] INFO root fetch - processPackages [dolev-dublon]: Remove: archive file [/home/abi/fetcher/tmp/dolev_dublon-0.0.3.tar.gz]
+[2023-07-30 19:17:01] INFO root fetch - main [MainThread]: End processing [dolev-dublon]: success
+[2023-07-30 19:17:02] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz]
+[2023-07-30 19:17:02] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz]
+[2023-07-30 19:17:02] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource]: success
+[2023-07-30 19:17:02] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-07-30 19:17:02] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-07-30 19:17:02] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-07-30 19:17:02] INFO root fetch - main [MainThread]: Store serial: [19097977]
