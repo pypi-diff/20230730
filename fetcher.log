@@ -11638,3 +11638,126 @@
 [2023-07-30 16:58:06] INFO root fetch - processPackages [borb]: Remove: archive file [/home/abi/fetcher/tmp/borb-2.1.9.tar.gz]
 [2023-07-30 16:58:06] INFO root fetch - main [MainThread]: End processing [borb]: success
 [2023-07-30 16:58:06] INFO root fetch - main [MainThread]: Store serial: [19097142]
+[2023-07-30 17:03:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097142]
+[2023-07-30 17:03:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultibi
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reytool
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bodhi-client
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bodhi-messages
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bodhi-server
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Electroplot
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sciform
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: human-name-compare
+[2023-07-30 17:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hibp-downloader
+[2023-07-30 17:03:15] INFO root fetch - processPackages [bodhi-client]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [ultibi]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [Electroplot]: New version: [1.0] Old Version: [0.3]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [hibp-downloader]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [bodhi-server]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [bodhi-messages]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [human-name-compare]: New version: [0.4.1] Old Version: [0.3.9]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-30 17:03:15] INFO root fetch - processPackages [human-name-compare]: Downloading https://files.pythonhosted.org/packages/b7/c7/c7557dc6fed760714deb084f292438c5fc77ca1f9c38625b3556088d7cb2/human-name-compare-0.3.9.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [hibp-downloader]: Downloading https://files.pythonhosted.org/packages/5e/04/1769bea441b46a970abb1c5429eacabd44f1c080ee99115a55e13392b980/hibp_downloader-0.1.1.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [bodhi-client]: Downloading https://files.pythonhosted.org/packages/07/5a/a404b8886e454f614ef7af5e27c72c42d5f976c800d16f2d716551b47087/bodhi_client-7.2.0.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [Electroplot]: Downloading https://files.pythonhosted.org/packages/8a/94/1e5913ff0a8205b6f4f853f9cab623e92ff9dc789ee9efd5845064b4183b/Electroplot-0.3.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/9f/ae/8b80b3e1693d08a6d881c9eb23390a0ec9c86d48a1b17ce347e937e30fc8/ultibi-0.4.1.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [bodhi-messages]: Downloading https://files.pythonhosted.org/packages/66/02/034fed86470fb49a08d2c2e8ace217505f9a998d736efb3f2ffcab6ceae8/bodhi_messages-7.2.0.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [bodhi-server]: Downloading https://files.pythonhosted.org/packages/27/6c/d4e0b8e0e5e16ac0f5454ef8737e3169e1a78e1d27a4f032ba63dfbfe9b6/bodhi_server-7.2.0.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-30 17:03:15] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [human-name-compare]: Downloading https://files.pythonhosted.org/packages/9a/0e/62639f36a61553c0d94197096f707a060894338ecc8c3e773e2e62c6c674/human-name-compare-0.4.1.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-07-30 17:03:15] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230730/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-30 17:03:15] INFO root fetch - processPackages [Electroplot]: Downloading https://files.pythonhosted.org/packages/5a/74/42121482533f546eb54cca19cdf7861247f7d48bb81cdd6cf0e9f1da9dc3/Electroplot-1.0.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [bodhi-client]: Downloading https://files.pythonhosted.org/packages/bd/21/f80c0bd113957b59fa3e0933d81a82bf7ccb7b2c9fcf356323ae4cdc21ca/bodhi_client-7.2.1.tar.gz
+[2023-07-30 17:03:15] INFO root fetch - processPackages [hibp-downloader]: Downloading https://files.pythonhosted.org/packages/57/b3/257e5b7eebfe5766afb0724c6b7a3507c4a6e412dd0fd0061f693e6c6a40/hibp_downloader-0.1.2.tar.gz
+[2023-07-30 17:03:16] INFO root fetch - processPackages [bodhi-messages]: Downloading https://files.pythonhosted.org/packages/c1/82/0678133bd1ab893c139ba0ffbd8afa0f2c8a546f66c50c53d8f04b76c760/bodhi_messages-7.2.1.tar.gz
+[2023-07-30 17:03:16] INFO root fetch - processPackages [human-name-compare]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [human-name-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-name-compare-0.3.9.tar.gz tmp/human-name-compare-0.4.1.tar.gz --markdown 20230730/h/human-name-compare/0.3.9-0.4.1/diff.md --exclude *.pyd
+[2023-07-30 17:03:16] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/5b/32/972e67f45a75531a9c2d7e2d58d851d930c06cd1a6da9c3cbcb70c2057c7/ultibi-0.4.2.tar.gz
+[2023-07-30 17:03:16] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-30 17:03:16] INFO root fetch - processPackages [Electroplot]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [Electroplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Electroplot-0.3.tar.gz tmp/Electroplot-1.0.tar.gz --markdown 20230730/E/Electroplot/0.3-1.0/diff.md --exclude *.pyd
+[2023-07-30 17:03:16] INFO root fetch - processPackages [hibp-downloader]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [hibp-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hibp_downloader-0.1.1.tar.gz tmp/hibp_downloader-0.1.2.tar.gz --markdown 20230730/h/hibp-downloader/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 17:03:16] INFO root fetch - processPackages [bodhi-client]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [bodhi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodhi_client-7.2.0.tar.gz tmp/bodhi_client-7.2.1.tar.gz --markdown 20230730/b/bodhi-client/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-30 17:03:16] INFO root fetch - processPackages [bodhi-messages]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [bodhi-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodhi_messages-7.2.0.tar.gz tmp/bodhi_messages-7.2.1.tar.gz --markdown 20230730/b/bodhi-messages/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-30 17:03:16] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230730/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-30 17:03:16] INFO root fetch - processPackages [ultibi]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [ultibi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultibi-0.4.1.tar.gz tmp/ultibi-0.4.2.tar.gz --markdown 20230730/u/ultibi/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-30 17:03:16] INFO root fetch - processPackages [bodhi-server]: Downloading https://files.pythonhosted.org/packages/7e/46/1bdacb160e46d544249f21b6fa36104395224e02eb3e3c8a8a30f4763834/bodhi_server-7.2.1.tar.gz
+[2023-07-30 17:03:16] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-30 17:03:16] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-30 17:03:16] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230730/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:03:17] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [sciform]: Start processing: twinfiles
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-07-30 17:03:17] WARNING root fetch - processPackages [twinfiles]: Skipping, unable to determine old version
+[2023-07-30 17:03:17] INFO root fetch - processPackages [twinfiles]: Start processing: z-units
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [twinfiles] error
+[2023-07-30 17:03:17] INFO root fetch - processPackages [human-name-compare]: Remove: archive file [/home/abi/fetcher/tmp/human-name-compare-0.3.9.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [human-name-compare]: Remove: archive file [/home/abi/fetcher/tmp/human-name-compare-0.4.1.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [human-name-compare]: Start processing: onnx2kerastl
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [human-name-compare]: success
+[2023-07-30 17:03:17] INFO root fetch - processPackages [z-units]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [Electroplot]: Remove: archive file [/home/abi/fetcher/tmp/Electroplot-0.3.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [Electroplot]: Remove: archive file [/home/abi/fetcher/tmp/Electroplot-1.0.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [Electroplot]: Start processing: aco-routing
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [Electroplot]: success
+[2023-07-30 17:03:17] INFO root fetch - processPackages [bodhi-server]: executing diffoscope
+[2023-07-30 17:03:17] INFO root fetch - processPackages [bodhi-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodhi_server-7.2.0.tar.gz tmp/bodhi_server-7.2.1.tar.gz --markdown 20230730/b/bodhi-server/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-30 17:03:17] INFO root fetch - processPackages [aco-routing]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [z-units]: Downloading https://files.pythonhosted.org/packages/37/19/f7e527fe99dc9f3f36d44ed72cd8a152e02f7e11d37eef498b5f37f188df/z_units-0.1.2.tar.gz
+[2023-07-30 17:03:17] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-07-30 17:03:17] INFO root fetch - processPackages [aco-routing]: Downloading https://files.pythonhosted.org/packages/d9/2e/23cd24c7493ebbf9021293dd4c3972ba6c23052a2fea6d5fba4d71e9c89c/aco_routing-1.0.4.tar.gz
+[2023-07-30 17:03:17] INFO root fetch - processPackages [hibp-downloader]: Remove: archive file [/home/abi/fetcher/tmp/hibp_downloader-0.1.1.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [hibp-downloader]: Remove: archive file [/home/abi/fetcher/tmp/hibp_downloader-0.1.2.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [hibp-downloader]: success
+[2023-07-30 17:03:17] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-30 17:03:17] INFO root fetch - processPackages [bodhi-client]: Remove: archive file [/home/abi/fetcher/tmp/bodhi_client-7.2.0.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [bodhi-client]: Remove: archive file [/home/abi/fetcher/tmp/bodhi_client-7.2.1.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [bodhi-client]: success
+[2023-07-30 17:03:17] INFO root fetch - processPackages [bodhi-messages]: Remove: archive file [/home/abi/fetcher/tmp/bodhi_messages-7.2.0.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - processPackages [bodhi-messages]: Remove: archive file [/home/abi/fetcher/tmp/bodhi_messages-7.2.1.tar.gz]
+[2023-07-30 17:03:17] INFO root fetch - main [MainThread]: End processing [bodhi-messages]: success
+[2023-07-30 17:03:17] INFO root fetch - processPackages [z-units]: Downloading https://files.pythonhosted.org/packages/e4/ca/6f9c9c27d9c0d7c2263185cb4d027cc24387815ea25af87f26a8e4b926e7/z_units-0.1.3.tar.gz
+[2023-07-30 17:03:18] INFO root fetch - processPackages [z-units]: executing diffoscope
+[2023-07-30 17:03:18] INFO root fetch - processPackages [z-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z_units-0.1.2.tar.gz tmp/z_units-0.1.3.tar.gz --markdown 20230730/z/z-units/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-30 17:03:18] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-07-30 17:03:18] INFO root fetch - processPackages [aco-routing]: Downloading https://files.pythonhosted.org/packages/34/91/97a1aadabdf76e9cb319c755974d82974eba154da1202e12e91bd987225b/aco_routing-1.0.5.tar.gz
+[2023-07-30 17:03:18] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-07-30 17:03:18] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230730/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 17:03:18] INFO root fetch - processPackages [aco-routing]: executing diffoscope
+[2023-07-30 17:03:18] INFO root fetch - processPackages [aco-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aco_routing-1.0.4.tar.gz tmp/aco_routing-1.0.5.tar.gz --markdown 20230730/a/aco-routing/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-30 17:03:18] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.4.1.tar.gz]
+[2023-07-30 17:03:18] INFO root fetch - processPackages [ultibi]: Remove: archive file [/home/abi/fetcher/tmp/ultibi-0.4.2.tar.gz]
+[2023-07-30 17:03:18] INFO root fetch - main [MainThread]: End processing [ultibi]: success
+[2023-07-30 17:03:18] INFO root fetch - processPackages [z-units]: Remove: archive file [/home/abi/fetcher/tmp/z_units-0.1.2.tar.gz]
+[2023-07-30 17:03:18] INFO root fetch - processPackages [z-units]: Remove: archive file [/home/abi/fetcher/tmp/z_units-0.1.3.tar.gz]
+[2023-07-30 17:03:18] INFO root fetch - main [MainThread]: End processing [z-units]: success
+[2023-07-30 17:03:19] INFO root fetch - processPackages [aco-routing]: Remove: archive file [/home/abi/fetcher/tmp/aco_routing-1.0.4.tar.gz]
+[2023-07-30 17:03:19] INFO root fetch - processPackages [aco-routing]: Remove: archive file [/home/abi/fetcher/tmp/aco_routing-1.0.5.tar.gz]
+[2023-07-30 17:03:19] INFO root fetch - main [MainThread]: End processing [aco-routing]: success
+[2023-07-30 17:03:19] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-07-30 17:03:19] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-07-30 17:03:19] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-07-30 17:03:20] INFO root fetch - processPackages [bodhi-server]: Remove: archive file [/home/abi/fetcher/tmp/bodhi_server-7.2.0.tar.gz]
+[2023-07-30 17:03:20] INFO root fetch - processPackages [bodhi-server]: Remove: archive file [/home/abi/fetcher/tmp/bodhi_server-7.2.1.tar.gz]
+[2023-07-30 17:03:20] INFO root fetch - main [MainThread]: End processing [bodhi-server]: success
+[2023-07-30 17:03:31] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-30 17:03:31] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-30 17:03:31] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-30 17:03:31] INFO root fetch - main [MainThread]: Store serial: [19097185]
