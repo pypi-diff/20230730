@@ -5867,3 +5867,29 @@
 [2023-07-30 09:13:54] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6955.tar.gz]
 [2023-07-30 09:13:54] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-30 09:13:54] INFO root fetch - main [MainThread]: Store serial: [19094421]
+[2023-07-30 09:18:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094421]
+[2023-07-30 09:19:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 09:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfq-nightly
+[2023-07-30 09:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2023-07-30 09:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seldom
+[2023-07-30 09:19:03] INFO root fetch - processPackages [seldom]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-07-30 09:19:03] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-30 09:19:03] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230730] Old Version: [0.7.3.dev20230729]
+[2023-07-30 09:19:03] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-30 09:19:03] INFO root fetch - processPackages [seldom]: Downloading https://files.pythonhosted.org/packages/cc/cd/ccc72fc2c0d53185342fc9627e3083677f07d4d7409447d35f37ee46df24/seldom-3.2.2.tar.gz
+[2023-07-30 09:19:03] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/84/bd/dc93d78783a2842f8c1bf022f86bc5def37f9b340147d3e48b5dffa149ee/tfq_nightly-0.7.3.dev20230729-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 09:19:04] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-30 09:19:04] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-30 09:19:04] INFO root fetch - processPackages [seldom]: Downloading https://files.pythonhosted.org/packages/ad/f8/77d4c094ad42ddcc2c028952b5cdf16b79ff89edb6ccfe182d214b6675c4/seldom-3.2.3.tar.gz
+[2023-07-30 09:19:04] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-30 09:19:04] INFO root fetch - processPackages [seldom]: executing diffoscope
+[2023-07-30 09:19:04] INFO root fetch - processPackages [seldom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seldom-3.2.2.tar.gz tmp/seldom-3.2.3.tar.gz --markdown 20230730/s/seldom/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-07-30 09:19:06] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-30 09:19:06] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230730/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-30 09:19:06] INFO root fetch - processPackages [seldom]: Remove: archive file [/home/abi/fetcher/tmp/seldom-3.2.2.tar.gz]
+[2023-07-30 09:19:06] INFO root fetch - processPackages [seldom]: Remove: archive file [/home/abi/fetcher/tmp/seldom-3.2.3.tar.gz]
+[2023-07-30 09:19:06] INFO root fetch - main [MainThread]: End processing [seldom]: success
+[2023-07-30 09:19:16] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-30 09:19:16] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-30 09:19:16] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-30 09:19:16] INFO root fetch - main [MainThread]: Store serial: [19094429]
