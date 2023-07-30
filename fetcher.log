@@ -15747,3 +15747,85 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:07:16] ERROR root fetch - processPackages [py-shelf]: Timeout during execution of pkgdiff
 [2023-07-30 22:07:16] INFO root fetch - main [MainThread]: End processing [py-shelf] error
 [2023-07-30 22:07:16] INFO root fetch - main [MainThread]: Store serial: [19099057]
+[2023-07-30 22:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099057]
+[2023-07-30 22:12:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jamofetch
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-flask
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastllm
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kilter.protocol
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepchem
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ocr_translate
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recordwright
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aim-ui
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-synthesizer
+[2023-07-30 22:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aim
+[2023-07-30 22:12:25] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.3]
+[2023-07-30 22:12:25] INFO root fetch - processPackages [django-ocr_translate]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 22:12:25] INFO root fetch - processPackages [kilter.protocol]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-30 22:12:25] WARNING root fetch - processPackages [gpt-synthesizer]: Skipping, unable to determine old version
+[2023-07-30 22:12:25] INFO root fetch - processPackages [gpt-synthesizer]: Start processing: jupytext
+[2023-07-30 22:12:25] INFO root fetch - main [MainThread]: End processing [gpt-synthesizer] error
+[2023-07-30 22:12:25] INFO root fetch - processPackages [jamofetch]: New version: [3.7.0] Old Version: [3.6.1]
+[2023-07-30 22:12:25] WARNING root fetch - processPackages [recordwright]: Skipping, unable to determine old version
+[2023-07-30 22:12:25] INFO root fetch - main [MainThread]: End processing [recordwright] error
+[2023-07-30 22:12:25] INFO root fetch - processPackages [fastllm]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 22:12:25] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2023-07-30 22:12:25] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230730200710] Old Version: [2.7.2.dev20230728002356]
+[2023-07-30 22:12:25] INFO root fetch - processPackages [aim]: New version: [4.0.0a9] Old Version: [4.0.0a7]
+[2023-07-30 22:12:25] INFO root fetch - processPackages [jupytext]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-30 22:12:25] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/1b/27/ec8ff042712fc8f1ee017399fe7207ef06baaecaee7d6b1738df5c3467c0/aim-ui-4.0.0a8.tar.gz
+[2023-07-30 22:12:25] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-30 22:12:25] INFO root fetch - processPackages [kilter.protocol]: Downloading https://files.pythonhosted.org/packages/be/cb/3d5a254cc1c741722e0e4219236b8df6c6c565adcc7504dbb1098773db0d/kilter_protocol-0.3.0.tar.gz
+[2023-07-30 22:12:25] INFO root fetch - processPackages [django-ocr_translate]: Downloading https://files.pythonhosted.org/packages/24/69/69b9df6bddb78c214a7c62df8020991388b10193b9edb3ed81672051e45e/django_ocr_translate-0.1.3.tar.gz
+[2023-07-30 22:12:25] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/b5/0a/8929342ed49f95e23443a0b42382ffca026ba34da620ada907692077fcab/jamofetch-3.6.1.tar.gz
+[2023-07-30 22:12:25] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19414824>=10485760
+[2023-07-30 22:12:25] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-07-30 22:12:25] INFO root fetch - processPackages [fastllm]: Downloading https://files.pythonhosted.org/packages/2e/a0/09aaf3d6951c5a280d2cceff2a3fb2d65c114d2a4b5be96658ebb1423dbc/fastllm-0.1.3.tar.gz
+[2023-07-30 22:12:25] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/9c/82/e4a38b2fcf3871c31dc08fed601de6e13248419ce4f2da79803af0c8afab/deepchem-2.7.2.dev20230728002356.tar.gz
+[2023-07-30 22:12:25] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/ee/90/668cdef5d777ae82570a5b95b243506790b0f53ace49feff6d50ef11e28f/aim-4.0.0a7.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [kilter.protocol]: Downloading https://files.pythonhosted.org/packages/dc/3d/9e2ab1c200ed7fb3c25398ff3fa16c86ec219aa642f1a82a789c5e045159/kilter_protocol-0.4.0.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/83/f6/1b08939765f5a68e326fa1fe7db633ec34e8518a878193089873b92a922e/jamofetch-3.7.0.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [django-ocr_translate]: Downloading https://files.pythonhosted.org/packages/76/35/c387ba5239a9688a06ac0f669075037df6b63d84902cc7af7a5e0ce88101/django_ocr_translate-0.1.4.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [fastllm]: Downloading https://files.pythonhosted.org/packages/1f/50/b185ef557b6845222d26e3db7ce91bbe45a6a937da97f6b96cc938eb17b3/fastllm-0.1.4.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-30 22:12:26] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.3.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230730/d/data-ecosystem-flask/202307.0.3-202307.0.4/diff.md --exclude *.pyd
+[2023-07-30 22:12:26] INFO root fetch - processPackages [jupytext]: Downloading https://files.pythonhosted.org/packages/9a/ea/989cad1f4454819b08737a97c155a82f486e21cfbeda5451457f990679d6/jupytext-1.9.1.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [kilter.protocol]: executing diffoscope
+[2023-07-30 22:12:26] INFO root fetch - processPackages [kilter.protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilter_protocol-0.3.0.tar.gz tmp/kilter_protocol-0.4.0.tar.gz --markdown 20230730/k/kilter.protocol/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-30 22:12:26] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-30 22:12:26] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.6.1.tar.gz tmp/jamofetch-3.7.0.tar.gz --markdown 20230730/j/jamofetch/3.6.1-3.7.0/diff.md --exclude *.pyd
+[2023-07-30 22:12:26] WARNING root fetch - processPackages [jupytext]: Skipping package: exceeds size limit 44883075>=10485760
+[2023-07-30 22:12:26] INFO root fetch - main [MainThread]: End processing [jupytext] error
+[2023-07-30 22:12:26] INFO root fetch - processPackages [django-ocr_translate]: executing diffoscope
+[2023-07-30 22:12:26] INFO root fetch - processPackages [django-ocr_translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ocr_translate-0.1.3.tar.gz tmp/django_ocr_translate-0.1.4.tar.gz --markdown 20230730/d/django-ocr_translate/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 22:12:26] INFO root fetch - processPackages [fastllm]: executing diffoscope
+[2023-07-30 22:12:26] INFO root fetch - processPackages [fastllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastllm-0.1.3.tar.gz tmp/fastllm-0.1.4.tar.gz --markdown 20230730/f/fastllm/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 22:12:26] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/16/b9/3367a511804f098cc8aafa0fc74e0927b276ea8a8696dd5d1945e5cdb1b0/deepchem-2.7.2.dev20230730200710.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/c1/52/6d631d823c78de7a69774c9cb9ea8a853c3a663c3066fb47b845adc1b869/aim-4.0.0a9.tar.gz
+[2023-07-30 22:12:26] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-07-30 22:12:26] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230728002356.tar.gz tmp/deepchem-2.7.2.dev20230730200710.tar.gz --markdown 20230730/d/deepchem/2.7.2.dev20230728002356-2.7.2.dev20230730200710/diff.md --exclude *.pyd
+[2023-07-30 22:12:26] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-07-30 22:12:26] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a7.tar.gz tmp/aim-4.0.0a9.tar.gz --markdown 20230730/a/aim/4.0.0a7-4.0.0a9/diff.md --exclude *.pyd
+[2023-07-30 22:12:27] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.6.1.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.7.0.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-30 22:12:27] INFO root fetch - processPackages [kilter.protocol]: Remove: archive file [/home/abi/fetcher/tmp/kilter_protocol-0.3.0.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - processPackages [kilter.protocol]: Remove: archive file [/home/abi/fetcher/tmp/kilter_protocol-0.4.0.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - main [MainThread]: End processing [kilter.protocol]: success
+[2023-07-30 22:12:27] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-30 22:12:27] INFO root fetch - processPackages [fastllm]: Remove: archive file [/home/abi/fetcher/tmp/fastllm-0.1.3.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - processPackages [fastllm]: Remove: archive file [/home/abi/fetcher/tmp/fastllm-0.1.4.tar.gz]
+[2023-07-30 22:12:27] INFO root fetch - main [MainThread]: End processing [fastllm]: success
+[2023-07-30 22:12:28] INFO root fetch - processPackages [django-ocr_translate]: Remove: archive file [/home/abi/fetcher/tmp/django_ocr_translate-0.1.3.tar.gz]
+[2023-07-30 22:12:28] INFO root fetch - processPackages [django-ocr_translate]: Remove: archive file [/home/abi/fetcher/tmp/django_ocr_translate-0.1.4.tar.gz]
+[2023-07-30 22:12:28] INFO root fetch - main [MainThread]: End processing [django-ocr_translate]: success
+[2023-07-30 22:12:28] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230728002356.tar.gz]
+[2023-07-30 22:12:28] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230730200710.tar.gz]
+[2023-07-30 22:12:28] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-07-30 22:12:31] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a7.tar.gz]
+[2023-07-30 22:12:31] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
+[2023-07-30 22:12:31] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-07-30 22:12:31] INFO root fetch - main [MainThread]: Store serial: [19099099]
