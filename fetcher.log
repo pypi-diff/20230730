@@ -2528,3 +2528,92 @@
 [2023-07-30 03:41:16] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
 [2023-07-30 03:41:16] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
 [2023-07-30 03:41:16] INFO root fetch - main [MainThread]: Store serial: [19093103]
+[2023-07-30 03:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093103]
+[2023-07-30 03:46:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DdlGeneric
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panda3d-pman
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telepost
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-bls-connection
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-apl
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proactive-jupyter-kernel
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rivian-python-client
+[2023-07-30 03:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-radar
+[2023-07-30 03:46:25] INFO root fetch - processPackages [telepost]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [panda3d-pman]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [rivian-python-client]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [DdlGeneric]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [streamlit-bls-connection]: New version: [0.7] Old Version: [0.6]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [cloud-radar]: New version: [0.9.2a0] Old Version: [0.9.1a6]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.925] Old Version: [0.0.924]
+[2023-07-30 03:46:25] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/b2/8a/46173dd8640ccb507d6869020800d7865577e4f5b21c15b028b4a7f7d78c/streamlit_bls_connection-0.6.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [telepost]: Downloading https://files.pythonhosted.org/packages/fd/be/f5ee583df1272725368970d504c7249605fe098502be4808c41d73707604/telepost-0.0.8.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [DdlGeneric]: Downloading https://files.pythonhosted.org/packages/70/78/deebc6b68540554ccf793d5ef2f09ec5d9a7aaceffbbf5e50de07d20fc9b/DdlGeneric-1.0.2.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-30 03:46:25] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/99/0e/deaebc907f161639c6d99c600aab2c96ad5cb59fc8c5965ad6ec65c75fea/nbdev-apl-0.0.924.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [panda3d-pman]: Downloading https://files.pythonhosted.org/packages/73/f1/3d7779bc9fcfef3dd598fe58fe54c76a0b60aa2d00b77589d5b1b0f5c7a8/panda3d-pman-0.9.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [rivian-python-client]: Downloading https://files.pythonhosted.org/packages/78/b7/7c2f7288f882dc063824b4673cd6fba5b021232bd988c9a09e252f2b0ab0/rivian_python_client-0.2.3.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/55/68/ef6a2f80436ff58ed662e7e62c205a563409bf16bfa3cc4e22d31bd58cf5/cloud_radar-0.9.1a6.tar.gz
+[2023-07-30 03:46:25] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-30 03:46:25] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-30 03:46:25] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-30 03:46:26] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/d5/7f/54b58697a03a6765c25d8082726345bad169b044b726e5eecfc63074113f/streamlit_bls_connection-0.7.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [DdlGeneric]: Downloading https://files.pythonhosted.org/packages/a7/c4/d7d9a8488a1833d52df0db4653beb012c1024aca35d7acafa0c21979d3ab/DdlGeneric-1.0.3.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-30 03:46:26] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230730/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [rivian-python-client]: Downloading https://files.pythonhosted.org/packages/ab/47/97a34d3338774d0d1d97931ec475902b91ea3f79110f2500a6f711e5063e/rivian_python_client-0.2.4.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [telepost]: Downloading https://files.pythonhosted.org/packages/d6/f7/495972073ca7f73268032dc5dc16d15a3504e949ebccf4fd7ede133dd1a4/telepost-0.0.9.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [streamlit-bls-connection]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [streamlit-bls-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_bls_connection-0.6.tar.gz tmp/streamlit_bls_connection-0.7.tar.gz --markdown 20230730/s/streamlit-bls-connection/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/14/20/faec498c2b9624ae320b70d5ca2fa2ab69dba0c8f7b975934164f87c6e43/nbdev-apl-0.0.925.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/c8/5a/241048dd203280e5706e2a7174fed71d02de4eeb0742806b4c467200f07c/cloud_radar-0.9.2a0.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [DdlGeneric]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [DdlGeneric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DdlGeneric-1.0.2.tar.gz tmp/DdlGeneric-1.0.3.tar.gz --markdown 20230730/D/DdlGeneric/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230730/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [panda3d-pman]: Downloading https://files.pythonhosted.org/packages/7c/62/322d182c9f4cb93af4bf099b06665992fb162403c8f820f872d391519ba3/panda3d-pman-0.9.1.tar.gz
+[2023-07-30 03:46:26] INFO root fetch - processPackages [rivian-python-client]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [rivian-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rivian_python_client-0.2.3.tar.gz tmp/rivian_python_client-0.2.4.tar.gz --markdown 20230730/r/rivian-python-client/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.924.tar.gz tmp/nbdev-apl-0.0.925.tar.gz --markdown 20230730/n/nbdev-apl/0.0.924-0.0.925/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [telepost]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [telepost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepost-0.0.8.tar.gz tmp/telepost-0.0.9.tar.gz --markdown 20230730/t/telepost/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.9.1a6.tar.gz tmp/cloud_radar-0.9.2a0.tar.gz --markdown 20230730/c/cloud-radar/0.9.1a6-0.9.2a0/diff.md --exclude *.pyd
+[2023-07-30 03:46:26] INFO root fetch - processPackages [panda3d-pman]: executing diffoscope
+[2023-07-30 03:46:26] INFO root fetch - processPackages [panda3d-pman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda3d-pman-0.9.tar.gz tmp/panda3d-pman-0.9.1.tar.gz --markdown 20230730/p/panda3d-pman/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-07-30 03:46:27] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.6.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.7.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [streamlit-bls-connection]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [rivian-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rivian_python_client-0.2.3.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [rivian-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rivian_python_client-0.2.4.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [rivian-python-client]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.924.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.925.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [DdlGeneric]: Remove: archive file [/home/abi/fetcher/tmp/DdlGeneric-1.0.2.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [DdlGeneric]: Remove: archive file [/home/abi/fetcher/tmp/DdlGeneric-1.0.3.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [DdlGeneric]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [panda3d-pman]: Remove: archive file [/home/abi/fetcher/tmp/panda3d-pman-0.9.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [panda3d-pman]: Remove: archive file [/home/abi/fetcher/tmp/panda3d-pman-0.9.1.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [panda3d-pman]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [telepost]: Remove: archive file [/home/abi/fetcher/tmp/telepost-0.0.8.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [telepost]: Remove: archive file [/home/abi/fetcher/tmp/telepost-0.0.9.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [telepost]: success
+[2023-07-30 03:46:27] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.1a6.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.2a0.tar.gz]
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-07-30 03:46:27] INFO root fetch - main [MainThread]: Store serial: [19093132]
