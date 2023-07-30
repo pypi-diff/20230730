@@ -9603,3 +9603,108 @@
 [2023-07-30 14:27:46] INFO root fetch - processPackages [novelWriter]: Remove: archive file [/home/abi/fetcher/tmp/novelWriter-2.1b1.tar.gz]
 [2023-07-30 14:27:46] INFO root fetch - main [MainThread]: End processing [novelWriter]: success
 [2023-07-30 14:27:46] INFO root fetch - main [MainThread]: Store serial: [19096202]
+[2023-07-30 14:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096202]
+[2023-07-30 14:32:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySDM-examples
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whool
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bimbam
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimporters-csv
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulp-glue
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulp-cli
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irispie
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bili-eta
+[2023-07-30 14:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bimbam
+[2023-07-30 14:32:56] INFO root fetch - processPackages [bimbam]: New version: [4.0] Old Version: [3.9.0]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.8.1] Old Version: [0.3.9.8]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [pulp-glue]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [whool]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [bili-eta]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [bimbam]: New version: [4.0] Old Version: [3.9.0]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [irispie]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [pulp-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [PySDM-examples]: New version: [2.9] Old Version: [2.8]
+[2023-07-30 14:32:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/eb/ce/6175cc8688c3f002b115ccd8ccb5883526e56601b7c03b85ec088177e8cb/nonebot_plugin_stable_diffusion_diao-0.3.9.8.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/e6/db/525f63dc091bba854dc7e514a5d8e5039d4935148280c919aae1ecfd3b39/bili_eta-0.1.5.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [bimbam]: Downloading https://files.pythonhosted.org/packages/a0/31/4f0f2b5b1a90d3ea7bc20bc95274eca21f5cb34a0ad55d98719090c79146/bimbam-3.9.0.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [bimbam]: Downloading https://files.pythonhosted.org/packages/a0/31/4f0f2b5b1a90d3ea7bc20bc95274eca21f5cb34a0ad55d98719090c79146/bimbam-3.9.0.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/60/b5/8a90610f8a3d9ef255355435daaf42030186e973e3ccae60aa8e86dd6ffd/pulp-glue-0.20.2.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [whool]: Downloading https://files.pythonhosted.org/packages/4c/72/65eba5ed8ef3233f823b1acb942edf0fddd36000a80f07cefe0bd16884f4/whool-0.2.1.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/4c/5f/2e48117f41afb88b71fd3561ca8f6ef534989001f0cc583f5af2f7a56fa1/PySDM-examples-2.8.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/7c/7b/53be0e38b2e910618cd65fe27ab80054f256d0853876afa7e945eeb0a6c9/irispie-0.1.0.tar.gz
+[2023-07-30 14:32:56] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/4d/8a/e059ca9aaab84187e3f5103bb4ea03decda6da1b8f53179cb30f2f384885/pulp-cli-0.8.0.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/74/fd/40d08096e68f78a0285e18d9a2d7275538ba6fabbb0973ea2568520cb5fb/nonebot_plugin_stable_diffusion_diao-0.3.9.8.1.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/74/c3/ead984c5fef1988e229935655a746ead75fcb38c136d09aee9ece6fbc0b9/bili_eta-0.1.6.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bimbam]: Downloading https://files.pythonhosted.org/packages/0d/87/5c1e7606e58dc555816a1e755cbc9ee1865de23d5d00285d75ad9a79d7b7/bimbam-4.0.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bimbam]: Downloading https://files.pythonhosted.org/packages/0d/87/5c1e7606e58dc555816a1e755cbc9ee1865de23d5d00285d75ad9a79d7b7/bimbam-4.0.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/3f/99/795ad68e5352b71b994cf1dd90f6d3458c6e7f8d4770caaf9f061fac86a4/pulp-glue-0.20.3.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [whool]: Downloading https://files.pythonhosted.org/packages/c0/3f/eb80599c70e6590be808a61b241a9345569f9fadce9322bca8bc88993ed9/whool-0.2.2.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/64/45/3e4b84619205d9a5bf2fe5a2841b169ae4a1190a33151fdd6173630ba6fc/irispie-0.1.1.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/50/3d/ed19e49b2fbe937f1d6a2f4ef0f725c4e67f24e5c97023912b3e3ecfdafd/pulp-cli-0.9.0.tar.gz
+[2023-07-30 14:32:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.1.tar.gz --markdown 20230730/n/nonebot-plugin-stable-diffusion-diao/0.3.9.8-0.3.9.8.1/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.1.5.tar.gz tmp/bili_eta-0.1.6.tar.gz --markdown 20230730/b/bili-eta/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pulp-glue]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pulp-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-0.20.2.tar.gz tmp/pulp-glue-0.20.3.tar.gz --markdown 20230730/p/pulp-glue/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [whool]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [whool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whool-0.2.1.tar.gz tmp/whool-0.2.2.tar.gz --markdown 20230730/w/whool/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bimbam]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bimbam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimbam-3.9.0.tar.gz tmp/bimbam-4.0.tar.gz --markdown 20230730/b/bimbam/3.9.0-4.0/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.1.0.tar.gz tmp/irispie-0.1.1.tar.gz --markdown 20230730/i/irispie/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bimbam]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [bimbam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimbam-3.9.0.tar.gz tmp/bimbam-4.0.tar.gz --markdown 20230730/b/bimbam/3.9.0-4.0/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pulp-cli]: executing diffoscope
+[2023-07-30 14:32:57] INFO root fetch - processPackages [pulp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-0.8.0.tar.gz tmp/pulp-cli-0.9.0.tar.gz --markdown 20230730/p/pulp-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 14:32:57] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/38/cd/e8c43c853d105d7b3cb064085b972b191719b91b54e18c66a563a2361203/PySDM-examples-2.9.tar.gz
+[2023-07-30 14:32:58] INFO root fetch - processPackages [PySDM-examples]: executing diffoscope
+[2023-07-30 14:32:58] INFO root fetch - processPackages [PySDM-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-examples-2.8.tar.gz tmp/PySDM-examples-2.9.tar.gz --markdown 20230730/P/PySDM-examples/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-30 14:32:58] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 14:32:58] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 14:32:58] INFO root fetch - processPackages [pyimporters-csv]: Start processing: certora-cli-alpha-master
+[2023-07-30 14:32:58] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 14:32:58] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230730.6.43.787357] Old Version: [20230730.12.31.747040]
+[2023-07-30 14:32:58] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.5.tar.gz]
+[2023-07-30 14:32:58] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.6.tar.gz]
+[2023-07-30 14:32:58] INFO root fetch - processPackages [bili-eta]: Start processing: pyimporters-csv
+[2023-07-30 14:32:58] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 14:32:58] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 14:32:58] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/1b/de/10360f80bdfb994cb0e9fd84253a7f5e6c8855fdf826e0fe7ec00220580d/certora-cli-alpha-master-20230730.12.31.747040.tar.gz
+[2023-07-30 14:32:58] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.20.2.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.20.3.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [pulp-glue]: success
+[2023-07-30 14:32:59] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 14:32:59] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.8.1.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-30 14:32:59] INFO root fetch - processPackages [whool]: Remove: archive file [/home/abi/fetcher/tmp/whool-0.2.1.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - processPackages [whool]: Remove: archive file [/home/abi/fetcher/tmp/whool-0.2.2.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [whool]: success
+[2023-07-30 14:32:59] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37696256>=10485760
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-30 14:32:59] INFO root fetch - processPackages [bimbam]: Remove: archive file [/home/abi/fetcher/tmp/bimbam-3.9.0.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - processPackages [bimbam]: Remove: archive file [/home/abi/fetcher/tmp/bimbam-4.0.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [bimbam]: success
+[2023-07-30 14:32:59] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [bimbam]: success
+[2023-07-30 14:32:59] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.1.0.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.1.1.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2023-07-30 14:32:59] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.8.0.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.9.0.tar.gz]
+[2023-07-30 14:32:59] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
+[2023-07-30 14:32:59] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 14:32:59] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 14:33:00] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 14:33:00] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 14:33:00] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 14:33:00] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.8.tar.gz]
+[2023-07-30 14:33:00] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.9.tar.gz]
+[2023-07-30 14:33:00] INFO root fetch - main [MainThread]: End processing [PySDM-examples]: success
+[2023-07-30 14:33:00] INFO root fetch - main [MainThread]: Store serial: [19096244]
