@@ -4741,3 +4741,24 @@
 [2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-07-30 07:11:02] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-07-30 07:11:02] INFO root fetch - main [MainThread]: Store serial: [19093953]
+[2023-07-30 07:16:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093953]
+[2023-07-30 07:16:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-30 07:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refineryframe
+[2023-07-30 07:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deriva-client
+[2023-07-30 07:16:10] INFO root fetch - processPackages [refineryframe]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 07:16:10] INFO root fetch - processPackages [deriva-client]: New version: [1.6.3] Old Version: [1.6.1]
+[2023-07-30 07:16:11] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/83/7d/f5e85999c4ea31c5c04a88c0f2abfec5161938453ebe72474f92c5013dd9/refineryframe-0.0.7.tar.gz
+[2023-07-30 07:16:11] INFO root fetch - processPackages [deriva-client]: Downloading https://files.pythonhosted.org/packages/30/6e/61ed266983d8e3c4d2eaef83da6cc7eef8933d77bdeee1908c8c7bcc8d9a/deriva-client-1.6.1.tar.gz
+[2023-07-30 07:16:11] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/a6/0d/b7d770ee67e779be4fc1e7eb1a1566bd1bfdea03e76611d9de8218a6d07d/refineryframe-0.0.8.tar.gz
+[2023-07-30 07:16:11] INFO root fetch - processPackages [deriva-client]: Downloading https://files.pythonhosted.org/packages/c8/57/e5d169c107c9a092e10ffc77c8f29f394d7dfa425eb5b8e0aeee0cf2f180/deriva-client-1.6.3.tar.gz
+[2023-07-30 07:16:11] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-07-30 07:16:11] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.0.7.tar.gz tmp/refineryframe-0.0.8.tar.gz --markdown 20230730/r/refineryframe/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 07:16:11] INFO root fetch - processPackages [deriva-client]: executing diffoscope
+[2023-07-30 07:16:11] INFO root fetch - processPackages [deriva-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deriva-client-1.6.1.tar.gz tmp/deriva-client-1.6.3.tar.gz --markdown 20230730/d/deriva-client/1.6.1-1.6.3/diff.md --exclude *.pyd
+[2023-07-30 07:16:12] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.0.7.tar.gz]
+[2023-07-30 07:16:12] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.0.8.tar.gz]
+[2023-07-30 07:16:12] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-07-30 07:16:12] INFO root fetch - processPackages [deriva-client]: Remove: archive file [/home/abi/fetcher/tmp/deriva-client-1.6.1.tar.gz]
+[2023-07-30 07:16:12] INFO root fetch - processPackages [deriva-client]: Remove: archive file [/home/abi/fetcher/tmp/deriva-client-1.6.3.tar.gz]
+[2023-07-30 07:16:12] INFO root fetch - main [MainThread]: End processing [deriva-client]: success
+[2023-07-30 07:16:12] INFO root fetch - main [MainThread]: Store serial: [19093959]
