@@ -13956,3 +13956,42 @@
 [2023-07-30 19:59:03] INFO root fetch - processPackages [aiogram]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-3.0.0b9.tar.gz]
 [2023-07-30 19:59:03] INFO root fetch - main [MainThread]: End processing [aiogram]: success
 [2023-07-30 19:59:03] INFO root fetch - main [MainThread]: Store serial: [19098166]
+[2023-07-30 20:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098166]
+[2023-07-30 20:04:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 20:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dictionary-search
+[2023-07-30 20:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-interpreter
+[2023-07-30 20:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evenity
+[2023-07-30 20:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ckanext-toolbelt
+[2023-07-30 20:04:12] INFO root fetch - processPackages [evenity]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 20:04:12] INFO root fetch - processPackages [dictionary-search]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-30 20:04:12] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.242] Old Version: [0.0.241]
+[2023-07-30 20:04:12] INFO root fetch - processPackages [ckanext-toolbelt]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-30 20:04:12] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/53/aa/ff5f92a22ed47e0d68715dfc76b022dc7b46721b56a3e79036d5a60b8b6a/evenity-0.0.3.tar.gz
+[2023-07-30 20:04:12] INFO root fetch - processPackages [dictionary-search]: Downloading https://files.pythonhosted.org/packages/24/06/2dba3840f24dc31bc59baf6a0a1e2e07157742c67cc1ad809800a61c95a7/dictionary-search-1.1.0.tar.gz
+[2023-07-30 20:04:12] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/39/bc/cf3cd559448237700084471aa4c48d45970a34816e984027b91581bc2e1b/open_interpreter-0.0.241.tar.gz
+[2023-07-30 20:04:12] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/53/55/615d1c47315822209081889487932efef8c0da44916435f8c2e7fb369100/evenity-0.0.4.tar.gz
+[2023-07-30 20:04:12] INFO root fetch - processPackages [ckanext-toolbelt]: Downloading https://files.pythonhosted.org/packages/4a/5a/4a74b647d1318b6aa9778e667a00b6906f0ab1d63ed83baa780d6f2390ed/ckanext-toolbelt-0.4.5.tar.gz
+[2023-07-30 20:04:13] INFO root fetch - processPackages [evenity]: executing diffoscope
+[2023-07-30 20:04:13] INFO root fetch - processPackages [evenity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evenity-0.0.3.tar.gz tmp/evenity-0.0.4.tar.gz --markdown 20230730/e/evenity/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 20:04:13] INFO root fetch - processPackages [dictionary-search]: Downloading https://files.pythonhosted.org/packages/db/35/a6d0d497d655621fe10acd2a0d863a7a4a80f2493f9f85135357f92553d9/dictionary-search-1.1.1.tar.gz
+[2023-07-30 20:04:13] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/54/a3/fc5c382ff43c28ede224ade9c87c9ffba728d9927c0958d3f3c8510b8c20/open_interpreter-0.0.242.tar.gz
+[2023-07-30 20:04:13] INFO root fetch - processPackages [dictionary-search]: executing diffoscope
+[2023-07-30 20:04:13] INFO root fetch - processPackages [dictionary-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictionary-search-1.1.0.tar.gz tmp/dictionary-search-1.1.1.tar.gz --markdown 20230730/d/dictionary-search/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-30 20:04:13] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-30 20:04:13] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.241.tar.gz tmp/open_interpreter-0.0.242.tar.gz --markdown 20230730/o/open-interpreter/0.0.241-0.0.242/diff.md --exclude *.pyd
+[2023-07-30 20:04:13] INFO root fetch - processPackages [ckanext-toolbelt]: Downloading https://files.pythonhosted.org/packages/f9/64/52eecb46c952c4bbb84627d665fed544b814857690b95f8d831c2089e9d2/ckanext-toolbelt-0.4.6.tar.gz
+[2023-07-30 20:04:13] INFO root fetch - processPackages [ckanext-toolbelt]: executing diffoscope
+[2023-07-30 20:04:13] INFO root fetch - processPackages [ckanext-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-toolbelt-0.4.5.tar.gz tmp/ckanext-toolbelt-0.4.6.tar.gz --markdown 20230730/c/ckanext-toolbelt/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-30 20:04:13] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.3.tar.gz]
+[2023-07-30 20:04:13] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.4.tar.gz]
+[2023-07-30 20:04:13] INFO root fetch - main [MainThread]: End processing [evenity]: success
+[2023-07-30 20:04:14] INFO root fetch - processPackages [dictionary-search]: Remove: archive file [/home/abi/fetcher/tmp/dictionary-search-1.1.0.tar.gz]
+[2023-07-30 20:04:14] INFO root fetch - processPackages [dictionary-search]: Remove: archive file [/home/abi/fetcher/tmp/dictionary-search-1.1.1.tar.gz]
+[2023-07-30 20:04:14] INFO root fetch - main [MainThread]: End processing [dictionary-search]: success
+[2023-07-30 20:04:14] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.241.tar.gz]
+[2023-07-30 20:04:14] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.242.tar.gz]
+[2023-07-30 20:04:14] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-30 20:04:14] INFO root fetch - processPackages [ckanext-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-toolbelt-0.4.5.tar.gz]
+[2023-07-30 20:04:14] INFO root fetch - processPackages [ckanext-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-toolbelt-0.4.6.tar.gz]
+[2023-07-30 20:04:14] INFO root fetch - main [MainThread]: End processing [ckanext-toolbelt]: success
+[2023-07-30 20:04:14] INFO root fetch - main [MainThread]: Store serial: [19098180]
