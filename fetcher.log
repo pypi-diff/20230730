@@ -15962,3 +15962,56 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:22:55] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.9.tar.gz]
 [2023-07-30 22:22:55] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-07-30 22:22:55] INFO root fetch - main [MainThread]: Store serial: [19099184]
+[2023-07-30 22:27:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099184]
+[2023-07-30 22:28:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 22:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-workflows
+[2023-07-30 22:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-07-30 22:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maphis
+[2023-07-30 22:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teneva-bm
+[2023-07-30 22:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kloppy
+[2023-07-30 22:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypub3
+[2023-07-30 22:28:04] INFO root fetch - processPackages [maphis]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-30 22:28:04] INFO root fetch - processPackages [kloppy]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-30 22:28:04] INFO root fetch - processPackages [pypub3]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-30 22:28:04] INFO root fetch - processPackages [teneva-bm]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-30 22:28:04] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-30 22:28:04] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-30 22:28:04] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/20/b4/b6b70bfa9213f45c71b8f6348b2c03a75ebbc581cde47be53dcdff2350dd/teneva_bm-0.6.2.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [maphis]: Downloading https://files.pythonhosted.org/packages/15/a0/12a467ac4815432f469a2866202f51b6405eb90faf918e2674f4c3e4d9cc/maphis-1.0.3.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [kloppy]: Downloading https://files.pythonhosted.org/packages/2e/68/f4d6cdde2050f7065a504ca779b8a4e574953a3c73d8a424e6ed68b2cb1f/kloppy-3.8.0.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [pypub3]: Downloading https://files.pythonhosted.org/packages/bd/3c/d7e05848835a7119ef592b7231fa76d342435b9603134eaf4b5b5c2722a1/pypub3-2.0.0.tar.gz
+[2023-07-30 22:28:04] WARNING root fetch - processPackages [maphis]: Skipping package: exceeds size limit 19735849>=10485760
+[2023-07-30 22:28:04] INFO root fetch - main [MainThread]: End processing [maphis] error
+[2023-07-30 22:28:04] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/4e/1f/c3072db3952b5d1a20cf6cf9dc5bfb2aca548e253d155471a75ddd7ec184/teneva_bm-0.6.3.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [kloppy]: Downloading https://files.pythonhosted.org/packages/19/fe/452e394b29ae4d7b1bed22162b883386a1e6dcac70e8c6d301cc78324cf8/kloppy-3.9.0.tar.gz
+[2023-07-30 22:28:04] INFO root fetch - processPackages [pypub3]: Downloading https://files.pythonhosted.org/packages/42/e4/e0da36f92ef5717c270557a54ba5374715ce2889d3638f70e33cc90f8bae/pypub3-2.0.1.tar.gz
+[2023-07-30 22:28:05] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-30 22:28:05] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-07-30 22:28:05] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.6.2.tar.gz tmp/teneva_bm-0.6.3.tar.gz --markdown 20230730/t/teneva-bm/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-30 22:28:05] INFO root fetch - processPackages [pypub3]: executing diffoscope
+[2023-07-30 22:28:05] INFO root fetch - processPackages [pypub3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypub3-2.0.0.tar.gz tmp/pypub3-2.0.1.tar.gz --markdown 20230730/p/pypub3/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-30 22:28:05] INFO root fetch - processPackages [kloppy]: executing diffoscope
+[2023-07-30 22:28:05] INFO root fetch - processPackages [kloppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kloppy-3.8.0.tar.gz tmp/kloppy-3.9.0.tar.gz --markdown 20230730/k/kloppy/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-30 22:28:05] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-30 22:28:05] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20230730/n/np-workflows/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-30 22:28:05] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-30 22:28:05] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230730/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-30 22:28:06] INFO root fetch - processPackages [pypub3]: Remove: archive file [/home/abi/fetcher/tmp/pypub3-2.0.0.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - processPackages [pypub3]: Remove: archive file [/home/abi/fetcher/tmp/pypub3-2.0.1.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - main [MainThread]: End processing [pypub3]: success
+[2023-07-30 22:28:06] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.6.2.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.6.3.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-07-30 22:28:06] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-30 22:28:06] INFO root fetch - processPackages [kloppy]: Remove: archive file [/home/abi/fetcher/tmp/kloppy-3.8.0.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - processPackages [kloppy]: Remove: archive file [/home/abi/fetcher/tmp/kloppy-3.9.0.tar.gz]
+[2023-07-30 22:28:06] INFO root fetch - main [MainThread]: End processing [kloppy]: success
+[2023-07-30 22:28:18] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-30 22:28:18] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-30 22:28:18] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-30 22:28:18] INFO root fetch - main [MainThread]: Store serial: [19099208]
