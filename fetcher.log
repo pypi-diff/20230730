@@ -5625,3 +5625,42 @@
 [2023-07-30 08:47:37] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.9.0.tar.gz]
 [2023-07-30 08:47:37] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-07-30 08:47:37] INFO root fetch - main [MainThread]: Store serial: [19094342]
+[2023-07-30 08:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094342]
+[2023-07-30 08:52:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: termynal
+[2023-07-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlx-batis
+[2023-07-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgsqlx
+[2023-07-30 08:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-workflows
+[2023-07-30 08:52:46] INFO root fetch - processPackages [sqlx-batis]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-30 08:52:46] INFO root fetch - processPackages [np-workflows]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-07-30 08:52:46] INFO root fetch - processPackages [pgsqlx]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-30 08:52:46] INFO root fetch - processPackages [termynal]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-30 08:52:46] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/a5/08/a24d0e032e0b4550dffed0234af677e8adab2bad163f5ec210c166732b98/sqlx-batis-0.1.5.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/40/9b/0121aa02e0cd9acfcdee8a6fd0b8fe918a180edf023df1445d304a304ae0/np_workflows-1.6.5.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/a3/31/0047775bb27ad46471a694c5525a2126b06552c1440e92bfa6fd4dadc9f5/pgsqlx-1.7.0.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/78/11/c708dac5ba97f7250906859c7259c02057cebc4ccbe0f6167524b7c12864/termynal-0.5.0.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/96/8b/a65a512577df0cb283d3a485faf19e51ac3706c096c8e34cdff3ad359cd2/np_workflows-1.6.6.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/8a/4d/0d0a77c1c0426d3febfe36a3f56569f06483e58779e0f5fcc948c40d2f99/sqlx-batis-0.1.6.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/df/d4/fc4c2a9f80b46da5482e287ce38beef933b6f96d9e0b7696532aeb47640b/pgsqlx-1.7.1.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/13/f5/8d34a7722654ce7adf216804cc23cb23696fdb92df99687a5ee5e73c1079/termynal-0.6.0.tar.gz
+[2023-07-30 08:52:46] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-07-30 08:52:46] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.1.5.tar.gz tmp/sqlx-batis-0.1.6.tar.gz --markdown 20230730/s/sqlx-batis/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 08:52:46] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-30 08:52:46] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.5.tar.gz tmp/np_workflows-1.6.6.tar.gz --markdown 20230730/n/np-workflows/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-07-30 08:52:46] INFO root fetch - processPackages [termynal]: executing diffoscope
+[2023-07-30 08:52:46] INFO root fetch - processPackages [termynal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termynal-0.5.0.tar.gz tmp/termynal-0.6.0.tar.gz --markdown 20230730/t/termynal/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-30 08:52:47] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-30 08:52:47] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.7.0.tar.gz tmp/pgsqlx-1.7.1.tar.gz --markdown 20230730/p/pgsqlx/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-30 08:52:48] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.7.0.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.7.1.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-30 08:52:48] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.5.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.6.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-07-30 08:52:48] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.5.0.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.6.0.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - main [MainThread]: End processing [termynal]: success
+[2023-07-30 08:52:48] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.5.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.6.tar.gz]
+[2023-07-30 08:52:48] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-30 08:52:48] INFO root fetch - main [MainThread]: Store serial: [19094354]
