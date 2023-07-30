@@ -5220,3 +5220,72 @@
 [2023-07-30 08:08:05] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6949.tar.gz]
 [2023-07-30 08:08:05] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-30 08:08:05] INFO root fetch - main [MainThread]: Store serial: [19094197]
+[2023-07-30 08:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094197]
+[2023-07-30 08:13:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-gui
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scoda-tk
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaal
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wheel-axle-runtime
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OneOnOne
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-gui
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-07-30 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bdating-common
+[2023-07-30 08:13:13] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.98] Old Version: [0.0.50.97]
+[2023-07-30 08:13:13] INFO root fetch - processPackages [wheel-axle-runtime]: New version: [0.0.5.dev20230730060836] Old Version: [0.0.4.dev20230710062519]
+[2023-07-30 08:13:13] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-30 08:13:13] INFO root fetch - processPackages [jaal]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 08:13:13] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.98] Old Version: [0.0.50.97]
+[2023-07-30 08:13:13] INFO root fetch - processPackages [OneOnOne]: New version: [0.695] Old Version: [0.6949]
+[2023-07-30 08:13:13] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 08:13:13] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230729] Old Version: [2.4.0.dev20230728]
+[2023-07-30 08:13:14] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/ba/9e/458fb37c9422ae6c8e18db505711f4ac81d9332ca8ce866ab2d48cac35c3/OneOnOne-0.6949.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/52/20/b989a8da9ba23b7a35bdfe77b0600abb9152baed7be9a254b2b21d4ae639/pyg_nightly-2.4.0.dev20230728.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/20/9b/cda918ef5ca4ea41770bd65a921b7d23f233a9c1a98a788a6216e322a2d9/abstract_gui-0.0.50.97.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/20/9b/cda918ef5ca4ea41770bd65a921b7d23f233a9c1a98a788a6216e322a2d9/abstract_gui-0.0.50.97.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/b1/99/66ff4304f8b2f7a94c85a6b47a70db81d1f25cf610f94f92519d1a50f639/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [jaal]: Downloading https://files.pythonhosted.org/packages/1b/59/5344256b921f9b323321c1dbe634d4c4b823a11b4ef6e2cd4cccf506c1c0/jaal-0.1.3.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/5d/fd/3d1e8a3a47c49a1c4d2714922dfb2391cbc9a4d99db97d027fd2fe4976f4/scoda-tk-0.1.0.tar.gz
+[2023-07-30 08:13:14] WARNING root fetch - processPackages [scoda-tk]: Skipping package: exceeds size limit 11119262>=10485760
+[2023-07-30 08:13:14] INFO root fetch - main [MainThread]: End processing [scoda-tk] error
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/75/a6/1edc47659fd8ba2020cbdddb88d4015ecdd1c15de7d2b2b1cbd144951200/abstract_gui-0.0.50.98.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/75/a6/1edc47659fd8ba2020cbdddb88d4015ecdd1c15de7d2b2b1cbd144951200/abstract_gui-0.0.50.98.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/18/15/58fdf93bc0678d5a744582304531d26a126d8910523a41c61bf364a2501f/OneOnOne-0.695.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/eb/1a/12963a5e53ac520f0a9cf503d34b6815a841e4b28a4c838064aa464619f4/wheel-axle-runtime-0.0.5.dev20230730060836.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [jaal]: Downloading https://files.pythonhosted.org/packages/65/82/63f8a3c560fe016034bdf32b3deb6e0fab678c005622acc7e94a4b5cfc99/jaal-0.1.4.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.97.tar.gz tmp/abstract_gui-0.0.50.98.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.97-0.0.50.98/diff.md --exclude *.pyd
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 08:13:14] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.97.tar.gz tmp/abstract_gui-0.0.50.98.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.97-0.0.50.98/diff.md --exclude *.pyd
+[2023-07-30 08:13:14] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [wheel-axle-runtime]: executing diffoscope
+[2023-07-30 08:13:14] INFO root fetch - processPackages [wheel-axle-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz tmp/wheel-axle-runtime-0.0.5.dev20230730060836.tar.gz --markdown 20230730/w/wheel-axle-runtime/0.0.4.dev20230710062519-0.0.5.dev20230730060836/diff.md --exclude *.pyd
+[2023-07-30 08:13:14] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/94/be/a7514ad72d71b5cefe5b00f15881dfa6923ff0953805cc64d4b52784fbf6/pyg_nightly-2.4.0.dev20230729.tar.gz
+[2023-07-30 08:13:14] INFO root fetch - processPackages [jaal]: executing diffoscope
+[2023-07-30 08:13:14] INFO root fetch - processPackages [jaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaal-0.1.3.tar.gz tmp/jaal-0.1.4.tar.gz --markdown 20230730/j/jaal/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 08:13:14] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-07-30 08:13:14] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230730/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-30 08:13:15] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 08:13:15] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6949.tar.gz tmp/OneOnOne-0.695.tar.gz --markdown 20230730/O/OneOnOne/0.6949-0.695/diff.md --exclude *.pyd
+[2023-07-30 08:13:15] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-30 08:13:15] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230728.tar.gz tmp/pyg_nightly-2.4.0.dev20230729.tar.gz --markdown 20230730/p/pyg-nightly/2.4.0.dev20230728-2.4.0.dev20230729/diff.md --exclude *.pyd
+[2023-07-30 08:13:15] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.97.tar.gz]
+[2023-07-30 08:13:15] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.98.tar.gz]
+[2023-07-30 08:13:15] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 08:13:15] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 08:13:15] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz]
+[2023-07-30 08:13:15] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel-axle-runtime-0.0.5.dev20230730060836.tar.gz]
+[2023-07-30 08:13:15] INFO root fetch - main [MainThread]: End processing [wheel-axle-runtime]: success
+[2023-07-30 08:13:16] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-07-30 08:13:16] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-07-30 08:13:16] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-07-30 08:13:16] INFO root fetch - processPackages [jaal]: Remove: archive file [/home/abi/fetcher/tmp/jaal-0.1.3.tar.gz]
+[2023-07-30 08:13:16] INFO root fetch - processPackages [jaal]: Remove: archive file [/home/abi/fetcher/tmp/jaal-0.1.4.tar.gz]
+[2023-07-30 08:13:16] INFO root fetch - main [MainThread]: End processing [jaal]: success
+[2023-07-30 08:13:16] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6949.tar.gz]
+[2023-07-30 08:13:16] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.695.tar.gz]
+[2023-07-30 08:13:16] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 08:13:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230728.tar.gz]
+[2023-07-30 08:13:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230729.tar.gz]
+[2023-07-30 08:13:18] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-30 08:13:18] INFO root fetch - main [MainThread]: Store serial: [19094222]
