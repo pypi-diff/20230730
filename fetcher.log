@@ -5893,3 +5893,15 @@
 [2023-07-30 09:19:16] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-30 09:19:16] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-30 09:19:16] INFO root fetch - main [MainThread]: Store serial: [19094429]
+[2023-07-30 09:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094429]
+[2023-07-30 09:24:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-30 09:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-list
+[2023-07-30 09:24:24] INFO root fetch - processPackages [lib-list]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-30 09:24:25] INFO root fetch - processPackages [lib-list]: Downloading https://files.pythonhosted.org/packages/53/e7/5db88d01413827755ca3005b60f27d187a598cdeeb5289173a7a11f0dda0/lib_list-1.1.8.tar.gz
+[2023-07-30 09:24:25] INFO root fetch - processPackages [lib-list]: Downloading https://files.pythonhosted.org/packages/52/d3/c2afffa00dc9d3911c053d20051d6d4c95f659523b9045948193a6f1f9dc/lib_list-1.1.9.tar.gz
+[2023-07-30 09:24:25] INFO root fetch - processPackages [lib-list]: executing diffoscope
+[2023-07-30 09:24:25] INFO root fetch - processPackages [lib-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_list-1.1.8.tar.gz tmp/lib_list-1.1.9.tar.gz --markdown 20230730/l/lib-list/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-30 09:24:26] INFO root fetch - processPackages [lib-list]: Remove: archive file [/home/abi/fetcher/tmp/lib_list-1.1.8.tar.gz]
+[2023-07-30 09:24:26] INFO root fetch - processPackages [lib-list]: Remove: archive file [/home/abi/fetcher/tmp/lib_list-1.1.9.tar.gz]
+[2023-07-30 09:24:26] INFO root fetch - main [MainThread]: End processing [lib-list]: success
+[2023-07-30 09:24:26] INFO root fetch - main [MainThread]: Store serial: [19094432]
