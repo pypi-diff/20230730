@@ -4321,3 +4321,51 @@
 [2023-07-30 06:28:51] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.6-py3-none-any.whl.zip]
 [2023-07-30 06:28:51] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2023-07-30 06:28:51] INFO root fetch - main [MainThread]: Store serial: [19093752]
+[2023-07-30 06:33:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093752]
+[2023-07-30 06:33:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refineryframe
+[2023-07-30 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlmesh
+[2023-07-30 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: claude-api
+[2023-07-30 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stadata
+[2023-07-30 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sebastian-test
+[2023-07-30 06:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikGapps
+[2023-07-30 06:33:59] INFO root fetch - processPackages [NikGapps]: New version: [1.67] Old Version: [1.66]
+[2023-07-30 06:33:59] INFO root fetch - processPackages [stadata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 06:33:59] INFO root fetch - processPackages [claude-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 06:33:59] INFO root fetch - processPackages [sebastian-test]: New version: [0.2] Old Version: [0.1.0]
+[2023-07-30 06:33:59] INFO root fetch - processPackages [refineryframe]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 06:33:59] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 06:33:59] INFO root fetch - processPackages [stadata]: Downloading https://files.pythonhosted.org/packages/29/fb/5616144f26c6e0fee43b913cf684932ab426c0a29b62b7322ea58784beb7/stadata-0.1.0.tar.gz
+[2023-07-30 06:33:59] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/83/7d/f5e85999c4ea31c5c04a88c0f2abfec5161938453ebe72474f92c5013dd9/refineryframe-0.0.7.tar.gz
+[2023-07-30 06:33:59] ERROR root fetch - processPackages [sebastian-test]: Unable to fetch info: No such project/version 'sebastian-test' 0.1.0
+[2023-07-30 06:33:59] INFO root fetch - main [MainThread]: End processing [sebastian-test] error
+[2023-07-30 06:33:59] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/02/8b/c6049396dc8d773560e2d31c7996aed633d8519ef9a80f7fb957f1eae166/NikGapps-1.66.tar.gz
+[2023-07-30 06:33:59] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/e3/d0/3c78897a037f888af77ecfa6d86ffd61eeebe6a7006e2f35dc69f8630f03/claude-api-1.0.8.tar.gz
+[2023-07-30 06:34:00] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-30 06:34:00] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41566261>=10485760
+[2023-07-30 06:34:00] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-30 06:34:00] INFO root fetch - processPackages [stadata]: Downloading https://files.pythonhosted.org/packages/15/2e/167b30d6224624ac0888f31c77eb890412f453bde781551a3abd02ddc202/stadata-0.1.1.tar.gz
+[2023-07-30 06:34:00] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/a6/0d/b7d770ee67e779be4fc1e7eb1a1566bd1bfdea03e76611d9de8218a6d07d/refineryframe-0.0.8.tar.gz
+[2023-07-30 06:34:00] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/90/3c/c71498f040117ed30bc1f9a4d500309ead500bfd68443f41947d18fce600/claude-api-1.0.9.tar.gz
+[2023-07-30 06:34:00] INFO root fetch - processPackages [stadata]: executing diffoscope
+[2023-07-30 06:34:00] INFO root fetch - processPackages [stadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadata-0.1.0.tar.gz tmp/stadata-0.1.1.tar.gz --markdown 20230730/s/stadata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 06:34:00] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-07-30 06:34:00] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.0.7.tar.gz tmp/refineryframe-0.0.8.tar.gz --markdown 20230730/r/refineryframe/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 06:34:00] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-30 06:34:00] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.8.tar.gz tmp/claude-api-1.0.9.tar.gz --markdown 20230730/c/claude-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 06:34:00] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-30 06:34:01] INFO root fetch - processPackages [stadata]: Remove: archive file [/home/abi/fetcher/tmp/stadata-0.1.0.tar.gz]
+[2023-07-30 06:34:01] INFO root fetch - processPackages [stadata]: Remove: archive file [/home/abi/fetcher/tmp/stadata-0.1.1.tar.gz]
+[2023-07-30 06:34:01] INFO root fetch - main [MainThread]: End processing [stadata]: success
+[2023-07-30 06:34:01] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.8.tar.gz]
+[2023-07-30 06:34:01] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.9.tar.gz]
+[2023-07-30 06:34:01] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-30 06:34:01] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.0.7.tar.gz]
+[2023-07-30 06:34:01] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.0.8.tar.gz]
+[2023-07-30 06:34:01] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-07-30 06:34:02] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-30 06:34:02] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230730/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 06:34:32] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-30 06:34:32] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-30 06:34:32] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-30 06:34:32] INFO root fetch - main [MainThread]: Store serial: [19093774]
