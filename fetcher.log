@@ -7592,3 +7592,76 @@
 [2023-07-30 11:44:58] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.8.tar.gz]
 [2023-07-30 11:44:58] INFO root fetch - main [MainThread]: End processing [nicescad]: success
 [2023-07-30 11:44:58] INFO root fetch - main [MainThread]: Store serial: [19095196]
+[2023-07-30 11:50:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095196]
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfh
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: physicshelper
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OneOnOne
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: physicsm
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oi-platform-client
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ANSIController
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleepyemoji
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iamsb
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sciencehelper
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sleepyemoji
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [oi-platform-client]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - processPackages [oi-platform-client]: Start processing: sciencem
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [oi-platform-client] error
+[2023-07-30 11:50:06] INFO root fetch - processPackages [OneOnOne]: New version: [0.705] Old Version: [0.704]
+[2023-07-30 11:50:06] INFO root fetch - processPackages [sleepyemoji]: New version: [3.2] Old Version: [3.1]
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [iamsb]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - processPackages [iamsb]: Start processing: fastapi-motor-oil
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [iamsb] error
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [sciencehelper]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - processPackages [sciencehelper]: Start processing: funtion
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [sciencehelper] error
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - processPackages [ANSIController]: Start processing: readmeai
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [physicsm]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [physicsm] error
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [physicshelper]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [physicshelper] error
+[2023-07-30 11:50:06] INFO root fetch - processPackages [sleepyemoji]: New version: [3.2] Old Version: [3.1]
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [cfh]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [cfh] error
+[2023-07-30 11:50:06] INFO root fetch - processPackages [readmeai]: New version: [0.0.50] Old Version: [0.0.453]
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [sciencem]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [sciencem] error
+[2023-07-30 11:50:06] WARNING root fetch - processPackages [funtion]: Skipping, unable to determine old version
+[2023-07-30 11:50:06] INFO root fetch - main [MainThread]: End processing [funtion] error
+[2023-07-30 11:50:06] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/d7/3d/38ab578ff3efe50ccf29bc43e1eac1affc0c5887430a8798f82f62117a61/OneOnOne-0.704.tar.gz
+[2023-07-30 11:50:06] INFO root fetch - processPackages [fastapi-motor-oil]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-30 11:50:06] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/13/83/df0ba185ad82392c8162a941be8f8d02962eebe79b4661f607885fd17978/sleepyemoji-3.1.tar.gz
+[2023-07-30 11:50:06] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/13/83/df0ba185ad82392c8162a941be8f8d02962eebe79b4661f607885fd17978/sleepyemoji-3.1.tar.gz
+[2023-07-30 11:50:06] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/4b/bd/bc051d64bc4ac16cae13670bc364a36c3e0c1a254b9a8bce3fc39dafc07d/readmeai-0.0.453.tar.gz
+[2023-07-30 11:50:06] INFO root fetch - processPackages [fastapi-motor-oil]: Downloading https://files.pythonhosted.org/packages/fb/6d/3d29bbc3d7db906a4d987dfc26432a4edd9b6e5289a8acb2a853c57e70c4/fastapi_motor_oil-0.5.1.tar.gz
+[2023-07-30 11:50:07] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/3e/6d/ec58a8913cd3a74e92a7c16cc462c7628d8e4de7f6c404197258b14cb2e2/sleepyemoji-3.2.tar.gz
+[2023-07-30 11:50:07] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/3e/6d/ec58a8913cd3a74e92a7c16cc462c7628d8e4de7f6c404197258b14cb2e2/sleepyemoji-3.2.tar.gz
+[2023-07-30 11:50:07] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/02/b8/be774f2939caa854af75399b45e5b7ee6cb1957b85836dd660029aca896a/OneOnOne-0.705.tar.gz
+[2023-07-30 11:50:07] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/a5/98/7484a5821e75c5e067730fc36e2baecc222a00dd366aeb37b0800b6b9b38/readmeai-0.0.50.tar.gz
+[2023-07-30 11:50:07] INFO root fetch - processPackages [fastapi-motor-oil]: Downloading https://files.pythonhosted.org/packages/b2/03/62253a93a733c37cdb63bd519e3f3dfaef0e103a7025cbd6f74c3623489b/fastapi_motor_oil-0.5.2.tar.gz
+[2023-07-30 11:50:07] INFO root fetch - processPackages [fastapi-motor-oil]: executing diffoscope
+[2023-07-30 11:50:07] INFO root fetch - processPackages [fastapi-motor-oil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_motor_oil-0.5.1.tar.gz tmp/fastapi_motor_oil-0.5.2.tar.gz --markdown 20230730/f/fastapi-motor-oil/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-30 11:50:07] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:50:07] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-3.1.tar.gz tmp/sleepyemoji-3.2.tar.gz --markdown 20230730/s/sleepyemoji/3.1-3.2/diff.md --exclude *.pyd
+[2023-07-30 11:50:07] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 11:50:07] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.453.tar.gz tmp/readmeai-0.0.50.tar.gz --markdown 20230730/r/readmeai/0.0.453-0.0.50/diff.md --exclude *.pyd
+[2023-07-30 11:50:07] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 11:50:07] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.704.tar.gz tmp/OneOnOne-0.705.tar.gz --markdown 20230730/O/OneOnOne/0.704-0.705/diff.md --exclude *.pyd
+[2023-07-30 11:50:07] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:50:07] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-3.1.tar.gz tmp/sleepyemoji-3.2.tar.gz --markdown 20230730/s/sleepyemoji/3.1-3.2/diff.md --exclude *.pyd
+[2023-07-30 11:50:08] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.1.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.2.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:50:08] INFO root fetch - processPackages [fastapi-motor-oil]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_motor_oil-0.5.1.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - processPackages [fastapi-motor-oil]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_motor_oil-0.5.2.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - main [MainThread]: End processing [fastapi-motor-oil]: success
+[2023-07-30 11:50:08] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:50:08] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.453.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.50.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 11:50:08] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.704.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.705.tar.gz]
+[2023-07-30 11:50:08] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 11:50:08] INFO root fetch - main [MainThread]: Store serial: [19095258]
