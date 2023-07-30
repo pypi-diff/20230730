@@ -6684,3 +6684,92 @@
 [2023-07-30 10:42:32] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl.zip]
 [2023-07-30 10:42:32] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-07-30 10:42:32] INFO root fetch - main [MainThread]: Store serial: [19094784]
+[2023-07-30 10:47:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094784]
+[2023-07-30 10:47:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seagoat
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: innovationmerge
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: equilibrator-cache
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NearBeach
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptlabs
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: readmeai
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlx-batis
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyimporters-csv
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hv4gha
+[2023-07-30 10:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyimporters-csv
+[2023-07-30 10:47:41] INFO root fetch - processPackages [equilibrator-cache]: New version: [0.5.0b2] Old Version: [0.5.0b1]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [promptlabs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [NearBeach]: New version: [0.30.3] Old Version: [0.30.2]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [seagoat]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [innovationmerge]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [sqlx-batis]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 10:47:41] WARNING root fetch - processPackages [hv4gha]: Skipping, unable to determine old version
+[2023-07-30 10:47:41] INFO root fetch - processPackages [hv4gha]: Start processing: readmeai
+[2023-07-30 10:47:41] INFO root fetch - main [MainThread]: End processing [hv4gha] error
+[2023-07-30 10:47:41] INFO root fetch - processPackages [readmeai]: New version: [0.0.45] Old Version: [0.0.448]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [readmeai]: New version: [0.0.451] Old Version: [0.0.45]
+[2023-07-30 10:47:41] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/fd/c5/b6bb58046afc7554a3c246ae2775b4882fbf1109f91660e41067516969df/readmeai-0.0.448.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/c4/d6/14610fd67d158a1ce44aa2e957d69951fda8ec91f1ebcce6042e8d59d857/equilibrator-cache-0.5.0b1.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/8a/4d/0d0a77c1c0426d3febfe36a3f56569f06483e58779e0f5fcc948c40d2f99/sqlx-batis-0.1.6.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/ba/6c/28a34168e57cc39b9b11075e08d74419e1eb06c29fd5bddc9d60eb9ce690/promptlabs-0.0.4.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/d8/59/b5f854387d2d18aab3fda51bb577b6d204cc59cd4be85400a02a5034560e/NearBeach-0.30.2.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [innovationmerge]: Downloading https://files.pythonhosted.org/packages/fb/a4/e1b19a9cf8b2191e2fa026e759166f19b312cbb62b4168da92ddc36f5a9f/innovationmerge-1.0.7.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/6a/17/bb0dc10aaf7608a48eb3f9f3433b327eb3a0bfe15aaadd60b6e4438af93a/seagoat-0.7.0.tar.gz
+[2023-07-30 10:47:41] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 15074656>=10485760
+[2023-07-30 10:47:41] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2023-07-30 10:47:41] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/7b/29/b23f8cc36aff77555f7b20422f08cba77bc85be9d6d4fa1575650119eb39/readmeai-0.0.45.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/7b/29/b23f8cc36aff77555f7b20422f08cba77bc85be9d6d4fa1575650119eb39/readmeai-0.0.45.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/5a/c7/1b6ec456de96feb2a724ca713b955ea95c962f1a16013ea8cde8ddaa7c4f/equilibrator-cache-0.5.0b2.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/0f/1b/a1fdb1d28da00833ee31da6ff2d64843da2b6aab1ab4c2b949aa3a1ccdeb/sqlx-batis-0.1.8.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 10:47:41] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 10:47:41] INFO root fetch - processPackages [innovationmerge]: Downloading https://files.pythonhosted.org/packages/38/4d/78b34e6d9016abe3379f837159b503438b08a321a47bf1c9bff48e4b43b0/innovationmerge-1.0.8.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [promptlabs]: Downloading https://files.pythonhosted.org/packages/46/f4/1edd3528c1aa5733d292612b7a075e8cda6b721e25b27384dea838d1e421/promptlabs-0.0.5.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/ca/44/42d3ccd03824cf1d5bd4127977e404c06c500d21f1231867555bf2ab6874/seagoat-0.7.1.tar.gz
+[2023-07-30 10:47:41] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:47:41] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.448.tar.gz tmp/readmeai-0.0.45.tar.gz --markdown 20230730/r/readmeai/0.0.448-0.0.45/diff.md --exclude *.pyd
+[2023-07-30 10:47:42] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 10:47:42] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 10:47:42] INFO root fetch - processPackages [equilibrator-cache]: executing diffoscope
+[2023-07-30 10:47:42] INFO root fetch - processPackages [equilibrator-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-cache-0.5.0b1.tar.gz tmp/equilibrator-cache-0.5.0b2.tar.gz --markdown 20230730/e/equilibrator-cache/0.5.0b1-0.5.0b2/diff.md --exclude *.pyd
+[2023-07-30 10:47:42] INFO root fetch - processPackages [innovationmerge]: executing diffoscope
+[2023-07-30 10:47:42] INFO root fetch - processPackages [innovationmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innovationmerge-1.0.7.tar.gz tmp/innovationmerge-1.0.8.tar.gz --markdown 20230730/i/innovationmerge/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-30 10:47:42] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-30 10:47:42] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.7.0.tar.gz tmp/seagoat-0.7.1.tar.gz --markdown 20230730/s/seagoat/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-30 10:47:42] INFO root fetch - processPackages [promptlabs]: executing diffoscope
+[2023-07-30 10:47:42] INFO root fetch - processPackages [promptlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlabs-0.0.4.tar.gz tmp/promptlabs-0.0.5.tar.gz --markdown 20230730/p/promptlabs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 10:47:42] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/d0/a5/b75e994de6cf9de12104d1b2d74d17d7780aa4286420add212c113bb8a48/readmeai-0.0.451.tar.gz
+[2023-07-30 10:47:42] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-07-30 10:47:42] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.1.6.tar.gz tmp/sqlx-batis-0.1.8.tar.gz --markdown 20230730/s/sqlx-batis/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-07-30 10:47:42] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:47:42] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.45.tar.gz tmp/readmeai-0.0.451.tar.gz --markdown 20230730/r/readmeai/0.0.45-0.0.451/diff.md --exclude *.pyd
+[2023-07-30 10:47:43] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 10:47:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.448.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.45.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:47:43] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.4.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - processPackages [promptlabs]: Remove: archive file [/home/abi/fetcher/tmp/promptlabs-0.0.5.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [promptlabs]: success
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 10:47:43] INFO root fetch - processPackages [innovationmerge]: Remove: archive file [/home/abi/fetcher/tmp/innovationmerge-1.0.7.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - processPackages [innovationmerge]: Remove: archive file [/home/abi/fetcher/tmp/innovationmerge-1.0.8.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [innovationmerge]: success
+[2023-07-30 10:47:43] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.7.0.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.7.1.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-30 10:47:43] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.6.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.8.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-07-30 10:47:43] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.5.0b1.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.5.0b2.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [equilibrator-cache]: success
+[2023-07-30 10:47:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.451.tar.gz]
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:47:43] INFO root fetch - main [MainThread]: Store serial: [19094818]
