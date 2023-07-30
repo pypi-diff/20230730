@@ -12758,3 +12758,39 @@
 [2023-07-30 18:08:43] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc2.tar.gz]
 [2023-07-30 18:08:43] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-07-30 18:08:43] INFO root fetch - main [MainThread]: Store serial: [19097607]
+[2023-07-30 18:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097607]
+[2023-07-30 18:13:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 18:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python3-commons
+[2023-07-30 18:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Falmark
+[2023-07-30 18:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-ngs
+[2023-07-30 18:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-roleman
+[2023-07-30 18:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xliee-sentry-telegram
+[2023-07-30 18:13:52] INFO root fetch - processPackages [python3-commons]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 18:13:52] INFO root fetch - processPackages [flask-roleman]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 18:13:52] ERROR root fetch - processPackages [xliee-sentry-telegram]: Unable to get metadata: No such project 'xliee-sentry-telegram'
+[2023-07-30 18:13:52] INFO root fetch - main [MainThread]: End processing [xliee-sentry-telegram] error
+[2023-07-30 18:13:52] INFO root fetch - processPackages [Falmark]: New version: [1.1.0] Old Version: [1.0]
+[2023-07-30 18:13:52] WARNING root fetch - processPackages [dask-ngs]: Skipping, unable to determine old version
+[2023-07-30 18:13:52] INFO root fetch - main [MainThread]: End processing [dask-ngs] error
+[2023-07-30 18:13:52] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/46/a8/ae9acb0bcb5d1e58ba47d336d2f25c454074ff9d3c6d63c8fac0825d74fa/python3-commons-0.1.3.tar.gz
+[2023-07-30 18:13:52] INFO root fetch - processPackages [flask-roleman]: Downloading https://files.pythonhosted.org/packages/7a/76/3c3353aeef7b8044b2778a9110fc9cf9af4ce7a77b3d5a4ceb247052ab44/flask-roleman-0.0.2.tar.gz
+[2023-07-30 18:13:52] INFO root fetch - processPackages [Falmark]: Downloading https://files.pythonhosted.org/packages/0d/cf/79cc4cd38ad34d5305dca91b72df21740e6984e1c623609c105ec9ce27cf/Falmark-1.0.tar.gz
+[2023-07-30 18:13:52] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/b7/b1/8092c483c1be8908e41e5e9ba3e24e207006651a5f24fc4ace2ce370739f/python3-commons-0.1.4.tar.gz
+[2023-07-30 18:13:52] INFO root fetch - processPackages [flask-roleman]: Downloading https://files.pythonhosted.org/packages/73/49/23cfb71ac06e389d199f9b426d3249ae293ce153925e47c154c2e728de50/flask-roleman-0.0.3.tar.gz
+[2023-07-30 18:13:52] INFO root fetch - processPackages [Falmark]: Downloading https://files.pythonhosted.org/packages/b0/2c/3421df90a014380e3902e08cdc9cf3150cf966d6230edec18ff63114c219/Falmark-1.1.0.tar.gz
+[2023-07-30 18:13:52] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-30 18:13:52] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.1.3.tar.gz tmp/python3-commons-0.1.4.tar.gz --markdown 20230730/p/python3-commons/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 18:13:52] INFO root fetch - processPackages [Falmark]: executing diffoscope
+[2023-07-30 18:13:52] INFO root fetch - processPackages [Falmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Falmark-1.0.tar.gz tmp/Falmark-1.1.0.tar.gz --markdown 20230730/F/Falmark/1.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 18:13:52] INFO root fetch - processPackages [flask-roleman]: executing diffoscope
+[2023-07-30 18:13:52] INFO root fetch - processPackages [flask-roleman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-roleman-0.0.2.tar.gz tmp/flask-roleman-0.0.3.tar.gz --markdown 20230730/f/flask-roleman/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 18:13:53] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.3.tar.gz]
+[2023-07-30 18:13:53] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.1.4.tar.gz]
+[2023-07-30 18:13:53] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-30 18:13:53] INFO root fetch - processPackages [flask-roleman]: Remove: archive file [/home/abi/fetcher/tmp/flask-roleman-0.0.2.tar.gz]
+[2023-07-30 18:13:53] INFO root fetch - processPackages [flask-roleman]: Remove: archive file [/home/abi/fetcher/tmp/flask-roleman-0.0.3.tar.gz]
+[2023-07-30 18:13:53] INFO root fetch - main [MainThread]: End processing [flask-roleman]: success
+[2023-07-30 18:13:53] INFO root fetch - processPackages [Falmark]: Remove: archive file [/home/abi/fetcher/tmp/Falmark-1.0.tar.gz]
+[2023-07-30 18:13:53] INFO root fetch - processPackages [Falmark]: Remove: archive file [/home/abi/fetcher/tmp/Falmark-1.1.0.tar.gz]
+[2023-07-30 18:13:53] INFO root fetch - main [MainThread]: End processing [Falmark]: success
+[2023-07-30 18:13:53] INFO root fetch - main [MainThread]: Store serial: [19097627]
