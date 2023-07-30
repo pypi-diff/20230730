@@ -4912,3 +4912,58 @@
 [2023-07-30 07:31:44] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.2.2.tar.gz]
 [2023-07-30 07:31:44] INFO root fetch - main [MainThread]: End processing [heatmap_cli]: success
 [2023-07-30 07:31:44] INFO root fetch - main [MainThread]: Store serial: [19094031]
+[2023-07-30 07:36:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094031]
+[2023-07-30 07:36:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 07:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-helper-mod
+[2023-07-30 07:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: local-llm-cli
+[2023-07-30 07:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-30 07:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syntaxlight
+[2023-07-30 07:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zood
+[2023-07-30 07:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: local-llm-cli
+[2023-07-30 07:36:52] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.9] Old Version: [0.0.50.8]
+[2023-07-30 07:36:52] INFO root fetch - processPackages [local-llm-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 07:36:52] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 07:36:52] INFO root fetch - processPackages [py-helper-mod]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-07-30 07:36:52] INFO root fetch - processPackages [zood]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-30 07:36:52] INFO root fetch - processPackages [local-llm-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 07:36:52] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/99/77/3ed0cf855ed4291da7bbb93c5570bdb1b6c1e8fb5eec783b8bcfcbf41814/abstract_gui-0.0.50.8.tar.gz
+[2023-07-30 07:36:52] INFO root fetch - processPackages [local-llm-cli]: Downloading https://files.pythonhosted.org/packages/86/ab/02bf7d97ebc1da45ac1b226baa879760b8f69e59dce83494ded3e15325c3/local_llm_cli-0.1.1.tar.gz
+[2023-07-30 07:36:52] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/a4/91/e88788cb18ce9f28bc3317ee3de83fc8ba7bef47310fef90e52d3244bbb0/zood-0.8.1.tar.gz
+[2023-07-30 07:36:52] INFO root fetch - processPackages [local-llm-cli]: Downloading https://files.pythonhosted.org/packages/86/ab/02bf7d97ebc1da45ac1b226baa879760b8f69e59dce83494ded3e15325c3/local_llm_cli-0.1.1.tar.gz
+[2023-07-30 07:36:52] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-30 07:36:52] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/ec/2f/06d1885f14a02cbb226189d2cf0519ad9f561a50a19fc7987c4620d63e20/py-helper-mod-0.0.51.tar.gz
+[2023-07-30 07:36:53] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/c2/97/cf2712c0959151c2947054df9ba49d5e5f615f827c5b37e6cb289dfe3b11/abstract_gui-0.0.50.9.tar.gz
+[2023-07-30 07:36:53] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-30 07:36:53] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/44/a4/f1a980dde599e4f43d88b7244e65fe181711bcbd2e014be2cb429d743fa8/zood-0.8.2.tar.gz
+[2023-07-30 07:36:53] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/75/e8/13e349395a93e61bd9ee2c84041a6f63c67aa3c22db71b40c2e8e00d20ed/py-helper-mod-0.0.52.tar.gz
+[2023-07-30 07:36:53] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-30 07:36:53] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230730/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 07:36:53] INFO root fetch - processPackages [local-llm-cli]: Downloading https://files.pythonhosted.org/packages/f1/77/34b55c1108e94f28909dc15f46b39760cf61f47bfc43cb99315802bb92bf/local_llm_cli-0.1.2.tar.gz
+[2023-07-30 07:36:53] INFO root fetch - processPackages [local-llm-cli]: Downloading https://files.pythonhosted.org/packages/f1/77/34b55c1108e94f28909dc15f46b39760cf61f47bfc43cb99315802bb92bf/local_llm_cli-0.1.2.tar.gz
+[2023-07-30 07:36:53] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 07:36:53] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.8.tar.gz tmp/abstract_gui-0.0.50.9.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.8-0.0.50.9/diff.md --exclude *.pyd
+[2023-07-30 07:36:53] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-30 07:36:53] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.8.1.tar.gz tmp/zood-0.8.2.tar.gz --markdown 20230730/z/zood/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-30 07:36:53] INFO root fetch - processPackages [py-helper-mod]: executing diffoscope
+[2023-07-30 07:36:53] INFO root fetch - processPackages [py-helper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-helper-mod-0.0.51.tar.gz tmp/py-helper-mod-0.0.52.tar.gz --markdown 20230730/p/py-helper-mod/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-07-30 07:36:53] INFO root fetch - processPackages [local-llm-cli]: executing diffoscope
+[2023-07-30 07:36:53] INFO root fetch - processPackages [local-llm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_llm_cli-0.1.1.tar.gz tmp/local_llm_cli-0.1.2.tar.gz --markdown 20230730/l/local-llm-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 07:36:53] INFO root fetch - processPackages [local-llm-cli]: executing diffoscope
+[2023-07-30 07:36:53] INFO root fetch - processPackages [local-llm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_llm_cli-0.1.1.tar.gz tmp/local_llm_cli-0.1.2.tar.gz --markdown 20230730/l/local-llm-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 07:36:54] INFO root fetch - processPackages [local-llm-cli]: Remove: archive file [/home/abi/fetcher/tmp/local_llm_cli-0.1.1.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - processPackages [local-llm-cli]: Remove: archive file [/home/abi/fetcher/tmp/local_llm_cli-0.1.2.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [local-llm-cli]: success
+[2023-07-30 07:36:54] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.8.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.9.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 07:36:54] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.51.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - processPackages [py-helper-mod]: Remove: archive file [/home/abi/fetcher/tmp/py-helper-mod-0.0.52.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [py-helper-mod]: success
+[2023-07-30 07:36:54] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-30 07:36:54] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.1.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.2.tar.gz]
+[2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [local-llm-cli]: success
+[2023-07-30 07:36:54] INFO root fetch - main [MainThread]: Store serial: [19094054]
