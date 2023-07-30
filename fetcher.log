@@ -13809,3 +13809,72 @@
 [2023-07-30 19:48:15] INFO root fetch - processPackages [allocine-seances]: Remove: archive file [/home/abi/fetcher/tmp/allocine-seances-0.0.7.tar.gz]
 [2023-07-30 19:48:15] INFO root fetch - main [MainThread]: End processing [allocine-seances]: success
 [2023-07-30 19:48:15] INFO root fetch - main [MainThread]: Store serial: [19098110]
+[2023-07-30 19:53:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098110]
+[2023-07-30 19:53:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-perfect-breadcrumbs
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pz-sniper
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyproject-maker
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osintbuddy
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alertmanagermeshtastic
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: changelog-generator
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loss-mob
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unidata-blocks
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moosez
+[2023-07-30 19:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiogram
+[2023-07-30 19:53:24] WARNING root fetch - processPackages [pz-sniper]: Skipping, unable to determine old version
+[2023-07-30 19:53:24] INFO root fetch - main [MainThread]: End processing [pz-sniper] error
+[2023-07-30 19:53:24] WARNING root fetch - processPackages [django-perfect-breadcrumbs]: Skipping, unable to determine old version
+[2023-07-30 19:53:24] INFO root fetch - main [MainThread]: End processing [django-perfect-breadcrumbs] error
+[2023-07-30 19:53:24] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.4rc46.post1] Old Version: [0.0.4rc45.post1]
+[2023-07-30 19:53:24] INFO root fetch - processPackages [unidata-blocks]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 19:53:24] WARNING root fetch - processPackages [loss-mob]: Skipping, unable to determine old version
+[2023-07-30 19:53:24] INFO root fetch - main [MainThread]: End processing [loss-mob] error
+[2023-07-30 19:53:24] INFO root fetch - processPackages [pyproject-maker]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-30 19:53:24] WARNING root fetch - processPackages [alertmanagermeshtastic]: Skipping, unable to determine old version
+[2023-07-30 19:53:24] INFO root fetch - main [MainThread]: End processing [alertmanagermeshtastic] error
+[2023-07-30 19:53:24] INFO root fetch - processPackages [changelog-generator]: New version: [0.7b0] Old Version: [0.7]
+[2023-07-30 19:53:24] INFO root fetch - processPackages [moosez]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-30 19:53:24] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/da/4c/a131029127bb38c2c9e8bffad260620e7275a93f6d20c7c0297bafe1eb61/unidata-blocks-0.0.4.tar.gz
+[2023-07-30 19:53:24] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/5d/43/b94bdeb0235f2939b112a93430b06da478dadb30ca2ff13660674b49bc25/moosez-2.2.8.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [pyproject-maker]: Downloading https://files.pythonhosted.org/packages/25/f8/010063e8e7e694ad77f0ba1dd3de9961edeb280d466b93b4517e556f3761/pyproject_maker-0.2.1.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [aiogram]: New version: [3.0.0b9] Old Version: [3.0.0b8]
+[2023-07-30 19:53:25] INFO root fetch - processPackages [changelog-generator]: Downloading https://files.pythonhosted.org/packages/16/d0/784d0d70fcbf4c726228a3b5888f7346b8bb361c0e4d49217a3d559b4fa2/changelog_generator-0.7-py3-none-any.whl
+[2023-07-30 19:53:25] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/3e/89/1389bf6191b23fb0813cbab134105921f8c9ed01fa7f58127cd9d7efc1e3/osintbuddy-0.0.4rc45.post1.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/94/60/32c4aed371a9e9ed0956e4d6265f1b7081c6067fbc7a2b618faf0e708524/moosez-2.2.9.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [aiogram]: Downloading https://files.pythonhosted.org/packages/87/fe/9124c91fd39ebc03a2a7cc6de1c47b061ce9d967132182eb98608a13067f/aiogram-3.0.0b8.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/4a/d6/19b49a4e3175fd6646e05b0038c3cf3e6867211db3131efce86d8a388c20/unidata-blocks-0.0.5.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [pyproject-maker]: Downloading https://files.pythonhosted.org/packages/03/f5/dd79c7fa0d6086f513812a7b822c7b7bf8136c38d1033618956d22a3fa3c/pyproject_maker-0.3.0.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-30 19:53:25] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.8.tar.gz tmp/moosez-2.2.9.tar.gz --markdown 20230730/m/moosez/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-30 19:53:25] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/47/12/e84abc9c01ef3ee4312bab1dc4ac2c506abceb3db18c94e4951fea6abf11/osintbuddy-0.0.4rc46.post1.tar.gz
+[2023-07-30 19:53:25] INFO root fetch - processPackages [changelog-generator]: Downloading https://files.pythonhosted.org/packages/15/4e/977d23feb2183f3e8b0970c72768f13db405fc355e304cb566c39b65e26b/changelog_generator-0.7b0-py3-none-any.whl
+[2023-07-30 19:53:25] INFO root fetch - processPackages [pyproject-maker]: executing diffoscope
+[2023-07-30 19:53:25] INFO root fetch - processPackages [pyproject-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_maker-0.2.1.tar.gz tmp/pyproject_maker-0.3.0.tar.gz --markdown 20230730/p/pyproject-maker/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 19:53:25] INFO root fetch - processPackages [unidata-blocks]: executing diffoscope
+[2023-07-30 19:53:25] INFO root fetch - processPackages [unidata-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unidata-blocks-0.0.4.tar.gz tmp/unidata-blocks-0.0.5.tar.gz --markdown 20230730/u/unidata-blocks/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 19:53:25] INFO root fetch - processPackages [changelog-generator]: executing diffoscope
+[2023-07-30 19:53:25] INFO root fetch - processPackages [changelog-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changelog_generator-0.7-py3-none-any.whl.zip tmp/changelog_generator-0.7b0-py3-none-any.whl.zip --markdown 20230730/c/changelog-generator/0.7-0.7b0/diff.md --exclude *.pyd
+[2023-07-30 19:53:25] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-07-30 19:53:25] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.4rc45.post1.tar.gz tmp/osintbuddy-0.0.4rc46.post1.tar.gz --markdown 20230730/o/osintbuddy/0.0.4rc45.post1-0.0.4rc46.post1/diff.md --exclude *.pyd
+[2023-07-30 19:53:25] INFO root fetch - processPackages [aiogram]: Downloading https://files.pythonhosted.org/packages/e2/7a/197ba0803082129d455974b73a6537aeca45566cd4f4ee299d3e3ec75b52/aiogram-3.0.0b9.tar.gz
+[2023-07-30 19:53:26] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.8.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.9.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-30 19:53:26] INFO root fetch - processPackages [pyproject-maker]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_maker-0.2.1.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - processPackages [pyproject-maker]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_maker-0.3.0.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - main [MainThread]: End processing [pyproject-maker]: success
+[2023-07-30 19:53:26] INFO root fetch - processPackages [changelog-generator]: Remove: archive file [/home/abi/fetcher/tmp/changelog_generator-0.7-py3-none-any.whl.zip]
+[2023-07-30 19:53:26] INFO root fetch - processPackages [changelog-generator]: Remove: archive file [/home/abi/fetcher/tmp/changelog_generator-0.7b0-py3-none-any.whl.zip]
+[2023-07-30 19:53:26] INFO root fetch - main [MainThread]: End processing [changelog-generator]: success
+[2023-07-30 19:53:26] INFO root fetch - processPackages [unidata-blocks]: Remove: archive file [/home/abi/fetcher/tmp/unidata-blocks-0.0.4.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - processPackages [unidata-blocks]: Remove: archive file [/home/abi/fetcher/tmp/unidata-blocks-0.0.5.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - main [MainThread]: End processing [unidata-blocks]: success
+[2023-07-30 19:53:26] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.4rc45.post1.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.4rc46.post1.tar.gz]
+[2023-07-30 19:53:26] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-07-30 19:53:27] INFO root fetch - processPackages [aiogram]: executing diffoscope
+[2023-07-30 19:53:27] INFO root fetch - processPackages [aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-3.0.0b8.tar.gz tmp/aiogram-3.0.0b9.tar.gz --markdown 20230730/a/aiogram/3.0.0b8-3.0.0b9/diff.md --exclude *.pyd
+[2023-07-30 19:53:40] INFO root fetch - processPackages [aiogram]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-3.0.0b8.tar.gz]
+[2023-07-30 19:53:40] INFO root fetch - processPackages [aiogram]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-3.0.0b9.tar.gz]
+[2023-07-30 19:53:40] INFO root fetch - main [MainThread]: End processing [aiogram]: success
+[2023-07-30 19:53:40] INFO root fetch - main [MainThread]: Store serial: [19098142]
