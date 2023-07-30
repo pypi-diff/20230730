@@ -10248,3 +10248,83 @@
 [2023-07-30 15:22:53] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
 [2023-07-30 15:22:53] INFO root fetch - main [MainThread]: End processing [circt] error
 [2023-07-30 15:22:53] INFO root fetch - main [MainThread]: Store serial: [19096470]
+[2023-07-30 15:27:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096470]
+[2023-07-30 15:28:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sneakpeek-py
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cgal
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proxy.py-uxspoilers-plugin
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bili-eta
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: happyaccidentsapi
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bili-eta
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onnx2tf
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bili-eta
+[2023-07-30 15:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snk
+[2023-07-30 15:28:02] INFO root fetch - processPackages [bili-eta]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [cgal]: New version: [5.6.post202307301415] Old Version: [5.5.post202210051748]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [happyaccidentsapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: New version: [2021.5.18.post3] Old Version: [2021.5.18.post2]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [sneakpeek-py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [bili-eta]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [bili-eta]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-30 15:28:02] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/59/88/cd50deb06b189d7c7e7ef51f0f459cff2c0f95dd6d2114507255f28f836e/bili_eta-0.2.1.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/59/88/cd50deb06b189d7c7e7ef51f0f459cff2c0f95dd6d2114507255f28f836e/bili_eta-0.2.1.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [happyaccidentsapi]: Downloading https://files.pythonhosted.org/packages/6b/f4/e25c8e85fcba86969460387ac0a08bc1b33cc48c76efe69eb47cdd5c019f/happyaccidentsapi-0.0.2.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/59/88/cd50deb06b189d7c7e7ef51f0f459cff2c0f95dd6d2114507255f28f836e/bili_eta-0.2.1.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [sneakpeek-py]: Downloading https://files.pythonhosted.org/packages/4a/3d/2fb3d7dd45bfcfbde4510f076d541a00c3192e2de725e267ae220dc1d64e/sneakpeek_py-0.2.1.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: Downloading https://files.pythonhosted.org/packages/bd/c1/83d102e1929c4e85e8c9518ced2ce82b4195a0a59b0d1021c318b1b86b99/proxy.py-uxspoilers-plugin-2021.5.18.post2.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [cgal]: Downloading https://files.pythonhosted.org/packages/10/10/b91b612499db338fbc7b1cf7fb120a12e5022407d9aeba6d6c9fbc1a5e1d/cgal-5.5.post202210051748.tar.gz
+[2023-07-30 15:28:02] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [happyaccidentsapi]: Downloading https://files.pythonhosted.org/packages/ee/7c/d4d8ab280e8c7996b846bd3fa3a261d13a7a390fc384dffcb6a16cb1825a/happyaccidentsapi-0.0.3.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [sneakpeek-py]: Downloading https://files.pythonhosted.org/packages/5b/3d/a7444dc1e995fad5a00930708862d7e5ba953b9cfe743b124c3e826b00bc/sneakpeek_py-0.2.2.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [cgal]: Downloading https://files.pythonhosted.org/packages/37/c9/61eb8be78c6d60f1a7de362116588ea577b659a09d939f146a79eff46123/cgal-5.6.post202307301415.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: Downloading https://files.pythonhosted.org/packages/d9/3c/6facd14f256e106d18ec1b0ae8a23a56dfb5120f175cee45e1decc0433bc/proxy.py-uxspoilers-plugin-2021.5.18.post3.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/aa/24/a84c443c4698e01401a0c85c043516019f7f3ec166c8b405b331dc2e10fd/bili_eta-0.2.2.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/aa/24/a84c443c4698e01401a0c85c043516019f7f3ec166c8b405b331dc2e10fd/bili_eta-0.2.2.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/aa/24/a84c443c4698e01401a0c85c043516019f7f3ec166c8b405b331dc2e10fd/bili_eta-0.2.2.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [happyaccidentsapi]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [happyaccidentsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happyaccidentsapi-0.0.2.tar.gz tmp/happyaccidentsapi-0.0.3.tar.gz --markdown 20230730/h/happyaccidentsapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2023-07-30 15:28:03] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230730/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy.py-uxspoilers-plugin-2021.5.18.post2.tar.gz tmp/proxy.py-uxspoilers-plugin-2021.5.18.post3.tar.gz --markdown 20230730/p/proxy.py-uxspoilers-plugin/2021.5.18.post2-2021.5.18.post3/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [cgal]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [cgal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgal-5.5.post202210051748.tar.gz tmp/cgal-5.6.post202307301415.tar.gz --markdown 20230730/c/cgal/5.5.post202210051748-5.6.post202307301415/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20230730/s/snk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.1.tar.gz tmp/bili_eta-0.2.2.tar.gz --markdown 20230730/b/bili-eta/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.1.tar.gz tmp/bili_eta-0.2.2.tar.gz --markdown 20230730/b/bili-eta/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.1.tar.gz tmp/bili_eta-0.2.2.tar.gz --markdown 20230730/b/bili-eta/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 15:28:03] INFO root fetch - processPackages [sneakpeek-py]: executing diffoscope
+[2023-07-30 15:28:03] INFO root fetch - processPackages [sneakpeek-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneakpeek_py-0.2.1.tar.gz tmp/sneakpeek_py-0.2.2.tar.gz --markdown 20230730/s/sneakpeek-py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 15:28:04] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: Remove: archive file [/home/abi/fetcher/tmp/proxy.py-uxspoilers-plugin-2021.5.18.post2.tar.gz]
+[2023-07-30 15:28:04] INFO root fetch - processPackages [proxy.py-uxspoilers-plugin]: Remove: archive file [/home/abi/fetcher/tmp/proxy.py-uxspoilers-plugin-2021.5.18.post3.tar.gz]
+[2023-07-30 15:28:04] INFO root fetch - main [MainThread]: End processing [proxy.py-uxspoilers-plugin]: success
+[2023-07-30 15:28:04] INFO root fetch - processPackages [happyaccidentsapi]: Remove: archive file [/home/abi/fetcher/tmp/happyaccidentsapi-0.0.2.tar.gz]
+[2023-07-30 15:28:04] INFO root fetch - processPackages [happyaccidentsapi]: Remove: archive file [/home/abi/fetcher/tmp/happyaccidentsapi-0.0.3.tar.gz]
+[2023-07-30 15:28:04] INFO root fetch - main [MainThread]: End processing [happyaccidentsapi]: success
+[2023-07-30 15:28:04] INFO root fetch - processPackages [cgal]: Remove: archive file [/home/abi/fetcher/tmp/cgal-5.5.post202210051748.tar.gz]
+[2023-07-30 15:28:04] INFO root fetch - processPackages [cgal]: Remove: archive file [/home/abi/fetcher/tmp/cgal-5.6.post202307301415.tar.gz]
+[2023-07-30 15:28:04] INFO root fetch - main [MainThread]: End processing [cgal]: success
+[2023-07-30 15:28:05] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.1.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.2.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 15:28:05] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 15:28:05] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 15:28:05] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-07-30 15:28:05] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-30 15:28:05] INFO root fetch - processPackages [sneakpeek-py]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek_py-0.2.1.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - processPackages [sneakpeek-py]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek_py-0.2.2.tar.gz]
+[2023-07-30 15:28:05] INFO root fetch - main [MainThread]: End processing [sneakpeek-py]: success
+[2023-07-30 15:28:05] INFO root fetch - main [MainThread]: Store serial: [19096511]
