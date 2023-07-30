@@ -16240,3 +16240,79 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:49:31] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-07-30 22:49:31] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-07-30 22:49:31] INFO root fetch - main [MainThread]: Store serial: [19099314]
+[2023-07-30 22:54:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099314]
+[2023-07-30 22:54:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artigraph
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HTML-String-Tools
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartrent.py
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-runtime
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-ecosystem-flask
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-gui
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-gui
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-msgs
+[2023-07-30 22:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-doc
+[2023-07-30 22:54:42] INFO root fetch - processPackages [artigraph]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 22:54:42] INFO root fetch - processPackages [HTML-String-Tools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-30 22:54:42] INFO root fetch - processPackages [django-msgs]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-30 22:54:42] INFO root fetch - processPackages [smartrent.py]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-30 22:54:42] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 22:54:42] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.992] Old Version: [0.0.50.991]
+[2023-07-30 22:54:42] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.992] Old Version: [0.0.50.991]
+[2023-07-30 22:54:42] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.3]
+[2023-07-30 22:54:42] WARNING root fetch - processPackages [py-doc]: Skipping, unable to determine old version
+[2023-07-30 22:54:42] INFO root fetch - main [MainThread]: End processing [py-doc] error
+[2023-07-30 22:54:42] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-07-30 22:54:42] INFO root fetch - processPackages [django-msgs]: Downloading https://files.pythonhosted.org/packages/3a/d4/6c9be279947e8cda0752645a2d8178bbceae8dc5c980e00319088d31b201/django_msgs-1.4.0.tar.gz
+[2023-07-30 22:54:42] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-30 22:54:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/6c/58/379b90804b0c5b14c5da66c7b881efdd35601fd7954efe2c3921f9ef3039/abstract_gui-0.0.50.991.tar.gz
+[2023-07-30 22:54:42] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/79/18/a7839003ac3a96d42c758a9bbde8da7487aa5a59beb0500fab494e4820e1/artigraph-0.0.2.tar.gz
+[2023-07-30 22:54:42] INFO root fetch - processPackages [HTML-String-Tools]: Downloading https://files.pythonhosted.org/packages/b8/01/39d450ab245a5ef5b2a6f8ec2a2a2dc49153e03ecb159214ce1d708044ad/HTML_String_Tools-0.1.0-py3-none-any.whl
+[2023-07-30 22:54:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/6c/58/379b90804b0c5b14c5da66c7b881efdd35601fd7954efe2c3921f9ef3039/abstract_gui-0.0.50.991.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [smartrent.py]: Downloading https://files.pythonhosted.org/packages/b0/f8/17a07d4e46aec7732a1547cc1eab653711c02ca4d073a7eebe9699181266/smartrent.py-0.4.2.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [django-msgs]: Downloading https://files.pythonhosted.org/packages/14/c8/9628034ccc816b2d53db64fceb06dd00afd454f4458fa7d6b16f1cb76748/django_msgs-1.4.1.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f5/9d/58f326a3a2d4b81188eb9caf9fffdbee38226ceb1f01baeea73c12b2f5f8/abstract_gui-0.0.50.992.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/f5/9d/58f326a3a2d4b81188eb9caf9fffdbee38226ceb1f01baeea73c12b2f5f8/abstract_gui-0.0.50.992.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/5f/b0/10ccd308c4bcaa3b05709a4f5b4d406df6be7d1faec63fad4b0bc4c82147/artigraph-0.0.3.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [django-msgs]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [django-msgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_msgs-1.4.0.tar.gz tmp/django_msgs-1.4.1.tar.gz --markdown 20230730/d/django-msgs/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-30 22:54:43] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.991.tar.gz tmp/abstract_gui-0.0.50.992.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.991-0.0.50.992/diff.md --exclude *.pyd
+[2023-07-30 22:54:43] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.991.tar.gz tmp/abstract_gui-0.0.50.992.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.991-0.0.50.992/diff.md --exclude *.pyd
+[2023-07-30 22:54:43] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [HTML-String-Tools]: Downloading https://files.pythonhosted.org/packages/fd/a9/32130650bafbf1221d9ccff64b890e2c46bd381d8af985adea2b0a80f81b/HTML_String_Tools-0.2.0-py3-none-any.whl
+[2023-07-30 22:54:43] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230730/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 22:54:43] INFO root fetch - processPackages [smartrent.py]: Downloading https://files.pythonhosted.org/packages/94/f2/d74d07b7e0f651d46efc3782bffdfca8a721dc4c7e6faf57236afe665bd4/smartrent.py-0.4.3.tar.gz
+[2023-07-30 22:54:43] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.3.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230730/d/data-ecosystem-flask/202307.0.3-202307.0.4/diff.md --exclude *.pyd
+[2023-07-30 22:54:43] INFO root fetch - processPackages [artigraph]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [artigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artigraph-0.0.2.tar.gz tmp/artigraph-0.0.3.tar.gz --markdown 20230730/a/artigraph/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 22:54:43] INFO root fetch - processPackages [smartrent.py]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [smartrent.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartrent.py-0.4.2.tar.gz tmp/smartrent.py-0.4.3.tar.gz --markdown 20230730/s/smartrent.py/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-30 22:54:43] INFO root fetch - processPackages [HTML-String-Tools]: executing diffoscope
+[2023-07-30 22:54:43] INFO root fetch - processPackages [HTML-String-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTML_String_Tools-0.1.0-py3-none-any.whl.zip tmp/HTML_String_Tools-0.2.0-py3-none-any.whl.zip --markdown 20230730/H/HTML-String-Tools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 22:54:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.991.tar.gz]
+[2023-07-30 22:54:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.992.tar.gz]
+[2023-07-30 22:54:44] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 22:54:44] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 22:54:44] INFO root fetch - processPackages [django-msgs]: Remove: archive file [/home/abi/fetcher/tmp/django_msgs-1.4.0.tar.gz]
+[2023-07-30 22:54:44] INFO root fetch - processPackages [django-msgs]: Remove: archive file [/home/abi/fetcher/tmp/django_msgs-1.4.1.tar.gz]
+[2023-07-30 22:54:44] INFO root fetch - main [MainThread]: End processing [django-msgs]: success
+[2023-07-30 22:54:45] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-30 22:54:45] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.2.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.3.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - main [MainThread]: End processing [artigraph]: success
+[2023-07-30 22:54:45] INFO root fetch - processPackages [smartrent.py]: Remove: archive file [/home/abi/fetcher/tmp/smartrent.py-0.4.2.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - processPackages [smartrent.py]: Remove: archive file [/home/abi/fetcher/tmp/smartrent.py-0.4.3.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - main [MainThread]: End processing [smartrent.py]: success
+[2023-07-30 22:54:45] INFO root fetch - processPackages [HTML-String-Tools]: Remove: archive file [/home/abi/fetcher/tmp/HTML_String_Tools-0.1.0-py3-none-any.whl.zip]
+[2023-07-30 22:54:45] INFO root fetch - processPackages [HTML-String-Tools]: Remove: archive file [/home/abi/fetcher/tmp/HTML_String_Tools-0.2.0-py3-none-any.whl.zip]
+[2023-07-30 22:54:45] INFO root fetch - main [MainThread]: End processing [HTML-String-Tools]: success
+[2023-07-30 22:54:45] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.8.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.9.tar.gz]
+[2023-07-30 22:54:45] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-07-30 22:54:45] INFO root fetch - main [MainThread]: Store serial: [19099343]
