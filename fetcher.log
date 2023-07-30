@@ -3082,3 +3082,33 @@
 [2023-07-30 04:28:35] INFO root fetch - processPackages [askbot]: Remove: archive file [/home/abi/fetcher/tmp/askbot-0.9.4.tar.gz]
 [2023-07-30 04:28:35] INFO root fetch - main [MainThread]: End processing [askbot]: success
 [2023-07-30 04:28:35] INFO root fetch - main [MainThread]: Store serial: [19093295]
+[2023-07-30 04:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093295]
+[2023-07-30 04:33:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-30 04:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starlette-admin
+[2023-07-30 04:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anybomt
+[2023-07-30 04:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aa-sov-timer
+[2023-07-30 04:33:51] INFO root fetch - processPackages [anybomt]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-30 04:33:51] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/ad/9b/58ef53486014f9395bce825a244ff7d7b8888793b14c9a341cfe66c19146/anybomt-0.2.3.tar.gz
+[2023-07-30 04:33:51] INFO root fetch - processPackages [aa-sov-timer]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-30 04:33:51] INFO root fetch - processPackages [starlette-admin]: New version: [0.9.0.dev0] Old Version: [0.9.0]
+[2023-07-30 04:33:51] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/16/be/8526ff7382767cca533fd88cdc1e3483a93a09c7f1ad6604c55422abb18b/starlette_admin-0.9.0.tar.gz
+[2023-07-30 04:33:51] INFO root fetch - processPackages [aa-sov-timer]: Downloading https://files.pythonhosted.org/packages/dc/1e/73e11a4cbaf4448153ad91a47e1fda1b7a8852328e795c76dbbe4afc1966/aa_sov_timer-1.8.0.tar.gz
+[2023-07-30 04:33:51] INFO root fetch - processPackages [anybomt]: Downloading https://files.pythonhosted.org/packages/17/7e/d9cec1d69f511391733bcdf3d7e2fa6b9d1e9b1895dd9e907e790ba42748/anybomt-0.3.0.tar.gz
+[2023-07-30 04:33:52] INFO root fetch - processPackages [anybomt]: executing diffoscope
+[2023-07-30 04:33:52] INFO root fetch - processPackages [anybomt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anybomt-0.2.3.tar.gz tmp/anybomt-0.3.0.tar.gz --markdown 20230730/a/anybomt/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-30 04:33:52] INFO root fetch - processPackages [aa-sov-timer]: Downloading https://files.pythonhosted.org/packages/27/3d/7514f84a04058043f3a22036e9d523d415a82791ff592ffe0a31a083370d/aa_sov_timer-1.9.0.tar.gz
+[2023-07-30 04:33:52] INFO root fetch - processPackages [aa-sov-timer]: executing diffoscope
+[2023-07-30 04:33:52] INFO root fetch - processPackages [aa-sov-timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_sov_timer-1.8.0.tar.gz tmp/aa_sov_timer-1.9.0.tar.gz --markdown 20230730/a/aa-sov-timer/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 04:33:52] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/cc/51/3c4517374ede214bd53159b7f53dcc95dc0392867df718801b40c4531317/starlette_admin-0.9.0.dev0.tar.gz
+[2023-07-30 04:33:52] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.2.3.tar.gz]
+[2023-07-30 04:33:52] INFO root fetch - processPackages [anybomt]: Remove: archive file [/home/abi/fetcher/tmp/anybomt-0.3.0.tar.gz]
+[2023-07-30 04:33:52] INFO root fetch - main [MainThread]: End processing [anybomt]: success
+[2023-07-30 04:33:53] INFO root fetch - processPackages [aa-sov-timer]: Remove: archive file [/home/abi/fetcher/tmp/aa_sov_timer-1.8.0.tar.gz]
+[2023-07-30 04:33:53] INFO root fetch - processPackages [aa-sov-timer]: Remove: archive file [/home/abi/fetcher/tmp/aa_sov_timer-1.9.0.tar.gz]
+[2023-07-30 04:33:53] INFO root fetch - main [MainThread]: End processing [aa-sov-timer]: success
+[2023-07-30 04:33:54] INFO root fetch - processPackages [starlette-admin]: executing diffoscope
+[2023-07-30 04:33:54] INFO root fetch - processPackages [starlette-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_admin-0.9.0.tar.gz tmp/starlette_admin-0.9.0.dev0.tar.gz --markdown 20230730/s/starlette-admin/0.9.0-0.9.0.dev0/diff.md --exclude *.pyd
+[2023-07-30 04:33:55] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.tar.gz]
+[2023-07-30 04:33:55] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.dev0.tar.gz]
+[2023-07-30 04:33:55] INFO root fetch - main [MainThread]: End processing [starlette-admin]: success
+[2023-07-30 04:33:55] INFO root fetch - main [MainThread]: Store serial: [19093303]
