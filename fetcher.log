@@ -8787,3 +8787,36 @@
 [2023-07-30 13:04:33] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc3.tar.gz]
 [2023-07-30 13:04:33] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
 [2023-07-30 13:04:33] INFO root fetch - main [MainThread]: Store serial: [19095853]
+[2023-07-30 13:09:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095853]
+[2023-07-30 13:09:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 13:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mldev
+[2023-07-30 13:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scope-rl
+[2023-07-30 13:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compoundwidgets
+[2023-07-30 13:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blizzardwarcraftapi
+[2023-07-30 13:09:41] WARNING root fetch - processPackages [mldev]: Skipping, unable to determine old version
+[2023-07-30 13:09:41] INFO root fetch - main [MainThread]: End processing [mldev] error
+[2023-07-30 13:09:41] INFO root fetch - processPackages [scope-rl]: New version: [0.2.1] Old Version: [0.1.3]
+[2023-07-30 13:09:41] INFO root fetch - processPackages [blizzardwarcraftapi]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-30 13:09:41] INFO root fetch - processPackages [compoundwidgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 13:09:41] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/6e/e8/c8aba7c6bb14a02cea51131b35f41f9aa2c5be86fff3e532e4ad4cb5aa49/compoundwidgets-0.2.8.tar.gz
+[2023-07-30 13:09:42] INFO root fetch - processPackages [scope-rl]: Downloading https://files.pythonhosted.org/packages/3e/eb/9d40945c4ab21c1d38e837a9d06e45d56acbe0727e8ad5b46288e279e7ec/scope-rl-0.1.3.tar.gz
+[2023-07-30 13:09:42] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/8f/e9/1770f3814570abd8b857a2abbf1033f9801fee7b4d55276655d2d5d7151f/blizzardwarcraftapi-0.2.4.tar.gz
+[2023-07-30 13:09:42] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/2d/02/41a17a00996debfcc84ce21efe340c89924c33f3917f8b98892eb8e711e8/compoundwidgets-0.2.9.tar.gz
+[2023-07-30 13:09:42] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2023-07-30 13:09:42] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.2.8.tar.gz tmp/compoundwidgets-0.2.9.tar.gz --markdown 20230730/c/compoundwidgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 13:09:42] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/bb/bd/2f9a50037ba633c1155e11a500aabda19e95b77ea9ee02d1c34a39f4310e/blizzardwarcraftapi-0.2.5.tar.gz
+[2023-07-30 13:09:42] INFO root fetch - processPackages [scope-rl]: Downloading https://files.pythonhosted.org/packages/c0/78/68210dabc06e9de59c7f99fb94bfceb9ddad828108ba61f67a7cbe5998c7/scope-rl-0.2.1.tar.gz
+[2023-07-30 13:09:42] INFO root fetch - processPackages [blizzardwarcraftapi]: executing diffoscope
+[2023-07-30 13:09:42] INFO root fetch - processPackages [blizzardwarcraftapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blizzardwarcraftapi-0.2.4.tar.gz tmp/blizzardwarcraftapi-0.2.5.tar.gz --markdown 20230730/b/blizzardwarcraftapi/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-30 13:09:42] INFO root fetch - processPackages [scope-rl]: executing diffoscope
+[2023-07-30 13:09:42] INFO root fetch - processPackages [scope-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scope-rl-0.1.3.tar.gz tmp/scope-rl-0.2.1.tar.gz --markdown 20230730/s/scope-rl/0.1.3-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 13:09:43] INFO root fetch - processPackages [compoundwidgets]: Remove: archive file [/home/abi/fetcher/tmp/compoundwidgets-0.2.8.tar.gz]
+[2023-07-30 13:09:43] INFO root fetch - processPackages [compoundwidgets]: Remove: archive file [/home/abi/fetcher/tmp/compoundwidgets-0.2.9.tar.gz]
+[2023-07-30 13:09:43] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2023-07-30 13:09:43] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.4.tar.gz]
+[2023-07-30 13:09:43] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.5.tar.gz]
+[2023-07-30 13:09:43] INFO root fetch - main [MainThread]: End processing [blizzardwarcraftapi]: success
+[2023-07-30 13:09:43] INFO root fetch - processPackages [scope-rl]: Remove: archive file [/home/abi/fetcher/tmp/scope-rl-0.1.3.tar.gz]
+[2023-07-30 13:09:43] INFO root fetch - processPackages [scope-rl]: Remove: archive file [/home/abi/fetcher/tmp/scope-rl-0.2.1.tar.gz]
+[2023-07-30 13:09:43] INFO root fetch - main [MainThread]: End processing [scope-rl]: success
+[2023-07-30 13:09:43] INFO root fetch - main [MainThread]: Store serial: [19095867]
