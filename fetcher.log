@@ -6645,3 +6645,42 @@
 [2023-07-30 10:37:21] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.9.tar.gz]
 [2023-07-30 10:37:21] INFO root fetch - main [MainThread]: End processing [amatak-shop]: success
 [2023-07-30 10:37:21] INFO root fetch - main [MainThread]: Store serial: [19094775]
+[2023-07-30 10:42:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094775]
+[2023-07-30 10:42:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 10:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlx-exec
+[2023-07-30 10:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-07-30 10:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ANSIController
+[2023-07-30 10:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tff-nightly
+[2023-07-30 10:42:29] INFO root fetch - processPackages [ANSIController]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-30 10:42:29] INFO root fetch - processPackages [sqlx-exec]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-30 10:42:29] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-30 10:42:29] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230729] Old Version: [0.0.1.dev20230728]
+[2023-07-30 10:42:29] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-30 10:42:29] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/a6/aa/d87adad3244b7e3d0143e46a736e03c4faa0d2f884071bd70c213b4e7b47/tff_nightly-0.0.1.dev20230728-py2.py3-none-any.whl
+[2023-07-30 10:42:29] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/f6/55/2699b780dce17e13f3cf6527227fd098ab081c92ec8ed0772c760d392ae9/ANSIController-1.0.3.tar.gz
+[2023-07-30 10:42:29] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/52/e1/5aaccb43ed3cf65e5ef2c9cc0d7bdcc88161f34bc1e5b00a07251a39a187/sqlx-exec-1.3.8.tar.gz
+[2023-07-30 10:42:30] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-30 10:42:30] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/e3/65/022b54933dbe00113d218c4180030e5c39971e0bb2c581cff7fe3c10a3a8/sqlx-exec-1.3.9.tar.gz
+[2023-07-30 10:42:30] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/3c/fe/590e630e4f2a481196c221bdabaa17c31e3bf70013dee7eabc914714b566/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl
+[2023-07-30 10:42:30] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/55/fe/96cf441e8cf2b919ee1452f9afbb5e2215f906ddeaaa597e105066942758/ANSIController-1.0.4.tar.gz
+[2023-07-30 10:42:30] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-30 10:42:30] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.3.8.tar.gz tmp/sqlx-exec-1.3.9.tar.gz --markdown 20230730/s/sqlx-exec/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-30 10:42:30] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-30 10:42:30] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230730/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-30 10:42:30] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 10:42:30] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-1.0.3.tar.gz tmp/ANSIController-1.0.4.tar.gz --markdown 20230730/A/ANSIController/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 10:42:30] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-30 10:42:30] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230728-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl.zip --markdown 20230730/t/tff-nightly/0.0.1.dev20230728-0.0.1.dev20230729/diff.md --exclude *.pyd
+[2023-07-30 10:42:31] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.8.tar.gz]
+[2023-07-30 10:42:31] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.9.tar.gz]
+[2023-07-30 10:42:31] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-30 10:42:31] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.3.tar.gz]
+[2023-07-30 10:42:31] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.4.tar.gz]
+[2023-07-30 10:42:31] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 10:42:31] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-30 10:42:31] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-30 10:42:31] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-30 10:42:32] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230728-py2.py3-none-any.whl.zip]
+[2023-07-30 10:42:32] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230729-py2.py3-none-any.whl.zip]
+[2023-07-30 10:42:32] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-30 10:42:32] INFO root fetch - main [MainThread]: Store serial: [19094784]
