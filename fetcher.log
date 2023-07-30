@@ -14886,3 +14886,77 @@
 [2023-07-30 21:06:48] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
 [2023-07-30 21:06:48] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
 [2023-07-30 21:06:48] INFO root fetch - main [MainThread]: Store serial: [19098609]
+[2023-07-30 21:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098609]
+[2023-07-30 21:11:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 21:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sxm-signagenode
+[2023-07-30 21:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydiscovergy
+[2023-07-30 21:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfy-lint
+[2023-07-30 21:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stringzilla
+[2023-07-30 21:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmcxcl
+[2023-07-30 21:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptmeteo
+[2023-07-30 21:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylammpsmpi
+[2023-07-30 21:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: img2fmri
+[2023-07-30 21:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llamaapi
+[2023-07-30 21:11:57] INFO root fetch - processPackages [img2fmri]: New version: [0.2.dev2] Old Version: [0.2.dev1]
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pydiscovergy]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-30 21:11:57] INFO root fetch - processPackages [promptmeteo]: New version: [0.0.1b2] Old Version: [0.0.1b0]
+[2023-07-30 21:11:57] INFO root fetch - processPackages [llamaapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pylammpsmpi]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 21:11:57] WARNING root fetch - processPackages [sxm-signagenode]: Skipping, unable to determine old version
+[2023-07-30 21:11:57] INFO root fetch - main [MainThread]: End processing [sxm-signagenode] error
+[2023-07-30 21:11:57] INFO root fetch - processPackages [cfy-lint]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pmcxcl]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 21:11:57] INFO root fetch - processPackages [stringzilla]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/a5/5a/53a84907511a1d40bdce9f936331494f8032354712081a23bcee760c0b08/pmcxcl-0.0.7-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 21:11:57] INFO root fetch - processPackages [promptmeteo]: Downloading https://files.pythonhosted.org/packages/78/71/bbbd8b528a52d17c0345592042597eb41822cfc72e60923f001f99fc7606/promptmeteo-0.0.1b0.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pydiscovergy]: Downloading https://files.pythonhosted.org/packages/d5/c7/91fd219e0a62cee00d805905e075280b984006965888af4863a6692158bd/pydiscovergy-2.0.2.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/ac/0c/5b55c9bcaaff3a8b3ab8fd039ffcbf432e1446d4dea4971b8f889a1f16eb/llamaapi-0.1.8.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [img2fmri]: Downloading https://files.pythonhosted.org/packages/57/b1/66baf7f217f5a1a21bb1831f832f7aa5b4e3e94fcfabf0e17b6211ddd5ef/img2fmri-0.2.dev1.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/b3/c7/f25cd49f97127c1dc4943489a698fee1c182805f458d1088ccfe64a67335/pylammpsmpi-0.2.1.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [cfy-lint]: Downloading https://files.pythonhosted.org/packages/82/dd/672131382943bf73644733bf949e842b9b1ecd0613364de192ca7a97254f/cfy-lint-0.0.7.tar.gz
+[2023-07-30 21:11:57] WARNING root fetch - processPackages [img2fmri]: Skipping package: exceeds size limit 62244660>=10485760
+[2023-07-30 21:11:57] INFO root fetch - main [MainThread]: End processing [img2fmri] error
+[2023-07-30 21:11:57] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/aa/4d/5d5a5abdc2309588f53d540462c30800fe58bb0fa7f06b450fe795e97c1b/stringzilla-1.0.0-cp39-cp39-win_amd64.whl
+[2023-07-30 21:11:57] INFO root fetch - processPackages [promptmeteo]: Downloading https://files.pythonhosted.org/packages/8d/43/4e2ba577e79e5b8c2786b7b557e618c1fae6a23fb34af8cd9897b9dab64e/promptmeteo-0.0.1b2.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/dd/a2/b5523b33759374ea05102a2a051d203dbb9fc7747304884c8c262c90a2b2/llamaapi-0.1.9.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pydiscovergy]: Downloading https://files.pythonhosted.org/packages/b2/2d/469518b600af786156dcd3193c9929b35ac784cb505b226d7fc64c74773c/pydiscovergy-2.0.3.tar.gz
+[2023-07-30 21:11:57] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/25/63/0f07611278ca8954862c0979b029a8e814497178455c9ada1cb414fa8d3b/pmcxcl-0.0.8-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 21:11:57] INFO root fetch - processPackages [promptmeteo]: executing diffoscope
+[2023-07-30 21:11:57] INFO root fetch - processPackages [promptmeteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptmeteo-0.0.1b0.tar.gz tmp/promptmeteo-0.0.1b2.tar.gz --markdown 20230730/p/promptmeteo/0.0.1b0-0.0.1b2/diff.md --exclude *.pyd
+[2023-07-30 21:11:58] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-30 21:11:58] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.8.tar.gz tmp/llamaapi-0.1.9.tar.gz --markdown 20230730/l/llamaapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 21:11:58] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/71/35/1fa6d08c1bb7edd6b0b570417631121473fcebd636cd87850ecd59a9cf41/pylammpsmpi-0.2.2.tar.gz
+[2023-07-30 21:11:58] INFO root fetch - processPackages [pydiscovergy]: executing diffoscope
+[2023-07-30 21:11:58] INFO root fetch - processPackages [pydiscovergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiscovergy-2.0.2.tar.gz tmp/pydiscovergy-2.0.3.tar.gz --markdown 20230730/p/pydiscovergy/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-30 21:11:58] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/d8/96/2c18501505e102e6811dfcf84c9d1fd0fadaaee0a40e5ab828e8f72f0d04/stringzilla-1.0.2-cp39-cp39-win_amd64.whl
+[2023-07-30 21:11:58] INFO root fetch - processPackages [cfy-lint]: Downloading https://files.pythonhosted.org/packages/3e/1e/b382fd992dd951c3e5983e35cda3ca33a972a5606769cb5c565290823d91/cfy-lint-0.0.8.tar.gz
+[2023-07-30 21:11:58] INFO root fetch - processPackages [pylammpsmpi]: executing diffoscope
+[2023-07-30 21:11:58] INFO root fetch - processPackages [pylammpsmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylammpsmpi-0.2.1.tar.gz tmp/pylammpsmpi-0.2.2.tar.gz --markdown 20230730/p/pylammpsmpi/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 21:11:58] INFO root fetch - processPackages [cfy-lint]: executing diffoscope
+[2023-07-30 21:11:58] INFO root fetch - processPackages [cfy-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfy-lint-0.0.7.tar.gz tmp/cfy-lint-0.0.8.tar.gz --markdown 20230730/c/cfy-lint/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 21:11:58] INFO root fetch - processPackages [pmcxcl]: executing diffoscope
+[2023-07-30 21:11:58] INFO root fetch - processPackages [pmcxcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmcxcl-0.0.7-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pmcxcl-0.0.8-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230730/p/pmcxcl/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 21:11:58] INFO root fetch - processPackages [stringzilla]: executing diffoscope
+[2023-07-30 21:11:58] INFO root fetch - processPackages [stringzilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringzilla-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/stringzilla-1.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230730/s/stringzilla/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 21:11:59] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.8.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.9.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-30 21:11:59] INFO root fetch - processPackages [pydiscovergy]: Remove: archive file [/home/abi/fetcher/tmp/pydiscovergy-2.0.2.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - processPackages [pydiscovergy]: Remove: archive file [/home/abi/fetcher/tmp/pydiscovergy-2.0.3.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [pydiscovergy]: success
+[2023-07-30 21:11:59] INFO root fetch - processPackages [promptmeteo]: Remove: archive file [/home/abi/fetcher/tmp/promptmeteo-0.0.1b0.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - processPackages [promptmeteo]: Remove: archive file [/home/abi/fetcher/tmp/promptmeteo-0.0.1b2.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [promptmeteo]: success
+[2023-07-30 21:11:59] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.7-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 21:11:59] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.8-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [pmcxcl]: success
+[2023-07-30 21:11:59] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.2.1.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.2.2.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [pylammpsmpi]: success
+[2023-07-30 21:11:59] INFO root fetch - processPackages [cfy-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfy-lint-0.0.7.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - processPackages [cfy-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfy-lint-0.0.8.tar.gz]
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [cfy-lint]: success
+[2023-07-30 21:11:59] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-1.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 21:11:59] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-1.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
+[2023-07-30 21:11:59] INFO root fetch - main [MainThread]: Store serial: [19098694]
