@@ -8880,3 +8880,54 @@
 [2023-07-30 13:14:55] INFO root fetch - processPackages [munin-plot]: Remove: archive file [/home/abi/fetcher/tmp/munin-plot-1.7.tar.gz]
 [2023-07-30 13:14:55] INFO root fetch - main [MainThread]: End processing [munin-plot]: success
 [2023-07-30 13:14:55] INFO root fetch - main [MainThread]: Store serial: [19095890]
+[2023-07-30 13:19:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095890]
+[2023-07-30 13:20:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3data
+[2023-07-30 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-07-30 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimporters-csv
+[2023-07-30 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyimporters-csv
+[2023-07-30 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wiggler-studiorabota
+[2023-07-30 13:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EasyDeL
+[2023-07-30 13:20:03] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 13:20:03] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 13:20:03] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 13:20:03] INFO root fetch - processPackages [py3data]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-30 13:20:03] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230730.6.43.787357] Old Version: [20230730.11.14.272064]
+[2023-07-30 13:20:03] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 13:20:03] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 13:20:03] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 13:20:03] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-30 13:20:03] INFO root fetch - processPackages [py3data]: Downloading https://files.pythonhosted.org/packages/26/c2/516bb3f44301aa52f577f84931665b1a9d6c227ee5a0dac5f0456596e9b2/py3data-0.3.1.tar.gz
+[2023-07-30 13:20:03] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/3e/3c/ec595fc110aee7fcc76c78e9c5b022c32f2a3522bfc3b49febb5c24b46e2/certora-cli-alpha-master-20230730.11.14.272064.tar.gz
+[2023-07-30 13:20:03] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37696325>=10485760
+[2023-07-30 13:20:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-30 13:20:03] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-07-30 13:20:03] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-30 13:20:03] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 13:20:04] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 13:20:04] INFO root fetch - processPackages [py3data]: Downloading https://files.pythonhosted.org/packages/b5/f1/d1c0694573048c4150f505c379f076103cb93e80e8fecea1c030abef6fdd/py3data-0.3.2.tar.gz
+[2023-07-30 13:20:04] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-30 13:20:04] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230730/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 13:20:04] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 13:20:04] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 13:20:04] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 13:20:04] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 13:20:04] INFO root fetch - processPackages [py3data]: executing diffoscope
+[2023-07-30 13:20:04] INFO root fetch - processPackages [py3data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3data-0.3.1.tar.gz tmp/py3data-0.3.2.tar.gz --markdown 20230730/p/py3data/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-30 13:20:04] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-07-30 13:20:04] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-07-30 13:20:04] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230730/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 13:20:05] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 13:20:05] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-30 13:20:05] INFO root fetch - processPackages [py3data]: Remove: archive file [/home/abi/fetcher/tmp/py3data-0.3.1.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - processPackages [py3data]: Remove: archive file [/home/abi/fetcher/tmp/py3data-0.3.2.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - main [MainThread]: End processing [py3data]: success
+[2023-07-30 13:20:05] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 13:20:05] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-07-30 13:20:05] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-07-30 13:20:05] INFO root fetch - main [MainThread]: Store serial: [19095911]
