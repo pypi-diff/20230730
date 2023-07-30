@@ -6004,3 +6004,32 @@
 [2023-07-30 09:34:51] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
 [2023-07-30 09:34:51] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
 [2023-07-30 09:34:51] INFO root fetch - main [MainThread]: Store serial: [19094464]
+[2023-07-30 09:39:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094464]
+[2023-07-30 09:39:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swibots
+[2023-07-30 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-07-30 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nusacrowd
+[2023-07-30 09:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sequences
+[2023-07-30 09:39:59] INFO root fetch - processPackages [swibots]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-30 09:39:59] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-30 09:40:00] WARNING root fetch - processPackages [nusacrowd]: Skipping, unable to determine old version
+[2023-07-30 09:40:00] INFO root fetch - main [MainThread]: End processing [nusacrowd] error
+[2023-07-30 09:40:00] INFO root fetch - processPackages [django-sequences]: New version: [2.8] Old Version: [2.7]
+[2023-07-30 09:40:00] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/82/69/7c0e6ea9131a9e468c1d9c71b81edc9f90b91af4a877dd59319adaf8fd8d/swibots-1.3.8.tar.gz
+[2023-07-30 09:40:00] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 09:40:00] INFO root fetch - processPackages [django-sequences]: Downloading https://files.pythonhosted.org/packages/1a/b9/e9e47563ffe1e72ab874f50754715fab945f8358c44a93e122097a636100/django-sequences-2.7.tar.gz
+[2023-07-30 09:40:00] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-30 09:40:00] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-30 09:40:00] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ea/7b/639e8e0d26f49b658d1704d4d37bd38d8c55e1e5eed2f3f38ca390b8aabf/swibots-1.3.9.tar.gz
+[2023-07-30 09:40:00] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-30 09:40:00] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.8.tar.gz tmp/swibots-1.3.9.tar.gz --markdown 20230730/s/swibots/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-30 09:40:00] INFO root fetch - processPackages [django-sequences]: Downloading https://files.pythonhosted.org/packages/ae/6f/d8df302e29f929939758f2388597657dbba89286050a08413194659b1a93/django_sequences-2.8.tar.gz
+[2023-07-30 09:40:01] INFO root fetch - processPackages [django-sequences]: executing diffoscope
+[2023-07-30 09:40:01] INFO root fetch - processPackages [django-sequences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sequences-2.7.tar.gz tmp/django_sequences-2.8.tar.gz --markdown 20230730/d/django-sequences/2.7-2.8/diff.md --exclude *.pyd
+[2023-07-30 09:40:01] INFO root fetch - processPackages [django-sequences]: Remove: archive file [/home/abi/fetcher/tmp/django-sequences-2.7.tar.gz]
+[2023-07-30 09:40:01] INFO root fetch - processPackages [django-sequences]: Remove: archive file [/home/abi/fetcher/tmp/django_sequences-2.8.tar.gz]
+[2023-07-30 09:40:01] INFO root fetch - main [MainThread]: End processing [django-sequences]: success
+[2023-07-30 09:40:01] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.8.tar.gz]
+[2023-07-30 09:40:01] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.9.tar.gz]
+[2023-07-30 09:40:01] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-30 09:40:01] INFO root fetch - main [MainThread]: Store serial: [19094493]
