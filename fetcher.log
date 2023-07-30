@@ -2683,3 +2683,47 @@
 [2023-07-30 03:51:43] INFO root fetch - processPackages [dnd-character]: Remove: archive file [/home/abi/fetcher/tmp/dnd_character-23.7.29.tar.gz]
 [2023-07-30 03:51:43] INFO root fetch - main [MainThread]: End processing [dnd-character]: success
 [2023-07-30 03:51:43] INFO root fetch - main [MainThread]: Store serial: [19093151]
+[2023-07-30 03:56:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093151]
+[2023-07-30 03:56:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmpg
+[2023-07-30 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmpg
+[2023-07-30 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmpg
+[2023-07-30 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipdeptree
+[2023-07-30 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webagt
+[2023-07-30 03:56:51] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 03:56:51] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 03:56:51] INFO root fetch - processPackages [pipdeptree]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-30 03:56:51] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 03:56:51] INFO root fetch - processPackages [webagt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 03:56:51] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-07-30 03:56:51] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-07-30 03:56:51] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [webagt]: Downloading https://files.pythonhosted.org/packages/7b/0f/6d0e1556b2542e19df25c649198d082c00af08ade7301cc62a85c0087a96/webagt-0.1.1.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [webagt]: Downloading https://files.pythonhosted.org/packages/88/8b/84a997cf2c5ca4d34d8422d33ad087c8c754cd0fd23e2616b22d5ed5834d/webagt-0.1.2.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/0a/b2/2508e11f44e0e7b136555175f21c121f20642d43ab2a09797b178e968834/pipdeptree-2.9.6.tar.gz
+[2023-07-30 03:56:52] INFO root fetch - processPackages [webagt]: executing diffoscope
+[2023-07-30 03:56:52] INFO root fetch - processPackages [webagt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webagt-0.1.1.tar.gz tmp/webagt-0.1.2.tar.gz --markdown 20230730/w/webagt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 03:56:52] INFO root fetch - processPackages [pipdeptree]: executing diffoscope
+[2023-07-30 03:56:52] INFO root fetch - processPackages [pipdeptree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipdeptree-2.9.5.tar.gz tmp/pipdeptree-2.9.6.tar.gz --markdown 20230730/p/pipdeptree/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230730/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230730/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-07-30 03:56:52] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230730/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 03:56:53] INFO root fetch - processPackages [webagt]: Remove: archive file [/home/abi/fetcher/tmp/webagt-0.1.1.tar.gz]
+[2023-07-30 03:56:53] INFO root fetch - processPackages [webagt]: Remove: archive file [/home/abi/fetcher/tmp/webagt-0.1.2.tar.gz]
+[2023-07-30 03:56:53] INFO root fetch - main [MainThread]: End processing [webagt]: success
+[2023-07-30 03:56:53] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.8.tar.gz]
+[2023-07-30 03:56:53] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.9.tar.gz]
+[2023-07-30 03:56:53] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-07-30 03:56:53] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.5.tar.gz]
+[2023-07-30 03:56:53] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.6.tar.gz]
+[2023-07-30 03:56:53] INFO root fetch - main [MainThread]: End processing [pipdeptree]: success
+[2023-07-30 03:56:53] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-07-30 03:56:53] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-07-30 03:56:53] INFO root fetch - main [MainThread]: Store serial: [19093166]
