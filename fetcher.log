@@ -16940,3 +16940,75 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 23:53:13] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.15.0.tar.gz]
 [2023-07-30 23:53:13] INFO root fetch - main [MainThread]: End processing [solutions-builder]: success
 [2023-07-30 23:53:13] INFO root fetch - main [MainThread]: Store serial: [19099731]
+[2023-07-30 23:58:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099731]
+[2023-07-30 23:58:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgecli
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgebackend
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgegui
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepclient-test
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rusty-chrono
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systembridgefrontend
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgewindowssensors
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: medium-multiply-310723
+[2023-07-30 23:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moto
+[2023-07-30 23:58:21] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:58:22] INFO root fetch - processPackages [rusty-chrono]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-30 23:58:22] WARNING root fetch - processPackages [deepclient-test]: Skipping, unable to determine old version
+[2023-07-30 23:58:22] INFO root fetch - main [MainThread]: End processing [deepclient-test] error
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-30 23:58:22] WARNING root fetch - processPackages [medium-multiply-310723]: Skipping, unable to determine old version
+[2023-07-30 23:58:22] INFO root fetch - main [MainThread]: End processing [medium-multiply-310723] error
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/c7/4a/5fc463ab7a4a2ffe0ddaab3429c2862bf5b779006f76f66be6657ecbdc4b/systembridgebackend-3.8.0.dev8.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [rusty-chrono]: Downloading https://files.pythonhosted.org/packages/2c/f9/f590a9b1c5b41a56d77b58c6e1b183b9ecb2bb785d29a7eca9cbd08161be/rusty_chrono-0.1.1.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/04/07/5ba22add89c69f07710d05939e00ef21530d783cffde5d9b2d37acaa2062/systembridgebackend-3.8.0.dev9.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [rusty-chrono]: Downloading https://files.pythonhosted.org/packages/50/ac/a1cf7f81cc1e669dd8f729789874f5e5f890db3b2c414282b0a160644e7c/rusty_chrono-0.1.2.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev8.tar.gz tmp/systembridgegui-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgegui/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev8.tar.gz tmp/systembridgebackend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgebackend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:58:22] INFO root fetch - processPackages [rusty-chrono]: executing diffoscope
+[2023-07-30 23:58:22] INFO root fetch - processPackages [rusty-chrono]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rusty_chrono-0.1.1.tar.gz tmp/rusty_chrono-0.1.2.tar.gz --markdown 20230730/r/rusty-chrono/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-30 23:58:22] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:58:23] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-30 23:58:23] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230730/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-30 23:58:23] INFO root fetch - processPackages [rusty-chrono]: Remove: archive file [/home/abi/fetcher/tmp/rusty_chrono-0.1.1.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - processPackages [rusty-chrono]: Remove: archive file [/home/abi/fetcher/tmp/rusty_chrono-0.1.2.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - main [MainThread]: End processing [rusty-chrono]: success
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev8.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev9.tar.gz]
+[2023-07-30 23:58:23] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-30 23:58:24] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-30 23:58:24] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-30 23:58:24] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-30 23:58:24] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-30 23:58:24] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-30 23:58:24] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-30 23:58:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-30 23:58:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-30 23:58:36] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-30 23:58:36] INFO root fetch - main [MainThread]: Store serial: [19099762]
