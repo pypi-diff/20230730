@@ -14139,3 +14139,57 @@
 [2023-07-30 20:14:38] INFO root fetch - processPackages [ghcr-badge]: Remove: archive file [/home/abi/fetcher/tmp/ghcr_badge-0.3.2.tar.gz]
 [2023-07-30 20:14:38] INFO root fetch - main [MainThread]: End processing [ghcr-badge]: success
 [2023-07-30 20:14:38] INFO root fetch - main [MainThread]: Store serial: [19098256]
+[2023-07-30 20:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098256]
+[2023-07-30 20:19:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flota-app
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-secure-log-bucket
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pastewin
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netscorpion
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: commandparse
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: owt
+[2023-07-30 20:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: banc
+[2023-07-30 20:19:46] WARNING root fetch - processPackages [flota-app]: Skipping, unable to determine old version
+[2023-07-30 20:19:46] INFO root fetch - main [MainThread]: End processing [flota-app] error
+[2023-07-30 20:19:46] INFO root fetch - processPackages [commandparse]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-30 20:19:46] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-30 20:19:46] WARNING root fetch - processPackages [pastewin]: Skipping, unable to determine old version
+[2023-07-30 20:19:46] INFO root fetch - main [MainThread]: End processing [pastewin] error
+[2023-07-30 20:19:46] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-30 20:19:46] WARNING root fetch - processPackages [banc]: Skipping, unable to determine old version
+[2023-07-30 20:19:46] INFO root fetch - main [MainThread]: End processing [banc] error
+[2023-07-30 20:19:46] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-30 20:19:46] WARNING root fetch - processPackages [owt]: Skipping, unable to determine old version
+[2023-07-30 20:19:46] INFO root fetch - main [MainThread]: End processing [owt] error
+[2023-07-30 20:19:46] ERROR root fetch - processPackages [netscorpion]: Unable to get metadata: No such project 'netscorpion'
+[2023-07-30 20:19:46] INFO root fetch - main [MainThread]: End processing [netscorpion] error
+[2023-07-30 20:19:47] INFO root fetch - processPackages [commandparse]: Downloading https://files.pythonhosted.org/packages/99/48/5cc2e8f050b234366b9632dc798b1a8f6b4dd2b25727a95770f11f5a9f2f/commandparse-1.1.1.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/41/d1/1609d9136e2768b4a42f2595a3278ac4d8b74caf161d765430c143a23f9e/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/24/2e/11cb152699573d94a8adb12346a042d125e832a97ddbd07af24be39bcfa5/gammarer.aws-secure-log-bucket-0.9.8.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/b0/ef/ce6be9ab643739d987f3f5ce37e7542b7c2feb2e82b33f4f52ecb9acb599/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/9c/47/ec93eb5c7f8705cbd3473157e9c73c15ce6ece6a660d1d3d36194eaf741a/gammarer.aws-secure-log-bucket-0.9.9.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [commandparse]: Downloading https://files.pythonhosted.org/packages/79/6b/6f1879101e405e2a5c7d352b340bc97d1936f8d54a8934ae32aac1828e50/commandparse-1.1.2.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz --markdown 20230730/g/gammarer.aws-secure-log-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/8b/9e/1444bb150a643d143d15a3e71f4ec01b157852a6248fcde9039057364f2a/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [commandparse]: executing diffoscope
+[2023-07-30 20:19:47] INFO root fetch - processPackages [commandparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandparse-1.1.1.tar.gz tmp/commandparse-1.1.2.tar.gz --markdown 20230730/c/commandparse/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/bb/75/eb5697658075456054ab05ad5a8c8a9eee27b8d5d462e5bdfa6a75ee225c/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz --markdown 20230730/g/gammarer.aws-secure-flow-log-bucket/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2023-07-30 20:19:47] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz --markdown 20230730/g/gammarer.aws-secure-cloudfront-origin-bucket/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-30 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2023-07-30 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-07-30 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2023-07-30 20:19:48] INFO root fetch - processPackages [commandparse]: Remove: archive file [/home/abi/fetcher/tmp/commandparse-1.1.1.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - processPackages [commandparse]: Remove: archive file [/home/abi/fetcher/tmp/commandparse-1.1.2.tar.gz]
+[2023-07-30 20:19:48] INFO root fetch - main [MainThread]: End processing [commandparse]: success
+[2023-07-30 20:19:48] INFO root fetch - main [MainThread]: Store serial: [19098297]
