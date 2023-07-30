@@ -6887,3 +6887,51 @@
 [2023-07-30 10:58:10] INFO root fetch - processPackages [moss-decoder]: Remove: archive file [/home/abi/fetcher/tmp/moss_decoder-0.5.0.tar.gz]
 [2023-07-30 10:58:10] INFO root fetch - main [MainThread]: End processing [moss-decoder]: success
 [2023-07-30 10:58:10] INFO root fetch - main [MainThread]: Store serial: [19094925]
+[2023-07-30 11:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094925]
+[2023-07-30 11:03:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 11:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authomize-rest-api-client
+[2023-07-30 11:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharingiscaring
+[2023-07-30 11:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimporters-csv
+[2023-07-30 11:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terra-classic-sdk
+[2023-07-30 11:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readmeai
+[2023-07-30 11:03:19] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 11:03:19] INFO root fetch - processPackages [readmeai]: New version: [0.0.452] Old Version: [0.0.451]
+[2023-07-30 11:03:19] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.3.7] Old Version: [4.3.6]
+[2023-07-30 11:03:19] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-30 11:03:19] INFO root fetch - processPackages [terra-classic-sdk]: New version: [2.0.9] Old Version: [2.0.8.2]
+[2023-07-30 11:03:19] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/d0/a5/b75e994de6cf9de12104d1b2d74d17d7780aa4286420add212c113bb8a48/readmeai-0.0.451.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/ae/97/557aeef2e9da40fca7bf2aff95fb1de22df4d88ba138dc52da9be5a1cdea/authomize-rest-api-client-4.3.6.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [terra-classic-sdk]: Downloading https://files.pythonhosted.org/packages/1d/81/81c10605083a7fb71d1de82e7709244707384b370090f80df041ea07b499/terra_classic_sdk-2.0.8.2.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/5a/96/9a4b203377a3d817bbdc3e8db54b13a74e3c7abfd25c5cb8946e0d8109c2/readmeai-0.0.452.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 11:03:19] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.451.tar.gz tmp/readmeai-0.0.452.tar.gz --markdown 20230730/r/readmeai/0.0.451-0.0.452/diff.md --exclude *.pyd
+[2023-07-30 11:03:19] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 11:03:19] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 11:03:19] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/3c/c7/ebac3cb7847d12a001b28cc20ae3004b8b2711ab97ab7ac55e8a9a254930/authomize-rest-api-client-4.3.7.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [terra-classic-sdk]: Downloading https://files.pythonhosted.org/packages/4d/99/9451a9bc3dd0e9ef043df128a56c2e14fc35f05512afda566d25ebb4d678/terra_classic_sdk-2.0.9.tar.gz
+[2023-07-30 11:03:19] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-07-30 11:03:19] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.3.6.tar.gz tmp/authomize-rest-api-client-4.3.7.tar.gz --markdown 20230730/a/authomize-rest-api-client/4.3.6-4.3.7/diff.md --exclude *.pyd
+[2023-07-30 11:03:19] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-07-30 11:03:20] INFO root fetch - processPackages [terra-classic-sdk]: executing diffoscope
+[2023-07-30 11:03:20] INFO root fetch - processPackages [terra-classic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra_classic_sdk-2.0.8.2.tar.gz tmp/terra_classic_sdk-2.0.9.tar.gz --markdown 20230730/t/terra-classic-sdk/2.0.8.2-2.0.9/diff.md --exclude *.pyd
+[2023-07-30 11:03:20] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-07-30 11:03:20] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230730/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-30 11:03:20] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.451.tar.gz]
+[2023-07-30 11:03:20] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.452.tar.gz]
+[2023-07-30 11:03:20] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 11:03:20] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 11:03:20] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 11:03:20] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 11:03:20] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.6.tar.gz]
+[2023-07-30 11:03:20] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.7.tar.gz]
+[2023-07-30 11:03:20] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-07-30 11:03:21] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.8.tar.gz]
+[2023-07-30 11:03:21] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-07-30 11:03:21] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-07-30 11:03:21] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.8.2.tar.gz]
+[2023-07-30 11:03:21] INFO root fetch - processPackages [terra-classic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/terra_classic_sdk-2.0.9.tar.gz]
+[2023-07-30 11:03:21] INFO root fetch - main [MainThread]: End processing [terra-classic-sdk]: success
+[2023-07-30 11:03:21] INFO root fetch - main [MainThread]: Store serial: [19094941]
