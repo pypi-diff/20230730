@@ -15586,3 +15586,99 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 21:53:44] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.2.2.tar.gz]
 [2023-07-30 21:53:44] INFO root fetch - main [MainThread]: End processing [dash-deckgl]: success
 [2023-07-30 21:53:44] INFO root fetch - main [MainThread]: Store serial: [19099003]
+[2023-07-30 21:58:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099003]
+[2023-07-30 21:58:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wafer-debconf
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tambus
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systembridgeshared
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoQPF
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymasep
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systembridgebackend
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgegui
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: logandprint
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grafana-client
+[2023-07-30 21:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gehomesdk
+[2023-07-30 21:58:53] INFO root fetch - processPackages [logandprint]: New version: [1.1] Old Version: [1.0.0]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [AutoQPF]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [grafana-client]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-07-30 21:58:53] WARNING root fetch - processPackages [pymasep]: Skipping, unable to determine old version
+[2023-07-30 21:58:53] INFO root fetch - processPackages [pymasep]: Start processing: systembridgefrontend
+[2023-07-30 21:58:53] INFO root fetch - main [MainThread]: End processing [pymasep] error
+[2023-07-30 21:58:53] INFO root fetch - processPackages [tambus]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [gehomesdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [wafer-debconf]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 21:58:53] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/f4/59/dffa3e8a059493f47ce261fa866743150ecf634a259f3b1d7090f79278b7/AutoQPF-0.1.5.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [logandprint]: Downloading https://files.pythonhosted.org/packages/bd/4c/7e789bc664b511b65271ff6194b22ed2c39d0c82944253838194dd9338b8/logandprint-1.0.0.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [tambus]: Downloading https://files.pythonhosted.org/packages/9e/a4/b7155c14f6a14c0594562ca07d3283dbd96532b5719313b5ac485e1f8c12/tambus-0.2.0.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/c7/4a/5fc463ab7a4a2ffe0ddaab3429c2862bf5b779006f76f66be6657ecbdc4b/systembridgebackend-3.8.0.dev8.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/78/e5/65dceafdeed2a83f4b797c95f5b80947cac4ec3190896167f2cd247dc1a0/gehomesdk-0.5.8.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [wafer-debconf]: Downloading https://files.pythonhosted.org/packages/52/e2/56d9caf00642cba25c6eaea41bc4ceb2ff763d2a56cb31d05cb5a3786b68/wafer-debconf-0.8.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [grafana-client]: Downloading https://files.pythonhosted.org/packages/9e/0a/ef2ba7d60edb237634503c702a5189745d8e31d430c3e48e91c731fa934c/grafana-client-3.5.0.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/04/07/5ba22add89c69f07710d05939e00ef21530d783cffde5d9b2d37acaa2062/systembridgebackend-3.8.0.dev9.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-30 21:58:53] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/94/6f/85e9a85cb7aa8f8b9f20071b64309c24e01645d8fa1adeb26fadc7c7b39a/AutoQPF-0.1.6.tar.gz
+[2023-07-30 21:58:54] INFO root fetch - processPackages [tambus]: Downloading https://files.pythonhosted.org/packages/3c/28/3ea2122240be5076688def464fa09c2cdf8876e68b549aa79a25aac13d3f/tambus-1.0.0.tar.gz
+[2023-07-30 21:58:54] INFO root fetch - processPackages [logandprint]: Downloading https://files.pythonhosted.org/packages/ae/74/e0832a86e36685c90ef4ed4a9840e52cbda3e23fde3e09727bcf95f2925b/logandprint-1.1.tar.gz
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/5d/14/ca1060e76076aab267e2a6e7dccae7575d443a3075ccc7203d8704e52b3a/gehomesdk-0.5.9.tar.gz
+[2023-07-30 21:58:54] INFO root fetch - processPackages [grafana-client]: Downloading https://files.pythonhosted.org/packages/d8/14/035ee0d3e28a5a2d365e68b3dd2abb314032650d9389185d4ae80c2fa3fa/grafana-client-3.6.0.tar.gz
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev8.tar.gz tmp/systembridgebackend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgebackend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev8.tar.gz tmp/systembridgegui-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgegui/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [logandprint]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [logandprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logandprint-1.0.0.tar.gz tmp/logandprint-1.1.tar.gz --markdown 20230730/l/logandprint/1.0.0-1.1/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [AutoQPF]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [AutoQPF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoQPF-0.1.5.tar.gz tmp/AutoQPF-0.1.6.tar.gz --markdown 20230730/A/AutoQPF/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [tambus]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [tambus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tambus-0.2.0.tar.gz tmp/tambus-1.0.0.tar.gz --markdown 20230730/t/tambus/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [grafana-client]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [grafana-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana-client-3.5.0.tar.gz tmp/grafana-client-3.6.0.tar.gz --markdown 20230730/g/grafana-client/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-07-30 21:58:54] INFO root fetch - processPackages [gehomesdk]: executing diffoscope
+[2023-07-30 21:58:54] INFO root fetch - processPackages [gehomesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gehomesdk-0.5.8.tar.gz tmp/gehomesdk-0.5.9.tar.gz --markdown 20230730/g/gehomesdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-30 21:58:55] INFO root fetch - processPackages [wafer-debconf]: Downloading https://files.pythonhosted.org/packages/74/00/cbc3c873e82a5c38563d51661d3e29b8e617b13c9a20938bb99bc2b85e9d/wafer-debconf-0.9.tar.gz
+[2023-07-30 21:58:55] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.5.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.6.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
+[2023-07-30 21:58:55] INFO root fetch - processPackages [logandprint]: Remove: archive file [/home/abi/fetcher/tmp/logandprint-1.0.0.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - processPackages [logandprint]: Remove: archive file [/home/abi/fetcher/tmp/logandprint-1.1.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - main [MainThread]: End processing [logandprint]: success
+[2023-07-30 21:58:55] INFO root fetch - processPackages [tambus]: Remove: archive file [/home/abi/fetcher/tmp/tambus-0.2.0.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - processPackages [tambus]: Remove: archive file [/home/abi/fetcher/tmp/tambus-1.0.0.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - main [MainThread]: End processing [tambus]: success
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev8.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev9.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-30 21:58:55] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-30 21:58:56] INFO root fetch - processPackages [grafana-client]: Remove: archive file [/home/abi/fetcher/tmp/grafana-client-3.5.0.tar.gz]
+[2023-07-30 21:58:56] INFO root fetch - processPackages [grafana-client]: Remove: archive file [/home/abi/fetcher/tmp/grafana-client-3.6.0.tar.gz]
+[2023-07-30 21:58:56] INFO root fetch - main [MainThread]: End processing [grafana-client]: success
+[2023-07-30 21:58:56] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.8.tar.gz]
+[2023-07-30 21:58:56] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.9.tar.gz]
+[2023-07-30 21:58:56] INFO root fetch - main [MainThread]: End processing [gehomesdk]: success
+[2023-07-30 21:58:56] INFO root fetch - processPackages [wafer-debconf]: executing diffoscope
+[2023-07-30 21:58:56] INFO root fetch - processPackages [wafer-debconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafer-debconf-0.8.tar.gz tmp/wafer-debconf-0.9.tar.gz --markdown 20230730/w/wafer-debconf/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 21:59:04] INFO root fetch - processPackages [wafer-debconf]: Remove: archive file [/home/abi/fetcher/tmp/wafer-debconf-0.8.tar.gz]
+[2023-07-30 21:59:04] INFO root fetch - processPackages [wafer-debconf]: Remove: archive file [/home/abi/fetcher/tmp/wafer-debconf-0.9.tar.gz]
+[2023-07-30 21:59:04] INFO root fetch - main [MainThread]: End processing [wafer-debconf]: success
+[2023-07-30 21:59:04] INFO root fetch - main [MainThread]: Store serial: [19099037]
