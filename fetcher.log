@@ -4967,3 +4967,50 @@
 [2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [zood]: success
 [2023-07-30 07:36:54] INFO root fetch - main [MainThread]: End processing [local-llm-cli]: success
 [2023-07-30 07:36:54] INFO root fetch - main [MainThread]: Store serial: [19094054]
+[2023-07-30 07:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094054]
+[2023-07-30 07:42:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 07:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libs-n-utils-package-uq-2022
+[2023-07-30 07:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domain-admin
+[2023-07-30 07:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-07-30 07:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDolarVenezuela
+[2023-07-30 07:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i7api
+[2023-07-30 07:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pmcxcl
+[2023-07-30 07:42:02] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230729] Old Version: [2.14.0.dev20230728]
+[2023-07-30 07:42:02] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-30 07:42:02] WARNING root fetch - processPackages [i7api]: Skipping, unable to determine old version
+[2023-07-30 07:42:02] INFO root fetch - processPackages [domain-admin]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-30 07:42:02] INFO root fetch - main [MainThread]: End processing [i7api] error
+[2023-07-30 07:42:02] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: New version: [0.0.5.8] Old Version: [0.0.4]
+[2023-07-30 07:42:02] INFO root fetch - processPackages [pmcxcl]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 07:42:02] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/ff/30/c0a420cf546eb4bcc17c648f69f5e78d575e9de5daa2d94fefa8ac9beb14/tf_nightly_macos-2.14.0.dev20230728-cp39-cp39-macosx_11_0_arm64.whl
+[2023-07-30 07:42:02] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/7b/3a/e112529dcfc4a65df35d61c083277bf875a2b83ca5edc2897550707344fd/pyDolarVenezuela-1.1.2-py3-none-any.whl
+[2023-07-30 07:42:02] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/ae/d0/0704406abf870abcc97a89b28b930f7bb43e6f617242b4543ae49b44a01c/libs_n_utils_package_uq_2022-0.0.4.tar.gz
+[2023-07-30 07:42:02] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/31/68/a8df767e66283967c1c2866afb7582d2d3c191e3be04480b6792644bb5db/pmcxcl-0.0.5-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 07:42:03] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199985150>=10485760
+[2023-07-30 07:42:03] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-30 07:42:03] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/46/7b/e59642c890a515c84decdbdc942bb85c0303c75495c7edf7ad62943bdb9b/domain-admin-1.5.8.tar.gz
+[2023-07-30 07:42:03] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/d5/b8/180b11bf8415d9aba865b438ee1cfa35720666500127ef1a1c6e36e360ba/libs_n_utils_package_uq_2022-0.0.5.8.tar.gz
+[2023-07-30 07:42:03] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/c1/07/d969284b2411f32e800f1bed39bc190ae427dadfd14f38cbf62a1a8d2b57/pyDolarVenezuela-1.1.3-py3-none-any.whl
+[2023-07-30 07:42:03] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/41/c4/23d8323e23f9917276ba2825279771bb2f1e7fa6d734c266347f39707957/pmcxcl-0.0.6-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 07:42:03] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2023-07-30 07:42:03] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDolarVenezuela-1.1.2-py3-none-any.whl.zip tmp/pyDolarVenezuela-1.1.3-py3-none-any.whl.zip --markdown 20230730/p/pyDolarVenezuela/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-30 07:42:03] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: executing diffoscope
+[2023-07-30 07:42:03] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libs_n_utils_package_uq_2022-0.0.4.tar.gz tmp/libs_n_utils_package_uq_2022-0.0.5.8.tar.gz --markdown 20230730/l/libs-n-utils-package-uq-2022/0.0.4-0.0.5.8/diff.md --exclude *.pyd
+[2023-07-30 07:42:03] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/d1/f5/0a0805e50c6f90a19ce30965443913d08e8ed6da9a129cc51a34b646f744/domain-admin-1.5.9.tar.gz
+[2023-07-30 07:42:03] INFO root fetch - processPackages [pmcxcl]: executing diffoscope
+[2023-07-30 07:42:03] INFO root fetch - processPackages [pmcxcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmcxcl-0.0.5-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pmcxcl-0.0.6-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230730/p/pmcxcl/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-30 07:42:03] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-30 07:42:03] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.8.tar.gz tmp/domain-admin-1.5.9.tar.gz --markdown 20230730/d/domain-admin/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-30 07:42:04] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.1.2-py3-none-any.whl.zip]
+[2023-07-30 07:42:04] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pyDolarVenezuela-1.1.3-py3-none-any.whl.zip]
+[2023-07-30 07:42:04] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2023-07-30 07:42:04] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.4.tar.gz]
+[2023-07-30 07:42:04] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.5.8.tar.gz]
+[2023-07-30 07:42:04] INFO root fetch - main [MainThread]: End processing [libs-n-utils-package-uq-2022]: success
+[2023-07-30 07:42:04] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.5-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 07:42:04] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.6-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 07:42:04] INFO root fetch - main [MainThread]: End processing [pmcxcl]: success
+[2023-07-30 07:42:10] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.8.tar.gz]
+[2023-07-30 07:42:10] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.9.tar.gz]
+[2023-07-30 07:42:10] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-30 07:42:10] INFO root fetch - main [MainThread]: Store serial: [19094108]
