@@ -16328,3 +16328,94 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 22:59:55] INFO root fetch - processPackages [flota-app]: Remove: archive file [/home/abi/fetcher/tmp/flota_app-0.1.2.tar.gz]
 [2023-07-30 22:59:55] INFO root fetch - main [MainThread]: End processing [flota-app]: success
 [2023-07-30 22:59:55] INFO root fetch - main [MainThread]: Store serial: [19099348]
+[2023-07-30 23:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099348]
+[2023-07-30 23:05:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Python-Print-Tools
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zen-dash
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ecosystem-flask
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-test-helper
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maphis
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphscope
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphscope-client
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagster-polars
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-apps
+[2023-07-30 23:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gs-coordinator
+[2023-07-30 23:05:03] INFO root fetch - processPackages [Python-Print-Tools]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-30 23:05:03] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.3]
+[2023-07-30 23:05:03] INFO root fetch - processPackages [gs-coordinator]: New version: [0.24.0a20230729] Old Version: [0.24.0a20230728]
+[2023-07-30 23:05:03] INFO root fetch - processPackages [zen-dash]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-30 23:05:03] INFO root fetch - processPackages [python-test-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 23:05:03] INFO root fetch - processPackages [gs-apps]: New version: [0.24.0a20230729] Old Version: [0.24.0a20230728]
+[2023-07-30 23:05:03] INFO root fetch - processPackages [maphis]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 23:05:04] INFO root fetch - processPackages [graphscope-client]: New version: [0.24.0a20230729] Old Version: [0.24.0a20230728]
+[2023-07-30 23:05:04] INFO root fetch - processPackages [dagster-polars]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 23:05:04] INFO root fetch - processPackages [graphscope]: New version: [0.24.0a20230730] Old Version: [0.24.0a20230729]
+[2023-07-30 23:05:04] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/c2/c5/7c10619ab0474e1d0f812ca8441321f0989651c088004a698fdc864fce97/data_ecosystem_flask-202307.0.3.tar.gz
+[2023-07-30 23:05:04] INFO root fetch - processPackages [python-test-helper]: Downloading https://files.pythonhosted.org/packages/70/65/4f2fe78b398454c7aed74e5e1a5be954d79b2722aa258313731b59c87a15/python_test_helper-0.0.1.tar.gz
+[2023-07-30 23:05:04] INFO root fetch - processPackages [maphis]: Downloading https://files.pythonhosted.org/packages/f4/03/c9ce34e127df7d095f78cbd1270c51e33283b33614fcfe3cef76bf1260d1/maphis-1.0.5.tar.gz
+[2023-07-30 23:05:04] INFO root fetch - processPackages [Python-Print-Tools]: Downloading https://files.pythonhosted.org/packages/be/f0/cb5ff740b3630ab96ea28edb4ebea5840adb6ec00a06b0a930300e54d097/Python_Print_Tools-0.1.1-py3-none-any.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/49/9e/16f31b97daa6e2b048634c2fe0b4fde71dd6a449a83e58145edd0b4d5c68/zen_dash-0.6.0.tar.gz
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/ec/af/020ef8ced14601d107219e6f2d8968cc13a0e19a253406dd744d39ef8024/gs_coordinator-0.24.0a20230728-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/3a/60/a8b430f0154b281f98886300fcf614fead7bb4bd000b5a77162bb6f7a9e2/dagster_polars-0.0.5.tar.gz
+[2023-07-30 23:05:04] WARNING root fetch - processPackages [maphis]: Skipping package: exceeds size limit 19748846>=10485760
+[2023-07-30 23:05:04] INFO root fetch - processPackages [maphis]: Start processing: gs-engine
+[2023-07-30 23:05:04] INFO root fetch - main [MainThread]: End processing [maphis] error
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/c7/85/8bcfa5f36e00d36e89063cc2185891d9266b9b59ced9357b6902b06e580b/gs_apps-0.24.0a20230728-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/ba/e3/3f8203ac24c52c2795ba237fcd166b855e75c93d3d2f86e89faa9696e6f2/graphscope_client-0.24.0a20230728-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/2e/aa/c985fe7486d7ae45ec7ade5d3b1ac126e5a44d5b0c2e45985410d81d96b2/graphscope-0.24.0a20230729-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-engine]: New version: [0.24.0a20230729] Old Version: [0.24.0a20230728]
+[2023-07-30 23:05:04] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 46789693>=10485760
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-apps]: Start processing: gs-include
+[2023-07-30 23:05:04] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-07-30 23:05:04] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64944795>=10485760
+[2023-07-30 23:05:04] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-07-30 23:05:04] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211196349>=10485760
+[2023-07-30 23:05:04] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-07-30 23:05:04] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-include]: New version: [0.24.0a20230729] Old Version: [0.24.0a20230728]
+[2023-07-30 23:05:04] INFO root fetch - processPackages [python-test-helper]: Downloading https://files.pythonhosted.org/packages/e5/12/044e6779764d121faa6f62dd07360032611c9e8c212e280bdb504c228689/python_test_helper-0.0.2.tar.gz
+[2023-07-30 23:05:04] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-07-30 23:05:04] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.3.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230730/d/data-ecosystem-flask/202307.0.3-202307.0.4/diff.md --exclude *.pyd
+[2023-07-30 23:05:04] INFO root fetch - processPackages [Python-Print-Tools]: Downloading https://files.pythonhosted.org/packages/73/fe/44422a3caf14c17730578b04fe26ab24630912cf160cd4a926eb28a3383c/Python_Print_Tools-0.2.0-py3-none-any.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/7d/5a/418e1e047e70e2fe24a962e1541c5449a0b4920497d95e5bc9749d932280/gs_engine-0.24.0a20230728-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/de/cd/2a8bf9aaddfef8ef807655d416d188aa7b0fe1779c2ef3a03cbecb6664f0/dagster_polars-0.0.6.tar.gz
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/5a/9c/90a1f4eb45aec1692848eeb504e50ac9d975caafc11952edd56d5b42543a/gs_include-0.24.0a20230728-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [python-test-helper]: executing diffoscope
+[2023-07-30 23:05:04] INFO root fetch - processPackages [python-test-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_test_helper-0.0.1.tar.gz tmp/python_test_helper-0.0.2.tar.gz --markdown 20230730/p/python-test-helper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 23:05:04] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/1a/43/323462495510b765ac82cdef209fc474ef459d9aa3e4c5ae617700d7cbc2/gs_coordinator-0.24.0a20230729-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-30 23:05:04] INFO root fetch - processPackages [Python-Print-Tools]: executing diffoscope
+[2023-07-30 23:05:04] INFO root fetch - processPackages [Python-Print-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_Print_Tools-0.1.1-py3-none-any.whl.zip tmp/Python_Print_Tools-0.2.0-py3-none-any.whl.zip --markdown 20230730/P/Python-Print-Tools/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 23:05:04] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 32294170>=10485760
+[2023-07-30 23:05:04] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-07-30 23:05:04] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/8a/b4/7e2ee3cb2ce0811509dcb0195055f1ea31cce1aef2718a2d8188e3cf994d/zen_dash-0.6.1.tar.gz
+[2023-07-30 23:05:05] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-07-30 23:05:05] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.24.0a20230728-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.24.0a20230729-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230730/g/gs-coordinator/0.24.0a20230728-0.24.0a20230729/diff.md --exclude *.pyd
+[2023-07-30 23:05:05] INFO root fetch - processPackages [dagster-polars]: executing diffoscope
+[2023-07-30 23:05:05] INFO root fetch - processPackages [dagster-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_polars-0.0.5.tar.gz tmp/dagster_polars-0.0.6.tar.gz --markdown 20230730/d/dagster-polars/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-30 23:05:05] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/03/c5/7ff504bf981c007a38db5e6272cd02d17af7fbc32e7559a5fb85f9140ee6/gs_engine-0.24.0a20230729-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-30 23:05:05] INFO root fetch - processPackages [zen-dash]: executing diffoscope
+[2023-07-30 23:05:05] INFO root fetch - processPackages [zen-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_dash-0.6.0.tar.gz tmp/zen_dash-0.6.1.tar.gz --markdown 20230730/z/zen-dash/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-30 23:05:05] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-07-30 23:05:05] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.24.0a20230728-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.24.0a20230729-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230730/g/gs-engine/0.24.0a20230728-0.24.0a20230729/diff.md --exclude *.pyd
+[2023-07-30 23:05:05] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.3.tar.gz]
+[2023-07-30 23:05:05] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-07-30 23:05:05] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-07-30 23:05:05] INFO root fetch - processPackages [python-test-helper]: Remove: archive file [/home/abi/fetcher/tmp/python_test_helper-0.0.1.tar.gz]
+[2023-07-30 23:05:05] INFO root fetch - processPackages [python-test-helper]: Remove: archive file [/home/abi/fetcher/tmp/python_test_helper-0.0.2.tar.gz]
+[2023-07-30 23:05:05] INFO root fetch - main [MainThread]: End processing [python-test-helper]: success
+[2023-07-30 23:05:05] INFO root fetch - processPackages [Python-Print-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Print_Tools-0.1.1-py3-none-any.whl.zip]
+[2023-07-30 23:05:05] INFO root fetch - processPackages [Python-Print-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Print_Tools-0.2.0-py3-none-any.whl.zip]
+[2023-07-30 23:05:05] INFO root fetch - main [MainThread]: End processing [Python-Print-Tools]: success
+[2023-07-30 23:05:06] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.5.tar.gz]
+[2023-07-30 23:05:06] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.6.tar.gz]
+[2023-07-30 23:05:06] INFO root fetch - main [MainThread]: End processing [dagster-polars]: success
+[2023-07-30 23:05:06] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230728-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-30 23:05:06] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230729-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-30 23:05:06] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-07-30 23:05:06] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230728-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-30 23:05:06] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230729-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-30 23:05:06] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-07-30 23:05:06] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.0.tar.gz]
+[2023-07-30 23:05:06] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.1.tar.gz]
+[2023-07-30 23:05:06] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
+[2023-07-30 23:05:06] INFO root fetch - main [MainThread]: Store serial: [19099379]
