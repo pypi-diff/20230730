@@ -5404,3 +5404,51 @@
 [2023-07-30 08:23:39] INFO root fetch - processPackages [magnus]: Remove: archive file [/home/abi/fetcher/tmp/magnus-0.4.9.tar.gz]
 [2023-07-30 08:23:39] INFO root fetch - main [MainThread]: End processing [magnus]: success
 [2023-07-30 08:23:39] INFO root fetch - main [MainThread]: Store serial: [19094262]
+[2023-07-30 08:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094262]
+[2023-07-30 08:28:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-07-30 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FSRS-Optimizer
+[2023-07-30 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uniserde
+[2023-07-30 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Linguify
+[2023-07-30 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: innovationmerge
+[2023-07-30 08:28:48] INFO root fetch - processPackages [innovationmerge]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-30 08:28:48] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.5.4] Old Version: [4.5.3]
+[2023-07-30 08:28:48] INFO root fetch - processPackages [Linguify]: New version: [1] Old Version: [0.0.0]
+[2023-07-30 08:28:48] INFO root fetch - processPackages [uniserde]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-30 08:28:48] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230730] Old Version: [20230729]
+[2023-07-30 08:28:48] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/25/f0/a048325ace816ee131aef271f8758b6f72a7ff1915691d2a91a6f97a6ef4/FSRS-Optimizer-4.5.3.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [uniserde]: Downloading https://files.pythonhosted.org/packages/6d/18/5049e2dc202f42ff82e23876082ab8f31954af565351e79f383ac5b2be50/uniserde-0.3.3.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ec/ba/b0904f11f1e1a2906a9624fb0ab5b6c33a6f79818d50dc19f0094da50cdf/fake-bpy-module-latest-20230729.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/b9/e7/0d338615719952a8fdcfb4d0d5ad88da0f482dccc544ed5cec5490e572ad/Linguify-0.0.0.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [innovationmerge]: Downloading https://files.pythonhosted.org/packages/55/19/aad5224307b44d353e439d0fb9a0984496c66fb995c626da930b5ba4a61d/innovationmerge-1.0.6.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/df/c5/1de20ba6cf70de09f02f5f5b06e8b0a4061d7b331cb0d63c8411dbfd056c/FSRS-Optimizer-4.5.4.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [uniserde]: Downloading https://files.pythonhosted.org/packages/74/e0/11128ac24e662255f329517f964b49dddd8b71c69c9e709b2695c91761f8/uniserde-0.3.4.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/80/2b/0f57fa13cac1cf7cfe4a681b600a36e123032281f175e78ed93f95988b92/Linguify-1.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [innovationmerge]: Downloading https://files.pythonhosted.org/packages/fb/a4/e1b19a9cf8b2191e2fa026e759166f19b312cbb62b4168da92ddc36f5a9f/innovationmerge-1.0.7.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/23/89/2e5b19b6531df461c2f77d604be7a51b38030a71493546f7fd559d59284e/fake-bpy-module-latest-20230730.tar.gz
+[2023-07-30 08:28:48] INFO root fetch - processPackages [uniserde]: executing diffoscope
+[2023-07-30 08:28:48] INFO root fetch - processPackages [uniserde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniserde-0.3.3.tar.gz tmp/uniserde-0.3.4.tar.gz --markdown 20230730/u/uniserde/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-30 08:28:48] INFO root fetch - processPackages [Linguify]: executing diffoscope
+[2023-07-30 08:28:48] INFO root fetch - processPackages [Linguify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Linguify-0.0.0.tar.gz tmp/Linguify-1.tar.gz --markdown 20230730/L/Linguify/0.0.0-1/diff.md --exclude *.pyd
+[2023-07-30 08:28:48] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-07-30 08:28:48] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.5.3.tar.gz tmp/FSRS-Optimizer-4.5.4.tar.gz --markdown 20230730/F/FSRS-Optimizer/4.5.3-4.5.4/diff.md --exclude *.pyd
+[2023-07-30 08:28:48] INFO root fetch - processPackages [innovationmerge]: executing diffoscope
+[2023-07-30 08:28:48] INFO root fetch - processPackages [innovationmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innovationmerge-1.0.6.tar.gz tmp/innovationmerge-1.0.7.tar.gz --markdown 20230730/i/innovationmerge/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-30 08:28:49] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-30 08:28:49] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230729.tar.gz tmp/fake-bpy-module-latest-20230730.tar.gz --markdown 20230730/f/fake-bpy-module-latest/20230729-20230730/diff.md --exclude *.pyd
+[2023-07-30 08:28:49] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.3.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.4.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-07-30 08:28:49] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-0.0.0.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-1.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - main [MainThread]: End processing [Linguify]: success
+[2023-07-30 08:28:49] INFO root fetch - processPackages [innovationmerge]: Remove: archive file [/home/abi/fetcher/tmp/innovationmerge-1.0.6.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - processPackages [innovationmerge]: Remove: archive file [/home/abi/fetcher/tmp/innovationmerge-1.0.7.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - main [MainThread]: End processing [innovationmerge]: success
+[2023-07-30 08:28:49] INFO root fetch - processPackages [uniserde]: Remove: archive file [/home/abi/fetcher/tmp/uniserde-0.3.3.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - processPackages [uniserde]: Remove: archive file [/home/abi/fetcher/tmp/uniserde-0.3.4.tar.gz]
+[2023-07-30 08:28:49] INFO root fetch - main [MainThread]: End processing [uniserde]: success
+[2023-07-30 08:28:52] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230729.tar.gz]
+[2023-07-30 08:28:52] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230730.tar.gz]
+[2023-07-30 08:28:52] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-30 08:28:52] INFO root fetch - main [MainThread]: Store serial: [19094279]
