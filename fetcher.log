@@ -3835,3 +3835,36 @@
 [2023-07-30 05:31:54] INFO root fetch - processPackages [tnnt-templates]: Remove: archive file [/home/abi/fetcher/tmp/tnnt_templates-2.9.2.tar.gz]
 [2023-07-30 05:31:54] INFO root fetch - main [MainThread]: End processing [tnnt-templates]: success
 [2023-07-30 05:31:54] INFO root fetch - main [MainThread]: Store serial: [19093557]
+[2023-07-30 05:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093557]
+[2023-07-30 05:37:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 05:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentloop
+[2023-07-30 05:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scranpy
+[2023-07-30 05:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Linguify
+[2023-07-30 05:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsws
+[2023-07-30 05:37:02] WARNING root fetch - processPackages [Linguify]: Skipping, unable to determine old version
+[2023-07-30 05:37:02] INFO root fetch - main [MainThread]: End processing [Linguify] error
+[2023-07-30 05:37:02] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 05:37:02] INFO root fetch - processPackages [scranpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 05:37:02] INFO root fetch - processPackages [agentloop]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-30 05:37:02] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 05:37:02] INFO root fetch - processPackages [agentloop]: Downloading https://files.pythonhosted.org/packages/54/61/c30006f16bf03937398a88e8c45d9278b3a0a4beca271cfecfbfeabed162/agentloop-0.2.0.tar.gz
+[2023-07-30 05:37:02] INFO root fetch - processPackages [scranpy]: Downloading https://files.pythonhosted.org/packages/8b/7b/a6920cfa4ae349e2f68b1d448002ac4caf8272ce7828c75387efe27d2394/scranpy-0.0.1.tar.gz
+[2023-07-30 05:37:03] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 05:37:03] INFO root fetch - processPackages [agentloop]: Downloading https://files.pythonhosted.org/packages/27/e4/d8028439f5d465f478bb0030f7d384af13640f4271c75c7d4d32f8b71770/agentloop-0.2.1.tar.gz
+[2023-07-30 05:37:03] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 05:37:03] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 05:37:03] INFO root fetch - processPackages [scranpy]: Downloading https://files.pythonhosted.org/packages/55/c7/177750df9ac193501972728bcc8b2bfbfb2a96139b86bd660923177a136d/scranpy-0.0.2.tar.gz
+[2023-07-30 05:37:03] INFO root fetch - processPackages [agentloop]: executing diffoscope
+[2023-07-30 05:37:03] INFO root fetch - processPackages [agentloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentloop-0.2.0.tar.gz tmp/agentloop-0.2.1.tar.gz --markdown 20230730/a/agentloop/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 05:37:03] INFO root fetch - processPackages [scranpy]: executing diffoscope
+[2023-07-30 05:37:03] INFO root fetch - processPackages [scranpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scranpy-0.0.1.tar.gz tmp/scranpy-0.0.2.tar.gz --markdown 20230730/s/scranpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 05:37:03] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 05:37:03] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 05:37:03] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 05:37:04] INFO root fetch - processPackages [agentloop]: Remove: archive file [/home/abi/fetcher/tmp/agentloop-0.2.0.tar.gz]
+[2023-07-30 05:37:04] INFO root fetch - processPackages [agentloop]: Remove: archive file [/home/abi/fetcher/tmp/agentloop-0.2.1.tar.gz]
+[2023-07-30 05:37:04] INFO root fetch - main [MainThread]: End processing [agentloop]: success
+[2023-07-30 05:37:04] INFO root fetch - processPackages [scranpy]: Remove: archive file [/home/abi/fetcher/tmp/scranpy-0.0.1.tar.gz]
+[2023-07-30 05:37:04] INFO root fetch - processPackages [scranpy]: Remove: archive file [/home/abi/fetcher/tmp/scranpy-0.0.2.tar.gz]
+[2023-07-30 05:37:04] INFO root fetch - main [MainThread]: End processing [scranpy]: success
+[2023-07-30 05:37:04] INFO root fetch - main [MainThread]: Store serial: [19093581]
