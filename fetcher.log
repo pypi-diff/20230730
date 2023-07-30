@@ -5473,3 +5473,42 @@
 [2023-07-30 08:34:02] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6951.tar.gz]
 [2023-07-30 08:34:02] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-30 08:34:02] INFO root fetch - main [MainThread]: Store serial: [19094284]
+[2023-07-30 08:39:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094284]
+[2023-07-30 08:39:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 08:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sklearn2pmml
+[2023-07-30 08:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OneOnOne
+[2023-07-30 08:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi-absa
+[2023-07-30 08:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-07-30 08:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OneOnOne
+[2023-07-30 08:39:11] INFO root fetch - processPackages [OneOnOne]: New version: [0.6953] Old Version: [0.6952]
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-30 08:39:11] INFO root fetch - processPackages [OneOnOne]: New version: [0.6953] Old Version: [0.6952]
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.96.0] Old Version: [0.95.1]
+[2023-07-30 08:39:11] WARNING root fetch - processPackages [hyfi-absa]: Skipping, unable to determine old version
+[2023-07-30 08:39:11] INFO root fetch - main [MainThread]: End processing [hyfi-absa] error
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-30 08:39:11] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b0/58/fe9a2860f04eaa7a6bf004f220f10db1705ff15f0bebfe9a16a899a283f4/OneOnOne-0.6952.tar.gz
+[2023-07-30 08:39:11] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b0/58/fe9a2860f04eaa7a6bf004f220f10db1705ff15f0bebfe9a16a899a283f4/OneOnOne-0.6952.tar.gz
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/c3/32/60f7f690ac6d9069bcabc3040ea371c366651ff225dc03942c1c32bfbbb0/sklearn2pmml-0.95.1.tar.gz
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230730/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-30 08:39:11] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/1f/b3/09e75f80b0fda7765c7992394d692394492f7b174a2815401fda5a273178/OneOnOne-0.6953.tar.gz
+[2023-07-30 08:39:11] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/1f/b3/09e75f80b0fda7765c7992394d692394492f7b174a2815401fda5a273178/OneOnOne-0.6953.tar.gz
+[2023-07-30 08:39:11] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/73/cb/a67b6782d9c350ee0f5573021f3ae8fbe77508eb1c0479ba363566ac36af/sklearn2pmml-0.96.0.tar.gz
+[2023-07-30 08:39:12] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 08:39:12] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6952.tar.gz tmp/OneOnOne-0.6953.tar.gz --markdown 20230730/O/OneOnOne/0.6952-0.6953/diff.md --exclude *.pyd
+[2023-07-30 08:39:12] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 08:39:12] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6952.tar.gz tmp/OneOnOne-0.6953.tar.gz --markdown 20230730/O/OneOnOne/0.6952-0.6953/diff.md --exclude *.pyd
+[2023-07-30 08:39:12] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2023-07-30 08:39:12] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.95.1.tar.gz tmp/sklearn2pmml-0.96.0.tar.gz --markdown 20230730/s/sklearn2pmml/0.95.1-0.96.0/diff.md --exclude *.pyd
+[2023-07-30 08:39:12] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-30 08:39:12] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-30 08:39:12] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-30 08:39:13] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6952.tar.gz]
+[2023-07-30 08:39:13] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6953.tar.gz]
+[2023-07-30 08:39:13] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 08:39:13] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 08:42:12] ERROR root fetch - processPackages [sklearn2pmml]: Timeout during execution of pkgdiff
+[2023-07-30 08:42:12] INFO root fetch - main [MainThread]: End processing [sklearn2pmml] error
+[2023-07-30 08:42:12] INFO root fetch - main [MainThread]: Store serial: [19094298]
