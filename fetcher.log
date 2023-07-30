@@ -14193,3 +14193,72 @@
 [2023-07-30 20:19:48] INFO root fetch - processPackages [commandparse]: Remove: archive file [/home/abi/fetcher/tmp/commandparse-1.1.2.tar.gz]
 [2023-07-30 20:19:48] INFO root fetch - main [MainThread]: End processing [commandparse]: success
 [2023-07-30 20:19:48] INFO root fetch - main [MainThread]: Store serial: [19098297]
+[2023-07-30 20:24:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098297]
+[2023-07-30 20:24:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nichord
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lions-410e-midyear-2023-common
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-secure-vpc-bucket
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netscorpion
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teneva-bm
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-ecs-fargate-task-termination-detection-event-rule
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ScriptCollection
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: androidtvremote2
+[2023-07-30 20:24:57] WARNING root fetch - processPackages [netscorpion]: Skipping, unable to determine old version
+[2023-07-30 20:24:57] INFO root fetch - main [MainThread]: End processing [netscorpion] error
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ScriptCollection]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-07-30 20:24:57] INFO root fetch - processPackages [nichord]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-30 20:24:57] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-30 20:24:57] INFO root fetch - processPackages [lions-410e-midyear-2023-common]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-30 20:24:57] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-30 20:24:57] INFO root fetch - processPackages [androidtvremote2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 20:24:57] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/ac/2d/3608b3325d4750a1f330b5a425218960f57e89b27615ffadc1c18a4d3b67/gammarer.aws-secure-vpc-bucket-0.5.8.tar.gz
+[2023-07-30 20:24:57] INFO root fetch - processPackages [teneva-bm]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-30 20:24:57] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/e7/f6/7a1008bfd7de3672bac25999e1765607986faa2c241eff4089e71a1301b6/nichord-0.1.9.tar.gz
+[2023-07-30 20:24:57] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/24/46/5890bc58225c6616a9f9ad7d0d19d9b76e83ed421a6a602cdb88e6075195/ScriptCollection-3.4.7-py3-none-any.whl
+[2023-07-30 20:24:57] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/df/79/de75e268ced8265f0236fc0c57a53bb8c2d88d4e90b3c3e0a0b87f048615/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz
+[2023-07-30 20:24:57] INFO root fetch - processPackages [lions-410e-midyear-2023-common]: Downloading https://files.pythonhosted.org/packages/48/a5/315b0ebf842cf22169ddd1f44aeb6b7bd668d7c19e9d0018bb81151da374/lions_410e_midyear_2023_common-1.1.0.tar.gz
+[2023-07-30 20:24:57] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/72/68/993e74239cadf9963605ec934a40149863c362fee5a64cb5b09c723aaa54/teneva_bm-0.5.0.tar.gz
+[2023-07-30 20:24:57] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/19/6f/aad4c2068cc9383cad1fe138f54fed29dd5f9e1268af2aff976a1fac7998/androidtvremote2-0.0.8.tar.gz
+[2023-07-30 20:24:57] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/92/06/8554960acd022a029cfa24db543e5c4d268e897550f38a47a8cd20049f11/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz
+[2023-07-30 20:24:58] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/c7/e3/724d40f647e0f9c9266676d8e0a5644d591def8f3febf064538d3d138e4e/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz
+[2023-07-30 20:24:58] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/d8/11/b705a85185a59f1cafbc49d7f5d348e2fdfcbfb5239847023bd69b8b066b/nichord-0.2.0.tar.gz
+[2023-07-30 20:24:58] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/94/6a/9f7c695146680fa3c59ffe6929ee98ec36dcb44c263994d81dadb25a0d27/ScriptCollection-3.4.8-py3-none-any.whl
+[2023-07-30 20:24:58] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: executing diffoscope
+[2023-07-30 20:24:58] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-vpc-bucket-0.5.8.tar.gz tmp/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz --markdown 20230730/g/gammarer.aws-secure-vpc-bucket/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-30 20:24:58] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: executing diffoscope
+[2023-07-30 20:24:58] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz --markdown 20230730/g/gammarer.aws-ecs-fargate-task-termination-detection-event-rule/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-30 20:24:58] INFO root fetch - processPackages [nichord]: executing diffoscope
+[2023-07-30 20:24:58] INFO root fetch - processPackages [nichord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nichord-0.1.9.tar.gz tmp/nichord-0.2.0.tar.gz --markdown 20230730/n/nichord/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 20:24:58] INFO root fetch - processPackages [ScriptCollection]: executing diffoscope
+[2023-07-30 20:24:58] INFO root fetch - processPackages [ScriptCollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScriptCollection-3.4.7-py3-none-any.whl.zip tmp/ScriptCollection-3.4.8-py3-none-any.whl.zip --markdown 20230730/S/ScriptCollection/3.4.7-3.4.8/diff.md --exclude *.pyd
+[2023-07-30 20:24:58] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/6d/86/15f7a8e4bf5e72dc53d6e06af7cfd607640a6ae6337f4868bbe9fc3492ef/teneva_bm-0.6.0.tar.gz
+[2023-07-30 20:24:58] INFO root fetch - processPackages [lions-410e-midyear-2023-common]: Downloading https://files.pythonhosted.org/packages/7a/4c/120283b499f83f7014904975f8ff95ed0db9582e311d60a57ac46bc60139/lions_410e_midyear_2023_common-1.2.0.tar.gz
+[2023-07-30 20:24:58] INFO root fetch - processPackages [androidtvremote2]: Downloading https://files.pythonhosted.org/packages/cc/6a/ab72650e40a1acb300b90bde94ec90521ee06fd0c067dfd12c6c2d7c2697/androidtvremote2-0.0.9.tar.gz
+[2023-07-30 20:24:58] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-07-30 20:24:58] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.5.0.tar.gz tmp/teneva_bm-0.6.0.tar.gz --markdown 20230730/t/teneva-bm/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-30 20:24:58] INFO root fetch - processPackages [lions-410e-midyear-2023-common]: executing diffoscope
+[2023-07-30 20:24:58] INFO root fetch - processPackages [lions-410e-midyear-2023-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions_410e_midyear_2023_common-1.1.0.tar.gz tmp/lions_410e_midyear_2023_common-1.2.0.tar.gz --markdown 20230730/l/lions-410e-midyear-2023-common/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-30 20:24:58] INFO root fetch - processPackages [androidtvremote2]: executing diffoscope
+[2023-07-30 20:24:58] INFO root fetch - processPackages [androidtvremote2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androidtvremote2-0.0.8.tar.gz tmp/androidtvremote2-0.0.9.tar.gz --markdown 20230730/a/androidtvremote2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 20:24:59] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.8.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
+[2023-07-30 20:24:59] INFO root fetch - processPackages [nichord]: Remove: archive file [/home/abi/fetcher/tmp/nichord-0.1.9.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - processPackages [nichord]: Remove: archive file [/home/abi/fetcher/tmp/nichord-0.2.0.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [nichord]: success
+[2023-07-30 20:24:59] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.7-py3-none-any.whl.zip]
+[2023-07-30 20:24:59] INFO root fetch - processPackages [ScriptCollection]: Remove: archive file [/home/abi/fetcher/tmp/ScriptCollection-3.4.8-py3-none-any.whl.zip]
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
+[2023-07-30 20:24:59] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: success
+[2023-07-30 20:24:59] INFO root fetch - processPackages [lions-410e-midyear-2023-common]: Remove: archive file [/home/abi/fetcher/tmp/lions_410e_midyear_2023_common-1.1.0.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - processPackages [lions-410e-midyear-2023-common]: Remove: archive file [/home/abi/fetcher/tmp/lions_410e_midyear_2023_common-1.2.0.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [lions-410e-midyear-2023-common]: success
+[2023-07-30 20:24:59] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.5.0.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.6.0.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-07-30 20:24:59] INFO root fetch - processPackages [androidtvremote2]: Remove: archive file [/home/abi/fetcher/tmp/androidtvremote2-0.0.8.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - processPackages [androidtvremote2]: Remove: archive file [/home/abi/fetcher/tmp/androidtvremote2-0.0.9.tar.gz]
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: End processing [androidtvremote2]: success
+[2023-07-30 20:24:59] INFO root fetch - main [MainThread]: Store serial: [19098325]
