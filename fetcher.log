@@ -11890,3 +11890,162 @@
 [2023-07-30 17:14:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.1rc2.tar.gz]
 [2023-07-30 17:14:13] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-07-30 17:14:13] INFO root fetch - main [MainThread]: Store serial: [19097242]
+[2023-07-30 17:19:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097242]
+[2023-07-30 17:19:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpforecaster
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leap-model-parser
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfury
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtdraw
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tartube
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specfabpy
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opet
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imarkdown
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfx-ann-ct-pipeline
+[2023-07-30 17:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: systembridgeshared
+[2023-07-30 17:19:22] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.99] Old Version: [0.3.98]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [pyfury]: New version: [0.1.0a4] Old Version: [0.0.1.dev0]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [qtdraw]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-30 17:19:22] WARNING root fetch - processPackages [opet]: Skipping, unable to determine old version
+[2023-07-30 17:19:22] INFO root fetch - processPackages [opet]: Start processing: leprikon
+[2023-07-30 17:19:22] INFO root fetch - main [MainThread]: End processing [opet] error
+[2023-07-30 17:19:22] INFO root fetch - processPackages [imarkdown]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [specfabpy]: New version: [2023.7.30] Old Version: [2023.5.26]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [tartube]: New version: [2.4.93] Old Version: [2.4.8]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [leprikon]: New version: [3.5.0] Old Version: [3.0.0]
+[2023-07-30 17:19:22] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/25/c0/dbfb8dc836cc97117d1e591e2d760f7fd951a5ef260b28355447a22fc59d/leprikon-3.0.0.tar.gz
+[2023-07-30 17:19:22] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/f9/50/6523c659861818aaf52b42a9c19099c28e8894d37e89b2e6ee08016173a1/gpforecaster-0.3.98.tar.gz
+[2023-07-30 17:19:22] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/79/f6/ff5816371e6f6f09316aff68c7927337f9230fe762e5b9246df4eeeca99b/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl
+[2023-07-30 17:19:22] INFO root fetch - processPackages [qtdraw]: Downloading https://files.pythonhosted.org/packages/29/0f/36591a2654c9c61f02f183b29eb6cbeb473286fd327938554c130aca6800/qtdraw-1.1.4.tar.gz
+[2023-07-30 17:19:22] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: Downloading https://files.pythonhosted.org/packages/67/99/cba730d8e7499c6e709b0fd66754b281bc9abe15e130c0005e485f925909/tfx-ann-ct-pipeline-0.0.1.tar.gz
+[2023-07-30 17:19:22] INFO root fetch - processPackages [tartube]: Downloading https://files.pythonhosted.org/packages/5b/2e/b8c25a1e8f40c4a287b24d28815b07ff2ca0979f2596748e98781e3fd6bb/tartube-2.4.8.tar.gz
+[2023-07-30 17:19:22] INFO root fetch - processPackages [imarkdown]: Downloading https://files.pythonhosted.org/packages/2e/f0/3db530d0984104764c0586e78eac8777c86abae08bfc60d627dfac039ca8/imarkdown-1.1.1.tar.gz
+[2023-07-30 17:19:22] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [specfabpy]: Downloading https://files.pythonhosted.org/packages/ba/b0/d5898a15f612bfe30fc6e7fa70105ccdfe7a6fc7228b19a0134a3c2679bf/specfabpy-2023.5.26-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 17:19:23] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/2e/f7/289dee13abd52439bfa65247c7911a76b3c75c32a956dceb3b395e6cfd1b/leprikon-3.5.0.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: Downloading https://files.pythonhosted.org/packages/32/67/89662775335141c7f5a8529414565ffe52d5683c2edbb6069cba9ea17d00/tfx-ann-ct-pipeline-0.0.2.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/55/4a/abb8d729cce08753e894bde77a798a8d511f146cc78964011fdcf2c4c76c/gpforecaster-0.3.99.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [qtdraw]: Downloading https://files.pythonhosted.org/packages/25/2e/12f19fedbe187d2686295e835bb6afdf39e9db7aba987cb74f1d48f0db79/qtdraw-1.1.5.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [imarkdown]: Downloading https://files.pythonhosted.org/packages/e0/e5/773da99d700348aef4293c4a2d6f1d5e0cc172e6afac08bb796c40cef57d/imarkdown-1.1.2.tar.gz
+[2023-07-30 17:19:23] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.98.tar.gz tmp/gpforecaster-0.3.99.tar.gz --markdown 20230730/g/gpforecaster/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2023-07-30 17:19:23] INFO root fetch - processPackages [pyfury]: Downloading https://files.pythonhosted.org/packages/2e/b5/b26d1bd1eb314f25d6df1a4dd3454127ecc5aef28191894eab1b4be3563c/pyfury-0.1.0a4-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-30 17:19:23] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfx-ann-ct-pipeline-0.0.1.tar.gz tmp/tfx-ann-ct-pipeline-0.0.2.tar.gz --markdown 20230730/t/tfx-ann-ct-pipeline/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-30 17:19:23] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:19:23] INFO root fetch - processPackages [qtdraw]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [qtdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtdraw-1.1.4.tar.gz tmp/qtdraw-1.1.5.tar.gz --markdown 20230730/q/qtdraw/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-30 17:19:23] INFO root fetch - processPackages [imarkdown]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [imarkdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imarkdown-1.1.1.tar.gz tmp/imarkdown-1.1.2.tar.gz --markdown 20230730/i/imarkdown/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-30 17:19:23] INFO root fetch - processPackages [leprikon]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [leprikon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leprikon-3.0.0.tar.gz tmp/leprikon-3.5.0.tar.gz --markdown 20230730/l/leprikon/3.0.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-30 17:19:23] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230730/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-30 17:19:23] INFO root fetch - processPackages [pyfury]: executing diffoscope
+[2023-07-30 17:19:23] INFO root fetch - processPackages [pyfury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl.zip tmp/pyfury-0.1.0a4-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230730/p/pyfury/0.0.1.dev0-0.1.0a4/diff.md --exclude *.pyd
+[2023-07-30 17:19:24] INFO root fetch - processPackages [specfabpy]: Downloading https://files.pythonhosted.org/packages/e2/7b/89987f08f5b0d2f8a681cb0247d39c247eba86f3b49361d24347c695690b/specfabpy-2023.7.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-30 17:19:24] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.98.tar.gz]
+[2023-07-30 17:19:24] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.99.tar.gz]
+[2023-07-30 17:19:24] INFO root fetch - processPackages [gpforecaster]: Start processing: arlpy
+[2023-07-30 17:19:24] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-30 17:19:24] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/tfx-ann-ct-pipeline-0.0.1.tar.gz]
+[2023-07-30 17:19:24] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/tfx-ann-ct-pipeline-0.0.2.tar.gz]
+[2023-07-30 17:19:24] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: Start processing: TheSilent
+[2023-07-30 17:19:24] INFO root fetch - main [MainThread]: End processing [tfx-ann-ct-pipeline]: success
+[2023-07-30 17:19:24] INFO root fetch - processPackages [arlpy]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgeshared]: Start processing: systembridgecli
+[2023-07-30 17:19:25] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-30 17:19:25] INFO root fetch - processPackages [imarkdown]: Remove: archive file [/home/abi/fetcher/tmp/imarkdown-1.1.1.tar.gz]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [imarkdown]: Remove: archive file [/home/abi/fetcher/tmp/imarkdown-1.1.2.tar.gz]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [imarkdown]: Start processing: systembridgebackend
+[2023-07-30 17:19:25] INFO root fetch - main [MainThread]: End processing [imarkdown]: success
+[2023-07-30 17:19:25] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [specfabpy]: executing diffoscope
+[2023-07-30 17:19:25] INFO root fetch - processPackages [specfabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specfabpy-2023.5.26-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/specfabpy-2023.7.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230730/s/specfabpy/2023.5.26-2023.7.30/diff.md --exclude *.pyd
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [arlpy]: Downloading https://files.pythonhosted.org/packages/49/f2/bdd325055529e6476788aad491b8b7e0e6ffae0505568cf2c7284475b214/arlpy-1.8.2.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [qtdraw]: Remove: archive file [/home/abi/fetcher/tmp/qtdraw-1.1.4.tar.gz]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [qtdraw]: Remove: archive file [/home/abi/fetcher/tmp/qtdraw-1.1.5.tar.gz]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [qtdraw]: Start processing: systembridgewindowssensors
+[2023-07-30 17:19:25] INFO root fetch - main [MainThread]: End processing [qtdraw]: success
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.0.1.dev0-cp36-cp36m-macosx_10_13_x86_64.whl.zip]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [pyfury]: Remove: archive file [/home/abi/fetcher/tmp/pyfury-0.1.0a4-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [pyfury]: Start processing: budgeteer
+[2023-07-30 17:19:25] INFO root fetch - main [MainThread]: End processing [pyfury]: success
+[2023-07-30 17:19:25] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/c7/4a/5fc463ab7a4a2ffe0ddaab3429c2862bf5b779006f76f66be6657ecbdc4b/systembridgebackend-3.8.0.dev8.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [budgeteer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-30 17:19:25] INFO root fetch - processPackages [arlpy]: Downloading https://files.pythonhosted.org/packages/00/c0/8c0c212ad99b1961da8f5d6e4a99adafcf06f0f2b0b1ffc7be7ef156e280/arlpy-1.8.3.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-30 17:19:25] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230730/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 17:19:25] INFO root fetch - processPackages [arlpy]: executing diffoscope
+[2023-07-30 17:19:25] INFO root fetch - processPackages [arlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlpy-1.8.2.tar.gz tmp/arlpy-1.8.3.tar.gz --markdown 20230730/a/arlpy/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-30 17:19:25] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/1e/fc/852597ececf6e8953815c07c45094c5a64fb3bba23ffe771a61d7f8ac26c/budgeteer-0.1.0.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/04/07/5ba22add89c69f07710d05939e00ef21530d783cffde5d9b2d37acaa2062/systembridgebackend-3.8.0.dev9.tar.gz
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-30 17:19:25] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:19:26] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-30 17:19:26] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev8.tar.gz tmp/systembridgebackend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgebackend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:19:26] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/f6/4b/c806cd9cf26fbfbbb43d00600ce79f6c7cc7e0bf00e8fff194bb2e4738d3/budgeteer-0.1.1.tar.gz
+[2023-07-30 17:19:26] INFO root fetch - processPackages [tartube]: Downloading https://files.pythonhosted.org/packages/f9/ec/e2bfdd9302a52757fbf0a83ce41fc44410435ec0c6cc07fad131aa742c6b/tartube-2.4.93.tar.gz
+[2023-07-30 17:19:26] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-30 17:19:26] INFO root fetch - processPackages [budgeteer]: executing diffoscope
+[2023-07-30 17:19:26] INFO root fetch - processPackages [budgeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgeteer-0.1.0.tar.gz tmp/budgeteer-0.1.1.tar.gz --markdown 20230730/b/budgeteer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-30 17:19:26] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-30 17:19:26] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-30 17:19:26] INFO root fetch - processPackages [TheSilent]: Start processing: systembridgefrontend
+[2023-07-30 17:19:26] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-30 17:19:26] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 17:19:26] INFO root fetch - processPackages [arlpy]: Remove: archive file [/home/abi/fetcher/tmp/arlpy-1.8.2.tar.gz]
+[2023-07-30 17:19:26] INFO root fetch - processPackages [arlpy]: Remove: archive file [/home/abi/fetcher/tmp/arlpy-1.8.3.tar.gz]
+[2023-07-30 17:19:26] INFO root fetch - main [MainThread]: End processing [arlpy]: success
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-30 17:19:27] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev8.tar.gz]
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev9.tar.gz]
+[2023-07-30 17:19:27] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-30 17:19:27] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 17:19:28] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.0.0.tar.gz]
+[2023-07-30 17:19:28] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.5.0.tar.gz]
+[2023-07-30 17:19:28] INFO root fetch - main [MainThread]: End processing [leprikon]: success
+[2023-07-30 17:19:28] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.1.0.tar.gz]
+[2023-07-30 17:19:28] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.1.1.tar.gz]
+[2023-07-30 17:19:28] INFO root fetch - main [MainThread]: End processing [budgeteer]: success
+[2023-07-30 17:19:28] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-30 17:19:28] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-30 17:19:28] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-30 17:19:29] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-30 17:19:29] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-30 17:19:29] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-30 17:19:29] INFO root fetch - processPackages [tartube]: executing diffoscope
+[2023-07-30 17:19:29] INFO root fetch - processPackages [tartube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tartube-2.4.8.tar.gz tmp/tartube-2.4.93.tar.gz --markdown 20230730/t/tartube/2.4.8-2.4.93/diff.md --exclude *.pyd
+[2023-07-30 17:19:33] INFO root fetch - processPackages [tartube]: Remove: archive file [/home/abi/fetcher/tmp/tartube-2.4.8.tar.gz]
+[2023-07-30 17:19:33] INFO root fetch - processPackages [tartube]: Remove: archive file [/home/abi/fetcher/tmp/tartube-2.4.93.tar.gz]
+[2023-07-30 17:19:33] INFO root fetch - main [MainThread]: End processing [tartube]: success
+[2023-07-30 17:19:42] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-07-30 17:19:42] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-07-30 17:19:42] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-07-30 17:20:13] INFO root fetch - processPackages [specfabpy]: Remove: archive file [/home/abi/fetcher/tmp/specfabpy-2023.5.26-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-30 17:20:13] INFO root fetch - processPackages [specfabpy]: Remove: archive file [/home/abi/fetcher/tmp/specfabpy-2023.7.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-30 17:20:13] INFO root fetch - main [MainThread]: End processing [specfabpy]: success
+[2023-07-30 17:20:13] INFO root fetch - main [MainThread]: Store serial: [19097298]
