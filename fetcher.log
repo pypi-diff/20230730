@@ -15550,3 +15550,39 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 21:48:24] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
 [2023-07-30 21:48:24] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-07-30 21:48:24] INFO root fetch - main [MainThread]: Store serial: [19098985]
+[2023-07-30 21:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098985]
+[2023-07-30 21:53:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 21:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-workflows
+[2023-07-30 21:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyoak
+[2023-07-30 21:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-deckgl
+[2023-07-30 21:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtailset
+[2023-07-30 21:53:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rebelai
+[2023-07-30 21:53:33] WARNING root fetch - processPackages [wagtailset]: Skipping, unable to determine old version
+[2023-07-30 21:53:33] INFO root fetch - main [MainThread]: End processing [wagtailset] error
+[2023-07-30 21:53:33] INFO root fetch - processPackages [dash-deckgl]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-30 21:53:33] INFO root fetch - processPackages [rebelai]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-30 21:53:33] INFO root fetch - processPackages [np-workflows]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-07-30 21:53:33] WARNING root fetch - processPackages [pyoak]: Skipping, unable to determine old version
+[2023-07-30 21:53:33] INFO root fetch - main [MainThread]: End processing [pyoak] error
+[2023-07-30 21:53:33] INFO root fetch - processPackages [dash-deckgl]: Downloading https://files.pythonhosted.org/packages/e5/dc/971084ff09ce47b971091727cb963e5bd2d9c7bef11ac8baf13057624da0/dash_deckgl-0.2.1.tar.gz
+[2023-07-30 21:53:33] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/1a/1d/a02d3b0e9ea0e603d3e0edf40ca05b3a9313db48e000292b582f04997d4a/rebelai-1.0.0-py2.py3-none-any.whl
+[2023-07-30 21:53:33] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/93/31/dac5593e2f9665ebf2fba48d625baac49cbcba43cb704fa6ad4ee8a2b362/np_workflows-1.6.7.tar.gz
+[2023-07-30 21:53:33] INFO root fetch - processPackages [rebelai]: Downloading https://files.pythonhosted.org/packages/2e/62/3e029c46838ff0d0ec5666bddd39303e916717388a0455a0c7086071da0d/rebelai-1.0.1-py2.py3-none-any.whl
+[2023-07-30 21:53:33] INFO root fetch - processPackages [dash-deckgl]: Downloading https://files.pythonhosted.org/packages/73/82/451ed07125d7b67a89882540689e4a225a64235dd78ea4a69fdf645d4b5c/dash_deckgl-0.2.2.tar.gz
+[2023-07-30 21:53:33] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2023-07-30 21:53:33] INFO root fetch - processPackages [rebelai]: executing diffoscope
+[2023-07-30 21:53:33] INFO root fetch - processPackages [rebelai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebelai-1.0.0-py2.py3-none-any.whl.zip tmp/rebelai-1.0.1-py2.py3-none-any.whl.zip --markdown 20230730/r/rebelai/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-30 21:53:33] INFO root fetch - processPackages [dash-deckgl]: executing diffoscope
+[2023-07-30 21:53:33] INFO root fetch - processPackages [dash-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_deckgl-0.2.1.tar.gz tmp/dash_deckgl-0.2.2.tar.gz --markdown 20230730/d/dash-deckgl/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 21:53:33] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-07-30 21:53:33] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.7.tar.gz tmp/np_workflows-1.6.8.tar.gz --markdown 20230730/n/np-workflows/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-07-30 21:53:34] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-1.0.0-py2.py3-none-any.whl.zip]
+[2023-07-30 21:53:34] INFO root fetch - processPackages [rebelai]: Remove: archive file [/home/abi/fetcher/tmp/rebelai-1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-30 21:53:34] INFO root fetch - main [MainThread]: End processing [rebelai]: success
+[2023-07-30 21:53:34] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.7.tar.gz]
+[2023-07-30 21:53:34] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2023-07-30 21:53:34] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-07-30 21:53:44] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.2.1.tar.gz]
+[2023-07-30 21:53:44] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.2.2.tar.gz]
+[2023-07-30 21:53:44] INFO root fetch - main [MainThread]: End processing [dash-deckgl]: success
+[2023-07-30 21:53:44] INFO root fetch - main [MainThread]: Store serial: [19099003]
