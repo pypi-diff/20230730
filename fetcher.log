@@ -3919,3 +3919,43 @@
 [2023-07-30 05:42:15] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.0.tar.gz]
 [2023-07-30 05:42:15] INFO root fetch - main [MainThread]: End processing [zood]: success
 [2023-07-30 05:42:15] INFO root fetch - main [MainThread]: Store serial: [19093601]
+[2023-07-30 05:47:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093601]
+[2023-07-30 05:47:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 05:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2023-07-30 05:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bambooai
+[2023-07-30 05:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zood
+[2023-07-30 05:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codedapertures
+[2023-07-30 05:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-next-cdk
+[2023-07-30 05:47:23] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-30 05:47:23] INFO root fetch - processPackages [zood]: New version: [0.8.1] Old Version: [0.7.6]
+[2023-07-30 05:47:23] INFO root fetch - processPackages [codedapertures]: New version: [0.7] Old Version: [0.6]
+[2023-07-30 05:47:23] INFO root fetch - processPackages [NikGapps]: New version: [1.66] Old Version: [1.65]
+[2023-07-30 05:47:23] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/0c/04/d1291d54e709f4aaaf28720d8f053823070e815d298927c3ee8e724f6d1d/zood-0.7.6.tar.gz
+[2023-07-30 05:47:23] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2023-07-30 05:47:24] INFO root fetch - processPackages [open-next-cdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-30 05:47:24] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/e4/26/69a8bb4773bb9ef36bccb450ba1cf0f71b669f2d087fc1a528d8ac573ce3/NikGapps-1.65.tar.gz
+[2023-07-30 05:47:24] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/0f/4a/0f7faee55161aba153db00c5527e1a9e5e3caa5dbe7ea2bc50253ebee786/codedapertures-0.6.tar.gz
+[2023-07-30 05:47:24] INFO root fetch - processPackages [open-next-cdk]: Downloading https://files.pythonhosted.org/packages/cd/7b/61f5bbaabd4ded11511c723d5ddd10088b1b050100ae77b567fa157c95f2/open-next-cdk-0.0.5.tar.gz
+[2023-07-30 05:47:24] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/a4/91/e88788cb18ce9f28bc3317ee3de83fc8ba7bef47310fef90e52d3244bbb0/zood-0.8.1.tar.gz
+[2023-07-30 05:47:24] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41565286>=10485760
+[2023-07-30 05:47:24] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-30 05:47:24] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2023-07-30 05:47:24] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-30 05:47:24] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.6.tar.gz tmp/zood-0.8.1.tar.gz --markdown 20230730/z/zood/0.7.6-0.8.1/diff.md --exclude *.pyd
+[2023-07-30 05:47:24] WARNING root fetch - processPackages [open-next-cdk]: Skipping package: exceeds size limit 93893700>=10485760
+[2023-07-30 05:47:24] INFO root fetch - main [MainThread]: End processing [open-next-cdk] error
+[2023-07-30 05:47:24] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/c6/6f/653fb7b6c7ccb3f58916b100e551b026a803cceb5e27e5d9ce7b88d5207e/codedapertures-0.7.tar.gz
+[2023-07-30 05:47:24] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-07-30 05:47:24] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20230730/b/bambooai/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-30 05:47:24] INFO root fetch - processPackages [codedapertures]: executing diffoscope
+[2023-07-30 05:47:24] INFO root fetch - processPackages [codedapertures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedapertures-0.6.tar.gz tmp/codedapertures-0.7.tar.gz --markdown 20230730/c/codedapertures/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-30 05:47:25] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.6.tar.gz]
+[2023-07-30 05:47:25] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.7.tar.gz]
+[2023-07-30 05:47:25] INFO root fetch - main [MainThread]: End processing [codedapertures]: success
+[2023-07-30 05:47:25] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2023-07-30 05:47:25] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2023-07-30 05:47:25] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-07-30 05:47:25] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.6.tar.gz]
+[2023-07-30 05:47:25] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.1.tar.gz]
+[2023-07-30 05:47:25] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-30 05:47:25] INFO root fetch - main [MainThread]: Store serial: [19093618]
