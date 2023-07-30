@@ -9519,3 +9519,87 @@
 [2023-07-30 14:22:32] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.1.tar.gz]
 [2023-07-30 14:22:32] INFO root fetch - main [MainThread]: End processing [python-on-whales]: success
 [2023-07-30 14:22:32] INFO root fetch - main [MainThread]: Store serial: [19096164]
+[2023-07-30 14:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096164]
+[2023-07-30 14:27:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagshub
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wtlabpy
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoda-tk
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: novelWriter
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: claritygov
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prometheus-kubernetes-cli
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bili-eta
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: randog
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: valcheck
+[2023-07-30 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openrl
+[2023-07-30 14:27:41] WARNING root fetch - processPackages [prometheus-kubernetes-cli]: Skipping, unable to determine old version
+[2023-07-30 14:27:41] INFO root fetch - processPackages [prometheus-kubernetes-cli]: Start processing: database-infrastructure-local
+[2023-07-30 14:27:41] INFO root fetch - main [MainThread]: End processing [prometheus-kubernetes-cli] error
+[2023-07-30 14:27:41] INFO root fetch - processPackages [novelWriter]: New version: [2.1b1] Old Version: [2.0rc2]
+[2023-07-30 14:27:41] INFO root fetch - processPackages [bili-eta]: New version: [0.1.5] Old Version: [0.1.1]
+[2023-07-30 14:27:41] WARNING root fetch - processPackages [wtlabpy]: Skipping, unable to determine old version
+[2023-07-30 14:27:41] INFO root fetch - main [MainThread]: End processing [wtlabpy] error
+[2023-07-30 14:27:41] INFO root fetch - processPackages [openrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 14:27:41] INFO root fetch - processPackages [randog]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-30 14:27:41] INFO root fetch - processPackages [claritygov]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-07-30 14:27:41] INFO root fetch - processPackages [scoda-tk]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-30 14:27:41] WARNING root fetch - processPackages [valcheck]: Skipping, unable to determine old version
+[2023-07-30 14:27:41] INFO root fetch - main [MainThread]: End processing [valcheck] error
+[2023-07-30 14:27:41] INFO root fetch - processPackages [dagshub]: New version: [0.3.1] Old Version: [0.3.0.post4]
+[2023-07-30 14:27:41] INFO root fetch - processPackages [database-infrastructure-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-30 14:27:41] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/9c/69/ddbd522c1715558f0356a7eaaa06b3fd4fba93216800163057c8d2887ddd/scoda-tk-0.1.9.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [database-infrastructure-local]: Downloading https://files.pythonhosted.org/packages/3f/b2/4567a1121345b6cfa9c66c34d263f3f27eeee66af36ab6a17608fb24e6a8/database-infrastructure-local-0.0.4.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/15/c2/2718a9c2cef45d6512240e36b933ed0924e6cd1815d44b59459bedd20d77/bili_eta-0.1.1.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [claritygov]: Downloading https://files.pythonhosted.org/packages/44/43/4797bbe1a8307384fed655a9cfd2b0b895005d6cc6e73296603179cba691/claritygov-0.1.1.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [novelWriter]: Downloading https://files.pythonhosted.org/packages/0b/91/ea5f88e964388faa936a09bc381e9c4095d45f8f3f4d300705aa2d322078/novelWriter-2.0rc2.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/df/8f/a0f5c7bcda3a1fb9cbd76ad259eb0a432cb04a74576fa8bcbfba38cf7575/randog-0.8.0.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [openrl]: Downloading https://files.pythonhosted.org/packages/ce/41/02cf8dd6473e10b6e3fb4fe087173355c6b0f0b66deef5ff7dd170203972/openrl-0.0.8.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/f8/7c/78a0adf6c2458f5dedd657bb4b2c0f4669749f7cbb50f47c11f74ea95e89/dagshub-0.3.0.post4.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [database-infrastructure-local]: Downloading https://files.pythonhosted.org/packages/b9/ae/4e52dc521958a9f6ec174fe58fc5398d0d85fde1395c4c422157fa79d7b6/database-infrastructure-local-0.0.5.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/e6/db/525f63dc091bba854dc7e514a5d8e5039d4935148280c919aae1ecfd3b39/bili_eta-0.1.5.tar.gz
+[2023-07-30 14:27:41] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/f7/3e/e86f1b040468b961662cfe77260662777de40bb4269f766d896a710677be/scoda-tk-0.2.0.tar.gz
+[2023-07-30 14:27:42] INFO root fetch - processPackages [database-infrastructure-local]: executing diffoscope
+[2023-07-30 14:27:42] INFO root fetch - processPackages [database-infrastructure-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-infrastructure-local-0.0.4.tar.gz tmp/database-infrastructure-local-0.0.5.tar.gz --markdown 20230730/d/database-infrastructure-local/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-30 14:27:42] INFO root fetch - processPackages [claritygov]: Downloading https://files.pythonhosted.org/packages/58/e2/e2a4e36bf31e53647e8cdb96d6d97a4ebee602e685ceb354b8c49ffd0705/claritygov-0.2.1.tar.gz
+[2023-07-30 14:27:42] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/96/c4/579c41879f6cf64c0264a477ec851c4e68c39681281c4c9ed0a4cf178134/randog-0.9.0.tar.gz
+[2023-07-30 14:27:42] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/2a/4a/245bf8ac92b183555f388397adc99d3fb73f693bdcaf89f287b4423e4527/dagshub-0.3.1.tar.gz
+[2023-07-30 14:27:42] INFO root fetch - processPackages [openrl]: Downloading https://files.pythonhosted.org/packages/c5/72/7a0be3fe2ba8c6d5af55ae8bfea781ee309952310492824825f9649a52ad/openrl-0.0.9.tar.gz
+[2023-07-30 14:27:42] INFO root fetch - processPackages [claritygov]: executing diffoscope
+[2023-07-30 14:27:42] INFO root fetch - processPackages [claritygov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claritygov-0.1.1.tar.gz tmp/claritygov-0.2.1.tar.gz --markdown 20230730/c/claritygov/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-07-30 14:27:42] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 14:27:42] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.1.1.tar.gz tmp/bili_eta-0.1.5.tar.gz --markdown 20230730/b/bili-eta/0.1.1-0.1.5/diff.md --exclude *.pyd
+[2023-07-30 14:27:42] INFO root fetch - processPackages [randog]: executing diffoscope
+[2023-07-30 14:27:42] INFO root fetch - processPackages [randog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/randog-0.8.0.tar.gz tmp/randog-0.9.0.tar.gz --markdown 20230730/r/randog/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 14:27:42] INFO root fetch - processPackages [openrl]: executing diffoscope
+[2023-07-30 14:27:42] INFO root fetch - processPackages [openrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrl-0.0.8.tar.gz tmp/openrl-0.0.9.tar.gz --markdown 20230730/o/openrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 14:27:42] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-30 14:27:42] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.0.post4.tar.gz tmp/dagshub-0.3.1.tar.gz --markdown 20230730/d/dagshub/0.3.0.post4-0.3.1/diff.md --exclude *.pyd
+[2023-07-30 14:27:42] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-30 14:27:42] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.1.9.tar.gz tmp/scoda-tk-0.2.0.tar.gz --markdown 20230730/s/scoda-tk/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 14:27:43] INFO root fetch - processPackages [novelWriter]: Downloading https://files.pythonhosted.org/packages/f5/72/9150ac2439e3e86f320325accd34fa7f02b374cfeb56eeafc320994f67be/novelWriter-2.1b1.tar.gz
+[2023-07-30 14:27:43] INFO root fetch - processPackages [database-infrastructure-local]: Remove: archive file [/home/abi/fetcher/tmp/database-infrastructure-local-0.0.4.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - processPackages [database-infrastructure-local]: Remove: archive file [/home/abi/fetcher/tmp/database-infrastructure-local-0.0.5.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - main [MainThread]: End processing [database-infrastructure-local]: success
+[2023-07-30 14:27:43] INFO root fetch - processPackages [claritygov]: Remove: archive file [/home/abi/fetcher/tmp/claritygov-0.1.1.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - processPackages [claritygov]: Remove: archive file [/home/abi/fetcher/tmp/claritygov-0.2.1.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - main [MainThread]: End processing [claritygov]: success
+[2023-07-30 14:27:43] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.1.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.5.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 14:27:43] INFO root fetch - processPackages [novelWriter]: executing diffoscope
+[2023-07-30 14:27:43] INFO root fetch - processPackages [novelWriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novelWriter-2.0rc2.tar.gz tmp/novelWriter-2.1b1.tar.gz --markdown 20230730/n/novelWriter/2.0rc2-2.1b1/diff.md --exclude *.pyd
+[2023-07-30 14:27:43] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.8.0.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.9.0.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - main [MainThread]: End processing [randog]: success
+[2023-07-30 14:27:43] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post4.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.1.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-30 14:27:43] INFO root fetch - processPackages [openrl]: Remove: archive file [/home/abi/fetcher/tmp/openrl-0.0.8.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - processPackages [openrl]: Remove: archive file [/home/abi/fetcher/tmp/openrl-0.0.9.tar.gz]
+[2023-07-30 14:27:43] INFO root fetch - main [MainThread]: End processing [openrl]: success
+[2023-07-30 14:27:44] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.9.tar.gz]
+[2023-07-30 14:27:44] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.0.tar.gz]
+[2023-07-30 14:27:44] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-30 14:27:46] INFO root fetch - processPackages [novelWriter]: Remove: archive file [/home/abi/fetcher/tmp/novelWriter-2.0rc2.tar.gz]
+[2023-07-30 14:27:46] INFO root fetch - processPackages [novelWriter]: Remove: archive file [/home/abi/fetcher/tmp/novelWriter-2.1b1.tar.gz]
+[2023-07-30 14:27:46] INFO root fetch - main [MainThread]: End processing [novelWriter]: success
+[2023-07-30 14:27:46] INFO root fetch - main [MainThread]: Store serial: [19096202]
