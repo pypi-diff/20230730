@@ -13672,3 +13672,72 @@
 [2023-07-30 19:32:39] INFO root fetch - processPackages [kktools]: Remove: archive file [/home/abi/fetcher/tmp/kktools-2.2.tar.gz]
 [2023-07-30 19:32:39] INFO root fetch - main [MainThread]: End processing [kktools]: success
 [2023-07-30 19:32:39] INFO root fetch - main [MainThread]: Store serial: [19098039]
+[2023-07-30 19:37:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098039]
+[2023-07-30 19:37:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: changelog-generator
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-deployer
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manic-xai
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loss-mob
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heisenbridge
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: refineryframe
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gymnasium-connect-four
+[2023-07-30 19:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prettyqt
+[2023-07-30 19:37:48] INFO root fetch - processPackages [changelog-generator]: New version: [0.7b0] Old Version: [0.3.2]
+[2023-07-30 19:37:48] INFO root fetch - processPackages [heisenbridge]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-30 19:37:48] INFO root fetch - processPackages [refineryframe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 19:37:48] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-30 19:37:48] WARNING root fetch - processPackages [loss-mob]: Skipping, unable to determine old version
+[2023-07-30 19:37:48] INFO root fetch - main [MainThread]: End processing [loss-mob] error
+[2023-07-30 19:37:48] INFO root fetch - processPackages [manic-xai]: New version: [1.0.4] Old Version: [0.1.1]
+[2023-07-30 19:37:48] INFO root fetch - processPackages [easy-deployer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 19:37:48] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-30 19:37:48] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/a6/0d/b7d770ee67e779be4fc1e7eb1a1566bd1bfdea03e76611d9de8218a6d07d/refineryframe-0.0.8.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/a9/35/297fdccc9e27313ff10c31bbce54a45fc6a3f7ecd6edbe721068e546a72b/easy_deployer-0.1.8.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/5b/db/c3f45706650fc7a239b4633e40c98833bfb4150aabaaa569bda6296e7ece/gymnasium_connect_four-1.2.6.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [changelog-generator]: Downloading https://files.pythonhosted.org/packages/6c/d5/4f8fbfd9b7a5b69a518b77a0dcf60fbf0efc73fc66b91c95fb5017df93de/changelog-generator-0.3.2.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [manic-xai]: Downloading https://files.pythonhosted.org/packages/01/a2/be24805133cbc8f4e27d25aed2b6463ca75a8dd4f0d612576a97ef5f7b5a/manic-xai-0.1.1.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [heisenbridge]: Downloading https://files.pythonhosted.org/packages/63/a8/cbad209594b4d4a178ae6608741034bfc8cc02d770d187e372d149eac367/heisenbridge-1.8.2.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [easy-deployer]: Downloading https://files.pythonhosted.org/packages/8c/6a/d217eb2e1b597398470ee5603240d37a40d5c9577f6d2da77bbbb655f3cd/easy_deployer-0.1.9.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/f0/a8/d476faa104bea339f795e85f800ffc2ebc55a2bb8ec3fa9de8ac934acef3/refineryframe-0.0.9.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/57/c6/1b8ba7adcbf48e553e4bcc040c73caef57585007e2c1c7732470ae2dcc8d/gymnasium_connect_four-1.2.7.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [changelog-generator]: Downloading https://files.pythonhosted.org/packages/15/4e/977d23feb2183f3e8b0970c72768f13db405fc355e304cb566c39b65e26b/changelog_generator-0.7b0-py3-none-any.whl
+[2023-07-30 19:37:48] INFO root fetch - processPackages [easy-deployer]: executing diffoscope
+[2023-07-30 19:37:48] INFO root fetch - processPackages [easy-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_deployer-0.1.8.tar.gz tmp/easy_deployer-0.1.9.tar.gz --markdown 20230730/e/easy-deployer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 19:37:48] INFO root fetch - processPackages [manic-xai]: Downloading https://files.pythonhosted.org/packages/33/cb/81abc6500c1836c61fb64c8d3da1517bdabcc33bc80e1068a82aa7eabc16/manic-xai-1.0.4.tar.gz
+[2023-07-30 19:37:48] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-07-30 19:37:48] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.0.8.tar.gz tmp/refineryframe-0.0.9.tar.gz --markdown 20230730/r/refineryframe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 19:37:48] INFO root fetch - processPackages [changelog-generator]: executing diffoscope
+[2023-07-30 19:37:48] INFO root fetch - processPackages [changelog-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changelog-generator-0.3.2.tar.gz tmp/changelog_generator-0.7b0-py3-none-any.whl.zip --markdown 20230730/c/changelog-generator/0.3.2-0.7b0/diff.md --exclude *.pyd
+[2023-07-30 19:37:49] INFO root fetch - processPackages [manic-xai]: executing diffoscope
+[2023-07-30 19:37:49] INFO root fetch - processPackages [manic-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manic-xai-0.1.1.tar.gz tmp/manic-xai-1.0.4.tar.gz --markdown 20230730/m/manic-xai/0.1.1-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 19:37:49] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-30 19:37:49] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.6.tar.gz tmp/gymnasium_connect_four-1.2.7.tar.gz --markdown 20230730/g/gymnasium-connect-four/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-30 19:37:49] INFO root fetch - processPackages [heisenbridge]: Downloading https://files.pythonhosted.org/packages/c3/2f/5e4e71ed6bea3b9a897920e25bb12f7576c3dca1690c442436010ce26b74/heisenbridge-1.9.0.tar.gz
+[2023-07-30 19:37:49] INFO root fetch - processPackages [heisenbridge]: executing diffoscope
+[2023-07-30 19:37:49] INFO root fetch - processPackages [heisenbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heisenbridge-1.8.2.tar.gz tmp/heisenbridge-1.9.0.tar.gz --markdown 20230730/h/heisenbridge/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-30 19:37:49] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.8.tar.gz]
+[2023-07-30 19:37:49] INFO root fetch - processPackages [easy-deployer]: Remove: archive file [/home/abi/fetcher/tmp/easy_deployer-0.1.9.tar.gz]
+[2023-07-30 19:37:49] INFO root fetch - main [MainThread]: End processing [easy-deployer]: success
+[2023-07-30 19:37:49] INFO root fetch - processPackages [changelog-generator]: Remove: archive file [/home/abi/fetcher/tmp/changelog-generator-0.3.2.tar.gz]
+[2023-07-30 19:37:49] INFO root fetch - processPackages [changelog-generator]: Remove: archive file [/home/abi/fetcher/tmp/changelog_generator-0.7b0-py3-none-any.whl.zip]
+[2023-07-30 19:37:49] INFO root fetch - main [MainThread]: End processing [changelog-generator]: success
+[2023-07-30 19:37:50] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.0.8.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.0.9.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-07-30 19:37:50] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.6.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.7.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-30 19:37:50] INFO root fetch - processPackages [manic-xai]: Remove: archive file [/home/abi/fetcher/tmp/manic-xai-0.1.1.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - processPackages [manic-xai]: Remove: archive file [/home/abi/fetcher/tmp/manic-xai-1.0.4.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - main [MainThread]: End processing [manic-xai]: success
+[2023-07-30 19:37:50] INFO root fetch - processPackages [heisenbridge]: Remove: archive file [/home/abi/fetcher/tmp/heisenbridge-1.8.2.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - processPackages [heisenbridge]: Remove: archive file [/home/abi/fetcher/tmp/heisenbridge-1.9.0.tar.gz]
+[2023-07-30 19:37:50] INFO root fetch - main [MainThread]: End processing [heisenbridge]: success
+[2023-07-30 19:37:50] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-07-30 19:37:51] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-07-30 19:37:51] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230730/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-30 19:37:55] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.1.tar.gz]
+[2023-07-30 19:37:55] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
+[2023-07-30 19:37:55] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-07-30 19:37:55] INFO root fetch - main [MainThread]: Store serial: [19098066]
