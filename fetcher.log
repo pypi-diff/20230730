@@ -2191,3 +2191,48 @@
 [2023-07-30 03:11:56] INFO root fetch - processPackages [dl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/dl_matrix-0.5.tar.gz]
 [2023-07-30 03:11:56] INFO root fetch - main [MainThread]: End processing [dl-matrix]: success
 [2023-07-30 03:11:56] INFO root fetch - main [MainThread]: Store serial: [19092955]
+[2023-07-30 03:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19092955]
+[2023-07-30 03:17:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ANSIController
+[2023-07-30 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shoobx.mocks3
+[2023-07-30 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-07-30 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openplugincore
+[2023-07-30 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ANSIController
+[2023-07-30 03:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-archive
+[2023-07-30 03:17:05] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 03:17:05] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 03:17:05] INFO root fetch - processPackages [pulumi-archive]: New version: [0.0.3a1690678699] Old Version: [0.0.2a1690485149]
+[2023-07-30 03:17:05] INFO root fetch - processPackages [openplugincore]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-30 03:17:05] INFO root fetch - processPackages [shoobx.mocks3]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-07-30 03:17:05] WARNING root fetch - processPackages [ANSIController]: Skipping, unable to determine old version
+[2023-07-30 03:17:05] INFO root fetch - main [MainThread]: End processing [ANSIController] error
+[2023-07-30 03:17:05] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-30 03:17:05] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/e3/5f/22fda054033ed7f8d32c1ba8a58d64b829ba4ce2a425ad801b6909d0a434/openplugincore-0.5.0.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/4c/67/63e5bd20b5a92a3ac932f9ff0350369c315c866626a6dd31b01afcf56287/pulumi_archive-0.0.2a1690485149.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [shoobx.mocks3]: Downloading https://files.pythonhosted.org/packages/04/64/9a48f12ac859bc4b0ab414d844ebdada6dc9cc1bbaeb45ee8a6b711c1975/shoobx.mocks3-4.2.3.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/ec/bc/8dea6ffcf428021a9addf6b46c15bb25ad5545a5fcd16cc1bf6f754c0443/openplugincore-0.6.0.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-07-30 03:17:05] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.5.0.tar.gz tmp/openplugincore-0.6.0.tar.gz --markdown 20230730/o/openplugincore/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-30 03:17:05] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/b2/b8/61ea3bcbaf52451d70c1f11f66004bb58a563950a15b937dea28a013b8ef/pulumi_archive-0.0.3a1690678699.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [shoobx.mocks3]: Downloading https://files.pythonhosted.org/packages/bf/c1/ca8c89d87cc3f399599b5d6a9ede4a47b2cd40b1d680b81faa929abf493c/shoobx.mocks3-4.2.4.tar.gz
+[2023-07-30 03:17:05] INFO root fetch - processPackages [shoobx.mocks3]: executing diffoscope
+[2023-07-30 03:17:05] INFO root fetch - processPackages [shoobx.mocks3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoobx.mocks3-4.2.3.tar.gz tmp/shoobx.mocks3-4.2.4.tar.gz --markdown 20230730/s/shoobx.mocks3/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-07-30 03:17:05] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2023-07-30 03:17:05] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.0.2a1690485149.tar.gz tmp/pulumi_archive-0.0.3a1690678699.tar.gz --markdown 20230730/p/pulumi-archive/0.0.2a1690485149-0.0.3a1690678699/diff.md --exclude *.pyd
+[2023-07-30 03:17:06] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.5.0.tar.gz]
+[2023-07-30 03:17:06] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.6.0.tar.gz]
+[2023-07-30 03:17:06] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-07-30 03:17:06] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.2a1690485149.tar.gz]
+[2023-07-30 03:17:06] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.3a1690678699.tar.gz]
+[2023-07-30 03:17:06] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2023-07-30 03:17:06] INFO root fetch - processPackages [shoobx.mocks3]: Remove: archive file [/home/abi/fetcher/tmp/shoobx.mocks3-4.2.3.tar.gz]
+[2023-07-30 03:17:06] INFO root fetch - processPackages [shoobx.mocks3]: Remove: archive file [/home/abi/fetcher/tmp/shoobx.mocks3-4.2.4.tar.gz]
+[2023-07-30 03:17:06] INFO root fetch - main [MainThread]: End processing [shoobx.mocks3]: success
+[2023-07-30 03:17:08] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-30 03:17:08] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230730/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-30 03:17:09] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-30 03:17:09] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-30 03:17:09] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-30 03:17:09] INFO root fetch - main [MainThread]: Store serial: [19092975]
