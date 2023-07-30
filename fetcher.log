@@ -10974,3 +10974,36 @@
 [2023-07-30 16:09:47] INFO root fetch - processPackages [tensorboardX]: Remove: archive file [/home/abi/fetcher/tmp/tensorboardX-2.6.2.tar.gz]
 [2023-07-30 16:09:47] INFO root fetch - main [MainThread]: End processing [tensorboardX]: success
 [2023-07-30 16:09:47] INFO root fetch - main [MainThread]: Store serial: [19096851]
+[2023-07-30 16:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096851]
+[2023-07-30 16:14:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 16:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: football-predictions
+[2023-07-30 16:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bili-eta
+[2023-07-30 16:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biliup
+[2023-07-30 16:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-services
+[2023-07-30 16:14:56] INFO root fetch - processPackages [bili-eta]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-30 16:14:56] WARNING root fetch - processPackages [football-predictions]: Skipping, unable to determine old version
+[2023-07-30 16:14:56] INFO root fetch - main [MainThread]: End processing [football-predictions] error
+[2023-07-30 16:14:56] INFO root fetch - processPackages [biliup]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-30 16:14:56] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-07-30 16:14:56] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/85/d7/c5acd0637aa1196883102c6c6f58f8c7e84af69efa3ec08a92d698bd91f3/bili_eta-0.2.3.tar.gz
+[2023-07-30 16:14:56] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/33/26/87446b9e80024414938248abd6d5d23524d52b9a0e07980909695db33a0a/biliup-0.4.8.tar.gz
+[2023-07-30 16:14:56] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-07-30 16:14:56] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/c9/eb/2b19706da9b3c0238a5969afc8512052676f299592de40fe48288eeb6954/bili_eta-0.2.4.tar.gz
+[2023-07-30 16:14:56] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-07-30 16:14:56] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 16:14:56] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.2.3.tar.gz tmp/bili_eta-0.2.4.tar.gz --markdown 20230730/b/bili-eta/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-30 16:14:56] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/ca/50/28c81627954370eeba7075b44c9ef20597ed8f140a1390c814dd976e6c70/biliup-0.4.9.tar.gz
+[2023-07-30 16:14:56] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-30 16:14:56] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230730/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-07-30 16:14:56] INFO root fetch - processPackages [biliup]: executing diffoscope
+[2023-07-30 16:14:56] INFO root fetch - processPackages [biliup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliup-0.4.8.tar.gz tmp/biliup-0.4.9.tar.gz --markdown 20230730/b/biliup/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-30 16:14:57] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.3.tar.gz]
+[2023-07-30 16:14:57] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.2.4.tar.gz]
+[2023-07-30 16:14:57] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 16:14:57] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.8.tar.gz]
+[2023-07-30 16:14:57] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
+[2023-07-30 16:14:57] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-30 16:14:58] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.8.tar.gz]
+[2023-07-30 16:14:58] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.9.tar.gz]
+[2023-07-30 16:14:58] INFO root fetch - main [MainThread]: End processing [biliup]: success
+[2023-07-30 16:14:58] INFO root fetch - main [MainThread]: Store serial: [19096866]
