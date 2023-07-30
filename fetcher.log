@@ -6220,3 +6220,54 @@
 [2023-07-30 10:01:00] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.98.tar.gz]
 [2023-07-30 10:01:00] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-07-30 10:01:00] INFO root fetch - main [MainThread]: Store serial: [19094619]
+[2023-07-30 10:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094619]
+[2023-07-30 10:06:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 10:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitaudit
+[2023-07-30 10:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyimporters-csv
+[2023-07-30 10:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OneOnOne
+[2023-07-30 10:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gymnasium-connect-four
+[2023-07-30 10:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nselib
+[2023-07-30 10:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tezeta
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-30 10:06:09] INFO root fetch - processPackages [nselib]: New version: [0.7] Old Version: [0.6]
+[2023-07-30 10:06:09] WARNING root fetch - processPackages [tezeta]: Skipping, unable to determine old version
+[2023-07-30 10:06:09] INFO root fetch - main [MainThread]: End processing [tezeta] error
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-30 10:06:09] INFO root fetch - processPackages [OneOnOne]: New version: [0.6957] Old Version: [0.6956]
+[2023-07-30 10:06:09] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 10:06:09] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/39/10/54a6f6e3a99615df410cfc3181e9321d0c862ba03e2b5f54f6fcbfd913c1/nselib-0.6.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/ad/57/76d94c57642df76c8ab07e279f8f4e62dc5a140ac050669ad2e6f45c3c20/gymnasium_connect_four-1.2.3.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/88/9d/bff67709b41f0b4f5e978d2e4d0ee9131c61ef816df2944b31f7a86621d4/OneOnOne-0.6956.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/a6/68/c266ea07f91acb3085ab1c7e927faa12448dc25deb416714f05f6e0fd746/gymnasium_connect_four-1.2.4.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/32/17/8be82a249e62598792f5e1ed770fd3bc81ef7e5f0e03c5df65ddba867ecd/nselib-0.7.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [nselib]: executing diffoscope
+[2023-07-30 10:06:09] INFO root fetch - processPackages [nselib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nselib-0.6.tar.gz tmp/nselib-0.7.tar.gz --markdown 20230730/n/nselib/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.3.tar.gz tmp/gymnasium_connect_four-1.2.4.tar.gz --markdown 20230730/g/gymnasium-connect-four/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-30 10:06:09] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/f0/4c/631db9ddd3cbee9676688bf8192d6440a3e51021bfd34d23ebfdd0ce7de1/OneOnOne-0.6957.tar.gz
+[2023-07-30 10:06:09] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-07-30 10:06:10] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-07-30 10:06:10] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230730/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 10:06:10] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 10:06:10] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 10:06:10] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 10:06:10] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6956.tar.gz tmp/OneOnOne-0.6957.tar.gz --markdown 20230730/O/OneOnOne/0.6956-0.6957/diff.md --exclude *.pyd
+[2023-07-30 10:06:10] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.3.tar.gz]
+[2023-07-30 10:06:10] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.4.tar.gz]
+[2023-07-30 10:06:10] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-30 10:06:10] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.6.tar.gz]
+[2023-07-30 10:06:10] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.7.tar.gz]
+[2023-07-30 10:06:10] INFO root fetch - main [MainThread]: End processing [nselib]: success
+[2023-07-30 10:06:10] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 10:06:10] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 10:06:10] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 10:06:11] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-07-30 10:06:11] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-07-30 10:06:11] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-07-30 10:06:11] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6956.tar.gz]
+[2023-07-30 10:06:11] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6957.tar.gz]
+[2023-07-30 10:06:11] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 10:06:11] INFO root fetch - main [MainThread]: Store serial: [19094638]
