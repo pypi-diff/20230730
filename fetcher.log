@@ -11488,3 +11488,102 @@
 [2023-07-30 16:47:16] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.9.tar.gz]
 [2023-07-30 16:47:16] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-07-30 16:47:16] INFO root fetch - main [MainThread]: Store serial: [19097041]
+[2023-07-30 16:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097041]
+[2023-07-30 16:52:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphractal
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: port-ocean
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yetl-framework
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfx-ann-ct-pipeline
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretix-sumup
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hgt
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-fortuna
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyPhasesML
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: combidata
+[2023-07-30 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oxbow
+[2023-07-30 16:52:43] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.4.dev2] Old Version: [2.0.4.dev1]
+[2023-07-30 16:52:43] INFO root fetch - processPackages [combidata]: New version: [0.2.2] Old Version: [0.2.1.3]
+[2023-07-30 16:52:43] INFO root fetch - processPackages [aws-fortuna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 16:52:43] WARNING root fetch - processPackages [tfx-ann-ct-pipeline]: Skipping, unable to determine old version
+[2023-07-30 16:52:43] INFO root fetch - processPackages [tfx-ann-ct-pipeline]: Start processing: pygameextra
+[2023-07-30 16:52:43] INFO root fetch - main [MainThread]: End processing [tfx-ann-ct-pipeline] error
+[2023-07-30 16:52:43] INFO root fetch - processPackages [port-ocean]: New version: [0.1.3rc4] Old Version: [0.1.3rc3]
+[2023-07-30 16:52:43] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-30 16:52:43] WARNING root fetch - processPackages [hgt]: Skipping, unable to determine old version
+[2023-07-30 16:52:43] INFO root fetch - processPackages [hgt]: Start processing: pyvidplayer2
+[2023-07-30 16:52:43] INFO root fetch - main [MainThread]: End processing [hgt] error
+[2023-07-30 16:52:43] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-30 16:52:43] INFO root fetch - processPackages [oxbow]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-30 16:52:43] INFO root fetch - processPackages [pygameextra]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-30 16:52:43] INFO root fetch - processPackages [pretix-sumup]: New version: [1.0.4] Old Version: [1.0.3a0]
+[2023-07-30 16:52:43] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-30 16:52:43] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/46/7e/c9758c504562e86a217a9049c5dc3a093cccb5317d499a882a2a3e71fcff/yetl-framework-2.0.4.dev1.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/40/65/f4f383d8661a6a3141ef735705836865c165b1a66d5d05309dc93a8e75a6/combidata-0.2.1.3.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/14/96/b20ce1646703f347d04f60e3e40a6f4939bdff63fcbaf922e2736e5038dd/pretix-sumup-1.0.3a0.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pyvidplayer2]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-30 16:52:44] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/da/7b/9a2fb8233a87284d594ab622b3fb8371d7d7663930a2281fc313bb55a622/aws_fortuna-0.1.8.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/41/28/98dca0fbd1482fd95f5c28b42a2b71a714f1cb69759279a79fc7b2cb79c1/port_ocean-0.1.3rc3.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/3e/29/aceae8261a36e327128e597c2fd7ed8bdfc56a910714b154cdc7f5121bc3/pyPhasesML-0.7.0.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/81/a5/5faf105b219f3b38e9740a4612ed716afb290caaaf4b5f49592952c79484/pygameextra-2.0.0b8.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [oxbow]: Downloading https://files.pythonhosted.org/packages/f2/cb/4074f9ffd146919730d8556ae220a3ccc710fa65b70c6b3cd1baec2905fe/oxbow-0.1.0.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pyvidplayer2]: Downloading https://files.pythonhosted.org/packages/3d/cc/ae9e4804ee61ae43c2462f1fe9f2e48effd71539fa01fd9af8427672448b/pyvidplayer2-0.9.0.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/e2/ec/aaa98ba5d05ad34e098893306a89d0ed1cfcc7c5a6d8042c0155c8bd419e/yetl-framework-2.0.4.dev2.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-30 16:52:44] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230730/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-30 16:52:44] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/24/b1/e4ac587377671209a5a3532f1094c64679c14a8f33a4c9754328264bce0d/combidata-0.2.2.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/cb/10/3337e865cdbb6e468c34b8030f99916421b03034aa789f5af1f93f527014/pyPhasesML-0.7.1.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pretix-sumup]: Downloading https://files.pythonhosted.org/packages/82/ef/1634dd8ba1f2066e492bfad5a83844f7fdab0a0f04d2bc5b46b3e94d9eb0/pretix-sumup-1.0.4.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [oxbow]: Downloading https://files.pythonhosted.org/packages/7d/79/58bebbfe41910bd8e44c0bd6409ab3513a1195885c7a8db0f5d04283006c/oxbow-0.2.0-cp37-none-win32.whl
+[2023-07-30 16:52:44] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/af/f2/e534061d0f9c276ac06c01accaa13afc90772d8601128ae5ee0c2cf3ae16/port_ocean-0.1.3rc4.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [aws-fortuna]: Downloading https://files.pythonhosted.org/packages/6f/b6/d1180b6d5028216edeed20bb4ed02e103eaf19befc1d200a31f685a074d9/aws_fortuna-0.1.9.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [combidata]: executing diffoscope
+[2023-07-30 16:52:44] INFO root fetch - processPackages [combidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combidata-0.2.1.3.tar.gz tmp/combidata-0.2.2.tar.gz --markdown 20230730/c/combidata/0.2.1.3-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/15/cb/24a5d9be0275983b579bf12118e5e33ef9078ad6bbf622a6335e2f1afdb4/pygameextra-2.0.0b9.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.0.tar.gz tmp/pyPhasesML-0.7.1.tar.gz --markdown 20230730/p/pyPhasesML/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-30 16:52:44] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-30 16:52:44] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.4.dev1.tar.gz tmp/yetl-framework-2.0.4.dev2.tar.gz --markdown 20230730/y/yetl-framework/2.0.4.dev1-2.0.4.dev2/diff.md --exclude *.pyd
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pyvidplayer2]: Downloading https://files.pythonhosted.org/packages/7e/47/3f4f415d616db1037b6444dc853128b1f553821d43f5a790c7189ace0b6b/pyvidplayer2-0.9.1.tar.gz
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pretix-sumup]: executing diffoscope
+[2023-07-30 16:52:44] INFO root fetch - processPackages [pretix-sumup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-sumup-1.0.3a0.tar.gz tmp/pretix-sumup-1.0.4.tar.gz --markdown 20230730/p/pretix-sumup/1.0.3a0-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 16:52:44] INFO root fetch - processPackages [aws-fortuna]: executing diffoscope
+[2023-07-30 16:52:44] INFO root fetch - processPackages [aws-fortuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_fortuna-0.1.8.tar.gz tmp/aws_fortuna-0.1.9.tar.gz --markdown 20230730/a/aws-fortuna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 16:52:44] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-30 16:52:44] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.3rc3.tar.gz tmp/port_ocean-0.1.3rc4.tar.gz --markdown 20230730/p/port-ocean/0.1.3rc3-0.1.3rc4/diff.md --exclude *.pyd
+[2023-07-30 16:52:45] INFO root fetch - processPackages [pygameextra]: executing diffoscope
+[2023-07-30 16:52:45] INFO root fetch - processPackages [pygameextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameextra-2.0.0b8.tar.gz tmp/pygameextra-2.0.0b9.tar.gz --markdown 20230730/p/pygameextra/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-07-30 16:52:45] INFO root fetch - processPackages [pyvidplayer2]: executing diffoscope
+[2023-07-30 16:52:45] INFO root fetch - processPackages [pyvidplayer2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvidplayer2-0.9.0.tar.gz tmp/pyvidplayer2-0.9.1.tar.gz --markdown 20230730/p/pyvidplayer2/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-30 16:52:45] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-30 16:52:45] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-30 16:52:45] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [oxbow]: executing diffoscope
+[2023-07-30 16:52:46] INFO root fetch - processPackages [oxbow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxbow-0.1.0.tar.gz tmp/oxbow-0.2.0-cp37-none-win32.whl.zip --markdown 20230730/o/oxbow/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-30 16:52:46] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.1.3.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.2.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [combidata]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.0.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.1.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.3a0.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pretix-sumup]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sumup-1.0.4.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [pretix-sumup]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.4.dev1.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.4.dev2.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pyvidplayer2]: Remove: archive file [/home/abi/fetcher/tmp/pyvidplayer2-0.9.0.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pyvidplayer2]: Remove: archive file [/home/abi/fetcher/tmp/pyvidplayer2-0.9.1.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [pyvidplayer2]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0b8.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0b9.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [pygameextra]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc3.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc4.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-30 16:52:46] INFO root fetch - processPackages [oxbow]: Remove: archive file [/home/abi/fetcher/tmp/oxbow-0.1.0.tar.gz]
+[2023-07-30 16:52:46] INFO root fetch - processPackages [oxbow]: Remove: archive file [/home/abi/fetcher/tmp/oxbow-0.2.0-cp37-none-win32.whl.zip]
+[2023-07-30 16:52:46] INFO root fetch - main [MainThread]: End processing [oxbow]: success
+[2023-07-30 16:52:47] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.8.tar.gz]
+[2023-07-30 16:52:47] INFO root fetch - processPackages [aws-fortuna]: Remove: archive file [/home/abi/fetcher/tmp/aws_fortuna-0.1.9.tar.gz]
+[2023-07-30 16:52:47] INFO root fetch - main [MainThread]: End processing [aws-fortuna]: success
+[2023-07-30 16:52:47] INFO root fetch - main [MainThread]: Store serial: [19097096]
