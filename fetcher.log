@@ -3466,3 +3466,123 @@
 [2023-07-30 04:55:33] INFO root fetch - processPackages [aa-forum]: Remove: archive file [/home/abi/fetcher/tmp/aa_forum-1.9.0.tar.gz]
 [2023-07-30 04:55:33] INFO root fetch - main [MainThread]: End processing [aa-forum]: success
 [2023-07-30 04:55:33] INFO root fetch - main [MainThread]: Store serial: [19093411]
+[2023-07-30 05:00:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093411]
+[2023-07-30 05:00:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-move-line-reconcile-manual
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FSRS-Optimizer
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-statement-base
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alias-gen
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knifes
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ydl-podcast
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bdbag
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjm-yolox-pytorch
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starlette-admin
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-statement-import-file
+[2023-07-30 05:00:41] INFO root fetch - processPackages [odoo-addon-account-statement-base]: New version: [16.0.1.3.0.4] Old Version: [16.0.1.3.0.2]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.82]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [ydl-podcast]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [bdbag]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.17]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.5.2] Old Version: [4.5.1]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [alias-gen]: New version: [0.6.7] Old Version: [0.6.5]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [starlette-admin]: New version: [0.9.0.dev0] Old Version: [0.9.0]
+[2023-07-30 05:00:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-30 05:00:42] INFO root fetch - processPackages [bdbag]: Downloading https://files.pythonhosted.org/packages/f3/f1/f4dca4d4d8f5af719c170a31ce83f0a7b4a333171acc66eb114d06f71f8c/bdbag-1.7.0.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/04/57/839c25ffecb66d30a7cfc15bdec62bc5692654c28f4e2b767d6ec9048b85/ydl_podcast-1.1.0.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/16/be/8526ff7382767cca533fd88cdc1e3483a93a09c7f1ad6604c55422abb18b/starlette_admin-0.9.0.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/ca/a1/6ae2a9f46391b7675134f589b49f9bb7a8583f1687a0940a7676c39daf92/knifes-0.8.82.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Downloading https://files.pythonhosted.org/packages/35/db/c7b8cf033567e94a84791b118de3041710e073cc87e9f514aeab0d6e9d31/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.17-py3-none-any.whl
+[2023-07-30 05:00:42] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Downloading https://files.pythonhosted.org/packages/ea/2c/c5611dc940ce4549b10a479da02114ce9d025659a381bdc7f8bffeb39ac9/odoo_addon_account_statement_import_file-16.0.1.0.1-py3-none-any.whl
+[2023-07-30 05:00:42] INFO root fetch - processPackages [odoo-addon-account-statement-base]: Downloading https://files.pythonhosted.org/packages/dd/e9/b6aa5541526e3384b4e74c94445116413575d080272c623edc9925e5e3eb/odoo_addon_account_statement_base-16.0.1.3.0.2-py3-none-any.whl
+[2023-07-30 05:00:42] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/de/44/713c879ccd8a42975db7d09bdbbb0576018bb594f8adaf60fe1cddbc41a7/alias_gen-0.6.5.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/46/ae/e849d63d50f1d97224d4f741c80788ec1bca7e5e6a36fd0f46cd63c8f6a0/FSRS-Optimizer-4.5.1.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [ydl-podcast]: Downloading https://files.pythonhosted.org/packages/5f/7d/c57f7c1abd3196516aaaa90b6345307ac8db085e235baab03018ec4bc1e8/ydl_podcast-1.1.1.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [bdbag]: Downloading https://files.pythonhosted.org/packages/74/c0/0d8bfc2c599368ae0693045f27b5d20652166dd34420ccdadf90e46ce04d/bdbag-1.7.1.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [starlette-admin]: Downloading https://files.pythonhosted.org/packages/cc/51/3c4517374ede214bd53159b7f53dcc95dc0392867df718801b40c4531317/starlette_admin-0.9.0.dev0.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-07-30 05:00:42] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.82.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230730/k/knifes/0.8.82-0.8.9/diff.md --exclude *.pyd
+[2023-07-30 05:00:42] INFO root fetch - processPackages [alias-gen]: Downloading https://files.pythonhosted.org/packages/5a/1c/3585d86bb11267b3762ceab118cbe76ea63a5197c4cdadfc83b264e7afad/alias_gen-0.6.7.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [odoo-addon-account-statement-base]: Downloading https://files.pythonhosted.org/packages/e7/1f/14b7d37d3594971fd77e0606a145648b59512616ed1b1db9585dce2e2920/odoo_addon_account_statement_base-16.0.1.3.0.4-py3-none-any.whl
+[2023-07-30 05:00:42] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/da/b0/e71b24093083f6b5af990a42260b4c156f1606b996b1f5aff541b4ffe297/FSRS-Optimizer-4.5.2.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Downloading https://files.pythonhosted.org/packages/db/5d/7b5f492e3ae093c6d45e50ef9a7e2752ee463426480abe8f034718b323be/odoo_addon_account_statement_import_file-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-30 05:00:42] INFO root fetch - processPackages [ydl-podcast]: executing diffoscope
+[2023-07-30 05:00:42] INFO root fetch - processPackages [ydl-podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydl_podcast-1.1.0.tar.gz tmp/ydl_podcast-1.1.1.tar.gz --markdown 20230730/y/ydl-podcast/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-30 05:00:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-30 05:00:42] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Downloading https://files.pythonhosted.org/packages/88/81/45b71917215166e70fde086c0e70ea5d79a15568f0316d8894511d5dfdc4/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-30 05:00:42] INFO root fetch - processPackages [alias-gen]: executing diffoscope
+[2023-07-30 05:00:42] INFO root fetch - processPackages [alias-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alias_gen-0.6.5.tar.gz tmp/alias_gen-0.6.7.tar.gz --markdown 20230730/a/alias-gen/0.6.5-0.6.7/diff.md --exclude *.pyd
+[2023-07-30 05:00:43] INFO root fetch - processPackages [odoo-addon-account-statement-base]: executing diffoscope
+[2023-07-30 05:00:43] INFO root fetch - processPackages [odoo-addon-account-statement-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_base-16.0.1.3.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_statement_base-16.0.1.3.0.4-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-account-statement-base/16.0.1.3.0.2-16.0.1.3.0.4/diff.md --exclude *.pyd
+[2023-07-30 05:00:43] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-07-30 05:00:43] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.5.1.tar.gz tmp/FSRS-Optimizer-4.5.2.tar.gz --markdown 20230730/F/FSRS-Optimizer/4.5.1-4.5.2/diff.md --exclude *.pyd
+[2023-07-30 05:00:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-30 05:00:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230730/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-30 05:00:43] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: executing diffoscope
+[2023-07-30 05:00:43] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_file-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_file-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-account-statement-import-file/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-30 05:00:43] INFO root fetch - processPackages [starlette-admin]: executing diffoscope
+[2023-07-30 05:00:43] INFO root fetch - processPackages [starlette-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_admin-0.9.0.tar.gz tmp/starlette_admin-0.9.0.dev0.tar.gz --markdown 20230730/s/starlette-admin/0.9.0-0.9.0.dev0/diff.md --exclude *.pyd
+[2023-07-30 05:00:43] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: executing diffoscope
+[2023-07-30 05:00:43] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.17-py3-none-any.whl.zip tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-account-move-line-reconcile-manual/16.0.1.0.0.17-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-30 05:00:43] INFO root fetch - processPackages [bdbag]: executing diffoscope
+[2023-07-30 05:00:43] INFO root fetch - processPackages [bdbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdbag-1.7.0.tar.gz tmp/bdbag-1.7.1.tar.gz --markdown 20230730/b/bdbag/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-30 05:00:44] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.1.0.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [ydl-podcast]: Remove: archive file [/home/abi/fetcher/tmp/ydl_podcast-1.1.1.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [ydl-podcast]: Start processing: odoo-addon-account-statement-import-camt54
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [ydl-podcast]: success
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.82.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [knifes]: Start processing: odoo-addon-account-statement-import-camt
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Downloading https://files.pythonhosted.org/packages/59/d3/a9d89add5cb42086845fecae449432cb78f24b975be1d16b5b3322b4f812/odoo_addon_account_statement_import_camt54-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-30 05:00:44] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.5.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [alias-gen]: Remove: archive file [/home/abi/fetcher/tmp/alias_gen-0.6.7.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [alias-gen]: Start processing: odoo-addon-brand
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [alias-gen]: success
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Downloading https://files.pythonhosted.org/packages/f0/34/5eca17c5722ebabfdca7dca0bcc4befda540867b2f451d5f072441847382/odoo_addon_account_statement_import_camt-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-30 05:00:44] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.1.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.2.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_base-16.0.1.3.0.2-py3-none-any.whl.zip]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_base-16.0.1.3.0.4-py3-none-any.whl.zip]
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-base]: success
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.17-py3-none-any.whl.zip]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-move-line-reconcile-manual]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_line_reconcile_manual-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-line-reconcile-manual]: success
+[2023-07-30 05:00:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-brand]: New version: [16.0.1.0.2.9] Old Version: [16.0.1.0.2.7]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Downloading https://files.pythonhosted.org/packages/1c/85/3d21233397a7d20798cfecfab1d037318e2eb6c4576411cbb541fd26d158/odoo_addon_account_statement_import_camt-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_file-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-30 05:00:44] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_file-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-30 05:00:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-file]: success
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/56/2a/1d890f473cd00767d9c35ff32acb2cf576afdf5aae241542dab452b34ca2/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: executing diffoscope
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_camt-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_camt-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-account-statement-import-camt/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Downloading https://files.pythonhosted.org/packages/d5/d9/7f4007b51e1371aaaebdb7c6e57a457d2909804af9954d54ea9c286af8e5/odoo_addon_account_statement_import_camt54-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: executing diffoscope
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_camt54-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_camt54-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-account-statement-import-camt54/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-30 05:00:45] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.tar.gz]
+[2023-07-30 05:00:45] INFO root fetch - processPackages [starlette-admin]: Remove: archive file [/home/abi/fetcher/tmp/starlette_admin-0.9.0.dev0.tar.gz]
+[2023-07-30 05:00:45] INFO root fetch - main [MainThread]: End processing [starlette-admin]: success
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/22/26/19a4cb53154b523c54924a21ddccaee6a0cc20acc484f7b357093aa9292c/odoo_addon_brand-16.0.1.0.2.9-py3-none-any.whl
+[2023-07-30 05:00:45] INFO root fetch - processPackages [bdbag]: Remove: archive file [/home/abi/fetcher/tmp/bdbag-1.7.0.tar.gz]
+[2023-07-30 05:00:45] INFO root fetch - processPackages [bdbag]: Remove: archive file [/home/abi/fetcher/tmp/bdbag-1.7.1.tar.gz]
+[2023-07-30 05:00:45] INFO root fetch - main [MainThread]: End processing [bdbag]: success
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-brand]: executing diffoscope
+[2023-07-30 05:00:45] INFO root fetch - processPackages [odoo-addon-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl.zip tmp/odoo_addon_brand-16.0.1.0.2.9-py3-none-any.whl.zip --markdown 20230730/o/odoo-addon-brand/16.0.1.0.2.7-16.0.1.0.2.9/diff.md --exclude *.pyd
+[2023-07-30 05:00:46] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-30 05:00:46] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-30 05:00:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-camt]: success
+[2023-07-30 05:00:46] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt54-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-30 05:00:46] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt54]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt54-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-30 05:00:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-camt54]: success
+[2023-07-30 05:00:46] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-07-30 05:00:46] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-16.0.1.0.2.9-py3-none-any.whl.zip]
+[2023-07-30 05:00:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand]: success
+[2023-07-30 05:00:46] INFO root fetch - main [MainThread]: Store serial: [19093445]
