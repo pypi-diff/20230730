@@ -5938,3 +5938,69 @@
 [2023-07-30 09:29:38] INFO root fetch - processPackages [cookies-utilities]: Remove: archive file [/home/abi/fetcher/tmp/cookies_utilities-0.0.3.tar.gz]
 [2023-07-30 09:29:38] INFO root fetch - main [MainThread]: End processing [cookies-utilities]: success
 [2023-07-30 09:29:38] INFO root fetch - main [MainThread]: Store serial: [19094445]
+[2023-07-30 09:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094445]
+[2023-07-30 09:34:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mtbase
+[2023-07-30 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FSRS-Optimizer
+[2023-07-30 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumigo-opentelemetry
+[2023-07-30 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nicescad
+[2023-07-30 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-sesame
+[2023-07-30 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-tailwind-cli
+[2023-07-30 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyimporters-csv
+[2023-07-30 09:34:47] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.5.5] Old Version: [4.5.4]
+[2023-07-30 09:34:47] INFO root fetch - processPackages [django-sesame]: New version: [3.2] Old Version: [3.1]
+[2023-07-30 09:34:47] INFO root fetch - processPackages [nicescad]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 09:34:47] INFO root fetch - processPackages [django-tailwind-cli]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-30 09:34:47] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 09:34:47] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.90] Old Version: [1.0.9]
+[2023-07-30 09:34:47] INFO root fetch - processPackages [mtbase]: New version: [4.7.202307300729] Old Version: [4.6.202307300727]
+[2023-07-30 09:34:47] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/df/c5/1de20ba6cf70de09f02f5f5b06e8b0a4061d7b331cb0d63c8411dbfd056c/FSRS-Optimizer-4.5.4.tar.gz
+[2023-07-30 09:34:47] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/7f/39/1bb8d6d90faa97d6af92577a82733674f26006d87527a6df8a27276bfad4/django_tailwind_cli-2.0.2.tar.gz
+[2023-07-30 09:34:47] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-07-30 09:34:47] INFO root fetch - processPackages [django-sesame]: Downloading https://files.pythonhosted.org/packages/2f/54/1175251d38a323bfd787b24dfc6f4e62b81fd480379834982f986dc2a9da/django-sesame-3.1.tar.gz
+[2023-07-30 09:34:47] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 09:34:47] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/f3/e3/ee227ec9ce7a24104036e015459a9e38b40e35af048f11c7df1fde0c4011/nicescad-0.0.6.tar.gz
+[2023-07-30 09:34:47] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/aa/98/066e228fefbde2fd70810fb9302b976c15877ccd69ebf435bcd08cf3a4fd/mtbase-4.6.202307300727-py3-none-any.whl
+[2023-07-30 09:34:48] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/98/aa/e09e6e99c66da0c60ef76846f2725fb3891af442db4d465fcef51270cb34/FSRS-Optimizer-4.5.5.tar.gz
+[2023-07-30 09:34:48] INFO root fetch - processPackages [django-tailwind-cli]: Downloading https://files.pythonhosted.org/packages/6e/16/6c9b43ef5ef19803181533b1504f562356471a784d58ebcacc35048f8f1c/django_tailwind_cli-2.0.3.tar.gz
+[2023-07-30 09:34:48] INFO root fetch - processPackages [django-sesame]: Downloading https://files.pythonhosted.org/packages/70/fd/9474d8932c5569e99489411d2b3f3215a678340ddc7a776f34137461b27e/django_sesame-3.2.tar.gz
+[2023-07-30 09:34:48] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/0d/f2/152301e7b1b184f45d76366a640f47153bcd991c0997ec6458ccc678a0ac/mtbase-4.7.202307300729-py3-none-any.whl
+[2023-07-30 09:34:48] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/96/85/d60269059786f0253b5f3e2e6eb4b2a3eb755361728b5a77579ed9f37111/lumigo_opentelemetry-1.0.90-py3-none-any.whl
+[2023-07-30 09:34:48] INFO root fetch - processPackages [django-sesame]: executing diffoscope
+[2023-07-30 09:34:48] INFO root fetch - processPackages [django-sesame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sesame-3.1.tar.gz tmp/django_sesame-3.2.tar.gz --markdown 20230730/d/django-sesame/3.1-3.2/diff.md --exclude *.pyd
+[2023-07-30 09:34:48] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/09/70/49ba99168d5f8c48864f6af7ee2c5dd053b69fbcebc67f721c91b597f0dc/nicescad-0.0.7.tar.gz
+[2023-07-30 09:34:48] INFO root fetch - processPackages [django-tailwind-cli]: executing diffoscope
+[2023-07-30 09:34:48] INFO root fetch - processPackages [django-tailwind-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tailwind_cli-2.0.2.tar.gz tmp/django_tailwind_cli-2.0.3.tar.gz --markdown 20230730/d/django-tailwind-cli/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-30 09:34:48] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-07-30 09:34:48] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.5.4.tar.gz tmp/FSRS-Optimizer-4.5.5.tar.gz --markdown 20230730/F/FSRS-Optimizer/4.5.4-4.5.5/diff.md --exclude *.pyd
+[2023-07-30 09:34:48] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 09:34:48] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-07-30 09:34:48] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.6.202307300727-py3-none-any.whl.zip tmp/mtbase-4.7.202307300729-py3-none-any.whl.zip --markdown 20230730/m/mtbase/4.6.202307300727-4.7.202307300729/diff.md --exclude *.pyd
+[2023-07-30 09:34:48] INFO root fetch - processPackages [nicescad]: executing diffoscope
+[2023-07-30 09:34:48] INFO root fetch - processPackages [nicescad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicescad-0.0.6.tar.gz tmp/nicescad-0.0.7.tar.gz --markdown 20230730/n/nicescad/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 09:34:48] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-07-30 09:34:48] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.90-py3-none-any.whl.zip --markdown 20230730/l/lumigo-opentelemetry/1.0.9-1.0.90/diff.md --exclude *.pyd
+[2023-07-30 09:34:49] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 09:34:49] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 09:34:49] INFO root fetch - processPackages [django-sesame]: Remove: archive file [/home/abi/fetcher/tmp/django-sesame-3.1.tar.gz]
+[2023-07-30 09:34:49] INFO root fetch - processPackages [django-sesame]: Remove: archive file [/home/abi/fetcher/tmp/django_sesame-3.2.tar.gz]
+[2023-07-30 09:34:49] INFO root fetch - main [MainThread]: End processing [django-sesame]: success
+[2023-07-30 09:34:50] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-2.0.2.tar.gz]
+[2023-07-30 09:34:50] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.4.tar.gz]
+[2023-07-30 09:34:50] INFO root fetch - processPackages [django-tailwind-cli]: Remove: archive file [/home/abi/fetcher/tmp/django_tailwind_cli-2.0.3.tar.gz]
+[2023-07-30 09:34:50] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.5.tar.gz]
+[2023-07-30 09:34:50] INFO root fetch - main [MainThread]: End processing [django-tailwind-cli]: success
+[2023-07-30 09:34:50] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-07-30 09:34:50] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.6.202307300727-py3-none-any.whl.zip]
+[2023-07-30 09:34:50] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202307300729-py3-none-any.whl.zip]
+[2023-07-30 09:34:50] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-07-30 09:34:50] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.6.tar.gz]
+[2023-07-30 09:34:50] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.7.tar.gz]
+[2023-07-30 09:34:50] INFO root fetch - main [MainThread]: End processing [nicescad]: success
+[2023-07-30 09:34:50] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-07-30 09:34:50] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.90-py3-none-any.whl.zip]
+[2023-07-30 09:34:50] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-07-30 09:34:51] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 09:34:51] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 09:34:51] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 09:34:51] INFO root fetch - main [MainThread]: Store serial: [19094464]
