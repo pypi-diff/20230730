@@ -10413,3 +10413,65 @@
 [2023-07-30 15:33:23] INFO root fetch - processPackages [gvsbuild]: Remove: archive file [/home/abi/fetcher/tmp/gvsbuild-2023.7.1.tar.gz]
 [2023-07-30 15:33:23] INFO root fetch - main [MainThread]: End processing [gvsbuild]: success
 [2023-07-30 15:33:23] INFO root fetch - main [MainThread]: Store serial: [19096550]
+[2023-07-30 15:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096550]
+[2023-07-30 15:38:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmcb-avt
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pySystemRDLModel
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asposeslidescloud
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdm-build-locked
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blip-sk-demo
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundationdb
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assamer
+[2023-07-30 15:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zood
+[2023-07-30 15:38:32] WARNING root fetch - processPackages [pySystemRDLModel]: Skipping, unable to determine old version
+[2023-07-30 15:38:32] INFO root fetch - main [MainThread]: End processing [pySystemRDLModel] error
+[2023-07-30 15:38:32] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-30 15:38:32] WARNING root fetch - processPackages [blip-sk-demo]: Skipping, unable to determine old version
+[2023-07-30 15:38:32] INFO root fetch - main [MainThread]: End processing [blip-sk-demo] error
+[2023-07-30 15:38:32] WARNING root fetch - processPackages [assamer]: Skipping, unable to determine old version
+[2023-07-30 15:38:32] INFO root fetch - main [MainThread]: End processing [assamer] error
+[2023-07-30 15:38:32] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.29] Old Version: [2023.7.28]
+[2023-07-30 15:38:32] INFO root fetch - processPackages [pdm-build-locked]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-30 15:38:32] INFO root fetch - processPackages [asposeslidescloud]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-30 15:38:32] INFO root fetch - processPackages [zood]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-30 15:38:32] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2023-07-30 15:38:32] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/d7/e2/a443168c86542e95a0ceb6049d0afb9498cc076223d46870b53590779b10/fbgemm_gpu_nightly-2023.7.28-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-30 15:38:32] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/44/a4/f1a980dde599e4f43d88b7244e65fe181711bcbd2e014be2cb429d743fa8/zood-0.8.2.tar.gz
+[2023-07-30 15:38:32] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/df/57/e6dfb86c2d6d82b8bfc6a11f9288a05568ad073d1e5fb5bd81fbcfb70405/mmcb-avt-0.0.93.tar.gz
+[2023-07-30 15:38:32] INFO root fetch - processPackages [pdm-build-locked]: Downloading https://files.pythonhosted.org/packages/84/24/afa9600dcae527498e282517ff63fd2014ed15efdf3a261167506c4257f3/pdm_build_locked-0.1.2.tar.gz
+[2023-07-30 15:38:32] INFO root fetch - processPackages [asposeslidescloud]: Downloading https://files.pythonhosted.org/packages/2e/59/ac5cd1cf52f3afcfdbc5c7263e2b2b3ffaa6a92c850a8dd51fa4c0177d1c/asposeslidescloud-23.6.0.tar.gz
+[2023-07-30 15:38:32] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 218112171>=10485760
+[2023-07-30 15:38:32] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-30 15:38:32] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2023-07-30 15:38:33] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/8d/7c/4b61c6ea3db67f9169af041928d7212378da9f89bca0f2d586e9f1c8d53f/zood-0.8.3.tar.gz
+[2023-07-30 15:38:33] INFO root fetch - processPackages [pdm-build-locked]: Downloading https://files.pythonhosted.org/packages/dd/56/254dc1d834b789b70765d04f763d10d04d5f10ff132f36e16168c56ea24a/pdm_build_locked-0.1.3.tar.gz
+[2023-07-30 15:38:33] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-30 15:38:33] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/88/42/b6aa1481422e4e3bf84e6c5d76628c222b2334d290cb2671906944a7255e/mmcb-avt-0.0.94.tar.gz
+[2023-07-30 15:38:33] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.8.2.tar.gz tmp/zood-0.8.3.tar.gz --markdown 20230730/z/zood/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-30 15:38:33] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2023-07-30 15:38:33] INFO root fetch - processPackages [pdm-build-locked]: executing diffoscope
+[2023-07-30 15:38:33] INFO root fetch - processPackages [pdm-build-locked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_build_locked-0.1.2.tar.gz tmp/pdm_build_locked-0.1.3.tar.gz --markdown 20230730/p/pdm-build-locked/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-30 15:38:33] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-07-30 15:38:33] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.93.tar.gz tmp/mmcb-avt-0.0.94.tar.gz --markdown 20230730/m/mmcb-avt/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-30 15:38:33] INFO root fetch - processPackages [asposeslidescloud]: Downloading https://files.pythonhosted.org/packages/c2/5f/fb1dca7a73a1182f469b0a942334817d49e63ceb3bb4ae027269804fb79b/asposeslidescloud-23.7.0.tar.gz
+[2023-07-30 15:38:33] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-07-30 15:38:33] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20230730/f/foundationdb/7.3.8-7.3.9/diff.md --exclude *.pyd
+[2023-07-30 15:38:33] INFO root fetch - processPackages [asposeslidescloud]: executing diffoscope
+[2023-07-30 15:38:33] INFO root fetch - processPackages [asposeslidescloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asposeslidescloud-23.6.0.tar.gz tmp/asposeslidescloud-23.7.0.tar.gz --markdown 20230730/a/asposeslidescloud/23.6.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-30 15:38:34] INFO root fetch - processPackages [pdm-build-locked]: Remove: archive file [/home/abi/fetcher/tmp/pdm_build_locked-0.1.2.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - processPackages [pdm-build-locked]: Remove: archive file [/home/abi/fetcher/tmp/pdm_build_locked-0.1.3.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - main [MainThread]: End processing [pdm-build-locked]: success
+[2023-07-30 15:38:34] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-07-30 15:38:34] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.93.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - processPackages [mmcb-avt]: Remove: archive file [/home/abi/fetcher/tmp/mmcb-avt-0.0.94.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-07-30 15:38:34] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.2.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.8.3.tar.gz]
+[2023-07-30 15:38:34] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-30 15:38:35] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-23.6.0.tar.gz]
+[2023-07-30 15:38:35] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-23.7.0.tar.gz]
+[2023-07-30 15:38:35] INFO root fetch - main [MainThread]: End processing [asposeslidescloud]: success
+[2023-07-30 15:38:35] INFO root fetch - main [MainThread]: Store serial: [19096581]
