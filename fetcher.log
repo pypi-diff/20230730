@@ -7506,3 +7506,89 @@
 [2023-07-30 11:39:46] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.9.2.tar.gz]
 [2023-07-30 11:39:46] INFO root fetch - main [MainThread]: End processing [clown-sort]: success
 [2023-07-30 11:39:46] INFO root fetch - main [MainThread]: Store serial: [19095148]
+[2023-07-30 11:44:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095148]
+[2023-07-30 11:44:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betwatch
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nicescad
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: todotree
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apollon
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastshopifyapi
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sleepyemoji
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mediaify
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TDS2STAC
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DsToDc
+[2023-07-30 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mathhelper
+[2023-07-30 11:44:55] INFO root fetch - processPackages [TDS2STAC]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-30 11:44:55] INFO root fetch - processPackages [fastshopifyapi]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-30 11:44:55] INFO root fetch - processPackages [betwatch]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-30 11:44:55] INFO root fetch - processPackages [sleepyemoji]: New version: [3.0] Old Version: [2.9]
+[2023-07-30 11:44:55] INFO root fetch - processPackages [apollon]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-30 11:44:55] WARNING root fetch - processPackages [mathhelper]: Skipping, unable to determine old version
+[2023-07-30 11:44:55] INFO root fetch - processPackages [DsToDc]: New version: [0.5.1b0] Old Version: [0.5.1a0]
+[2023-07-30 11:44:55] INFO root fetch - processPackages [mathhelper]: Start processing: scientifiction
+[2023-07-30 11:44:55] INFO root fetch - main [MainThread]: End processing [mathhelper] error
+[2023-07-30 11:44:55] INFO root fetch - processPackages [mediaify]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-30 11:44:55] INFO root fetch - processPackages [todotree]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-30 11:44:55] INFO root fetch - processPackages [nicescad]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 11:44:55] WARNING root fetch - processPackages [scientifiction]: Skipping, unable to determine old version
+[2023-07-30 11:44:55] INFO root fetch - main [MainThread]: End processing [scientifiction] error
+[2023-07-30 11:44:55] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/09/70/49ba99168d5f8c48864f6af7ee2c5dd053b69fbcebc67f721c91b597f0dc/nicescad-0.0.7.tar.gz
+[2023-07-30 11:44:55] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/66/c7/d31276e0ab5cfe19f7914f6bb6708a879a5f8662f5542af1bde71a168644/mediaify-3.0.3.tar.gz
+[2023-07-30 11:44:55] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/57/6c/0395c7d6b90ebe4e22ef34d64c2df965fa969b1af57b258ec8e25222594a/sleepyemoji-2.9.tar.gz
+[2023-07-30 11:44:55] INFO root fetch - processPackages [DsToDc]: Downloading https://files.pythonhosted.org/packages/75/37/7b78edab1e979efb455c14802f7670f4110f6dc818311c66134c112071b9/DsToDc-0.5.1a0.tar.gz
+[2023-07-30 11:44:55] INFO root fetch - processPackages [apollon]: Downloading https://files.pythonhosted.org/packages/11/10/43779a93e135a2cecb37fc28500b6e3101e7f4a327ce223f91245729b960/apollon-0.1.3.tar.gz
+[2023-07-30 11:44:55] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/e1/dd/50ce6706115a969f9963dbab643aee57d76be48543aa35b9c06279b57f3a/betwatch-1.1.0.tar.gz
+[2023-07-30 11:44:55] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/80/f2/63c1481095e3b66eb1afa5a69cc83baf8170928ad5f90992ce69d2d1d0aa/TDS2STAC-2.0.8.tar.gz
+[2023-07-30 11:44:55] INFO root fetch - processPackages [fastshopifyapi]: Downloading https://files.pythonhosted.org/packages/0e/61/e6ff7faf3e8d56914de1a9ef2d095cc0b09a584f56e29b0317a21a9a4ce9/fastshopifyapi-2.0.0.tar.gz
+[2023-07-30 11:44:55] WARNING root fetch - processPackages [mediaify]: Skipping package: exceeds size limit 43541292>=10485760
+[2023-07-30 11:44:55] INFO root fetch - main [MainThread]: End processing [mediaify] error
+[2023-07-30 11:44:55] INFO root fetch - processPackages [todotree]: Downloading https://files.pythonhosted.org/packages/47/79/c22b288e57698ac5b9d1f4f798b95c25d8422f90309335ef8d8d24c658a9/todotree-1.0.2.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/60/6e/2f865ed4732d31763df9f44c09428b1e022d559e7a68690dc7da8f66e2e7/nicescad-0.0.8.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [DsToDc]: Downloading https://files.pythonhosted.org/packages/da/b1/06dc7de73ec042bcea605c0d6e7fed29ea4cfa4e78b19db53ca27a8dac65/DsToDc-0.5.1b0.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [apollon]: Downloading https://files.pythonhosted.org/packages/13/08/87389d25b8a8436b0d0b8fc63147aa981e90bc7cb837b03336f2def70df3/apollon-0.1.4.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [fastshopifyapi]: Downloading https://files.pythonhosted.org/packages/2c/c1/b84cde67a24d174e158ddeff6780ab4ab7eeda04bfccbeee5f6ed0c24bac/fastshopifyapi-2.0.1.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/c0/d6/f7bd19399e3c7585abdb05b7eaae0751db24fea546b1a6fe404e95743e2a/betwatch-1.1.1.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/92/d6/690c4423c66b24a4fa23b8ac57dc602e8eb500781554ae4628db5bb7c934/sleepyemoji-3.0.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [todotree]: Downloading https://files.pythonhosted.org/packages/a3/ee/38397eacd33a402fe094410b5d002524a68104f037e0318694fa80d4e9b7/todotree-1.0.4.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/2a/c1/62aee7cc75d6e80d86dc651db1c643a61362a6698bbccce62f5a63cd5ac2/TDS2STAC-2.0.9.tar.gz
+[2023-07-30 11:44:56] INFO root fetch - processPackages [nicescad]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [nicescad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicescad-0.0.7.tar.gz tmp/nicescad-0.0.8.tar.gz --markdown 20230730/n/nicescad/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-30 11:44:56] INFO root fetch - processPackages [DsToDc]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [DsToDc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DsToDc-0.5.1a0.tar.gz tmp/DsToDc-0.5.1b0.tar.gz --markdown 20230730/D/DsToDc/0.5.1a0-0.5.1b0/diff.md --exclude *.pyd
+[2023-07-30 11:44:56] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.1.0.tar.gz tmp/betwatch-1.1.1.tar.gz --markdown 20230730/b/betwatch/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-30 11:44:56] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.9.tar.gz tmp/sleepyemoji-3.0.tar.gz --markdown 20230730/s/sleepyemoji/2.9-3.0/diff.md --exclude *.pyd
+[2023-07-30 11:44:56] INFO root fetch - processPackages [fastshopifyapi]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [fastshopifyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastshopifyapi-2.0.0.tar.gz tmp/fastshopifyapi-2.0.1.tar.gz --markdown 20230730/f/fastshopifyapi/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-30 11:44:56] INFO root fetch - processPackages [apollon]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [apollon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollon-0.1.3.tar.gz tmp/apollon-0.1.4.tar.gz --markdown 20230730/a/apollon/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 11:44:56] INFO root fetch - processPackages [TDS2STAC]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [TDS2STAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDS2STAC-2.0.8.tar.gz tmp/TDS2STAC-2.0.9.tar.gz --markdown 20230730/T/TDS2STAC/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-30 11:44:56] INFO root fetch - processPackages [todotree]: executing diffoscope
+[2023-07-30 11:44:56] INFO root fetch - processPackages [todotree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todotree-1.0.2.tar.gz tmp/todotree-1.0.4.tar.gz --markdown 20230730/t/todotree/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 11:44:57] INFO root fetch - processPackages [DsToDc]: Remove: archive file [/home/abi/fetcher/tmp/DsToDc-0.5.1a0.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - processPackages [DsToDc]: Remove: archive file [/home/abi/fetcher/tmp/DsToDc-0.5.1b0.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - main [MainThread]: End processing [DsToDc]: success
+[2023-07-30 11:44:57] INFO root fetch - processPackages [todotree]: Remove: archive file [/home/abi/fetcher/tmp/todotree-1.0.2.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - processPackages [todotree]: Remove: archive file [/home/abi/fetcher/tmp/todotree-1.0.4.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - main [MainThread]: End processing [todotree]: success
+[2023-07-30 11:44:57] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.9.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-3.0.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:44:57] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.1.0.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.1.1.tar.gz]
+[2023-07-30 11:44:57] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-07-30 11:44:58] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.8.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.9.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - main [MainThread]: End processing [TDS2STAC]: success
+[2023-07-30 11:44:58] INFO root fetch - processPackages [apollon]: Remove: archive file [/home/abi/fetcher/tmp/apollon-0.1.3.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - processPackages [apollon]: Remove: archive file [/home/abi/fetcher/tmp/apollon-0.1.4.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - main [MainThread]: End processing [apollon]: success
+[2023-07-30 11:44:58] INFO root fetch - processPackages [fastshopifyapi]: Remove: archive file [/home/abi/fetcher/tmp/fastshopifyapi-2.0.0.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - processPackages [fastshopifyapi]: Remove: archive file [/home/abi/fetcher/tmp/fastshopifyapi-2.0.1.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - main [MainThread]: End processing [fastshopifyapi]: success
+[2023-07-30 11:44:58] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.7.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.8.tar.gz]
+[2023-07-30 11:44:58] INFO root fetch - main [MainThread]: End processing [nicescad]: success
+[2023-07-30 11:44:58] INFO root fetch - main [MainThread]: Store serial: [19095196]
