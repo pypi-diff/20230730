@@ -2809,3 +2809,42 @@
 [2023-07-30 04:02:12] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.9.tar.gz]
 [2023-07-30 04:02:12] INFO root fetch - main [MainThread]: End processing [webint]: success
 [2023-07-30 04:02:12] INFO root fetch - main [MainThread]: Store serial: [19093191]
+[2023-07-30 04:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093191]
+[2023-07-30 04:07:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 04:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlx-exec
+[2023-07-30 04:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cogdb
+[2023-07-30 04:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amatak-shop
+[2023-07-30 04:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dicergirl
+[2023-07-30 04:07:21] INFO root fetch - processPackages [dicergirl]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-30 04:07:21] INFO root fetch - processPackages [sqlx-exec]: New version: [1.3.5] Old Version: [1.3.3]
+[2023-07-30 04:07:21] INFO root fetch - processPackages [amatak-shop]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-30 04:07:21] INFO root fetch - processPackages [cogdb]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-07-30 04:07:21] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/e5/b1/6d0d50afd4b5244e2428a94ba56c7b61c100c61a23b4fd053c2cf5bb2e51/sqlx-exec-1.3.3.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/73/e5/7f4f0639b37f454e68a250d4e379695db8a80ef82a8ef87eac404be30c68/dicergirl-3.0.3.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/62/03/02ce59c02bb81ce02cb33ef0a32a8f78b596fb609c0d4b4cf9250b45e01f/amatak-shop-1.0.4.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [cogdb]: Downloading https://files.pythonhosted.org/packages/79/98/30419fc8c070aeadf350998604c6ba9e8c5eceaec372e241f1685d017b72/cogdb-3.0.6.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/e7/d8/52f54915393d76536dd93c5affe555e0f5112d256cd8374429534b414908/sqlx-exec-1.3.5.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/05/cf/8e150a48d45ec725a03bb03ddad81013e8e2eba21316fb83dedee1d0eef8/dicergirl-3.0.4.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-30 04:07:21] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.3.3.tar.gz tmp/sqlx-exec-1.3.5.tar.gz --markdown 20230730/s/sqlx-exec/1.3.3-1.3.5/diff.md --exclude *.pyd
+[2023-07-30 04:07:21] INFO root fetch - processPackages [amatak-shop]: Downloading https://files.pythonhosted.org/packages/e4/10/2b05eb2a18e31c019d2585c82e94ca486e72d3aab3b325b7b8307001b40b/amatak-shop-1.0.5.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [cogdb]: Downloading https://files.pythonhosted.org/packages/82/63/e3a96f7954c600b45dcf02c791f3107cb1a736e0e776d7dece2b93d213e0/cogdb-3.0.7.tar.gz
+[2023-07-30 04:07:21] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-07-30 04:07:21] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.3.tar.gz tmp/dicergirl-3.0.4.tar.gz --markdown 20230730/d/dicergirl/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-30 04:07:21] INFO root fetch - processPackages [amatak-shop]: executing diffoscope
+[2023-07-30 04:07:21] INFO root fetch - processPackages [amatak-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amatak-shop-1.0.4.tar.gz tmp/amatak-shop-1.0.5.tar.gz --markdown 20230730/a/amatak-shop/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-30 04:07:22] INFO root fetch - processPackages [cogdb]: executing diffoscope
+[2023-07-30 04:07:22] INFO root fetch - processPackages [cogdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogdb-3.0.6.tar.gz tmp/cogdb-3.0.7.tar.gz --markdown 20230730/c/cogdb/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-07-30 04:07:22] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.3.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.3.5.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-30 04:07:22] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.3.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.4.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-07-30 04:07:22] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.4.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - processPackages [amatak-shop]: Remove: archive file [/home/abi/fetcher/tmp/amatak-shop-1.0.5.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - main [MainThread]: End processing [amatak-shop]: success
+[2023-07-30 04:07:22] INFO root fetch - processPackages [cogdb]: Remove: archive file [/home/abi/fetcher/tmp/cogdb-3.0.6.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - processPackages [cogdb]: Remove: archive file [/home/abi/fetcher/tmp/cogdb-3.0.7.tar.gz]
+[2023-07-30 04:07:22] INFO root fetch - main [MainThread]: End processing [cogdb]: success
+[2023-07-30 04:07:22] INFO root fetch - main [MainThread]: Store serial: [19093202]
