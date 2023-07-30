@@ -11761,3 +11761,54 @@
 [2023-07-30 17:03:31] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-30 17:03:31] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-30 17:03:31] INFO root fetch - main [MainThread]: Store serial: [19097185]
+[2023-07-30 17:08:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19097185]
+[2023-07-30 17:08:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-30 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zesty.zbs-api-migration-history
+[2023-07-30 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-rds
+[2023-07-30 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyko-sdk
+[2023-07-30 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytoniq
+[2023-07-30 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyparsing
+[2023-07-30 17:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moosez
+[2023-07-30 17:08:39] WARNING root fetch - processPackages [zesty.zbs-api-migration-history]: Skipping, unable to determine old version
+[2023-07-30 17:08:39] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-migration-history] error
+[2023-07-30 17:08:39] INFO root fetch - processPackages [pytoniq]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 17:08:39] INFO root fetch - processPackages [moosez]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-30 17:08:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-30 17:08:39] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b1] Old Version: [0.3.0b0]
+[2023-07-30 17:08:39] INFO root fetch - processPackages [pyparsing]: New version: [3.1.1] Old Version: [3.1.0b2]
+[2023-07-30 17:08:39] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/5d/43/b94bdeb0235f2939b112a93430b06da478dadb30ca2ff13660674b49bc25/moosez-2.2.8.tar.gz
+[2023-07-30 17:08:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-30 17:08:39] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/a9/64/e6e8ed25c15ca4aca863e5fc3eb8ac059642e6c2cca5ad6d0f21f8818f0e/hyko_sdk-0.3.0b0.tar.gz
+[2023-07-30 17:08:39] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/8b/98/4c59b0cbb41b99cda9d0b88433df9453df912c02fa5966c8934b866fc7f6/pytoniq-0.0.6.tar.gz
+[2023-07-30 17:08:39] INFO root fetch - processPackages [pyparsing]: Downloading https://files.pythonhosted.org/packages/7f/d2/d8ca6801fb4f5c5d551f98f4f5459c82d4c3b335c9b545d4104f51fdbc33/pyparsing-3.1.0b2.tar.gz
+[2023-07-30 17:08:39] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-30 17:08:39] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/94/60/32c4aed371a9e9ed0956e4d6265f1b7081c6067fbc7a2b618faf0e708524/moosez-2.2.9.tar.gz
+[2023-07-30 17:08:40] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/24/b9/91d67f4f72c4fd3a8dc0664f26c87d9b4981d8752e843c953ad9947a7c37/hyko_sdk-0.3.0b1.tar.gz
+[2023-07-30 17:08:40] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-30 17:08:40] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230730/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-30 17:08:40] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/8f/89/f426bedd4e5344fcd0f039dd1e71931c9bf06a3bd820e6516fe01d9cc663/pytoniq-0.0.7.tar.gz
+[2023-07-30 17:08:40] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-30 17:08:40] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.8.tar.gz tmp/moosez-2.2.9.tar.gz --markdown 20230730/m/moosez/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-30 17:08:40] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-30 17:08:40] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b0.tar.gz tmp/hyko_sdk-0.3.0b1.tar.gz --markdown 20230730/h/hyko-sdk/0.3.0b0-0.3.0b1/diff.md --exclude *.pyd
+[2023-07-30 17:08:40] INFO root fetch - processPackages [pyparsing]: Downloading https://files.pythonhosted.org/packages/37/fe/65c989f70bd630b589adfbbcd6ed238af22319e90f059946c26b4835e44b/pyparsing-3.1.1.tar.gz
+[2023-07-30 17:08:40] INFO root fetch - processPackages [pytoniq]: executing diffoscope
+[2023-07-30 17:08:40] INFO root fetch - processPackages [pytoniq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-0.0.6.tar.gz tmp/pytoniq-0.0.7.tar.gz --markdown 20230730/p/pytoniq/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 17:08:40] INFO root fetch - processPackages [pyparsing]: executing diffoscope
+[2023-07-30 17:08:40] INFO root fetch - processPackages [pyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparsing-3.1.0b2.tar.gz tmp/pyparsing-3.1.1.tar.gz --markdown 20230730/p/pyparsing/3.1.0b2-3.1.1/diff.md --exclude *.pyd
+[2023-07-30 17:08:41] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b0.tar.gz]
+[2023-07-30 17:08:41] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b1.tar.gz]
+[2023-07-30 17:08:41] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-30 17:08:41] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.8.tar.gz]
+[2023-07-30 17:08:41] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.9.tar.gz]
+[2023-07-30 17:08:41] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-30 17:08:41] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.0.6.tar.gz]
+[2023-07-30 17:08:41] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.0.7.tar.gz]
+[2023-07-30 17:08:41] INFO root fetch - main [MainThread]: End processing [pytoniq]: success
+[2023-07-30 17:08:42] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-30 17:08:42] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-30 17:08:42] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-30 17:08:42] INFO root fetch - processPackages [pyparsing]: Remove: archive file [/home/abi/fetcher/tmp/pyparsing-3.1.0b2.tar.gz]
+[2023-07-30 17:08:42] INFO root fetch - processPackages [pyparsing]: Remove: archive file [/home/abi/fetcher/tmp/pyparsing-3.1.1.tar.gz]
+[2023-07-30 17:08:42] INFO root fetch - main [MainThread]: End processing [pyparsing]: success
+[2023-07-30 17:08:42] INFO root fetch - main [MainThread]: Store serial: [19097211]
