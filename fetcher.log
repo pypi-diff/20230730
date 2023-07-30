@@ -4150,3 +4150,24 @@
 [2023-07-30 06:08:08] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.2.tar.gz]
 [2023-07-30 06:08:08] INFO root fetch - main [MainThread]: End processing [zrouter]: success
 [2023-07-30 06:08:08] INFO root fetch - main [MainThread]: Store serial: [19093685]
+[2023-07-30 06:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093685]
+[2023-07-30 06:13:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-30 06:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex
+[2023-07-30 06:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zrouter
+[2023-07-30 06:13:16] INFO root fetch - processPackages [zrouter]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-30 06:13:16] INFO root fetch - processPackages [reflex]: New version: [0.2.3a8] Old Version: [0.2.3a7]
+[2023-07-30 06:13:16] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/14/1f/8eebf1f7a1a43f9e0bf300af88bbdc495d88d2441fea1cd62de5f80cf38c/zrouter-0.5.2.tar.gz
+[2023-07-30 06:13:17] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/c5/c0/6fd6a91e224d1218250b9ca58c83e2031dad040a98d8698835cd9982c392/reflex-0.2.3a7.tar.gz
+[2023-07-30 06:13:17] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/ed/89/3d3412364f611a118473c6c8482e3f19114c29caea35ccd95fb50355808b/zrouter-0.5.3.tar.gz
+[2023-07-30 06:13:17] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/64/f9/eed291371f1f83962e2389114a664daa828ebe3cc2c7437b14d5067dd34e/reflex-0.2.3a8.tar.gz
+[2023-07-30 06:13:17] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-07-30 06:13:17] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.5.2.tar.gz tmp/zrouter-0.5.3.tar.gz --markdown 20230730/z/zrouter/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-30 06:13:17] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-30 06:13:17] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.3a7.tar.gz tmp/reflex-0.2.3a8.tar.gz --markdown 20230730/r/reflex/0.2.3a7-0.2.3a8/diff.md --exclude *.pyd
+[2023-07-30 06:13:18] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.2.tar.gz]
+[2023-07-30 06:13:18] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.3.tar.gz]
+[2023-07-30 06:13:18] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-07-30 06:13:19] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a7.tar.gz]
+[2023-07-30 06:13:19] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a8.tar.gz]
+[2023-07-30 06:13:19] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-30 06:13:19] INFO root fetch - main [MainThread]: Store serial: [19093691]
