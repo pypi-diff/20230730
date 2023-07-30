@@ -7091,3 +7091,59 @@
 [2023-07-30 11:08:36] INFO root fetch - processPackages [django-diary]: Remove: archive file [/home/abi/fetcher/tmp/django-diary-3.0rc3.tar.gz]
 [2023-07-30 11:08:36] INFO root fetch - main [MainThread]: End processing [django-diary]: success
 [2023-07-30 11:08:36] INFO root fetch - main [MainThread]: Store serial: [19094990]
+[2023-07-30 11:13:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094990]
+[2023-07-30 11:13:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 11:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-30 11:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntaxlight
+[2023-07-30 11:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mxpi
+[2023-07-30 11:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyimporters-csv
+[2023-07-30 11:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: claude-api-py
+[2023-07-30 11:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fgo-api-types
+[2023-07-30 11:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastshopifyapi
+[2023-07-30 11:13:44] INFO root fetch - processPackages [mxpi]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-30 11:13:44] INFO root fetch - processPackages [OneOnOne]: New version: [0.702] Old Version: [0.701]
+[2023-07-30 11:13:44] INFO root fetch - processPackages [claude-api-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 11:13:44] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 11:13:44] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-07-30 11:13:44] WARNING root fetch - processPackages [fastshopifyapi]: Skipping, unable to determine old version
+[2023-07-30 11:13:44] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-30 11:13:44] INFO root fetch - main [MainThread]: End processing [fastshopifyapi] error
+[2023-07-30 11:13:44] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-30 11:13:44] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-07-30 11:13:44] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/d0/8c/f37a27e0e55786aec73cc1012b4eaa9dea4ed8ff47c2a86ed92238f8fdae/OneOnOne-0.701.tar.gz
+[2023-07-30 11:13:44] INFO root fetch - processPackages [claude-api-py]: Downloading https://files.pythonhosted.org/packages/f2/24/abece62030bea3522fa01c46010ebe5aa45fd6c8cf255c389371e1634397/claude-api-py-0.0.2.tar.gz
+[2023-07-30 11:13:44] INFO root fetch - processPackages [mxpi]: Downloading https://files.pythonhosted.org/packages/03/77/c94c19688136c303fd3750b19fd34014f3589062517f35154c2546a6a73e/mxpi-1.5.1.tar.gz
+[2023-07-30 11:13:44] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-30 11:13:44] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-30 11:13:44] WARNING root fetch - processPackages [mxpi]: Skipping package: exceeds size limit 41554715>=10485760
+[2023-07-30 11:13:44] INFO root fetch - main [MainThread]: End processing [mxpi] error
+[2023-07-30 11:13:44] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-07-30 11:13:45] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-30 11:13:45] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230730/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 11:13:45] INFO root fetch - processPackages [claude-api-py]: Downloading https://files.pythonhosted.org/packages/89/86/d9a8f73c6a7bbf3e6c7cb85b05eea9762e239a5e2eddb691938af0593297/claude-api-py-0.0.3.tar.gz
+[2023-07-30 11:13:45] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/b5/d7/a4a94d18099d0424a6f5daab2614ed75a95bc2ff3022338dd109f43e2b5f/OneOnOne-0.702.tar.gz
+[2023-07-30 11:13:45] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-07-30 11:13:45] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230730/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-07-30 11:13:45] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-30 11:13:45] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 11:13:45] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.701.tar.gz tmp/OneOnOne-0.702.tar.gz --markdown 20230730/O/OneOnOne/0.701-0.702/diff.md --exclude *.pyd
+[2023-07-30 11:13:45] INFO root fetch - processPackages [claude-api-py]: executing diffoscope
+[2023-07-30 11:13:45] INFO root fetch - processPackages [claude-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-py-0.0.2.tar.gz tmp/claude-api-py-0.0.3.tar.gz --markdown 20230730/c/claude-api-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 11:13:45] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-30 11:13:45] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230730/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-30 11:13:46] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-07-30 11:13:46] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-30 11:13:46] INFO root fetch - processPackages [claude-api-py]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-py-0.0.2.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - processPackages [claude-api-py]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-py-0.0.3.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - main [MainThread]: End processing [claude-api-py]: success
+[2023-07-30 11:13:46] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-30 11:13:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.701.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.702.tar.gz]
+[2023-07-30 11:13:46] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 11:13:46] INFO root fetch - main [MainThread]: Store serial: [19095012]
