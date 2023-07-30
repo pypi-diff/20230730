@@ -7849,3 +7849,109 @@
 [2023-07-30 12:06:23] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-30 12:06:23] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-30 12:06:23] INFO root fetch - main [MainThread]: Store serial: [19095336]
+[2023-07-30 12:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095336]
+[2023-07-30 12:11:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: non-local-detector
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyppbox-ultralytics
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygame-ce
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: googleCode
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-constructor
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DS2STAC-Ingester
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client-v2
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GoogleDevs
+[2023-07-30 12:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wiggler-studiorabota
+[2023-07-30 12:11:32] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.9.dev0] Old Version: [0.2.8.dev0]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [DS2STAC-Ingester]: New version: [1.0.0] Old Version: [0.8]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-30 12:11:32] WARNING root fetch - processPackages [googleCode]: Skipping, unable to determine old version
+[2023-07-30 12:11:32] INFO root fetch - processPackages [googleCode]: Start processing: a2dl
+[2023-07-30 12:11:32] INFO root fetch - main [MainThread]: End processing [googleCode] error
+[2023-07-30 12:11:32] INFO root fetch - processPackages [pyppbox-ultralytics]: New version: [8.0.145] Old Version: [8.0.143]
+[2023-07-30 12:11:32] WARNING root fetch - processPackages [GoogleDevs]: Skipping, unable to determine old version
+[2023-07-30 12:11:32] INFO root fetch - processPackages [GoogleDevs]: Start processing: py-mrm
+[2023-07-30 12:11:32] INFO root fetch - main [MainThread]: End processing [GoogleDevs] error
+[2023-07-30 12:11:32] INFO root fetch - processPackages [pygame-ce]: New version: [2.3.1.dev4] Old Version: [2.3.1.dev2]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.512.0] Old Version: [0.509.0]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [stigg-api-client]: New version: [0.512.0] Old Version: [0.509.0]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [a2dl]: New version: [0.1.2a0] Old Version: [0.1.2]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/e7/0d/9aafdc1084bf9bcb3128940d1ca31848643a6ac94e3a099fe60a90e89afb/pyppbox-ultralytics-8.0.143.tar.gz
+[2023-07-30 12:11:32] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/4c/e6/a936894027f627bc18cbd2694acedeb1905685999ef6c4995f857c7c1ab5/sql_constructor-1.0.1.tar.gz
+[2023-07-30 12:11:32] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-30 12:11:32] INFO root fetch - processPackages [py-mrm]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-07-30 12:11:32] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/9c/d9/4a59b6f187bedd3fe66f2df3b8f2e36bc4ccf426bb3285b8761c5409e563/non_local_detector-0.2.8.dev0.tar.gz
+[2023-07-30 12:11:32] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/ff/62/8fc4d7a6e8975aa91df9ced629ed007c349922f0e50fa4b3f89e2f6870c9/DS2STAC-Ingester-0.8.tar.gz
+[2023-07-30 12:11:32] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/0a/b2/fa4290e310f826b722b49d2aa2419c23df62f1ab77718d758a80b0e01837/stigg_api_client_v2-0.509.0.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [a2dl]: Downloading https://files.pythonhosted.org/packages/d6/81/8b7d4d6788ddf3900da95f601e4cb8ade3c8ab888b4a9cf97e30e7499f03/a2dl-0.1.2.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/4a/08/b6a5ec8473c88f3650b0bd1e696c393fbf1e197d485e2b214f2ef347c1da/stigg_api_client-0.509.0.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [pygame-ce]: Downloading https://files.pythonhosted.org/packages/50/a9/06de3b70d4af48069264a04fc6d0a76ab18a916c34fc410f30504f44c280/pygame-ce-2.3.1.dev2.tar.gz
+[2023-07-30 12:11:33] WARNING root fetch - processPackages [a2dl]: Skipping package: exceeds size limit 35016854>=10485760
+[2023-07-30 12:11:33] INFO root fetch - processPackages [a2dl]: Start processing: TencentDevs
+[2023-07-30 12:11:33] INFO root fetch - main [MainThread]: End processing [a2dl] error
+[2023-07-30 12:11:33] INFO root fetch - processPackages [py-mrm]: Downloading https://files.pythonhosted.org/packages/b4/ea/b48895bdcfe2c0267efa574141ea99bbaf8345ca2245a113ad9f9e12b0fd/py_mrm-1.0.0.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/cc/30/6246ec8f403d73bb69895dce825fc2033a0649a09f8a364697bb8d63733c/sql_constructor-1.0.2.tar.gz
+[2023-07-30 12:11:33] WARNING root fetch - processPackages [TencentDevs]: Skipping, unable to determine old version
+[2023-07-30 12:11:33] INFO root fetch - processPackages [TencentDevs]: Start processing: MdrisLJ
+[2023-07-30 12:11:33] INFO root fetch - main [MainThread]: End processing [TencentDevs] error
+[2023-07-30 12:11:33] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/1c/ce/222371f40ba1b79bf1ec32ac2ab002efa07609915e4fbe6412303acba51a/pyppbox-ultralytics-8.0.145.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-30 12:11:33] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230730/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 12:11:33] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 12:11:33] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.1.tar.gz tmp/sql_constructor-1.0.2.tar.gz --markdown 20230730/s/sql-constructor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 12:11:33] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/74/75/f9fe0013802989091d553b634cdeaf04a86069a9d722d3968cc31086fb3f/DS2STAC-Ingester-1.0.0.tar.gz
+[2023-07-30 12:11:33] WARNING root fetch - processPackages [MdrisLJ]: Skipping, unable to determine old version
+[2023-07-30 12:11:33] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/47/5f/e040d82a95678ed49faa4180f7132543fb18281ac3d2c0fa30263afe3613/stigg_api_client_v2-0.512.0.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [MdrisLJ]: Start processing: ag-llama-hub-s
+[2023-07-30 12:11:33] INFO root fetch - main [MainThread]: End processing [MdrisLJ] error
+[2023-07-30 12:11:33] WARNING root fetch - processPackages [ag-llama-hub-s]: Skipping, unable to determine old version
+[2023-07-30 12:11:33] INFO root fetch - processPackages [ag-llama-hub-s]: Start processing: ozer
+[2023-07-30 12:11:33] INFO root fetch - main [MainThread]: End processing [ag-llama-hub-s] error
+[2023-07-30 12:11:33] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/ff/15/ca77f78fb744235d1cf73f310dfa7d37c584222356a7c72067613efd9055/stigg_api_client-0.512.0.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [py-mrm]: Downloading https://files.pythonhosted.org/packages/f9/65/e781e5ac2531543ca69173497eff6004342fc0b7d224fb71561698fafccb/py_mrm-1.0.3.tar.gz
+[2023-07-30 12:11:33] INFO root fetch - processPackages [DS2STAC-Ingester]: executing diffoscope
+[2023-07-30 12:11:33] INFO root fetch - processPackages [DS2STAC-Ingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DS2STAC-Ingester-0.8.tar.gz tmp/DS2STAC-Ingester-1.0.0.tar.gz --markdown 20230730/D/DS2STAC-Ingester/0.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-30 12:11:33] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-30 12:11:33] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.509.0.tar.gz tmp/stigg_api_client_v2-0.512.0.tar.gz --markdown 20230730/s/stigg-api-client-v2/0.509.0-0.512.0/diff.md --exclude *.pyd
+[2023-07-30 12:11:33] WARNING root fetch - processPackages [ozer]: Skipping, unable to determine old version
+[2023-07-30 12:11:33] INFO root fetch - processPackages [ozer]: Start processing: FuckQQ
+[2023-07-30 12:11:33] INFO root fetch - main [MainThread]: End processing [ozer] error
+[2023-07-30 12:11:33] INFO root fetch - processPackages [pyppbox-ultralytics]: executing diffoscope
+[2023-07-30 12:11:33] INFO root fetch - processPackages [pyppbox-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox-ultralytics-8.0.143.tar.gz tmp/pyppbox-ultralytics-8.0.145.tar.gz --markdown 20230730/p/pyppbox-ultralytics/8.0.143-8.0.145/diff.md --exclude *.pyd
+[2023-07-30 12:11:33] INFO root fetch - processPackages [py-mrm]: executing diffoscope
+[2023-07-30 12:11:33] INFO root fetch - processPackages [py-mrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_mrm-1.0.0.tar.gz tmp/py_mrm-1.0.3.tar.gz --markdown 20230730/p/py-mrm/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-07-30 12:11:33] WARNING root fetch - processPackages [pygame-ce]: Skipping package: exceeds size limit 13883622>=10485760
+[2023-07-30 12:11:33] INFO root fetch - main [MainThread]: End processing [pygame-ce] error
+[2023-07-30 12:11:33] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-30 12:11:33] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.509.0.tar.gz tmp/stigg_api_client-0.512.0.tar.gz --markdown 20230730/s/stigg-api-client/0.509.0-0.512.0/diff.md --exclude *.pyd
+[2023-07-30 12:11:33] WARNING root fetch - processPackages [FuckQQ]: Skipping, unable to determine old version
+[2023-07-30 12:11:33] INFO root fetch - main [MainThread]: End processing [FuckQQ] error
+[2023-07-30 12:11:34] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-30 12:11:34] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/7e/e0/213145d29f0d6212a56cc5fa7c3b976a0ea5c23112421e5a2f31af93a8b1/non_local_detector-0.2.9.dev0.tar.gz
+[2023-07-30 12:11:34] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.1.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.2.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 12:11:34] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-0.8.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.0.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - main [MainThread]: End processing [DS2STAC-Ingester]: success
+[2023-07-30 12:11:34] INFO root fetch - processPackages [py-mrm]: Remove: archive file [/home/abi/fetcher/tmp/py_mrm-1.0.0.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - processPackages [py-mrm]: Remove: archive file [/home/abi/fetcher/tmp/py_mrm-1.0.3.tar.gz]
+[2023-07-30 12:11:34] INFO root fetch - main [MainThread]: End processing [py-mrm]: success
+[2023-07-30 12:11:35] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.509.0.tar.gz]
+[2023-07-30 12:11:35] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.512.0.tar.gz]
+[2023-07-30 12:11:35] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-30 12:11:35] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.509.0.tar.gz]
+[2023-07-30 12:11:35] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.512.0.tar.gz]
+[2023-07-30 12:11:35] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-30 12:11:35] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-ultralytics-8.0.143.tar.gz]
+[2023-07-30 12:11:35] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-ultralytics-8.0.145.tar.gz]
+[2023-07-30 12:11:35] INFO root fetch - main [MainThread]: End processing [pyppbox-ultralytics]: success
+[2023-07-30 12:11:36] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-30 12:11:36] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.8.dev0.tar.gz tmp/non_local_detector-0.2.9.dev0.tar.gz --markdown 20230730/n/non-local-detector/0.2.8.dev0-0.2.9.dev0/diff.md --exclude *.pyd
+[2023-07-30 12:11:37] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.8.dev0.tar.gz]
+[2023-07-30 12:11:37] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.9.dev0.tar.gz]
+[2023-07-30 12:11:37] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-30 12:11:37] INFO root fetch - main [MainThread]: Store serial: [19095454]
