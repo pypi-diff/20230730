@@ -6773,3 +6773,51 @@
 [2023-07-30 10:47:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.451.tar.gz]
 [2023-07-30 10:47:43] INFO root fetch - main [MainThread]: End processing [readmeai]: success
 [2023-07-30 10:47:43] INFO root fetch - main [MainThread]: Store serial: [19094818]
+[2023-07-30 10:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094818]
+[2023-07-30 10:52:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-30 10:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumigo-opentelemetry
+[2023-07-30 10:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: readmeai
+[2023-07-30 10:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2023-07-30 10:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: todotree
+[2023-07-30 10:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-delivery-procurement-group-carrier
+[2023-07-30 10:52:52] INFO root fetch - processPackages [odoo14-addon-delivery-procurement-group-carrier]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-07-30 10:52:52] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.91] Old Version: [1.0.90]
+[2023-07-30 10:52:52] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-30 10:52:52] INFO root fetch - processPackages [todotree]: New version: [1.0.2] Old Version: [0.1.3]
+[2023-07-30 10:52:52] INFO root fetch - processPackages [readmeai]: New version: [0.0.452] Old Version: [0.0.451]
+[2023-07-30 10:52:52] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-30 10:52:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/d0/a5/b75e994de6cf9de12104d1b2d74d17d7780aa4286420add212c113bb8a48/readmeai-0.0.451.tar.gz
+[2023-07-30 10:52:52] INFO root fetch - processPackages [odoo14-addon-delivery-procurement-group-carrier]: Downloading https://files.pythonhosted.org/packages/88/0e/58380870fec36363503bdb59130f5870471c70bb37fe1bed6eadc7bd8def/odoo14_addon_delivery_procurement_group_carrier-14.0.1.1.0-py3-none-any.whl
+[2023-07-30 10:52:52] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/96/85/d60269059786f0253b5f3e2e6eb4b2a3eb755361728b5a77579ed9f37111/lumigo_opentelemetry-1.0.90-py3-none-any.whl
+[2023-07-30 10:52:52] INFO root fetch - processPackages [todotree]: Downloading https://files.pythonhosted.org/packages/c3/16/bda3de7d1c64e50b3c23f220f04453efb66e611af1d1f86be34fc89804ac/todotree-0.1.3.tar.gz
+[2023-07-30 10:52:52] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/5a/96/9a4b203377a3d817bbdc3e8db54b13a74e3c7abfd25c5cb8946e0d8109c2/readmeai-0.0.452.tar.gz
+[2023-07-30 10:52:52] INFO root fetch - processPackages [odoo14-addon-delivery-procurement-group-carrier]: Downloading https://files.pythonhosted.org/packages/e1/b4/ebf50a47db33cbd2defd15f102e6316a74f343b81480301d3cd4db9b3f03/odoo14_addon_delivery_procurement_group_carrier-14.0.1.1.1-py3-none-any.whl
+[2023-07-30 10:52:52] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/1b/f0/232ef8e8eaa06cc08718198f8d6eb7a95b44a6e293398b103e72d932e055/lumigo_opentelemetry-1.0.91-py3-none-any.whl
+[2023-07-30 10:52:53] INFO root fetch - processPackages [todotree]: Downloading https://files.pythonhosted.org/packages/47/79/c22b288e57698ac5b9d1f4f798b95c25d8422f90309335ef8d8d24c658a9/todotree-1.0.2.tar.gz
+[2023-07-30 10:52:53] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-07-30 10:52:53] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.0.451.tar.gz tmp/readmeai-0.0.452.tar.gz --markdown 20230730/r/readmeai/0.0.451-0.0.452/diff.md --exclude *.pyd
+[2023-07-30 10:52:53] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-30 10:52:53] INFO root fetch - processPackages [odoo14-addon-delivery-procurement-group-carrier]: executing diffoscope
+[2023-07-30 10:52:53] INFO root fetch - processPackages [odoo14-addon-delivery-procurement-group-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_procurement_group_carrier-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_delivery_procurement_group_carrier-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230730/o/odoo14-addon-delivery-procurement-group-carrier/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-30 10:52:53] INFO root fetch - processPackages [todotree]: executing diffoscope
+[2023-07-30 10:52:53] INFO root fetch - processPackages [todotree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todotree-0.1.3.tar.gz tmp/todotree-1.0.2.tar.gz --markdown 20230730/t/todotree/0.1.3-1.0.2/diff.md --exclude *.pyd
+[2023-07-30 10:52:53] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-07-30 10:52:53] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.90-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.91-py3-none-any.whl.zip --markdown 20230730/l/lumigo-opentelemetry/1.0.90-1.0.91/diff.md --exclude *.pyd
+[2023-07-30 10:52:53] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-30 10:52:53] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230730/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-30 10:52:53] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.451.tar.gz]
+[2023-07-30 10:52:53] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.0.452.tar.gz]
+[2023-07-30 10:52:53] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-07-30 10:52:54] INFO root fetch - processPackages [todotree]: Remove: archive file [/home/abi/fetcher/tmp/todotree-0.1.3.tar.gz]
+[2023-07-30 10:52:54] INFO root fetch - processPackages [todotree]: Remove: archive file [/home/abi/fetcher/tmp/todotree-1.0.2.tar.gz]
+[2023-07-30 10:52:54] INFO root fetch - main [MainThread]: End processing [todotree]: success
+[2023-07-30 10:52:54] INFO root fetch - processPackages [odoo14-addon-delivery-procurement-group-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_procurement_group_carrier-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-30 10:52:54] INFO root fetch - processPackages [odoo14-addon-delivery-procurement-group-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_procurement_group_carrier-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-30 10:52:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-procurement-group-carrier]: success
+[2023-07-30 10:52:54] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.90-py3-none-any.whl.zip]
+[2023-07-30 10:52:54] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.91-py3-none-any.whl.zip]
+[2023-07-30 10:52:54] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-07-30 10:52:57] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-30 10:52:57] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-30 10:52:57] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-30 10:52:58] INFO root fetch - main [MainThread]: Store serial: [19094830]
