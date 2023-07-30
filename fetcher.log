@@ -5151,3 +5151,24 @@
 [2023-07-30 07:57:44] INFO root fetch - processPackages [aiida-worktree]: Remove: archive file [/home/abi/fetcher/tmp/aiida-worktree-0.0.3.tar.gz]
 [2023-07-30 07:57:44] INFO root fetch - main [MainThread]: End processing [aiida-worktree]: success
 [2023-07-30 07:57:44] INFO root fetch - main [MainThread]: Store serial: [19094177]
+[2023-07-30 08:02:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19094177]
+[2023-07-30 08:02:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-30 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyp2p
+[2023-07-30 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-gui
+[2023-07-30 08:02:52] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.96] Old Version: [0.0.50.95]
+[2023-07-30 08:02:52] INFO root fetch - processPackages [pyp2p]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-30 08:02:52] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/8c/cc/70c4c2dd68c277e7ebc2d3f8adabc24bf052591f577d936dc99c1e6bcc4e/abstract_gui-0.0.50.95.tar.gz
+[2023-07-30 08:02:53] INFO root fetch - processPackages [pyp2p]: Downloading https://files.pythonhosted.org/packages/60/e1/cdc8e65109f0e3741fada8580b634439343fde318f66fd849d40369f569c/pyp2p-0.8.1.tar.gz
+[2023-07-30 08:02:53] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/bd/88/2ed133d9f71cc265dfa79afe704d3f72d71c4d51ffc513a9fdecad719cf5/abstract_gui-0.0.50.96.tar.gz
+[2023-07-30 08:02:53] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-30 08:02:53] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.95.tar.gz tmp/abstract_gui-0.0.50.96.tar.gz --markdown 20230730/a/abstract-gui/0.0.50.95-0.0.50.96/diff.md --exclude *.pyd
+[2023-07-30 08:02:53] INFO root fetch - processPackages [pyp2p]: Downloading https://files.pythonhosted.org/packages/6a/e2/fdb45c2d36c62245c60a41a5b6b80190354de12313cbbd5f140da4140260/pyp2p-0.8.2.tar.gz
+[2023-07-30 08:02:53] INFO root fetch - processPackages [pyp2p]: executing diffoscope
+[2023-07-30 08:02:53] INFO root fetch - processPackages [pyp2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp2p-0.8.1.tar.gz tmp/pyp2p-0.8.2.tar.gz --markdown 20230730/p/pyp2p/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-30 08:02:54] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.95.tar.gz]
+[2023-07-30 08:02:54] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.96.tar.gz]
+[2023-07-30 08:02:54] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-30 08:02:54] INFO root fetch - processPackages [pyp2p]: Remove: archive file [/home/abi/fetcher/tmp/pyp2p-0.8.1.tar.gz]
+[2023-07-30 08:02:54] INFO root fetch - processPackages [pyp2p]: Remove: archive file [/home/abi/fetcher/tmp/pyp2p-0.8.2.tar.gz]
+[2023-07-30 08:02:54] INFO root fetch - main [MainThread]: End processing [pyp2p]: success
+[2023-07-30 08:02:54] INFO root fetch - main [MainThread]: Store serial: [19094183]
