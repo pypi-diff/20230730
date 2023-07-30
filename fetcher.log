@@ -4045,3 +4045,69 @@
 [2023-07-30 05:57:46] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
 [2023-07-30 05:57:46] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
 [2023-07-30 05:57:46] INFO root fetch - main [MainThread]: Store serial: [19093650]
+[2023-07-30 06:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093650]
+[2023-07-30 06:02:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 06:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-it-financial-statements-report
+[2023-07-30 06:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SCALECAST
+[2023-07-30 06:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyboko
+[2023-07-30 06:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evals-nightly
+[2023-07-30 06:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mutual
+[2023-07-30 06:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-aujob
+[2023-07-30 06:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pmcxcl
+[2023-07-30 06:02:55] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230728] Old Version: [1.0.3.dev20230727]
+[2023-07-30 06:02:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-financial-statements-report]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-07-30 06:02:55] INFO root fetch - processPackages [pyboko]: New version: [0.1.0.post1] Old Version: [0.1.0]
+[2023-07-30 06:02:55] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-30 06:02:55] INFO root fetch - processPackages [mutual]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-30 06:02:55] INFO root fetch - processPackages [pmcxcl]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 06:02:55] INFO root fetch - processPackages [SCALECAST]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-30 06:02:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-financial-statements-report]: Downloading https://files.pythonhosted.org/packages/d5/0a/458c961cf068106343ec3ee12a8c9cbfca11f87b47a743aba2955a2a2a4d/odoo14_addon_l10n_it_financial_statements_report-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-30 06:02:55] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/e0/aa/229133bfff2af655784f58cc046d0688b58e0d24d4cefce66fee20f9fbe5/evals-nightly-1.0.3.dev20230727.tar.gz
+[2023-07-30 06:02:55] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/d0/99/703b687cfe42b3529c2ea9ab8b06fb7ad233f6e4136034b511191e65db62/pmcxcl-0.0.3-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 06:02:55] INFO root fetch - processPackages [pyboko]: Downloading https://files.pythonhosted.org/packages/d6/45/2d4d74089773ce33b3d400c0f27f2e1b2a13a23df016834f30d6c6fc6b7f/pyboko-0.1.0.tar.gz
+[2023-07-30 06:02:55] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/73/06/0be2546f7ab47d5f04df64688f9e7e15e62ba9a76512c61f1fbe4203f198/SCALECAST-0.9.8.tar.gz
+[2023-07-30 06:02:55] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/1e/d4/2edf80ca5ca74c7f0d014c902cc3ac968ba28a65871d3dc743ced264772c/mutual-0.3.1.tar.gz
+[2023-07-30 06:02:55] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/3a/c1/457fbc0cb2a1804bfeb174077dc7d56b142e74171a3a5a0d0c08a807d54d/nonebot_plugin_aujob-0.1.2.tar.gz
+[2023-07-30 06:02:56] INFO root fetch - processPackages [pyboko]: Downloading https://files.pythonhosted.org/packages/ac/32/82499beaaaa4c60856874d0c9833ee42b0157f69e0fd45bf5fd5815db7b2/pyboko-0.1.0.post1.tar.gz
+[2023-07-30 06:02:56] INFO root fetch - processPackages [odoo14-addon-l10n-it-financial-statements-report]: Downloading https://files.pythonhosted.org/packages/52/18/324216e3e91e563645f63102da2f255524eff37cd70f81d4e2cfa457cadd/odoo14_addon_l10n_it_financial_statements_report-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-30 06:02:56] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/82/1f/b348ffa9106185b804b460bd717e5d4c1d12b3125c52bf183145c3f3d9e4/mutual-0.3.2.tar.gz
+[2023-07-30 06:02:56] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/fd/09/e600055cbd7476c7e14546a569a4e5c46fb4e3b1aa6a16e041628a46c7e6/pmcxcl-0.0.4-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 06:02:56] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/73/61/cc53c56f0a4f277c5c78ec4d399274805bcb03e100a5993032f341ac40b5/nonebot_plugin_aujob-0.1.4.tar.gz
+[2023-07-30 06:02:56] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/0e/df/6a6b099f5d0f10261fe53cefbb0fbf440e08b6500fbeb34ffe9b148eb058/evals-nightly-1.0.3.dev20230728.tar.gz
+[2023-07-30 06:02:56] INFO root fetch - processPackages [pyboko]: executing diffoscope
+[2023-07-30 06:02:56] INFO root fetch - processPackages [pyboko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyboko-0.1.0.tar.gz tmp/pyboko-0.1.0.post1.tar.gz --markdown 20230730/p/pyboko/0.1.0-0.1.0.post1/diff.md --exclude *.pyd
+[2023-07-30 06:02:56] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/97/84/a40b0cf229ccc710ac89d010acac4e409d1a556ce05bedf45679f58d1719/SCALECAST-0.9.9.tar.gz
+[2023-07-30 06:02:56] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-30 06:02:56] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.3.1.tar.gz tmp/mutual-0.3.2.tar.gz --markdown 20230730/m/mutual/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-30 06:02:56] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-30 06:02:56] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.1.2.tar.gz tmp/nonebot_plugin_aujob-0.1.4.tar.gz --markdown 20230730/n/nonebot-plugin-aujob/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-30 06:02:56] INFO root fetch - processPackages [odoo14-addon-l10n-it-financial-statements-report]: executing diffoscope
+[2023-07-30 06:02:56] INFO root fetch - processPackages [odoo14-addon-l10n-it-financial-statements-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_financial_statements_report-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_financial_statements_report-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230730/o/odoo14-addon-l10n-it-financial-statements-report/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-07-30 06:02:56] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-30 06:02:56] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230727.tar.gz tmp/evals-nightly-1.0.3.dev20230728.tar.gz --markdown 20230730/e/evals-nightly/1.0.3.dev20230727-1.0.3.dev20230728/diff.md --exclude *.pyd
+[2023-07-30 06:02:56] INFO root fetch - processPackages [pmcxcl]: executing diffoscope
+[2023-07-30 06:02:56] INFO root fetch - processPackages [pmcxcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmcxcl-0.0.3-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pmcxcl-0.0.4-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230730/p/pmcxcl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 06:02:56] INFO root fetch - processPackages [SCALECAST]: executing diffoscope
+[2023-07-30 06:02:56] INFO root fetch - processPackages [SCALECAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCALECAST-0.9.8.tar.gz tmp/SCALECAST-0.9.9.tar.gz --markdown 20230730/S/SCALECAST/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-30 06:02:57] INFO root fetch - processPackages [pyboko]: Remove: archive file [/home/abi/fetcher/tmp/pyboko-0.1.0.tar.gz]
+[2023-07-30 06:02:57] INFO root fetch - processPackages [pyboko]: Remove: archive file [/home/abi/fetcher/tmp/pyboko-0.1.0.post1.tar.gz]
+[2023-07-30 06:02:57] INFO root fetch - main [MainThread]: End processing [pyboko]: success
+[2023-07-30 06:02:57] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.2.tar.gz]
+[2023-07-30 06:02:57] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.4.tar.gz]
+[2023-07-30 06:02:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-30 06:02:57] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.1.tar.gz]
+[2023-07-30 06:02:57] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.2.tar.gz]
+[2023-07-30 06:02:57] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-30 06:02:57] INFO root fetch - processPackages [odoo14-addon-l10n-it-financial-statements-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_financial_statements_report-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-30 06:02:57] INFO root fetch - processPackages [odoo14-addon-l10n-it-financial-statements-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_financial_statements_report-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-30 06:02:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-financial-statements-report]: success
+[2023-07-30 06:02:57] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.3-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 06:02:57] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.4-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 06:02:57] INFO root fetch - main [MainThread]: End processing [pmcxcl]: success
+[2023-07-30 06:02:58] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.8.tar.gz]
+[2023-07-30 06:02:58] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.9.tar.gz]
+[2023-07-30 06:02:58] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
+[2023-07-30 06:02:58] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230727.tar.gz]
+[2023-07-30 06:02:58] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230728.tar.gz]
+[2023-07-30 06:02:58] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-30 06:02:58] INFO root fetch - main [MainThread]: Store serial: [19093676]
