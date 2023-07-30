@@ -8006,3 +8006,65 @@
 [2023-07-30 12:16:47] INFO root fetch - processPackages [prog-shojin-util]: Remove: archive file [/home/abi/fetcher/tmp/prog_shojin_util-0.1.1.tar.gz]
 [2023-07-30 12:16:47] INFO root fetch - main [MainThread]: End processing [prog-shojin-util]: success
 [2023-07-30 12:16:47] INFO root fetch - main [MainThread]: Store serial: [19095485]
+[2023-07-30 12:21:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095485]
+[2023-07-30 12:21:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor.cli.core
+[2023-07-30 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Scrapset
+[2023-07-30 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbot
+[2023-07-30 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql-constructor
+[2023-07-30 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-constructor
+[2023-07-30 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diffusers
+[2023-07-30 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bbot
+[2023-07-30 12:21:56] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [4.3.dev1] Old Version: [4.3.0]
+[2023-07-30 12:21:56] INFO root fetch - processPackages [bbot]: New version: [1.1.0.2036rc0] Old Version: [1.1.0.2034rc0]
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-30 12:21:56] INFO root fetch - processPackages [Scrapset]: New version: [5.3.1] Old Version: [4.3.5]
+[2023-07-30 12:21:56] INFO root fetch - processPackages [diffusers]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 12:21:56] INFO root fetch - processPackages [bbot]: New version: [1.1.0.2036rc0] Old Version: [1.1.0.2034rc0]
+[2023-07-30 12:21:56] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/4e/47/8f6d151207964c5c1e91d3ac856f8e414cfd655dd24c0fe70626fd19e205/pyarmor.cli.core-4.3.0.zip
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f0/8c/ada8ac463e63035ac168abcd1fc921ec56cb3bebab8ad770978b6eb52806/sql_constructor-1.0.4.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/f0/8c/ada8ac463e63035ac168abcd1fc921ec56cb3bebab8ad770978b6eb52806/sql_constructor-1.0.4.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/e8/e7/9ffe2152d1d3ac2f2d7351cd620ef650ac7eecbeb33e4546f0ad3e808282/Scrapset-4.3.5.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/bc/a6/709af54ca1141f176d00b36f078693f9f9efe4ce2cfde8fbae3bf30f1537/diffusers-0.8.1.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/9e/e3/ac79e870aea73beee8e763f0ea1d64cc4b7f406107b943bbb6017ad44538/bbot-1.1.0.2034rc0.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/9e/e3/ac79e870aea73beee8e763f0ea1d64cc4b7f406107b943bbb6017ad44538/bbot-1.1.0.2034rc0.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/17/03/9f3f39cba715955e612324c63f8ca9dbd4b9e55b6950d05655f0e74138e7/pyarmor.cli.core-4.3.dev1.zip
+[2023-07-30 12:21:56] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/fa/78/25909ae5f00ce78543bd089a0f7dfa8c2ab93e6f7dac2da7169b8ef324ef/Scrapset-5.3.1.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/3a/f9/15e7719cfe80763db83d36d04778145fcde762ab92eaacb2f679dc4d1fcf/sql_constructor-1.0.5.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: Downloading https://files.pythonhosted.org/packages/3a/f9/15e7719cfe80763db83d36d04778145fcde762ab92eaacb2f679dc4d1fcf/sql_constructor-1.0.5.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-07-30 12:21:56] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-4.3.5.tar.gz tmp/Scrapset-5.3.1.tar.gz --markdown 20230730/S/Scrapset/4.3.5-5.3.1/diff.md --exclude *.pyd
+[2023-07-30 12:21:56] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/7d/bf/3eee65a76bafb3954ae41137c790491a098e32902893dfa2997091a8f441/diffusers-0.9.0.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-07-30 12:21:56] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-4.3.0.zip tmp/pyarmor.cli.core-4.3.dev1.zip --markdown 20230730/p/pyarmor.cli.core/4.3.0-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.4.tar.gz tmp/sql_constructor-1.0.5.tar.gz --markdown 20230730/s/sql-constructor/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: executing diffoscope
+[2023-07-30 12:21:56] INFO root fetch - processPackages [sql-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_constructor-1.0.4.tar.gz tmp/sql_constructor-1.0.5.tar.gz --markdown 20230730/s/sql-constructor/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-30 12:21:56] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/22/68/3849ae98ad86e4ffbfec19cc2eda8e59727cb1e3d1db94baf03a3dc74521/bbot-1.1.0.2036rc0.tar.gz
+[2023-07-30 12:21:56] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/22/68/3849ae98ad86e4ffbfec19cc2eda8e59727cb1e3d1db94baf03a3dc74521/bbot-1.1.0.2036rc0.tar.gz
+[2023-07-30 12:21:57] INFO root fetch - processPackages [diffusers]: executing diffoscope
+[2023-07-30 12:21:57] INFO root fetch - processPackages [diffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusers-0.8.1.tar.gz tmp/diffusers-0.9.0.tar.gz --markdown 20230730/d/diffusers/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 12:21:57] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-07-30 12:21:57] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.0.2034rc0.tar.gz tmp/bbot-1.1.0.2036rc0.tar.gz --markdown 20230730/b/bbot/1.1.0.2034rc0-1.1.0.2036rc0/diff.md --exclude *.pyd
+[2023-07-30 12:21:57] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-07-30 12:21:57] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.0.2034rc0.tar.gz tmp/bbot-1.1.0.2036rc0.tar.gz --markdown 20230730/b/bbot/1.1.0.2034rc0-1.1.0.2036rc0/diff.md --exclude *.pyd
+[2023-07-30 12:21:57] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-4.3.5.tar.gz]
+[2023-07-30 12:21:57] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-5.3.1.tar.gz]
+[2023-07-30 12:21:57] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-07-30 12:21:57] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.4.tar.gz]
+[2023-07-30 12:21:57] INFO root fetch - processPackages [sql-constructor]: Remove: archive file [/home/abi/fetcher/tmp/sql_constructor-1.0.5.tar.gz]
+[2023-07-30 12:21:57] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 12:21:57] INFO root fetch - main [MainThread]: End processing [sql-constructor]: success
+[2023-07-30 12:21:58] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-4.3.0.zip]
+[2023-07-30 12:21:58] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-4.3.dev1.zip]
+[2023-07-30 12:21:58] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-07-30 12:21:58] INFO root fetch - processPackages [diffusers]: Remove: archive file [/home/abi/fetcher/tmp/diffusers-0.8.1.tar.gz]
+[2023-07-30 12:21:58] INFO root fetch - processPackages [diffusers]: Remove: archive file [/home/abi/fetcher/tmp/diffusers-0.9.0.tar.gz]
+[2023-07-30 12:21:58] INFO root fetch - main [MainThread]: End processing [diffusers]: success
+[2023-07-30 12:21:59] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.0.2034rc0.tar.gz]
+[2023-07-30 12:21:59] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.0.2036rc0.tar.gz]
+[2023-07-30 12:21:59] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-07-30 12:21:59] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-07-30 12:21:59] INFO root fetch - main [MainThread]: Store serial: [19095541]
