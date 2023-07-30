@@ -9353,3 +9353,22 @@
 [2023-07-30 14:01:51] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
 [2023-07-30 14:01:51] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2023-07-30 14:01:51] INFO root fetch - main [MainThread]: Store serial: [19096093]
+[2023-07-30 14:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096093]
+[2023-07-30 14:06:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 14:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu-aws
+[2023-07-30 14:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strprogressbar
+[2023-07-30 14:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-intel
+[2023-07-30 14:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: del-cad
+[2023-07-30 14:06:59] WARNING root fetch - processPackages [del-cad]: Skipping, unable to determine old version
+[2023-07-30 14:06:59] INFO root fetch - main [MainThread]: End processing [del-cad] error
+[2023-07-30 14:06:59] WARNING root fetch - processPackages [strprogressbar]: Skipping, unable to determine old version
+[2023-07-30 14:06:59] INFO root fetch - main [MainThread]: End processing [strprogressbar] error
+[2023-07-30 14:06:59] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230729] Old Version: [2.14.0.dev20230727]
+[2023-07-30 14:06:59] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/31/68/e60c4f95b6cd9653d3c76da2ed86fe9eba9d55d873497eece5fc6d8a3247/tf_nightly_intel-2.14.0.dev20230727-cp39-cp39-win_amd64.whl
+[2023-07-30 14:06:59] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230730] Old Version: [2.14.0.dev20230729]
+[2023-07-30 14:06:59] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 184160240>=10485760
+[2023-07-30 14:07:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-30 14:07:00] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/4a/42/355de3aefbe8ba6299d47574d77c7c0f57922f87f5556f328198f9685742/tf_nightly_cpu_aws-2.14.0.dev20230729-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-30 14:07:00] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262725662>=10485760
+[2023-07-30 14:07:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-07-30 14:07:00] INFO root fetch - main [MainThread]: Store serial: [19096108]
