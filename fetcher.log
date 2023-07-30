@@ -3676,3 +3676,36 @@
 [2023-07-30 05:05:58] INFO root fetch - processPackages [atomman]: Remove: archive file [/home/abi/fetcher/tmp/atomman-1.4.9.tar.gz]
 [2023-07-30 05:05:58] INFO root fetch - main [MainThread]: End processing [atomman]: success
 [2023-07-30 05:05:58] INFO root fetch - main [MainThread]: Store serial: [19093480]
+[2023-07-30 05:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093480]
+[2023-07-30 05:11:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FSRS-Optimizer
+[2023-07-30 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phreeqcrm
+[2023-07-30 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsws
+[2023-07-30 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parsagon
+[2023-07-30 05:11:06] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.5.3] Old Version: [4.5.2]
+[2023-07-30 05:11:06] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-30 05:11:06] WARNING root fetch - processPackages [phreeqcrm]: Skipping, unable to determine old version
+[2023-07-30 05:11:06] INFO root fetch - main [MainThread]: End processing [phreeqcrm] error
+[2023-07-30 05:11:07] INFO root fetch - processPackages [parsagon]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-30 05:11:07] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/da/b0/e71b24093083f6b5af990a42260b4c156f1606b996b1f5aff541b4ffe297/FSRS-Optimizer-4.5.2.tar.gz
+[2023-07-30 05:11:07] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-30 05:11:07] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/b1/4c/339e5bdbbe064d82ca9068895548e217a6b1c2ce01ffeb82e733f0299a87/parsagon-0.8.1.tar.gz
+[2023-07-30 05:11:07] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-30 05:11:07] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/25/f0/a048325ace816ee131aef271f8758b6f72a7ff1915691d2a91a6f97a6ef4/FSRS-Optimizer-4.5.3.tar.gz
+[2023-07-30 05:11:07] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/82/38/4154950273eaa7a36a3a64216022584863caa02fcab9106a8b269594893d/parsagon-0.9.0.tar.gz
+[2023-07-30 05:11:07] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-07-30 05:11:07] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.5.2.tar.gz tmp/FSRS-Optimizer-4.5.3.tar.gz --markdown 20230730/F/FSRS-Optimizer/4.5.2-4.5.3/diff.md --exclude *.pyd
+[2023-07-30 05:11:07] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-30 05:11:07] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230730/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-30 05:11:07] INFO root fetch - processPackages [parsagon]: executing diffoscope
+[2023-07-30 05:11:07] INFO root fetch - processPackages [parsagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsagon-0.8.1.tar.gz tmp/parsagon-0.9.0.tar.gz --markdown 20230730/p/parsagon/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-30 05:11:08] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-30 05:11:08] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-30 05:11:08] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-30 05:11:08] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.2.tar.gz]
+[2023-07-30 05:11:08] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.3.tar.gz]
+[2023-07-30 05:11:08] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-07-30 05:11:08] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.8.1.tar.gz]
+[2023-07-30 05:11:08] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.9.0.tar.gz]
+[2023-07-30 05:11:08] INFO root fetch - main [MainThread]: End processing [parsagon]: success
+[2023-07-30 05:11:08] INFO root fetch - main [MainThread]: Store serial: [19093515]
