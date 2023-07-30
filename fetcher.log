@@ -9834,3 +9834,57 @@
 [2023-07-30 14:43:26] INFO root fetch - processPackages [bilireq]: Remove: archive file [/home/abi/fetcher/tmp/bilireq-0.2.7.tar.gz]
 [2023-07-30 14:43:26] INFO root fetch - main [MainThread]: End processing [bilireq]: success
 [2023-07-30 14:43:26] INFO root fetch - main [MainThread]: Store serial: [19096290]
+[2023-07-30 14:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19096290]
+[2023-07-30 14:48:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customs-dtoc
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibm-watson-machine-learning
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytmpdir
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wtfutil
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owlmixin
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bili-eta
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kuaikuai
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2023-07-30 14:48:35] INFO root fetch - processPackages [owlmixin]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-07-30 14:48:35] INFO root fetch - processPackages [bili-eta]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-30 14:48:35] WARNING root fetch - processPackages [kuaikuai]: Skipping, unable to determine old version
+[2023-07-30 14:48:35] INFO root fetch - processPackages [pytmpdir]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-30 14:48:35] INFO root fetch - main [MainThread]: End processing [kuaikuai] error
+[2023-07-30 14:48:35] WARNING root fetch - processPackages [customs-dtoc]: Skipping, unable to determine old version
+[2023-07-30 14:48:35] INFO root fetch - main [MainThread]: End processing [customs-dtoc] error
+[2023-07-30 14:48:35] INFO root fetch - processPackages [wtfutil]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-30 14:48:35] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/d9/00/15b4a06d141ea505fda4a014bcb9281dc1dae934d5ba588341150bc73bb3/bili_eta-0.1.7.tar.gz
+[2023-07-30 14:48:35] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/c8/7c/e552245f3f74a3b0ce79478c264c39b0b8f680465bf475f5858e0069fcfc/wtfutil-1.0.8-py2.py3-none-any.whl
+[2023-07-30 14:48:35] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2023-07-30 14:48:35] INFO root fetch - processPackages [owlmixin]: Downloading https://files.pythonhosted.org/packages/ff/f6/228fe434b75380265f38079b0eafeddd2dbde79f3a90cc1a506386fe1dcd/owlmixin-6.0.0-py3-none-any.whl
+[2023-07-30 14:48:35] INFO root fetch - processPackages [pytmpdir]: Downloading https://files.pythonhosted.org/packages/6a/bf/9246d6ccf6d9d63710a588b1c64464acef0b845e738532914060b39a5973/pytmpdir-1.0.3.tar.gz
+[2023-07-30 14:48:35] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/7c/17/9753ffecedc6f31909b872005fdc062bfb889f54193d4a2cb1463cabc305/wtfutil-1.0.9-py2.py3-none-any.whl
+[2023-07-30 14:48:36] INFO root fetch - processPackages [bili-eta]: Downloading https://files.pythonhosted.org/packages/ca/0e/2717f0fb1f1ef61341231d8c9d8b8fb6d5a37cfc86ca6cb3990eee627c8d/bili_eta-0.1.8.tar.gz
+[2023-07-30 14:48:36] INFO root fetch - processPackages [wtfutil]: executing diffoscope
+[2023-07-30 14:48:36] INFO root fetch - processPackages [wtfutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip --markdown 20230730/w/wtfutil/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-30 14:48:36] INFO root fetch - processPackages [owlmixin]: Downloading https://files.pythonhosted.org/packages/e1/6c/10222ee746c1c8762e5a2a66aab7b5590dc63afe46d66945ee4bbe4fe855/owlmixin-6.1.0-py3-none-any.whl
+[2023-07-30 14:48:36] INFO root fetch - processPackages [pytmpdir]: Downloading https://files.pythonhosted.org/packages/f6/b1/7c9c7a32e11ce4dc5a55bc5c2ad28938b19a99b2f2c216accedcd2fa4497/pytmpdir-1.0.4.tar.gz
+[2023-07-30 14:48:36] INFO root fetch - processPackages [bili-eta]: executing diffoscope
+[2023-07-30 14:48:36] INFO root fetch - processPackages [bili-eta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili_eta-0.1.7.tar.gz tmp/bili_eta-0.1.8.tar.gz --markdown 20230730/b/bili-eta/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-30 14:48:36] INFO root fetch - processPackages [owlmixin]: executing diffoscope
+[2023-07-30 14:48:36] INFO root fetch - processPackages [owlmixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlmixin-6.0.0-py3-none-any.whl.zip tmp/owlmixin-6.1.0-py3-none-any.whl.zip --markdown 20230730/o/owlmixin/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-30 14:48:36] INFO root fetch - processPackages [pytmpdir]: executing diffoscope
+[2023-07-30 14:48:36] INFO root fetch - processPackages [pytmpdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmpdir-1.0.3.tar.gz tmp/pytmpdir-1.0.4.tar.gz --markdown 20230730/p/pytmpdir/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-30 14:48:36] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2023-07-30 14:48:36] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2023-07-30 14:48:36] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20230730/i/ibm-watson-machine-learning/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2023-07-30 14:48:37] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-30 14:48:37] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-30 14:48:37] INFO root fetch - main [MainThread]: End processing [wtfutil]: success
+[2023-07-30 14:48:37] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.7.tar.gz]
+[2023-07-30 14:48:37] INFO root fetch - processPackages [bili-eta]: Remove: archive file [/home/abi/fetcher/tmp/bili_eta-0.1.8.tar.gz]
+[2023-07-30 14:48:37] INFO root fetch - main [MainThread]: End processing [bili-eta]: success
+[2023-07-30 14:48:37] INFO root fetch - processPackages [owlmixin]: Remove: archive file [/home/abi/fetcher/tmp/owlmixin-6.0.0-py3-none-any.whl.zip]
+[2023-07-30 14:48:37] INFO root fetch - processPackages [owlmixin]: Remove: archive file [/home/abi/fetcher/tmp/owlmixin-6.1.0-py3-none-any.whl.zip]
+[2023-07-30 14:48:37] INFO root fetch - main [MainThread]: End processing [owlmixin]: success
+[2023-07-30 14:48:37] INFO root fetch - processPackages [pytmpdir]: Remove: archive file [/home/abi/fetcher/tmp/pytmpdir-1.0.3.tar.gz]
+[2023-07-30 14:48:37] INFO root fetch - processPackages [pytmpdir]: Remove: archive file [/home/abi/fetcher/tmp/pytmpdir-1.0.4.tar.gz]
+[2023-07-30 14:48:37] INFO root fetch - main [MainThread]: End processing [pytmpdir]: success
+[2023-07-30 14:48:41] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2023-07-30 14:48:41] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2023-07-30 14:48:41] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2023-07-30 14:48:41] INFO root fetch - main [MainThread]: Store serial: [19096314]
