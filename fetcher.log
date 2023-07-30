@@ -7376,3 +7376,66 @@
 [2023-07-30 11:29:24] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.7.tar.gz]
 [2023-07-30 11:29:24] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
 [2023-07-30 11:29:24] INFO root fetch - main [MainThread]: Store serial: [19095104]
+[2023-07-30 11:34:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095104]
+[2023-07-30 11:34:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mediaify
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleepyemoji
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kube-ops
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoda-tk
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ANSIController
+[2023-07-30 11:34:32] INFO root fetch - processPackages [kube-ops]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-30 11:34:32] INFO root fetch - processPackages [sleepyemoji]: New version: [2.7] Old Version: [2.6]
+[2023-07-30 11:34:32] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-30 11:34:32] INFO root fetch - processPackages [scoda-tk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-30 11:34:32] INFO root fetch - processPackages [OneOnOne]: New version: [0.704] Old Version: [0.703]
+[2023-07-30 11:34:32] INFO root fetch - processPackages [mediaify]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-30 11:34:32] INFO root fetch - processPackages [ANSIController]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-30 11:34:32] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/dc/7c/5d52e088413431f0fb590c8a1b5410c59f2a6f98208ff3b8dc4495eb7d6e/sleepyemoji-2.6.tar.gz
+[2023-07-30 11:34:32] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-30 11:34:32] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/96/9a/72117a8ecb11a06e778ae48752c2ccd4fd5f26427c181d9e48148f4b7c47/scoda-tk-0.1.7.tar.gz
+[2023-07-30 11:34:32] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/71/ec/0b5cca6a4389e7aa4f519282ab7e2fa3efc8594ca5d3e52123ac6ea28216/kube_ops-1.0.5-py3-none-any.whl
+[2023-07-30 11:34:32] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/cb/f8/b3aeb5e86479ce735fa51a84c2b7f354cd322101b5b13f997b2c30a6286c/OneOnOne-0.703.tar.gz
+[2023-07-30 11:34:32] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/83/a7/341cb63d6ee034a79ac054e218076307b3e8251a6abc8b76a134c9f3f657/mediaify-3.0.2.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/55/fe/96cf441e8cf2b919ee1452f9afbb5e2215f906ddeaaa597e105066942758/ANSIController-1.0.4.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [sleepyemoji]: Downloading https://files.pythonhosted.org/packages/cf/f3/75238854ac23ec2903c530a1783e48fbb642e16cf32fb502cc3cdb5cc80e/sleepyemoji-2.7.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/af/9a/08886585b170dcaf96b6f26b7047f9a356e716e968e66eb8eaa5a033a866/kube_ops-1.0.6-py3-none-any.whl
+[2023-07-30 11:34:33] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/bb/3e/2df44d983bcad41330d768255900d61b143aac2b31fc4653c37196fcbbf3/scoda-tk-0.1.8.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/66/c7/d31276e0ab5cfe19f7914f6bb6708a879a5f8662f5542af1bde71a168644/mediaify-3.0.3.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [sleepyemoji]: executing diffoscope
+[2023-07-30 11:34:33] INFO root fetch - processPackages [sleepyemoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepyemoji-2.6.tar.gz tmp/sleepyemoji-2.7.tar.gz --markdown 20230730/s/sleepyemoji/2.6-2.7/diff.md --exclude *.pyd
+[2023-07-30 11:34:33] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-30 11:34:33] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230730/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-30 11:34:33] INFO root fetch - processPackages [ANSIController]: Downloading https://files.pythonhosted.org/packages/17/d0/3589686e8e4821790121c79bb813daf542e5be2a09500a283e0e0b2620a8/ANSIController-1.0.5.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [kube-ops]: executing diffoscope
+[2023-07-30 11:34:33] INFO root fetch - processPackages [kube-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_ops-1.0.5-py3-none-any.whl.zip tmp/kube_ops-1.0.6-py3-none-any.whl.zip --markdown 20230730/k/kube-ops/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-30 11:34:33] WARNING root fetch - processPackages [mediaify]: Skipping package: exceeds size limit 43541292>=10485760
+[2023-07-30 11:34:33] INFO root fetch - main [MainThread]: End processing [mediaify] error
+[2023-07-30 11:34:33] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/d7/3d/38ab578ff3efe50ccf29bc43e1eac1affc0c5887430a8798f82f62117a61/OneOnOne-0.704.tar.gz
+[2023-07-30 11:34:33] INFO root fetch - processPackages [ANSIController]: executing diffoscope
+[2023-07-30 11:34:33] INFO root fetch - processPackages [ANSIController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANSIController-1.0.4.tar.gz tmp/ANSIController-1.0.5.tar.gz --markdown 20230730/A/ANSIController/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-30 11:34:34] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-30 11:34:34] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.1.7.tar.gz tmp/scoda-tk-0.1.8.tar.gz --markdown 20230730/s/scoda-tk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-30 11:34:34] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-30 11:34:34] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.703.tar.gz tmp/OneOnOne-0.704.tar.gz --markdown 20230730/O/OneOnOne/0.703-0.704/diff.md --exclude *.pyd
+[2023-07-30 11:34:34] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.6.tar.gz]
+[2023-07-30 11:34:34] INFO root fetch - processPackages [sleepyemoji]: Remove: archive file [/home/abi/fetcher/tmp/sleepyemoji-2.7.tar.gz]
+[2023-07-30 11:34:34] INFO root fetch - main [MainThread]: End processing [sleepyemoji]: success
+[2023-07-30 11:34:34] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.5-py3-none-any.whl.zip]
+[2023-07-30 11:34:34] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.6-py3-none-any.whl.zip]
+[2023-07-30 11:34:34] INFO root fetch - main [MainThread]: End processing [kube-ops]: success
+[2023-07-30 11:34:34] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.4.tar.gz]
+[2023-07-30 11:34:34] INFO root fetch - processPackages [ANSIController]: Remove: archive file [/home/abi/fetcher/tmp/ANSIController-1.0.5.tar.gz]
+[2023-07-30 11:34:34] INFO root fetch - main [MainThread]: End processing [ANSIController]: success
+[2023-07-30 11:34:34] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-30 11:34:34] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-30 11:34:34] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-30 11:34:35] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.703.tar.gz]
+[2023-07-30 11:34:35] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.704.tar.gz]
+[2023-07-30 11:34:35] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-30 11:34:35] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.7.tar.gz]
+[2023-07-30 11:34:35] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.1.8.tar.gz]
+[2023-07-30 11:34:35] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-30 11:34:35] INFO root fetch - main [MainThread]: Store serial: [19095123]
