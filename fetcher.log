@@ -16774,3 +16774,103 @@ AssertionError: tmp/matan-0.1.5.2.9.tar.gz does not exist
 [2023-07-30 23:32:32] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-07-30 23:32:32] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-07-30 23:32:32] INFO root fetch - main [MainThread]: Store serial: [19099593]
+[2023-07-30 23:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19099593]
+[2023-07-30 23:37:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgeshared
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgeconnector
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypiserver
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgebackend
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: systembridgecli
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: properties-step
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgegui
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systembridgefrontend
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plonetheme.barceloneta
+[2023-07-30 23:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: systembridgewindowssensors
+[2023-07-30 23:37:41] WARNING root fetch - processPackages [properties-step]: Skipping, unable to determine old version
+[2023-07-30 23:37:41] INFO root fetch - processPackages [properties-step]: Start processing: opet
+[2023-07-30 23:37:41] INFO root fetch - main [MainThread]: End processing [properties-step] error
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgecli]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [opet]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [pypiserver]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [plonetheme.barceloneta]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgebackend]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgeshared]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgegui]: New version: [3.8.0.dev9] Old Version: [3.8.0.dev8]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/81/2c/02c0da61a4727fb73476c2fa38e036da03aeff26456262a663d075806564/systembridgewindowssensors-3.8.0.dev8.tar.gz
+[2023-07-30 23:37:41] ERROR root fetch - processPackages [opet]: Unable to fetch info: No such project/version 'opet' 0.0.7
+[2023-07-30 23:37:41] INFO root fetch - processPackages [opet]: Start processing: arduino-exporter
+[2023-07-30 23:37:41] INFO root fetch - main [MainThread]: End processing [opet] error
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/c7/4a/5fc463ab7a4a2ffe0ddaab3429c2862bf5b779006f76f66be6657ecbdc4b/systembridgebackend-3.8.0.dev8.tar.gz
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/b6/5a/0e66891dd12466d8cb2db98ba2763c6b9908471011412ce28189b07ed3e0/systembridgeconnector-3.8.0.dev8.tar.gz
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c4/4c/519d5a7d7188e6cd9cbf6981f899ab0cf7059dacc39b0260be4dc941e78e/systembridgeshared-3.8.0.dev8.tar.gz
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/ae/15/b0e4e3ea36a157948c44984c425eb8315e804af4006d932089217c2dfb3c/systembridgecli-3.8.0.dev8.tar.gz
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/98/49/bef46531661ec04b544df7f3ffbab389abc531ee388df6dfc36a86c0d4eb/systembridgegui-3.8.0.dev8.tar.gz
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/57/b3/050e9a7ff3adb63d1efc61115381d83b27eb28e65b4804113ac3308d3a0c/systembridgefrontend-3.8.0.dev8.tar.gz
+[2023-07-30 23:37:41] INFO root fetch - processPackages [arduino-exporter]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-30 23:37:41] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/8e/2c/281d198f8de6e3eaabbd2ea87e2b2ffc79532b839972dc68a30ab9ea2e70/plonetheme.barceloneta-3.1.3.tar.gz
+[2023-07-30 23:37:41] INFO root fetch - processPackages [pypiserver]: Downloading https://files.pythonhosted.org/packages/3e/69/f90ba23c3c5996ddc8bccdde0c65408815047552b172befe28f1e4ae1ccc/pypiserver-1.5.1.zip
+[2023-07-30 23:37:41] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/04/07/5ba22add89c69f07710d05939e00ef21530d783cffde5d9b2d37acaa2062/systembridgebackend-3.8.0.dev9.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/0c/2f/e4269881b1efc361a16100c5e3f8460ebf231ca289cb095b5ba7d0befbf5/systembridgeconnector-3.8.0.dev9.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/89/ae/89eef727af1dd3d408211f030a2e83b52d14162a07d9406e0234668c5ca8/systembridgecli-3.8.0.dev9.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/34/db/8603b6ca893ab5a882e5d84c4459612589f1060c0b9b33af43467d87ef69/systembridgeshared-3.8.0.dev9.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/36/f3/19c7098062820644426fb1b76f2b93a355ff1eb1c6741e392087ab4ee35f/systembridgegui-3.8.0.dev9.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [arduino-exporter]: Downloading https://files.pythonhosted.org/packages/7a/1c/69ff77b060791426d2a45b628ea33eb70267219d2185b21a861072e6beba/arduino_exporter-0.5.3.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/a7/bd/51ec0da5bcd5903b111736968abaaa3d5a5d6f77e9ccb9ece74f6bb92670/systembridgefrontend-3.8.0.dev9.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/f8/3d/48f6ce73d6a6180d0f6f923ce1229918e40d9911473401454d592f621804/systembridgewindowssensors-3.8.0.dev9.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.8.0.dev8.tar.gz tmp/systembridgebackend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgebackend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.8.0.dev8.tar.gz tmp/systembridgeconnector-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeconnector/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [pypiserver]: Downloading https://files.pythonhosted.org/packages/39/6c/8326a02d40f94ae804737411c579095ded567a1eb46d817267ee4157dada/pypiserver-1.5.2.zip
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.8.0.dev8.tar.gz tmp/systembridgegui-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgegui/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.8.0.dev8.tar.gz tmp/systembridgecli-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgecli/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.8.0.dev8.tar.gz tmp/systembridgeshared-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgeshared/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.8.0.dev8.tar.gz tmp/systembridgefrontend-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgefrontend/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [pypiserver]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [pypiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypiserver-1.5.1.zip tmp/pypiserver-1.5.2.zip --markdown 20230730/p/pypiserver/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/7f/5b/489593eb8178f79dc2959a3595824815504d95e353111d93c93497a9625a/plonetheme.barceloneta-3.1.4.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [arduino-exporter]: Downloading https://files.pythonhosted.org/packages/9a/c0/98a7ec85315124a413037bde88e145828e81adfb63ccd0cd1d0fc872ff99/arduino_exporter-0.6.0.tar.gz
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz --markdown 20230730/s/systembridgewindowssensors/3.8.0.dev8-3.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [arduino-exporter]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [arduino-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arduino_exporter-0.5.3.tar.gz tmp/arduino_exporter-0.6.0.tar.gz --markdown 20230730/a/arduino-exporter/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-30 23:37:42] INFO root fetch - processPackages [plonetheme.barceloneta]: executing diffoscope
+[2023-07-30 23:37:42] INFO root fetch - processPackages [plonetheme.barceloneta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.barceloneta-3.1.3.tar.gz tmp/plonetheme.barceloneta-3.1.4.tar.gz --markdown 20230730/p/plonetheme.barceloneta/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-07-30 23:37:43] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev8.tar.gz]
+[2023-07-30 23:37:43] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.8.0.dev9.tar.gz]
+[2023-07-30 23:37:43] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-30 23:37:43] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev8.tar.gz]
+[2023-07-30 23:37:43] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.8.0.dev9.tar.gz]
+[2023-07-30 23:37:43] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-30 23:37:43] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev8.tar.gz]
+[2023-07-30 23:37:43] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.8.0.dev9.tar.gz]
+[2023-07-30 23:37:43] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev8.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.8.0.dev9.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev8.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.8.0.dev9.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-30 23:37:44] INFO root fetch - processPackages [arduino-exporter]: Remove: archive file [/home/abi/fetcher/tmp/arduino_exporter-0.5.3.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - processPackages [arduino-exporter]: Remove: archive file [/home/abi/fetcher/tmp/arduino_exporter-0.6.0.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - main [MainThread]: End processing [arduino-exporter]: success
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev8.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.8.0.dev9.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-30 23:37:44] INFO root fetch - processPackages [pypiserver]: Remove: archive file [/home/abi/fetcher/tmp/pypiserver-1.5.1.zip]
+[2023-07-30 23:37:44] INFO root fetch - processPackages [pypiserver]: Remove: archive file [/home/abi/fetcher/tmp/pypiserver-1.5.2.zip]
+[2023-07-30 23:37:44] INFO root fetch - main [MainThread]: End processing [pypiserver]: success
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev8.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.8.0.dev9.tar.gz]
+[2023-07-30 23:37:44] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-30 23:37:46] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.3.tar.gz]
+[2023-07-30 23:37:46] INFO root fetch - processPackages [plonetheme.barceloneta]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.barceloneta-3.1.4.tar.gz]
+[2023-07-30 23:37:46] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
+[2023-07-30 23:37:46] INFO root fetch - main [MainThread]: Store serial: [19099637]
