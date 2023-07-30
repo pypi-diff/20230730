@@ -13633,3 +13633,42 @@
 [2023-07-30 19:27:28] INFO root fetch - processPackages [pkgcheck]: Remove: archive file [/home/abi/fetcher/tmp/pkgcheck-0.9.7.tar.gz]
 [2023-07-30 19:27:28] INFO root fetch - main [MainThread]: End processing [pkgcheck]: success
 [2023-07-30 19:27:28] INFO root fetch - main [MainThread]: Store serial: [19098028]
+[2023-07-30 19:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098028]
+[2023-07-30 19:32:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 19:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-07-30 19:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kktools
+[2023-07-30 19:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evenity
+[2023-07-30 19:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gymnasium-connect-four
+[2023-07-30 19:32:37] INFO root fetch - processPackages [kktools]: New version: [2.2] Old Version: [2.1]
+[2023-07-30 19:32:37] INFO root fetch - processPackages [evenity]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 19:32:37] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-30 19:32:37] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-30 19:32:37] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/65/5f/09fcc51ec66329aacbe74f1439c80c309b6bc53700d39ae538b46cdd8dcf/gymnasium_connect_four-1.2.5.tar.gz
+[2023-07-30 19:32:37] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-30 19:32:37] INFO root fetch - processPackages [kktools]: Downloading https://files.pythonhosted.org/packages/4e/61/e070e09e1c67117bb99226fdbcd1e75ba452746665faabf19c4ccc17c924/kktools-2.1.tar.gz
+[2023-07-30 19:32:38] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/53/aa/ff5f92a22ed47e0d68715dfc76b022dc7b46721b56a3e79036d5a60b8b6a/evenity-0.0.3.tar.gz
+[2023-07-30 19:32:38] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-30 19:32:38] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/5b/db/c3f45706650fc7a239b4633e40c98833bfb4150aabaaa569bda6296e7ece/gymnasium_connect_four-1.2.6.tar.gz
+[2023-07-30 19:32:38] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-30 19:32:38] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230730/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-30 19:32:38] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/53/55/615d1c47315822209081889487932efef8c0da44916435f8c2e7fb369100/evenity-0.0.4.tar.gz
+[2023-07-30 19:32:38] INFO root fetch - processPackages [kktools]: Downloading https://files.pythonhosted.org/packages/e9/f7/2bbe0f2d104012df3e70e6afd9a2552bcffcfd6522fbb15ca0518d542f64/kktools-2.2.tar.gz
+[2023-07-30 19:32:38] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-30 19:32:38] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.5.tar.gz tmp/gymnasium_connect_four-1.2.6.tar.gz --markdown 20230730/g/gymnasium-connect-four/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-30 19:32:38] INFO root fetch - processPackages [evenity]: executing diffoscope
+[2023-07-30 19:32:38] INFO root fetch - processPackages [evenity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evenity-0.0.3.tar.gz tmp/evenity-0.0.4.tar.gz --markdown 20230730/e/evenity/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 19:32:38] INFO root fetch - processPackages [kktools]: executing diffoscope
+[2023-07-30 19:32:38] INFO root fetch - processPackages [kktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kktools-2.1.tar.gz tmp/kktools-2.2.tar.gz --markdown 20230730/k/kktools/2.1-2.2/diff.md --exclude *.pyd
+[2023-07-30 19:32:39] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-30 19:32:39] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.3.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.4.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - main [MainThread]: End processing [evenity]: success
+[2023-07-30 19:32:39] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.5.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.6.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-30 19:32:39] INFO root fetch - processPackages [kktools]: Remove: archive file [/home/abi/fetcher/tmp/kktools-2.1.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - processPackages [kktools]: Remove: archive file [/home/abi/fetcher/tmp/kktools-2.2.tar.gz]
+[2023-07-30 19:32:39] INFO root fetch - main [MainThread]: End processing [kktools]: success
+[2023-07-30 19:32:39] INFO root fetch - main [MainThread]: Store serial: [19098039]
