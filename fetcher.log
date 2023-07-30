@@ -4239,3 +4239,85 @@
 [2023-07-30 06:23:39] INFO root fetch - main [MainThread]: End processing [poetry-add-requirements-txt]: success
 [2023-07-30 06:23:39] INFO root fetch - main [MainThread]: End processing [poetry-add-requirements-txt]: success
 [2023-07-30 06:23:39] INFO root fetch - main [MainThread]: Store serial: [19093725]
+[2023-07-30 06:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19093725]
+[2023-07-30 06:28:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stadata
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-add-requirements-txt
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmdsky-debug-py
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-aujob
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: get-music-lizhanqi
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syntaxlight
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stable-trunc-gaussian
+[2023-07-30 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-aujob
+[2023-07-30 06:28:47] INFO root fetch - processPackages [stadata]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [7.0.6] Old Version: [7.0.5]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [poetry-add-requirements-txt]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.2.114514] Old Version: [0.1.4]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [stable-trunc-gaussian]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.2.114514] Old Version: [0.1.4]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [get-music-lizhanqi]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.949670142.dev12541] Old Version: [0.2.949261637.dev12538]
+[2023-07-30 06:28:47] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-07-30 06:28:47] INFO root fetch - processPackages [poetry-add-requirements-txt]: Downloading https://files.pythonhosted.org/packages/6f/74/a1eafa6199c6b0e204df13295e6c124e4ad843951b1abc56bc9022743ce1/poetry_add_requirements_txt-1.1.3-py3-none-any.whl
+[2023-07-30 06:28:47] INFO root fetch - processPackages [stadata]: Downloading https://files.pythonhosted.org/packages/eb/f0/8cf0bbb5bcf213e503d53293df2d02e39c376cd831d52015a6eb4389e256/stadata-0.0.3.tar.gz
+[2023-07-30 06:28:47] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/73/61/cc53c56f0a4f277c5c78ec4d399274805bcb03e100a5993032f341ac40b5/nonebot_plugin_aujob-0.1.4.tar.gz
+[2023-07-30 06:28:47] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/73/61/cc53c56f0a4f277c5c78ec4d399274805bcb03e100a5993032f341ac40b5/nonebot_plugin_aujob-0.1.4.tar.gz
+[2023-07-30 06:28:47] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/75/21/2f4a3e36266e621253ace03e055701a548505f961a647741dfaea1cf0322/quickstart-vdk-0.2.949261637.dev12538.tar.gz
+[2023-07-30 06:28:47] INFO root fetch - processPackages [get-music-lizhanqi]: Downloading https://files.pythonhosted.org/packages/92/4d/7f584587056b63a4978cab73379409ce3171d9ea08998733ac9f21665571/get-music-lizhanqi-1.2.8.tar.gz
+[2023-07-30 06:28:47] INFO root fetch - processPackages [stable-trunc-gaussian]: Downloading https://files.pythonhosted.org/packages/23/54/9b0fb5ab4323afff572079da4100c553dbefff3164351ce7b7789464c03f/stable-trunc-gaussian-1.0.1.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/be/37/2dd568f70fdb08414ce41d5f1792cf060cb89cab377104837508de6b6ad1/pmdsky_debug_py-7.0.5-py3-none-any.whl
+[2023-07-30 06:28:48] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [poetry-add-requirements-txt]: Downloading https://files.pythonhosted.org/packages/ad/c2/4164410ba0096caea89a82b4d1e74b98e9b5821c15acc125cae27e82854f/poetry_add_requirements_txt-1.1.4.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [stadata]: Downloading https://files.pythonhosted.org/packages/29/fb/5616144f26c6e0fee43b913cf684932ab426c0a29b62b7322ea58784beb7/stadata-0.1.0.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/09/af/0dfa3a0b54f549b59fec0e720746a15d0b53e0c548c50c576cfbf170cbd9/quickstart-vdk-0.2.949670142.dev12541.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/46/ce/c7df9497a177b0b0697419255c6a12daee17af35ca838d76958e8a049834/nonebot_plugin_aujob-0.2.114514.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [get-music-lizhanqi]: Downloading https://files.pythonhosted.org/packages/7f/2a/d99f9182ab6a50cf39573f43d695b88d9868a35232cf01f6808639fd8a06/get-music-lizhanqi-1.2.9.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/46/ce/c7df9497a177b0b0697419255c6a12daee17af35ca838d76958e8a049834/nonebot_plugin_aujob-0.2.114514.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230730/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [poetry-add-requirements-txt]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [poetry-add-requirements-txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_add_requirements_txt-1.1.3-py3-none-any.whl.zip tmp/poetry_add_requirements_txt-1.1.4.tar.gz --markdown 20230730/p/poetry-add-requirements-txt/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [stadata]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [stadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadata-0.0.3.tar.gz tmp/stadata-0.1.0.tar.gz --markdown 20230730/s/stadata/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.949261637.dev12538.tar.gz tmp/quickstart-vdk-0.2.949670142.dev12541.tar.gz --markdown 20230730/q/quickstart-vdk/0.2.949261637.dev12538-0.2.949670142.dev12541/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.1.4.tar.gz tmp/nonebot_plugin_aujob-0.2.114514.tar.gz --markdown 20230730/n/nonebot-plugin-aujob/0.1.4-0.2.114514/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/43/52/c46d372cedd48e341696b823d264eeb56fa28d6c7bb94eb1959bad4a79c5/pmdsky_debug_py-7.0.6-py3-none-any.whl
+[2023-07-30 06:28:48] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.1.4.tar.gz tmp/nonebot_plugin_aujob-0.2.114514.tar.gz --markdown 20230730/n/nonebot-plugin-aujob/0.1.4-0.2.114514/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [stable-trunc-gaussian]: Downloading https://files.pythonhosted.org/packages/b3/57/8607abb9ab9a1d7a61f6da6dc6dd4c7c84985fee340846edb980b64bc30b/stable-trunc-gaussian-1.1.0.tar.gz
+[2023-07-30 06:28:48] INFO root fetch - processPackages [get-music-lizhanqi]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [get-music-lizhanqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-music-lizhanqi-1.2.8.tar.gz tmp/get-music-lizhanqi-1.2.9.tar.gz --markdown 20230730/g/get-music-lizhanqi/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-7.0.5-py3-none-any.whl.zip tmp/pmdsky_debug_py-7.0.6-py3-none-any.whl.zip --markdown 20230730/p/pmdsky-debug-py/7.0.5-7.0.6/diff.md --exclude *.pyd
+[2023-07-30 06:28:48] INFO root fetch - processPackages [stable-trunc-gaussian]: executing diffoscope
+[2023-07-30 06:28:48] INFO root fetch - processPackages [stable-trunc-gaussian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-trunc-gaussian-1.0.1.tar.gz tmp/stable-trunc-gaussian-1.1.0.tar.gz --markdown 20230730/s/stable-trunc-gaussian/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-30 06:28:49] INFO root fetch - processPackages [poetry-add-requirements-txt]: Remove: archive file [/home/abi/fetcher/tmp/poetry_add_requirements_txt-1.1.3-py3-none-any.whl.zip]
+[2023-07-30 06:28:49] INFO root fetch - processPackages [poetry-add-requirements-txt]: Remove: archive file [/home/abi/fetcher/tmp/poetry_add_requirements_txt-1.1.4.tar.gz]
+[2023-07-30 06:28:49] INFO root fetch - main [MainThread]: End processing [poetry-add-requirements-txt]: success
+[2023-07-30 06:28:50] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-30 06:28:50] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.1.4.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.2.114514.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-30 06:28:50] INFO root fetch - processPackages [stadata]: Remove: archive file [/home/abi/fetcher/tmp/stadata-0.0.3.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - processPackages [stadata]: Remove: archive file [/home/abi/fetcher/tmp/stadata-0.1.0.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - main [MainThread]: End processing [stadata]: success
+[2023-07-30 06:28:50] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.949261637.dev12538.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.949670142.dev12541.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-30 06:28:50] INFO root fetch - processPackages [stable-trunc-gaussian]: Remove: archive file [/home/abi/fetcher/tmp/stable-trunc-gaussian-1.0.1.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - processPackages [stable-trunc-gaussian]: Remove: archive file [/home/abi/fetcher/tmp/stable-trunc-gaussian-1.1.0.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - main [MainThread]: End processing [stable-trunc-gaussian]: success
+[2023-07-30 06:28:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-30 06:28:50] INFO root fetch - processPackages [get-music-lizhanqi]: Remove: archive file [/home/abi/fetcher/tmp/get-music-lizhanqi-1.2.8.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - processPackages [get-music-lizhanqi]: Remove: archive file [/home/abi/fetcher/tmp/get-music-lizhanqi-1.2.9.tar.gz]
+[2023-07-30 06:28:50] INFO root fetch - main [MainThread]: End processing [get-music-lizhanqi]: success
+[2023-07-30 06:28:51] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.5-py3-none-any.whl.zip]
+[2023-07-30 06:28:51] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.6-py3-none-any.whl.zip]
+[2023-07-30 06:28:51] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-07-30 06:28:51] INFO root fetch - main [MainThread]: Store serial: [19093752]
