@@ -9125,3 +9125,42 @@
 [2023-07-30 13:30:42] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.9.tar.gz]
 [2023-07-30 13:30:42] INFO root fetch - main [MainThread]: End processing [balepy]: success
 [2023-07-30 13:30:42] INFO root fetch - main [MainThread]: Store serial: [19095978]
+[2023-07-30 13:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19095978]
+[2023-07-30 13:35:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-30 13:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unidata-blocks
+[2023-07-30 13:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corporate-reputation
+[2023-07-30 13:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zylo
+[2023-07-30 13:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imseqvis
+[2023-07-30 13:35:50] INFO root fetch - processPackages [zylo]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-30 13:35:50] INFO root fetch - processPackages [imseqvis]: New version: [0.2.2] Old Version: [0.1.4]
+[2023-07-30 13:35:50] INFO root fetch - processPackages [corporate-reputation]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-30 13:35:50] INFO root fetch - processPackages [unidata-blocks]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-30 13:35:50] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/d7/7b/8830b86064bab2b8f20897bfb24ae223fb7d85e2ae036b2cd155a15aae51/zylo-2.0.4.tar.gz
+[2023-07-30 13:35:51] INFO root fetch - processPackages [imseqvis]: Downloading https://files.pythonhosted.org/packages/b2/2d/61c6a7872ff9968154bba52ecef9bf3ec047751d12aca97b640a9f7824e9/imseqvis-0.1.4.tar.gz
+[2023-07-30 13:35:51] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/05/f9/90fa20477fb852160483963251190facb9c4912a53750520ed8f783309da/corporate_reputation-0.9.1.tar.gz
+[2023-07-30 13:35:51] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/ca/bd/8346ad5550b25f1bd609f0dab5b363ac594ac501d27430513e99a8624c38/unidata-blocks-0.0.3.tar.gz
+[2023-07-30 13:35:51] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/8c/6d/07b91c760794c80dae38e1847bf1a5054266c31209149f648d6da3d60376/zylo-2.0.5-py3-none-any.whl
+[2023-07-30 13:35:51] INFO root fetch - processPackages [imseqvis]: Downloading https://files.pythonhosted.org/packages/8d/25/8d638325453b12d559f9e197a06c24958c102520b021ac211dfd4a760750/imseqvis-0.2.2.tar.gz
+[2023-07-30 13:35:51] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/7a/a0/9a2009f226fe67dbd11d0681c39128e4c4d96e57b52c6b0505adcf4e491b/corporate_reputation-0.9.2.tar.gz
+[2023-07-30 13:35:51] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-30 13:35:51] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-2.0.4.tar.gz tmp/zylo-2.0.5-py3-none-any.whl.zip --markdown 20230730/z/zylo/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-30 13:35:51] INFO root fetch - processPackages [unidata-blocks]: Downloading https://files.pythonhosted.org/packages/da/4c/a131029127bb38c2c9e8bffad260620e7275a93f6d20c7c0297bafe1eb61/unidata-blocks-0.0.4.tar.gz
+[2023-07-30 13:35:51] INFO root fetch - processPackages [imseqvis]: executing diffoscope
+[2023-07-30 13:35:51] INFO root fetch - processPackages [imseqvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imseqvis-0.1.4.tar.gz tmp/imseqvis-0.2.2.tar.gz --markdown 20230730/i/imseqvis/0.1.4-0.2.2/diff.md --exclude *.pyd
+[2023-07-30 13:35:51] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-07-30 13:35:51] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.9.1.tar.gz tmp/corporate_reputation-0.9.2.tar.gz --markdown 20230730/c/corporate-reputation/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-30 13:35:51] INFO root fetch - processPackages [unidata-blocks]: executing diffoscope
+[2023-07-30 13:35:51] INFO root fetch - processPackages [unidata-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unidata-blocks-0.0.3.tar.gz tmp/unidata-blocks-0.0.4.tar.gz --markdown 20230730/u/unidata-blocks/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-30 13:35:52] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.4.tar.gz]
+[2023-07-30 13:35:52] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.5-py3-none-any.whl.zip]
+[2023-07-30 13:35:52] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-30 13:35:52] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.1.tar.gz]
+[2023-07-30 13:35:52] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.2.tar.gz]
+[2023-07-30 13:35:52] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-07-30 13:35:52] INFO root fetch - processPackages [imseqvis]: Remove: archive file [/home/abi/fetcher/tmp/imseqvis-0.1.4.tar.gz]
+[2023-07-30 13:35:52] INFO root fetch - processPackages [imseqvis]: Remove: archive file [/home/abi/fetcher/tmp/imseqvis-0.2.2.tar.gz]
+[2023-07-30 13:35:52] INFO root fetch - main [MainThread]: End processing [imseqvis]: success
+[2023-07-30 13:35:52] INFO root fetch - processPackages [unidata-blocks]: Remove: archive file [/home/abi/fetcher/tmp/unidata-blocks-0.0.3.tar.gz]
+[2023-07-30 13:35:52] INFO root fetch - processPackages [unidata-blocks]: Remove: archive file [/home/abi/fetcher/tmp/unidata-blocks-0.0.4.tar.gz]
+[2023-07-30 13:35:52] INFO root fetch - main [MainThread]: End processing [unidata-blocks]: success
+[2023-07-30 13:35:52] INFO root fetch - main [MainThread]: Store serial: [19095990]
