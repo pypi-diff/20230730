@@ -14648,3 +14648,91 @@
 [2023-07-30 20:51:01] INFO root fetch - processPackages [oresat-olaf]: Remove: archive file [/home/abi/fetcher/tmp/oresat-olaf-2.2.0.tar.gz]
 [2023-07-30 20:51:01] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
 [2023-07-30 20:51:01] INFO root fetch - main [MainThread]: Store serial: [19098487]
+[2023-07-30 20:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19098487]
+[2023-07-30 20:56:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotel-manage-soumya
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DS2STAC-Ingester
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastq2folder
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmcxcl
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickconf
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpleworkspace
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llamaapi
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptmeteo
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: accim
+[2023-07-30 20:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyConSolv
+[2023-07-30 20:56:10] INFO root fetch - processPackages [fastq2folder]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [hotel-manage-soumya]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [DS2STAC-Ingester]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [promptmeteo]: New version: [0.0.1b2] Old Version: [0.0.1b0]
+[2023-07-30 20:56:10] WARNING root fetch - processPackages [quickconf]: Skipping, unable to determine old version
+[2023-07-30 20:56:10] INFO root fetch - processPackages [quickconf]: Start processing: snitch-protos
+[2023-07-30 20:56:10] INFO root fetch - main [MainThread]: End processing [quickconf] error
+[2023-07-30 20:56:10] INFO root fetch - processPackages [pmcxcl]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [PyConSolv]: New version: [0.9.3.0] Old Version: [0.9.2.3]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [llamaapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [accim]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [promptmeteo]: Downloading https://files.pythonhosted.org/packages/78/71/bbbd8b528a52d17c0345592042597eb41822cfc72e60923f001f99fc7606/promptmeteo-0.0.1b0.tar.gz
+[2023-07-30 20:56:10] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/ab/2e/9cddc295e55f9a2b80affb96a71451f7c99c869cf5ba788927f2a19c2b90/DS2STAC-Ingester-1.0.3.tar.gz
+[2023-07-30 20:56:10] INFO root fetch - processPackages [snitch-protos]: New version: [0.0.54] Old Version: [0.0.53]
+[2023-07-30 20:56:10] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-30 20:56:10] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/41/c4/23d8323e23f9917276ba2825279771bb2f1e7fa6d734c266347f39707957/pmcxcl-0.0.6-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 20:56:10] INFO root fetch - processPackages [PyConSolv]: Downloading https://files.pythonhosted.org/packages/8a/ed/aa461c9a3452ad02b3760ac3fdafb71dc6e37e8cfd0f73865f4f3edc9813/pyconsolv-0.9.2.3.tar.gz
+[2023-07-30 20:56:10] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/2c/3d/5c48111f81e30f16bba5de58704bdf267c20120d68aff8791ba50ad0217d/fastq2folder-1.0.6.tar.gz
+[2023-07-30 20:56:10] INFO root fetch - processPackages [accim]: Downloading https://files.pythonhosted.org/packages/2c/a7/b6309a8a9e8ae308995d3b5943f454d7541c3a58a4b43c97e962181dbf5e/accim-0.7.0.tar.gz
+[2023-07-30 20:56:10] WARNING root fetch - processPackages [PyConSolv]: Skipping package: exceeds size limit 82191455>=10485760
+[2023-07-30 20:56:10] INFO root fetch - main [MainThread]: End processing [PyConSolv] error
+[2023-07-30 20:56:10] INFO root fetch - processPackages [hotel-manage-soumya]: Downloading https://files.pythonhosted.org/packages/b3/4e/2e6fdcc3584f881dd41f988c5abdfeccdcb185e42eecc6656bc70ba63c41/hotel_manage_soumya-0.0.2.tar.gz
+[2023-07-30 20:56:10] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/e2/f9/fefbeff58091f04ba4cd633bef30ea620621ea337d185a7076de2f99d7a5/snitch-protos-0.0.53.tar.gz
+[2023-07-30 20:56:10] WARNING root fetch - processPackages [accim]: Skipping package: exceeds size limit 24156124>=10485760
+[2023-07-30 20:56:10] INFO root fetch - main [MainThread]: End processing [accim] error
+[2023-07-30 20:56:10] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/ac/0c/5b55c9bcaaff3a8b3ab8fd039ffcbf432e1446d4dea4971b8f889a1f16eb/llamaapi-0.1.8.tar.gz
+[2023-07-30 20:56:11] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-30 20:56:11] INFO root fetch - processPackages [DS2STAC-Ingester]: Downloading https://files.pythonhosted.org/packages/54/07/0f9ff730b05d5ac129a82a4ff6623be8dcd5e0b4c2b2d7a4d7e241528cb9/DS2STAC-Ingester-1.0.5.tar.gz
+[2023-07-30 20:56:11] INFO root fetch - processPackages [promptmeteo]: Downloading https://files.pythonhosted.org/packages/8d/43/4e2ba577e79e5b8c2786b7b557e618c1fae6a23fb34af8cd9897b9dab64e/promptmeteo-0.0.1b2.tar.gz
+[2023-07-30 20:56:11] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/31/02/7f2558b7bfe32a5e7d23511d3f1fd63f4a2e3d23abdf02a6810d0e00d324/fastq2folder-1.0.7.tar.gz
+[2023-07-30 20:56:11] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-30 20:56:11] INFO root fetch - processPackages [pmcxcl]: Downloading https://files.pythonhosted.org/packages/a5/5a/53a84907511a1d40bdce9f936331494f8032354712081a23bcee760c0b08/pmcxcl-0.0.7-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-30 20:56:11] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230730/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-30 20:56:11] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/d4/69/ad8a3a535a9433453fd28c78cba90839028683594faad71a0dd66fdbcf4d/snitch-protos-0.0.54.tar.gz
+[2023-07-30 20:56:11] INFO root fetch - processPackages [DS2STAC-Ingester]: executing diffoscope
+[2023-07-30 20:56:11] INFO root fetch - processPackages [DS2STAC-Ingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DS2STAC-Ingester-1.0.3.tar.gz tmp/DS2STAC-Ingester-1.0.5.tar.gz --markdown 20230730/D/DS2STAC-Ingester/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-30 20:56:11] INFO root fetch - processPackages [fastq2folder]: executing diffoscope
+[2023-07-30 20:56:11] INFO root fetch - processPackages [fastq2folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq2folder-1.0.6.tar.gz tmp/fastq2folder-1.0.7.tar.gz --markdown 20230730/f/fastq2folder/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-30 20:56:11] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/dd/a2/b5523b33759374ea05102a2a051d203dbb9fc7747304884c8c262c90a2b2/llamaapi-0.1.9.tar.gz
+[2023-07-30 20:56:11] INFO root fetch - processPackages [promptmeteo]: executing diffoscope
+[2023-07-30 20:56:11] INFO root fetch - processPackages [promptmeteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptmeteo-0.0.1b0.tar.gz tmp/promptmeteo-0.0.1b2.tar.gz --markdown 20230730/p/promptmeteo/0.0.1b0-0.0.1b2/diff.md --exclude *.pyd
+[2023-07-30 20:56:11] INFO root fetch - processPackages [snitch-protos]: executing diffoscope
+[2023-07-30 20:56:11] INFO root fetch - processPackages [snitch-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitch-protos-0.0.53.tar.gz tmp/snitch-protos-0.0.54.tar.gz --markdown 20230730/s/snitch-protos/0.0.53-0.0.54/diff.md --exclude *.pyd
+[2023-07-30 20:56:11] INFO root fetch - processPackages [pmcxcl]: executing diffoscope
+[2023-07-30 20:56:11] INFO root fetch - processPackages [pmcxcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmcxcl-0.0.6-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pmcxcl-0.0.7-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230730/p/pmcxcl/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-30 20:56:11] INFO root fetch - processPackages [hotel-manage-soumya]: Downloading https://files.pythonhosted.org/packages/dc/ce/f029bd0cfe75cf38a9214610130846ae408b68ba6277264afba43709e0ec/hotel_manage_soumya-0.0.3.tar.gz
+[2023-07-30 20:56:11] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-30 20:56:11] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.8.tar.gz tmp/llamaapi-0.1.9.tar.gz --markdown 20230730/l/llamaapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-30 20:56:12] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.6.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.7.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - main [MainThread]: End processing [fastq2folder]: success
+[2023-07-30 20:56:12] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-30 20:56:12] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-30 20:56:12] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-30 20:56:12] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.3.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - processPackages [DS2STAC-Ingester]: Remove: archive file [/home/abi/fetcher/tmp/DS2STAC-Ingester-1.0.5.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.6-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 20:56:12] INFO root fetch - main [MainThread]: End processing [DS2STAC-Ingester]: success
+[2023-07-30 20:56:12] INFO root fetch - processPackages [pmcxcl]: Remove: archive file [/home/abi/fetcher/tmp/pmcxcl-0.0.7-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-30 20:56:12] INFO root fetch - main [MainThread]: End processing [pmcxcl]: success
+[2023-07-30 20:56:12] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.53.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.54.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - main [MainThread]: End processing [snitch-protos]: success
+[2023-07-30 20:56:12] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.8.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.9.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-30 20:56:12] INFO root fetch - processPackages [promptmeteo]: Remove: archive file [/home/abi/fetcher/tmp/promptmeteo-0.0.1b0.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - processPackages [promptmeteo]: Remove: archive file [/home/abi/fetcher/tmp/promptmeteo-0.0.1b2.tar.gz]
+[2023-07-30 20:56:12] INFO root fetch - main [MainThread]: End processing [promptmeteo]: success
+[2023-07-30 20:56:13] INFO root fetch - processPackages [hotel-manage-soumya]: executing diffoscope
+[2023-07-30 20:56:13] INFO root fetch - processPackages [hotel-manage-soumya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230730:/home/abi/fetcher/20230730:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotel_manage_soumya-0.0.2.tar.gz tmp/hotel_manage_soumya-0.0.3.tar.gz --markdown 20230730/h/hotel-manage-soumya/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-30 20:56:25] INFO root fetch - processPackages [hotel-manage-soumya]: Remove: archive file [/home/abi/fetcher/tmp/hotel_manage_soumya-0.0.2.tar.gz]
+[2023-07-30 20:56:25] INFO root fetch - processPackages [hotel-manage-soumya]: Remove: archive file [/home/abi/fetcher/tmp/hotel_manage_soumya-0.0.3.tar.gz]
+[2023-07-30 20:56:25] INFO root fetch - main [MainThread]: End processing [hotel-manage-soumya]: success
+[2023-07-30 20:56:25] INFO root fetch - main [MainThread]: Store serial: [19098548]
